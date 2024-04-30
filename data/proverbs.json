@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "bangla": "যেমন কর্ম তেমন ফল ।",
+        "english": "As you make your bed, so you must lie on it ."
+    },
+    {
+        "id": 2,
+        "bangla": "লোভে পাপ, পাপে মৃত্যু।",
+        "english": "Avarice begets sin and sin begets death."
+    },
+    {
+        "id": 3,
+        "bangla": "মাথা নেই তার মাথা ব্যথা।",
+        "english": "Bachelors’ wives and maids’ children are always well taught."
+    },
+    {
+        "id": 4,
+        "bangla": "যত গর্জে তত বর্ষে না ।",
+        "english": "Barking dogs seldom bite ."
+    },
+    {
+        "id": 5,
+        "bangla": "সোনার চামচ মুখে নিয়ে জন্মান; সচ্ছল পরিবারে জন্মগ্রহন করা।",
+        "english": "Be born with a silver spoon in one’s mouth ."
+    },
+    {
+        "id": 6,
+        "bangla": "জরু, গরু, ধান, তিন রাখে বিদ্যমান।",
+        "english": "Be mindful of your wife, kine and paddy."
+    },
+    {
+        "id": 7,
+        "bangla": "বিয়ে করতে কড়ি, ঘর বাঁধতে দড়ি।",
+        "english": "Be sure before you marry of a house wherein to tarry."
+    },
+    {
+        "id": 8,
+        "bangla": "যার নুন খাও তার গুণ গাও।",
+        "english": "Be true to your salt."
+    },
+    {
+        "id": 9,
+        "bangla": "প্রতিকারের চেয়ে প্রতিরোধ ভালো ।",
+        "english": "An ounce of prevention is worth a pound of cure ."
+    },
+    {
+        "id": 10,
+        "bangla": "অকালে কী না খায়।",
+        "english": "Any food is good enough when there is a famine."
+    }
+]

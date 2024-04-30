@@ -1,0 +1,1967 @@
+[
+  {
+    "category": "a",
+    "phrases": [
+      {
+        "en": "A B.C.",
+        "bn": "প্রাথমিক জিনিস",
+        "example": "He does not know the A. B. C of politics."
+      },
+      {
+        "en": "Above all",
+        "bn": "প্রধানত",
+        "example": "Rabindranath is, above all, a cosmopolitan personality."
+      },
+      {
+        "en": "Above board",
+        "bn": "অকপট",
+        "example": "His dealings are open and above board."
+      },
+      {
+        "en": "A black sheep",
+        "bn": "কুলঙ্গার",
+        "example": "There is a black sheep in our club."
+      },
+      {
+        "en": "A hard nut to crack",
+        "bn": "কঠিন সমস্যা",
+        "example": "The food problem is a hard nut to crack."
+      },
+      {
+        "en": "A great deal of",
+        "bn": "প্রচুর পরিমাণে",
+        "example": "It will bring a great deal of good to our village."
+      },
+      {
+        "en": "A man of letters",
+        "bn": "বিদ্বান ব্যক্তি",
+        "example": "He is a man of letters."
+      },
+      {
+        "en": "A bed of roses",
+        "bn": "ফুলশয্যা",
+        "example": "Life is not a bed of roses."
+      },
+      {
+        "en": "According to",
+        "bn": "অনুসারে",
+        "example": "I shall do this work according to your advice."
+      },
+      {
+        "en": "After all",
+        "bn": "মোটের উপর",
+        "example": "He is, after all, an honest man."
+      },
+      {
+        "en": "All the same",
+        "bn": "একই কথা",
+        "example": "It is all the same whether you go or not."
+      },
+      {
+        "en": "All in all",
+        "bn": "সর্বেসর্বা",
+        "example": "He is all in all in the class."
+      },
+      {
+        "en": "All in",
+        "bn": "পরিশ্রান্ত",
+        "example": "I was all in after the meeting."
+      },
+      {
+        "en": "All at once",
+        "bn": "হঠাৎ",
+        "example": "All at once the crazy man shouted to the top of his voice."
+      },
+      {
+        "en": "All one to",
+        "bn": "একই কথা, কিছু আসে যায় না এমন",
+        "example": "It is all one to me whether he helps me or not."
+      },
+      {
+        "en": "All out",
+        "bn": "সর্বশক্তি প্রয়োগ",
+        "example": "The government has made its all-out efforts to remove illiteracy from the country."
+      },
+      {
+        "en": "All along",
+        "bn": "আগাগোড়া",
+        "example": "I was present there all along."
+      },
+      {
+        "en": "All over",
+        "bn": "সর্বত্র",
+        "example": "The dog is found all over the world."
+      },
+      {
+        "en": "All over with",
+        "bn": "সর্বস্বান্ত",
+        "example": "It is all over with the old man."
+      },
+      {
+        "en": "All but",
+        "bn": "প্রায়",
+        "example": "The work is all but finished."
+      },
+      {
+        "en": "All on (of) a sudden",
+        "bn": "হঠাৎ",
+        "example": "All on (of) a sudden, he went to Bogra."
+      },
+      {
+        "en": "All the while",
+        "bn": "সর্বক্ষণ",
+        "example": "the while he was with me."
+      },
+      {
+        "en": "Apple of discord",
+        "bn": "বিবাদের বিষয়",
+        "example": "The plot of the land is the apple of discord between the two brothers."
+      },
+      {
+        "en": "As it were",
+        "bn": "যেন",
+        "example": "The moon is, as it were, a dish of gold."
+      },
+      {
+        "en": "As usual",
+        "bn": "যথারীতি",
+        "example": "He arrived at school at 8 a.m as usual."
+      },
+      {
+        "en": "As a rule",
+        "bn": "নিয়ম অনুসারে",
+        "example": "As a rule, she kept silent in the meeting."
+      },
+      {
+        "en": "As if",
+        "bn": "যেন",
+        "example": "He behaves as if he were the owner of the house."
+      },
+      {
+        "en": "As though",
+        "bn": "যেন",
+        "example": "He behave as though he were the owner of the house."
+      },
+      {
+        "en": "As for",
+        "bn": "সম্বন্ধে",
+        "example": "As for myself, I am innocent."
+      },
+      {
+        "en": "As to",
+        "bn": "বিষয়ে",
+        "example": "We decided as to where to go for a walk."
+      },
+      {
+        "en": "As regards",
+        "bn": "সম্বন্ধে",
+        "example": "He knows nothing as regards this occurrence."
+      },
+      {
+        "en": "At a stretch",
+        "bn": "একটানা",
+        "example": "I can walk five miles at a stretch."
+      },
+      {
+        "en": "At all",
+        "bn": "আদৌ",
+        "example": "I do not like him at all."
+      },
+      {
+        "en": "At large",
+        "bn": "স্বাধীনভাবে",
+        "example": "Birds fly at large in the sky."
+      },
+      {
+        "en": "At sixes and sevens",
+        "bn": "এলোমেলোভাবে",
+        "example": "The books were at sixes and sevens on the table."
+      },
+      {
+        "en": "At times",
+        "bn": "মাঝে মাঝে",
+        "example": "He at times comes here."
+      },
+      {
+        "en": "At the eleventh hour",
+        "bn": "শেষ সময়ে",
+        "example": "He reached the station at the eleventh hour."
+      },
+      {
+        "en": "At daggers drawn",
+        "bn": "শত্রুভাবাপন্ন",
+        "example": "The two brothers are at daggers drawn with each other."
+      },
+      {
+        "en": "At all events",
+        "bn": "যাহাই হোক না কেন",
+        "example": "He will stand by me at all events."
+      },
+      {
+        "en": "At any cost",
+        "bn": "যে কোন প্রকারে",
+        "example": "He must help me at any cost."
+      },
+      {
+        "en": "At dead of night",
+        "bn": "গভীর রাতে",
+        "example": "The boy came home at dead of night."
+      },
+      {
+        "en": "At ease",
+        "bn": "শান্তিতে বা আরামে",
+        "example": "A man who has enemies cannot live at ease."
+      },
+      {
+        "en": "At one’s wit’s end",
+        "bn": "হতবুদ্ধি",
+        "example": "I am at my wit’s end what to do."
+      },
+      {
+        "en": "At every step",
+        "bn": "প্রতি পদক্ষেপে",
+        "example": "He disturbed me at every Step."
+      },
+      {
+        "en": "At length",
+        "bn": "দীর্ঘদিন পরে",
+        "example": "At length, he did the work."
+      },
+      {
+        "en": "At last",
+        "bn": "অবশেষে",
+        "example": "He tried hard, and at last succeeded in achieving his goal."
+      },
+      {
+        "en": "At least",
+        "bn": "কমপক্ষে",
+        "example": "He is the owner of thirty lakh rupees at least."
+      },
+      {
+        "en": "At best",
+        "bn": "বেশীর পক্ষে",
+        "example": "I can give you ten takes at best."
+      },
+      {
+        "en": "At the point of",
+        "bn": "পর্যায়ে",
+        "example": "He is at the point of death."
+      },
+      {
+        "en": "At home in",
+        "bn": "দক্ষ",
+        "example": "He is at home in Algebra."
+      },
+      {
+        "en": "At all costs",
+        "bn": "যতই ক্ষতি হউক না কেন",
+        "example": "I shall help you at all costs."
+      },
+      {
+        "en": "Above all",
+        "bn": "মোটের ওপর",
+        "example": "He is, above all, a poet."
+      },
+      {
+        "en": "An open secret",
+        "bn": "উন্মুক্ত রহস্য",
+        "example": "He is addicted to drinking is an open secret."
+      },
+      {
+        "en": "Again and again",
+        "bn": "বার বার",
+        "example": "He warned me again and again."
+      },
+      {
+        "en": "Arm in arm",
+        "bn": "অভিসন্ধি ও সম্পাদনা",
+        "example": "We have no art and part in his affairs."
+      }
+    ]
+  },
+  {
+    "category": "b",
+    "phrases": [
+      {
+        "en": "Bag and baggage",
+        "bn": "তল্পিতল্পাসহ",
+        "example": "He left the hostel bag and baggage."
+      },
+      {
+        "en": "Bad blood",
+        "bn": "শ্ত্রুতা",
+        "example": "There should be no bad blood between neighbors."
+      },
+      {
+        "en": "Bad book",
+        "bn": "খারাপ নজর",
+        "example": "The secretary has fallen in the bad book of the manager."
+      },
+      {
+        "en": "Bad names",
+        "bn": "গালমন্দ",
+        "example": "He called the man bad names."
+      },
+      {
+        "en": "Bear away the bell",
+        "bn": "সর্বপ্রথম হওয়া",
+        "example": "Will she be able to bear away the bell?"
+      },
+      {
+        "en": "Bear fruit",
+        "bn": "ফলপ্রসু হওয়া",
+        "example": "Your request will not bear fruit in this case."
+      },
+      {
+        "en": "Beck and call",
+        "bn": "অনুগত",
+        "example": "the servant is always at his master’s beck and call."
+      },
+      {
+        "en": "Before long",
+        "bn": "শ্রীঘ্রই, অচিরেই",
+        "example": "His business will flop down before long because he is not a good manager."
+      },
+      {
+        "en": "Bee-line",
+        "bn": "সোজাপথ",
+        "example": "Our school is one mile away from here on the bee line."
+      },
+      {
+        "en": "Beside the mark",
+        "bn": "অপ্রাসঙ্গিক",
+        "example": "What he has written is beside the mark."
+      },
+      {
+        "en": "Between two fires",
+        "bn": "উভয় সংকট",
+        "example": "Now the old man is between two fires."
+      },
+      {
+        "en": "Black and blue",
+        "bn": "বেদম প্রহার",
+        "example": "He beat the dog black and blue."
+      },
+      {
+        "en": "Black and white",
+        "bn": "লিখিতভাবে",
+        "example": "She put her address in black in white and gave it to me."
+      },
+      {
+        "en": "Bid fair",
+        "bn": "দেখে মনে আশা জাগা",
+        "example": "The girl bids fair to be a great artist in the future."
+      },
+      {
+        "en": "Body and soul",
+        "bn": "পুরোপুরি",
+        "example": "She gave herself body and soul to the pursuit of name and fame."
+      },
+      {
+        "en": "Bosom friend",
+        "bn": "ঘনিষ্ঠ বন্ধু",
+        "example": "Keats was Shelley’s bosom friend."
+      },
+      {
+        "en": "Brown study",
+        "bn": "দিবাস্বপ্ন",
+        "example": "The women is absorbed in brown study."
+      },
+      {
+        "en": "Burning question",
+        "bn": "জরুরী সমস্যা",
+        "example": "Housing is a burning question facing our country."
+      },
+      {
+        "en": "Big bug",
+        "bn": "গুরুত্বপূর্ণ",
+        "example": "The chairman is a big bug of the union council."
+      },
+      {
+        "en": "Beggar’s description",
+        "bn": "অবর্ননীয়",
+        "example": "The misery of the people beggar’s description."
+      },
+      {
+        "en": "Beyond question",
+        "bn": "সন্দেহাতীত",
+        "example": "His honesty is beyond question."
+      },
+      {
+        "en": "By dint of/ By virtue of",
+        "bn": "বলে",
+        "example": "He stood first by virtue of his merit."
+      },
+      {
+        "en": "By fits and starts",
+        "bn": "অনিয়মিতভাবে",
+        "example": "He reads by fits and starts."
+      },
+      {
+        "en": "By leaps and bounds",
+        "bn": "দ্রুত গতিতে",
+        "example": "The price of rice is going up by leaps and bounds."
+      },
+      {
+        "en": "By and by",
+        "bn": "শীঘ্রই",
+        "example": "He will go there by and by."
+      },
+      {
+        "en": "By dint of",
+        "bn": "বলে বা দৌলতে",
+        "example": "He succeeded by dint of hard labor."
+      },
+      {
+        "en": "By far",
+        "bn": "সর্বদিক থেকে",
+        "example": "He is by far the best man in the area."
+      },
+      {
+        "en": "By the by",
+        "bn": "কথা প্রসঙ্গে",
+        "example": "By the by he told me a story."
+      },
+      {
+        "en": "By turns",
+        "bn": "পর্যায়ক্রমে",
+        "example": "The two brothers worked by turns."
+      },
+      {
+        "en": "By way of",
+        "bn": "প্রসঙ্গে",
+        "example": "He told me the story by way of an example."
+      },
+      {
+        "en": "By all means",
+        "bn": "অবশ্যই",
+        "example": "You should, by all means, help me."
+      },
+      {
+        "en": "By no means",
+        "bn": "কোন প্রকারেই না",
+        "example": "You should by no means waste your time."
+      },
+      {
+        "en": "By any means",
+        "bn": "যে কোন প্রকারে",
+        "example": "I shall help you by any means."
+      },
+      {
+        "en": "By hook or by crook",
+        "bn": "যে কোন প্রকারে হউক",
+        "example": "I will go abroad by hook or by crook."
+      },
+      {
+        "en": "By chance",
+        "bn": "হঠাৎ",
+        "example": "By chance, he met me on the way."
+      },
+      {
+        "en": "By means of",
+        "bn": "উপায়ে",
+        "example": "He came to power by means of treachery."
+      },
+      {
+        "en": "Bolt from the blue",
+        "bn": "বিনামেঘে বজ্রপাত",
+        "example": "The news of my mother’s death came to me like a bolt from the blue."
+      },
+      {
+        "en": "Blue blood",
+        "bn": "অভিজাত্য",
+        "example": "The man is proud of his blue blood."
+      },
+      {
+        "en": "Bring to light",
+        "bn": "প্রকাশ করা",
+        "example": "Do not bring the secret to light."
+      },
+      {
+        "en": "Break down",
+        "bn": "নষ্ট হওয়া",
+        "example": "His health has been broken down."
+      },
+      {
+        "en": "Burst out",
+        "bn": "ফাটিয়া পড়া",
+        "example": "She burst out in anger."
+      }
+    ]
+  },
+  {
+    "category": "c",
+    "phrases": [
+      {
+        "en": "Carry the day",
+        "bn": "জয়ী হওয়া",
+        "example": "Hurrah! Our team has carried the day."
+      },
+      {
+        "en": "Caught red-handed",
+        "bn": "হাতে নাতে ধৃত",
+        "example": "The thief was caught red-handed."
+      },
+      {
+        "en": "Crocodile tears",
+        "bn": "মায়াকান্না",
+        "example": "The women shed crocodile tears."
+      },
+      {
+        "en": "Crying need",
+        "bn": "জরুরী প্রয়োজন",
+        "example": "Education is the crying need of a country."
+      },
+      {
+        "en": "Come in",
+        "bn": "ভিতরে আসা",
+        "example": "May I come in. Sir?"
+      },
+      {
+        "en": "Cold water",
+        "bn": "নিরুৎসাহ",
+        "example": "Help them if you are able, but do not throw cold water on their plan."
+      },
+      {
+        "en": "Cock sure",
+        "bn": "আস্থাশীল",
+        "example": "He is cock sure that the business will be lucrative."
+      },
+      {
+        "en": "Come out",
+        "bn": "প্রকাশিত করা",
+        "example": "The book will come out very soon."
+      },
+      {
+        "en": "Come to nothing",
+        "bn": "নিষ্ফল হওয়া",
+        "example": "At last, their attempts came to nothing."
+      },
+      {
+        "en": "Come true",
+        "bn": "সত্য ফল, সফল হওয়া",
+        "example": "His hope has come true."
+      },
+      {
+        "en": "Come into fashion",
+        "bn": "প্রচলিত হওয়া",
+        "example": "Minu print sarees have come into fashion now a day."
+      },
+      {
+        "en": "Cast out",
+        "bn": "বিতাড়িত করা",
+        "example": "He has been cast out from our society."
+      },
+      {
+        "en": "Cast down",
+        "bn": "অবনত",
+        "example": "Nobody should be cast down by misfortune."
+      },
+      {
+        "en": "Call in question",
+        "bn": "সন্দেহ করা",
+        "example": "None should call in question the honesty of my sister."
+      },
+      {
+        "en": "Cats and dogs",
+        "bn": "মুষলধারে",
+        "example": "It is raining cats and dogs."
+      },
+      {
+        "en": "Cock and bull story",
+        "bn": "গাঁজাখুরি গল্প",
+        "example": "I do not believe such a cock and bull story."
+      },
+      {
+        "en": "Catch a tartar",
+        "bn": "শক্ত লোকের পাল্লায় পড়া",
+        "example": "He caught a tartar in him."
+      },
+      {
+        "en": "Cut a dash",
+        "bn": "ভান করা",
+        "example": "Why do you cut a dash of being what you are not?"
+      },
+      {
+        "en": "Cut short",
+        "bn": "সংক্ষিপ্ত করা",
+        "example": "His life was cut short by a heart attack."
+      },
+      {
+        "en": "Cut loose",
+        "bn": "বিচ্ছিন্ন করা",
+        "example": "He cut the package loose and showed us the articles contained in it."
+      },
+      {
+        "en": "Cut up rough",
+        "bn": "মনঃক্ষুন্ন হওয়া, মারামারি করতে উদ্যত হওয়া",
+        "example": "At this works, he cut up rough."
+      }
+    ]
+  },
+  {
+    "category": "d",
+    "phrases": [
+      {
+        "en": "Day dream",
+        "bn": "আকাশ কুসুম কল্পনা",
+        "example": "Many young boys and girls waste their time in day dreams."
+      },
+      {
+        "en": "Dilly dally",
+        "bn": "গড়িমসি করা",
+        "example": "Do not dilly dally and start the work right now."
+      },
+      {
+        "en": "Do away with",
+        "bn": "উঠাইয়া দেওয়া",
+        "example": "Do away with your bad habits."
+      },
+      {
+        "en": "Do without",
+        "bn": "ব্যতিরেকে চলা",
+        "example": "I cannot do without him."
+      },
+      {
+        "en": "Downfall",
+        "bn": "পতন",
+        "example": "His downfall is due to his own fault."
+      },
+      {
+        "en": "Downcast",
+        "bn": "বিষণ্ন",
+        "example": "He looked at me with downcast eyes."
+      },
+      {
+        "en": "Dead against",
+        "bn": "ঘোর বিরোধী",
+        "example": "Shanta is dead against of smoking."
+      },
+      {
+        "en": "Dead language",
+        "bn": "অপ্রচলিত ভাষা",
+        "example": "Sanskrit is a dead language."
+      },
+      {
+        "en": "Double game",
+        "bn": "কপটতা",
+        "example": "It is very bad to play a double game."
+      },
+      {
+        "en": "Ducks and drakes",
+        "bn": "অপচয়",
+        "example": "Do not play ducks and drakes with your money if you want not to suffer in future."
+      }
+    ]
+  },
+  {
+    "category": "e",
+    "phrases": [
+      {
+        "en": "Eat humble pie",
+        "bn": "অপমান হজম করে ক্ষমা চাওয়া",
+        "example": "The manager had to eat humble pie before his employees."
+      },
+      {
+        "en": "Ever and anon",
+        "bn": "প্রায়ই",
+        "example": "He comes here ever and anon."
+      },
+      {
+        "en": "Every now and then",
+        "bn": "প্রায়ই",
+        "example": "He writes me every now and then."
+      },
+      {
+        "en": "Easy and free",
+        "bn": "অমায়িক",
+        "example": "The girl is easy and free, and so she has many friends."
+      },
+      {
+        "en": "Escape from",
+        "bn": "মুক্তি",
+        "example": "Nobody will escape from death."
+      },
+      {
+        "en": "Eligible for",
+        "bn": "যোগ্য",
+        "example": "He is eligible for the post."
+      }
+    ]
+  },
+  {
+    "category": "f",
+    "phrases": [
+      {
+        "en": "Fair play",
+        "bn": "প্রতারণাবিহীন কাজ",
+        "example": "I believe in the practice of fair play in my business."
+      },
+      {
+        "en": "Flesh and blood",
+        "bn": "রক্তমাংসের শরীর",
+        "example": "No flesh and blood can endure such an insult."
+      },
+      {
+        "en": "Fall a victim to",
+        "bn": "শিকারে পরিণত হওয়া",
+        "example": "He fell a victim to his own folly."
+      },
+      {
+        "en": "Fall down",
+        "bn": "পড়িয়া যাওয়া",
+        "example": "The boys fell down from the roof."
+      },
+      {
+        "en": "Fond of",
+        "bn": "অনুরাগী",
+        "example": "I am fond of sweets."
+      },
+      {
+        "en": "Follow the footsteps of",
+        "bn": "পায়ে পায়ে অনুসরণ করা",
+        "example": "People always follow the footsteps of some great men."
+      },
+      {
+        "en": "For good, For ever",
+        "bn": "চিরতরে",
+        "example": "Mira left the country for good."
+      },
+      {
+        "en": "Few and far between",
+        "bn": "কদাচিত",
+        "example": "He comes here few and far between."
+      },
+      {
+        "en": "Fair and square",
+        "bn": "ঠিক",
+        "example": "We should be fair and square in our dealings."
+      },
+      {
+        "en": "For the sake of",
+        "bn": "জন্য",
+        "example": "I shall do it for the sake of prestige."
+      },
+      {
+        "en": "Foul play",
+        "bn": "অসদাচরণ",
+        "example": "Be honest, do not indulge in foul play."
+      },
+      {
+        "en": "Face to face",
+        "bn": "মুখোমুখি",
+        "example": "The two boys stood face to face."
+      },
+      {
+        "en": "Fall flat",
+        "bn": "নিস্ফল হওয়া",
+        "example": "His advice fell flat on his brother."
+      },
+      {
+        "en": "Far and near / Far and wide",
+        "bn": "সর্বত্র",
+        "example": "His fame spread far and near / wide."
+      },
+      {
+        "en": "Fight shy of",
+        "bn": "এড়াইয়া যাওয়া",
+        "example": "Why do you fight shy of me?"
+      },
+      {
+        "en": "Find fault with",
+        "bn": "দোষ ধরা",
+        "example": "You have to correct yourself before finding fault with others."
+      },
+      {
+        "en": "Fish out of water",
+        "bn": "অস্বস্তিকর অবস্থা",
+        "example": "I feel like a fish out of water in any new place."
+      },
+      {
+        "en": "Fish to fly",
+        "bn": "এড়াইয়া যাওয়া",
+        "example": "Hurry up, I have other fish to fly."
+      },
+      {
+        "en": "For nothing",
+        "bn": "মিছামিছি",
+        "example": "He scolds me for nothing."
+      },
+      {
+        "en": "For the time being",
+        "bn": "আপাতত",
+        "example": "He is out of employment for the time being."
+      },
+      {
+        "en": "From top to bottom",
+        "bn": "পুরোপুরি",
+        "example": "I read the book from top to bottom."
+      },
+      {
+        "en": "From door to door",
+        "bn": "দ্বারেদ্বারে",
+        "example": "The blind boy is begging from door to door."
+      },
+      {
+        "en": "From bad to worse",
+        "bn": "ক্রমেই খারাপ হওয়া",
+        "example": "His condition is getting from bad to worse."
+      },
+      {
+        "en": "From time to time",
+        "bn": "মাঝে মাঝে",
+        "example": "The man comes here from time to time."
+      },
+      {
+        "en": "From hand to mouth",
+        "bn": "দিনে এনে দিনে খাওয়া",
+        "example": "Many poor people of our country live from hand to mouth."
+      }
+    ]
+  },
+  {
+    "category": "g",
+    "phrases": [
+      {
+        "en": "Go in for",
+        "bn": "পরীক্ষা দেওয়া",
+        "example": "Benu will go in for the S.S.C. Examination."
+      },
+      {
+        "en": "Gall and wormwood",
+        "bn": "তিক্ততা, ঝাঁঝলতা",
+        "example": "The woman's words are just gall and wormwood to people."
+      },
+      {
+        "en": "Give away",
+        "bn": "দান",
+        "example": "He gave away the prizes among the students."
+      },
+      {
+        "en": "Give up the ghost",
+        "bn": "মরে যাওয়া",
+        "example": "The patient gave up the ghost in the hospital."
+      },
+      {
+        "en": "Give ear",
+        "bn": "আগ্র নিয়ে শোনা",
+        "example": "Give ear to what your teachers say in class."
+      },
+      {
+        "en": "Give vent to",
+        "bn": "মুক্ত হওয়া",
+        "example": "It is very difficult to get rid of hard friends."
+      },
+      {
+        "en": "Good at",
+        "bn": "দক্ষ",
+        "example": "He is good at English!"
+      },
+      {
+        "en": "Golden opinion",
+        "bn": "উচ্চ ধারনা",
+        "example": "We have a golden opinion about our leader."
+      },
+      {
+        "en": "Get by heart",
+        "bn": "মুখস্ত করা",
+        "example": "I got the poem by heart."
+      },
+      {
+        "en": "Give the airs of",
+        "bn": "ভান করা",
+        "example": "He is the son of a poor farmer whereas, he gives the airs of a rich man."
+      },
+      {
+        "en": "Get into good graces",
+        "bn": "বন্ধুত্ব লাভ করা",
+        "example": "The employee tried hard to get into the good graces of the manager."
+      },
+      {
+        "en": "Get rid of",
+        "bn": "মুক্তি পাওয়া",
+        "example": "You should get rid of your bad habit."
+      },
+      {
+        "en": "Go to rack and ruin",
+        "bn": "পুরোপুরি ধ্বংস হওয়া",
+        "example": "If the policy of the government is not effective, the economy of the country may go to rack and ruin."
+      },
+      {
+        "en": "Go astray",
+        "bn": "বিপথে যাওয়া",
+        "example": "Take care of the boy that he may not go astray."
+      },
+      {
+        "en": "Go through",
+        "bn": "পড়া",
+        "example": "I have gone through the book."
+      },
+      {
+        "en": "Give up",
+        "bn": "পরিত্যাগ করা",
+        "example": "Give up your bad habits."
+      }
+    ]
+  },
+  {
+    "category": "h",
+    "phrases": [
+      {
+        "en": "Hard up",
+        "bn": "অভাবগ্রস্ত",
+        "example": "I am hard up now."
+      },
+      {
+        "en": "Hard and fast",
+        "bn": "ধরা বাঁধা",
+        "example": "There is no hard and fast rule in this matter."
+      },
+      {
+        "en": "Hang heavy",
+        "bn": "বোঝার মত মনে হওয়া",
+        "example": "Time hangs heavy when one waits for one’s beloved."
+      },
+      {
+        "en": "Hold one’s tongue",
+        "bn": "চুপ করে থাকা",
+        "example": "He is very flippant and cannot hold his tongue for a while."
+      },
+      {
+        "en": "Hand in glove",
+        "bn": "ঘনিষ্ঠ",
+        "example": "The secretary is hand in glove with the Prime Minister."
+      },
+      {
+        "en": "Hall mark",
+        "bn": "বিশুদ্ধির চিহ্ন",
+        "example": "His conduct is the hall mark of his honesty."
+      },
+      {
+        "en": "Heart and soul",
+        "bn": "প্রাণপণে",
+        "example": "He tried heart and soul to pass the examination."
+      },
+      {
+        "en": "Hold good",
+        "bn": "খাটা",
+        "example": "The rule does not hold good here."
+      },
+      {
+        "en": "Hand to hand",
+        "bn": "হাতাহাতি",
+        "example": "The two boys fought hand to hand."
+      },
+      {
+        "en": "Head and ears",
+        "bn": "সম্পূর্ণভাবে",
+        "example": "I am now head and ears in debt."
+      },
+      {
+        "en": "Head and heart",
+        "bn": "বুদ্ধিতে ও হৃদয়ে",
+        "example": "Vivekananda was head and heart the greatest man of this world."
+      },
+      {
+        "en": "Hey day",
+        "bn": "বয়সকাল",
+        "example": "He amassed much wealth in his hey day and now he is happy in this old age."
+      },
+      {
+        "en": "Hold with",
+        "bn": "একমত হওয়া",
+        "example": "I could not hold with him on this point."
+      },
+      {
+        "en": "Hole and corner",
+        "bn": "লুকোচুরি",
+        "example": "Nobody likes your hole and corner policy."
+      },
+      {
+        "en": "Hard and fast",
+        "bn": "ধরাবাধা",
+        "example": "There is the hard and fast rule in Algebra."
+      },
+      {
+        "en": "Hard by",
+        "bn": "সন্নিকটে",
+        "example": "The market is hard by our house."
+      },
+      {
+        "en": "High time",
+        "bn": "উপযুক্ত সময়",
+        "example": "It is high time to sow the seeds."
+      },
+      {
+        "en": "High and low",
+        "bn": "ছোট বড় সবাই",
+        "example": "All men, high and low, attended the public meeting."
+      },
+      {
+        "en": "Hue and cry",
+        "bn": "চীৎকার করা",
+        "example": "They raised a hue and cry when the robbers came."
+      }
+    ]
+  },
+  {
+    "category": "i",
+    "phrases": [
+      {
+        "en": "In case",
+        "bn": "যদি",
+        "example": "Keep this umbrella with you in case there will be rain."
+      },
+      {
+        "en": "In the long run",
+        "bn": "পরিমাণে",
+        "example": "Virtue wins in the long run."
+      },
+      {
+        "en": "In spite of",
+        "bn": "সত্ত্বেও",
+        "example": "In spite of hard labour, he could not pass in the exam."
+      },
+      {
+        "en": "In black and white",
+        "bn": "লিখিতভাবে",
+        "example": "Give your statement in black and white."
+      },
+      {
+        "en": "In lieu of",
+        "bn": "পরিবর্তে",
+        "example": "Bulbul took Civics in lieu of Urdu."
+      },
+      {
+        "en": "In as much as",
+        "bn": "যেহেতু",
+        "example": "In as much as the book was of no value to him, he sold it out."
+      },
+      {
+        "en": "In the nick of time",
+        "bn": "ঠিক সময়",
+        "example": "He reached the station in the nick of time."
+      },
+      {
+        "en": "In keeping with",
+        "bn": "সামঞ্জস্য রাখিয়া",
+        "example": "you should spend in keeping with your income."
+      },
+      {
+        "en": "In no time",
+        "bn": "শীঘ্রই",
+        "example": "He will come here in no time."
+      },
+      {
+        "en": "In front of",
+        "bn": "সামনে",
+        "example": "There is a school in front of the hospital."
+      },
+      {
+        "en": "In the hope of",
+        "bn": "আশায়",
+        "example": "Man works in the hope of success."
+      },
+      {
+        "en": "In the teeth of",
+        "bn": "বিরুদ্ধে",
+        "example": "Don’t lose heart in the teeth of opposition."
+      },
+      {
+        "en": "In full swing",
+        "bn": "পুরাদমে",
+        "example": "The project is running in full swing."
+      },
+      {
+        "en": "In the guise of",
+        "bn": "ছদ্মবেশে",
+        "example": "He came here in the guise of a saint."
+      },
+      {
+        "en": "In the cart",
+        "bn": "হতবুদ্ধি",
+        "example": "I was in the cart when I met my enemy on my way to home."
+      },
+      {
+        "en": "In cold blood",
+        "bn": "বিনা উত্তেজনায়",
+        "example": "He killed the boy in cold blood."
+      },
+      {
+        "en": "In quest of",
+        "bn": "অনুসন্ধানে",
+        "example": "The police came in quest of dacoits."
+      },
+      {
+        "en": "In favour of",
+        "bn": "অনুকূলে",
+        "example": "The wind is in favour of him."
+      },
+      {
+        "en": "Ins and outs",
+        "bn": "খুটিনাটি",
+        "example": "I know ins and outs of the matter."
+      },
+      {
+        "en": "In a nutshell",
+        "bn": "সংক্ষেপে",
+        "example": "Tell me the story in a nutshell."
+      },
+      {
+        "en": "In the wake of",
+        "bn": "পশ্চাতে",
+        "example": "Famine comes in the wake of flood."
+      },
+      {
+        "en": "In vogue",
+        "bn": "প্রচলিত",
+        "example": "This fashion is now In vague."
+      },
+      {
+        "en": "In a fix",
+        "bn": "সমস্যা",
+        "example": "I am now in a fix."
+      },
+      {
+        "en": "In order to",
+        "bn": "উদ্দেশ্য",
+        "example": "He went there in order to buy a book."
+      },
+      {
+        "en": "In point of",
+        "bn": "সমন্ধে",
+        "example": "He is junior to me in point of age."
+      },
+      {
+        "en": "In accordance with",
+        "bn": "অনুসারে",
+        "example": "We acted in accordance with his advice."
+      },
+      {
+        "en": "In a body",
+        "bn": "একযোগে",
+        "example": "They went to him in a body."
+      },
+      {
+        "en": "In case of",
+        "bn": "যদি",
+        "example": "In case of your failure what will you do?"
+      },
+      {
+        "en": "Instead of",
+        "bn": "পরিবর্তে",
+        "example": "He took rice instead of curry."
+      },
+      {
+        "en": "In good faith",
+        "bn": "সরল বিশ্বাসে",
+        "example": "I signed the deed in good faith."
+      },
+      {
+        "en": "In a word",
+        "bn": "সংক্ষেপে",
+        "example": "He told the story in a word to all present."
+      },
+      {
+        "en": "In search of",
+        "bn": "সন্ধানে",
+        "example": "He went there in search of a light."
+      },
+      {
+        "en": "In the least",
+        "bn": "মোটেও",
+        "example": "She was not in the least hungry."
+      },
+      {
+        "en": "In respect of",
+        "bn": "বিষয়ে",
+        "example": "He is junior to me in respect of age."
+      },
+      {
+        "en": "In view of",
+        "bn": "বিবেচনা করিয়া",
+        "example": "in view of his merit (মেধা) he has been"
+      },
+      {
+        "en": "In honour of",
+        "bn": "সম্মানে",
+        "example": "A party was given in honour of the guest."
+      },
+      {
+        "en": "In the eye of",
+        "bn": "অনুসারে",
+        "example": "All men are equal in the eye of law."
+      },
+      {
+        "en": "In disguise",
+        "bn": "ছদ্মবেশে",
+        "example": "He went there in disguise."
+      },
+      {
+        "en": "In season and out of season",
+        "bn": "সময়ে অসময়ে ",
+        "example": "He bothers ( বিরক্ত করা) me in season and out of season."
+      },
+      {
+        "en": "In vain",
+        "bn": "বৃথা",
+        "example": "He tried but in vain."
+      },
+      {
+        "en": "In short",
+        "bn": "সংক্ষেপে",
+        "example": "Tell me the story in short."
+      }
+    ]
+  },
+  {
+    "category": "j",
+    "phrases": [
+      {
+        "en": "Jog trot",
+        "bn": "একঘেয়ে, মন্দগতি",
+        "example": "They are advancing in a jog-trot with their business."
+      },
+      {
+        "en": "Jack of all trades",
+        "bn": "সবজান্তা",
+        "example": "He is the jack of all trades but master of none."
+      },
+      {
+        "en": "Jump at an offer",
+        "bn": "সাগ্রহে গ্রহণ করা",
+        "example": "The lady secretary jumped at the post of the marketing manager."
+      }
+    ]
+  },
+  {
+    "category": "k",
+    "phrases": [
+      {
+        "en": "Kith and kin",
+        "bn": "আত্মীয় -স্বজন",
+        "example": "All his kith and kin left him."
+      },
+      {
+        "en": "Keep up with",
+        "bn": "চালিয়ে যাওয়া",
+        "example": "Try to keep up with the progress of the class."
+      },
+      {
+        "en": "Know no bounds",
+        "bn": "অসীম",
+        "example": "The kindness of the boy knew no bounds."
+      },
+      {
+        "en": "Key stone",
+        "bn": "মূলনীতি",
+        "example": "Equality for all is the key stone of the democratic system of our country."
+      },
+      {
+        "en": "Knocking at the door",
+        "bn": "খুব নিকটে",
+        "example": "Our examination is knocking at the door."
+      },
+      {
+        "en": "Kiss the dust",
+        "bn": "নিহত হওয়া, বিজয়ীর কাছে নত হওয়া",
+        "example": "Many people in Russia are kissing the ground for liberty."
+      }
+    ]
+  },
+  {
+    "category": "l",
+    "phrases": [
+      {
+        "en": "Lame excuse",
+        "bn": "বাজে অজুহাত",
+        "example": "It is nothing but a lame excuse."
+      },
+      {
+        "en": "Lay hands on",
+        "bn": "ধরা",
+        "example": "They tried to lay hands on the robbers but failed."
+      },
+      {
+        "en": "Loaves and fishes",
+        "bn": "ব্যক্তি স্বার্থ",
+        "example": "Many people run after loaves and fishes."
+      },
+      {
+        "en": "Lead astray",
+        "bn": "বিপথে পরিচালিত করা",
+        "example": "Do not mix with those bad boys, they will lead you astray."
+      },
+      {
+        "en": "Laughing stock",
+        "bn": "উপহাসের পাএ",
+        "example": "His foolish remark made him a laughing stock."
+      },
+      {
+        "en": "Lead by the nose",
+        "bn": "আদেশ পালনে বাধ্য করা",
+        "example": "You must lead that boy by the nose, he is very audacious."
+      },
+      {
+        "en": "Lions share",
+        "bn": "সিংহভাগ",
+        "example": "The lion’s share of the profit will go to him."
+      },
+      {
+        "en": "Letter by heart",
+        "bn": "মখুস্থ করা",
+        "example": "Learn this poem by heart."
+      },
+      {
+        "en": "Live fast",
+        "bn": "অমিতাচার",
+        "example": "Do not live fast, lest you should suffer in the long run."
+      },
+      {
+        "en": "Lie in wait",
+        "bn": "ওৎ পেতে থাকা",
+        "example": "The fox lay in wait for a hen."
+      }
+    ]
+  },
+  {
+    "category": "m",
+    "phrases": [
+      {
+        "en": "Make good",
+        "bn": "ক্ষতিপূরণ করা",
+        "example": "You should make good of your loss."
+      },
+      {
+        "en": "Man of letters",
+        "bn": "বিদ্বান ব্যক্তি",
+        "example": "Dr. Meghnath Saha was a man of letters."
+      },
+      {
+        "en": "Make out",
+        "bn": "বুঝতে পারা",
+        "example": "I cannot make out the meaning of the poem."
+      },
+      {
+        "en": "Man of straw",
+        "bn": "অপদার্থ লোক",
+        "example": "Such an important work cannot be done by such a man of straw."
+      },
+      {
+        "en": "Maiden speech",
+        "bn": "প্রথম বক্তৃতা",
+        "example": "His maiden speech charmed us all."
+      },
+      {
+        "en": "Mince a matter",
+        "bn": "অর্ধেক কথা গালে রেখে অর্ধেক বলা",
+        "example": "Speak straightly, do not mince a matter."
+      },
+      {
+        "en": "Muster strong",
+        "bn": "একএিত",
+        "example": "The people mustered strong in the field."
+      },
+      {
+        "en": "Make the best use of",
+        "bn": "সর্বাপেক্ষা সদ্ব্যবহার করা",
+        "example": "We should make the best use of our unconventional resources."
+      },
+      {
+        "en": "Move heaven and earth",
+        "bn": "যথাসাধ্য চেষ্টা করা",
+        "example": "She moved heaven and earth to pass the exam, but failed."
+      },
+      {
+        "en": "Make headway",
+        "bn": "উন্নতি করা",
+        "example": "When will education make headway in our country."
+      }
+    ]
+  },
+  {
+    "category": "n",
+    "phrases": [
+      {
+        "en": "null and void",
+        "bn": "বাতিল",
+        "example": "The rule has been declared null and void."
+      },
+      {
+        "en": "Near at hand",
+        "bn": "খুব কাছাকাছি",
+        "example": "The final examination of the students is near at hand."
+      },
+      {
+        "en": "Nest egg",
+        "bn": "হাতের পাঁচ",
+        "example": "I cannot part with this piece of land, it is my nest egg."
+      },
+      {
+        "en": "Now and then",
+        "bn": "সময়ে সময়ে",
+        "example": "He comes here now and then."
+      },
+      {
+        "en": "Next to nothing",
+        "bn": "না বললেও চলে, প্রায় কিছুই না",
+        "example": "The man has some money, but it is next to nothing."
+      },
+      {
+        "en": "Nip in the bud",
+        "bn": "অঙ্কুরে বিনাশ হওয়া",
+        "example": "All his hopes were nipped in the bud."
+      },
+      {
+        "en": "Neck and crop",
+        "bn": "আপাদমস্তক",
+        "example": "She went out in the rain and got wet neck and crop."
+      },
+      {
+        "en": "Nom-de-plume",
+        "bn": "কলমী ছদ্ম নাম",
+        "example": "Rabindranath wrote some poems under the nom-de-plume of Vanu Singha."
+      }
+    ]
+  },
+  {
+    "category": "o",
+    "phrases": [
+      {
+        "en": "On the contrary",
+        "bn": "পক্ষান্তরে",
+        "example": "He hates me, on the contrary, I love him much."
+      },
+      {
+        "en": "Out of doors",
+        "bn": "বাহিরে",
+        "example": "He is too weak to go out of doors."
+      },
+      {
+        "en": "On no account",
+        "bn": "কিছুতেই না",
+        "example": "I shall on no account do it."
+      },
+      {
+        "en": "Once in a way",
+        "bn": "কদাচিৎ",
+        "example": "He makes such foolish decisions only once in a way."
+      },
+      {
+        "en": "On the ground of",
+        "bn": "কারণে",
+        "example": "She stayed home on the ground of illness."
+      },
+      {
+        "en": "On the eve of",
+        "bn": "প্রাক্কালে",
+        "example": "I saw him on the eve of his departure."
+      },
+      {
+        "en": "On account of",
+        "bn": "কারণে",
+        "example": "He is absent on account of illness."
+      },
+      {
+        "en": "Out of date",
+        "bn": "অপ্রচলিত",
+        "example": "This fashion is now out of date."
+      },
+      {
+        "en": "Out of the question",
+        "bn": "অসম্ভব",
+        "example": "It is out of the question for me to buy so many books in a month."
+      },
+      {
+        "en": "Out and out",
+        "bn": "সম্পূর্ণরূপে",
+        "example": "He is out and out a rogue."
+      },
+      {
+        "en": "of late",
+        "bn": "সম্প্রতি",
+        "example": "Of late, he is working hard."
+      },
+      {
+        "en": "Over head and ears",
+        "bn": "জর্জরিত",
+        "example": "He is over head and ears."
+      },
+      {
+        "en": "Oil one’s tongue",
+        "bn": "তোষামোদ করা",
+        "example": "The man earns by oiling his tongue."
+      },
+      {
+        "en": "On hand",
+        "bn": "অধিকারে",
+        "example": "I have two pens on hand."
+      },
+      {
+        "en": "Out of sorts",
+        "bn": "অসুস্থ",
+        "example": "I feel out of sorts today."
+      },
+      {
+        "en": "Of course",
+        "bn": "স্বভাবত",
+        "example": "Of course, he is sad for the loss of his pen."
+      },
+      {
+        "en": "Of no Avail",
+        "bn": "বৃথা",
+        "example": "All our efforts were of no avail."
+      },
+      {
+        "en": "Off and on",
+        "bn": "মাঝেমাঝে",
+        "example": "He comes here off and on."
+      },
+      {
+        "en": "On the point of",
+        "bn": "উদ্যত",
+        "example": "He is on the point of death."
+      },
+      {
+        "en": "On the alert",
+        "bn": "সতর্ক",
+        "example": "Be on the alert when you sleep alone in this room."
+      },
+      {
+        "en": "Out burst",
+        "bn": "উচ্ছ্বাস",
+        "example": "His outburst of feeling moved us all."
+      },
+      {
+        "en": "Out of away",
+        "bn": "বহুগুণে",
+        "example": "Our house is out and away higher than theirs."
+      },
+      {
+        "en": "Outlook",
+        "bn": "দৃষ্টিভঙ্গি",
+        "example": "We should have a broad outlook on life."
+      },
+      {
+        "en": "Outcome",
+        "bn": "ফলাফল",
+        "example": "His failure is the outcome of his idleness."
+      },
+      {
+        "en": "Output",
+        "bn": "উৎপাদন",
+        "example": "I warned him at the very output."
+      },
+      {
+        "en": "Overlook",
+        "bn": "উপেক্ষা করা",
+        "example": "He overlooked his son’s faults."
+      },
+      {
+        "en": "Outcast",
+        "bn": "জাতিভ্রষ্ট",
+        "example": "He is an outcast."
+      },
+      {
+        "en": "One and all",
+        "bn": "সবাই",
+        "example": "The players one and all entered the playground."
+      },
+      {
+        "en": "On good terms",
+        "bn": "সদ্ভাব",
+        "example": "They are on good terms with one another."
+      },
+      {
+        "en": "Once again",
+        "bn": "আবার",
+        "example": "I shall see him once again."
+      },
+      {
+        "en": "Once for all",
+        "bn": "চিরতরে",
+        "example": "She parted with her relative once for all."
+      },
+      {
+        "en": "On the whole",
+        "bn": "মোটের ওপর",
+        "example": "His conduct is, on the whole, satisfactory."
+      },
+      {
+        "en": "On the score of",
+        "bn": "কারণে, যুক্তিতে",
+        "example": "She stayed home on the score of illness."
+      },
+      {
+        "en": "Out of order",
+        "bn": "অকেজো হওয়া",
+        "example": "The machine has gone out of order."
+      }
+    ]
+  },
+  {
+    "category": "P",
+    "phrases": [
+      {
+        "en": "Part and parcel",
+        "bn": "অবিচ্ছেদ অংশ",
+        "example": "Habit is a part and parcel of man."
+      },
+      {
+        "en": "Pave the way",
+        "bn": "পথ প্রশস্ত করা",
+        "example": "Hard labour can pave the way to your success."
+      },
+      {
+        "en": "Proud of",
+        "bn": "গর্বিত",
+        "example": "He is proud of his wealth."
+      },
+      {
+        "en": "Pick a quarrel",
+        "bn": "ঝগড়া বাঁধানো",
+        "example": "Never pick a quarrel with anyone."
+      },
+      {
+        "en": "Pros and cons",
+        "bn": "সুবিধা-অসুবিধা",
+        "example": "He considered the pros and cons of the matter."
+      },
+      {
+        "en": "Pillar to post",
+        "bn": "এক স্থান থেকে অন্য স্থানে",
+        "example": "Vagabonds wander from pillar to post all through their life."
+      },
+      {
+        "en": "Palmy days",
+        "bn": "সুসময়ে",
+        "example": "I had many friends in my palmy days."
+      },
+      {
+        "en": "Play tricks",
+        "bn": "প্রতারণা করার চেষ্টা করা",
+        "example": "The man was sorry for his playing tricks with him."
+      },
+      {
+        "en": "Puppet in the hand",
+        "bn": "অন্যের দ্বারা চালিত ব্যক্তি",
+        "example": "A leader should not be a puppet in the hands of his/her followers."
+      },
+      {
+        "en": "Pin money",
+        "bn": "স্বামীর দ্বারা স্ত্রীকে প্রদত্ত হাতখরচ",
+        "example": "She saved all her pin money and bought a nice present for her husband."
+      },
+      {
+        "en": "Patch up the quarrel",
+        "bn": "বিবাদ মীমাংসা করা",
+        "example": "Will anybody volunteer to patch up the quarrel between the two relatives?"
+      }
+    ]
+  },
+  {
+    "category": "q",
+    "phrases": [
+      {
+        "en": "Quarrel with one’s bread and butter",
+        "bn": "জীবিকার কাজ ছেড়ে দেওয়া",
+        "example": "He took a hasty decision on the spur of the moment and quarrelled with his bread and butter."
+      },
+      {
+        "en": "Quick march",
+        "bn": "দ্রুত অগ্রসরণ",
+        "example": "All were astonished at the quick march of communism in Russia but now they are more astonished at its receding back."
+      }
+    ]
+  },
+  {
+    "category": "r",
+    "phrases": [
+      {
+        "en": "Red letter day",
+        "bn": "স্মরণীয় দিন",
+        "example": "The 16th December is a red-letter day in the history of Bangladesh."
+      },
+      {
+        "en": "Rain cats and dogs",
+        "bn": "প্রবল বৃষ্টিপাত হওয়া",
+        "example": "It has been raining cats and dogs for two hours."
+      },
+      {
+        "en": "Right and left",
+        "bn": "সব দিক দিয়ে",
+        "example": "We attacked our enemies right and left."
+      },
+      {
+        "en": "Run one’s race",
+        "bn": "জীবন যাপন করা",
+        "example": "That poor man runs his race in a miserable way."
+      },
+      {
+        "en": "Rain or shine",
+        "bn": "সকল প্রকার আবহাওয়া",
+        "example": "I must go there, rain or shine."
+      },
+      {
+        "en": "Red handed",
+        "bn": "হাতে নাতে",
+        "example": "The robbers were caught red handed by the public."
+      },
+      {
+        "en": "Rise and fall",
+        "bn": "উত্থান-পতন",
+        "example": "Without facing any rise and fall of life, no one can be great."
+      },
+      {
+        "en": "Rise in arms",
+        "bn": "সশস্ত্র বিদ্রোহ",
+        "example": "Some personnel of the army of Russia rose in arms against Gorbachev."
+      }
+    ]
+  },
+  {
+    "category": "s",
+    "phrases": [
+      {
+        "en": "Set up",
+        "bn": "স্থাপন করা",
+        "example": "He set up a school in our village."
+      },
+      {
+        "en": "Sack cloth and ashes",
+        "bn": "শোকের পোষাক",
+        "example": "Today is your birthday so do not put on such sack cloth and ashes."
+      },
+      {
+        "en": "Stone’s throw",
+        "bn": "নিকটবর্তী",
+        "example": "The school is at stone’s throw from their house."
+      },
+      {
+        "en": "Safe and sound",
+        "bn": "নিরাপদে",
+        "example": "He arrived here safe and sound."
+      },
+      {
+        "en": "See into mill stone",
+        "bn": "বুদ্ধি রাখা",
+        "example": "This person can see into mill stone, how will you deceive him?"
+      },
+      {
+        "en": "See through",
+        "bn": "ধরে ফেলা",
+        "example": "I could easily see through your design."
+      },
+      {
+        "en": "Set out",
+        "bn": "রওয়ানা হওয়া",
+        "example": "He set out for Dhaka."
+      },
+      {
+        "en": "Steer clear of",
+        "bn": "এড়াইয়া যাওয়া",
+        "example": "I could steer clear of the difficulty."
+      },
+      {
+        "en": "Sum and substance",
+        "bn": "সারমর্ম",
+        "example": "Give in your own words the sum and substance of the story."
+      },
+      {
+        "en": "Swan song",
+        "bn": "কবির শেষ রচনা",
+        "example": "Do you know what the swan song of Shelley is?"
+      },
+      {
+        "en": "See the light",
+        "bn": "জন্মগ্রহণ করা",
+        "example": "A human being has seen the light tonight in the hospital."
+      },
+      {
+        "en": "Sworn enemy",
+        "bn": "পরম শত্রু",
+        "example": "He is my sworn enemy."
+      },
+      {
+        "en": "Short temper",
+        "bn": "রগ চটা লোক",
+        "example": "I cannot manage well enough with this short temper."
+      },
+      {
+        "en": "Slow coach",
+        "bn": "ধীর ব্যক্তি",
+        "example": "A slow coach cannot prosper in life."
+      },
+      {
+        "en": "Scot free",
+        "bn": "আঘাত ব্যতীত, অনাহত",
+        "example": "The robbers were able to go away scot free."
+      },
+      {
+        "en": "So so",
+        "bn": "এক রকম",
+        "example": "I am so so."
+      },
+      {
+        "en": "So to say",
+        "bn": "বলিতে গেলে",
+        "example": "He is, so to say, a good boy."
+      }
+    ]
+  },
+  {
+    "category": "t",
+    "phrases": [
+      {
+        "en": "Through thick and thin",
+        "bn": "আপদে-বিপদে",
+        "example": "He was by my side through thick and thin."
+      },
+      {
+        "en": "Tall talk",
+        "bn": "বড় বড় কথা, বাগাড়ম্বর",
+        "example": "He has become a laughing stock only for his tall talk."
+      },
+      {
+        "en": "Through and through",
+        "bn": "সম্পূর্ন",
+        "example": "I have read the book through and through."
+      },
+      {
+        "en": "Ten to one",
+        "bn": "খুব সম্ভবত",
+        "example": "Ten to one, this girl will pass in the examination."
+      },
+      {
+        "en": "To the last",
+        "bn": "শেষ পর্যন্ত",
+        "example": "He fought to the last for me."
+      },
+      {
+        "en": "To the letter",
+        "bn": "পীড়াপীড়ি",
+        "example": "Student must carry out their teacher’s advice to the letter."
+      },
+      {
+        "en": "To the contrary",
+        "bn": "বিপক্ষে",
+        "example": "He has nothing to say to the contrary."
+      },
+      {
+        "en": "To take to air",
+        "bn": "প্রকাশ হওয়া",
+        "example": "Their plan has taken to air."
+      },
+      {
+        "en": "Take to one’s heels",
+        "bn": "পলায়ন করা",
+        "example": "The robbers took in their heeal at the sight of the police."
+      },
+      {
+        "en": "Tooth and nail",
+        "bn": "প্রাণপণে",
+        "example": "We opposed him tooth and nail."
+      },
+      {
+        "en": "To and fro",
+        "bn": "এদিক-ওদিক",
+        "example": "He is moving to and fro."
+      },
+      {
+        "en": "To run short",
+        "bn": "কম পড়া",
+        "example": "I have run short of funds."
+      },
+      {
+        "en": "To take to task",
+        "bn": "ঘৃণা করা",
+        "example": "His brother took him to task for this act."
+      },
+      {
+        "en": "The three R’s",
+        "bn": "মোটামুটি জ্ঞান",
+        "example": "I learnt the three R’s at home."
+      }
+    ]
+  },
+  {
+    "category": "u",
+    "phrases": [
+      {
+        "en": "Up and doing",
+        "bn": "তৎপর হওয়া",
+        "example": "Be up and doing for the examination."
+      },
+      {
+        "en": "Ups and downs",
+        "bn": "উত্থান-পতন",
+        "example": "Every man has ups and downs in life."
+      },
+      {
+        "en": "Upset",
+        "bn": "উল্টাইয়া ফেলা",
+        "example": "He upset the lamp."
+      },
+      {
+        "en": "Under lock and key",
+        "bn": "তালাবদ্ধ",
+        "example": "The house is under lock and key."
+      }
+    ]
+  },
+  {
+    "category": "w",
+    "phrases": [
+      {
+        "en": "Wear and tear",
+        "bn": "ক্ষয়ক্ষতি",
+        "example": "Nothing can stand the wear and tear."
+      },
+      {
+        "en": "With one accord",
+        "bn": "একমত হয়ে",
+        "example": "They finished the meeting with one accord."
+      },
+      {
+        "en": "Weal and owe",
+        "bn": "সুখ-দুঃখ",
+        "example": "He will follow me in weal and owe."
+      },
+      {
+        "en": "Wipe out",
+        "bn": "মুছে ফেলা",
+        "example": "We should try to wipe out illiteracy."
+      },
+      {
+        "en": "Withheld",
+        "bn": "স্থগিত রাখা",
+        "example": "His result was withheld."
+      },
+      {
+        "en": "Well off",
+        "bn": "স্বচ্ছল",
+        "example": "Farmers are now well off."
+      },
+      {
+        "en": "With a view to",
+        "bn": "উদ্দেশ্যে",
+        "example": "I went to Bogra with a view to buying some books."
+      },
+      {
+        "en": "With an eye to",
+        "bn": "লক্ষ্য রেখে",
+        "example": "She started a business with an ete to handsome payoffs."
+      },
+      {
+        "en": "Without fail",
+        "bn": "অবশ্যই",
+        "example": "He will see me tomorrow without fail."
+      },
+      {
+        "en": "Well up",
+        "bn": "দক্ষ",
+        "example": "He is well up in English."
+      }
+    ]
+  }
+]

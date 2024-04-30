@@ -1,0 +1,39 @@
+[
+    {
+        "category": "Travel",
+        "link": "greetings",
+        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
+        "quotes": [
+            {
+                "id": "1",
+                "english": "The only way to do great work is to love what you do.",
+                "bangla": "ভাল কাজ করার একমাত্র উপায় হলো সেটা যে আপনি যা কাজ করেন তা ভালবাসেন।",
+                "author": "Steve Jobs"
+            },
+            {
+                "id": "2",
+                "english": "In the end, it's not the years in your life that count. It's the life in your years.",
+                "bangla": "শেষে, আপনার জীবনে কত বছর আছে তা গণনা করা যায় না। আপনার জীবনে কতটা জীবন আছে তা গণনা করা যায়।",
+                "author": "Abraham Lincoln"
+            },
+            {
+                "id": "3",
+                "english": "Life is what happens when you're busy making other plans.",
+                "bangla": "জীবন এটা কি ঘটে যখন আপনি অন্য পরিকল্পনা করতে ব্যস্ত।",
+                "author": "John Lennon"
+            },
+            {
+                "id": "4",
+                "english": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+                "bangla": "জীবনে সর্বোত্তম মহিমা তাতে নেই যে কখনই পড়া না হওয়া, বরং পড়তে পড়তে উঠে ওঠা।",
+                "author": "Nelson Mandela"
+            },
+            {
+                "id": "5",
+                "english": "Believe you can and you're halfway there.",
+                "bangla": "আপনি যে করতে পারেন তার বিশ্বাস করুন এবং আপনি অর্ধেকপথে আছেন।",
+                "author": "Theodore Roosevelt"
+            }
+        ]
+    }
+]

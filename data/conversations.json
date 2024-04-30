@@ -1,0 +1,72 @@
+{
+    "conversations": [
+      {
+        "category": "Greetings",
+        "link": "greetings",
+        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
+        "topics" : [
+            {
+                "id": 1,
+                "name": "Meeting a friend",
+                "dialog": [
+                    {
+                        "speaker": "Person 1",
+                        "text": "Hey! How are you?"
+                    },
+                    {
+                        "speaker": "Person 2",
+                        "text": "I'm good, thanks. How are you?"
+                    }
+                ]
+            }, {
+                "id": 2,
+                "name": "Meeting a stranger",
+                "dialog": [
+                    {
+                        "speaker": "Person 1",
+                        "text": "Hello! How are you?"
+                    },
+                    {
+                        "speaker": "Person 2",
+                        "text": "I'm good, thanks. How are you?"
+                    }
+                ]
+            }
+        ]
+      }, {
+        "category": "Farewells",
+        "link": "farewells",
+        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/vocabulary-3599386-3015185.png?f=webp",
+        "topics" : [
+            {
+                "id": 1,
+                "name": "Saying goodbye to a friend",
+                "dialog": [
+                    {
+                        "speaker": "Person 1",
+                        "text": "Bye! See you later."
+                    },
+                    {
+                        "speaker": "Person 2",
+                        "text": "Bye! See you later."
+                    }
+                ]
+            }, {
+                "id": 2,
+                "name": "Saying goodbye to a stranger",
+                "dialog": [
+                    {
+                        "speaker": "Person 1",
+                        "text": "Goodbye! Have a nice day."
+                    },
+                    {
+                        "speaker": "Person 2",
+                        "text": "Goodbye! Have a nice day."
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  
