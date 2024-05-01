@@ -31,7 +31,7 @@ const person = () => {
 
             <Text style={[styles.text, { marginTop: 15 }]}>ইংরেজি গ্রামারে Person বিষয়টি Number-এর সাথে সম্পর্কিত। তাই উপরে Number-এর সাথে প্রায় সকল Person-এর উদাহারণ দেওয়া হলো।</Text>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Person কত প্রকার?</Text>
             <Text style={styles.text}>Person (পুরুষ) তিন প্রকার। যথা:</Text>
@@ -42,7 +42,7 @@ const person = () => {
                 <Text style={styles.text}>3. Third Person (নাম পুরুষ)</Text>
             </View>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>1. First Person কাকে বলে?</Text>
             <Text style={styles.text}>কোনো বাক্যে যে বা যারা কথা বলে তাকে First Person বলে। যেমন: I, me, my, mine, we, us, our, ours ইত্যাদি।</Text>
@@ -61,7 +61,7 @@ const person = () => {
                 <Text style={styles.text}>• Our (আমাদের): Our traditions are rich and diverse.</Text>
             </View>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>2. Second Person কাকে বলে?</Text>
             <Text style={styles.text}>কোনো বাক্যে যাকে বা যাদেরকে সম্বোধন করে কিছু বলা হয় তাকে Second Person বলে। যেমন: You, your, thou ইত্যাদি।</Text>
@@ -79,7 +79,7 @@ const person = () => {
                 <Text style={styles.text}>Note: সাধারণত ইংরেজি গ্রামারে You, Your, Thou (তুমি) এই তিনটি Second Person রয়েছে।</Text>
             </View>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>3. Third Person কাকে বলে?</Text>
             <Text style={styles.text}>কোনো বাক্যে যে বা যাদের সম্পর্কে কোনো কিছু বলা হয় তাকে Third Person বলে। যেমন: He, she, him, her, it, they, them, their এবং যে কোনো প্রাণী বা বস্তুর নাম (Rahim, flower, chair, table) ইত্যাদি।</Text>
@@ -104,7 +104,7 @@ const person = () => {
                 <Text style={styles.text}>Note: সাধারণত ইংরেজি গ্রামারে You, Your, Thou (তুমি) এই তিনটি Second Person রয়েছে।</Text>
             </View>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Person চেনার উপায়</Text>
@@ -116,7 +116,7 @@ const person = () => {
                 <Text style={styles.text}>3. Third Person: আমি, তুমি ছাড়া, ভবে (পৃথিবীতে) আছে যারা Third Person তারা। অর্থাৎ First Person ও Third Person ছাড়া বাকিসব Third Person.</Text>
             </View>
 
-            <Divider marginTop={30} marginBottom={30} />
+            <Divider marginTop={20} marginBottom={20} />
 
             <Text style={[styles.heading_xl, { marginBottom: 10 }]}>সকল Number ও Person একসাথে</Text>
 
