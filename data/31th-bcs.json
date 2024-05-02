@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "In each of the following questions, out of the given alternatives, choose the one that best expresses the meaning of the given word:- Sporadic",
+    "options": ["Consistent", "Uniform", "Frequent", "Scattered"],
+    "answer": "Scattered"
+  },
+  {
+    "id": 2,
+    "question": "In each of the following questions, out of the given alternatives, choose the one that best expresses the meaning of the given word:- Omnipotent",
+    "options": ["Feeble", "Impotent", "Vulnerable", "Supreme"],
+    "answer": "Supreme"
+  },
+  {
+    "id": 3,
+    "question": "In each of the following questions, choose the word opposite in meaning to the given word:- Repeal",
+    "options": ["Abolish", "Annul", "Enact", "Nullify"],
+    "answer": "Enact"
+  },
+  {
+    "id": 4,
+    "question": "In each of the following questions, choose the word opposite in meaning to the given word:- Equity",
+    "options": ["Integrity", "Bias", "Justice", "Uprightness"],
+    "answer": "Bias"
+  },
+  {
+    "id": 5,
+    "question": "In each of the following questions, out of the four alternatives, choose the one which can be substituted for the given word/sentence:- A formal composition or speech expressing high praise of somebody-",
+    "options": ["eulogy", "elegy", "caricature", "exaggeration"],
+    "answer": "eulogy"
+  },
+  {
+    "id": 6,
+    "question": "The word 'Shrug' indicating doubt or indifference is associated with-",
+    "options": ["Head", "Forehead", "Shoulders", "Eyebrows"],
+    "answer": "Shoulders"
+  },
+  {
+    "id": 7,
+    "question": "He is quite _ in dealing with people.",
+    "options": ["imprudent", "diplomatic", "unsubtle", "impolite"],
+    "answer": "diplomatic"
+  },
+  {
+    "id": 8,
+    "question": "They suffered much _ tornado had hit their village.",
+    "options": ["until", "as if", "let alone", "since"],
+    "answer": "since"
+  },
+  {
+    "id": 9,
+    "question": "Choose the wrong sentence:",
+    "options": [
+      "They parted from one another suddenly",
+      "The leader expressed himself forcibly",
+      "The land is belonged to an old lady",
+      "Mother bought me an ice-cream"
+    ],
+    "answer": "The land is belonged to an old lady"
+  },
+  {
+    "id": 10,
+    "question": "Choose the wrong sentence:",
+    "options": [
+      "His failure resulted for lack of attention",
+      "He was always arguing with his brother",
+      "When will you write to him about your plan?",
+      "Who was the boy you were all laughing at?"
+    ],
+    "answer": "His failure resulted for lack of attention"
+  },
+  {
+    "id": 11,
+    "question": "Choose the correctly spelt word:-",
+    "options": ["Volantory", "Volantary", "Voluntary", "Voluntory"],
+    "answer": "Voluntary"
+  },
+  {
+    "id": 12,
+    "question": "Choose the correctly spelt word:-",
+    "options": ["Accilerate", "Accelerrate", "Accilarate", "Accelerate"],
+    "answer": "Accelerate"
+  },
+  {
+    "id": 13,
+    "question": "Choose the correctly spelt word:-",
+    "options": ["Suname", "Tsunami", "Sunami", "Sunamce"],
+    "answer": "Tsunami"
+  },
+  {
+    "id": 14,
+    "question": "Which living in poverty, the poet had to _ a great deal of sufferings",
+    "options": ["see through", "put up with", "pass by", "fall back"],
+    "answer": "put up with"
+  },
+  {
+    "id": 15,
+    "question": "Wordsworth introduced the readers _ a new kind of poetry.",
+    "options": ["with", "at", "to", "by"],
+    "answer": "to"
+  },
+  {
+    "id": 16,
+    "question": "----- his earlier study,the professor's new study indicates a general warning trend in global weather.",
+    "options": [
+      "In contrast of",
+      "In contrast by",
+      "In contrast to",
+      "In contrast as"
+    ],
+    "answer": "In contrast to"
+  },
+  {
+    "id": 17,
+    "question": "Only those who are not serious to their success work by----and starts.",
+    "options": ["fits", "every inch", "against time", "long odds"],
+    "answer": "fits"
+  },
+  {
+    "id": 18,
+    "question": "Of the four alternatives given below, choose the word/words that best fits into the underlined word given in the sentence: - One day 'women will have so long been denied them leisure, money and room to themselves.",
+    "options": ["Spece", "Liberty", "Office", "Capacity"],
+    "answer": "Liberty"
+  },
+  {
+    "id": 19,
+    "question": "Crafty men condemn study,simple men admire them and wise men use them.Best alternative for the word--Condemn",
+    "options": ["laud", "compliment", "acclaim", "denounce"],
+    "answer": "denounce"
+  },
+  {
+    "id": 20,
+    "question": "To end in smoke-----",
+    "options": [
+      "To come to nothing",
+      "To see fire",
+      "To go through suffering",
+      "To create fire"
+    ],
+    "answer": "To come to nothing"
+  }
+]

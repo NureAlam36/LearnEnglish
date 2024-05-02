@@ -1,0 +1,143 @@
+[
+  {
+    "id": 19,
+    "question": "Choose the correct alternative to complete the sentence. “ He – to see us if he had been able to”",
+    "options": ["would come", "would have come", "may have come", "bad attack"],
+    "answer": "would have come"
+  },
+  {
+    "id": 20,
+    "question": "Choose the appropriate alternative to complete the sentence. He had a -- of fever.",
+    "options": [
+      "strong attack",
+      "severe attack",
+      "serious attack",
+      "bad attack"
+    ],
+    "answer": "severe attack"
+  },
+  {
+    "id": 21,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I asked Javed had he passed",
+      "I asked Javed that had he passed",
+      "I asked Javed if you had passed",
+      "I asked Javed if he had passed"
+    ],
+    "answer": "I asked Javed if he had passed"
+  },
+  {
+    "id": 22,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "A few of the three boys got a prize",
+      "All of the three boys got a prize",
+      "Each of the three boys got a prize",
+      "Each of the three boy got a prize"
+    ],
+    "answer": "Each of the three boys got a prize"
+  },
+  {
+    "id": 23,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The man that said that was a fool",
+      "The man who said that was a fool.",
+      "The man that said that was a fool.",
+      "The man which said that was a fool."
+    ],
+    "answer": "The man who said that was a fool."
+  },
+  {
+    "id": 24,
+    "question": "Choose the correct answer. How long did you wait?",
+    "options": [
+      "Till lunch time",
+      "Till he came",
+      "Untill 6 o'clock",
+      "since this morning"
+    ],
+    "answer": "Till he came"
+  },
+  {
+    "id": 25,
+    "question": "\"What will be the correct preposition to complete the sentence? \"\"I am not bad.... tennis.\"\"",
+    "options": ["about", "with", "in", "at"],
+    "answer": "at"
+  },
+  {
+    "id": 26,
+    "question": "What is the antonym of ''Gentle''?",
+    "options": ["foolish", "modest", "clever", "rude"],
+    "answer": "rude"
+  },
+  {
+    "id": 27,
+    "question": "What is the synonym of 'Jovial?",
+    "options": ["Jolly", "Jealous", "Gay", "Happy"],
+    "answer": "Jolly"
+  },
+  {
+    "id": 28,
+    "question": "What is the synonym of 'competent' ?",
+    "options": ["circumspect", "discrete", "capable", "prudent"],
+    "answer": "capable"
+  },
+  {
+    "id": 29,
+    "question": "\"Who is the auther of \"\"A Farewell to Arms\"\"?\"",
+    "options": [
+      "Ernest Hemingway",
+      "Thomas Hardy",
+      "George Orwel",
+      "H. G. Wells"
+    ],
+    "answer": "Ernest Hemingway"
+  },
+  {
+    "id": 30,
+    "question": "\"Who is the auther of \"\"Animal Farm\"\"?\"",
+    "options": [
+      "George Orwel",
+      "Thomas More",
+      "Boris Pasternak",
+      "Charles Dickens"
+    ],
+    "answer": "George Orwel"
+  },
+  {
+    "id": 31,
+    "question": "\"Who is the author of \"\"India Wins Freedom\"\"?\"",
+    "options": [
+      "Mahatma Gandhi",
+      "J. L. Nehru",
+      "Abul Kalam Azad",
+      "Debashish"
+    ],
+    "answer": "Abul Kalam Azad"
+  },
+  {
+    "id": 32,
+    "question": "\"what kind of noun is \"\"Cattle\"\"?\"",
+    "options": ["Collective", "Common", "Material", "Proper"],
+    "answer": "Collective"
+  },
+  {
+    "id": 33,
+    "question": "What kind of noun is girl ?",
+    "options": ["Collective", "Proper", "Common", "Material"],
+    "answer": "Common"
+  },
+  {
+    "id": 34,
+    "question": "What is the meaning of 'White Elephant'?",
+    "options": [
+      "A very costly or troublesome possession",
+      "A black marketer",
+      "A hoarder",
+      "An elephant of white colour"
+    ],
+    "answer": "A very costly or troublesome possession"
+  }
+]

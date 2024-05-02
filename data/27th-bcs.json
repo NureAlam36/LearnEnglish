@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "What would have happened if.?",
+    "options": [
+      "The bridge is broken",
+      "The bridge would break",
+      "The bridge had broken",
+      "The bridge has been broken"
+    ],
+    "answer": "The bridge had broken"
+  },
+  {
+    "id": 2,
+    "question": "Explain the meaning of 'Bring to pass'------",
+    "options": [
+      "cause to convince",
+      "cause to carry out",
+      "cause to happen",
+      "cause to destroy"
+    ],
+    "answer": "cause to happen"
+  },
+  {
+    "id": 3,
+    "question": "which of the flowing sentences is the correct one?",
+    "options": [
+      "Paper is made of wood",
+      "Paper is made by wood",
+      "Paper is made on wood",
+      "Paper is made from wood"
+    ],
+    "answer": "Paper is made from wood"
+  },
+  {
+    "id": 4,
+    "question": "The word bountry is closest in meaning to--",
+    "options": ["sympathy", "dividing line", "familiar", "generosity"],
+    "answer": "generosity"
+  },
+  {
+    "id": 5,
+    "question": "Give the correct Passive form of-My teacher embodies all the good qualities.",
+    "options": [
+      "All the good qualities are embodied by my teacher",
+      "All the good qualities are embodied in my teacher",
+      "All the good qualities are embodied on my teacher",
+      "All the good qualities are embodied to my teacher"
+    ],
+    "answer": "All the good qualities are embodied in my teacher"
+  },
+  {
+    "id": 6,
+    "question": "Choose the correct indirect speech- She asked me “Are you happy in your new job?”",
+    "options": [
+      "She asked me if I had been happy in my new job",
+      "She asked me whether I am happy in my new job",
+      "She asked me if I have been happy in my new job",
+      "She asked me if I was happy in my new job"
+    ],
+    "answer": "She asked me if I was happy in my new job"
+  },
+  {
+    "id": 7,
+    "question": "The meaning of the word `obese`is-",
+    "options": ["Very fat", "Ugly", "Tardy", "Obnoxious"],
+    "answer": "Very fat"
+  },
+  {
+    "id": 8,
+    "question": "A person who write about his own life writers-.",
+    "options": ["a biography", "a diary", "a chronicle", "an autobiography"],
+    "answer": "an autobiography"
+  },
+  {
+    "id": 9,
+    "question": "which of the flowing sentences is correct?",
+    "options": [
+      "Why you have done this?",
+      "Why you had done this?",
+      "Why have you done this?",
+      "Why did you done this?"
+    ],
+    "answer": "Why have you done this?"
+  },
+  {
+    "id": 10,
+    "question": "what will be correct preposition to complete the sentences?“I am not good.........translation.”",
+    "options": ["In", "At", "With", "About"],
+    "answer": "At"
+  },
+  {
+    "id": 11,
+    "question": "Which is the noun of the word `beautiful`?",
+    "options": ["Beauty", "Beautify", "Beauteous", "Most beautiful"],
+    "answer": "Beauty"
+  },
+  {
+    "id": 12,
+    "question": "fill in the blank with the appropriate preposition: We have to go...... five minutes.",
+    "options": ["In", "Beautifully", "On", "By"],
+    "answer": "By"
+  },
+  {
+    "id": 13,
+    "question": "Identify the imparative sentence.",
+    "options": [
+      "has been raining since morning",
+      "I shall go to college.",
+      "Motin is singing a song",
+      "Stand up"
+    ],
+    "answer": "Stand up"
+  },
+  {
+    "id": 14,
+    "question": "Fill in the gap with suitable word: To stay healthy, we must plan to have a balanced .......",
+    "options": ["diet", "food", "drink", "environment"],
+    "answer": "diet"
+  },
+  {
+    "id": 15,
+    "question": "Choose the correct alternative and marks its letter on your answer sheet. The rich should not look down- the poor.",
+    "options": ["upon", "towards", "for", "at"],
+    "answer": "upon"
+  },
+  {
+    "id": 16,
+    "question": "I took a map with me,as I didn’t want to ………… my way on the journey.",
+    "options": ["loose", "lose", "lost", "loss"],
+    "answer": "lose"
+  },
+  {
+    "id": 17,
+    "question": "Every driver must be held……………….. his own actions",
+    "options": ["blamed for", "liable to", "responsible for", "responsible to"],
+    "answer": "responsible for"
+  },
+  {
+    "id": 18,
+    "question": "Through thick and thin---- means",
+    "options": [
+      "not clear in understanding",
+      "under all conditions",
+      "to make thick and thin",
+      "of great density"
+    ],
+    "answer": "under all conditions"
+  },
+  {
+    "id": 19,
+    "question": "’Prior to’means",
+    "options": ["Before", "After", "Immediately", "During the period of"],
+    "answer": "Before"
+  },
+  {
+    "id": 20,
+    "question": "Nobody knocked him down; it was an",
+    "options": ["Event", "Incident", "Occurrence", "Accident"],
+    "answer": "Accident"
+  }
+]

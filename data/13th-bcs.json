@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "question": "Select the answer of the word 'stagflation'",
+    "options": [
+      "controlled prices",
+      "economic slow down",
+      "a disintegrating government",
+      "cultural dullness"
+    ],
+    "answer": "economic slow down"
+  },
+  {
+    "id": 2,
+    "question": "What is the meaning of the word 'scuttle'?",
+    "options": ["to tease", "abandon", "pile up", "gossip"],
+    "answer": "abandon"
+  },
+  {
+    "id": 3,
+    "question": "What is the meaning of the word 'stanch'?",
+    "options": ["to reinforce", "be weak", "smooth out", "put an end to"],
+    "answer": "put an end to"
+  },
+  {
+    "id": 4,
+    "question": "What is the meaning of the word 'sequences'?",
+    "options": ["to follow", "round up", "withdraw", "question closely"],
+    "answer": "to follow"
+  },
+  {
+    "id": 5,
+    "question": "What is the meaning of the word 'belated'?",
+    "options": ["complaining", "off hand", "weak", "tardy"],
+    "answer": "tardy"
+  },
+  {
+    "id": 6,
+    "question": "What is the meaning of the word 'euphemism'?",
+    "options": [
+      "vague idea",
+      "in offensive expression",
+      "verbal play",
+      "wise saying"
+    ],
+    "answer": "in offensive expression"
+  },
+  {
+    "id": 7,
+    "question": "'The rainbow' is-",
+    "options": [
+      "a poem by Wordsworth",
+      "a short story by Somerst Maugham",
+      "a novel by D. H. Lawrence",
+      "a verse by Coleridge"
+    ],
+    "answer": "a novel by D. H. Lawrence"
+  },
+  {
+    "id": 8,
+    "question": "'Tom Jones' by Henry Fielding was first published in-",
+    "options": [
+      "the 1st half of 19th century",
+      "the 2nd half of 18th century",
+      "the 1st half of 18th century",
+      "the 2nd half of 19th century"
+    ],
+    "answer": "the 1st half of 18th century"
+  },
+  {
+    "id": 9,
+    "question": "The literary work 'Kubla Khan' is-",
+    "options": [
+      "a history by Vincent Smith",
+      "a verse by Coleridge",
+      "a drama by Oscar Wiolde",
+      "a short story by Somerst Maugham"
+    ],
+    "answer": "a verse by Coleridge"
+  },
+  {
+    "id": 10,
+    "question": "T. S Eliot was born in-",
+    "options": ["Ireland", "England", "Wales", "USA"],
+    "answer": "USA"
+  },
+  {
+    "id": 11,
+    "question": "What was the real name of the great American writer, 'O Henry'?",
+    "options": [
+      "Samuel L. Clemen",
+      "William Sydney Porter",
+      "Fitz-James O'Brien",
+      "William Huntington Wright"
+    ],
+    "answer": "William Sydney Porter"
+  },
+  {
+    "id": 12,
+    "question": "Anything 'Pernicious' tends to injure or destroy. Something which has no such harmful effect is-",
+    "options": ["innocuous", "innocent", "immaculate", "salutary"],
+    "answer": "innocuous"
+  },
+  {
+    "id": 13,
+    "question": "Do not worry, English grammar is not --- to understand. Which of the following best fits in the blank space?",
+    "options": [
+      "so difficult",
+      "very difficult",
+      "too difficult",
+      "difficult enough"
+    ],
+    "answer": "too difficult"
+  },
+  {
+    "id": 14,
+    "question": "We (not have) a holiday since the beginning of the year. - which of the following verb forms best completes the above sentence?",
+    "options": [
+      "did not have",
+      "have not had",
+      "are not having",
+      "had not had"
+    ],
+    "answer": "have not had"
+  },
+  {
+    "id": 15,
+    "question": "If I were you, I (handle) the situation more carefully. -Which of the following verb forms best completes the above sentence?",
+    "options": ["would handle", "will handle", "handle", "would have handled"],
+    "answer": "would handle"
+  },
+  {
+    "id": 16,
+    "question": "It's time (you realize) your mistakes. Which of the following clause best fits in the above sentence?",
+    "options": [
+      "you realized",
+      "that you realize",
+      "you would realize",
+      "you have realized"
+    ],
+    "answer": "you realized"
+  },
+  {
+    "id": 17,
+    "question": "We have recently entered __ an agreement with the Inland Co-operative Society. -Which of the following best fits in the blank space?",
+    "options": ["no preposition", "upon", "in", "into"],
+    "answer": "into"
+  },
+  {
+    "id": 18,
+    "question": "'The boy from the village said, \"I -- starve than beg.\" - Which of the following best completes the above sentence?",
+    "options": ["better", "rather", "would rather", "would better"],
+    "answer": "would rather"
+  },
+  {
+    "id": 19,
+    "question": "It is too difficult to 'tolerate' bad temper for long. -Which of the following phrases best replaces 'tolerate' in the above sentence?",
+    "options": ["cope up with", "put up with", "stand up for", "pull on with"],
+    "answer": "put up with"
+  },
+  {
+    "id": 20,
+    "question": "I have never seen such a slow coach like you, this small work has taken you three full months. -What does the idiom 'a slow coach' mean?",
+    "options": [
+      "an irresponsible person",
+      "a careless person",
+      "an unthoughtful person",
+      "a very lazy person"
+    ],
+    "answer": "a very lazy person"
+  }
+]

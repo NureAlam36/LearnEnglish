@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following sentence is correct?",
+    "options": [
+      "I forbad him from going",
+      "I forbad him not to go",
+      "I forbad him going",
+      "I forbade him to go"
+    ],
+    "answer": "I forbade him to go"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a correct proverb?",
+    "options": [
+      "Fools rush in where the angels fear to tread.",
+      "A fool rushes in where an angel fears to tread",
+      "Fools rush in where an angel fear to tread",
+      "Fools rush in where angels fear to tread"
+    ],
+    "answer": "Fools rush in where angels fear to tread"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following sentence is correct?",
+    "options": [
+      "Why you have done this",
+      "Why have you done this",
+      "Why did you have done this",
+      "Why you had done this"
+    ],
+    "answer": "Why have you done this"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following sentence is correct?",
+    "options": [
+      "The shirt which he bought is blue in colour",
+      "Which shirt he bought is blue in colour",
+      "That shirt which he bought is blue in colour",
+      "None of the above"
+    ],
+    "answer": "The shirt which he bought is blue in colour"
+  },
+  {
+    "id": 5,
+    "question": "The correct passive of 'Sheila was writing a letter' is-",
+    "options": [
+      "A letter was being written by Sheila",
+      "A letter was being was being written by Sheila",
+      "A letter was being writing by Sheila",
+      "A letter was written by Sheila"
+    ],
+    "answer": "A letter was being written by Sheila"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following sentences is correct?",
+    "options": [
+      "One of my friends are a lawyers",
+      "One of my friend is a lawyer",
+      "One of my friends are a lawyer",
+      "One of my friends is a lawyer"
+    ],
+    "answer": "One of my friends is a lawyer"
+  },
+  {
+    "id": 7,
+    "question": "The word 'Ecological' is related to-",
+    "options": ["Atmosphere", "Pollution", "Environment", "Demography"],
+    "answer": "Environment"
+  },
+  {
+    "id": 8,
+    "question": "The synonym of 'Genesis' is-",
+    "options": ["Beginning", "Preface", "Introduction", "Foreword"],
+    "answer": "Beginning"
+  },
+  {
+    "id": 9,
+    "question": "The word 'Homogeneous' means-",
+    "options": [
+      "Of the same place",
+      "Of the same kind",
+      "Of the same race",
+      "Of the same density"
+    ],
+    "answer": "Of the same kind"
+  },
+  {
+    "id": 10,
+    "question": "The word 'Imbibe' means-",
+    "options": ["To tinge", "To drink", "To acquire", "To learn"],
+    "answer": "To drink"
+  },
+  {
+    "id": 11,
+    "question": "Something which is Obnoxious means that it is?",
+    "options": [
+      "very dangerous",
+      "very pleasant",
+      "very ugly",
+      "very unpleasant"
+    ],
+    "answer": "very unpleasant"
+  },
+  {
+    "id": 12,
+    "question": "A pilgrim is a person who undertakes a journey to a",
+    "options": ["a mosque", "holy place", "a bazar", "a new country"],
+    "answer": "holy place"
+  },
+  {
+    "id": 13,
+    "question": "Shakespeare is known mostly for his-",
+    "options": ["novels", "autobiography", "plays", "poetry"],
+    "answer": "plays"
+  },
+  {
+    "id": 14,
+    "question": "A person who writes about his own life writes-",
+    "options": ["a chronicle", "an autobiography", "a diary", "a biography"],
+    "answer": "an autobiography"
+  },
+  {
+    "id": 15,
+    "question": "In which century was the Victorian period?",
+    "options": ["19th century", "20th century", "18th century", "17th century"],
+    "answer": "19th century"
+  },
+  {
+    "id": 16,
+    "question": "The antonym of 'Indifference' is-",
+    "options": ["Ardour", "collision", "Anxiety", "Conclusion"],
+    "answer": "Ardour"
+  },
+  {
+    "id": 17,
+    "question": "Three score is",
+    "options": [
+      "Three times twenty",
+      "More than three",
+      "Three hundred times",
+      "Thirty times"
+    ],
+    "answer": "Three times twenty"
+  },
+  {
+    "id": 18,
+    "question": "An ordinance is-",
+    "options": ["A book", "An arms factory", "A newspaper journal", "A law"],
+    "answer": "A law"
+  },
+  {
+    "id": 19,
+    "question": "A fantasy is?",
+    "options": [
+      "A funny film",
+      "An imaginary story",
+      "A history record",
+      "A real life event"
+    ],
+    "answer": "An imaginary story"
+  },
+  {
+    "id": 20,
+    "question": "Something that is fresh is something-",
+    "options": [
+      "Recently printed or published",
+      "Disrespectful",
+      "In fairly good condition",
+      "Pleasant"
+    ],
+    "answer": "In fairly good condition"
+  },
+  {
+    "id": 21,
+    "question": "Intellectual শব্দের বাংলা অর্থ-",
+    "options": ["বুদ্ধিমান", "মননশীল", "বুদ্ধিজীবি", "মেধাবী"],
+    "answer": "বুদ্ধিজীবি"
+  },
+  {
+    "id": 22,
+    "question": "Straw vote বলতে কি বুঝায়?",
+    "options": [
+      "Manipulated elections",
+      "Yes-no vote",
+      "Poll based on random representations",
+      "Unofficial poll of public opinion"
+    ],
+    "answer": "Unofficial poll of public opinion"
+  }
+]

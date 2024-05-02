@@ -9,19 +9,22 @@ import {
 } from "react-native";
 import { Stack, useRouter } from "expo-router";
 
-import Tools from "./Tools/Tools";
 import DailyUpdates from "./DailyUpdates/DailyUpdates";
+import JobSolution from "./JobSolution/JobSolution";
 import StudyPhases from "./StudyPhases/StudyPhases";
+import Tools from "./Tools/Tools";
 
 const Home = () => {
   return (
     <SafeAreaView style={styles.container}>
       <FlatList
-        data={["daily", "study", "tools"]}
+        data={["daily", "job-solution", "study", "tools"]}
         renderItem={({ item }) => {
           switch (item) {
             case "daily":
               return <DailyUpdates />;
+            case "job-solution":
+              return <JobSolution />;
             case "study":
               return <StudyPhases />;
             case "tools":
@@ -41,7 +44,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: "100%",
-    padding: 10,
+    paddingHorizontal: 10,
     backgroundColor: "#f2f2f2",
   },
   item: {

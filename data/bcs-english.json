@@ -1,0 +1,6535 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "He is named -- his father.",
+      "options": ["to", "of", "with", "after"],
+      "answer": "after"
+    },
+    {
+      "id": 2,
+      "question": "'Not bene' means -",
+      "options": ["For example", "Not sure", "Next page", "Mark well"],
+      "answer": "Mark well"
+    },
+    {
+      "id": 3,
+      "question": "The antonym of 'Imbecility' is -",
+      "options": ["Foolishness", "Inactivity", "Impartiality", "Wisdom"],
+      "answer": "Wisdom"
+    },
+    {
+      "id": 4,
+      "question": "The practice of keeping one wife or husband is called -",
+      "options": ["Monogamy", "Polygamy", "Polyandry", "Paramour"],
+      "answer": "Monogamy"
+    },
+    {
+      "id": 5,
+      "question": "'Malice' এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Affection", "Love", "Animosity", "Kindness"],
+      "answer": "Animosity"
+    },
+    {
+      "id": 6,
+      "question": "A handicapped person is one who -",
+      "options": [
+        "Works at handicraft",
+        "Suffers from some disability",
+        "Assigns handicaps to contestants",
+        "Gives training in manual skill"
+      ],
+      "answer": "Suffers from some disability"
+    },
+    {
+      "id": 7,
+      "question": "Find out the synonym of 'Remote'.",
+      "options": ["Immediate", "Close", "Intimate", "Distant"],
+      "answer": "Distant"
+    },
+    {
+      "id": 8,
+      "question": "'Handy' means -",
+      "options": [
+        "Comfortable",
+        "Useful",
+        "Necessary",
+        "Convenient to handle or use"
+      ],
+      "answer": "Convenient to handle or use"
+    },
+    {
+      "id": 9,
+      "question": "She tried to be serious but she couldn't help ----- ?",
+      "options": ["laughing", "to laugh", "laugh", "that to laugh"],
+      "answer": "laughing"
+    },
+    {
+      "id": 10,
+      "question": "What is the antonym of 'Cease' ?",
+      "options": ["Start", "Attractive", "Withdraw", "Sure"],
+      "answer": "Start"
+    },
+    {
+      "id": 11,
+      "question": "\"Jamil was puny baby, but thanks to his mother's care, he grew into a --- lad.\" Fill in the blank with one of the following most nearly opposite in meaning of the sentence.",
+      "options": ["sturdy", "fall", "great", "fat"],
+      "answer": "sturdy"
+    },
+    {
+      "id": 12,
+      "question": "Select the answer of the word 'Stagflation'",
+      "options": [
+        "Controlled prices",
+        "Economic slow down",
+        "Cultural dullness",
+        "A disintegrating government"
+      ],
+      "answer": "Economic slow down"
+    },
+    {
+      "id": 13,
+      "question": "Choose the meaning of the given expression: 'A bird in hand is worth two in the bush'",
+      "options": [
+        "Take what you have got readily available rather than expecting better in the future",
+        "The seen is better than the unseen",
+        "Promises are better than actuals",
+        "It is no good beating about the bush"
+      ],
+      "answer": "Take what you have got readily available rather than expecting better in the future"
+    },
+    {
+      "id": 14,
+      "question": "'Invidious' is opposite to -",
+      "options": ["Offensive", "Hateful", "Envious", "Charitable"],
+      "answer": "Charitable"
+    },
+    {
+      "id": 15,
+      "question": "Overwork will tell --- your health.",
+      "options": ["upon", "at", "a scape goat", "with"],
+      "answer": "upon"
+    },
+    {
+      "id": 16,
+      "question": "He does not attend --- his office timely.",
+      "options": ["to", "in", "at", "on"],
+      "answer": "at"
+    },
+    {
+      "id": 17,
+      "question": "A Machiavellian character is ---",
+      "options": [
+        "An honest person",
+        "A scheming person",
+        "An adventurous person",
+        "A learned person"
+      ],
+      "answer": "A scheming person"
+    },
+    {
+      "id": 18,
+      "question": "Opinion শব্দটির synonym হচ্ছে -",
+      "options": ["Fact", "Knowledge", "Misgiving", "Belief"],
+      "answer": "Belief"
+    },
+    {
+      "id": 19,
+      "question": "Choose the word opposite in meaning to the given word: 'Equity'",
+      "options": ["Uprightness", "Justice", "Integrity", "Bias"],
+      "answer": "Bias"
+    },
+    {
+      "id": 20,
+      "question": "'Prior to' means -",
+      "options": ["after", "before", "immediately", "during the period of"],
+      "answer": "before"
+    },
+    {
+      "id": 21,
+      "question": "Which one is a noun?",
+      "options": ["Cute", "Acute", "Fluted", "Mute"],
+      "answer": "Fluted"
+    },
+    {
+      "id": 22,
+      "question": "A drowning man catches ---- a straw.",
+      "options": ["at", "with", "on", "of"],
+      "answer": "at"
+    },
+    {
+      "id": 23,
+      "question": "I congratulate him ---- his success.",
+      "options": ["on", "at", "in", "from"],
+      "answer": "on"
+    },
+    {
+      "id": 24,
+      "question": "What is the meaning of 'doubtful' in -- 'Because of a long drought, farmers are doubtful about the prospect of a good yield.",
+      "options": ["fearful", "pessimistic", "debating", "uncertain"],
+      "answer": "uncertain"
+    },
+    {
+      "id": 25,
+      "question": "Complete the sentence with appropriate words: The Tajmahal as said --- built by Shshjahan.",
+      "options": [
+        "to have begun",
+        "to had been",
+        "to have been",
+        "to have become"
+      ],
+      "answer": "to have been"
+    },
+    {
+      "id": 26,
+      "question": "Please come ---- my office.",
+      "options": ["by", "at", "on", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 27,
+      "question": "Something that is 'fresh' is something ---",
+      "options": [
+        "Disrespectful",
+        "In fairly good condition",
+        "Pleasant",
+        "Recently printed or published"
+      ],
+      "answer": "In fairly good condition"
+    },
+    {
+      "id": 28,
+      "question": "I decided to go --- with my friend as I needed some exercise.",
+      "options": ["to a walk", "for a walk", "for walking", "walk"],
+      "answer": "for a walk"
+    },
+    {
+      "id": 29,
+      "question": "Coalesce -এর-সমার্থক-শব্দ-কোনটি ?",
+      "options": ["Separate", "Unify", "Order", "Counterfeit"],
+      "answer": "Unify"
+    },
+    {
+      "id": 30,
+      "question": "The car sped up as it went down the ramp. (Antonym)",
+      "options": [
+        "ascended",
+        "descended",
+        "exploded",
+        "decelerated",
+        "tumbled"
+      ],
+      "answer": "decelerated"
+    },
+    {
+      "id": 31,
+      "question": "King শব্দটির Abstract form হবে ?",
+      "options": ["Kingship", "King", "Kinghood", "উপরের কোনটিই নয়"],
+      "answer": "Kingship"
+    },
+    {
+      "id": 32,
+      "question": "I wish I --- my homework last night.",
+      "options": ["did", "had done", "was doing", "am doing", "have done"],
+      "answer": "had done"
+    },
+    {
+      "id": 33,
+      "question": "He talks as if he --- everything.",
+      "options": ["has known", "had known", "will know", "knew"],
+      "answer": "knew"
+    },
+    {
+      "id": 34,
+      "question": "A synonym for 'hindrance' is -",
+      "options": ["solution", "barrier", "answer", "criticize", "opportunity"],
+      "answer": "barrier"
+    },
+    {
+      "id": 35,
+      "question": "What is the meaning of the word 'Dye'?",
+      "options": ["Die", "Color", "Dig", "Divide"],
+      "answer": "Color"
+    },
+    {
+      "id": 36,
+      "question": "নিচের কোনটি Abstract Noun?",
+      "options": ["Child", "Boy", "Family", "Childhood"],
+      "answer": "Childhood"
+    },
+    {
+      "id": 37,
+      "question": "The more she learnt ---- the American civil war, the more fascinated with it she became.",
+      "options": ["of", "about", "in", "into"],
+      "answer": ["of", "about"]
+    },
+    {
+      "id": 38,
+      "question": "'Hire a man' means -",
+      "options": [
+        "To bring a man",
+        "To lend a man",
+        "To employ a man",
+        "To call a man"
+      ],
+      "answer": "To employ a man"
+    },
+    {
+      "id": 39,
+      "question": "The word 'senile' is related to -",
+      "options": ["Old age", "Senses", "Superiority", "Seniority"],
+      "answer": "Old age"
+    },
+    {
+      "id": 40,
+      "question": "The antonym of 'Obesity' is -",
+      "options": ["Very fat", "Tall", "Short", "Thin"],
+      "answer": "Thin"
+    },
+    {
+      "id": 41,
+      "question": "He was embroiled in litigations with his neighbours. The 'embroiled' word means -",
+      "options": ["Enmeshed", "Employed", "Occupied", "Embittered"],
+      "answer": "Enmeshed"
+    },
+    {
+      "id": 42,
+      "question": "He is accessible --- all বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["of", "on", "into", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 43,
+      "question": "He was smiling --- himself and did not answer my question.",
+      "options": ["with", "at", "after", "to"],
+      "answer": "at"
+    },
+    {
+      "id": 44,
+      "question": "I concur --- you on your decision. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["to", "with", "by", "upon"],
+      "answer": "with"
+    },
+    {
+      "id": 45,
+      "question": "What is the antonym of 'Malignant' ?",
+      "options": ["Harmful", "Vindictive", "Benign", "Morose"],
+      "answer": "Benign"
+    },
+    {
+      "id": 46,
+      "question": "What is the meaning of 'hang about'?",
+      "options": ["Lag behind", "Keep about", "Loiter about", "Remain away"],
+      "answer": "Loiter about"
+    },
+    {
+      "id": 47,
+      "question": "Choose the right preposition for the following sentence: I hope you are not angry -- her.",
+      "options": ["upon", "about", "with", "for"],
+      "answer": "with"
+    },
+    {
+      "id": 48,
+      "question": "I have no objection to ---- your story again.",
+      "options": ["hear", "have hear", "hearing", "be heard"],
+      "answer": "hearing"
+    },
+    {
+      "id": 49,
+      "question": "A person working in the same place with another -",
+      "options": ["Comrade", "Colleague", "Assistant", "Contemporary"],
+      "answer": "Colleague"
+    },
+    {
+      "id": 50,
+      "question": "\"It is time to review the 'protocol' on testing nuclear weapons\". Here the 'protocol' word means---",
+      "options": ["Record of rules", "Summary", "Procedures", "Problems"],
+      "answer": "Record of rules"
+    },
+    {
+      "id": 51,
+      "question": "\"Familiarity breeds contempt\" বাক্যটির সঠিক বাংলা অনুবাদঃ",
+      "options": [
+        "বেশি কথা বলা অপমানকর",
+        "পরিচয়ে শত্রুতা বাড়ে",
+        "অতি মাখামাখি করলে মান থাকে না",
+        "মানীকে গম্ভীর হতে হয়"
+      ],
+      "answer": "পরিচয়ে শত্রুতা বাড়ে"
+    },
+    {
+      "id": 52,
+      "question": "Meaning of 'Conjecture' is related to -",
+      "options": ["Continuity", "Conjunction", "Guidance", "Guess"],
+      "answer": "Guess"
+    },
+    {
+      "id": 53,
+      "question": "The word 'Plurality' means ---?",
+      "options": [
+        "The letter 'S'",
+        "Men and women",
+        "Chaos and confusion",
+        "The holding of more than one office at a time"
+      ],
+      "answer": "The holding of more than one office at a time"
+    },
+    {
+      "id": 54,
+      "question": "Choose the correct synonym for 'Menacing' -",
+      "options": ["Encouraging", "Alarming", "Promising", "Auspicious"],
+      "answer": "Alarming"
+    },
+    {
+      "id": 55,
+      "question": "Select the word/words that express the opposite meaning to the underlined word/words.  The claim was found to be fraudulent.",
+      "options": [
+        "circumstantial",
+        "ceremonial",
+        "supportive",
+        "genuine",
+        "sneaky"
+      ],
+      "answer": "genuine"
+    },
+    {
+      "id": 56,
+      "question": "'Brief' শব্দটির synonym হচ্ছে ----",
+      "options": ["Mental", "Momentary", "Endless", "Lasting"],
+      "answer": "Momentary"
+    },
+    {
+      "id": 57,
+      "question": "What is the antonym of 'Pessimism' ?",
+      "options": ["Positivism", "Optimism", "Primitivism", "Aestheticism"],
+      "answer": "Optimism"
+    },
+    {
+      "id": 58,
+      "question": "'Achilles heel' means -",
+      "options": [
+        "A heel of Achilles",
+        "The fault of Achilles",
+        "Minor fault",
+        "The fault which is small but can cause a person's fall"
+      ],
+      "answer": "The fault which is small but can cause a person's fall"
+    },
+    {
+      "id": 59,
+      "question": "'Fictitious' means",
+      "options": ["Full of facts", "Factual", "Artificial", "True"],
+      "answer": "Artificial"
+    },
+    {
+      "id": 60,
+      "question": "What is the antonym of \"Expel\" ?",
+      "options": ["Banish", "Dismiss", "Eject", "Admit"],
+      "answer": "Admit"
+    },
+    {
+      "id": 71,
+      "question": "A 'congenial' work environment enables a worker to perform better (find out synonym).",
+      "options": ["Meticulous", "Friendly", "Solitary", "Easy", "Challenging"],
+      "answer": "Friendly"
+    },
+    {
+      "id": 72,
+      "question": "I am convinced --- the necessity of prudence. বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["with", "on", "in", "of"],
+      "answer": "of"
+    },
+    {
+      "id": 73,
+      "question": "I have been suffering --- fever for the last two days.",
+      "options": ["with", "from", "in", "of"],
+      "answer": "from"
+    },
+    {
+      "id": 74,
+      "question": "These days everybody complains --- pollution.",
+      "options": ["for", "against", "about", "of"],
+      "answer": "about"
+    },
+    {
+      "id": 75,
+      "question": "Which sentence is correct ?",
+      "options": [
+        "A new cabinet has been sworn thin Dhaka",
+        "A new cabinet has been sworn in Dhaka",
+        "A new cabinet has been sworn by in Dhaka",
+        "A new cabinet has sworn in Dhaka"
+      ],
+      "answer": "A new cabinet has been sworn in Dhaka"
+    },
+    {
+      "id": 76,
+      "question": "The word 'Lunar' is related to -",
+      "options": ["Sun", "Light", "Moon", "Earth"],
+      "answer": "Moon"
+    },
+    {
+      "id": 77,
+      "question": "Choose the correct antonym of the word 'Sung'",
+      "options": ["Tight", "New", "Loosed", "Asleep"],
+      "answer": "Asleep"
+    },
+    {
+      "id": 78,
+      "question": "Which of the following four alternatives is not a tree?",
+      "options": ["Pagoda", "Cedar", "Banyan", "Birch"],
+      "answer": "Pagoda"
+    },
+    {
+      "id": 79,
+      "question": "Select the word closest in meaning to the word- রহস্যময়",
+      "options": ["Efficient", "Mysterious", "Tiring", "Magical"],
+      "answer": "Mysterious"
+    },
+    {
+      "id": 80,
+      "question": "Choose the correct preposition. He didn't ask me ----- ; he kept me standing at the door.",
+      "options": ["for", "out", "after", "in"],
+      "answer": "in"
+    },
+    {
+      "id": 81,
+      "question": "His sympathy ---- the poor is praise worthy.",
+      "options": ["for", "with", "towards", "to"],
+      "answer": "for"
+    },
+    {
+      "id": 82,
+      "question": "Nipa as well as her brothers (come) to me.",
+      "options": ["have come", "are coming", "was came", "has come"],
+      "answer": "has come"
+    },
+    {
+      "id": 83,
+      "question": "The word 'Odd' means",
+      "options": ["Universal", "Huge", "Average", "Strange"],
+      "answer": "Strange"
+    },
+    {
+      "id": 84,
+      "question": "The word ‘omnivorous’ means:",
+      "options": [
+        "eating all types of food",
+        "eating only fruits",
+        "eating only meat",
+        "eating grass and plants only"
+      ],
+      "answer": "eating all types of food"
+    },
+    {
+      "id": 85,
+      "question": "'Frugal' means -",
+      "options": ["waste", "wild", "economical", "hasty", "none of them"],
+      "answer": "economical"
+    },
+    {
+      "id": 86,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "I wish I was you",
+        "I wish I were you",
+        "I wish I am you",
+        "I wish I are you"
+      ],
+      "answer": "I wish I were you"
+    },
+    {
+      "id": 87,
+      "question": "Ideal businessman is he who ---",
+      "options": [
+        "Looks to his own interests",
+        "Look employer and worker interests",
+        "Looks community interests",
+        "Integrates interests of the groups above"
+      ],
+      "answer": "Integrates interests of the groups above"
+    },
+    {
+      "id": 88,
+      "question": "Do not make a noise while your father -----",
+      "options": ["Is sleeping", "Has slept", "Asleep", "Is being asleep"],
+      "answer": "Is sleeping"
+    },
+    {
+      "id": 89,
+      "question": "The synonym of 'Franchise'",
+      "options": ["Privilege", "Utility", "French", "Frankness"],
+      "answer": "Privilege"
+    },
+    {
+      "id": 90,
+      "question": "If you concede an idea you -",
+      "options": [
+        "Contradict it",
+        "Brag about it",
+        "Think it over carefully",
+        "Insist on its importance",
+        "Acknowledge it as true"
+      ],
+      "answer": "Acknowledge it as true"
+    },
+    {
+      "id": 91,
+      "question": "It is in human not only to kill but also to purchase the 'migratory' birds.",
+      "options": ["Beautiful", "Native", "Temporary", "Bad", "None of these"],
+      "answer": "Temporary"
+    },
+    {
+      "id": 92,
+      "question": "'Blockbuster' means ---?",
+      "options": [
+        "A large solid piece of stone",
+        "A device to cut off a person's head as a punishment",
+        "Something that makes movement difficult",
+        "A powerful explosive to demolish buildings"
+      ],
+      "answer": "A powerful explosive to demolish buildings"
+    },
+    {
+      "id": 93,
+      "question": "The synonym for 'Abortive' -",
+      "options": ["Fruitful", "Familiar", "Unsuccessful", "Consuming"],
+      "answer": "Unsuccessful"
+    },
+    {
+      "id": 94,
+      "question": "Meteorology is the study of -",
+      "options": [
+        "Birds and animals",
+        "The earth's atmosphere and its changes",
+        "The universe",
+        "Human behavior"
+      ],
+      "answer": "The earth's atmosphere and its changes"
+    },
+    {
+      "id": 95,
+      "question": "--- amazing song haunted me for a long time.",
+      "options": ["These", "Those", "Thus", "That"],
+      "answer": "That"
+    },
+    {
+      "id": 96,
+      "question": "The boys played football --- the rain.",
+      "options": ["Under", "Amidst", "In", "During"],
+      "answer": "During"
+    },
+    {
+      "id": 97,
+      "question": "I am fed up ----- waiting for her to telephone.",
+      "options": ["With", "In", "By", "For"],
+      "answer": "With"
+    },
+    {
+      "id": 98,
+      "question": "Focus is opposite to -",
+      "options": [
+        "Disappear",
+        "Acquired",
+        "Redundant",
+        "Sterile",
+        "None of these"
+      ],
+      "answer": "None of these"
+    },
+    {
+      "id": 99,
+      "question": "Dhaka is a big city. এখানে City শব্দটি কোন প্রকারের Noun.",
+      "options": ["Proper", "Common", "Collective", "Material"],
+      "answer": "Common"
+    },
+    {
+      "id": 100,
+      "question": "Which of the following word is the correct synonym of 'Scurrilous' ?",
+      "options": ["Compartmentalize", "Derogatory", "Clippers", "Bitty"],
+      "answer": "Derogatory"
+    },
+    {
+      "id": 101,
+      "question": "Select the alternative which best expresses the meaning of the given sentences: 'We were no more surprised than Rahman'",
+      "options": [
+        "We were less surprised than Rahman",
+        "We were all surprised",
+        "Rahman was less surprised than us",
+        "We were as surprised as Rahman"
+      ],
+      "answer": "We were as surprised as Rahman"
+    },
+    {
+      "id": 102,
+      "question": "The appropriate meaning of the word 'Polygamy' is --",
+      "options": [
+        "The crime of marrying somebody when you are still married to somebody",
+        "The custom of being married to only one person at a particular time",
+        "Custom of having more than one husband at the same time",
+        "Custom of having more than one wife at the same time"
+      ],
+      "answer": "Custom of having more than one wife at the same time"
+    },
+    {
+      "id": 103,
+      "question": "If a substance is cohesive, it tends of -",
+      "options": [
+        "Retain heat",
+        "Bend without too much difficulties",
+        "Stick together",
+        "Break easily"
+      ],
+      "answer": "Stick together"
+    },
+    {
+      "id": 104,
+      "question": "The synonym of 'Tremor' is -",
+      "options": ["Struggle", "Revolt", "Shake", "Departure"],
+      "answer": "Shake"
+    },
+    {
+      "id": 105,
+      "question": "Vague is opposite to -",
+      "options": [
+        "Expressive",
+        "Felicitous",
+        "Well-defined",
+        "Provocation",
+        "None of these"
+      ],
+      "answer": "Well-defined"
+    },
+    {
+      "id": 106,
+      "question": "Fill in the gap with proper word: This pen is inferior ---- your pen.",
+      "options": ["Than", "That", "From", "To"],
+      "answer": "To"
+    },
+    {
+      "id": 107,
+      "question": "The girl prides herself ---- her beauty.",
+      "options": ["In", "For", "Of", "On"],
+      "answer": "On"
+    },
+    {
+      "id": 108,
+      "question": "When one is 'Pragmatic' he is being……..",
+      "options": ["Wasteful", "Productive", "Practical", "Fussy"],
+      "answer": "Practical"
+    },
+    {
+      "id": 109,
+      "question": "When your plane ----, please call me. Complete the sentence by using the appropriate word",
+      "options": ["Will arrive", "Arrives", "Arrived", "Will have arrived"],
+      "answer": "Arrives"
+    },
+    {
+      "id": 110,
+      "question": "Few people would care to take the negative side of the preposition that the women of the world are --- & ---",
+      "options": ["At", "With", "Of", "In"],
+      "answer": "With"
+    },
+    {
+      "id": 171,
+      "question": "'Mitigated' is most nearly opposite to -",
+      "options": ["Repecated", "Raised", "Terminated", "Aggravated", "Risen"],
+      "answer": "Aggravated"
+    },
+    {
+      "id": 172,
+      "question": "Synonyms of Charlatan",
+      "options": ["Bilingual", "Deserter", "Imposter", "Revamp"],
+      "answer": "Imposter"
+    },
+    {
+      "id": 173,
+      "question": "His friends mourned ---- the death ---- his mother.",
+      "options": ["On , over", "At , of", "Over , of", "Of , of"],
+      "answer": "At , of"
+    },
+    {
+      "id": 174,
+      "question": "'You look terrific in that dress!' The word 'terrific' in the above sentence means –",
+      "options": ["Excellent", "Funny", "Very ugly", "Horrible"],
+      "answer": "Excellent"
+    },
+    {
+      "id": 175,
+      "question": "Frustration results --- violence.",
+      "options": ["At", "In", "Of", "With"],
+      "answer": "In"
+    },
+    {
+      "id": 176,
+      "question": "Proclaim' means:",
+      "options": ["Pronounce", "Declare", "Announce", "Circulate"],
+      "answer": "Announce"
+    },
+    {
+      "id": 177,
+      "question": "Select the antonym of 'Bless' ?",
+      "options": ["Blame", "Abuse", "Sool", "Curse"],
+      "answer": "Curse"
+    },
+    {
+      "id": 178,
+      "question": "The antonym of the word 'Somber' is",
+      "options": ["Bright", "Gloomy", "Dismal", "Dark"],
+      "answer": "Bright"
+    },
+    {
+      "id": 179,
+      "question": "There is a bridge ---- the river.",
+      "options": ["On", "Over", "Ford", "Above"],
+      "answer": "Over"
+    },
+    {
+      "id": 180,
+      "question": "The word ‘sibling’ means-",
+      "options": ["A brother", "A sister", "A brother or sister", "An infant"],
+      "answer": "A brother or sister"
+    },
+    {
+      "id": 181,
+      "question": "The Headmaster is ---- the School .",
+      "options": ["In", "On", "Of", "With"],
+      "answer": "In"
+    },
+    {
+      "id": 182,
+      "question": "The synonym of 'Termination' is -",
+      "options": ["End", "Rare", "Cultivation", "Activation", "Modification"],
+      "answer": "End"
+    },
+    {
+      "id": 183,
+      "question": "Walt Whitman was the great Emancipator of the form and spirit of American poetry.",
+      "options": ["Master", "Liberator", "Enthusiast", "Designer", "Follower"],
+      "answer": "Liberator"
+    },
+    {
+      "id": 184,
+      "question": "Synonym of 'Inception' is -",
+      "options": ["Insertion", "Progression", "Starting", "Innovation"],
+      "answer": "Starting"
+    },
+    {
+      "id": 185,
+      "question": "Give the synonym of 'Bombastic' -",
+      "options": ["Sensitive", "Pompous", "Rapid", "Sufficient"],
+      "answer": "Pompous"
+    },
+    {
+      "id": 186,
+      "question": "Wordsworth introduced the readers --- a new kind of poetry.",
+      "options": ["With", "At", "To", "By"],
+      "answer": "To"
+    },
+    {
+      "id": 187,
+      "question": "'Exonerate' means -",
+      "options": ["Absolve", "Praise", "Condemn", "Defer"],
+      "answer": "Absolve"
+    },
+    {
+      "id": 188,
+      "question": "One should cling ---- one's plan.",
+      "options": ["With", "To", "Of", "For"],
+      "answer": "To"
+    },
+    {
+      "id": 189,
+      "question": "The man was charged --- theft.",
+      "options": ["At", "In", "Of", "With"],
+      "answer": "With"
+    },
+    {
+      "id": 190,
+      "question": "'Amplitude' শব্দের বাংলা পরিভাষা নিম্নের কোনটি ?",
+      "options": ["বিস্তৃত", "বিস্তার", "প্রসারিত"],
+      "answer": "বিস্তার"
+    },
+    {
+      "id": 191,
+      "question": "English (to speak) in many parts of the world.",
+      "options": [
+        "English is spoken in many parts of the world.",
+        "The English is spoken in many parts of the world.",
+        "English is being spoken in many parts of the world."
+      ],
+      "answer": "English is spoken in many parts of the world."
+    },
+    {
+      "id": 192,
+      "question": "What is the meaning of the word 'Belated'?",
+      "options": ["Complaining", "Off hand", "Weak", "Tardy"],
+      "answer": "Tardy"
+    },
+    {
+      "id": 193,
+      "question": "The man was accused --- murder.",
+      "options": ["To", "Of", "With", "For"],
+      "answer": "Of"
+    },
+    {
+      "id": 194,
+      "question": "First language means the --- language.",
+      "options": ["Important", "Main", "Natural", "Official"],
+      "answer": "Natural"
+    },
+    {
+      "id": 195,
+      "question": "I wish today ----- Friday.",
+      "options": ["Is", "Was", "Were", "Will be"],
+      "answer": "Were"
+    },
+    {
+      "id": 196,
+      "question": "'Large' এর বিপরীত শব্দ -------?",
+      "options": ["Big", "Small", "Wasted", "Capacious"],
+      "answer": "Small"
+    },
+    {
+      "id": 197,
+      "question": "Our school is ---- the main road.",
+      "options": ["On", "In", "To", "By"],
+      "answer": "On"
+    },
+    {
+      "id": 198,
+      "question": "A person who sells fruits and vegetables -",
+      "options": [
+        "A vegetable man",
+        "A vegetarian",
+        "A green grocer",
+        "A hawker"
+      ],
+      "answer": "A green grocer"
+    },
+    {
+      "id": 199,
+      "question": "Choose the correct synonym for 'Buccaneer' ?",
+      "options": ["Bachelor", "Presenter", "Pirated", "Butcher"],
+      "answer": "Pirated"
+    },
+    {
+      "id": 200,
+      "question": "'Conduit' is nearest meaning to -",
+      "options": [
+        "Water tape",
+        "Pipe",
+        "Electricity cable",
+        "Moisture on windows panes"
+      ],
+      "answer": "Pipe"
+    },
+    {
+      "id": 201,
+      "question": "He is proud --- his position.",
+      "options": ["Of", "For", "At", "In"],
+      "answer": "Of"
+    },
+    {
+      "id": 202,
+      "question": "A person who enters without any invitation",
+      "options": ["Burglar", "Intruder", "Thief", "Vandal"],
+      "answer": "Intruder"
+    },
+    {
+      "id": 203,
+      "question": "Time after twilight and before night --- ?",
+      "options": ["Evening", "Dawn", "Dusk", "Eclipse"],
+      "answer": "Dusk"
+    },
+    {
+      "id": 204,
+      "question": "He is innocent ---- the charge.",
+      "options": ["With", "To", "Of", "At"],
+      "answer": "Of"
+    },
+    {
+      "id": 205,
+      "question": "What word is the right antonym for 'initiative'?",
+      "options": ["Apathy", "Indolence", "Enterprise", "Activity"],
+      "answer": "Indolence"
+    },
+    {
+      "id": 206,
+      "question": "The synonym of 'Restricted' is -",
+      "options": ["Confidential", "Accessible", "Communique", "Report"],
+      "answer": "Confidential"
+    },
+    {
+      "id": 207,
+      "question": "What is the most appropriate word for the blank in the following sentence: 'One who creates fear as a weapon for power is a ---",
+      "options": ["Terrorist", "Militant", "Extremist", "Anarchist"],
+      "answer": "Anarchist"
+    },
+    {
+      "id": 208,
+      "question": "Mistakes should be pointed ---- in a student's work.",
+      "options": ["Up", "Upon", "Out", "On"],
+      "answer": "Out"
+    },
+    {
+      "id": 209,
+      "question": "Something which is obnoxious means that it is----",
+      "options": [
+        "Very dangerous",
+        "Very pleasant",
+        "Very ugly",
+        "Very unpleasant"
+      ],
+      "answer": "Very unpleasant"
+    },
+    {
+      "id": 210,
+      "question": "He has paid the penalty --- his crimes --- five years in prison.",
+      "options": ["For , with", "At , by", "About , at", "Of , of"],
+      "answer": "For , with"
+    },
+    {
+      "id": 211,
+      "question": "Complete the sentence : As the sun ---, I decided to go out.",
+      "options": ["Shines", "Has shone", "Shined", "Was shining"],
+      "answer": "Was shining"
+    },
+    {
+      "id": 212,
+      "question": "What would be the best antonym of 'hibernate'?",
+      "options": ["Dormancy", "Sluggishness", "Liveliness", "Democracy"],
+      "answer": "Liveliness"
+    },
+    {
+      "id": 213,
+      "question": "The word 'Nuptial' is related to -",
+      "options": ["Marriage", "Night", "Sleep", "Love"],
+      "answer": "Marriage"
+    },
+    {
+      "id": 214,
+      "question": "Ended in Fascio means -",
+      "options": [
+        "Complete failure",
+        "On the verge of failure",
+        "Yet to be failure",
+        "None of them"
+      ],
+      "answer": "Complete failure"
+    },
+    {
+      "id": 215,
+      "question": "I have great respect ---- him.",
+      "options": ["Of", "In", "For", "To"],
+      "answer": "For"
+    },
+    {
+      "id": 216,
+      "question": "The meaning of the word 'Euphemism'?",
+      "options": [
+        "Vague idea",
+        "In offensive expression",
+        "A sonnet",
+        "Wise saying"
+      ],
+      "answer": "In offensive expression"
+    },
+    {
+      "id": 217,
+      "question": "He is learning --- the wall .",
+      "options": ["With", "Upon", "To", "Against"],
+      "answer": "Against"
+    },
+    {
+      "id": 218,
+      "question": "Meaning of the word 'Shun' is -",
+      "options": ["Pursue", "Pure", "Actual", "Avoid"],
+      "answer": "Avoid"
+    },
+    {
+      "id": 219,
+      "question": "Synonym of 'emancipate' -",
+      "options": ["Set free", "Take back", "Make worse", "Embolden"],
+      "answer": "Set free"
+    },
+    {
+      "id": 220,
+      "question": "But for your timely help , I would failed and I am forever indebted to you .",
+      "options": ["Of", "Have", "Without", "Since"],
+      "answer": "Have"
+    },
+    {
+      "id": 221,
+      "question": "A synonym for 'Hostility' -",
+      "options": ["Enmity", "Cruelty", "Hospitality", "Friendship"],
+      "answer": "Enmity"
+    },
+    {
+      "id": 222,
+      "question": "Which word is not synonymous of 'Belief' ?",
+      "options": ["Credence", "Incredible", "Faith", "Conviction"],
+      "answer": "Incredible"
+    },
+    {
+      "id": 223,
+      "question": "'Rule of thumb' means--",
+      "options": [
+        "a rule based on science",
+        "a bad rule",
+        "a rule that must be obeyed",
+        "a rule based on past experience rather than on theory"
+      ],
+      "answer": "a rule based on past experience rather than on theory"
+    },
+    {
+      "id": 224,
+      "question": "The man is involved ---- the affair. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে --",
+      "options": ["on", "with", "in", "to"],
+      "answer": "in"
+    },
+    {
+      "id": 225,
+      "question": "One who possesses many talents -",
+      "options": ["Versatile", "Gifted", "Exceptional", "Nubile"],
+      "answer": "Versatile"
+    },
+    {
+      "id": 226,
+      "question": "'Anonymous' -এর সঠিক বাংলা নিচের কোনটি ?",
+      "options": ["অনামা", "অজ্ঞাত", "এলোমেলো"],
+      "answer": "অনামা"
+    },
+    {
+      "id": 227,
+      "question": "Are you doing anything special --- the weekend ?",
+      "options": ["in", "for", "on", "at"],
+      "answer": "on"
+    },
+    {
+      "id": 228,
+      "question": "I took a map with me, as I didn't want to ---- my way on the journey.",
+      "options": [
+        "loose (ঢিলা)",
+        "lose (হারানো)",
+        "lost (হারিয়েছিল)",
+        "loss (ক্ষতি)"
+      ],
+      "answer": "lose (হারানো)"
+    },
+    {
+      "id": 229,
+      "question": "What is the synonym of the word 'Economical' ?",
+      "options": ["Meager", "Miser", "Frugal", "Expensive"],
+      "answer": "Frugal"
+    },
+    {
+      "id": 230,
+      "question": "There is no alternative ---- training.",
+      "options": ["to", "for", "than", "of"],
+      "answer": "to"
+    },
+    {
+      "id": 231,
+      "question": "The antonym of the word 'Eternal' is",
+      "options": ["Permanent", "Essential", "Temporary", "Unnecessary"],
+      "answer": "Temporary"
+    },
+    {
+      "id": 232,
+      "question": "Immense এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Small", "Proud", "Enormous", "Boastful"],
+      "answer": "Enormous"
+    },
+    {
+      "id": 233,
+      "question": "Bangladesh was liberated --- 1971.",
+      "options": ["on", "at", "before", "in"],
+      "answer": "in"
+    },
+    {
+      "id": 234,
+      "question": "Which of the following is not a meaning of the word \"Rural\" ?",
+      "options": ["Country", "Rustic", "Pastoral", "Bucolic", "Botany"],
+      "answer": "Botany"
+    },
+    {
+      "id": 235,
+      "question": "Which one is the antonym 'Pacific' ?",
+      "options": ["Calm", "Courageous", "Zealous", "Agitated"],
+      "answer": "Agitated"
+    },
+    {
+      "id": 236,
+      "question": "One who eats everything is called -",
+      "options": ["Omniscient", "Omnipotent", "Omnivorous", "Omnipresent"],
+      "answer": "Omnivorous"
+    },
+    {
+      "id": 237,
+      "question": "Indigenous is opposite to -",
+      "options": [
+        "thoughtful",
+        "dispersed",
+        "link",
+        "activate",
+        "none of them"
+      ],
+      "answer": "none of them"
+    },
+    {
+      "id": 238,
+      "question": "I always confide --- you. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["in", "at", "on", "with"],
+      "answer": "in"
+    },
+    {
+      "id": 239,
+      "question": "Camouflage' means:",
+      "options": ["disguise", "difficult", "heavy", "dangerous"],
+      "answer": "disguise"
+    },
+    {
+      "id": 240,
+      "question": "'Gain' এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Promote", "Advantage", "Fulfill", "Trouble"],
+      "answer": "Advantage"
+    },
+    {
+      "id": 241,
+      "question": "Choose the correct antonym for the word 'Obese'?",
+      "options": ["Fat", "Slim", "Thick", "Goal"],
+      "answer": "Slim"
+    },
+    {
+      "id": 242,
+      "question": "EXCESS is most nearly similar in meaning to -",
+      "options": ["Durable", "Exploit", "Continuous", "Surplus"],
+      "answer": "Surplus"
+    },
+    {
+      "id": 243,
+      "question": "'Deformed' শব্দের synonym হচ্ছে -",
+      "options": ["Crippled", "Beautiful", "Determined", "Handsome"],
+      "answer": "Crippled"
+    },
+    {
+      "id": 244,
+      "question": "Antonym of 'Wax\" is -",
+      "options": ["Peace", "Wane", "Cruel", "Agree"],
+      "answer": "Wane"
+    },
+    {
+      "id": 245,
+      "question": "The Queen is said --- Australia next year .",
+      "options": [
+        "to have visited",
+        "to visit",
+        "to be visiting",
+        "that she will visit"
+      ],
+      "answer": "to be visiting"
+    },
+    {
+      "id": 246,
+      "question": "He won a victory --- his rivals.",
+      "options": ["over", "against", "from", "off"],
+      "answer": "over"
+    },
+    {
+      "id": 247,
+      "question": "বাংলায় \"ছড়া\" শব্দের ইংরেজী ---",
+      "options": ["Poem", "Poetry", "Lyric", "Rhyme"],
+      "answer": "Rhyme"
+    },
+    {
+      "id": 248,
+      "question": "'I help you '. Here help implies -",
+      "options": ["Promise", "Threat", "Command", "Simple futurity"],
+      "answer": "Promise"
+    },
+    {
+      "id": 249,
+      "question": "The 'anthropology' is related to --",
+      "options": [
+        "Music",
+        "Philosophy",
+        "The study of mathematics",
+        "The study of mankind"
+      ],
+      "answer": "The study of mankind"
+    },
+    {
+      "id": 250,
+      "question": "The English took them for Egyptians means -",
+      "options": [
+        "The English considered them to be Egyptians",
+        "The English took them to the Egyptians",
+        "The English were taken in by the Egyptians",
+        "The English brought them as far as to Egypt"
+      ],
+      "answer": "The English considered them to be Egyptians"
+    },
+    {
+      "id": 251,
+      "question": "Choose the alternatives that best replace the underlined words in the following sentences.  In Bangladesh, gender discrimination deters population control and poverty alleviation.",
+      "options": ["justify", "impede", "progress", "help", "stimulate"],
+      "answer": "impede"
+    },
+    {
+      "id": 252,
+      "question": "I don't think you will have any difficulty --- a driving license.",
+      "options": ["to get", "in getting", "for getting", "get"],
+      "answer": "in getting"
+    },
+    {
+      "id": 253,
+      "question": "Choose the answer that is closest in meaning to the following sentence:\"Despite the great difference in size,shape and function,all human cells have the same 46 chromosomes\".",
+      "options": [
+        "All human cells are the same because the 46 chromosomes govern size, shape and function",
+        "Difference in size, shape and function are not very great because all human cells have the same 46 chromosomes",
+        "The size, shape and function of human cells are the same, but 46 chromosomes are different",
+        "Although the 46 chromosomes are the same in all human cells, there are differences in the size, shape and function"
+      ],
+      "answer": "Although the 46 chromosomes are the same in all human cells, there are differences in the size, shape and function"
+    },
+    {
+      "id": 254,
+      "question": "The antonym of 'Organize' is -",
+      "options": ["gathering", "scattering", "dispersing", "disorganize"],
+      "answer": "disorganize"
+    },
+    {
+      "id": 255,
+      "question": "Now a days many villages are lit ---- Electricity.",
+      "options": ["with", "by", "from", "on"],
+      "answer": "by"
+    },
+    {
+      "id": 256,
+      "question": "Choose the correct antonym for the word 'Inane' -",
+      "options": ["Mellow", "Wise", "Intoxicated", "Silent"],
+      "answer": "Wise"
+    },
+    {
+      "id": 257,
+      "question": "The word 'Rendezvous' means",
+      "options": [
+        "An appointed meeting place for troops",
+        "An appointed meeting place for teachers",
+        "An appointed meeting place for political leaders",
+        "An appointed meeting place for students"
+      ],
+      "answer": "An appointed meeting place for troops"
+    },
+    {
+      "id": 258,
+      "question": "'Superstitious' means",
+      "options": ["যাদুবিদ্যা", "কুসংস্কারচ্ছন্ন", "সেতুবন্ধন", "উপাসনা"],
+      "answer": "কুসংস্কারচ্ছন্ন"
+    },
+    {
+      "id": 259,
+      "question": "Had I been a millionare I (establish) a hospital.",
+      "options": [
+        "established",
+        "would have established",
+        "would established",
+        "would have been established"
+      ],
+      "answer": "would have established"
+    },
+    {
+      "id": 260,
+      "question": "Manifesto' means",
+      "options": ["Punishment", "Comment", "Judgement", "Remark"],
+      "answer": "Judgement"
+    },
+    {
+      "id": 261,
+      "question": "She has great fondness ---- classical music.",
+      "options": ["of", "for", "in", "with"],
+      "answer": "for"
+    },
+    {
+      "id": 262,
+      "question": "We should not depend ---- others.",
+      "options": ["by", "in", "on", "with"],
+      "answer": "on"
+    },
+    {
+      "id": 263,
+      "question": "''Raj wasn't the paragon of virtue Rashida had expected'' means -",
+      "options": [
+        "Rashida was disappointed in Raj",
+        "Rashida was happy with Raj",
+        "Rashida was not disappointed in Raj",
+        "Rashida approved of Raj"
+      ],
+      "answer": "Rashida was disappointed in Raj"
+    },
+    {
+      "id": 264,
+      "question": "He was debarred form --- the the examination.",
+      "options": ["taking", "sitting", "appearing", "regard"],
+      "answer": "appearing"
+    },
+    {
+      "id": 265,
+      "question": "What is the general term for psychological treatment",
+      "options": [
+        "Psycholog",
+        "Psychopathyc",
+        "Psychotherapy",
+        "Psychoanalysis"
+      ],
+      "answer": "Psychotherapy"
+    },
+    {
+      "id": 266,
+      "question": "The synonym of 'Insane' is -",
+      "options": ["Stupid", "Crazy", "Senseless", "Indolent"],
+      "answer": "Crazy"
+    },
+    {
+      "id": 267,
+      "question": "'Cataclysm' means",
+      "options": [
+        "Disorder",
+        "Anarchy",
+        "Violence",
+        "Sudden violent change or disaster"
+      ],
+      "answer": "Sudden violent change or disaster"
+    },
+    {
+      "id": 268,
+      "question": "You are not amenable -- reason বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["from", "to", "of", "into"],
+      "answer": "to"
+    },
+    {
+      "id": 269,
+      "question": "One versed in horsemanship is called -",
+      "options": ["Horseman", "Rider", "Jockey", "Lancer"],
+      "answer": "Jockey"
+    },
+    {
+      "id": 270,
+      "question": "Every driver must be held --- his own actions.",
+      "options": [
+        "responsible for",
+        "responsible to",
+        "liable to",
+        "blamed for"
+      ],
+      "answer": "responsible for"
+    },
+    {
+      "id": 271,
+      "question": "What is the synonym of the word 'Effigy' ?",
+      "options": ["Proxy", "Profundity", "Boldness", "Dummy"],
+      "answer": "Dummy"
+    },
+    {
+      "id": 272,
+      "question": "What is the synonym of the word 'Delude' ?",
+      "options": ["Demand", "Permit", "Aggravate", "Deceive"],
+      "answer": "Deceive"
+    },
+    {
+      "id": 273,
+      "question": "He is blind --- his son's faults.",
+      "options": ["of", "to", "for", "with"],
+      "answer": "to"
+    },
+    {
+      "id": 274,
+      "question": "Antonym of the word 'Meticulous' is -",
+      "options": ["Careless", "Meritorious", "Ordinary", "Careful"],
+      "answer": "Careless"
+    },
+    {
+      "id": 275,
+      "question": "The synonym of 'Satisfaction' is -",
+      "options": [
+        "Triumph",
+        "Achievement",
+        "Conquer",
+        "Contentment",
+        "Pleasure"
+      ],
+      "answer": "Contentment"
+    },
+    {
+      "id": 276,
+      "question": "'Ruminant' means",
+      "options": ["Cud-chewing animal", "Soup", "Gossip", "Noise maker"],
+      "answer": "Cud-chewing animal"
+    },
+    {
+      "id": 277,
+      "question": "'Civil Society'- এর পরিভাষা নিচের কোনটি ?",
+      "options": ["সভ্য সমাজ", "সুশীল সমাজ", "বেসামরিক সমাজ", "কোনটিই নয়"],
+      "answer": "সুশীল সমাজ"
+    },
+    {
+      "id": 278,
+      "question": "When John looked at the list he saw that his name had been 'ommited'",
+      "options": ["Passed out", "Put out", "Rubbed out", "Left out"],
+      "answer": "Left out"
+    },
+    {
+      "id": 279,
+      "question": "The boy takes --- his grandfather.",
+      "options": ["to", "with", "up", "after"],
+      "answer": "after"
+    },
+    {
+      "id": 280,
+      "question": "Let us begin by looking at the (minutes) of the meeting. Here the bracket close word means -",
+      "options": [
+        "time record",
+        "time frame",
+        "written record",
+        "written analysis"
+      ],
+      "answer": "written record"
+    },
+    {
+      "id": 281,
+      "question": "The antonym of \"Repulse\" is -",
+      "options": ["Reside", "Emphasize", "Attract", "Impulse"],
+      "answer": "Attract"
+    },
+    {
+      "id": 282,
+      "question": "I never apprehensive --- my success.",
+      "options": ["for", "of", "at", "with"],
+      "answer": "of"
+    },
+    {
+      "id": 283,
+      "question": "Find the correct synonym of the word 'discontented'.",
+      "options": ["contented", "happy", "satisfied", "joyful", "miserable"],
+      "answer": "miserable"
+    },
+    {
+      "id": 284,
+      "question": "Which one is dissimilar ?",
+      "options": ["Thought", "Asc", "Into", "But"],
+      "answer": "Into"
+    },
+    {
+      "id": 285,
+      "question": "Choose the best synonym for the words. World War-2 \"broke out\" in 1939.",
+      "options": ["Finished", "Started", "Became worse", "Was cancelled"],
+      "answer": "Started"
+    },
+    {
+      "id": 286,
+      "question": "What is the antonym of 'Sympathy' ?",
+      "options": ["Antipathetic", "Antipathy", "Adversity", "Oppose"],
+      "answer": "Antipathy"
+    },
+    {
+      "id": 287,
+      "question": "It is difficult to part ---- a long held belief.",
+      "options": ["from", "for", "up", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 288,
+      "question": "The ability to tell interesting stories makes one -",
+      "options": ["An intrepreneur", "A connoisseur", "A raconteur", "A dandy"],
+      "answer": "A raconteur"
+    },
+    {
+      "id": 289,
+      "question": "'I never interfere ---- my grown up children,' Mrs. Chowdhury said.",
+      "options": ["in", "with", "about", "at"],
+      "answer": "with"
+    },
+    {
+      "id": 290,
+      "question": "To foresee is to -",
+      "options": ["Remember", "Forget", "See four of something", "Anticipate"],
+      "answer": "Anticipate"
+    },
+    {
+      "id": 291,
+      "question": "Currently the banking sector is one of --- largest job providers in Bangladesh.",
+      "options": [
+        "the",
+        "credit",
+        "financial",
+        "remuneration",
+        "None of these"
+      ],
+      "answer": "the"
+    },
+    {
+      "id": 292,
+      "question": "Choose the right set of would for the blank: Kajal returned ---- London--- plane ---- Dhaka.",
+      "options": [
+        "in , by , from",
+        "from , by , to",
+        "to , by , from",
+        "at , by , in"
+      ],
+      "answer": "to , by , from"
+    },
+    {
+      "id": 293,
+      "question": "----- the letter tonight,she will post it tomorrow.",
+      "options": ["To finish", "Finishing", "Finish", "Finished"],
+      "answer": "Finishing"
+    },
+    {
+      "id": 294,
+      "question": "A fair little girl sat under a tree. Here preposition is ----?",
+      "options": ["fair", "little girl", "under", "tree"],
+      "answer": "under"
+    },
+    {
+      "id": 295,
+      "question": "He is superior --- me.",
+      "options": ["than", "with", "to", "of"],
+      "answer": "to"
+    },
+    {
+      "id": 296,
+      "question": "Julia has been ill ---- three months.",
+      "options": ["since", "about", "in", "for"],
+      "answer": "for"
+    },
+    {
+      "id": 297,
+      "question": "Choose the correct synonym for 'Embezzle'.",
+      "options": ["Impede", "Usurp", "Wield", "Defalcate"],
+      "answer": "Usurp"
+    },
+    {
+      "id": 298,
+      "question": "What would be the right synonym for initiative?",
+      "options": ["Apathy", "Indolence", "Enterprise", "Activity"],
+      "answer": "Enterprise"
+    },
+    {
+      "id": 299,
+      "question": "'Bizarre' means -",
+      "options": ["Strange", "Calamity", "Fatal", "Naive"],
+      "answer": "Strange"
+    },
+    {
+      "id": 300,
+      "question": "The synonym of the word 'Authentic' is -",
+      "options": ["Correct", "Genuine", "Real", "Exact", "True"],
+      "answer": "Genuine"
+    },
+    {
+      "id": 301,
+      "question": "They worked hard to complete the task --- time.",
+      "options": ["on", "in", "within", "by"],
+      "answer": "within"
+    },
+    {
+      "id": 302,
+      "question": "'Stalwart' means in politics -",
+      "options": [
+        "Bad supporter",
+        "Reliable supporter",
+        "Light supporter",
+        "No supporter"
+      ],
+      "answer": "Reliable supporter"
+    },
+    {
+      "id": 303,
+      "question": "He is absorbed ---- throught. বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["to", "in", "at", "for"],
+      "answer": "in"
+    },
+    {
+      "id": 304,
+      "question": "The burglar jumped --- the compound wall. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["on", "at", "over", "in"],
+      "answer": "over"
+    },
+    {
+      "id": 305,
+      "question": "It was a bungled effort to restore order. 'Bungled' here means -",
+      "options": ["United", "Unsuccessful", "Unprecedented", "Understated"],
+      "answer": "Unsuccessful"
+    },
+    {
+      "id": 306,
+      "question": "I still adhere ----- my BCS preposition.",
+      "options": ["to", "with", "in", "for"],
+      "answer": "to"
+    },
+    {
+      "id": 307,
+      "question": "The opposite word ' Sluggish' -",
+      "options": ["Animated", "Dull", "Heavy", "Slow"],
+      "answer": "Animated"
+    },
+    {
+      "id": 308,
+      "question": "The antonym for 'Recalcitrant' is -",
+      "options": ["Compliant", "Passive", "Indifferent", "Careful"],
+      "answer": "Compliant"
+    },
+    {
+      "id": 309,
+      "question": "The ship was scuttled কথাটির অর্থ হলো -",
+      "options": [
+        "জাহাজটিতে বোমা নিক্ষেপ করা হলো",
+        "জাহাজটি ডুবানো হলো",
+        "জাহাজটিতে আগুন লাগানো হলো",
+        "জাহাজটি মেরামত করা হলো"
+      ],
+      "answer": "জাহাজটি ডুবানো হলো"
+    },
+    {
+      "id": 310,
+      "question": "Something bought cheaply or for less than usual price is called -",
+      "options": [
+        "A bargain",
+        "An inheritance",
+        "A reward",
+        "A refund",
+        "An interest"
+      ],
+      "answer": "A bargain"
+    },
+    {
+      "id": 311,
+      "question": "Who will account ---- the loss?",
+      "options": ["at", "of", "for", "about"],
+      "answer": "for"
+    },
+    {
+      "id": 312,
+      "question": "The teacher made the children --- the book.",
+      "options": ["read", "to read", "reading", "reads"],
+      "answer": "read"
+    },
+    {
+      "id": 313,
+      "question": "He has an antipathy ---- smoking.",
+      "options": ["for", "to", "with", "in"],
+      "answer": "to"
+    },
+    {
+      "id": 314,
+      "question": "Choose the best translation of ' কর্তৃপক্ষ তাকে তিরস্কার করল' from the alternatives below ----?",
+      "options": [
+        "The authorities criticised him",
+        "The authorities took him to book",
+        "The authorities gave reins to him",
+        "The authorities took him to task"
+      ],
+      "answer": "The authorities took him to task"
+    },
+    {
+      "id": 315,
+      "question": "The antonym of 'Soothe' is -",
+      "options": ["Calm", "Secluded", "Irritated", "Sound"],
+      "answer": "Irritated"
+    },
+    {
+      "id": 316,
+      "question": "The antonym for 'Bonafide' -",
+      "options": ["Honest", "Spacious", "Nauseous", "Similar"],
+      "answer": "Nauseous"
+    },
+    {
+      "id": 317,
+      "question": "I don't mind --- with the cooking but I am not going to wash the dishes.",
+      "options": ["to help", "help", "helping", "for help"],
+      "answer": "helping"
+    },
+    {
+      "id": 318,
+      "question": "The comparison of unlike things using the words like on as is known to be -",
+      "options": ["Metaphor", "Simile", "Alliteration", "Personification"],
+      "answer": "Simile"
+    },
+    {
+      "id": 319,
+      "question": "Magnify is opposite to -",
+      "options": ["Forgive", "Extract", "Reduce", "Electrify"],
+      "answer": "Reduce"
+    },
+    {
+      "id": 320,
+      "question": "Judge found him guilty --- murder.",
+      "options": ["for", "with", "of", "against"],
+      "answer": "of"
+    },
+    {
+      "id": 321,
+      "question": "We recently entered --- an agreement with the inland co-operative society.",
+      "options": ["No preposition", "Upon", "In", "Into"],
+      "answer": "Into"
+    },
+    {
+      "id": 322,
+      "question": "He was guilty --- contempt of court.",
+      "options": ["of", "at", "for", "to"],
+      "answer": "of"
+    },
+    {
+      "id": 323,
+      "question": "What is the synonym of 'Insular' ?",
+      "options": ["Interfering", "Open-minded", "Helpful", "Closed"],
+      "answer": "Closed"
+    },
+    {
+      "id": 324,
+      "question": "The word ''precedence'' means",
+      "options": ["Example", "Priority", "Elderly", "Case"],
+      "answer": "Priority"
+    },
+    {
+      "id": 325,
+      "question": "The phrase “Achilles’ heel” means:",
+      "options": [
+        "A strong point",
+        "A weak point",
+        "A permanent solution",
+        "A serious idea"
+      ],
+      "answer": "A weak point"
+    },
+    {
+      "id": 326,
+      "question": "Which one in the antonym of 'Ebb' ?",
+      "options": ["End", "Downfall", "Flow", "Rapid"],
+      "answer": "Flow"
+    },
+    {
+      "id": 327,
+      "question": "One day 'women will have what has so long been denied them - leisure, money and room to themselves.",
+      "options": ["Space", "Liberty", "Office", "Capacity"],
+      "answer": "Liberty"
+    },
+    {
+      "id": 328,
+      "question": "The presence of students is important --- Here",
+      "options": [
+        "Subject differs from verb",
+        "Subject agrees with verb",
+        "Subject and verb do not go together",
+        "Subject is in plural number"
+      ],
+      "answer": "Subject agrees with verb"
+    },
+    {
+      "id": 329,
+      "question": "Choose the right meaning of the word 'generous'",
+      "options": ["Willing to give", "Kind", "Honest", "Sympathetic"],
+      "answer": "Willing to give"
+    },
+    {
+      "id": 330,
+      "question": "We kept notes of everything that ''transpired'' at the meeting. (Synonym)",
+      "options": ["Decided", "Recorded", "Happened", "Finished", "Started"],
+      "answer": "Happened"
+    },
+    {
+      "id": 331,
+      "question": "'Hideously' means -",
+      "options": ["Stealthily", "Quietly", "Horribly", "Dangerously"],
+      "answer": "Horribly"
+    },
+    {
+      "id": 332,
+      "question": "What is the synonym of 'Disparity' ?",
+      "options": ["Argumentation", "Difference", "Belittlement", "Harmony"],
+      "answer": "Difference"
+    },
+    {
+      "id": 333,
+      "question": "The winter has set ---- very early this year.",
+      "options": ["Out", "Off", "Up", "In"],
+      "answer": "In"
+    },
+    {
+      "id": 334,
+      "question": "Where ------?",
+      "options": [
+        "Did you cut your hair ?",
+        "Have you cut your hair ?",
+        "Did you cut your hair ?",
+        "Did you have your hair cut ?"
+      ],
+      "answer": "Did you have your hair cut ?"
+    },
+    {
+      "id": 335,
+      "question": "Synonym of 'Belligerent' is -",
+      "options": ["Hostile", "Amicable", "Hospitable", "Friendly"],
+      "answer": "Hostile"
+    },
+    {
+      "id": 336,
+      "question": "Anything 'Pernicious' tends to injure or destroy. Something which has no such harmful effect",
+      "options": ["Innocuous", "Innocent", "Immaculate", "Salutary"],
+      "answer": "Innocuous"
+    },
+    {
+      "id": 337,
+      "question": "The expression browbeating means -",
+      "options": [
+        "Raising eyebrows",
+        "Showing indifference",
+        "Showing surprise",
+        "Frightening somebody"
+      ],
+      "answer": "Frightening somebody"
+    },
+    {
+      "id": 338,
+      "question": "Select the right word for 'A speech made without previous preparation'",
+      "options": [
+        "Extempore speech",
+        "Memorised speech",
+        "Instant speech",
+        "Composed speech"
+      ],
+      "answer": "Extempore speech"
+    },
+    {
+      "id": 339,
+      "question": "Select the word you think is closest in meaning to the word 'Antiquated'. Those 'Antiquated' machineries have a huge impact on the current productivity of the firm.",
+      "options": [
+        "Outdated",
+        "Modern",
+        "Simple to run",
+        "Complex",
+        "None of these"
+      ],
+      "answer": "Outdated"
+    },
+    {
+      "id": 340,
+      "question": "Choose the appropriate preposition to fill in the gap in the following sentence: He fell ---- his bike.",
+      "options": ["of", "into", "off", "upon"],
+      "answer": "off"
+    },
+    {
+      "id": 341,
+      "question": "Candor এর সমার্থক শব্দ কোনটি?",
+      "options": ["Diplomacy", "Admire", "Frankness", "Selfish"],
+      "answer": "Frankness"
+    },
+    {
+      "id": 342,
+      "question": "'Attempt' means -",
+      "options": ["Serve", "Try", "Explored", "Explain"],
+      "answer": "Try"
+    },
+    {
+      "id": 343,
+      "question": "'Ineffable' is opposite to -",
+      "options": ["Dictatable", "Separable", "Cogent", "Definable", "Ethereal"],
+      "answer": "Definable"
+    },
+    {
+      "id": 344,
+      "question": "Synonym of 'resuscitate' -",
+      "options": ["Regain", "Remark", "Revived", "Return"],
+      "answer": "Revived"
+    },
+    {
+      "id": 345,
+      "question": "What is the meaning of the expression 'Stanch'",
+      "options": ["To reinforce", "Be weak", "Smooth out", "Put an end to"],
+      "answer": "Put an end to"
+    },
+    {
+      "id": 346,
+      "question": "In TV terms, the opposite of live is -",
+      "options": ["Dead", "Asleep", "On the air", "Taped"],
+      "answer": "Taped"
+    },
+    {
+      "id": 347,
+      "question": "The opposite word of 'Discrete' is -",
+      "options": ["Orderly", "Joking", "Famous", "Grouped"],
+      "answer": "Grouped"
+    },
+    {
+      "id": 348,
+      "question": "The word is 'imbibe' -",
+      "options": ["To learn", "To tinge", "To drink", "To acquire"],
+      "answer": "To drink"
+    },
+    {
+      "id": 349,
+      "question": "Give the antonym of the word 'Ascend'",
+      "options": ["Go up", "Stop", "Move away", "Go down"],
+      "answer": "Go down"
+    },
+    {
+      "id": 350,
+      "question": "'De facto' means -",
+      "options": ["As per facts", "In reality", "By rights", "Evidence"],
+      "answer": "In reality"
+    },
+    {
+      "id": 351,
+      "question": "Give the meaning of the word. The painter decided to 'Exhibit' his work in a gallery.",
+      "options": ["Paint", "Show publicly", "Sell", "Present"],
+      "answer": "Show publicly"
+    },
+    {
+      "id": 352,
+      "question": "I told him everything lest he ----?",
+      "options": [
+        "Misunderstood me",
+        "Should misunderstand me",
+        "Should not misunderstand me",
+        "Misunderstand me"
+      ],
+      "answer": "Should misunderstand me"
+    },
+    {
+      "id": 353,
+      "question": "The machinery --- working well.",
+      "options": ["is", "were", "are", "should"],
+      "answer": "is"
+    },
+    {
+      "id": 354,
+      "question": "Property inherited from one's father or ancestors -",
+      "options": ["Alimony", "Patrimony", "Legacy", "Inheritance"],
+      "answer": "Patrimony"
+    },
+    {
+      "id": 355,
+      "question": "'Dangerous' means -",
+      "options": ["Pleasant", "Risky", "Tedious", "Boring"],
+      "answer": "Risky"
+    },
+    {
+      "id": 356,
+      "question": "'Equivocation' means ----",
+      "options": [
+        "A true statement",
+        "Equal opportunity to get a job",
+        "Free expression of opinion",
+        "Two contrary things in the same statement"
+      ],
+      "answer": "Two contrary things in the same statement"
+    },
+    {
+      "id": 357,
+      "question": "The word 'Impediment' is a synonym for:",
+      "options": ["Obstacle", "Impertinent", "Embankment", "Progress"],
+      "answer": "Obstacle"
+    },
+    {
+      "id": 358,
+      "question": "Choose the word that means the opposite of 'reluctantly' ?",
+      "options": ["Unwillingly", "Not willing", "Eagerly", "Not eagerly"],
+      "answer": "Eagerly"
+    },
+    {
+      "id": 359,
+      "question": "Father put --- some amount of money for the education of his daughter.",
+      "options": ["up", "aside", "into", "on"],
+      "answer": "aside"
+    },
+    {
+      "id": 360,
+      "question": "What is the meaning of the word 'Vice versa'?",
+      "options": [
+        "For example",
+        "Face to face",
+        "Namely",
+        "The terms being exchanged"
+      ],
+      "answer": "The terms being exchanged"
+    },
+    {
+      "id": 361,
+      "question": "Choose the correct meaning of 'Vanquish'",
+      "options": ["Poor", "Conquer", "Defeat", "Discard"],
+      "answer": "Conquer"
+    },
+    {
+      "id": 362,
+      "question": "Syntax denotes ---",
+      "options": [
+        "Rules for writing paragraph",
+        "Rules for sentence building",
+        "Rules for correct pronunciation",
+        "Rules for writing an essay"
+      ],
+      "answer": "Rules for sentence building"
+    },
+    {
+      "id": 363,
+      "question": "He is afflicted --- gout.",
+      "options": ["to", "of", "on", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 364,
+      "question": "My birthday is --- February.",
+      "options": ["in", "on", "at", "by"],
+      "answer": "in"
+    },
+    {
+      "id": 365,
+      "question": "What is the antonym of 'orthodoxy' ?",
+      "options": [
+        "Renown",
+        "Trepidation",
+        "Unconventionality",
+        "Inquisitiveness",
+        "Remoteness"
+      ],
+      "answer": "Unconventionality"
+    },
+    {
+      "id": 366,
+      "question": "The word 'posterity' means",
+      "options": [
+        "Later generation",
+        "Prosperity",
+        "Present time",
+        "Past days"
+      ],
+      "answer": "Later generation"
+    },
+    {
+      "id": 367,
+      "question": "Choose the correct antonym for 'Cynical'",
+      "options": ["Pessimistic", "Gullible", "Equivocal", "Liberal"],
+      "answer": "Gullible"
+    },
+    {
+      "id": 368,
+      "question": "Choose the correct sentence",
+      "options": [
+        "Scarcely had we started than is began to rain",
+        "Scarcely had we started when it began to rain",
+        "Scarcely had we started but it started to rain",
+        "Scarcely had we been started but it began to rain"
+      ],
+      "answer": "Scarcely had we started when it began to rain"
+    },
+    {
+      "id": 369,
+      "question": "My friend ---- yesterday.",
+      "options": [
+        "got his car repaired",
+        "gets his car repaired",
+        "got his car repair",
+        "have got his car repaired"
+      ],
+      "answer": "got his car repaired"
+    },
+    {
+      "id": 370,
+      "question": "He was conspicuous by his absence:",
+      "options": ["Suspicious", "Famous", "Focused", "Singled out"],
+      "answer": "Singled out"
+    },
+    {
+      "id": 371,
+      "question": "Fate smiles ---- those who untriedly grapple with stark realities of life.",
+      "options": ["with", "over", "on", "round"],
+      "answer": "on"
+    },
+    {
+      "id": 372,
+      "question": "Which phrase contains words opposed to each other in meaning ?",
+      "options": [
+        "Hopes and aspirations",
+        "Heat and dust",
+        "Reproduction and death",
+        "Emerged and advanced"
+      ],
+      "answer": "Reproduction and death"
+    },
+    {
+      "id": 373,
+      "question": "The word 'disinterested'' means",
+      "options": ["Lack of interest", "Indifferent", "Callous", "Neutral"],
+      "answer": "Neutral"
+    },
+    {
+      "id": 374,
+      "question": "Something given or done as an expression of esteem:",
+      "options": [
+        "Verbatim",
+        "Stampede",
+        "Tribute",
+        "Lullaby",
+        "None of these"
+      ],
+      "answer": "Tribute"
+    },
+    {
+      "id": 375,
+      "question": "God took pity ---- him.",
+      "options": ["on", "into", "over", "with"],
+      "answer": "on"
+    },
+    {
+      "id": 376,
+      "question": "Give the synonym of 'Conjugal'",
+      "options": ["Bridal", "Approval", "Deadly", "Disputable"],
+      "answer": "Bridal"
+    },
+    {
+      "id": 377,
+      "question": "Which one is a reptile ?",
+      "options": ["Colt", "Anaconda", "Vixen", "Boar"],
+      "answer": "Anaconda"
+    },
+    {
+      "id": 378,
+      "question": "The synonym of 'Hide' is -",
+      "options": ["Camouflage", "Deception", "Disguised", "Mask"],
+      "answer": "Mask"
+    },
+    {
+      "id": 379,
+      "question": "One who is a specialist in the heart and its diseases is -",
+      "options": [
+        "A pharmacologist",
+        "A cardiologist",
+        "An optician",
+        "A neurologist"
+      ],
+      "answer": "A cardiologist"
+    },
+    {
+      "id": 380,
+      "question": "Mr. Ahad 'seized' the opportunity to present the proposal to the director -",
+      "options": ["Realized", "Grasped", "Rendered", "Delivered"],
+      "answer": "Grasped"
+    },
+    {
+      "id": 381,
+      "question": "The antonym of 'Indifference' is ----",
+      "options": ["Ardour", "Compassion", "Anxiety", "Concern"],
+      "answer": "Ardour"
+    },
+    {
+      "id": 382,
+      "question": "'Optimist' means ---",
+      "options": ["আশাবাদী ব্যক্তি", "দর্শন", "দার্শনিক", "জগৎই শ্রেষ্ঠ"],
+      "answer": "আশাবাদী ব্যক্তি"
+    },
+    {
+      "id": 383,
+      "question": "Which is the antonym of the word 'handsome' ?",
+      "options": ["Ugly", "Foul", "Bad", "Unpleasant"],
+      "answer": "Ugly"
+    },
+    {
+      "id": 384,
+      "question": "Select the word you think is closest in meaning to the word 'reciprocity' in the following sentence: Every relation is measured and evaluated on the basis of reciprocity at one point in time.",
+      "options": [
+        "Reception",
+        "Mutual",
+        "Reactivity",
+        "Sacrifice",
+        "None of these"
+      ],
+      "answer": "Sacrifice"
+    },
+    {
+      "id": 385,
+      "question": "The word 'Shrug' indicating doubt or indifference is associated with -",
+      "options": ["Shoulders", "Head", "Forehead", "Eyebrows"],
+      "answer": "Shoulders"
+    },
+    {
+      "id": 386,
+      "question": "The speaker 'emphasized' the need for cooperation in the project that we were about to undertake -",
+      "options": ["Accentuated", "Downplayed", "Discussed", "Displayed"],
+      "answer": "Accentuated"
+    },
+    {
+      "id": 387,
+      "question": "'Venerate' means -",
+      "options": ["Defame", "Abuse", "Respect", "Accuse"],
+      "answer": "Respect"
+    },
+    {
+      "id": 388,
+      "question": "Which of the following pairs contain correct synonyms?",
+      "options": [
+        "Practise: Hands-on",
+        "Powerful: Leverage",
+        "Possibility: Viable",
+        "Plan: Platform"
+      ],
+      "answer": "Powerful: Leverage"
+    },
+    {
+      "id": 389,
+      "question": "Graf looked in awesome form as she cruised --- an easy 6-2 , 6-1 victory in the final game.",
+      "options": ["on", "over", "ind", "to"],
+      "answer": "ind"
+    },
+    {
+      "id": 390,
+      "question": "Amenable is opposite to -",
+      "options": ["Stubborn", "Docile", "Obedient", "Offensive"],
+      "answer": "Stubborn"
+    },
+    {
+      "id": 391,
+      "question": "A synonym for 'Mischievous' is -",
+      "options": ["Kind", "Serious", "Well-behaved", "Vicious"],
+      "answer": "Vicious"
+    },
+    {
+      "id": 392,
+      "question": "Choose the one that best expresses the meaning of the given word: Omnipotent",
+      "options": ["Feeble", "Supreme", "Impotent", "Vulnerable"],
+      "answer": "Supreme"
+    },
+    {
+      "id": 393,
+      "question": "The word 'Banish' means",
+      "options": ["Exile", "Emerge", "Drive away", "Expel"],
+      "answer": "Exile"
+    },
+    {
+      "id": 394,
+      "question": "Find out the correct sentence.",
+      "options": [
+        "I told her everything lest she misunderstands me",
+        "I told her everything lest she should misunderstands me",
+        "I told her everything lest she will misunderstands me",
+        "I told her everything lest she might misunderstands me"
+      ],
+      "answer": "I told her everything lest she should misunderstands me"
+    },
+    {
+      "id": 395,
+      "question": "His house is adjacent ---- mine.",
+      "options": ["with", "to", "against", "beside"],
+      "answer": "to"
+    },
+    {
+      "id": 396,
+      "question": "Comprehension শব্দের অর্থ কোনটি?",
+      "options": ["Loss", "Calamity", "Difference", "Knowledge"],
+      "answer": "Knowledge"
+    },
+    {
+      "id": 397,
+      "question": "The two companies consolidated --- greater efficiency.",
+      "options": ["on", "for", "with", "up"],
+      "answer": "for"
+    },
+    {
+      "id": 398,
+      "question": "What do we call a man who controls a game of football ?",
+      "options": ["Captain", "Coach", "Goalkeeper", "Referee"],
+      "answer": "Referee"
+    },
+    {
+      "id": 399,
+      "question": "He was reasonably well-off. A substitute for 'reasonably' is:",
+      "options": ["Very", "Extremely", "Exceedingly", "Quite"],
+      "answer": "Quite"
+    },
+    {
+      "id": 400,
+      "question": "নিম্নে সঠিক sentence কোনটি ?",
+      "options": [
+        "Will you mind to go there ?",
+        "Would you mind going there ?",
+        "Will you mind going there ?",
+        "Would you mind to go there ?"
+      ],
+      "answer": "Would you mind going there ?"
+    },
+    {
+      "id": 401,
+      "question": "What is the meaning of the word 'Defect'?",
+      "options": ["Illegal", "Prodigal", "Defective", "In fact"],
+      "answer": "Defective"
+    },
+    {
+      "id": 402,
+      "question": "Would you be so kind ----- to keep me informed?",
+      "options": ["that", "enough", "as", "much"],
+      "answer": "as"
+    },
+    {
+      "id": 403,
+      "question": "Choose the best synonym for the word. What are those boys talking about ? I wonder what they are 'up to' -",
+      "options": [
+        "Standing on",
+        "Climbing up",
+        "Planning to do",
+        "Arguing about"
+      ],
+      "answer": "Planning to do"
+    },
+    {
+      "id": 404,
+      "question": "The policeman rescued the child ---- danger.",
+      "options": ["of", "from", "on", "at"],
+      "answer": "from"
+    },
+    {
+      "id": 405,
+      "question": "Panacea -এর সমার্থক -",
+      "options": ["oanake", "praise", "inactivity", "cure all"],
+      "answer": "cure all"
+    },
+    {
+      "id": 406,
+      "question": "The man --- in the accident was taken to the hospital?",
+      "options": ["injured", "has injured", "being injured", "who injured"],
+      "answer": "who injured"
+    },
+    {
+      "id": 407,
+      "question": "A free-lance journalist is -",
+      "options": [
+        "An independent journalist",
+        "An unpaid journalist",
+        "A journalist belonging to another country",
+        "An unqualified journalist"
+      ],
+      "answer": "An independent journalist"
+    },
+    {
+      "id": 408,
+      "question": "What is the opposite word of 'Optimist' ?",
+      "options": ["Pessimist", "Despair", "Negative", "Desire"],
+      "answer": "Pessimist"
+    },
+    {
+      "id": 409,
+      "question": "Windfall - এর অর্থ কি ?",
+      "options": ["ঝড়", "অপ্রত্যাশিতভাবে পাওয়া সুফল", "বন্যা", "জলোচ্ছ্বাস"],
+      "answer": "অপ্রত্যাশিতভাবে পাওয়া সুফল"
+    },
+    {
+      "id": 410,
+      "question": "Love for mankind is called--",
+      "options": ["Philanthropy", "Androphile", "Philology", "Philosopher"],
+      "answer": "Philanthropy"
+    },
+    {
+      "id": 411,
+      "question": "What is the synonym of 'Jovial' ?",
+      "options": ["Jolly", "Gay", "Jealous", "Happy"],
+      "answer": "Happy"
+    },
+    {
+      "id": 412,
+      "question": "Replace the words by a single adjective: Airline pilots undergo 'Very stricts and severe health checks' at regular intervals.",
+      "options": ["Spontaneous", "Unanimous", "Outrageous", "Rigorous"],
+      "answer": "Rigorous"
+    },
+    {
+      "id": 413,
+      "question": "Honesty is the best policy. এখানে 'honesty' হচ্ছে ?",
+      "options": [
+        "Proper Noun",
+        "Common Noun",
+        "Collective Noun",
+        "Abstract Noun"
+      ],
+      "answer": "Abstract Noun"
+    },
+    {
+      "id": 414,
+      "question": "The correct antonym of the word 'Shrivel' is -",
+      "options": ["Embrace", "Expand", "Explode", "Enslave"],
+      "answer": "Expand"
+    },
+    {
+      "id": 415,
+      "question": "Choose the right form of the verb: I have the (little) money ?",
+      "options": ["Slightest", "Little", "Least", "Less"],
+      "answer": "Least"
+    },
+    {
+      "id": 416,
+      "question": "Fahim was looking to the authority for the confirmation of his status.",
+      "options": ["Forward", "Inc", "Into", "Around", "None of these"],
+      "answer": "Forward"
+    },
+    {
+      "id": 417,
+      "question": "He parted --- his friends in tears.",
+      "options": ["with", "from", "against", "beside"],
+      "answer": "from"
+    },
+    {
+      "id": 418,
+      "question": "Sonia has been sick ---- two months.",
+      "options": ["from", "for", "since", "about"],
+      "answer": "for"
+    },
+    {
+      "id": 419,
+      "question": "The profession of teaching ---",
+      "options": ["Pedagogy", "History", "Linguistic", "Teachership"],
+      "answer": "Pedagogy"
+    },
+    {
+      "id": 420,
+      "question": "He would have my support in a heartbeat. Here 'Heartbeat' means -",
+      "options": ["Automatically", "In no time", "Naturally", "Imminently"],
+      "answer": "In no time"
+    },
+    {
+      "id": 421,
+      "question": "This children's park -- half an hour before sunset.",
+      "options": ["Opens", "Starts", "Closes", "Stops"],
+      "answer": "Closes"
+    },
+    {
+      "id": 422,
+      "question": "Select the word closest in meaning to the word-শিক্ষিত",
+      "options": ["Gentleman", "Generous", "Educated", "Pious"],
+      "answer": "Educated"
+    },
+    {
+      "id": 423,
+      "question": "I can hear someone ---",
+      "options": [
+        "to scream",
+        "scream",
+        "screaming",
+        "for screaming",
+        "screamed"
+      ],
+      "answer": "scream"
+    },
+    {
+      "id": 424,
+      "question": "It --- when I reached home. বাক্যটির জন্য নিম্নে প্রদত্ত সঠিক verb form নির্বাচন করে বাক্য পুরন্নকরুন।",
+      "options": [
+        "Was raining",
+        "Is raining",
+        "Has been raining",
+        "Had raining"
+      ],
+      "answer": "Was raining"
+    },
+    {
+      "id": 425,
+      "question": "'CANDID' is most nearly similar in meaning to -",
+      "options": ["Vague", "Outspoken", "Experienced", "Anxious"],
+      "answer": "Outspoken"
+    },
+    {
+      "id": 426,
+      "question": "I shall adhere ----- my plan.",
+      "options": ["in", "at", "about", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 427,
+      "question": "I acceded --- his request. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["on", "at", "for", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 428,
+      "question": "A cobbler is a person who -",
+      "options": [
+        "Sells shoes",
+        "Mends shoes",
+        "Collects shoes",
+        "Makes shoes"
+      ],
+      "answer": "Mends shoes"
+    },
+    {
+      "id": 429,
+      "question": "The results were inconclusive. 'Inconclusive' means -",
+      "options": ["Intricate", "Complex", "Incomplete", "Not defined"],
+      "answer": "Not defined"
+    },
+    {
+      "id": 430,
+      "question": "Which one completes the sentence properly? Some days --- since my father died.",
+      "options": ["Are passed", "Passed", "Have passed", "Had passed"],
+      "answer": "Have passed"
+    },
+    {
+      "id": 431,
+      "question": "Which word is not a noun ?",
+      "options": ["Articulation", "Simulation", "Defamed", "Indemnity"],
+      "answer": "Defamed"
+    },
+    {
+      "id": 432,
+      "question": "'Dissent' is opposite to -",
+      "options": ["Agreement", "Dispute", "Disunity", "Controversy"],
+      "answer": "Agreement"
+    },
+    {
+      "id": 433,
+      "question": "'Nostalgic' is the synonym of -",
+      "options": ["Soothing", "Homesick", "Diseased", "Indolent"],
+      "answer": "Homesick"
+    },
+    {
+      "id": 434,
+      "question": "Julian spent most of his holiday in the bathroom. He ate some seafood that did not agree --- him.",
+      "options": ["On", "To", "With", "About"],
+      "answer": "With"
+    },
+    {
+      "id": 435,
+      "question": "Put the verb in the correct form --",
+      "options": ["Are covered", "Is covered", "Had covered", "Have covered"],
+      "answer": "Is covered"
+    },
+    {
+      "id": 436,
+      "question": "Which one is the right in use ?",
+      "options": [
+        "It is no good of to talk to him",
+        "To talk him is of no good",
+        "It's no use talking to him",
+        "It's of no use how talking to him"
+      ],
+      "answer": "It's no use talking to him"
+    },
+    {
+      "id": 437,
+      "question": "If you are forbidden to do something, 'it mean you need not to do it'.",
+      "options": [
+        "It means you are not do it",
+        "It means you must not do it",
+        "It means you could do it",
+        "It means you have not go to do it",
+        "None of these"
+      ],
+      "answer": "It means you must not do it"
+    },
+    {
+      "id": 438,
+      "question": "Almost everyone fails --- on the first try.",
+      "options": [
+        "in passing his drivers test",
+        "to have passed his drivers test",
+        "to his drivers test",
+        "passing his drivers test"
+      ],
+      "answer": "in passing his drivers test"
+    },
+    {
+      "id": 439,
+      "question": "----- discovery of insulin, it was not possible to treat diabetes.",
+      "options": ["Prior", "To prior", "Prior to the", "The prior"],
+      "answer": "Prior to the"
+    },
+    {
+      "id": 440,
+      "question": "Choose the word that means the opposite of 'pacify' -",
+      "options": ["expose", "arouse", "separate", "comfort", "deny"],
+      "answer": "arouse"
+    },
+    {
+      "id": 441,
+      "question": "'Eternal vigilance is the price of liberty' Here 'eternal' refers to -",
+      "options": ["temporary", "obvious", "vigilant", "everlasting"],
+      "answer": "everlasting"
+    },
+    {
+      "id": 442,
+      "question": "A reward has been announced for the employees who --- hard.",
+      "options": [
+        "have worked",
+        "has worked",
+        "will be worked",
+        "have had worked"
+      ],
+      "answer": "have worked"
+    },
+    {
+      "id": 443,
+      "question": "'Feed the baby ---- milk' বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["to", "in", "on", "with"],
+      "answer": "on"
+    },
+    {
+      "id": 444,
+      "question": "He deals in rice but does not know how to deal --- the customers.",
+      "options": ["to", "of", "with", "for"],
+      "answer": "with"
+    },
+    {
+      "id": 445,
+      "question": "Choose the word which most nearly similar in meaning of 'anxiously' -",
+      "options": ["Worriedly", "Unhappily", "Slowly", "Hastily"],
+      "answer": "Worriedly"
+    },
+    {
+      "id": 446,
+      "question": "I had to go to Dhaka ----- my sister's marriage.",
+      "options": ["because", "due to", "because of", "as"],
+      "answer": "because of"
+    },
+    {
+      "id": 447,
+      "question": "Opposite of 'Help' is --",
+      "options": ["Hinder", "Replace", "Rise", "Work"],
+      "answer": "Hinder"
+    },
+    {
+      "id": 448,
+      "question": "The antonym for 'Inimical' is -",
+      "options": ["Hostile", "Friendly", "Indifferent", "Angry"],
+      "answer": "Friendly"
+    },
+    {
+      "id": 449,
+      "question": "To resolve a problem is to --",
+      "options": [
+        "Find an answer",
+        "Ignore it",
+        "Pose a question",
+        "Do mathematics"
+      ],
+      "answer": "Find an answer"
+    },
+    {
+      "id": 450,
+      "question": "Abraham Lincons -- one of the great men of american history.",
+      "options": ["was", "is", "had been", "will be", "None"],
+      "answer": "was"
+    },
+    {
+      "id": 451,
+      "question": "The novelist is observant --- public feeling.",
+      "options": ["with", "against", "of", "for"],
+      "answer": "of"
+    },
+    {
+      "id": 452,
+      "question": "Many islands make up --",
+      "options": ["An isle", "An archipelago", "A peninsula", "A continent"],
+      "answer": "An archipelago"
+    },
+    {
+      "id": 453,
+      "question": "The expression 'take into account' means",
+      "options": ["Count numbers", "Consider", "Think seriously", "Assess"],
+      "answer": "Consider"
+    },
+    {
+      "id": 454,
+      "question": "'Morbid' means -",
+      "options": [
+        "Gruesome",
+        "Dead",
+        "A place to keep dead bodies",
+        "Tranquilizer"
+      ],
+      "answer": "Gruesome"
+    },
+    {
+      "id": 455,
+      "question": "What kind of noun is 'fun' ?",
+      "options": ["Countable", "Uncountable", "Common", "Material"],
+      "answer": "Uncountable"
+    },
+    {
+      "id": 456,
+      "question": "The word 'Revoke' means",
+      "options": ["To go back", "To call back", "To call in", "To move"],
+      "answer": "To call in"
+    },
+    {
+      "id": 457,
+      "question": "He knows and speaks many languages. Choose the appropriate sentence that best matches the above description.",
+      "options": [
+        "He is an interpreter",
+        "He is a polyglot",
+        "He is an infidel",
+        "He is a tycoon"
+      ],
+      "answer": "He is a polyglot"
+    },
+    {
+      "id": 458,
+      "question": "Choose the correct answer: Would you mind (take) simply a cup of tea?",
+      "options": ["to take", "taken", "taking", "to have taken"],
+      "answer": "taking"
+    },
+    {
+      "id": 459,
+      "question": "The gory scenes were off-putting.A substitute of 'gory' is -",
+      "options": ["Blood-curdling", "Glorious", "Garbled", "Quiet"],
+      "answer": "Blood-curdling"
+    },
+    {
+      "id": 460,
+      "question": "I stretched for tissue but the box of tissues --- nearly empty.",
+      "options": ["was", "were", "has", "have", "None of these"],
+      "answer": "was"
+    },
+    {
+      "id": 461,
+      "question": "Complete the sentence with a suitable word: Ahraj ran fast lest he --- miss the class.",
+      "options": ["could", "should", "would", "can"],
+      "answer": "should"
+    },
+    {
+      "id": 462,
+      "question": "He divided the money --- the two children.",
+      "options": ["over", "in between", "among", "between"],
+      "answer": "between"
+    },
+    {
+      "id": 463,
+      "question": "Complete the sentence : I will phone you when I ---- the news.",
+      "options": ["am getting", "get", "will get", "will be getting"],
+      "answer": "get"
+    },
+    {
+      "id": 464,
+      "question": "An atheist is aperson who -",
+      "options": [
+        "Does not believe in god",
+        "Believes in god",
+        "Hates god",
+        "Loves god"
+      ],
+      "answer": "Does not believe in god"
+    },
+    {
+      "id": 465,
+      "question": "'Enlarge' means -",
+      "options": ["shrink", "large", "contract", "slip", "expand"],
+      "answer": "expand"
+    },
+    {
+      "id": 466,
+      "question": "I was a admitted --- Dhaka College. বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["in", "to", "from", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 467,
+      "question": "The synonym of 'Vigilant' is -",
+      "options": ["Tired", "Fickle", "Wicked", "Watchful", "Steady"],
+      "answer": "Watchful"
+    },
+    {
+      "id": 468,
+      "question": "I prefer tea --- coffee.",
+      "options": ["for", "than", "from", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 469,
+      "question": "The synonyms for 'Corrective' is -",
+      "options": ["Righteous", "Preventive", "Prohibitive", "Remedial"],
+      "answer": "Remedial"
+    },
+    {
+      "id": 470,
+      "question": "Pilferage' is a soft word for",
+      "options": ["Stealing", "Pillar", "Pilgrimage", "Piled up"],
+      "answer": "Stealing"
+    },
+    {
+      "id": 471,
+      "question": "The weight was too much and the pillar gave way . Here 'gave way' indicates -",
+      "options": ["Bent down", "Was changed", "Was broken", "Vanished"],
+      "answer": "Was broken"
+    },
+    {
+      "id": 472,
+      "question": "The word 'paranoid' is connected with -",
+      "options": ["Philosophy", "Psychology", "Anthropology", "Theology"],
+      "answer": "Psychology"
+    },
+    {
+      "id": 473,
+      "question": "'Amalgamate' is the antonym of -",
+      "options": ["Generate", "Repair", "Materialise", "Separate"],
+      "answer": "Separate"
+    },
+    {
+      "id": 474,
+      "question": "Antonym of 'Rectify' is -",
+      "options": ["Apologize", "Make worse", "Rebuke", "Correct"],
+      "answer": "Make worse"
+    },
+    {
+      "id": 475,
+      "question": "One who unduly forwards in rendering services foe others is not generally liked in society. Which of the following words represents truely the character of the person mentioned above?",
+      "options": ["Benevolent", "Official", "Officious", "Bureaucratic"],
+      "answer": "Officious"
+    },
+    {
+      "id": 476,
+      "question": "Synonym of 'Consessus' -",
+      "options": [
+        "Disagreement",
+        "Conclusion",
+        "Conscious",
+        "General agreement"
+      ],
+      "answer": "General agreement"
+    },
+    {
+      "id": 477,
+      "question": "What is the synonym of 'Bold'?",
+      "options": ["Brave", "Hard", "Sunny", "Mild"],
+      "answer": "Brave"
+    },
+    {
+      "id": 478,
+      "question": "Do not impute motives ---- him.",
+      "options": ["to", "in", "on", "against"],
+      "answer": "to"
+    },
+    {
+      "id": 479,
+      "question": "What is the meaning of 'six of ,one and half a dozen of another' ?",
+      "options": [
+        "Twelve pieces",
+        "Negligible difference",
+        "Thoroughly",
+        "Countless"
+      ],
+      "answer": "Negligible difference"
+    },
+    {
+      "id": 480,
+      "question": "The synonym for 'Bonafide' is -",
+      "options": ["Artificial", "Permanent", "Imaginary", "Genuine"],
+      "answer": "Genuine"
+    },
+    {
+      "id": 481,
+      "question": "Even as harvesting was going on.",
+      "options": [
+        "the rainy season began",
+        "the rainy season was began",
+        "the rainy season had began",
+        "the rainy season began"
+      ],
+      "answer": "the rainy season began"
+    },
+    {
+      "id": 482,
+      "question": "The meaning of the phrase 'turn up' in the sentence 'He never turns up on time for meetings' is -",
+      "options": ["Looks forward to", "Takes a turn", "Stands up", "Arrives"],
+      "answer": "Arrives"
+    },
+    {
+      "id": 483,
+      "question": "The house ablaze is next door to mine. In this sentence 'ablaze' means -",
+      "options": ["Glowing", "Burning", "Lightening", "Colourful"],
+      "answer": "Burning"
+    },
+    {
+      "id": 484,
+      "question": "\"Syntax\" means ---",
+      "options": [
+        "Manner of speech",
+        "Sentence building",
+        "Supplementary tax",
+        "Synchronizing act"
+      ],
+      "answer": "Sentence building"
+    },
+    {
+      "id": 485,
+      "question": "What is the synonym of the word 'Homogeneous' ?",
+      "options": ["Heterogeneous", "Scrambled", "Motley", "Similar"],
+      "answer": "Similar"
+    },
+    {
+      "id": 486,
+      "question": "God is good --- me. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["with", "at", "on", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 487,
+      "question": "The word 'Omniscient' means --",
+      "options": [
+        "One who knows everything",
+        "One who has total power",
+        "One who is present everywhere",
+        "One who eats all types of food"
+      ],
+      "answer": "One who knows everything"
+    },
+    {
+      "id": 488,
+      "question": "He watched the mist ascending --- the valley.",
+      "options": ["through", "from", "in", "within"],
+      "answer": "from"
+    },
+    {
+      "id": 489,
+      "question": "FERTILE is opposite to -",
+      "options": ["Useful", "Barren", "Gloomy", "Isolated"],
+      "answer": "Barren"
+    },
+    {
+      "id": 490,
+      "question": "'Adversity' means",
+      "options": ["Failure", "Helplessness", "Misfortune", "Crisis"],
+      "answer": "Misfortune"
+    },
+    {
+      "id": 491,
+      "question": "He is a hard nut to crack - বাক্যটির সঠিক বাংলা অনুবাদঃ",
+      "options": [
+        "সে বড় পাগল লোক",
+        "সে বড় চুর লোক",
+        "সে বড় শক্ত লোক",
+        "সে বড় দুর্বল লোক"
+      ],
+      "answer": "সে বড় দুর্বল লোক"
+    },
+    {
+      "id": 492,
+      "question": "What is the correct synonym of 'Isolation' ?",
+      "options": ["Loneliness", "Separation", "Depression", "Sadness"],
+      "answer": "Separation"
+    },
+    {
+      "id": 493,
+      "question": "My father never approved of --- a foreigner.",
+      "options": [
+        "her to marry",
+        "her marrying",
+        "she marrying",
+        "she to marry"
+      ],
+      "answer": "her marrying"
+    },
+    {
+      "id": 494,
+      "question": "The word 'Magnificent' means",
+      "options": ["Splendid", "Resourceful", "Thoughtful", "Disgraceful"],
+      "answer": "Splendid"
+    },
+    {
+      "id": 495,
+      "question": "When water ---- , it turn into ice.",
+      "options": ["freezes", "will freeze", "would freeze", "froze"],
+      "answer": "freezes"
+    },
+    {
+      "id": 496,
+      "question": "You are looking smart --- this dress.",
+      "options": ["on", "in", "for", "with"],
+      "answer": "in"
+    },
+    {
+      "id": 497,
+      "question": "'Temporal' means",
+      "options": ["Temporary", "Tempting", "Religious", "Worldly"],
+      "answer": "Worldly"
+    },
+    {
+      "id": 498,
+      "question": "Your offer is acceptable --- me. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["by", "on", "for", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 499,
+      "question": "Correct synonym of the word 'Ignite' -",
+      "options": ["Kindle", "To set fire", "To burn", "To burn fire"],
+      "answer": "Kindle"
+    },
+    {
+      "id": 500,
+      "question": "The Thames ---- London.",
+      "options": ["flows by", "flows from", "flows into", "flows through"],
+      "answer": "flows through"
+    },
+    {
+      "id": 501,
+      "question": "The antonym of 'advocate' is -",
+      "options": ["define", "oppose", "removed", "support", "discern"],
+      "answer": "oppose"
+    },
+    {
+      "id": 502,
+      "question": "Synonym of 'Divergence' is -",
+      "options": ["Convergence", "Concourse", "Concurrency", "Deviation"],
+      "answer": "Deviation"
+    },
+    {
+      "id": 503,
+      "question": "What is the synonym of 'Implicit' ?",
+      "options": ["Explicit", "Introvert", "Spoken", "Tacit"],
+      "answer": "Tacit"
+    },
+    {
+      "id": 504,
+      "question": "Bibliography means -",
+      "options": [
+        "History of books",
+        "Collection of books",
+        "Worshipper of books",
+        "Book on biology"
+      ],
+      "answer": "Collection of books"
+    },
+    {
+      "id": 505,
+      "question": "Complete the following sentence with the correct tense : We were watching the news when the telephone ---",
+      "options": ["ringing", "had rung", "rang", "rung"],
+      "answer": "rang"
+    },
+    {
+      "id": 506,
+      "question": "The word 'Capital' relates to -",
+      "options": ["Hand", "Head", "Light", "Globe"],
+      "answer": "Head"
+    },
+    {
+      "id": 507,
+      "question": "Choose the word that is most nearly opposite in meaning to the word 'Exclude' -",
+      "options": ["Admit", "Harden", "Review", "Isolate"],
+      "answer": "Admit"
+    },
+    {
+      "id": 508,
+      "question": "What is the synonym of 'Optimist' ?",
+      "options": ["Pessimist", "Change", "Despair", "Hopeful"],
+      "answer": "Hopeful"
+    },
+    {
+      "id": 509,
+      "question": "Choose the best synonym for the word. The traffic had to be 'diverted' as a result of a serious accident.",
+      "options": [
+        "Sent by another route",
+        "Slowed down",
+        "Stopped completely",
+        "Searched by policemen"
+      ],
+      "answer": "Sent by another route"
+    },
+    {
+      "id": 510,
+      "question": "Anatomy শব্দের অর্থ -",
+      "options": ["সাদৃশ্য", "স্নায়ুতন্ত্র", "শারীরবিদ্য", "অঙ্গসঞ্চালন"],
+      "answer": "শারীরবিদ্য"
+    },
+    {
+      "id": 511,
+      "question": "The boy form the village said,'I --- starve than beg; Which of the following best completes the above sentence ?",
+      "options": ["better", "rather", "would rather", "would better"],
+      "answer": "would rather"
+    },
+    {
+      "id": 512,
+      "question": "The word 'officialese' means -",
+      "options": [
+        "plural number of official",
+        "language used in offices",
+        "plural number of office",
+        "vague expressions"
+      ],
+      "answer": "language used in offices"
+    },
+    {
+      "id": 513,
+      "question": "It's time (you realize) your mistake. Which of the following clauses does best fit in the above sentence ?",
+      "options": [
+        "You realized",
+        "That you realize",
+        "You would realize",
+        "You have realized"
+      ],
+      "answer": "You realized"
+    },
+    {
+      "id": 514,
+      "question": "He was conspicuos by his absence",
+      "options": ["Suspicious", "Famous", "Focused", "Singled out"],
+      "answer": "Singled out"
+    },
+    {
+      "id": 515,
+      "question": "I was lived that night, I --- wood all morning.",
+      "options": ["was cutting", "had been cutting", "had cut", "cut"],
+      "answer": "had been cutting"
+    },
+    {
+      "id": 516,
+      "question": "Evacuate is opposite to -",
+      "options": [
+        "boil off",
+        "fill up",
+        "neutralize",
+        "melt down",
+        "none of these"
+      ],
+      "answer": "fill up"
+    },
+    {
+      "id": 517,
+      "question": "Choose the correct antonym for 'Oblige'.",
+      "options": ["Bind", "Require", "Bother", "Censure"],
+      "answer": "Censure"
+    },
+    {
+      "id": 518,
+      "question": "Synonym for 'Temerity' is -",
+      "options": ["Sobriety", "Insolence", "Propriety", "Lousy"],
+      "answer": "Insolence"
+    },
+    {
+      "id": 519,
+      "question": "'Demon' is opposite to -",
+      "options": ["Charitable", "Kind-hearted", "Angel", "Fair-minded"],
+      "answer": "Angel"
+    },
+    {
+      "id": 520,
+      "question": "'Mayhem' means -",
+      "options": [
+        "A bizarre situation",
+        "A may day event",
+        "Confusion and fear caused by violent behaviour",
+        "A sudden collapse"
+      ],
+      "answer": "Confusion and fear caused by violent behaviour"
+    },
+    {
+      "id": 521,
+      "question": "'An extrovert' is a person who -",
+      "options": [
+        "Likes isolation",
+        "Shares his cheerful feelings with others",
+        "Behaves like a stoic",
+        "Keeps himself aloof from others"
+      ],
+      "answer": "Shares his cheerful feelings with others"
+    },
+    {
+      "id": 522,
+      "question": "He will compensate you ---- the loss.",
+      "options": ["of", "to", "for", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 523,
+      "question": "The word 'genocide' means",
+      "options": [
+        "mass grave",
+        "mass gathering",
+        "mass killing",
+        "mass attendance"
+      ],
+      "answer": "mass killing"
+    },
+    {
+      "id": 524,
+      "question": "Malicious is opposite to -",
+      "options": ["Boastful", "Indifferent", "Kind", "Arrogant"],
+      "answer": "Kind"
+    },
+    {
+      "id": 525,
+      "question": "\"What he said is largely true\" means?",
+      "options": [
+        "What he said is surely true?",
+        "What he said is completely true ?",
+        "What he said is possibly true?",
+        "What he said is mostly true?"
+      ],
+      "answer": "What he said is mostly true?"
+    },
+    {
+      "id": 526,
+      "question": "He has no control ---- himself.",
+      "options": ["at", "over", "on", "in"],
+      "answer": "over"
+    },
+    {
+      "id": 527,
+      "question": "Choose the one which best expresses the meaning of the given word 'Obscene' ?",
+      "options": ["Objectionable", "Indecent", "Displeasing", "Condemnable"],
+      "answer": "Indecent"
+    },
+    {
+      "id": 528,
+      "question": "Meaning of the word 'Habeas Corpus' is -",
+      "options": [
+        "Citizen's democratic right",
+        "Fundamental rights of prisoners",
+        "Freedom of jurisprudence",
+        "Withdrawal of embassy"
+      ],
+      "answer": "Fundamental rights of prisoners"
+    },
+    {
+      "id": 529,
+      "question": "What is the synonym of 'Oblivious' ?",
+      "options": ["Aware", "Mindful", "Heedless", "Observant"],
+      "answer": "Heedless"
+    },
+    {
+      "id": 530,
+      "question": "Choose the synonym of the word 'Deplete' -",
+      "options": ["Diminish", "Cease", "Plunder", "Increase"],
+      "answer": "Diminish"
+    },
+    {
+      "id": 531,
+      "question": "ABERRATION is most nearly similar in meaning to -",
+      "options": ["Deviation", "Abhorrence", "Disliked", "Absence"],
+      "answer": "Deviation"
+    },
+    {
+      "id": 532,
+      "question": "A synonym for 'resentment' is -",
+      "options": ["Fear", "Anger", "Panic", "Indignation"],
+      "answer": "Anger"
+    },
+    {
+      "id": 533,
+      "question": "'Hamlet' means",
+      "options": [
+        "A small village",
+        "A small town",
+        "A big city",
+        "A big village"
+      ],
+      "answer": "A small village"
+    },
+    {
+      "id": 534,
+      "question": "Identify the correct sentence:",
+      "options": [
+        "No sooner had we had reached the station the train left",
+        "No sooner had we had reached the station then the train left",
+        "No sooner had we had reached the train had left",
+        "No sooner had we had reached the station than the train left"
+      ],
+      "answer": "No sooner had we had reached the station than the train left"
+    },
+    {
+      "id": 535,
+      "question": "কোনটি 'Panic' শব্দের সমার্থক শব্দ ?",
+      "options": ["Serenity", "Horror", "Calmness", "Tranquillity"],
+      "answer": "Horror"
+    },
+    {
+      "id": 536,
+      "question": "Dull শব্দের অর্থ",
+      "options": ["নির্বোধ", "সাহসী", "চালাক", "চতুর"],
+      "answer": "নির্বোধ"
+    },
+    {
+      "id": 537,
+      "question": "A chart was \"appended\" to the report. here \"appended\" means -",
+      "options": ["changed", "removed", "joined", "shortened"],
+      "answer": "joined"
+    },
+    {
+      "id": 538,
+      "question": "The charge of murder was brought ---- him.",
+      "options": ["against", "for", "about", "with"],
+      "answer": "against"
+    },
+    {
+      "id": 539,
+      "question": "Swimming is conducive ---- health.",
+      "options": ["in", "for", "to", "at"],
+      "answer": "to"
+    },
+    {
+      "id": 540,
+      "question": "What would be the right synonym for initiative?",
+      "options": ["Apathy", "Indolence", "Enterprise", "Activity"],
+      "answer": "Enterprise"
+    },
+    {
+      "id": 541,
+      "question": "The rebels were put ---- death.",
+      "options": ["in", "to", "for", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 542,
+      "question": "The Charity of Hatem Tai is known to all . The word 'Charity' is -----?",
+      "options": [
+        "Material noun",
+        "Common noun",
+        "Abstract noun",
+        "Collective noun"
+      ],
+      "answer": "Abstract noun"
+    },
+    {
+      "id": 543,
+      "question": "She is good ---- lawn tennis.",
+      "options": ["at", "on", "in", "for"],
+      "answer": "at"
+    },
+    {
+      "id": 544,
+      "question": "'Mishap' means",
+      "options": ["Danger", "Disease", "Accident", "Theft"],
+      "answer": "Accident"
+    },
+    {
+      "id": 545,
+      "question": "'Wisdom' অর্থ কি ?",
+      "options": ["বুদ্ধি", "জ্ঞান", "প্রজ্ঞা", "মেধা"],
+      "answer": "প্রজ্ঞা"
+    },
+    {
+      "id": 546,
+      "question": "A remedy for all diseases:",
+      "options": ["Cure", "Panacea", "Panorama", "Polyglote"],
+      "answer": "Panacea"
+    },
+    {
+      "id": 547,
+      "question": "I count --- your help.",
+      "options": ["after", "upon", "for", "with"],
+      "answer": "upon"
+    },
+    {
+      "id": 548,
+      "question": "Twenty years --- since my father died.",
+      "options": ["has passed", "have hoped", "passd", "passed"],
+      "answer": "have passed"
+    },
+    {
+      "id": 549,
+      "question": "The term 'en route' means -",
+      "options": [
+        "Through the route",
+        "Through the way",
+        "On the way",
+        "In the way"
+      ],
+      "answer": "On the way"
+    },
+    {
+      "id": 550,
+      "question": "Antonym of 'Harmony' is -",
+      "options": ["Admiration", "Co-operation", "Discord", "Co-ordination"],
+      "answer": "Discord"
+    },
+    {
+      "id": 551,
+      "question": "Words inscribed on a tomb is an -",
+      "options": ["Epitome", "Epithet", "Epitaph", "Episode"],
+      "answer": "Epitaph"
+    },
+    {
+      "id": 552,
+      "question": "নিচের কোনটি Noun ?",
+      "options": ["Good", "City", "Upon"],
+      "answer": "City"
+    },
+    {
+      "id": 553,
+      "question": "'Notation' has relevance to -",
+      "options": ["Legal affairs", "Music", "Sports", "Insurance"],
+      "answer": "Music"
+    },
+    {
+      "id": 554,
+      "question": "'Benefit' এর synonym হচ্ছে -",
+      "options": ["Injury", "Drawback", "Favour", "Basement"],
+      "answer": "Favour"
+    },
+    {
+      "id": 555,
+      "question": "Give the meaning of the word. The painter decided to 'Exhibit' his work in a gallery.",
+      "options": ["Paint", "Show publicly", "Sell", "Present"],
+      "answer": "Show publicly"
+    },
+    {
+      "id": 556,
+      "question": "The antonym of 'Eccentric' is -",
+      "options": ["Angelic", "Erotic", "Normal", "Abnormal"],
+      "answer": "Normal"
+    },
+    {
+      "id": 557,
+      "question": "The ministers arrived --- a decision last night.",
+      "options": ["to", "at", "on", "by"],
+      "answer": "at"
+    },
+    {
+      "id": 558,
+      "question": "What is the antonym 'Gentle'",
+      "options": ["Harsh", "Modest", "Clever", "Rude"],
+      "answer": "Rude"
+    },
+    {
+      "id": 559,
+      "question": "'Entreaty' শব্দটির অর্থ হচ্ছে -",
+      "options": [
+        "Diplomatic agreement",
+        "Gentle Suggestion",
+        "Full enjoyment",
+        "Earnest request"
+      ],
+      "answer": "Earnest request"
+    },
+    {
+      "id": 560,
+      "question": "No man can ----- alone.",
+      "options": ["live", "lives", "living", "lived"],
+      "answer": "live"
+    },
+    {
+      "id": 561,
+      "question": "The meaning of the word 'Antiquated' is -",
+      "options": ["Very old", "Ridiculous", "Out of date", "Absurd"],
+      "answer": "Out of date"
+    },
+    {
+      "id": 562,
+      "question": "'Viable' means",
+      "options": ["Possible", "That can be done", "Capable", "That will work"],
+      "answer": "Capable"
+    },
+    {
+      "id": 563,
+      "question": "He apologize for his misdemeanor. A substitute for ' Misdemeanor' is -",
+      "options": ["Malignity", "Mischievousness", "Misconduct", "Moodiness"],
+      "answer": "Misconduct"
+    },
+    {
+      "id": 564,
+      "question": "What is the synonym of 'Vertical' ?",
+      "options": ["Horizontal", "Erect", "Inclined", "Credit"],
+      "answer": "Erect"
+    },
+    {
+      "id": 565,
+      "question": "The antonym for 'Snug' is -",
+      "options": ["Tight", "New", "Loose", "Asleep"],
+      "answer": "Loose"
+    },
+    {
+      "id": 566,
+      "question": "'Epitome' means -",
+      "options": [
+        "Very strange",
+        "A perfect example of something",
+        "Beauty",
+        "Architecture"
+      ],
+      "answer": "A perfect example of something"
+    },
+    {
+      "id": 567,
+      "question": "A person who eats human flesh and animals that eats its own kind is called -",
+      "options": ["Cannibal", "Flesh eater", "Meat eater", "Non-vegetarian"],
+      "answer": "Cannibal"
+    },
+    {
+      "id": 568,
+      "question": "The opposite of 'commendable' is -",
+      "options": [
+        "Deserving",
+        "Deplorable",
+        "Regrettable",
+        "Creditable",
+        "Laudable"
+      ],
+      "answer": "Deplorable"
+    },
+    {
+      "id": 569,
+      "question": "'Tranquil' is opposite to -",
+      "options": ["Failure", "Negligence", "Frailty", "Energy"],
+      "answer": "Frailty"
+    },
+    {
+      "id": 570,
+      "question": "Sheela is quick ---- understanding.",
+      "options": ["at", "in", "for", "of"],
+      "answer": "at"
+    },
+    {
+      "id": 571,
+      "question": "Choose the synoynm for 'Extempore'",
+      "options": ["Planned", "Improvised", "Impromptu", "Immediate"],
+      "answer": "Improvised"
+    },
+    {
+      "id": 572,
+      "question": "The word 'Contemporary' means",
+      "options": ["Temporary", "Belonging to the same time", "Last", "Future"],
+      "answer": "Belonging to the same time"
+    },
+    {
+      "id": 573,
+      "question": "Scanty' এর বিপরিতার্থক শব্দ কোনটি?",
+      "options": ["Limited", "Unlimited", "Inflation", "Bounded"],
+      "answer": "Limited"
+    },
+    {
+      "id": 574,
+      "question": "He is jealous ---- my fame. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["on", "for", "of", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 575,
+      "question": "The noise level in Dhaka city has increased (exponentially).Here the bracket close word means -",
+      "options": ["Amazingly", "Shockingly", "Steadily", "Rapidly"],
+      "answer": "Rapidly"
+    },
+    {
+      "id": 576,
+      "question": "Pick appropriate preposition for the following sentence: Noureen will discuss the issue with Nasir ---- phone.",
+      "options": ["in", "over", "by", "on"],
+      "answer": "over"
+    },
+    {
+      "id": 577,
+      "question": "Pick the word that is synonymous with 'authoritarian'.",
+      "options": ["Autocratic", "Senior", "Elderly", "Potential"],
+      "answer": "Autocratic"
+    },
+    {
+      "id": 578,
+      "question": "The synonym of 'Serene'",
+      "options": ["Severe", "Dark", "Calm", "Serious"],
+      "answer": "Calm"
+    },
+    {
+      "id": 579,
+      "question": "'Subterfuge' means -",
+      "options": ["Deception", "Smartness", "Very clever", "Frank"],
+      "answer": "Deception"
+    },
+    {
+      "id": 580,
+      "question": "We went for a walk --- the rain.",
+      "options": ["in", "during", "in spite of", "after"],
+      "answer": "during"
+    },
+    {
+      "id": 581,
+      "question": "Choose the correct meaning of the phrase 'Cul-de-sac'",
+      "options": ["Selection", "Dead end", "Error", "Bubble"],
+      "answer": "Dead end"
+    },
+    {
+      "id": 582,
+      "question": "He has been ill --- Friday last.",
+      "options": ["from", "on", "in", "since"],
+      "answer": "on"
+    },
+    {
+      "id": 583,
+      "question": "He gave up --- football when he got married.",
+      "options": ["of playing", "to play", "playing", "play"],
+      "answer": "playing"
+    },
+    {
+      "id": 584,
+      "question": "Choose the synonym of the word 'Cop'",
+      "options": ["Troops", "Scout", "Hit", "Police"],
+      "answer": "Police"
+    },
+    {
+      "id": 585,
+      "question": "---- giving me books, he prepared notes for me.",
+      "options": ["Along with", "Besides", "Beside", "Not only"],
+      "answer": "Besides"
+    },
+    {
+      "id": 586,
+      "question": "A Machiavellian character is -",
+      "options": [
+        "An honest person",
+        "A selfish person",
+        "A courageous person",
+        "A judicious person"
+      ],
+      "answer": "A selfish person"
+    },
+    {
+      "id": 587,
+      "question": "The antonym of 'Patriot' is -",
+      "options": ["Treacherous person", "Tout", "Traitor", "Criminal"],
+      "answer": "Traitor"
+    },
+    {
+      "id": 588,
+      "question": "What is the antonym of 'Famous' ?",
+      "options": ["Opaque", "Illiterate", "Obscure", "Immature"],
+      "answer": "Obscure"
+    },
+    {
+      "id": 589,
+      "question": "Tomorrow the President 'is going open a new hospital' this sentence missing word is -",
+      "options": [
+        "Is going open a new hospital",
+        "Will going open a new hospital",
+        "Is going to open a new hospital",
+        "Will going to open a new hospital",
+        "Will go to open a new hospital"
+      ],
+      "answer": "Is going to open a new hospital"
+    },
+    {
+      "id": 590,
+      "question": "'Vigour' is opposite to -",
+      "options": ["Failure", "Negligence", "Frailty", "Energy"],
+      "answer": "Frailty"
+    },
+    {
+      "id": 591,
+      "question": "Which word is closest in meaning to ‘Franchise’?",
+      "options": ["Privilege", "Utility", "Frankness", "Superficial"],
+      "answer": "Privilege"
+    },
+    {
+      "id": 592,
+      "question": "He objects ---- having to go to so many parties.",
+      "options": ["for", "against", "from", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 593,
+      "question": "What is the correct synonym of 'Donated' ?",
+      "options": ["Used", "Spent", "Contributed", "Channeled"],
+      "answer": "Contributed"
+    },
+    {
+      "id": 594,
+      "question": "Debut",
+      "options": [
+        "Conclusion",
+        "Contradiction",
+        "Gracious response",
+        "First appearance"
+      ],
+      "answer": "First appearance"
+    },
+    {
+      "id": 595,
+      "question": "What is the meaning of the word 'De-facto'?",
+      "options": ["Illegal", "Prodigal", "Defective", "In fact"],
+      "answer": "In fact"
+    },
+    {
+      "id": 596,
+      "question": "Illicit - এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Fake", "Unlawful", "Legal", "Compatible"],
+      "answer": "Unlawful"
+    },
+    {
+      "id": 597,
+      "question": "'Calm' এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Angry", "Quiet", "Agitated", "Irritated"],
+      "answer": "Quiet"
+    },
+    {
+      "id": 598,
+      "question": "The lady is not amenable --- reason. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["on", "to", "for", "of"],
+      "answer": "to"
+    },
+    {
+      "id": 599,
+      "question": "The opposite of the word 'diversity' is --",
+      "options": [
+        "similarity",
+        "orginality",
+        "longevity",
+        "texture",
+        "difficulty"
+      ],
+      "answer": "similarity"
+    },
+    {
+      "id": 600,
+      "question": "Philanthropist means -",
+      "options": [
+        "A person of chanty",
+        "A person of wide view",
+        "A hater of mankind",
+        "A person with expert knowledge of postage"
+      ],
+      "answer": "A person of chanty"
+    },
+    {
+      "id": 601,
+      "question": "The virtuous (be) always happy. which one of the following is the correct verb or the word within bracket",
+      "options": ["are", "is", "have been", "none of the above"],
+      "answer": "are"
+    },
+    {
+      "id": 602,
+      "question": "He was absorbed --- deep thought. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["at", "in", "with", "on"],
+      "answer": "in"
+    },
+    {
+      "id": 603,
+      "question": "A synonym for 'illusive' is -",
+      "options": [
+        "Not obvious",
+        "Not coherent",
+        "Not deceptive",
+        "Not certain"
+      ],
+      "answer": "Not obvious"
+    },
+    {
+      "id": 604,
+      "question": "A man who is popular --- his neighbours is supposed to be a good man.",
+      "options": ["to", "with", "among", "for"],
+      "answer": "with"
+    },
+    {
+      "id": 605,
+      "question": "'Prima facie' means -",
+      "options": [
+        "Prime figure",
+        "At first view",
+        "Prime accused",
+        "Prime minister"
+      ],
+      "answer": "At first view"
+    },
+    {
+      "id": 606,
+      "question": "\"Such claim needs to be tested empirically\" suggest that -",
+      "options": [
+        "The test should be based on",
+        "The test should be based on idea",
+        "The test should be based on experience",
+        "The test should be based on calculation"
+      ],
+      "answer": "the test should be based on experience"
+    },
+    {
+      "id": 607,
+      "question": "The synonym of 'impromptu' is -",
+      "options": ["Extempore", "Prepared", "Improper", "Direct"],
+      "answer": "Extempore"
+    },
+    {
+      "id": 608,
+      "question": "Sumi is looking for an apartment ---- the park.",
+      "options": ["at", "of", "to", "near"],
+      "answer": "near"
+    },
+    {
+      "id": 609,
+      "question": "Utilize শব্দটির synonym হচ্ছে -",
+      "options": ["Discard", "Employ", "Discharge", "Reject"],
+      "answer": "Employ"
+    },
+    {
+      "id": 610,
+      "question": "A man who pays too much attention to his clothes and personal appearance --",
+      "options": ["Licentious", "Dandy", "Duffer", "Snob"],
+      "answer": "Dandy"
+    },
+    {
+      "id": 611,
+      "question": "The word 'Parsimony' means -",
+      "options": ["Pathetic", "Miserable", "Miserliness", "Lavish"],
+      "answer": "Miserliness"
+    },
+    {
+      "id": 612,
+      "question": "'Kinship' means",
+      "options": ["A telephone box", "A bed", "Blood relation", "Strange"],
+      "answer": "Blood relation"
+    },
+    {
+      "id": 613,
+      "question": "They thought that the plan would ---",
+      "options": ["succeeded", "be succeeded", "succeed", "success"],
+      "answer": "succeed"
+    },
+    {
+      "id": 614,
+      "question": "What is the antonym of 'Delete' ?",
+      "options": ["Injure", "Delay", "Insert", "Trap"],
+      "answer": "Insert"
+    },
+    {
+      "id": 615,
+      "question": "অবাক কাজ' এর ইংরেজী কি?",
+      "options": [
+        "What is strange",
+        "The wonderful",
+        "The beautiful work",
+        "None of these"
+      ],
+      "answer": "The wonderful"
+    },
+    {
+      "id": 616,
+      "question": "He prevented me ---- going there.",
+      "options": ["on", "from", "to", "of"],
+      "answer": "from"
+    },
+    {
+      "id": 617,
+      "question": "what is the meaning of the expression 'bottom line'",
+      "options": [
+        "the final step",
+        "the last line of a book",
+        "the end of the road",
+        "the essential point"
+      ],
+      "answer": "the essential point"
+    },
+    {
+      "id": 618,
+      "question": "I am fatigued ---- wide traveling.",
+      "options": ["in", "by", "for", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 619,
+      "question": "The word 'hardly' means",
+      "options": ["Always", "Almost never", "Seriously", "Regularly"],
+      "answer": "Almost never"
+    },
+    {
+      "id": 620,
+      "question": "Cold এর antonym কি?",
+      "options": ["Hard", "Hot", "Swift", "Strong"],
+      "answer": "Hot"
+    },
+    {
+      "id": 621,
+      "question": "a synonym of 'extract'",
+      "options": ["quote", "select", "insert", "collect"],
+      "answer": "select"
+    },
+    {
+      "id": 622,
+      "question": "Rita sat on the corner of the table --- the door.",
+      "options": ["of", "to", "near", "beside"],
+      "answer": "beside"
+    },
+    {
+      "id": 623,
+      "question": "Select the alternative which best expresses the meaning of the given sentences: \"Not once has our neighbour invited us into his house\"",
+      "options": [
+        "Our neighbour has invited us into his house not once but many times",
+        "Our neighbour has never invited us into his house",
+        "Occasionally our neighbour has never invited us into his house",
+        "Our neighbour has not always invited us into his house"
+      ],
+      "answer": "Our neighbour has never invited us into his house"
+    },
+    {
+      "id": 624,
+      "question": "Travellers ------ their reservation well in advance if they want to visit the st.martins island.",
+      "options": [
+        "had better to get",
+        "had to better get",
+        "had better get",
+        "had better got"
+      ],
+      "answer": "had better get"
+    },
+    {
+      "id": 625,
+      "question": "We went --- a party --- rita's house on sunday.",
+      "options": ["for , to", "to , at", "on , at", "to , to"],
+      "answer": "to , at"
+    },
+    {
+      "id": 626,
+      "question": "To do away with' mens -",
+      "options": ["to repeat", "to start", "to get rid of", "to drive off"],
+      "answer": "to get rid of"
+    },
+    {
+      "id": 627,
+      "question": "I had (have) my meal before you came.",
+      "options": ["had", "have", "been", "have been"],
+      "answer": "had"
+    },
+    {
+      "id": 628,
+      "question": "There are people who can't help ---- when they see someone slip on a banana skin.",
+      "options": ["crying", "laughing", "shouting", "anything"],
+      "answer": "laughing"
+    },
+    {
+      "id": 629,
+      "question": "Ordinance এর বাংলা অর্থ -",
+      "options": ["সমরাস্ত্র", "অধ্যাদেশ", "আদেশ", "বিশেষ ক্ষমতাবলে নির্দেশ"],
+      "answer": "অধ্যাদেশ"
+    },
+    {
+      "id": 630,
+      "question": "'Proscribe' means -",
+      "options": ["Advise", "Seize", "Take into custody", "Prohibit"],
+      "answer": "Prohibit"
+    },
+    {
+      "id": 631,
+      "question": "'Expound' is similar to --",
+      "options": ["confound", "perplex", "explain", "obscure"],
+      "answer": "explain"
+    },
+    {
+      "id": 632,
+      "question": "'Barter' is similar to --",
+      "options": ["transient", "proxy", "relevant", "useful", "ex]hange"],
+      "answer": "exchange"
+    },
+    {
+      "id": 633,
+      "question": "The word 'Plight' means -",
+      "options": [
+        "An unpleasant condition",
+        "An unusual condition",
+        "An undesirable condition",
+        "An unstable condition"
+      ],
+      "answer": "An unpleasant condition"
+    },
+    {
+      "id": 634,
+      "question": "I should appreciate if you complete this work --- thursday.",
+      "options": ["till", "until", "upto", "by"],
+      "answer": "by"
+    },
+    {
+      "id": 635,
+      "question": "What is the antonym of 'apostate' ?",
+      "options": ["Loyalist", "Cancellation", "Poverty", "Believe"],
+      "answer": "Loyalist"
+    },
+    {
+      "id": 636,
+      "question": "Complete the sentence : he talks as if -----?",
+      "options": ["he was mad", "he were mad", "he had been mad", "he is mad"],
+      "answer": "he were mad"
+    },
+    {
+      "id": 637,
+      "question": "I prefer working ---- a deadline.",
+      "options": ["to", "for", "on", "with"],
+      "answer": "to"
+    },
+    {
+      "id": 638,
+      "question": "Dessert is -",
+      "options": [
+        "Course of fruits etc. at the end of a meal",
+        "Barren land",
+        "Go away from",
+        "To be rewarded"
+      ],
+      "answer": "Course of fruits etc. at the end of a meal"
+    },
+    {
+      "id": 639,
+      "question": "What is the antonym of the word 'narrow' ?",
+      "options": ["Deep", "Broad", "Shallow", "Rough"],
+      "answer": "Droad"
+    },
+    {
+      "id": 640,
+      "question": "'Percel' means -",
+      "options": ["Quarrel", "Piece of land", "Postage", "Unobstructed view"],
+      "answer": "Piece of land"
+    },
+    {
+      "id": 641,
+      "question": "The antonym of 'hazardous' is -",
+      "options": ["Certain", "Clear", "Safe", "Dangerous"],
+      "answer": "Safe"
+    },
+    {
+      "id": 642,
+      "question": "Fill in the blank with right option: i am looking forward --- you.",
+      "options": ["to seeing", "seeing", "to see", "to have seen"],
+      "answer": "to seeing"
+    },
+    {
+      "id": 643,
+      "question": "Which of the following set contain the correct meaning ?",
+      "options": [
+        "Antipathy : Strong dislike",
+        "Bequeath : Determined to go",
+        "Collide : Indifferent",
+        "Devolve : Without"
+      ],
+      "answer": "Antipathy : Strong dislike"
+    },
+    {
+      "id": 644,
+      "question": "Hell শব্দের অর্থ",
+      "options": ["ঊর্ধ্ব", "স্বর্গ", "অধঃ", "নরক"],
+      "answer": "নরক"
+    },
+    {
+      "id": 645,
+      "question": "You are looking smart --- this dress.",
+      "options": ["after", "in", "with", "of"],
+      "answer": "of"
+    },
+    {
+      "id": 646,
+      "question": "It is who -- to blame বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে-",
+      "options": ["was", "is", "are", "has"],
+      "answer": "are"
+    },
+    {
+      "id": 647,
+      "question": "What is the meaning of the word 'Sequence'?",
+      "options": ["To follow", "Round up", "Withdraw", "Question closely"],
+      "answer": "To follow"
+    },
+    {
+      "id": 648,
+      "question": "the correct synonym of the word 'astute' is",
+      "options": ["autistic", "shrewd", "economic", "acute"],
+      "answer": "shrewd"
+    },
+    {
+      "id": 649,
+      "question": "A synonym for 'Appraise' is",
+      "options": [
+        "Explain",
+        "Perceive",
+        "Elaborate",
+        "Criticize",
+        "None of these"
+      ],
+      "answer": "None of these"
+    },
+    {
+      "id": 650,
+      "question": "The synonym of 'desultory' is -",
+      "options": [
+        "Organized",
+        "Disorganized",
+        "Drive",
+        "Methodical",
+        "Romantic"
+      ],
+      "answer": "Disorganized"
+    },
+    {
+      "id": 651,
+      "question": "'Enunciate' is most nearly similar in meaning to --",
+      "options": ["pray", "request", "deliver", "mumble"],
+      "answer": "mumble"
+    },
+    {
+      "id": 652,
+      "question": "He is devoid --- common sense.",
+      "options": ["of", "from", "introduction", "at"],
+      "answer": "of"
+    },
+    {
+      "id": 653,
+      "question": "\"exact\" is the antonym of",
+      "options": ["nearly", "approximate", "closely", "so so"],
+      "answer": "approximate"
+    },
+    {
+      "id": 654,
+      "question": "'edifice' means",
+      "options": [
+        "huge quantity",
+        "serious problem",
+        "a large imposing building",
+        "superficial"
+      ],
+      "answer": "a large imposing building"
+    },
+    {
+      "id": 655,
+      "question": "The word 'homogeneous' means -",
+      "options": [
+        "Of the same kind",
+        "Of the same place",
+        "Of the same race",
+        "Of the same density"
+      ],
+      "answer": "of the same kind"
+    },
+    {
+      "id": 656,
+      "question": "Travellers ------ their reservation well in advance if they want to fly during the eid holidays.",
+      "options": [
+        "had better to get",
+        "had to get better",
+        "had better get",
+        "had better got"
+      ],
+      "answer": "had better get"
+    },
+    {
+      "id": 657,
+      "question": "The government gave --- the demands of the people.",
+      "options": ["in to", "into", "to", "over to"],
+      "answer": "in to"
+    },
+    {
+      "id": 658,
+      "question": "Which of the following word is the correct synonym of 'libel' ?",
+      "options": ["Convincing", "Annihilate", "Enervated", "Misrepresentation"],
+      "answer": "Misrepresentation"
+    },
+    {
+      "id": 659,
+      "question": "The word 'Decade' means -",
+      "options": [
+        "Rotten objects",
+        "Decaying old age",
+        "A group of ten people",
+        "A period of ten years"
+      ],
+      "answer": "A period of ten years"
+    },
+    {
+      "id": 660,
+      "question": "Synonym of 'Absorbed'",
+      "options": ["Fatigued", "Disturbed", "Engrossed", "Successful"],
+      "answer": "Engrossed"
+    },
+    {
+      "id": 661,
+      "question": "Who among the following writers is not a nobel laureate?",
+      "options": ["T.S.Eliot", "Toni Morrison", "Grahame Greene", "William"],
+      "answer": "Grahame Greene"
+    },
+    {
+      "id": 662,
+      "question": "in space , the primary necessities ---- survival are air, food and water.",
+      "options": ["of", "for", "about", "in"],
+      "answer": "for"
+    },
+    {
+      "id": 663,
+      "question": "brittle এর সমার্থক শব্দ কোনটি ?",
+      "options": ["fragile", "soft", "strong", "hard"],
+      "answer": "fragile"
+    },
+    {
+      "id": 664,
+      "question": "'quarrel' শব্দটির synonym হচ্ছে",
+      "options": ["agreement", "reconciliation", "peace", "dispute"],
+      "answer": "dispute"
+    },
+    {
+      "id": 665,
+      "question": "Find out the plural number ---",
+      "options": ["Mice", "Goose", "Woman", "None of these"],
+      "answer": "Mice"
+    },
+    {
+      "id": 666,
+      "question": "'Neglect' এর সমার্থক শব্দ কোনটি?",
+      "options": ["Care", "Attention", "Carelessness", "Watchfulness"],
+      "answer": "Carelessness"
+    },
+    {
+      "id": 667,
+      "question": "His wife reminded him ----?",
+      "options": [
+        "of his appointment",
+        "to go his appointment",
+        "to his appointment",
+        "his appointment"
+      ],
+      "answer": "of his appointment"
+    },
+    {
+      "id": 668,
+      "question": "'You should drive the car at a speed compatible ---- safety' বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে --",
+      "options": ["for", "towards", "at", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 669,
+      "question": "The word calamity means -",
+      "options": ["competent", "casual", "catastrophe", "celebrated"],
+      "answer": "catastrophe"
+    },
+    {
+      "id": 670,
+      "question": "Fill the blank with correct word: The women was seen --- the ring in her bag.",
+      "options": ["Putting", "Put in", "Put on", "wWs putting"],
+      "answer": "Putting"
+    },
+    {
+      "id": 671,
+      "question": "As a sinner i must go ----- the whole trial ---- suffering.",
+      "options": ["through , of", "on , of", "by , in", "with , at"],
+      "answer": "through , of"
+    },
+    {
+      "id": 672,
+      "question": "Synonym for 'Narcissism'",
+      "options": ["Notable", "Self love", "Dignity", "Admiration for beauty"],
+      "answer": "Self love"
+    },
+    {
+      "id": 673,
+      "question": "Many years have passed since i ---- my friend.",
+      "options": ["had met", "met", "meet", "have been met"],
+      "answer": "met"
+    },
+    {
+      "id": 674,
+      "question": "Shallow is opposite to -",
+      "options": ["arbitrary", "painstaking", "profound", "restive"],
+      "answer": "profound"
+    },
+    {
+      "id": 675,
+      "question": "কোনটি 'Vacant' শব্দের সমার্থক শব্দ ?",
+      "options": ["Blank", "Engaged", "Busy", "Employed"],
+      "answer": "Blank"
+    },
+    {
+      "id": 676,
+      "question": "Courteous and attentive to women means -",
+      "options": [
+        "Querulous",
+        "Chivalrous",
+        "Supercilious",
+        "Dolorous",
+        "Ob]equious"
+      ],
+      "answer": "Chivalrous"
+    },
+    {
+      "id": 677,
+      "question": "What is the synonym of the word 'abstain'",
+      "options": ["Continue", "Good", "Paused", "Last"],
+      "answer": "Paused"
+    },
+    {
+      "id": 678,
+      "question": "'Flora' means --",
+      "options": [
+        "Elaborate decoration with flowers",
+        "All the flowers of an area",
+        "A garland of flowers",
+        "All the plants of an area"
+      ],
+      "answer": "All the plants of an area"
+    },
+    {
+      "id": 679,
+      "question": "Fill in the gap with proper word: i saw him ----",
+      "options": ["go", "went", "going", "gone"],
+      "answer": "going"
+    },
+    {
+      "id": 680,
+      "question": "The sentence\"Who would have thought Shylock was so unkind\" expresses",
+      "options": ["Hyperbole", "Interrogation", "Command", "Wonder"],
+      "answer": "Wonder"
+    },
+    {
+      "id": 681,
+      "question": "A cure for all diseases --",
+      "options": ["Exorcism", "Incantation", "Panacea", "Antibiotic"],
+      "answer": "Panacea"
+    },
+    {
+      "id": 682,
+      "question": "Identify the sentence with appropriate preposition -----",
+      "options": [
+        "\"You need not look on it\",said delia.",
+        "I don't believe in learning luxurious life",
+        "It is 7 o'clock on my watch",
+        "The patient died from malaria"
+      ],
+      "answer": "I don't believe in learning luxurious life"
+    },
+    {
+      "id": 683,
+      "question": "An Ordinance is -",
+      "options": ["A book", "A law", "A newspaper", "A manuscript"],
+      "answer": "A law"
+    },
+    {
+      "id": 684,
+      "question": "A phlegmatic person is someone who --",
+      "options": [
+        "Quarrels with everybody",
+        "Helps poor people",
+        "Remains calm and does not get excited easily",
+        "Does not believe in god"
+      ],
+      "answer": "Remains calm and does not get excited easily"
+    },
+    {
+      "id": 685,
+      "question": "A cardologist treats patients with -------- problems.",
+      "options": ["Heart", "Kidney", "Urine", "Stomach"],
+      "answer": "Heart"
+    },
+    {
+      "id": 686,
+      "question": "Synonym of the word 'sequel' --",
+      "options": ["Continuance", "Prologue", "Preamble", "Prelude"],
+      "answer": "Continuance"
+    },
+    {
+      "id": 687,
+      "question": "The synonym of 'Remember' is -",
+      "options": ["Call up", "Memory", "Forget", "Recollect"],
+      "answer": "Recollect"
+    },
+    {
+      "id": 688,
+      "question": "'Break' এর সমার্থক শব্দ কোনটি ?",
+      "options": ["Unit", "Smash", "Join", "Assemble"],
+      "answer": "Smash"
+    },
+    {
+      "id": 689,
+      "question": "--- his earlier study, the professor's new study indicates a general warning trend in global weather.",
+      "options": [
+        "In contrast of",
+        "In contrast to",
+        "In contrast by",
+        "In contrast as"
+      ],
+      "answer": "in contrast to"
+    },
+    {
+      "id": 690,
+      "question": "Who will account ---- the loss ?",
+      "options": ["at", "of", "for", "about"],
+      "answer": "at"
+    },
+    {
+      "id": 691,
+      "question": "The children were entrusted --- the care of their uncle",
+      "options": ["with", "for", "to", "at"],
+      "answer": "to"
+    },
+    {
+      "id": 692,
+      "question": "Which is the correct sentence?",
+      "options": [
+        "I wish i was in your shoes",
+        "I wish i were in your shoes",
+        "I wish i got into your shoes",
+        "I wish i get into your shoes"
+      ],
+      "answer": "I wish i were in your shoes"
+    },
+    {
+      "id": 693,
+      "question": "I stretched for tissue but the box of tissues -- nearly empty.",
+      "options": ["was", "were", "has", "have", "None of these"],
+      "answer": "was"
+    },
+    {
+      "id": 694,
+      "question": "The aggrieved parties 'acceded' to the proposal.(synonym)",
+      "options": ["Added to", "Reduced", "Awaited", "Proposed", "De]lined"],
+      "answer": "Added to"
+    },
+    {
+      "id": 695,
+      "question": "Choose the correct meaning of the word 'Likely'",
+      "options": ["Possibly", "Very much liked", "Similarly", "Nearly"],
+      "answer": "Possibly"
+    },
+    {
+      "id": 696,
+      "question": "'Spacious' is the antonym of -",
+      "options": ["typical", "narrow", "golden", "genuine", "none of these"],
+      "answer": "narrow"
+    },
+    {
+      "id": 697,
+      "question": "Which one means 'unlimited power'?",
+      "options": ["Omnipresent", "Omniscient", "Omnipotent", "Omnibus"],
+      "answer": "Omnipotent"
+    },
+    {
+      "id": 698,
+      "question": "Ring master is a person in charge of --",
+      "options": [
+        "A bus counter",
+        "A circus performance",
+        "A cinema hall",
+        "A dramatic performance"
+      ],
+      "answer": "A circus performance"
+    },
+    {
+      "id": 699,
+      "question": "The meaning of 'conjecture' is related to --",
+      "options": ["continuity", "doubtfully", "deeply", "mostly", "simply"],
+      "answer": "doubtfully"
+    },
+    {
+      "id": 700,
+      "question": "'Mercenary' is the synonym of --",
+      "options": ["Hired", "Voluntary", "Venal", "Mean"],
+      "answer": "Hired"
+    },
+    {
+      "id": 701,
+      "question": "Fill in the blank. he ran 10 kilometers --- stopping.",
+      "options": ["often", "seldom", "without", "continuously"],
+      "answer": "without"
+    },
+    {
+      "id": 702,
+      "question": "Meaning of the word 'Aboriginal' --",
+      "options": ["hateful", "primitive", "modern", "amuring", "attractive"],
+      "answer": "primitive"
+    },
+    {
+      "id": 703,
+      "question": "What is the synonym of the word 'Active'?",
+      "options": ["Able", "Up and doing", "Energetic", "Forceful"],
+      "answer": "Up and doing"
+    },
+    {
+      "id": 704,
+      "question": "'Millennium' is a period of --",
+      "options": ["100 years", "500 years", "1000 years", "2500 years"],
+      "answer": "1000 years"
+    },
+    {
+      "id": 705,
+      "question": "My mother had me ---- milk every",
+      "options": ["to drinking", "drinking", "drink", "drank"],
+      "answer": "drink"
+    },
+    {
+      "id": 706,
+      "question": "instead of 'confirm' we can say --",
+      "options": ["Bear out", "Bear on", "Bear to", "Bear off"],
+      "answer": "Bear out"
+    },
+    {
+      "id": 707,
+      "question": "Will you mind --- the accounts one more time?",
+      "options": ["checking", "to check", "checked", "check"],
+      "answer": "checking"
+    },
+    {
+      "id": 708,
+      "question": "A synonym of 'Faithful' is --",
+      "options": ["Loyal", "Deceitful", "Extravagant", "Hateful"],
+      "answer": "Loyal"
+    },
+    {
+      "id": 709,
+      "question": "The synonym of the word 'equivocation' is --",
+      "options": ["Fairness", "Evasion", "Imprecation", "Equality"],
+      "answer": "Evasion"
+    },
+    {
+      "id": 710,
+      "question": "I am not bad --- tennis.",
+      "options": ["in", "at", "about", "with"],
+      "answer": "at"
+    },
+    {
+      "id": 711,
+      "question": "'Sloth' is the antonym of --",
+      "options": ["Activity", "Idleness", "Laziness", "Indolence"],
+      "answer": "Activity"
+    },
+    {
+      "id": 712,
+      "question": "Query শব্দটির অর্থ কোনটি?",
+      "options": ["solution", "question", "dissolved", "ratify"],
+      "answer": "question"
+    },
+    {
+      "id": 713,
+      "question": "Gullible' means",
+      "options": [
+        "Foolish",
+        "Willing to believe anything or anyone",
+        "Simple",
+        "Easily deceived"
+      ],
+      "answer": "Easily deceived"
+    },
+    {
+      "id": 714,
+      "question": "We need two hundred dollars --- this to pay for everything.",
+      "options": ["as well", "also", "beside", "besides"],
+      "answer": "besides"
+    },
+    {
+      "id": 715,
+      "question": "I finally killed the fly ---- a rolled up newspaper.",
+      "options": ["by", "with", "through", "from"],
+      "answer": "with"
+    },
+    {
+      "id": 716,
+      "question": "Choose the one that best expresses the meaning of the given word: IMPROVEMENT",
+      "options": ["Promotion", "Advancement", "Betterment", "Preference"],
+      "answer": "Betterment"
+    },
+    {
+      "id": 717,
+      "question": "Which word is different from the other three?",
+      "options": ["media", "war", "newspaper", "radio"],
+      "answer": "war"
+    },
+    {
+      "id": 718,
+      "question": "যে ভাষা থেকে Education শব্দটির উৎপত্তি হয়েছে",
+      "options": ["ইংরেজী", "ফরাসী", "জার্মান", "লাতিন"],
+      "answer": "লাতিন"
+    },
+    {
+      "id": 719,
+      "question": "A sound which cannot be heard -- ",
+      "options": ["Audible", "Inaudible", "Obsolete", "Whisper"],
+      "answer": "Inaudible"
+    },
+    {
+      "id": 720,
+      "question": "The teacher failed to make the students --- to him.",
+      "options": ["to listen", "listening", "listened", "listen"],
+      "answer": "listen"
+    },
+    {
+      "id": 721,
+      "question": "What kind of man is quite the opposite type of 'supercilious' ?",
+      "options": ["Affable", "Haughty", "Disdainful", "Wicked"],
+      "answer": "Affable"
+    },
+    {
+      "id": 722,
+      "question": "What is the synonym of 'competent' ?",
+      "options": ["Circumspect", "Discrete", "Capable", "Prudent"],
+      "answer": "Capable"
+    },
+    {
+      "id": 723,
+      "question": "What is the synonym of 'incredible' ?",
+      "options": ["Unbelievable", "Unthinkable", "Unlikely", "Unthinking"],
+      "answer": "Unbelievable"
+    },
+    {
+      "id": 724,
+      "question": "The verb 'succumb' means -",
+      "options": ["achieve", "submit", "wind", "conquer"],
+      "answer": "submit"
+    },
+    {
+      "id": 725,
+      "question": "'Scarcity' is opposite to --",
+      "options": ["abundance", "mediocre", "remote", "little", "none of these"],
+      "answer": "abundance"
+    },
+    {
+      "id": 726,
+      "question": "He fantasized ---- winning the lottery.",
+      "options": ["with", "from", "after", "about"],
+      "answer": "about"
+    },
+    {
+      "id": 727,
+      "question": "the word 'ecological' is related to --",
+      "options": ["Atmosphere", "Pollution", "Environment", "Demography"],
+      "answer": "Environment"
+    },
+    {
+      "id": 728,
+      "question": "An 'erratic' person is one who is",
+      "options": ["Pleasant", "Honest", "Unreliable", "Rational"],
+      "answer": "Unreliable"
+    },
+    {
+      "id": 729,
+      "question": "choose the one that best expresses the meaning of the given word: improvement",
+      "options": ["promotion", "advancement", "betterment", "preference"],
+      "answer": "betterment"
+    },
+    {
+      "id": 730,
+      "question": "'Heptagone' means -",
+      "options": ["Five sides", "Triangangle", "Seven sides", "Straight"],
+      "answer": "Seven sides"
+    },
+    {
+      "id": 731,
+      "question": "Choose the word opposite in meaning to the given word: HATE",
+      "options": ["Admire", "Abhor", "Concern", "Loathe"],
+      "answer": "Admire"
+    },
+    {
+      "id": 732,
+      "question": "Synonym of 'Indigenious'",
+      "options": ["Locale", "Distant", "Foreign", "Native"],
+      "answer": "Native"
+    },
+    {
+      "id": 733,
+      "question": "Choose the appropriate word or words to complete the sentence below: rafique saw --- digging in his garden.",
+      "options": ["Mr. Ali was", "That Mr. Ali", "Mr. Ali is", "Mr. Ali"],
+      "answer": "Mr. Ali"
+    },
+    {
+      "id": 734,
+      "question": "The synonym of the word 'encounter' is --",
+      "options": ["Concord", "Harmony", "Battle", "Part"],
+      "answer": "Battle"
+    },
+    {
+      "id": 735,
+      "question": "I am not good ---- translation.",
+      "options": ["in", "about", "with", "at"],
+      "answer": "at"
+    },
+    {
+      "id": 736,
+      "question": "We should not yield ---- any pressure.",
+      "options": ["to", "for", "from", "of"],
+      "answer": "to"
+    },
+    {
+      "id": 737,
+      "question": "Choose the world that is opposite in meaning to the word 'irreversible' ?",
+      "options": [
+        "temporary",
+        "occasional",
+        "changeable",
+        "permanent",
+        "irrevocable"
+      ],
+      "answer": "changeable"
+    },
+    {
+      "id": 738,
+      "question": "The antonym for the word 'Resemblance' is --",
+      "options": ["Identity", "Dimilarity", "Difference", "Dissembling"],
+      "answer": "Difference"
+    },
+    {
+      "id": 739,
+      "question": "The antonym of 'Harbinger' is --",
+      "options": ["Leader", "Educator", "Messenger", "Wastrel"],
+      "answer": "Wastrel"
+    },
+    {
+      "id": 740,
+      "question": "You should avail --- yourself this opportunity.",
+      "options": ["of", "to", "in", "from", "none of these"],
+      "answer": "of"
+    },
+    {
+      "id": 741,
+      "question": "Had i been reach i (help) her.choose the correct form of verb --",
+      "options": [
+        "would help",
+        "will help",
+        "would have helped",
+        "will have helped"
+      ],
+      "answer": "would have helped"
+    },
+    {
+      "id": 742,
+      "question": "A synonym of 'functional' is --",
+      "options": ["Practical", "Passive", "Peculiar", "Pedantic"],
+      "answer": "Practical"
+    },
+    {
+      "id": 743,
+      "question": "The teacher asked the boys to stop ---. Which of the following is the correct verb form in the blank above?",
+      "options": ["Writing", "To write", "Write", "for writing"],
+      "answer": "Writing"
+    },
+    {
+      "id": 744,
+      "question": "Full শব্দটির synonym হচ্ছে -",
+      "options": ["Filled", "Fulfilment", "Fill", "Full"],
+      "answer": "Full"
+    },
+    {
+      "id": 745,
+      "question": "'Populour' এর বাংলা অর্থ -",
+      "options": ["জনসাধারন", "জনপ্রিয়", "জনবহুল", "জনসংখ্যা"],
+      "answer": "জনসাধারন"
+    },
+    {
+      "id": 746,
+      "question": "The word 'Exaggerated' is closet in meaning to --",
+      "options": ["Modest", "Concise", "More than normal", "New"],
+      "answer": "More than normal"
+    },
+    {
+      "id": 747,
+      "question": "Which of the following is a correct proverb ?",
+      "options": [
+        "Fools rush in where an angels fear to tread",
+        "Fools rush in where an angel fears to tread",
+        "A fool rushes in where an angel fears to tread",
+        "Fools rush in where an angel fear to tread"
+      ],
+      "answer": "Fools rush in where an angels fear to tread"
+    },
+    {
+      "id": 748,
+      "question": "'Everything hinges --- what happens next' বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["by", "upon", "for", "with"],
+      "answer": "upon"
+    },
+    {
+      "id": 749,
+      "question": "What is the closest word to the following word 'Degradation' ?",
+      "options": ["Dishonor", "Embarrassment", "Bewilderment", "Anger"],
+      "answer": "Dishonor"
+    },
+    {
+      "id": 750,
+      "question": "What is the correct preposition in the sentence ' the case is ----- trail'.",
+      "options": ["on", "at", "under", "for"],
+      "answer": "under"
+    },
+    {
+      "id": 751,
+      "question": "I get up before ----- sunrise .",
+      "options": ["a", "an", "the", "at"],
+      "answer": "the"
+    },
+    {
+      "id": 752,
+      "question": "The meaning of the word 'Comprehension' is --",
+      "options": [
+        "Application",
+        "Apprehension",
+        "Compounding",
+        "Understanding"
+      ],
+      "answer": "Understanding"
+    },
+    {
+      "id": 753,
+      "question": "Early rising is coducive --- health.",
+      "options": ["for", "of", "to", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 754,
+      "question": "What is the synonym of 'Decorous'?",
+      "options": ["Ugly", "Proper", "Fatty", "Strange"],
+      "answer": "Proper"
+    },
+    {
+      "id": 755,
+      "question": "I prevailed ---- my friend to lend me tk.5000.",
+      "options": ["over", "with", "upon", "against"],
+      "answer": "upon"
+    },
+    {
+      "id": 756,
+      "question": "The lady had a 'puzzled' look on her face.",
+      "options": [
+        "Beautiful",
+        "Good",
+        "Happy",
+        "Unable to understand",
+        "None of these"
+      ],
+      "answer": "Unable to understand"
+    },
+    {
+      "id": 757,
+      "question": "Choose the best answer.",
+      "options": [
+        "He discourages me to borrows",
+        "He discourages me from borrowing",
+        "He discourages from me borrowing",
+        "He discourages me to borrowing"
+      ],
+      "answer": "He discourages me from borrowing"
+    },
+    {
+      "id": 758,
+      "question": "Choose the correct antonym of the word 'Glowing' ?",
+      "options": ["Without show", "Dull", "Without glittter", "Boring"],
+      "answer": "Dull"
+    },
+    {
+      "id": 759,
+      "question": "He could not 'deny' that.",
+      "options": ["Decide", "Accept", "Confusion", "Refuse", "None of these"],
+      "answer": "Accept"
+    },
+    {
+      "id": 760,
+      "question": "To express a past habit or state which one will be the correct expression?",
+      "options": [
+        "I came here when i was child",
+        "I had come here when i was a child",
+        "I used to come here when i was a child",
+        "I would come here when i was a child"
+      ],
+      "answer": "I used to come here when i was a child"
+    },
+    {
+      "id": 761,
+      "question": "There is no royal road ---- learning.",
+      "options": ["to", "by", "for", "from"],
+      "answer": "to"
+    },
+    {
+      "id": 762,
+      "question": "Subconscious' শব্দটির বাংলা পরিভাষিক শব্দ হল -",
+      "options": ["অধচেতন", "অবচেতন", "চেতনাহীন", "চেতনাপ্রবাহ"],
+      "answer": "অবচেতন"
+    },
+    {
+      "id": 763,
+      "question": "The word 'Altercation' means -",
+      "options": ["Adjustment", "Replace", "Quarrel", "Repairing"],
+      "answer": "Quarrel"
+    },
+    {
+      "id": 764,
+      "question": "Select the right word: it is high time you ---- up smoking.",
+      "options": ["give", "gave", "have given", "will give"],
+      "answer": "gave"
+    },
+    {
+      "id": 765,
+      "question": "Where has this letter come --?",
+      "options": ["to", "on", "from", "for"],
+      "answer": "from"
+    },
+    {
+      "id": 766,
+      "question": "'সততা সর্বোৎকৃষ্ট পন্থা' - কোনটির অনুবাদ ?",
+      "options": [
+        "Honesty is the best virtue",
+        "Honesty is the better way",
+        "Honesty is a good way",
+        "Honesty is the best policy"
+      ],
+      "answer": "Honesty is the best policy"
+    },
+    {
+      "id": 767,
+      "question": "Without health there is no happiness. এখানে happiness শব্দটি কোন প্রকারের noun?",
+      "options": ["Proper", "Common", "Collective", "Abstract"],
+      "answer": "Abstract"
+    },
+    {
+      "id": 768,
+      "question": "The word 'euphemism' means ---?",
+      "options": [
+        "Stating one thing like another",
+        "Description of disagreeable thing by an agreeable name",
+        "Contrast of words is made in the same sentence",
+        "A statement is made emphatic by over statement"
+      ],
+      "answer": "Description of disagreeable thing by an agreeable name"
+    },
+    {
+      "id": 769,
+      "question": "The synonym of 'symphony' is --",
+      "options": ["Singer", "Composer", "Consonance", "Harmony of sound"],
+      "answer": "Harmony of sound"
+    },
+    {
+      "id": 770,
+      "question": "\"He has assured me ---- safety.\"",
+      "options": ["with", "at", "for", "of"],
+      "answer": "of"
+    },
+    {
+      "id": 771,
+      "question": "The money we asked ---- was not forthcoming.",
+      "options": ["for", "after", "about", "around"],
+      "answer": "for"
+    },
+    {
+      "id": 772,
+      "question": "Find the synonym of the word 'Myopic'",
+      "options": [
+        "Evenhanded",
+        "Unprejudiced",
+        "Tolerant",
+        "Short-sighted",
+        "Open-minded"
+      ],
+      "answer": "Short-sighted"
+    },
+    {
+      "id": 773,
+      "question": "Honesty is indispensible ---- success.",
+      "options": ["at", "for", "to", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 774,
+      "question": "Choose the word opposite in meaning to the given word: \"Repeal\"",
+      "options": ["Abolish", "Enact", "Annul", "Nullify"],
+      "answer": "Enact"
+    },
+    {
+      "id": 775,
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The train is running in time",
+        "The train is running on time",
+        "The train is running with time",
+        "The train is running to time"
+      ],
+      "answer": "The train is running on time"
+    },
+    {
+      "id": 776,
+      "question": "'Daunt' is the synonym of --",
+      "options": ["Intimidate", "Overwhelm", "Dared", "Show off"],
+      "answer": "Intimidate"
+    },
+    {
+      "id": 777,
+      "question": "People ----- aeroplanes now a days.",
+      "options": [
+        "used to see",
+        "were used to seeing",
+        "used to seeing",
+        "are used to seeing",
+        "seeing"
+      ],
+      "answer": "are used to seeing"
+    },
+    {
+      "id": 778,
+      "question": "Complete the following sentence lots of people are allergic ---- prawn.",
+      "options": ["from", "with", "in", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 779,
+      "question": "''Ad valorem'' means -",
+      "options": ["Invaluable", "Valuable", "According to valued", "Valueless"],
+      "answer": "According to valued"
+    },
+    {
+      "id": 780,
+      "question": "A person unable to pay his debts --",
+      "options": ["Poor", "Solvent", "Miser", "Insolvent"],
+      "answer": "Insolvent"
+    },
+    {
+      "id": 781,
+      "question": "The meaning of 'magnanimity' is --",
+      "options": ["Meanness", "Generosity", "Selfishness", "Splendid"],
+      "answer": "Generosity"
+    },
+    {
+      "id": 782,
+      "question": "The synonym of the word 'hypothetical' is --",
+      "options": ["Suspicious", "Philosophical", "Assumed", "Complete"],
+      "answer": "Assumed"
+    },
+    {
+      "id": 783,
+      "question": "What is the antonym of 'limpid' ?",
+      "options": ["Watery", "Bright", "Muddy", "Transparent"],
+      "answer": "Muddy"
+    },
+    {
+      "id": 784,
+      "question": "Stay where you are until help --",
+      "options": ["arrives", "arrived", "to arrive", "arriving"],
+      "answer": "arrives"
+    },
+    {
+      "id": 785,
+      "question": "The synonym of 'abstain' is --",
+      "options": ["tardy", "longing", "refrain", "impossible", "tiny"],
+      "answer": "refrain"
+    },
+    {
+      "id": 786,
+      "question": "immune is opposite to -",
+      "options": [
+        "toxic",
+        "having little energy",
+        "having no resistance",
+        "virulent"
+      ],
+      "answer": "having no resistance"
+    },
+    {
+      "id": 787,
+      "question": "He is afflicted --- gout. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["to", "with", "of", "on"],
+      "answer": "with"
+    },
+    {
+      "id": 788,
+      "question": "My opinion coincided ---- you. বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["at", "against", "with", "for"],
+      "answer": "with"
+    },
+    {
+      "id": 789,
+      "question": "There is the Jamuna bridge ----- the river of jamuna.",
+      "options": ["on", "above", "over", "upon"],
+      "answer": "over"
+    },
+    {
+      "id": 790,
+      "question": "The word 'Mandatory' means -",
+      "options": ["Optional", "Obligatory", "Subsidiary", "Done by man"],
+      "answer": "Obligatory"
+    },
+    {
+      "id": 791,
+      "question": "to 'brog' to -",
+      "options": [
+        "boast",
+        "pull or carry a heavy load",
+        "push into place",
+        "barks like a dog"
+      ],
+      "answer": "boast"
+    },
+    {
+      "id": 792,
+      "question": "What is the opposite of 'cowardice'",
+      "options": ["Speed", "Sun", "Bravery", "Speech"],
+      "answer": "Bravery"
+    },
+    {
+      "id": 793,
+      "question": "Maiden speech 'means",
+      "options": [
+        "late speech",
+        "early speech",
+        "final speech",
+        "first speech"
+      ],
+      "answer": "first speech"
+    },
+    {
+      "id": 794,
+      "question": "Synonym of 'Indignant' --",
+      "options": ["Anargy", "Improper", "Unskilled", "Note distinct"],
+      "answer": "Anargy"
+    },
+    {
+      "id": 795,
+      "question": "Broad শব্দটি Abstract form হবে ?",
+      "options": ["Breadth", "Broadness", "Broder", "Bradship"],
+      "answer": "Broadness"
+    },
+    {
+      "id": 796,
+      "question": "I am ashamed --- his conduct.",
+      "options": ["to", "of", "on", "for"],
+      "answer": "of"
+    },
+    {
+      "id": 797,
+      "question": "It was our policy to deal with the problems as they --",
+      "options": ["arose", "rose", "raised", "roused"],
+      "answer": "arose"
+    },
+    {
+      "id": 798,
+      "question": "'Prior to' means -",
+      "options": ["after", "before", "immediately", "during the period of"],
+      "answer": "before"
+    },
+    {
+      "id": 799,
+      "question": "'Elucidate' is the synonym of -",
+      "options": ["confuse", "perplex", "extreme", "expound", "none of them"],
+      "answer": "expound"
+    },
+    {
+      "id": 800,
+      "question": "'Linguist' means",
+      "options": ["Absconder", "Swindler", "Polyglot", "Knowledgeable"],
+      "answer": "Polyglot"
+    },
+    {
+      "id": 801,
+      "question": "Microbiology - এর পরিভাষা নিচের কোনটি ?",
+      "options": [
+        "অনুপ্রাণ বিজ্ঞান",
+        "অনুজীব বিজ্ঞান",
+        "জীবানু বিজ্ঞান",
+        "কোনটিই নয়"
+      ],
+      "answer": "অনুজীব বিজ্ঞান"
+    },
+    {
+      "id": 802,
+      "question": "The word 'liberty'means",
+      "options": ["freedom", "independence", "liberal", "lawlessness"],
+      "answer": "freedom"
+    },
+    {
+      "id": 803,
+      "question": "You must adhere ---- your principal. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["in", "on", "at", "to"],
+      "answer": "to"
+    },
+    {
+      "id": 804,
+      "question": "The disgusted man grumbled --- his fate.",
+      "options": ["on", "to", "against", "at"],
+      "answer": "at"
+    },
+    {
+      "id": 805,
+      "question": "A suitable antonym for 'Contentions' is -",
+      "options": ["Amenable", "Inactive", "Dispassionate", "Severe"],
+      "answer": "Amenable"
+    },
+    {
+      "id": 806,
+      "question": "A modest man does not boast --- his merit.",
+      "options": ["of", "on", "for", "with"],
+      "answer": "of"
+    },
+    {
+      "id": 807,
+      "question": "My brother has no appetite --- food.",
+      "options": ["at", "for", "to", "in"],
+      "answer": "for"
+    },
+    {
+      "id": 808,
+      "question": "Fill in the blanks. I shall do it ---- pleasure.",
+      "options": ["in", "at", "into", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 809,
+      "question": "'Subjudice' means",
+      "options": ["অনাস্থা", "বিচারকের বেঞ্চ", "বিশেষ আদালত", "বিচারাধীন"],
+      "answer": "বিচারাধীন"
+    },
+    {
+      "id": 810,
+      "question": "English is --- in many countries.",
+      "options": ["spoken", "spoke", "speaking", "speaks"],
+      "answer": "spoken"
+    },
+    {
+      "id": 811,
+      "question": "The synonym of 'Latent' is -",
+      "options": ["Unclear", "Dormant", "Obscured", "Obvious"],
+      "answer": "Dormant"
+    },
+    {
+      "id": 812,
+      "question": "Choose the correct meaning of the word 'Viable' ?",
+      "options": ["possible", "that can be done", "capable", "that will work"],
+      "answer": "capable"
+    },
+    {
+      "id": 813,
+      "question": "How did you get an appointment --- Dr. Howard?",
+      "options": ["by", "with", "at", "to"],
+      "answer": "with"
+    },
+    {
+      "id": 814,
+      "question": "Why are you so angry ---- ?",
+      "options": ["about", "at", "with", "for"],
+      "answer": "for"
+    },
+    {
+      "id": 815,
+      "question": "The synonym of the word 'Authentic' is -",
+      "options": ["Correct", "Genuine", "Real", "Exact", "True"],
+      "answer": "Genuine"
+    },
+    {
+      "id": 816,
+      "question": "A suitable antonym for 'Demise' is -",
+      "options": ["Integrity", "Irritative", "Birth", "Excess"],
+      "answer": "Birth"
+    },
+    {
+      "id": 817,
+      "question": "The synonym of 'Refute' is -",
+      "options": ["Disprove", "Prompt", "Laud", "Adept"],
+      "answer": "Disprove"
+    },
+    {
+      "id": 818,
+      "question": "Select the correct preposition. Happiness consists ---- contenment.",
+      "options": ["in", "of", "with", "for"],
+      "answer": "in"
+    },
+    {
+      "id": 819,
+      "question": "The synonym of 'Aroma' is -",
+      "options": ["Food", "Fruits", "Colorless", "Fragrance"],
+      "answer": "Fragrance"
+    },
+    {
+      "id": 820,
+      "question": "What is the antonym of 'Attraction' ?",
+      "options": ["Lure", "Charm", "Repulsive", "Attractiveness"],
+      "answer": "Repulsive"
+    },
+    {
+      "id": 821,
+      "question": "Complete the sentence with the correct verb from : Neela --- her hand when she was cooking dinner.",
+      "options": ["is burning", "burnt", "will burn", "was burning"],
+      "answer": "burnt"
+    },
+    {
+      "id": 822,
+      "question": "The synonym for 'Mouth watering' is -",
+      "options": ["Hot", "Wet", "Sour", "Delicious"],
+      "answer": "Delicious"
+    },
+    {
+      "id": 823,
+      "question": "She was blessed --- a son. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["by", "for", "in", "with"],
+      "answer": "with"
+    },
+    {
+      "id": 824,
+      "question": "'Carnal' is nearly opposite to -",
+      "options": ["Fleshy", "Sensual", "Animal", "Virtuous"],
+      "answer": "Virtuous"
+    },
+    {
+      "id": 825,
+      "question": "An honest man has on distrust ---- anyone. বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে -",
+      "options": ["on", "with", "for", "of"],
+      "answer": "of"
+    },
+    {
+      "id": 826,
+      "question": "Our flat is --- the second floor of the building.",
+      "options": ["at", "on", "in", "upon"],
+      "answer": "on"
+    },
+    {
+      "id": 827,
+      "question": "The antonym for 'Belittle' is --",
+      "options": ["Disobey", "Forget", "Magnify", "Extol"],
+      "answer": "Magnify"
+    },
+    {
+      "id": 828,
+      "question": "Intellectual শব্দের বাংলা অর্থ -",
+      "options": ["বুদ্ধিমান", "মননশীল", "বুদ্ধিজীবি", "মেধাবী"],
+      "answer": "বুদ্ধিমান"
+    },
+    {
+      "id": 829,
+      "question": "Identify the correct synonym for the word 'Treacherous' -",
+      "options": ["Unfaithful", "Faithful", "Reliable", "Dependable"],
+      "answer": "Unfaithful"
+    },
+    {
+      "id": 830,
+      "question": "He broke the jug ---- a hundred pieces.",
+      "options": ["in", "at", "into", "with"],
+      "answer": "into"
+    },
+    {
+      "id": 831,
+      "question": "The 'Mona Lisa' is the portrait of a woman with 'entricing' smile.",
+      "options": ["Oblivious", "Luminous", "Alluring", "Elusive"],
+      "answer": "Alluring"
+    },
+    {
+      "id": 832,
+      "question": "The word 'slim' is closest in meaning to",
+      "options": ["Graceful", "Weak", "Soft", "Slender", "Plump"],
+      "answer": "Slender"
+    },
+    {
+      "id": 833,
+      "question": "The synonym of 'Franchise' is -",
+      "options": ["Suffrage", "French", "Utility", "Socialise", "Feverish"],
+      "answer": "Suffrage"
+    },
+    {
+      "id": 834,
+      "question": "'Value judgement' means -",
+      "options": [
+        "Valuable judgement",
+        "Judgement about price",
+        "Famous judgement",
+        "Judgement based on personal views"
+      ],
+      "answer": "Judgement based on personal views"
+    },
+    {
+      "id": 835,
+      "question": "If people can't hear you, do you shout ---- them ?",
+      "options": ["at", "to", "for", "down"],
+      "answer": "at"
+    },
+    {
+      "id": 836,
+      "question": "I am inclined --- stick --- it.",
+      "options": ["to / to", "to / for", "for / against", "at / to"],
+      "answer": "to / to"
+    },
+    {
+      "id": 837,
+      "question": "Crafty men 'Condemn' studies,simple men admire them and wise men use them.",
+      "options": ["Denounce", "Laud", "Compliment", "Acclaim"],
+      "answer": "Denounce"
+    },
+    {
+      "id": 838,
+      "question": "The synonyms of 'Identical' is -",
+      "options": [
+        "Familiar",
+        "Recognisable",
+        "Exactly the same",
+        "Almost similar"
+      ],
+      "answer": "Exactly the same"
+    },
+    {
+      "id": 839,
+      "question": "Someone who designs house is -",
+      "options": ["A designer", "An architect", "A builder", "A plumber"],
+      "answer": "An architect"
+    },
+    {
+      "id": 840,
+      "question": "An association of sports teams is called a -",
+      "options": ["Group", "School", "League", "Game"],
+      "answer": "League"
+    },
+    {
+      "id": 841,
+      "question": "The word 'Inept' means the same as -",
+      "options": ["Unlucky", "Careless", "Disorganized", "Incompetent"],
+      "answer": "Incompetent"
+    },
+    {
+      "id": 842,
+      "question": "The situation has come to a head' -এর অর্থ -",
+      "options": [
+        "পরিস্থিতির উন্নতি ঘটেছে",
+        "পরিস্থিতির অবনতি ঘটেছে",
+        "পরিস্থিতির চরম অবস্থায় পৌঁছেছে",
+        "পরিস্থিতি উল্লেখযোগ্য হারে ভালো অবস্থায় এসে দাঁড়িয়েছে"
+      ],
+      "answer": "পরিস্থিতির চরম অবস্থায় পৌঁছেছে"
+    },
+    {
+      "id": 843,
+      "question": "Bullock শব্দের অর্থ",
+      "options": ["মহিষ", "খচ্চর", "বৃষ", "ময়ূর"],
+      "answer": "বৃষ"
+    },
+    {
+      "id": 844,
+      "question": "The synonym for, 'brazen' -",
+      "options": ["Shameless", "Quick", "Modest", "Pleasant"],
+      "answer": "Shameless"
+    },
+    {
+      "id": 845,
+      "question": "A song embodying religious and sacred emotions ---",
+      "options": ["Lyric", "Ode", "Hymn", "Ballad"],
+      "answer": "Hymn"
+    },
+    {
+      "id": 846,
+      "question": "'Razzmatazz' means -",
+      "options": [
+        "A musical activity",
+        "A well-planned program",
+        "A noisy activity",
+        "A musical instrument"
+      ],
+      "answer": "A noisy activity"
+    },
+    {
+      "id": 847,
+      "question": "Synonym of 'Disappear' is -",
+      "options": ["Appear", "Emerge", "Disappoint", "Evaporate"],
+      "answer": "Evaporate"
+    },
+    {
+      "id": 848,
+      "question": "Which is the synonym of the word ' Unerring' ?",
+      "options": ["Infallible", "Ultimate", "Incorrect", "Nervous"],
+      "answer": "Infallible"
+    },
+    {
+      "id": 849,
+      "question": "BIOSTEROUS is most nearly similar in meaning to",
+      "options": ["Conflicting", "Noisy", "Grateful", "Adolescent"],
+      "answer": "Noisy"
+    },
+    {
+      "id": 850,
+      "question": "The parents should have authority --- their sons and daughters.",
+      "options": ["on", "over", "of", "to"],
+      "answer": "over"
+    },
+    {
+      "id": 851,
+      "question": "The word ‘Panegyric’ means",
+      "options": ["Criticism", "Curse", "Elaborate praise", "High sound"],
+      "answer": "Elaborate praise"
+    },
+    {
+      "id": 852,
+      "question": "A delusion is -",
+      "options": [
+        "A dream",
+        "Misbelief (illusion)",
+        "Stone(rock)",
+        "Down-pour"
+      ],
+      "answer": "Misbelief (illusion)"
+    },
+    {
+      "id": 853,
+      "question": "Which one is similar to 'Synopsis' ?",
+      "options": ["Brief", "Short note", "Summary", "Resume"],
+      "answer": "Summary"
+    },
+    {
+      "id": 854,
+      "question": "The synonym of the word 'Banish' is -",
+      "options": ["To go away", "To move", "To visit", "To exile"],
+      "answer": "To exile"
+    },
+    {
+      "id": 855,
+      "question": "A myth is -",
+      "options": [
+        "An adventurous story",
+        "A detective story",
+        "A mysterious story",
+        "A legend"
+      ],
+      "answer": "A legend"
+    },
+    {
+      "id": 856,
+      "question": "He has deprived --- his paternal property.",
+      "options": ["from", "of", "with", "in"],
+      "answer": "of"
+    },
+    {
+      "id": 857,
+      "question": "The cow feeds ---- grass.",
+      "options": ["on", "in", "of", "by"],
+      "answer": "on"
+    },
+    {
+      "id": 858,
+      "question": "SUMPTUOUS is the most nearly similar in meaning to -",
+      "options": ["Fancy", "Meagre", "Lavish", "Swampy"],
+      "answer": "Lavish"
+    },
+    {
+      "id": 859,
+      "question": "Choose the correct word to fill in the blank, Keep watch on my bag lest the thief --- steal it.",
+      "options": ["might not", "should", "should not", "cannot"],
+      "answer": "should"
+    },
+    {
+      "id": 860,
+      "question": "The expression 'Lingua franca' means -",
+      "options": [
+        "The common language",
+        "The first language",
+        "International language",
+        "The French language"
+      ],
+      "answer": "The common language"
+    },
+    {
+      "id": 861,
+      "question": "A friend ---- need is a friend indeed .",
+      "options": ["to", "for", "in", "at"],
+      "answer": "in"
+    },
+    {
+      "id": 862,
+      "question": "Choose the correct antonym of 'Celebrity' ?",
+      "options": ["Personality", "Festivity", "Nonentity", "Community"],
+      "answer": "Nonentity"
+    },
+    {
+      "id": 863,
+      "question": "Cristopher Marlowe was a contemporary --- Shskespeare.",
+      "options": ["to", "of", "with", "on"],
+      "answer": "of"
+    },
+    {
+      "id": 864,
+      "question": "He ran fast lest he --- miss the train.",
+      "options": ["can", "should", "may", "might"],
+      "answer": "should"
+    },
+    {
+      "id": 865,
+      "question": "The synonyms of 'Noble' is -",
+      "options": [
+        "Courteous",
+        "Big",
+        "Virtuous",
+        "Of great quality and character"
+      ],
+      "answer": "Of great quality and character"
+    },
+    {
+      "id": 866,
+      "question": "Perfunctory শব্দটির সঠিক প্রতিশব্দ কোনটি ?",
+      "options": ["Thorough", "Lively", "Impossible", "Listless"],
+      "answer": "Listless"
+    },
+    {
+      "id": 867,
+      "question": "The antonym of 'Atheist' is -",
+      "options": ["Agnostic", "Idealist", "Believer", "Non-believer"],
+      "answer": "Believer"
+    },
+    {
+      "id": 868,
+      "question": "He relieved me --- anxiety.",
+      "options": ["in", "from", "with", "to"],
+      "answer": "from"
+    },
+    {
+      "id": 869,
+      "question": "He sat there brooding --- whether life was worth living.",
+      "options": ["over", "about", "of", "upon"],
+      "answer": "over"
+    },
+    {
+      "id": 870,
+      "question": "It 's impolite to break --- when some one else is talking.",
+      "options": ["in", "on", "into", "off"],
+      "answer": "in"
+    },
+    {
+      "id": 871,
+      "question": "'Antithesis' is the antonym of -",
+      "options": ["velocity", "maxim", "similarity", "reaction"],
+      "answer": "similarity"
+    },
+    {
+      "id": 872,
+      "question": "'Competent' means -",
+      "options": ["Competitive", "Communicative", "Strong", "Able"],
+      "answer": "Answer not available."
+    },
+    {
+      "id": 873,
+      "question": "A specialist in eye diseases is called -",
+      "options": [
+        "A cardiologist",
+        "An opthalmologist",
+        "An optician",
+        "A neurologist"
+      ],
+      "answer": "An opthalmologist"
+    },
+    {
+      "id": 874,
+      "question": "'Penury' is most nearly opposite to the meaning -",
+      "options": [
+        "Penance",
+        "Pensiveness",
+        "Wealth",
+        "Impenetrability",
+        "Silence"
+      ],
+      "answer": "Wealth"
+    },
+    {
+      "id": 875,
+      "question": "The ship sailed --- of the ice waters --- another sea.",
+      "options": ["on , from", "out , into", "of , into", "to , out"],
+      "answer": "out , into"
+    },
+    {
+      "id": 876,
+      "question": "What is the antonym of 'Anarchy' ?",
+      "options": ["Unrest", "Instability", "Peace", "Lawlessness"],
+      "answer": "Peace"
+    },
+    {
+      "id": 877,
+      "question": "Synonym of 'Notice' is -",
+      "options": ["Club", "Lead", "Imagination", "Concept"],
+      "answer": "Concept"
+    },
+    {
+      "id": 878,
+      "question": "No one was going to listen to his drivel. Here \"Drivel\" means -",
+      "options": [
+        "Amusing talk",
+        "Monotonous talk",
+        "Silky talk",
+        "Dishonest talk"
+      ],
+      "answer": "Silky talk"
+    },
+    {
+      "id": 879,
+      "question": "An antonym of 'hungry' is -",
+      "options": ["Satiated", "Angry", "Feeling", "Thirsty"],
+      "answer": "Satiated"
+    },
+    {
+      "id": 880,
+      "question": "Sliloquey means ---",
+      "options": [
+        "To memorise",
+        "Talking to oneself",
+        "Action of speech",
+        "Rehearsal of a play"
+      ],
+      "answer": "Talking to oneself"
+    },
+    {
+      "id": 881,
+      "question": "What is the synonym of the word 'sticky' ?",
+      "options": ["Adhesive", "Glutinous", "Irony", "Silky"],
+      "answer": "Adhesive"
+    },
+    {
+      "id": 882,
+      "question": "He is bent ---- going to the meeting. বাক্যের শূণ্যস্থানের সঠিক শব্দ বসবে -",
+      "options": ["upon", "on", "in", "with"],
+      "answer": "upon"
+    },
+    {
+      "id": 883,
+      "question": "What is the meaning of the word 'Nascent'?",
+      "options": ["Trail", "Nasal", "Odorous", "Beginning"],
+      "answer": "Beginning"
+    },
+    {
+      "id": 884,
+      "question": "'Modus Operandi' means -",
+      "options": [
+        "Failed operation",
+        "Method of operation",
+        "Opera song",
+        "Suitable object"
+      ],
+      "answer": "Method of operation"
+    },
+    {
+      "id": 885,
+      "question": "Select the right word/words: I do not believe ------ his honesty.",
+      "options": ["in", "at", "with", "to"],
+      "answer": "in"
+    },
+    {
+      "id": 886,
+      "question": "'The synonym for 'Obdurate'",
+      "options": [
+        "Decitful (প্রবঞ্চনাপূর্ণ)",
+        "Stubborn(অবাধ্য,জেদী)",
+        "Sly (গোপন)",
+        "Swindler(প্রতারক)"
+      ],
+      "answer": "Stubborn(অবাধ্য,জেদী)"
+    },
+    {
+      "id": 887,
+      "question": "He compared the heart --- a pump.",
+      "options": ["to", "with", "at", "by"],
+      "answer": "to"
+    },
+    {
+      "id": 888,
+      "question": "'Cursory' is the similar of -",
+      "options": ["Hand written", "Angry", "Hasty", "Vulgar"],
+      "answer": "Hasty"
+    },
+    {
+      "id": 889,
+      "question": "The word 'Expunge' means",
+      "options": ["Rationalize", "Purge", "Inhale", "Eradicate"],
+      "answer": "Eradicate"
+    },
+    {
+      "id": 890,
+      "question": "It is 'imperative' that they arrive on time for the lecture.",
+      "options": ["Necessary", "Suggested", "Hoped", "Intended"],
+      "answer": "Necessary"
+    },
+    {
+      "id": 891,
+      "question": "The synonym for 'Skepticism' is -",
+      "options": [
+        "Doubt",
+        "Skating people",
+        "Symptoms",
+        "Diminutive",
+        "Wonderful"
+      ],
+      "answer": "Doubt"
+    },
+    {
+      "id": 892,
+      "question": "'Hedge' means -",
+      "options": ["Curse", "Injure", "Evade", "Harm"],
+      "answer": "Evade"
+    },
+    {
+      "id": 893,
+      "question": "Karim had his car --- by a mechanic yesterday.",
+      "options": [
+        "to repair",
+        "be repaired",
+        "repairing",
+        "repaired",
+        "was repaired"
+      ],
+      "answer": "was repaired"
+    },
+    {
+      "id": 894,
+      "question": "The synonym of 'Genesis' is --",
+      "options": ["Introduction", "Preface", "Beginning", "Foreword"],
+      "answer": "Beginning"
+    },
+    {
+      "id": 895,
+      "question": "The expression 'to see red' means ---",
+      "options": [
+        "To become very angry",
+        "To draw blood",
+        "To be enthusiastic",
+        "To be lethargic"
+      ],
+      "answer": "To become very angry"
+    },
+    {
+      "id": 896,
+      "question": "It is high time we ---- the place.",
+      "options": ["leave", "have left", "are leaving", "left"],
+      "answer": "left"
+    },
+    {
+      "id": 897,
+      "question": "Which of the flowing is not the appropriate bangla",
+      "options": [
+        "Exorcise:প্রমোদ ভ্রমণ",
+        "Emigrate:দেশত্যাগ করা",
+        "Envious:ঈরষা",
+        "Exhort:উপদেশ দারা উৎসাহিত করা"
+      ],
+      "answer": "Exorcise:প্রমোদ ভ্রমণ"
+    },
+    {
+      "id": 898,
+      "question": "A physician is a -",
+      "options": [
+        "Physicist",
+        "Physique",
+        "A medical practitioner",
+        "A physical trainer"
+      ],
+      "answer": "A medical practitioner"
+    },
+    {
+      "id": 899,
+      "question": "The antonym of INFRINGE is -",
+      "options": ["Transgress", "Purloin", "Invaded", "Intrude"],
+      "answer": "Transgress"
+    },
+    {
+      "id": 900,
+      "question": "Choose the word opposite in meaning to the given word: LIABILITY",
+      "options": ["Treasure", "Debt", "Assets", "Property"],
+      "answer": "Assets"
+    },
+    {
+      "id": 901,
+      "question": "I can't help but laugh. The correct form is ---?",
+      "options": [
+        "I can only laugh",
+        "I can help myself to laugh",
+        "I can not help laughing",
+        "All of them"
+      ],
+      "answer": "I can not help laughing"
+    },
+    {
+      "id": 902,
+      "question": "Synonym of 'Craft' is -",
+      "options": ["Mural", "Skill", "Fabric", "Sketch"],
+      "answer": "Skill"
+    },
+    {
+      "id": 903,
+      "question": "He did it ----- his own accord.",
+      "options": ["of", "at", "by", "on"],
+      "answer": "of"
+    },
+    {
+      "id": 904,
+      "question": "Ensure শব্দটির অর্থ কোনটি?",
+      "options": ["Make progress", "Encourage", "Effect", "Make certain"],
+      "answer": "Make certain"
+    },
+    {
+      "id": 905,
+      "question": "To replicate means -",
+      "options": [
+        "To understand",
+        "To enunciate",
+        "To be serious",
+        "To motivate",
+        "To copy"
+      ],
+      "answer": "To copy"
+    },
+    {
+      "id": 906,
+      "question": "Which of the following pair contain correct synonym?",
+      "options": [
+        "Influence : Lead",
+        "Informed : Instructive",
+        "Injure : Hurt",
+        "Inspection : Observer"
+      ],
+      "answer": "Injure : Hurt"
+    },
+    {
+      "id": 907,
+      "question": "Choose the opposite in meaning of the word 'Arrogant'",
+      "options": ["Insolent", "Proud", "Rude", "Meek"],
+      "answer": "Meek"
+    },
+    {
+      "id": 908,
+      "question": "'Hurry up! we have to go ---- five minutes'",
+      "options": ["in", "on", "by", "for"],
+      "answer": "in"
+    },
+    {
+      "id": 909,
+      "question": "Identify the correct synonym for the word 'Instigate'.",
+      "options": ["Investigate", "Incite", "Instil", "Intoxicate"],
+      "answer": "Incite"
+    },
+    {
+      "id": 910,
+      "question": "The word 'dilly dally' means ---",
+      "options": ["To dilute", "Wait impatiently", "Repeat", "Waste time"],
+      "answer": "Waste time"
+    },
+    {
+      "id": 911,
+      "question": "'The word 'Benevolent' means -",
+      "options": ["Kind", "Unkind", "Cruel", "Honest"],
+      "answer": "Kind"
+    },
+    {
+      "id": 912,
+      "question": "What is the antonym of 'Courage' ?",
+      "options": ["Forceful", "Strength", "Cowardice", "Daring"],
+      "answer": "Cowardice"
+    },
+    {
+      "id": 913,
+      "question": "I wish I (sing).What is the correct form of the verb in the bracket?",
+      "options": ["Sang", "Am singing", "Have sung", "Had sung"],
+      "answer": "Sang"
+    },
+    {
+      "id": 914,
+      "question": "Antonym of \"Shift\"",
+      "options": ["Anchor", "Fix", "Attach", "Bind"],
+      "answer": "Attach"
+    },
+    {
+      "id": 915,
+      "question": "The synonyms of 'Pungent' is -",
+      "options": ["Tide", "Rain", "Overpowering", "Bland", "Good"],
+      "answer": "Overpowering"
+    },
+    {
+      "id": 916,
+      "question": "The students have submitted the report today which they --- to bring yesterday.",
+      "options": [
+        "was supposed",
+        "were supposed",
+        "was supposed",
+        "were supposed",
+        "None of these"
+      ],
+      "answer": "None of these"
+    },
+    {
+      "id": 917,
+      "question": "Single word for 'the man who is not married' is -",
+      "options": ["Spinster", "Virgin", "Bachelor", "Non-married"],
+      "answer": "Bachelor"
+    },
+    {
+      "id": 918,
+      "question": "I regret to say that his disease is ----",
+      "options": ["Curable", "Incurable", "Cired", "Incured"],
+      "answer": "Incurable"
+    },
+    {
+      "id": 919,
+      "question": "The synonym of 'Astonishing' -",
+      "options": ["Unquestionable", "Surprising", "Cunning", "Assured"],
+      "answer": "Surprising"
+    },
+    {
+      "id": 920,
+      "question": "Wisdom means",
+      "options": ["Foolishness", "Trick", "Intelligence", "Prudence"],
+      "answer": "Prudence"
+    },
+    {
+      "id": 921,
+      "question": "What is the synonym of 'Fickle' ?",
+      "options": ["Constant", "Stable", "Unstable", "Trustworthy"],
+      "answer": "Unstable"
+    },
+    {
+      "id": 922,
+      "question": "\"A laconic speech\" is -",
+      "options": [
+        "A piece of advice",
+        "An angry speech",
+        "A sermon",
+        "A concise speech"
+      ],
+      "answer": "A concise speech"
+    },
+    {
+      "id": 923,
+      "question": "Choose the word that is the opposite of 'relaxed' ?",
+      "options": ["Tense", "Easy going", "Happy", "Contented"],
+      "answer": "Tense"
+    },
+    {
+      "id": 924,
+      "question": "What is the collective noun for a group of young partridges?",
+      "options": ["Gaggle", "Covey", "Flock", "School"],
+      "answer": "Covey"
+    },
+    {
+      "id": 925,
+      "question": "'The word 'Sanction' means -",
+      "options": ["Verify", "Plan", "Prohibit", "Authorization"],
+      "answer": "Authorization"
+    },
+    {
+      "id": 926,
+      "question": "He is not for changing things; he is for preserving the -",
+      "options": ["Vice versa", "Bona fide", "Ex officio", "Status quo"],
+      "answer": "Status quo"
+    },
+    {
+      "id": 927,
+      "question": "Synonym of 'Vanity' is -",
+      "options": [
+        "Over-consciousness",
+        "Pride",
+        "Self-confidence",
+        "Frivolousness"
+      ],
+      "answer": "Pride"
+    },
+    {
+      "id": 928,
+      "question": "The synonym of the word 'Morose' is -",
+      "options": ["Vindictive", "Adventurous", "Depressed", "Cheerful"],
+      "answer": "Depressed"
+    },
+    {
+      "id": 929,
+      "question": "I don't feel ---- Rahman. All his problems are entirely his creation.",
+      "options": ["sorry for", "sorry at", "sorry about", "sorry upon"],
+      "answer": "sorry for"
+    },
+    {
+      "id": 930,
+      "question": "Choose the correct word for the gap in the sentence. My father insists on ---- quality materials for the construction of our new house.",
+      "options": ["use", "to use", "the use", "using"],
+      "answer": "using"
+    },
+    {
+      "id": 931,
+      "question": "Choose the one that best expresses the meaning of the given word: Sporadic",
+      "options": ["Consistent", "Uniform", "Frequent", "Scattered"],
+      "answer": "Scattered"
+    },
+    {
+      "id": 932,
+      "question": "The synonyms of 'Identical' is -",
+      "options": ["Familiar", "Recognisable", "Same", "Close"],
+      "answer": "Same"
+    },
+    {
+      "id": 933,
+      "question": "\"We discussed the hazardous journey ahead of us.\"Here hazardous means:",
+      "options": ["Enjoyable", "Approaching", "Dangerous", "Comfortable"],
+      "answer": "Dangerous"
+    },
+    {
+      "id": 934,
+      "question": "He dropped his voice ---- a whisper.",
+      "options": ["in", "to", "from", "at"],
+      "answer": "to"
+    },
+    {
+      "id": 935,
+      "question": "Which is the antonym of 'Transparent' ?",
+      "options": ["Opaque", "Clear", "Honest", "None of the above"],
+      "answer": "Opaque"
+    },
+    {
+      "id": 936,
+      "question": "The word 'Somnambulist means",
+      "options": [
+        "A sleep-worker",
+        "A day dreamer",
+        "A night dreamer",
+        "An optimist"
+      ],
+      "answer": "A sleep-worker"
+    },
+    {
+      "id": 937,
+      "question": "The customer gets what he pays -----?",
+      "options": ["off", "at", "for", "from"],
+      "answer": "from"
+    },
+    {
+      "id": 938,
+      "question": "Choose the word that is opposite to the word 'consolidation'.",
+      "options": [
+        "Instigation",
+        "Fragmentation",
+        "Restriction",
+        "Opposition",
+        "Provocation"
+      ],
+      "answer": "Fragmentation"
+    },
+    {
+      "id": 939,
+      "question": "The synonym for 'Meticulous' is -",
+      "options": [
+        "Delightful",
+        "Careful and exact",
+        "Having strength of mind",
+        "Careless"
+      ],
+      "answer": "Careful and exact"
+    },
+    {
+      "id": 940,
+      "question": "Which of the following is correct ?",
+      "options": [
+        "I was stuck in traffic for two hours",
+        "I was stuck up in traffic for two hours",
+        "I had stuck up in traffic for two hours",
+        "I had stuck in traffic for two hours"
+      ],
+      "answer": "I was stuck in traffic for two hours"
+    },
+    {
+      "id": 941,
+      "question": "Desolate শব্দটির সঠিক antonym কোনটি ?",
+      "options": ["Populous", "Isolated", "Abandoned", "Disfigured"],
+      "answer": "Populous"
+    },
+    {
+      "id": 942,
+      "question": "I wish I ---- a rich man.",
+      "options": ["shall be", "were", "am", "to be"],
+      "answer": "were"
+    },
+    {
+      "id": 943,
+      "question": "A suitable antonym for 'Meticulous' is -",
+      "options": ["Painstaking", "Careless", "Thorough", "Mindful"],
+      "answer": "Careless"
+    },
+    {
+      "id": 944,
+      "question": "Would you mind ---- a folk song.",
+      "options": ["for", "singing", "sing", "in"],
+      "answer": "singing"
+    },
+    {
+      "id": 945,
+      "question": "I was disappointed --- the grades I received on my last essay.",
+      "options": ["by", "to", "with/in", "at"],
+      "answer": "at"
+    },
+    {
+      "id": 946,
+      "question": "I depended ---- his word . বাক্যের শূণ্যস্থানে সঠিক শব্দ বসবে --?",
+      "options": ["on", "upon", "in", "at"],
+      "answer": "upon"
+    },
+    {
+      "id": 947,
+      "question": "My sister brings colour and happiness ---- my life.",
+      "options": ["to", "with", "in", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 948,
+      "question": "What is the antonym of the word 'Belittle'",
+      "options": ["Worthless", "Dull", "Glorify", "Useless"],
+      "answer": "Glorify"
+    },
+    {
+      "id": 949,
+      "question": "My wife reminded me ----",
+      "options": [
+        "of my appointment",
+        "to go my appointment",
+        "to my appointment",
+        "my appointment"
+      ],
+      "answer": "of my appointment"
+    },
+    {
+      "id": 950,
+      "question": "What is the synonym of 'Adjourn'?",
+      "options": ["To run", "To stop", "To cry", "To laugh"],
+      "answer": "To stop"
+    },
+    {
+      "id": 951,
+      "question": "'Multiple' means -",
+      "options": ["Compound", "Few", "Little", "Great", "Many"],
+      "answer": "Many"
+    },
+    {
+      "id": 952,
+      "question": "Synonyms's of Compensation",
+      "options": ["Satisfaction", "Admission", "Compromise", "Reward"],
+      "answer": "Reward"
+    },
+    {
+      "id": 953,
+      "question": "Select the word closest in meaning to the word-পর্যাপ্ত",
+      "options": ["Lack", "Unwanted", "Sharper", "Adequate"],
+      "answer": "Adequate"
+    },
+    {
+      "id": 954,
+      "question": "A person who hates the company of others is -",
+      "options": ["Antisocial", "Unsociable", "Unknown", "Gregarious"],
+      "answer": "Unsociable"
+    },
+    {
+      "id": 955,
+      "question": "Which is the synonym of 'Ruthless' ?",
+      "options": ["Merciless", "Tender", "Disproved", "Leave"],
+      "answer": "Merciless"
+    },
+    {
+      "id": 956,
+      "question": "Which sentence is correct?",
+      "options": [
+        "He is not on the committee",
+        "He is not in the committee",
+        "He is not with the committee",
+        "He is not at the committee"
+      ],
+      "answer": "He is not on the committee"
+    },
+    {
+      "id": 957,
+      "question": "Many prefer donating money --- distributing clothes.",
+      "options": ["Than", "But", "To", "Without"],
+      "answer": "To"
+    },
+    {
+      "id": 958,
+      "question": "What is the opposite of 'Cordial'",
+      "options": ["Gentle", "Heartly", "Ungrateful", "Reserved"],
+      "answer": "Reserved"
+    },
+    {
+      "id": 959,
+      "question": "'The Himalayas is --- the north of India'. Put appropriate preposition in the blank.",
+      "options": ["In", "On", "Into", "To"],
+      "answer": "To"
+    },
+    {
+      "id": 960,
+      "question": "'benevolent' means -",
+      "options": [
+        "Compassionate",
+        "Compromifull",
+        "Honoraarrium",
+        "Disgraceful"
+      ],
+      "answer": "Compassionate"
+    },
+    {
+      "id": 961,
+      "question": "'Corpus' means",
+      "options": [
+        "A dead body",
+        "A collection of written texts",
+        "Red or white cells in blood",
+        "One of the technical branches of an army"
+      ],
+      "answer": "A collection of written texts"
+    },
+    {
+      "id": 962,
+      "question": "Effort শব্দটির synonym হচ্ছে -",
+      "options": ["Assurance", "Attempt", "Erect", "Exclude"],
+      "answer": "Attempt"
+    },
+    {
+      "id": 963,
+      "question": "'Alert' means",
+      "options": ["Energetic", "Intelligent", "Observant", "Watchful"],
+      "answer": "Watchful"
+    },
+    {
+      "id": 964,
+      "question": "Antonym of 'Crux'",
+      "options": ["Affliction", "Spark", "Events", "Trivial point"],
+      "answer": "Trivial point"
+    },
+    {
+      "id": 965,
+      "question": "Please ---- the necessity of arriving early.",
+      "options": [
+        "Emphasise about",
+        "Emphasise to",
+        "Emphasise of",
+        "Emphasise"
+      ],
+      "answer": "Emphasise"
+    },
+    {
+      "id": 966,
+      "question": "'Stability' is opposite to -",
+      "options": [
+        "Disparity",
+        "Inconsistency",
+        "Carelessness",
+        "Weariness",
+        "None of these"
+      ],
+      "answer": "Inconsistency"
+    },
+    {
+      "id": 967,
+      "question": "N.B. অর্থ কি ?",
+      "options": ["Note Before", "Nota Bene", "Note By", "Note Best"],
+      "answer": "Nota Bene"
+    },
+    {
+      "id": 968,
+      "question": "'Sagacity' is opposite to -",
+      "options": [
+        "Incredulity",
+        "Belligerence",
+        "Stupidity",
+        "Tolerance",
+        "Independence"
+      ],
+      "answer": "Stupidity"
+    },
+    {
+      "id": 969,
+      "question": "'She works at a snail's pace' means",
+      "options": [
+        "She works steadily",
+        "She works slowly",
+        "She works smoothly",
+        "She works thoughtfully"
+      ],
+      "answer": "She works slowly"
+    },
+    {
+      "id": 970,
+      "question": "Which one is connected to complain?",
+      "options": ["Dodge", "Hodge", "Lodged", "Grudge"],
+      "answer": "Lodged"
+    },
+    {
+      "id": 971,
+      "question": "I wish I ---- wonderful man.",
+      "options": ["Was", "Were", "Would be", "Am"],
+      "answer": "Were"
+    },
+    {
+      "id": 972,
+      "question": "Fill in the blank with appropriate word. She sent me that --- Christmas.",
+      "options": ["By", "To", "In", "For"],
+      "answer": "For"
+    },
+    {
+      "id": 973,
+      "question": "Which do you think is the nearest in meaning to “proviso”:",
+      "options": ["Sanction", "Substitute", "Stipulation", "Directive"],
+      "answer": "Stipulation"
+    },
+    {
+      "id": 974,
+      "question": "What is the synonym of 'Sychophant' ?",
+      "options": ["Dignified person", "Flatterer", "Phoney", "Dishonour"],
+      "answer": "Flatterer"
+    },
+    {
+      "id": 975,
+      "question": "They were charged ---- receiving stolen books.",
+      "options": ["By", "With", "From", "On"],
+      "answer": "With"
+    },
+    {
+      "id": 976,
+      "question": "Find the antonym of the word : Awful",
+      "options": ["Clumsy", "Difficult", "Graceful", "Skillful", "Fantastic"],
+      "answer": "Fantastic"
+    },
+    {
+      "id": 977,
+      "question": "'Flamboyant' is opposite to -",
+      "options": ["Lateral", "Dull", "Maverick", "Antique", "Loud"],
+      "answer": "Dull"
+    },
+    {
+      "id": 978,
+      "question": "Find out the correct sentence of the following:",
+      "options": [
+        "He availed with the opportunity",
+        "He was availed with the opportunity",
+        "He was availed of the opportunity",
+        "He was availed himself of the opportunity"
+      ],
+      "answer": "He was availed himself of the opportunity"
+    },
+    {
+      "id": 979,
+      "question": "A dwarfed ornamental tree or shrub grown in a tray or shallow pot-",
+      "options": [
+        "Topiary",
+        "Fabrication",
+        "Gardening",
+        "Bonsai",
+        "None of these"
+      ],
+      "answer": "Bonsai"
+    },
+    {
+      "id": 980,
+      "question": "Select the word that is the most closely opposite in meaning to the capitalized word: DELETERIOUS",
+      "options": ["Toxic", "Spurious", "Harmless", "Lethal"],
+      "answer": "Harmless"
+    },
+    {
+      "id": 981,
+      "question": "Hardly had the train stopped ----",
+      "options": [
+        "Before we got down",
+        "As we got down",
+        "Than we got down",
+        "When we got down"
+      ],
+      "answer": "Before we got down"
+    },
+    {
+      "id": 982,
+      "question": "We dispensed ---- his services.",
+      "options": ["For", "With", "Of", "In"],
+      "answer": "With"
+    },
+    {
+      "id": 983,
+      "question": "'Righteous' means-",
+      "options": ["Just", "Sinful", "Amoral", "Rigid"],
+      "answer": "Just"
+    },
+    {
+      "id": 984,
+      "question": "Choose the meaning of 'White Elephant':",
+      "options": [
+        "An elephant of white colour",
+        "Very costly or troublesome",
+        "Precious",
+        "Very big"
+      ],
+      "answer": "Very costly or troublesome"
+    },
+    {
+      "id": 985,
+      "question": "'Clandestine' শব্দটির বিপরীত অর্থবোধক শব্দ কোনটি ?",
+      "options": ["Overt", "Coverted", "Covertd", "Intractable"],
+      "answer": "Overt"
+    },
+    {
+      "id": 986,
+      "question": "As they waited Rahim argued against war -",
+      "options": [
+        "While his brother discusses the effects of pollution",
+        "While his brother discusseed the effects of pollution",
+        "While his brother was discussing the effects of pollution",
+        "While his brother had discussed the effects of pollution"
+      ],
+      "answer": "While his brother was discussing the effects of pollution"
+    },
+    {
+      "id": 987,
+      "question": "The antonym of the word 'Benign' is -",
+      "options": ["Tenfold", "Peaceful", "Blessed", "Malignant"],
+      "answer": "Malignant"
+    }
+  ]
+}

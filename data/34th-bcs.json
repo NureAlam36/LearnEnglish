@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "question": "Who is known as the 'Lady of the Lamp'?",
+    "options": [
+      "Sorojini Naidu",
+      "Hellen Killer",
+      "Madame Teresa",
+      "Florence Nightingale"
+    ],
+    "answer": "Florence Nightingale"
+  },
+  {
+    "id": 2,
+    "question": "For which of the following disciplines Nobel Prize is awarded?",
+    "options": [
+      "Literature, peace and Economices",
+      "Physiology or Medicine",
+      "Physices and Chemistry",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 3,
+    "question": "Lunar eclipse occurs on -",
+    "options": [
+      "A moonless day",
+      "A full moon day",
+      "A new moon day",
+      "A half moon day"
+    ],
+    "answer": "A full moon day"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following ecosystems covers the largest area of the earth's surface ?",
+    "options": [
+      "Desert Ecosystem",
+      "Mountain Ecosystem",
+      "Marine Ecosystem",
+      "Fresh water Ecosystem"
+    ],
+    "answer": "Marine Ecosystem"
+  },
+  {
+    "id": 5,
+    "question": "In Cricket game the length of the pitch between the two wickets is -",
+    "options": ["21 yards", "22 yards", "23 yards", "24 yards"],
+    "answer": "22 yards"
+  },
+  {
+    "id": 6,
+    "question": "IMF is the result of",
+    "options": [
+      "Brettonwood Conference",
+      "Hawana Conference",
+      "Rome Conference",
+      "Geneva Conference"
+    ],
+    "answer": "Brettonwood Conference"
+  },
+  {
+    "id": 7,
+    "question": "Dengue fever is spread by--",
+    "options": [
+      "Aedes aegypti mosquito",
+      "Common House flies",
+      "Anophilies mosquito",
+      "Rats and squirrels"
+    ],
+    "answer": "Aedes aegypti mosquito"
+  },
+  {
+    "id": 8,
+    "question": "International Court of Justice-এর সদর দপ্তর কোথায় অবস্থিত?",
+    "options": [
+      "যুক্তরাষ্ট্রের নিউ ইয়র্কে",
+      "সুইজারল্যান্ডের বার্নে",
+      "কানাডার অটোয়ায়",
+      "নেদারল্যান্ডসের দ্য হেগে"
+    ],
+    "answer": "নেদারল্যান্ডসের দ্য হেগে"
+  },
+  {
+    "id": 9,
+    "question": "√169 is equal to -",
+    "options": ["15", "13", "11", "17"],
+    "answer": "13"
+  },
+  {
+    "id": 10,
+    "question": "Badminton is the national sport of -",
+    "options": ["Nepal", "Malaysia", "Scotland", "China"],
+    "answer": "Malaysia"
+  },
+  {
+    "id": 11,
+    "question": "EURO is the currency of -",
+    "options": ["Africa", "Europe", "Asia", "America"],
+    "answer": "Europe"
+  },
+  {
+    "id": 12,
+    "question": "Photosynthesis takes place in -",
+    "options": [
+      "All parts of the plants",
+      "Roots of the plant",
+      "Stems of the plants",
+      "Green parts of the plants"
+    ],
+    "answer": "Green parts of the plants"
+  },
+  {
+    "id": 13,
+    "question": "The term PC means -",
+    "options": [
+      "Personal computer",
+      "Professional computer",
+      "Private computer",
+      "Prime computer"
+    ],
+    "answer": "Personal computer"
+  },
+  {
+    "id": 14,
+    "question": "Fill in the blank of the following sentence with the right form of verb. if I _____ a king!",
+    "options": ["shall be", "am", "were", "was"],
+    "answer": "were"
+  },
+  {
+    "id": 15,
+    "question": "Tiger: Zoology :: Mars : __",
+    "options": ["Astronomy", "Astrology", "Crytology", "Telescopy"],
+    "answer": "Astronomy"
+  },
+  {
+    "id": 16,
+    "question": "'Maiden speech' means--",
+    "options": ["Late speech", "Early speech", "Final speech", "First speech"],
+    "answer": "First speech"
+  },
+  {
+    "id": 17,
+    "question": "N.B stands for -",
+    "options": ["Non bearing", "Nota bene", "Note before", "No bar"],
+    "answer": "Nota bene"
+  },
+  {
+    "id": 18,
+    "question": "What is the masculine gender of 'mare' ?",
+    "options": ["Mermaid", "Stallion", "Bear", "Dog"],
+    "answer": "Stallion"
+  },
+  {
+    "id": 19,
+    "question": "'Botany' is to 'plants' as 'Zoology’ is to__.",
+    "options": ["animals", "flowers", "trees", "dear"],
+    "answer": "animals"
+  }
+]

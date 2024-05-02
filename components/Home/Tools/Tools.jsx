@@ -11,11 +11,13 @@ import {
 } from "react-native";
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
+import { LinearGradient } from "expo-linear-gradient";
 
 const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Translator",
+    background: ["#a1c4fd", "#c2e9fb"],
     image:
       "https://static-00.iconduck.com/assets.00/google-translate-icon-2048x2035-36xcbzp3.png",
     link: "translator",
@@ -23,12 +25,14 @@ const DATA = [
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Dictionary",
+    background: ["#fbc2eb", "#a6c1ee"],
     image: "https://cdn-icons-png.flaticon.com/512/8750/8750741.png",
     link: "dictionary",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Text To Speech",
+    background: ["#84fab0", "#8fd3f4"],
     image:
       "https://cdn-icons-png.freepik.com/256/3069/3069810.png?semt=ais_hybrid",
     link: "text-to-speech",
@@ -38,9 +42,14 @@ const DATA = [
 const Item = ({ item }) => (
   <Link href={`/${item.link}`} style={styles.itemContainer} asChild>
     <TouchableOpacity style={styles.item} activeOpacity={0.7}>
-      <View style={styles.imageContainer}>
+      <LinearGradient
+        colors={item.background}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.imageContainer}
+      >
         <Image source={{ uri: item.image }} style={{ width: 35, height: 35 }} />
-      </View>
+      </LinearGradient>
       <Text style={styles.title}>{item.title}</Text>
     </TouchableOpacity>
   </Link>
@@ -56,6 +65,7 @@ const Tools = () => {
         keyExtractor={(item) => item.id}
         horizontal={true}
         showsHorizontalScrollIndicator={false}
+        contentContainerStyle={{ gap: 15 }}
       />
     </View>
   );

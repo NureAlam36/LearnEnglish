@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "question": "Cricket enjoys a huge ___ in Bangladesh.",
+    "options": ["fall out", "following", "follow", "Follow on"],
+    "answer": "following"
+  },
+  {
+    "id": 2,
+    "question": "Who wrote the following lines: “all at once I saw/a crowd, a host of golden daffodils”?",
+    "options": ["Keats", "Herrick", "Shelley", "Wordsworth"],
+    "answer": "Wordsworth"
+  },
+  {
+    "id": 3,
+    "question": "What would be the right synonyms for “initiative”?",
+    "options": ["enterprise", "Apathy", "indolence", "activity"],
+    "answer": "enterprise"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following words can be used as a verb?",
+    "options": ["Mistress", "Master", "Mister", "Mastery"],
+    "answer": "Master"
+  },
+  {
+    "id": 5,
+    "question": "Who among the following writers is not a Nobel Laureate?",
+    "options": [
+      "Toni Morrison",
+      "T.S Eliot",
+      "Grahame Greenc",
+      "William Faulkner"
+    ],
+    "answer": "Grahame Greenc"
+  },
+  {
+    "id": 6,
+    "question": "The correct passive form of “You must shut these doors” is—",
+    "options": [
+      "These must be shut doors",
+      "Shut the doors you must",
+      "Shut must be the doors",
+      "These doors must be shut"
+    ],
+    "answer": "These doors must be shut"
+  },
+  {
+    "id": 7,
+    "question": "The film was directed in the director’s usual— style.",
+    "options": ["personifying", "idiosyncratic", "Confusion", "purifying"],
+    "answer": "idiosyncratic"
+  },
+  {
+    "id": 8,
+    "question": "Which word is the determiner in the sentence “Will it take much time?”",
+    "options": ["much", "Will", "take", "time"],
+    "answer": "much"
+  },
+  {
+    "id": 9,
+    "question": "The play Arms and the Man is by—",
+    "options": [
+      "James Joyce",
+      "Arthur Miller",
+      "Samuel Beckett",
+      "George Bernard Shaw"
+    ],
+    "answer": "George Bernard Shaw"
+  },
+  {
+    "id": 10,
+    "question": "“He was a rather disagreeable man” Here the underline word is a/an----",
+    "options": ["Noun", "Adverb", "Adjective", "Preposition"],
+    "answer": "Adjective"
+  },
+  {
+    "id": 11,
+    "question": "This could have worked if I ____ been more far-sighted.",
+    "options": ["might", "had", "have", "would"],
+    "answer": "had"
+  },
+  {
+    "id": 12,
+    "question": "The “climax” of a plot is what happens---",
+    "options": [
+      "in the confrontation",
+      "at the end",
+      "In the beginning",
+      "at the height"
+    ],
+    "answer": "at the height"
+  },
+  {
+    "id": 13,
+    "question": "Choose the pair of words that expresses a relationship similar to that of ‘Harm’ : Damage---",
+    "options": [
+      "Sweet : Sour",
+      "Stout: Weak",
+      "Injure : Incapacitate",
+      "Hook : Crook"
+    ],
+    "answer": "Injure : Incapacitate"
+  },
+  {
+    "id": 14,
+    "question": "Othello is a Shakespeare’s play about---",
+    "options": ["A Moor", "A Roman", "A Turk", "A Jew"],
+    "answer": "A Moor"
+  },
+  {
+    "id": 15,
+    "question": "In the 18th Century the Mughal Empire begun to---",
+    "options": ["disintegrate", "differentiate", "Discriminate", "dislocate"],
+    "answer": "disintegrate"
+  },
+  {
+    "id": 16,
+    "question": "Being fat does not necessarily kill you, but it ___ the risk that you will suffer from nasty diseases.",
+    "options": ["encourages", "increases", "emphasizes", "involves"],
+    "answer": "involves"
+  },
+  {
+    "id": 17,
+    "question": "The poem ‘’Isle of Innisfree” is written by---",
+    "options": ["W.H Auden", "Ezra Pound", "W.B. Yeats", "Dylan Thomas"],
+    "answer": "W.B. Yeats"
+  },
+  {
+    "id": 18,
+    "question": "“Riders to the Sea is”--------",
+    "options": [
+      "a one-act play",
+      "a novella",
+      "An epic poem",
+      "a theatrical adaptation of a poem"
+    ],
+    "answer": "a one-act play"
+  },
+  {
+    "id": 19,
+    "question": "“It is time to review the protocol on testing nuclear weapons”. Here the underlined word means---",
+    "options": [
+      "Problems",
+      "Summary of rules",
+      "Procedures",
+      "Record of rules"
+    ],
+    "answer": "Record of rules"
+  },
+  {
+    "id": 20,
+    "question": "___ amazing song haunted me for a long time.",
+    "options": ["These", "Thus", "That", "Those"],
+    "answer": "That"
+  },
+  {
+    "id": 21,
+    "question": "Let us begin by looking at the minutes of the meeting. Here the underlined word means---",
+    "options": [
+      "Time record",
+      "written record",
+      "time frame",
+      "written analysis"
+    ],
+    "answer": "written record"
+  },
+  {
+    "id": 22,
+    "question": "The noise level in Dhaka city has increased exponentially. Here the underlined word means----",
+    "options": ["rapidly", "shockingly", "steadily", "Amazingly"],
+    "answer": "rapidly"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following writers belong to the Elizabethan period?",
+    "options": [
+      "John Dryden",
+      "Christopher Marlowe",
+      "Alexander Pope",
+      "Samuel Beckett"
+    ],
+    "answer": "Christopher Marlowe"
+  },
+  {
+    "id": 24,
+    "question": "Women are too often ---- by family commitments.",
+    "options": ["contaminated", "controlled", "constrained", "Confused"],
+    "answer": "constrained"
+  },
+  {
+    "id": 25,
+    "question": "“To be, or not to be, that is the question” – is a famous dialogue from---",
+    "options": ["Hamlet", "Othello", "Romeo and Juliet", "Macbeth"],
+    "answer": "Hamlet"
+  },
+  {
+    "id": 26,
+    "question": "Class relations and societal conflict is the key understanding of—",
+    "options": ["Feminism", "Structuralism", "Formalism", "Marxism"],
+    "answer": "Marxism"
+  },
+  {
+    "id": 27,
+    "question": "Societies living in the periphery are always ignored, Here the underlined word means---",
+    "options": [
+      "Offshore areas",
+      "remote places",
+      "backward regions",
+      "marginal areas"
+    ],
+    "answer": "marginal areas"
+  },
+  {
+    "id": 28,
+    "question": "The idiom “A stitch in time saves nine”--- refers the importance of----",
+    "options": [
+      "Saving lives",
+      "time tailoring",
+      "timely action",
+      "saving time"
+    ],
+    "answer": "timely action"
+  },
+  {
+    "id": 29,
+    "question": "Which is the correct sentence?",
+    "options": [
+      "He insisted in seeing her",
+      "He insisted for seeing her",
+      "He insisted on seeing her",
+      "He insisted to be seeing her"
+    ],
+    "answer": "He insisted on seeing her"
+  },
+  {
+    "id": 30,
+    "question": "The phrase “nouveau riche” means---",
+    "options": ["Well off", "New rich", "New high class", "Rich rich"],
+    "answer": "New rich"
+  },
+  {
+    "id": 31,
+    "question": "What would be the best antonym of “hibernate”?",
+    "options": ["sluggishness", "liveliness", "Dormancy", "democracy"],
+    "answer": "liveliness"
+  },
+  {
+    "id": 32,
+    "question": "I am in the process of collecting material for my story. The underlined word is a/an----",
+    "options": ["Noun", "Adjective", "Adverb", "Verb"],
+    "answer": "Noun"
+  },
+  {
+    "id": 33,
+    "question": "Depression is often hereditary. The underlined word is a/an—",
+    "options": ["Adverb", "Noun", "Adjective", "Verb"],
+    "answer": "Adjective"
+  },
+  {
+    "id": 34,
+    "question": "Find the odd-man-out -----",
+    "options": ["James Joyce", "Thomas Hardy", "Joseph Conrad", "George Eliot"],
+    "answer": "George Eliot"
+  },
+  {
+    "id": 35,
+    "question": "Find the odd-man-out-",
+    "options": ["The bluest eye", "As I lay Dying", "Sula", "A Mercy"],
+    "answer": "As I lay Dying"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "question": "What is the verb of the word 'Shortly'?",
+    "options": ["Short", "Shorter", "Shorten", "Shortness"],
+    "answer": "Shorten"
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct sentence ?",
+    "options": [
+      "Let you and him be witnesses",
+      "Let you and he be witnesses",
+      "Let you and he be witness",
+      "Let he and you be witnesses"
+    ],
+    "answer": "Let you and him be witnesses"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct sentence-",
+    "options": [
+      "The police was informed of the matter",
+      "The police were informed of the matter",
+      "The matter has been informed of the police.",
+      "The matter was informed to the police."
+    ],
+    "answer": "The police were informed of the matter"
+  },
+  {
+    "id": 4,
+    "question": "Who, Which, What are?",
+    "options": [
+      "Refaxive Pronoun",
+      "Demonstrative Pronoun",
+      "Indefinite pronoun",
+      "Relative Pronoun"
+    ],
+    "answer": "Relative Pronoun"
+  },
+  {
+    "id": 5,
+    "question": "Choose the correct one....",
+    "options": ["Mispel", "Misspell", "Mispell", "Misspel"],
+    "answer": "Misspell"
+  },
+  {
+    "id": 6,
+    "question": "'What is the time — your watch'?",
+    "options": ["in", "by", "at", "with"],
+    "answer": "by"
+  },
+  {
+    "id": 7,
+    "question": "“Give my ___to him”",
+    "options": [
+      "Best compliment",
+      "Warm compliment",
+      "Compliments",
+      "complement"
+    ],
+    "answer": "Compliments"
+  },
+  {
+    "id": 8,
+    "question": "'Caesar and Cleopatra'- is —",
+    "options": [
+      "A play By G.B Shaw",
+      "A tragedy by Shakespeare",
+      "A poem by Lord Byron",
+      "None of those"
+    ],
+    "answer": "A play By G.B Shaw"
+  },
+  {
+    "id": 9,
+    "question": "Who is the greatest modern English dramatist?",
+    "options": [
+      "George Bernard Shaw",
+      "Verginia Woolf",
+      "P.B Shelley",
+      "S.T Coleridge"
+    ],
+    "answer": "George Bernard Shaw"
+  },
+  {
+    "id": 10,
+    "question": "Who is the modern philosopher who was awarded Nobel Prize for literature?",
+    "options": ["James Baker", "Dr. Kissinger", "Bertrand Russel", "Lenin"],
+    "answer": "Bertrand Russel"
+  },
+  {
+    "id": 11,
+    "question": "Who is the author of 'A Farewell to Arms.'?",
+    "options": ["T. S. Eliot", "John Milton", "Plato", "Ernest Hemingway"],
+    "answer": "Ernest Hemingway"
+  },
+  {
+    "id": 12,
+    "question": "Who is the most famous satirist in English literature?",
+    "options": [
+      "Alexander Pope",
+      "Jonathan Swift",
+      "William Wordsworth",
+      "Bulter"
+    ],
+    "answer": "Jonathan Swift"
+  },
+  {
+    "id": 13,
+    "question": "What is the synonym of - 'Delude'?",
+    "options": ["Deceive", "Permit", "Aggravate", "Demand"],
+    "answer": "Deceive"
+  },
+  {
+    "id": 14,
+    "question": "What is the noun of the word- 'Waste'?",
+    "options": ["Wasting", "Wastage", "Waste", "Wasteful"],
+    "answer": "Wastage"
+  },
+  {
+    "id": 15,
+    "question": "What is the antonym of - 'Queer'?",
+    "options": ["Inegrated", "Abnormal", "Odd", "Orderly"],
+    "answer": "Orderly"
+  },
+  {
+    "id": 16,
+    "question": "What is the adjective of the world 'Heart'?",
+    "options": ["Heartening", "Hearten", "Heart", "Heartful"],
+    "answer": "Heartening"
+  }
+]

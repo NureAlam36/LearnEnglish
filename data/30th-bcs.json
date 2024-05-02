@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "out of the given alternatives, choose the one that best expresses the meaning of the given word:-IMPROVEMENT",
+    "options": ["Betterment", "Advancement", "Promotion", "Preference"],
+    "answer": "Betterment"
+  },
+  {
+    "id": 2,
+    "question": "choose the one that best expresses the meaning of the given word AMICABLE",
+    "options": ["Interesting", "Loving", "Affectionate", "Friendly"],
+    "answer": "Friendly"
+  },
+  {
+    "id": 3,
+    "question": "choose the word opposite in meaning to the given word:-LIABILITY",
+    "options": ["Debt", "Treasure", "Property", "Assets"],
+    "answer": "Assets"
+  },
+  {
+    "id": 4,
+    "question": "choose the word opposite in meaning to the given word: HATE",
+    "options": ["Abhor", "Concern", "Admire", "Loathe"],
+    "answer": "Admire"
+  },
+  {
+    "id": 5,
+    "question": "Choose the one which can be substituted for the given words/sentence:-A song embodying religious and sacred emotions-",
+    "options": ["Hymn", "Ode", "Lyric", "Ballad"],
+    "answer": "Hymn"
+  },
+  {
+    "id": 6,
+    "question": "Time after twilight and before night-",
+    "options": ["Eclipse", "Dusk", "Dawn", "Evening"],
+    "answer": "Dusk"
+  },
+  {
+    "id": 7,
+    "question": "Fill in the blanks in the following sentences by selecting the most appropriate alternative from among the four choices given: Parliamentary democracy demands discipline --- to the rules.",
+    "options": ["Knowledge", "Respectful", "Adherence", "Awareness"],
+    "answer": "Adherence"
+  },
+  {
+    "id": 8,
+    "question": "Reason is the highest faculty---on human by their creator.",
+    "options": ["Bestowed", "Entrusted", "Endowed", "Conferred"],
+    "answer": "Bestowed"
+  },
+  {
+    "id": 9,
+    "question": "Rishan walks as if he---lame.",
+    "options": ["Had been", "Has", "Were", "Is"],
+    "answer": "Were"
+  },
+  {
+    "id": 10,
+    "question": "one of the four sentences given in each question is grammatically wrong. That alternative is your answer:-",
+    "options": [
+      "Laziness is detrimental for success",
+      "Neither you nor i am in a sound position.",
+      "He begged the favour of my granting him leave",
+      "Your action is not in conformity with the law"
+    ],
+    "answer": "Laziness is detrimental for success"
+  },
+  {
+    "id": 11,
+    "question": "one of the four sentences given in each question is grammatically wrong. That alternative is your answer:-",
+    "options": [
+      "He has no desire for fame",
+      "He is too miserly to part with his money",
+      "He has invited me for dinner",
+      "I intend going to Rajshahi"
+    ],
+    "answer": "I intend going to Rajshahi"
+  },
+  {
+    "id": 12,
+    "question": "Each of the following idioms is followed by some alternatives. choose the one which best expresses its meaning:-To keep one's head-",
+    "options": [
+      "To save oneself",
+      "To be self respectful",
+      "To keep calm",
+      "None of these"
+    ],
+    "answer": "To keep calm"
+  },
+  {
+    "id": 13,
+    "question": "To put the cart before the horse-----",
+    "options": [
+      "To reverse the natural order of things",
+      "To raise obstacle",
+      "To force a person to do something",
+      "To offer a person what he cannot eat"
+    ],
+    "answer": "To reverse the natural order of things"
+  },
+  {
+    "id": 14,
+    "question": "To read between the lines----",
+    "options": [
+      "To concentrate",
+      "To suspect",
+      "To read carefully",
+      "To grasp the hidden meaning"
+    ],
+    "answer": "To grasp the hidden meaning"
+  },
+  {
+    "id": 15,
+    "question": "\"\"\"I know him.\" Change the voice form\"",
+    "options": [
+      "He has been known by me",
+      "He was known to me",
+      "He is known to me",
+      "He is known by me"
+    ],
+    "answer": "He is known to me"
+  },
+  {
+    "id": 16,
+    "question": "Change voice form - A lion may be helped even by a little mouse.",
+    "options": [
+      "Even a little mouse may help a lion",
+      "A little mouse may even help a lion",
+      "A little mouse can even help a lion",
+      "Even a little mouse ought to help a lion"
+    ],
+    "answer": "Even a little mouse may help a lion"
+  },
+  {
+    "id": 17,
+    "question": "Choose the correctly spelt word:-",
+    "options": ["Leisure", "Liesure", "Leasure", "Lesiure"],
+    "answer": "Leisure"
+  },
+  {
+    "id": 18,
+    "question": "Choose the correctly spelt word:-",
+    "options": ["Supercede", "Supersede", "Superseed", "Superceed"],
+    "answer": "Supersede"
+  },
+  {
+    "id": 19,
+    "question": "The horror movie scared them out of their-",
+    "options": ["Seats", "Lives", "Wits", "Funds"],
+    "answer": "Wits"
+  },
+  {
+    "id": 20,
+    "question": "The people who carry a coffin at a funeral are called-",
+    "options": ["Pallbearers", "Undertakers", "Supporters", "Mourners"],
+    "answer": "Pallbearers"
+  }
+]

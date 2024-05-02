@@ -46,7 +46,7 @@ const DailyUpdates = () => {
         keyExtractor={(item) => item.id}
         horizontal={true}
         showsHorizontalScrollIndicator={false}
-        style={{ margin: 0, padding: 0 }}
+        contentContainerStyle={{ gap: 15 }}
       />
     </View>
   );
@@ -59,15 +59,12 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
   },
   item: {
-    marginHorizontal: 8,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#fff",
     padding: 20,
-    gap: 20,
+    gap: 15,
     borderRadius: 10,
-    marginLeft: 8,
-    marginRight: 8,
     width: 120,
   },
   imageContainer: {},

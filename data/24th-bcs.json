@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "I don’t mind __ with the cooking but I am not going to was the dishes.",
+    "options": ["for helping", "to held", "helping", "help"],
+    "answer": "helping"
+  },
+  {
+    "id": 2,
+    "question": "I decided to go __ with my friend as I needed some exercise.",
+    "options": ["to a walk", "for a walk", "for a walking", "walk"],
+    "answer": "for a walk"
+  },
+  {
+    "id": 3,
+    "question": "My uncle arrived while I __ the dinner.",
+    "options": ["was cooking", "had cooked", "would cook", "cook"],
+    "answer": "was cooking"
+  },
+  {
+    "id": 4,
+    "question": "In order to improve farming methods, we need __.",
+    "options": ["machine", "machinery", "a machinery", "machineries"],
+    "answer": "machinery"
+  },
+  {
+    "id": 5,
+    "question": "My friend always goes home __ foot.",
+    "options": ["with", "on a", "on", "by"],
+    "answer": "on"
+  },
+  {
+    "id": 6,
+    "question": "We need two hundred dollars __ this to pay for everything.",
+    "options": ["as well", "also", "beside", "besides"],
+    "answer": "besides"
+  },
+  {
+    "id": 7,
+    "question": "The team is __ eleven players.",
+    "options": ["made up of", "made of", "made up", "made"],
+    "answer": "made up of"
+  },
+  {
+    "id": 8,
+    "question": "My wife reminded me __.",
+    "options": [
+      "to my appointment",
+      "to go my appointment",
+      "of my appointment",
+      "my appointment"
+    ],
+    "answer": "of my appointment"
+  },
+  {
+    "id": 9,
+    "question": "At least one of the students __ full marks every time.",
+    "options": ["get", "gets", "are getting", "have got"],
+    "answer": "gets"
+  },
+  {
+    "id": 10,
+    "question": "Please __ the necessity of arriving early.",
+    "options": ["emphasise on", "emphasise to", "emphasise about", "emphasise"],
+    "answer": "emphasise on"
+  },
+  {
+    "id": 11,
+    "question": "I don’t think you will have any difficulty __ a driving license.",
+    "options": ["to get", "in getting", "for getting", "get"],
+    "answer": "to get"
+  },
+  {
+    "id": 12,
+    "question": "I thought that __ was the last one.",
+    "options": [
+      "prettiest one of all",
+      "the prettiest one from all",
+      "the prettiest one of all",
+      "the most prettiest of all"
+    ],
+    "answer": "the prettiest one of all"
+  },
+  {
+    "id": 13,
+    "question": "The ministers arrived __ a decision last night.",
+    "options": ["by", "to", "on", "at"],
+    "answer": "at"
+  },
+  {
+    "id": 14,
+    "question": "She is beautiful but she is ___ her mother.",
+    "options": [
+      "most beautiful",
+      "less beautiful",
+      "as beautiful",
+      "not so beautiful as"
+    ],
+    "answer": "not so beautiful as"
+  },
+  {
+    "id": 15,
+    "question": "The government gave __ the demands of the people.",
+    "options": ["into", "in", "to", "over to"],
+    "answer": "in"
+  },
+  {
+    "id": 16,
+    "question": "The second World War broke __ in september, 1939.",
+    "options": ["through", "away", "out", "in"],
+    "answer": "out"
+  },
+  {
+    "id": 17,
+    "question": "Choose the correct meaning of the following words: Gullible",
+    "options": [
+      "easily deceived",
+      "simple",
+      "foolish",
+      "willing to believe anything or anyone"
+    ],
+    "answer": "willing to believe anything or anyone"
+  },
+  {
+    "id": 18,
+    "question": "Choose the correct meaning of the following words: Viable",
+    "options": ["that will work", "capable", "that can be done", "possible"],
+    "answer": "that will work"
+  },
+  {
+    "id": 19,
+    "question": "Choose the correct meaning of the following words: Handy",
+    "options": [
+      "comfortable",
+      "useful",
+      "convenient to handle or use",
+      "necessary"
+    ],
+    "answer": "useful"
+  },
+  {
+    "id": 20,
+    "question": "Select the pair that best expresses a relationship similar to that expressed in the original pair: Conscious- Careless",
+    "options": [
+      "Well-informed- Knowing little",
+      "Graceful- Ugly",
+      "Generous- Unkind",
+      "Careful- Indifferent"
+    ],
+    "answer": "Careful- Indifferent"
+  }
+]

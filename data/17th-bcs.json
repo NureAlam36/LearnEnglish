@@ -1,0 +1,199 @@
+[
+  {
+    "id": 1,
+    "question": "The sentence with correct punctuation--",
+    "options": [
+      "Maria my student is on leave today",
+      "Maria, my student, is on leave today",
+      "Maria my students is, on leave today",
+      "Maria my students, is on leave today"
+    ],
+    "answer": "Maria, my student, is on leave today"
+  },
+  {
+    "id": 2,
+    "question": "The antonym for 'Inimical' -",
+    "options": ["Angry", "Indifferent", "Hostile", "Friendly"],
+    "answer": "Friendly"
+  },
+  {
+    "id": 3,
+    "question": "The synonym for 'efface' --",
+    "options": ["rub out", "exhaust", "improve", "cut out"],
+    "answer": "rub out"
+  },
+  {
+    "id": 4,
+    "question": "The best passive from of the sentence :'We don't like idle people'-",
+    "options": [
+      "Idle people are not of our liking",
+      "We are not liked by idle people",
+      "Idle people are not like us",
+      "Idle people are not liked by us"
+    ],
+    "answer": "Idle people are not liked by us"
+  },
+  {
+    "id": 5,
+    "question": "The correct sentence of the followings-",
+    "options": [
+      "The Nile is longest river in Africa",
+      "The Nile is longest river in the Africa",
+      "Nile is longest river in Africa",
+      "The Nile is the longest river in Africa"
+    ],
+    "answer": "The Nile is the longest river in Africa"
+  },
+  {
+    "id": 6,
+    "question": "Browning was the composer of any of the following poems-",
+    "options": [
+      "The Scholar Gipsy",
+      "Andreadel Sarto",
+      "Two Voices",
+      "One one"
+    ],
+    "answer": "Andreadel Sarto"
+  },
+  {
+    "id": 7,
+    "question": "The right word to fit in the gaps of the flowing sentence- Give her a telephone number to ring ?..she gets lost?",
+    "options": ["Unless", "Whether", "Incase", "Perhaps"],
+    "answer": "Incase"
+  },
+  {
+    "id": 8,
+    "question": "Synonym of 'Franchise'---",
+    "options": ["Privilege", "Utility", "French", "Frankness"],
+    "answer": "Privilege"
+  },
+  {
+    "id": 9,
+    "question": "The opposite word of 'Sluggish' --",
+    "options": ["Dull", "Animated", "Heavy", "Slow"],
+    "answer": "Animated"
+  },
+  {
+    "id": 10,
+    "question": "The correct spelling is-",
+    "options": ["Humorous", "Humourious", "Humourous", "Humorious"],
+    "answer": "Humorous"
+  },
+  {
+    "id": 11,
+    "question": "Equivocation means--",
+    "options": [
+      "Equal opportunity to get a job",
+      "Free expression of opinions",
+      "Two contrary things in the same statement",
+      "A true statement"
+    ],
+    "answer": "Two contrary things in the same statement"
+  },
+  {
+    "id": 12,
+    "question": "Natural protein-এর কোড নাম-",
+    "options": ["Protein-p 51", "Protein-p 49", "Protein-p 54", "Protein-p 53"],
+    "answer": "Protein-p 49"
+  },
+  {
+    "id": 13,
+    "question": "When a person says he's 'all in' , it means----",
+    "options": [
+      "He has arrived",
+      "He has finished packing",
+      "He is very tired",
+      "He has got everything"
+    ],
+    "answer": "He is very tired"
+  },
+  {
+    "id": 14,
+    "question": "Bill of fare is-",
+    "options": [
+      "A valuable document",
+      "A list of dishes at a restaurant",
+      "A price list",
+      "A chart of bus fair"
+    ],
+    "answer": "A list of dishes at a restaurant"
+  },
+  {
+    "id": 15,
+    "question": "A bull market means, that share prices are-",
+    "options": ["Falling", "Moving", "Rising", "Statistic"],
+    "answer": "Rising"
+  },
+  {
+    "id": 16,
+    "question": "Blue chips are-",
+    "options": [
+      "Flat plastic countets used as money token",
+      "Industrial shares considered to be a risky investment",
+      "Securities issues by the government",
+      "Industrial shares consideted to be a safe investment"
+    ],
+    "answer": "Industrial shares consideted to be a safe investment"
+  },
+  {
+    "id": 17,
+    "question": "Razzmatazz means--",
+    "options": [
+      "A musical instrument",
+      "A well-planned programme",
+      "A noisy activity",
+      "A musical drama"
+    ],
+    "answer": "A noisy activity"
+  },
+  {
+    "id": 18,
+    "question": "Blockbuster means--",
+    "options": [
+      "Something that makes movement difficult",
+      "A powerful explosive to demolish building",
+      "A device to cut off a person?s head as a punishment",
+      "A large solid peace of stone"
+    ],
+    "answer": "A powerful explosive to demolish building"
+  },
+  {
+    "id": 19,
+    "question": "Any one of the flowing pairs are literary collaborators-",
+    "options": [
+      "Pope and Dryden",
+      "Shelley and Keats",
+      "Yeats and Eliot",
+      "Eliot and pound"
+    ],
+    "answer": "Shelley and Keats"
+  },
+  {
+    "id": 20,
+    "question": "The correct sentence of the followings:",
+    "options": [
+      "A new cabinet has been sworn in Dhaka",
+      "A new cabinet has been sworn by in Dhaka",
+      "A new cabinet has sworn in Dhaka",
+      "A new cabinet has been sworn at Dhaka"
+    ],
+    "answer": "A new cabinet has been sworn in Dhaka"
+  },
+  {
+    "id": 21,
+    "question": "To read between the lines means-",
+    "options": [
+      "To read carefully",
+      "To read only some lines",
+      "To read quickly to save times",
+      "To read carefully to find out any hidden meanings"
+    ],
+    "answer": "To read carefully to find out any hidden meanings"
+  },
+  {
+    "id": 22,
+    "question": "The last word of the proverb, Handsome is that handsome-",
+    "options": ["Works", "Thinks", "Does", "Says"],
+    "answer": "Does"
+  }
+]

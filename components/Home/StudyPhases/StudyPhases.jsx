@@ -89,7 +89,8 @@ const StudyPhases = () => {
         )}
         keyExtractor={(item) => item.id}
         numColumns={2}
-        contentContainerStyle={{ paddingBottom: 20 }}
+        style={{ gap: 10 }}
+        columnWrapperStyle={{ gap: 10 }}
       />
     </View>
   );
@@ -110,7 +111,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#fff",
-    margin: 5,
     borderRadius: 5,
     padding: 4,
   },

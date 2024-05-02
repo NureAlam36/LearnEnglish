@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "question": "Extempore means:",
+    "options": ["impromptu", "planned", "improvise", "immediate"],
+    "answer": "impromptu"
+  },
+  {
+    "id": 2,
+    "question": "\"Antonym: \"\"Menacing\"\"__\"",
+    "options": ["encouraging", "promising", "auspicious", "alarming"],
+    "answer": "auspicious"
+  },
+  {
+    "id": 3,
+    "question": "Antonym of \"Oblige\"",
+    "options": ["Require", "Bind", "Censure", "Bother"],
+    "answer": "Censure"
+  },
+  {
+    "id": 4,
+    "question": "Antonym of Cynical",
+    "options": ["Liberal", "Pessimistic", "Gullible", "Equivocal"],
+    "answer": "Liberal"
+  },
+  {
+    "id": 5,
+    "question": "\"\"\"We were no more surprised than Rahman.\"\"",
+    "options": [
+      "We were all surprised",
+      "We were less surprise than Rahman",
+      "Rahman was less surprised than us",
+      "We were as surprised as Rahman."
+    ],
+    "answer": "We were less surprise than Rahman"
+  },
+  {
+    "id": 6,
+    "question": "\"\"\"Not once has neighbour invited us into his house.\"\"",
+    "options": [
+      "Our neighbour has never invite us into his house",
+      "Our neighbour has invited us in his house not once but many times",
+      "Occasionally our neighbour has invited us into his house.",
+      "Our neighbour has not always invited us into his house"
+    ],
+    "answer": "Our neighbour has invited us in his house not once but many times"
+  },
+  {
+    "id": 7,
+    "question": "Travellers____their reservation well in advance if they want to visit the St. Martins island.",
+    "options": [
+      "had better to to get",
+      "had better get",
+      "had to better get",
+      "had better got"
+    ],
+    "answer": "had better get"
+  },
+  {
+    "id": 8,
+    "question": "After food has been dried or canned ___ for later consumption.",
+    "options": [
+      "it should be stored",
+      "that it should be stored",
+      "should be stored",
+      "which should be stored"
+    ],
+    "answer": "it should be stored"
+  },
+  {
+    "id": 9,
+    "question": "Despite being a brilliant scientist, he does not seem to get his ideas across.",
+    "options": [
+      "get his ideas down part",
+      "make his ideas understood",
+      "summarise his ideas",
+      "put together his ideas"
+    ],
+    "answer": "make his ideas understood"
+  },
+  {
+    "id": 10,
+    "question": "What may be considered courteous in one culture may be arrogant in another.",
+    "options": ["gracious", "coarse", "flimsy", "friendly"],
+    "answer": "gracious"
+  },
+  {
+    "id": 11,
+    "question": "Which of the word or words are wrong. Every man or women should vote their vote.",
+    "options": ["should vote", "for", "their", "Every"],
+    "answer": "their"
+  },
+  {
+    "id": 12,
+    "question": "Which word or words are incorrect? A doctor may be able to diagnose a problem perfect but he may not be able to find a drug to which the patient will respond.",
+    "options": ["will respond", "which", "diagnose", "perfect"],
+    "answer": "perfect"
+  },
+  {
+    "id": 13,
+    "question": "Which word or words are incorrect? According to experts a good way to improve listening skills is by watch television specially news and documentaries.",
+    "options": ["by", "watch", "improve", "to"],
+    "answer": "watch"
+  },
+  {
+    "id": 14,
+    "question": "Choose the pair of words that expresses a relationship similar to that of the given pair-- WORDS:WRITER",
+    "options": [
+      "Laws:Policeman",
+      "Brick :Bricklayer",
+      "Chalk: black board",
+      "Joy:emotion"
+    ],
+    "answer": "Brick :Bricklayer"
+  },
+  {
+    "id": 15,
+    "question": "Choose the pair of words that expresses a relationship similar to that of the given pair-- PATRON:SUPPORT",
+    "options": [
+      "Artist:imitation",
+      "Spouce:divorce",
+      "Counselor:advice",
+      "Restaurant:customer"
+    ],
+    "answer": "Counselor:advice"
+  },
+  {
+    "id": 16,
+    "question": "Choose the pair of words that expresses a relationship similar to that of the given pair--- HEART:HUMAN",
+    "options": ["Wall:brick", "Hand:child", "Kitchen:house", "Engine: car"],
+    "answer": "Engine: car"
+  },
+  {
+    "id": 17,
+    "question": "\"\"\"No news is good news\"\"\"",
+    "options": [
+      "it is likely to have bad news",
+      "It is likely that we expect bad news",
+      "it is likely that nothing bad has happend",
+      "it is unlikely that nothing bad has happend"
+    ],
+    "answer": "It is likely that we expect bad news"
+  },
+
+  {
+    "id": 18,
+    "question": "A bird in hand is worth two in the bush.",
+    "options": [
+      "The seen is better than the unseen",
+      "Take what you have readily available rather than expecting better in the future",
+      "Promises are better than actuals",
+      "It is no good beating about the bush."
+    ],
+    "answer": "Take what you have readily available rather than expecting better in the future"
+  },
+  {
+    "id": 19,
+    "question": "The sentence : Who would have thought Shylock was so unkind \" express_\"",
+    "options": ["hyperbole", "interrogation", "command", "wonder"],
+    "answer": "wonder"
+  },
+  {
+    "id": 20,
+    "question": "To 'raise ones brows' indicate_",
+    "options": ["surprise", "annoyance", "disapproval", "indifference"],
+    "answer": "surprise"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "question": "If I had known you were coming ___.",
+    "options": [
+      "I had gone to the station.",
+      "I would have gone to the station.",
+      "I would be going to the station.",
+      "I would go to the station."
+    ],
+    "answer": "I would have gone to the station."
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct option: Even as harvesting was goin on ___.",
+    "options": [
+      "the rainy season begins",
+      "the rainy season had began",
+      "the rainy season was began",
+      "the rainy season began"
+    ],
+    "answer": "the rainy season began"
+  },
+  {
+    "id": 3,
+    "question": "Which phrase contains words opposed to each other in meaning?",
+    "options": [
+      "Reproduction and death",
+      "Heat and dust",
+      "Hopes and aspirations",
+      "Emerged and advanced"
+    ],
+    "answer": "Reproduction and death"
+  },
+  {
+    "id": 4,
+    "question": "Find out the correct translation: সকাল থেকে গুঁড়ি গুঁড়ি বৃষ্টি হচ্ছে।",
+    "options": [
+      "It is raining from morning.",
+      "It has been raining from morning.",
+      "It has been drizzling since morning.",
+      "It is drizzling since morning."
+    ],
+    "answer": "It has been drizzling since morning."
+  },
+  {
+    "id": 5,
+    "question": "Maiden speech means-",
+    "options": ["First speech", "Last speech", "Late speech", "Early speech"],
+    "answer": "First speech"
+  },
+  {
+    "id": 6,
+    "question": "A person whose 'head' is in the 'clouds' is-----",
+    "options": ["an aviator", "proud", "a day dreamer", "useless"],
+    "answer": "a day dreamer"
+  },
+  {
+    "id": 7,
+    "question": "Identify the correct sentence:",
+    "options": [
+      "She had faith and hopes in future.",
+      "She had faith and hopes in the future.",
+      "She had faith and hopes for the future.",
+      "She had faith in and hopes for the future."
+    ],
+    "answer": "She had faith in and hopes for the future."
+  },
+  {
+    "id": 8,
+    "question": "Choose the correct tense:",
+    "options": [
+      "Javed was so exhausted that he was lying down for a sleep",
+      "Javed was so exhausted that he had lain down for a sleep",
+      "Javed was so exhausted that he will lay down for a sleep",
+      "Javed was so exhausted that he lain down for a sleep"
+    ],
+    "answer": "Javed was so exhausted that he was lying down for a sleep"
+  },
+  {
+    "id": 9,
+    "question": "A synonym for 'resentment' is-",
+    "options": ["fear", "anger", "indignation", "panic"],
+    "answer": "anger"
+  },
+  {
+    "id": 10,
+    "question": "The captain left the boat, because it ___.",
+    "options": ["turned over", "tuned bottom", "turned up", "turned down"],
+    "answer": "turned over"
+  },
+  {
+    "id": 11,
+    "question": "One should be careful about ___ duty.",
+    "options": ["her", "one’s", "His", "the"],
+    "answer": "one’s"
+  },
+  {
+    "id": 12,
+    "question": "Three-fourths of the work __ finished.",
+    "options": ["have been", "has been", "had", "were"],
+    "answer": "has been"
+  },
+  {
+    "id": 13,
+    "question": "We waited until the plane ___.",
+    "options": [
+      "had taken off",
+      "had not taken off",
+      "took off",
+      "did not take off"
+    ],
+    "answer": "took off"
+  },
+  {
+    "id": 14,
+    "question": "I spent - -with the patient.",
+    "options": ["Sometimes", "sometime", "some times", "some time"],
+    "answer": "some time"
+  },
+  {
+    "id": 15,
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Rahim ate the whole fish almost",
+      "Almost Rahim ate the whole fish",
+      "Rahim ate almost the whole fish",
+      "Rahim almost ate the whole fish"
+    ],
+    "answer": "Rahim ate almost the whole fish"
+  },
+  {
+    "id": 16,
+    "question": "She argued ___ me about the marriage.",
+    "options": ["with", "From", "for", "to"],
+    "answer": "with"
+  },
+  {
+    "id": 17,
+    "question": "I count - -your help.",
+    "options": ["with", "After", "upon", "for"],
+    "answer": "upon"
+  },
+  {
+    "id": 18,
+    "question": "Identify the correct passive form-'Open the window'",
+    "options": [
+      "Let the window be opened",
+      "The window should be opened",
+      "Let the window be opened by you",
+      "The window must be opened"
+    ],
+    "answer": "Let the window be opened"
+  },
+  {
+    "id": 19,
+    "question": "The appropriate meaning of the idiom 'Swan song' -----",
+    "options": ["first work", "last work", "middle work", "early work"],
+    "answer": "last work"
+  },
+  {
+    "id": 20,
+    "question": "Trees have - - off their leaves",
+    "options": ["fallen", "cast", "Thrown", "put"],
+    "answer": "cast"
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "question": "সততা সর্বোৎকৃষ্ট পন্থা-কোনটির অনুবাদ?",
+    "options": [
+      "Honesty is the better way",
+      "Honesty is a good way",
+      "Honesty is the best policy",
+      "Honesty is the best virtue"
+    ],
+    "answer": "Honesty is the best policy"
+  },
+  {
+    "id": 2,
+    "question": "Many companies now have employee assistance programs that enable employees, free of charge, to improve their physical fitness, reduce stress, and learn ways to stop smoking. These programs increase worker productivity, reduce absenteeism and lessen insurance costs for employee health care. Therefore, these programs benefit the company as well as the employee. Which of the following, if true, most significantly strengthens the conclusion above?",
+    "options": [
+      "Physical fitness programs are often the most popular services offered to employees",
+      "Studies have shown that training in strees management is not effective for many people",
+      "Regular exercise reduces people's risk of heart disease and provides them with increased energy",
+      "Employee assistance programs require companies to hire people to supervise the various programs offered."
+    ],
+    "answer": "Physical fitness programs are often the most popular services offered to employees"
+  },
+  {
+    "id": 3,
+    "question": "Choose the answer that is closest in meaning to the following sentence : 'Despite the great difference in size shape and function, all human cells have the same 46 chromosormes.'",
+    "options": [
+      "Difference in size-shape and function are not very great because all human cells have the same 46 chromosomes",
+      "The size- shape and function of human cells are the same but the 46 chromosomes are different",
+      "Although the 46 chromosomes are the same in all human cells- there are difference in the size- shape and function.",
+      "All human cells are the same because the 46 chromosomes govern size-shape and function"
+    ],
+    "answer": "Although the 46 chromosomes are the same in all human cells- there are difference in the size- shape and function."
+  },
+  {
+    "id": 4,
+    "question": "choose the word or phrase that is most nearly similar or opposite in meaning to the word given in the question: INFRINGE",
+    "options": ["Purloin", "Intrude", "Transgress", "Invade"],
+    "answer": "Transgress"
+  },
+  {
+    "id": 5,
+    "question": "choose the word or phrase that is most nearly similar or opposite in meaning to the word given in the question: BROCHURE-",
+    "options": ["Pamphlet", "censor", "Opening", "Bureau"],
+    "answer": "Pamphlet"
+  },
+  {
+    "id": 6,
+    "question": "choose the word or phrase that is most nearly similar or opposite in meaning to the word given in the question: EQUIVOCAL-",
+    "options": ["Universal", "Quaint", "Mistaken", "Clear"],
+    "answer": "Mistaken"
+  },
+  {
+    "id": 7,
+    "question": "choose the word or phrase that is most nearly similar or opposite in meaning to the word given in the question: ILLUSIVE-",
+    "options": ["Not deceptive", "Not coherent", "Not obvious", "Not certain"],
+    "answer": "Not certain"
+  },
+  {
+    "id": 8,
+    "question": "CARPENTER : SAW",
+    "options": [
+      "seamstress : scissors",
+      "stenographer : typewriter",
+      "painter : brush",
+      "lawyer : brief"
+    ],
+    "answer": "seamstress : scissors"
+  },
+  {
+    "id": 9,
+    "question": "FIRE : ASHES",
+    "options": [
+      "water : waves",
+      "accident : delay",
+      "event : memories",
+      "wood : splinters"
+    ],
+    "answer": "event : memories"
+  },
+  {
+    "id": 10,
+    "question": "STARE : GLANCE",
+    "options": [
+      "gulp : sip",
+      "scorn : admire",
+      "confide : tell",
+      "participate : observe"
+    ],
+    "answer": "gulp : sip"
+  },
+  {
+    "id": 1,
+    "question": "Although a few years ago the fundamental fact about the Milky Way seemed fairly well ......... now even its mass and radius have come into .......",
+    "options": [
+      "established ...... question",
+      "determined ...... resolution",
+      "Ignored ...... danger",
+      "Diminished ..... disrepute"
+    ],
+    "answer": "established ...... question"
+  },
+  {
+    "id": 12,
+    "question": "Because she had a reputation for.... we were surprised and pleased when she greeted us so .....",
+    "options": [
+      "insouciance.... cordially",
+      "querulousness .. affably",
+      "arrogance.... disdainfully",
+      "Insolence ..... irately"
+    ],
+    "answer": "querulousness .. affably"
+  },
+  {
+    "id": 13,
+    "question": "A ......... statement is an ......... comparison; it does not compare things explicitly, but suggest a likeness between them.",
+    "options": [
+      "sanguine ..... inherent",
+      "blatant. . .overt",
+      "metaphorical ........... implied",
+      "sarcastic... unfair"
+    ],
+    "answer": "blatant. . .overt"
+  },
+  {
+    "id": 14,
+    "question": "If ruby is heated it ........ temporarily loose its colour.",
+    "options": ["has", "does", "would", "will"],
+    "answer": "will"
+  },
+  {
+    "id": 15,
+    "question": "All of the people at the AAME conference are -",
+    "options": [
+      "Mathematic's teachers",
+      "Mathematics teacher",
+      "Mathematic teachers",
+      "Mathematics teachers"
+    ],
+    "answer": "Mathematics teachers"
+  },
+  {
+    "id": 16,
+    "question": "Prices for bicycles can run.....Tk. 2000.00",
+    "options": ["as hish for", "as high to", "so high as", "as high as"],
+    "answer": "as high as"
+  },
+  {
+    "id": 17,
+    "question": "Travellers____their reservation well in advance if they want to visit the St. Martins island.",
+    "options": [
+      "had better to to get",
+      "had to better get",
+      "had better got",
+      "had better get"
+    ],
+    "answer": "had better get"
+  },
+  {
+    "id": 18,
+    "question": "A seventeen year old is not....to vote in an election.",
+    "options": ["old enough", "as old enough", "enough old", "enough old as"],
+    "answer": "old enough"
+  },
+  {
+    "id": 19,
+    "question": "Almost everyone fails .... on the first try.",
+    "options": [
+      "passing his driver's test",
+      "to have passed his driver's test",
+      "to his driver's test",
+      "in passing his driver's test"
+    ],
+    "answer": "to have passed his driver's test"
+  },
+  {
+    "id": 20,
+    "question": "Read the paragraph and answer to the question no 41 to 44.\nThroughout history, the search, for salt has played an important role in society. Where it was scarce, salt was traded ounce for ounce with gold. Rome's major highway was called the via salaria, that is the Salt Road. Along the road, Roman soldiers transported salt crystals from the salt flats at Ostia up the Tiber River. In return, they received a salarium or salary, which was literally money paid to soldiers to buy salt. The old saying 'worth their salt' which mean to be valuable derives from the custom of payment during the Empire.\nWhat does the passage mainly discuss?",
+    "options": [
+      "The Roman Empire",
+      "Salt",
+      "The old saying 'Worth their salt'",
+      "Ancient Trade"
+    ],
+    "answer": "Salt"
+  },
+  {
+    "id": 21,
+    "question": "According to the passage, salt flats were located in—",
+    "options": ["Ostia", "Tiber", "Rome", "Salaria"],
+    "answer": "Ostia"
+  },
+  {
+    "id": 22,
+    "question": "Salarium is a latin word that means—",
+    "options": ["the Salt Road", "soldiers", "salt", "salary"],
+    "answer": "salary"
+  },
+  {
+    "id": 23,
+    "question": "If a man is 'worth his salt', he is—",
+    "options": [
+      "a thirsty man",
+      "a valuable employee",
+      "a highly paid worker",
+      "a soldier"
+    ],
+    "answer": "a highly paid worker"
+  }
+]

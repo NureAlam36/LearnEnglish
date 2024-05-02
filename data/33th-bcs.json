@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "question": "Noureen will discuss the issue with Nasir ___ phone",
+    "options": ["in", "over", "by", "on"],
+    "answer": "over"
+  },
+  {
+    "id": 2,
+    "question": "Some writer sink __ oblivion in course of time",
+    "options": ["under", "from", "on", "into"],
+    "answer": "into"
+  },
+  {
+    "id": 3,
+    "question": "\"Call to mind\" means",
+    "options": ["fantasize", "attend", "remember", "request"],
+    "answer": "remember"
+  },
+  {
+    "id": 4,
+    "question": "\"Pass away\" means",
+    "options": ["die", "disappear", "erase", "fall"],
+    "answer": "die"
+  },
+  {
+    "id": 5,
+    "question": "Pick the word that is synonymous with 'Authoritarian'.",
+    "options": ["senior", "autocratic", "elderly", "potential"],
+    "answer": "autocratic"
+  },
+  {
+    "id": 6,
+    "question": "The word \"Permissive\" implies",
+    "options": ["law-abiding", "liberal", "umble", "submissive"],
+    "answer": "liberal"
+  },
+  {
+    "id": 7,
+    "question": "Each of the sons followed __ father's trade.",
+    "options": ["his", "their", "her", "whose"],
+    "answer": "his"
+  },
+  {
+    "id": 8,
+    "question": "Subject – verb agreement refers to –",
+    "options": [
+      "person only",
+      "number and person",
+      "number, person and gender",
+      "number only"
+    ],
+    "answer": "number and person"
+  },
+  {
+    "id": 9,
+    "question": "The error in the sentence, ‘One of the recommendation made by the committee was accepted by the authorities’ is –",
+    "options": ["was", "recommendation", "accepted by", "committee"],
+    "answer": "recommendation"
+  },
+  {
+    "id": 10,
+    "question": "‘The French’ refers to –",
+    "options": [
+      "the French Language",
+      "the French manners",
+      "the French society",
+      "The French people"
+    ],
+    "answer": "The French people"
+  },
+  {
+    "id": 11,
+    "question": "If a person cannot stop taking drugs, he is –",
+    "options": [
+      "attached to them",
+      "addicted to them",
+      "committed to them",
+      "devoted to them"
+    ],
+    "answer": "addicted to them"
+  },
+  {
+    "id": 12,
+    "question": "The word ‘Officialese’ means –",
+    "options": [
+      "plural number of official",
+      "plural number of offices",
+      "language used in offices",
+      "vague expressions"
+    ],
+    "answer": "language used in offices"
+  },
+  {
+    "id": 13,
+    "question": "‘Succumb’ means –",
+    "options": ["submit", "win", "achieve", "conqur"],
+    "answer": "submit"
+  },
+  {
+    "id": 14,
+    "question": "We look forward ____ a response from you.",
+    "options": ["to receiving", "to receive", "in receiving", "for receiving"],
+    "answer": "to receiving"
+  },
+  {
+    "id": 15,
+    "question": "If a part of a speech or writing breaks the theme, it is called –",
+    "options": ["exaggeration", "digression", "anti-climax", "pomposity"],
+    "answer": "digression"
+  },
+  {
+    "id": 16,
+    "question": "The expression ‘take into account’ means",
+    "options": ["count numbers", "think seriously", "consider", "assess"],
+    "answer": "consider"
+  },
+  {
+    "id": 17,
+    "question": "\"কর্তপক্ষ তাকে তিরস্কার করল\" – বাক্যটির অনুবাদ কি হবে?",
+    "options": [
+      "The authorities gave reins to him",
+      "The authorities took him to book",
+      "The authorities criticised him",
+
+      "The authorities took him to task"
+    ],
+    "answer": "The authorities took him to task"
+  },
+  {
+    "id": 18,
+    "question": "Such claim needs to be tested empirically’ means –",
+    "options": [
+      "The test should be based on experience",
+      "The test should be based on idea",
+      "The test should be based on assumption",
+      "The test should be based on calculation"
+    ],
+    "answer": "The test should be based on experience"
+  },
+  {
+    "id": 19,
+    "question": "The idiom ‘put up with’ means –",
+    "options": ["stay together", "tolerate", "keep trust", "protect"],
+    "answer": "tolerate"
+  },
+  {
+    "id": 20,
+    "question": "In many ways, riding a bicycle is similar to –",
+    "options": [
+      "the driving of a car",
+      "when one drives a car",
+      "when we drive a car",
+      "driving a car"
+    ],
+    "answer": "driving a car"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "question": "What is the synonym of 'Incite'?",
+    "options": ["Permit", "Instigate", "Deceive", "urge"],
+    "answer": "Instigate"
+  },
+  {
+    "id": 2,
+    "question": "What is the antonym of 'Honorary'?",
+    "options": ["Offical", "Honorable", "Salaried", "Literary"],
+    "answer": "Salaried"
+  },
+  {
+    "id": 3,
+    "question": "What is the verb of the word 'Ability'?",
+    "options": ["Enable", "Ably", "Able", "Ableness"],
+    "answer": "Enable"
+  },
+  {
+    "id": 4,
+    "question": "Who is the poet of the 'Victorian Age'?",
+    "options": ["Helen Keller", "A. Pope", "Robert Browning", "Shakespeare"],
+    "answer": "Robert Browning"
+  },
+  {
+    "id": 5,
+    "question": "Who is the author of 'For Whom The Bell Tolls'?",
+    "options": [
+      "Homer",
+      "Ernest Hemingway",
+      "Lord Tennison",
+      "Charles Dickens"
+    ],
+    "answer": "Ernest Hemingway"
+  },
+  {
+    "id": 6,
+    "question": "Fill in the blanks 'He has assured me..safety'",
+    "options": ["for", "of", "at", "with"],
+    "answer": "of"
+  },
+  {
+    "id": 7,
+    "question": "'May Allah help you.' What kind of sentence is this?",
+    "options": ["Optative", "Imperative", "Assertive", "Exclamatory"],
+    "answer": "Optative"
+  },
+  {
+    "id": 8,
+    "question": "'A rolling stone gathers no moss.' What 'rolling' is?",
+    "options": ["Gerund", "Varbal noun", "Participle", "Adjective"],
+    "answer": "Adjective"
+  },
+  {
+    "id": 9,
+    "question": "He has been ill ---------- Friday last. Fill in the blanks.",
+    "options": ["from", "in", "since", "on"],
+    "answer": "since"
+  },
+  {
+    "id": 10,
+    "question": "Which is the noun of the word 'beautiful'?",
+    "options": ["Beautifully", "Beautious", "Beauty", "Beautify"],
+    "answer": "Beauty"
+  },
+  {
+    "id": 11,
+    "question": "'Hold water' means?",
+    "options": ["store water", "drink water", "keep water", "bear examination"],
+    "answer": "bear examination"
+  },
+  {
+    "id": 12,
+    "question": "'Out and Out' means?",
+    "options": ["Man of outside", "Throughly", "To be last", "Not at all"],
+    "answer": "Throughly"
+  },
+  {
+    "id": 13,
+    "question": "Choose the correct sentence..",
+    "options": [
+      "The rich are not always happy.",
+      "The rich is not happy always.",
+      "The rich is not always happy.",
+      "Rich is not always happy"
+    ],
+    "answer": "The rich are not always happy."
+  },
+  {
+    "id": 14,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "he was hunged for murder",
+      "he was hanged for murder",
+      "he was being hunged for murder",
+      "He had been hunged for murder"
+    ],
+    "answer": "he was hanged for murder"
+  },
+  {
+    "id": 15,
+    "question": "'Syntax' means?",
+    "options": [
+      "Supplementary tax",
+      "Manner of speech",
+      "Synchrounizing act",
+      "Sentence building"
+    ],
+    "answer": "Sentence building"
+  },
+  {
+    "id": 16,
+    "question": "'Justice delayed is justice denied' was stated by.............",
+    "options": ["Emerson", "Gladstone", "Disraeli", "Shakespeare"],
+    "answer": "Gladstone"
+  }
+]

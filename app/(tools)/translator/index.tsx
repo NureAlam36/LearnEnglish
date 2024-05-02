@@ -30,7 +30,7 @@ const Index = () => {
 
     const translateText = async () => {
         if (inputText.trim() === '') {
-            Alert.alert('Error', 'Please enter some text.');
+            // Alert.alert('Error', 'Please enter some text.');
             return;
         }
         try {

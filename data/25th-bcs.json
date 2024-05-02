@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "question": "Stockings are _ socks",
+    "options": ["big", "small", "long", "short"],
+    "answer": "long"
+  },
+  {
+    "id": 2,
+    "question": "She told me his name after he _ .",
+    "options": ["left", "had left", "has left", "has been leaving"],
+    "answer": "had left"
+  },
+  {
+    "id": 3,
+    "question": "Climate is a _ of the environment.",
+    "options": ["rank", "situation", "state", "size"],
+    "answer": "state"
+  },
+  {
+    "id": 4,
+    "question": "I finally killed the fly _ a rolled up newspaper.",
+    "options": ["by", "through", "with", "from"],
+    "answer": "with"
+  },
+  {
+    "id": 5,
+    "question": "We must look pleased or else he'll be _",
+    "options": ["happy", "cross", "dissatisfied", "dissatisfied delighted"],
+    "answer": "dissatisfied"
+  },
+  {
+    "id": 6,
+    "question": "The man died _ over eating.",
+    "options": ["by", "of", "for", "from"],
+    "answer": "from"
+  },
+  {
+    "id": 7,
+    "question": "He advised me _ smoking .",
+    "options": ["giving up", "to give up", "in giving up", "from giving up"],
+    "answer": "to give up"
+  },
+  {
+    "id": 8,
+    "question": "The expression 'After one's own heart' means :",
+    "options": [
+      "with complete devotion",
+      "To one's own liking",
+      "To be in low spirit",
+      "To be in high spirit"
+    ],
+    "answer": "To one's own liking"
+  },
+  {
+    "id": 9,
+    "question": "'The day of my sistet's marriage is drawing near---'. The underlined word is a/an -",
+    "options": ["verb", "preposition", "adverb", "adjective"],
+    "answer": "adverb"
+  },
+  {
+    "id": 10,
+    "question": "Which is the following sentence is the correct one ?",
+    "options": [
+      "My father was in hospital for six weeks during the summer",
+      "My father was in a hospital during six weeks in summer",
+      "In summer during six weeks my father was in hospital",
+      "My father was in hospital during six weeks in summer"
+    ],
+    "answer": "My father was in hospital for six weeks during the summer"
+  },
+  {
+    "id": 11,
+    "question": "He intends to _ in the country for two months .",
+    "options": ["live", "stay", "stop", "halt"],
+    "answer": "stay"
+  },
+  {
+    "id": 12,
+    "question": "What are you so angry _ ?",
+    "options": ["with", "about", "at", "for"],
+    "answer": "about"
+  },
+  {
+    "id": 13,
+    "question": "The parents become extremely _ when their son had not returned by eleven o'clock.",
+    "options": ["angry", "annoyed", "disturbed", "anxious"],
+    "answer": "anxious"
+  },
+  {
+    "id": 14,
+    "question": "\"\"\"I _ remember the holiday I spent in your home,\"\" she said.\"",
+    "options": ["always", "usually", "hardly", "ever"],
+    "answer": "always"
+  },
+  {
+    "id": 15,
+    "question": "He knew it was a avery _ operation, but he was determined to carry it out .",
+    "options": ["dangerous", "risky", "difficult", "troublesome"],
+    "answer": "risky"
+  },
+  {
+    "id": 16,
+    "question": "'Misanthropist' means :",
+    "options": [
+      "one who believe that God is in everything",
+      "One who first with ladies",
+      "A hater of mankind",
+      "A person of narrow views"
+    ],
+    "answer": "A hater of mankind"
+  },
+  {
+    "id": 17,
+    "question": "First language means the _ language .",
+    "options": ["important", "main", "offical", "natural"],
+    "answer": "natural"
+  },
+  {
+    "id": 18,
+    "question": "Shaheen would never have taken the job if _ what great demand it would make on his time .",
+    "options": [
+      "he was knowing",
+      "he knew",
+      "he had been knowing",
+      "he had known"
+    ],
+    "answer": "he had known"
+  },
+  {
+    "id": 19,
+    "question": "She has _ her hair a beautiful shade of brown .",
+    "options": ["dried", "dyed", "given", "colored"],
+    "answer": "dyed"
+  }
+]

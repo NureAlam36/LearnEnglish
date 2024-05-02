@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Select the pair that best expresses a relationship similar to that expressed in the original pair. EXCITE : CALM",
+    "options": [
+      "retrain : compose",
+      "stimulate : cool down",
+      "agitate : trouble",
+      "upset : perturb"
+    ],
+    "answer": "stimulate : cool down"
+  },
+  {
+    "id": 2,
+    "question": "Each question below consists of a related pair of words. Select the pair that best expresses a relationship similar to that expressed in the original pair. DELAY : EXPEDITE",
+    "options": [
+      "block : obstruct",
+      "drag : procrastinate",
+      "detain : dispatch",
+      "related : halt"
+    ],
+    "answer": "detain : dispatch"
+  },
+  {
+    "id": 3,
+    "question": "Each question below consists of a related pair of words. Select the pair that best expresses a relationship similar to that expressed in the original pair. ANARCHY : GOVERNMENT",
+    "options": [
+      "monarchy : republic",
+      "chaos : disorder",
+      "penury : wealth",
+      "verbosity : words"
+    ],
+    "answer": "penury : wealth"
+  },
+  {
+    "id": 4,
+    "question": "Each question below consists of a related pair of words. Select the pair that best expresses a relationship similar to that expressed in the original pair. VACCINE : PREVENT",
+    "options": [
+      "victim : attend",
+      "antidote : counteract",
+      "wound : heal",
+      "diagnosis : cure"
+    ],
+    "answer": "antidote : counteract"
+  },
+  {
+    "id": 5,
+    "question": "Choose the one word or phrase that best completes the sentence: ‒ glass is, for all practical purposes, a solid, its molecular structure is that of a liquid.",
+    "options": ["Although", "Because", "Since", "If"],
+    "answer": "Although"
+  },
+  {
+    "id": 6,
+    "question": "The intensive search was conducted by the detectives to locate those criminals who ‒ .",
+    "options": [
+      "have had escaped",
+      "had escaped",
+      "are escaping",
+      "have been escaping"
+    ],
+    "answer": "had escaped"
+  },
+  {
+    "id": 7,
+    "question": "The intellectual can no longer be said to live ‒ the margins of society.",
+    "options": ["before", "inside", "beyond", "against"],
+    "answer": "beyond"
+  },
+  {
+    "id": 8,
+    "question": "According to the conditions of my scholarship, after finishing my degree ‒ .",
+    "options": [
+      "the University will employ me",
+      "I will be employed of the University",
+      "employment will be given to me by the University",
+      "my education will be employed by the university"
+    ],
+    "answer": "the University will employ me"
+  },
+  {
+    "id": 9,
+    "question": "He stopped his car ‒ when the light turned red.",
+    "options": ["incisively", "ambiguously", "equitably", "abruptly"],
+    "answer": "abruptly"
+  },
+  {
+    "id": 10,
+    "question": "The influence of the technological revolution in ‒ and ‒ the concentration of wealth and power in the hands of the few should worry us all.",
+    "options": [
+      "aggravating ‒ demolishing",
+      "proliferating ‒ diminishing",
+      "accelerating ‒ intensifying",
+      "undermining ‒ neutralizing"
+    ],
+    "answer": "accelerating ‒ intensifying"
+  },
+  {
+    "id": 11,
+    "question": "If a substance is cohesive, it tends to ‒ .",
+    "options": [
+      "bend without too much difficulty",
+      "retain heat",
+      "stick together",
+      "break easily"
+    ],
+    "answer": "stick together"
+  },
+  {
+    "id": 12,
+    "question": "Few people would care to take the negative side of the proposition that the women of the world are ‒ and ‒.",
+    "options": [
+      "admired ‒ provoked",
+      "oppressed ‒ scorned",
+      "rebuked ‒ regaled",
+      "slighted ‒ celebrated"
+    ],
+    "answer": "oppressed ‒ scorned"
+  },
+  {
+    "id": 13,
+    "question": "Anger, even when it is ‒ has one virtue, it overcomes ‒.",
+    "options": [
+      "sinful ‒ sloth",
+      "unnecessary ‒ malice",
+      "inevitable ‒ desire",
+      "intense ‒ hate"
+    ],
+    "answer": "sinful ‒ sloth"
+  },
+  {
+    "id": 14,
+    "question": "The word ‘dilly-dally’ means:",
+    "options": ["to dilute", "wait impatiently", "repeat", "waste time"],
+    "answer": "waste time"
+  },
+  {
+    "id": 15,
+    "question": "What is the meaning of the word 'euphemism'?",
+    "options": [
+      "verbal play",
+      "vague idea",
+      "in offensive expression",
+      "wise saying"
+    ],
+    "answer": "in offensive expression"
+  },
+  {
+    "id": 16,
+    "question": "The passive form of the sentence 'some children were helping the wounded man'-",
+    "options": [
+      "The wounded man was helped by some children",
+      "The wounded man was helping some children",
+      "The wounded man was being helped by some children",
+      "The wounded man was to be helped by some children"
+    ],
+    "answer": "The wounded man was being helped by some children"
+  },
+  {
+    "id": 17,
+    "question": "Read to passage and answer to the question no 37 to 40.\nRumor is the most primitive way of spreading stories-by passing them on from mouth to mouth. But civilized countries in normal times have better sources of news than rumor. They have radio, television, and newspapers. In times of stress and confusion, however, rumor emerges and becomes rife. At such times different kinds of news are in competition: the press, television, and radio versus the grape vine. Especially do rumors spread when war requires censorship on many important matters. The customary news sources no longer give out enough information. Since the people cannot learn through legitimate channels all that they are anxious to learn, they pick up 'news' whenever they can and when this happens, rumor thrives. Rumors are often repeated even by those who do not believe the tales. There is a fascination about them. The reason is that the cleverly designed rumor gives expression to something deep in the hearts o the victims-the fears, suspicions, forbidden hopes, or daydreams which they hesitate to voice directly. Pessimistic rumors about defeat and disasters show that the people who repeat them are worried and anxious. Optimistic rumors about record production or peace soon coming paint to complacency or confidence-and often to overconfidence.\nThe author is mainly concerned with —",
+    "options": [
+      "rumor as primitive man's newspaper",
+      "the fascination of rumors",
+      "the nature of rumor",
+      "the breeding places of rumors"
+    ],
+    "answer": "the nature of rumor"
+  },
+  {
+    "id": 18,
+    "question": "The author suggests that rumors usually—",
+    "options": [
+      "are hardy in their growth",
+      "are disheartening",
+      "can be suppressed by censorship",
+      "alarm their hearers"
+    ],
+    "answer": "are hardy in their growth"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following best describes the authors personal attitude toward rumor?",
+    "options": [
+      "Philosophical interest",
+      "Excited enthusiasm",
+      "Morbid curiosity",
+      "Acute indignation"
+    ],
+    "answer": "Acute indignation"
+  },
+  {
+    "id": 20,
+    "question": "The author states that during wartime the regular sources of news present only-",
+    "options": [
+      "optimistic reports",
+      "pessimistic reports",
+      "limited information",
+      "government propaganda"
+    ],
+    "answer": "limited information"
+  }
+]

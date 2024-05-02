@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "question": "Each question below consists of a related pair of words; select the pair that best expresses a relationship similar to that expressed in the original pair. SUBMISSION : YIELDING",
+    "options": [
+      "Subjection : Liberation",
+      "Restrain : Indulge",
+      "Restriction : Relaxation",
+      "Complaint : Acquiescent"
+    ],
+    "answer": "Complaint : Acquiescent"
+  },
+  {
+    "id": 2,
+    "question": "Vacillate : Hesitate",
+    "options": [
+      "Persevere : Waiver",
+      "Impulsive : Deliberate",
+      "Irresolute : Indecisive",
+      "Obstinate : Accommodating"
+    ],
+    "answer": "Irresolute : Indecisive"
+  },
+  {
+    "id": 3,
+    "question": "Assert : Dissent",
+    "options": [
+      "Endorse : Ratify",
+      "Reject : Disapprove",
+      "Affirm : Object",
+      "Acknowledge : Recognize"
+    ],
+    "answer": "Affirm : Object"
+  },
+  {
+    "id": 4,
+    "question": "Distort : Twist",
+    "options": [
+      "Deform : Reform",
+      "Harmonize : Balance",
+      "Observe : Blur",
+      "Straighten : Bend"
+    ],
+    "answer": "Harmonize : Balance"
+  },
+  {
+    "id": 5,
+    "question": "‘Government has been entrusted ___ Elected politicians’",
+    "options": ["at", "with", "for", "to"],
+    "answer": "to"
+  },
+  {
+    "id": 6,
+    "question": "He has paid the penalty __ his crimes __ five years in prision.",
+    "options": ["at- by", "for- with", "about- at", "after- in"],
+    "answer": "for- with"
+  },
+  {
+    "id": 7,
+    "question": "The path __ paved, so we were able to walk through the path.",
+    "options": ["being", "was", "had been", "has been"],
+    "answer": "was"
+  },
+  {
+    "id": 8,
+    "question": "In spite of my requests, he did not ___",
+    "options": ["get off", "in", "give in", "give forth"],
+    "answer": "give in"
+  },
+  {
+    "id": 9,
+    "question": "The children studied in a class room ___ windows were never opened.",
+    "options": ["whose", "where", "which", "that"],
+    "answer": "whose"
+  },
+  {
+    "id": 10,
+    "question": "Fill in the gaps by choosing one word from the choices given. 'To stay healthy, we must plan to have a balanced___'.",
+    "options": ["figure", "outlook", "diet", "food"],
+    "answer": "diet"
+  },
+  {
+    "id": 11,
+    "question": "We must keep our fingers ___ that the weather will stay fine for the picnic tomorrow.",
+    "options": ["lifted", "raised", "pointed", "crossed"],
+    "answer": "crossed"
+  },
+  {
+    "id": 12,
+    "question": "They have ___ their support for our case.",
+    "options": ["provided", "disavowed", "pledged", "deferred"],
+    "answer": "pledged"
+  },
+  {
+    "id": 13,
+    "question": "Choose the correct meaning of the following words : Cul-de-sac",
+    "options": ["bubble", "error", "selection", "dead end"],
+    "answer": "dead end"
+  },
+  {
+    "id": 14,
+    "question": "'Parcel' indicates---",
+    "options": ["Quarrel", "Unobstructed view", "Piece of land", "Postage"],
+    "answer": "Piece of land"
+  },
+  {
+    "id": 15,
+    "question": "'Ruminant' indicates--",
+    "options": ["Soup", "Cud-chewing animal", "Noise-maker", "Gossip"],
+    "answer": "Cud-chewing animal"
+  },
+  {
+    "id": 16,
+    "question": "Find out the correct answer.",
+    "options": [
+      "Telescopes and data bases have nothing in common for the astronomer",
+      "Telescopes and data bases are both becoming relevant for the astronomer",
+      "Telescopes and data bases complement each other for the astronomer",
+      "Telescopes and Data bases can be confusing to the astronomer"
+    ],
+    "answer": "Telescopes and data bases complement each other for the astronomer"
+  },
+  {
+    "id": 17,
+    "question": "\"\"\"Data bases sit on computer disks, humming away\" implies\"",
+    "options": [
+      "Data baes are unless and static",
+      "\"\"\"Data bases sit on computer disks, humming away\" implies\"",
+      "Data baes are things of the past",
+      "Data baes are singing instrument"
+    ],
+    "answer": "\"\"\"Data bases sit on computer disks, humming away\" implies\""
+  },
+  {
+    "id": 18,
+    "question": "\"Modern data base 'Produce reams of observational data\"",
+    "options": [
+      "Data basses are of limited use in storing information",
+      "Data bases create information instantly",
+      "Data bases produce lot of information",
+      "Data bases are packed with paper"
+    ],
+    "answer": "Data bases produce lot of information"
+  },
+  {
+    "id": 19,
+    "question": "The contemporary astronomer needs to look at the sky from a mountain top",
+    "options": [
+      "contemporary astronomer needs a telescope equipped with digital sensors to explore the universe",
+      "contemporary astronomer needs a telescope equipped with digital sensors to explore the universe",
+      "The contemporary astronomer needs a telescope to explore the universe",
+      "None of those"
+    ],
+    "answer": "contemporary astronomer needs a telescope equipped with digital sensors to explore the universe"
+  },
+  {
+    "id": 20,
+    "question": "A good title for the passage will be —",
+    "options": [
+      "Telescope and exploration of the universe",
+      "Space exploration in the new millennium",
+      "Astronomers and exploration of the universe",
+      "Digital telescope and exploration of the universe"
+    ],
+    "answer": "Digital telescope and exploration of the universe"
+  }
+]

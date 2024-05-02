@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "question": "Eager : Indifferent",
+    "options": [
+      "enthusiastic : halfhearted",
+      "anxious : nervous",
+      "concerned : careful",
+      "devoted : dedicated"
+    ],
+    "answer": "enthusiastic : halfhearted"
+  },
+  {
+    "id": 2,
+    "question": "Lengthen : Prolong",
+    "options": [
+      "distance : reduce",
+      "stretch : extend",
+      "draw out : shorten",
+      "reach out : cut short"
+    ],
+    "answer": "stretch : extend"
+  },
+  {
+    "id": 3,
+    "question": "Delay : Retard",
+    "options": [
+      "adjourn : start",
+      "postpone : promote",
+      "slow down : hold up",
+      "defer : accelerate"
+    ],
+    "answer": "slow down : hold up"
+  },
+  {
+    "id": 4,
+    "question": "Submissive : Disobedient",
+    "options": [
+      "observe : defy",
+      "obey : hearten to",
+      "heed : acquiesce",
+      "comply : conform"
+    ],
+    "answer": "observe : defy"
+  },
+  {
+    "id": 5,
+    "question": "He fantasized ‒ winning the lottery",
+    "options": ["with", "about", "from", "after"],
+    "answer": "about"
+  },
+  {
+    "id": 6,
+    "question": "The Parthenon is said _ erected in the Age of Pericles.",
+    "options": [
+      "to have been",
+      "to have had begun",
+      "to have begun",
+      "to have become"
+    ],
+    "answer": "to have been"
+  },
+  {
+    "id": 7,
+    "question": "He divided the money - the two children .",
+    "options": ["among", "between", "in between", "over"],
+    "answer": "between"
+  },
+  {
+    "id": 8,
+    "question": "As they waited, Rahim argued against war ‒",
+    "options": [
+      "while his brother discusses the effects of pollution",
+      "while his brother discussed the effects of pollution",
+      "while his brother had discussed the effects of pollution",
+      "while his brother was discussing the effects of pollution"
+    ],
+    "answer": "while his brother was discussing the effects of pollution"
+  },
+  {
+    "id": 9,
+    "question": "If we want concrete proof, we are looking for - .",
+    "options": [
+      "something to cover a path",
+      "clear evidence",
+      "a cement mixer",
+      "building material"
+    ],
+    "answer": "clear evidence"
+  },
+  {
+    "id": 10,
+    "question": "The Olympic games were watched by ‒ billions of people all over the world.",
+    "options": ["usually", "exactly", "truly", "literally"],
+    "answer": "usually"
+  },
+  {
+    "id": 11,
+    "question": "The author thinks that true learning will lead to—",
+    "options": [
+      "personal understanding of the ideas of writers",
+      "discovery of unknown world",
+      "better expressive powers",
+      "revelation of the mysteries of the world"
+    ],
+    "answer": "better expressive powers"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following best describes the author's attitude towards learning?",
+    "options": [
+      "learning is not a matter of reading extensively",
+      "learning is a matter of promoting creativity in students",
+      "learning is not something to be demonstrated in examinations",
+      "learning is a matter of memorization"
+    ],
+    "answer": "learning is a matter of promoting creativity in students"
+  },
+  {
+    "id": 13,
+    "question": "Read the following passage and answer the question no 33 to 36.\nThe gypsies are a tribe of strange people. They do not have any fixed home, but wander about from place to place and live in tents. They were originally natives of India. But as they reached England from Egypt, the English took them for Egyptians. This is why they came to be called gypsies. They were believed to possess strange powers. They could tell your fortune by reading the palm of your hand. It was thought they stole little children to train them in their way of life. Whenever a child got lost, it was thought that it had been carried away by gypsies. So they were arrested and sent for trial. But this attitude towards the gypsies has gradually changed.\nThe gypsies are people who—",
+    "options": [
+      "are always on the move",
+      "came originally from Egypt to England",
+      "steal children to train them in their way of life.",
+      "have a settled way of life"
+    ],
+    "answer": "are always on the move"
+  },
+  {
+    "id": 14,
+    "question": "The gypsies like to live in tents because-",
+    "options": [
+      "it is easy to hide stolen children in a tent",
+      "it is easy to read one's palm inside a tent",
+      "it is easy to bring them from Egypt",
+      "it is easy to pitch them"
+    ],
+    "answer": "it is easy to pitch them"
+  },
+  {
+    "id": 15,
+    "question": "The English took them for Egyptians' means—",
+    "options": [
+      "The English took them to the Egyptians",
+      "the English considered them to be Egyptians",
+      "The English were taken in by the Egyptians",
+      "The English brought them as far as to Egypt"
+    ],
+    "answer": "the English considered them to be Egyptians"
+  },
+  {
+    "id": 16,
+    "question": "Attitude towards the gypsies—",
+    "options": [
+      "have not much changed over the years",
+      "can change once they stop stealing children",
+      "have shown signs of change",
+      "are still the same as before"
+    ],
+    "answer": "have shown signs of change"
+  },
+  {
+    "id": 17,
+    "question": "The tree has been blown ‒ by the strong wind.",
+    "options": ["up", "off", "away", "out"],
+    "answer": "off"
+  },
+  {
+    "id": 18,
+    "question": "No one can _ that he is clever.",
+    "options": ["discard", "denounce", "deny", "defy"],
+    "answer": "deny"
+  },
+  {
+    "id": 19,
+    "question": "A reward has been announced for the employees who ‒ hard.",
+    "options": ["have had worked", "will be work", "has worked", "have worked"],
+    "answer": "have worked"
+  },
+  {
+    "id": 20,
+    "question": "To ‒ the arrival of spring, Bangladesh Television ‒ a special function.",
+    "options": [
+      "commemorate : launched",
+      "announce : telecast",
+      "celebrate : organized",
+      "welcome : sanctioned"
+    ],
+    "answer": "celebrate : organized"
+  }
+]

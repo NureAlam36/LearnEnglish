@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "question": "Dhaka is becoming one of the _ cities in Asia.",
+    "options": ["more busy", "busy", "busiest", "most busiest"],
+    "answer": "busiest"
+  },
+  {
+    "id": 2,
+    "question": "He had written the book before he ---.",
+    "options": ["will be retired", "has retired", "had retired", "retired"],
+    "answer": "retired"
+  },
+  {
+    "id": 3,
+    "question": "Rizvi requested Rini _ telephone to attend the meeting.",
+    "options": ["to ages", "from ages", "for ages", "since ages"],
+    "answer": "from ages"
+  },
+  {
+    "id": 4,
+    "question": "The word 'precedence' means-",
+    "options": ["example", "elderly", "case", "priority"],
+    "answer": "priority"
+  },
+  {
+    "id": 5,
+    "question": "The price of rice are _.",
+    "options": ["risen", "Raising", "rising", "raised"],
+    "answer": "Raising"
+  },
+  {
+    "id": 6,
+    "question": "To get along with means-----",
+    "options": ["to accompany", "to adjust", "to interest", "to walk"],
+    "answer": "to adjust"
+  },
+  {
+    "id": 7,
+    "question": "\"\"\"If winter comes, can spring be far behind?\"\" These lines were written by _.\"",
+    "options": ["Shelley", "Eliot", "Forst", "Keats"],
+    "answer": "Shelley"
+  },
+  {
+    "id": 8,
+    "question": "The verb of the word 'short' is _.",
+    "options": ["shorten", "Enshort", "shorted", "shorting"],
+    "answer": "shorten"
+  },
+  {
+    "id": 9,
+    "question": "'Light' is to 'dark' as 'cold' is to _.",
+    "options": ["cool", "winter", "heat", "Hot"],
+    "answer": "Hot"
+  },
+  {
+    "id": 10,
+    "question": "Many prefer donating money ..... distributing clothes.",
+    "options": ["but", "to", "Than", "without"],
+    "answer": "to"
+  },
+  {
+    "id": 11,
+    "question": "Julia has been ill _three months.",
+    "options": ["about", "in", "for", "Since"],
+    "answer": "for"
+  },
+  {
+    "id": 12,
+    "question": "We were waiting for the bus. The underlined part is.",
+    "options": [
+      "a verb phrase",
+      "a prepositional phrase",
+      "an infinitive",
+      "a noun phrase"
+    ],
+    "answer": "a noun phrase"
+  },
+  {
+    "id": 13,
+    "question": "The word 'disinterested' means",
+    "options": ["lack of interest", "indifferent", "callous", "neutral"],
+    "answer": "neutral"
+  },
+  {
+    "id": 14,
+    "question": "Who did write first English dictionary ?",
+    "options": ["Samuel Johnson", "Ben Jonson", "Boswell", "Milton"],
+    "answer": "Samuel Johnson"
+  },
+  {
+    "id": 15,
+    "question": "New programs will be _ next week in Bangladesh Television.",
+    "options": ["published", "telecasted", "Telecast", "broadcasted"],
+    "answer": "Telecast"
+  },
+  {
+    "id": 16,
+    "question": "The word 'electorate' means :",
+    "options": [
+      "election office",
+      "a body of voter",
+      "many elections",
+      "candidates"
+    ],
+    "answer": "a body of voter"
+  },
+  {
+    "id": 17,
+    "question": "'Animal Farm' was written by-",
+    "options": ["George Orwel", "Stevenson", "Swift", "Mark Twain"],
+    "answer": "George Orwel"
+  },
+  {
+    "id": 18,
+    "question": "There is no alternative _training.",
+    "options": ["than", "of", "for", "To"],
+    "answer": "of"
+  },
+  {
+    "id": 19,
+    "question": "Which sentence is correct ?",
+    "options": [
+      "This is a unique case",
+      "This is an unique case",
+      "This is a very unique case",
+      "This is the most unique case"
+    ],
+    "answer": "This is a unique case"
+  },
+  {
+    "id": 20,
+    "question": "I cannot _to pay such high prices.",
+    "options": ["afford", "try", "but", "Able"],
+    "answer": "afford"
+  }
+]

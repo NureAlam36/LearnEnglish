@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "question": "The speaker failed to make the audience to __ him patiently. -Which of the following is the correct verb form in the blank above?",
+    "options": ["Listen", "Listened", "Listening", "To listen"],
+    "answer": "Listen"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following ages in literary history is the latest?",
+    "options": [
+      "The Victorian Age",
+      "The Augustan Age",
+      "The Restoration Age",
+      "The Georgian Age"
+    ],
+    "answer": "The Georgian Age"
+  },
+  {
+    "id": 3,
+    "question": "Wisdom শব্দের বাংলা অর্থ কি?",
+    "options": ["মেধা", "প্রজ্ঞা", "বুদ্ধি", "জ্ঞান"],
+    "answer": "প্রজ্ঞা"
+  },
+  {
+    "id": 4,
+    "question": "The first English Dictionary was compiled by ?",
+    "options": [
+      "Sir Thomas Browne",
+      "Izaak Walton",
+      "Samuel Butler",
+      "Samuel Johnson"
+    ],
+    "answer": "Samuel Johnson"
+  },
+  {
+    "id": 5,
+    "question": "My uncle has three sons,-------- work in the same office",
+    "options": ["They all", "All of whom", "Who all", "All of them"],
+    "answer": "All of whom"
+  },
+  {
+    "id": 6,
+    "question": "People always remember patriots. -Which of the following is the best passive form of the above sentence?",
+    "options": [
+      "The patriots will always be remembered by people",
+      "The patriots are always being remembered",
+      "People are always remembered by the patriots",
+      "The patriots are always remembered"
+    ],
+    "answer": "The patriots are always remembered"
+  },
+  {
+    "id": 7,
+    "question": "What is the meaning of the word ''Intrepid'?",
+    "options": ["Arrogant", "Belligerent", "Fearless", "Questioning"],
+    "answer": "Fearless"
+  },
+  {
+    "id": 8,
+    "question": "What is the meaning of the expression ''bottom line''?",
+    "options": [
+      "The final step",
+      "The essential point",
+      "The last line of a book",
+      "The end of a road"
+    ],
+    "answer": "The essential point"
+  },
+  {
+    "id": 9,
+    "question": "The word ‘plurality’ means-",
+    "options": [
+      "The letter s",
+      "Men and women",
+      "The holding of more than one office at a time",
+      "Chaos and confusion"
+    ],
+    "answer": "The holding of more than one office at a time"
+  },
+  {
+    "id": 10,
+    "question": "Paediatric related to the treatment of ?",
+    "options": ["Children", "Adults", "Old people", "Women"],
+    "answer": "Children"
+  },
+  {
+    "id": 11,
+    "question": "‘Bootleg’ means to-",
+    "options": ["Smuggle", "Import", "Export", "Distribute"],
+    "answer": "Smuggle"
+  },
+  {
+    "id": 12,
+    "question": "Are you doing anything special- the weekend fill in the gaps with the appropriate preposition.",
+    "options": ["At", "On", "For", "In"],
+    "answer": "At"
+  },
+  {
+    "id": 13,
+    "question": "WHICH OF THE FOLLOWING IS A CORRECT SENTENCE?",
+    "options": [
+      "HE WAS TOO CLEVER TO MISS THE POINT",
+      "HE WAS TOO CLEVER TO GRASP THE POINT",
+      "HE WAS SO CLEVER TO MISS THE POINT",
+      "HE WAS TOO CLEVER NOT TO MISS THE POINT"
+    ],
+    "answer": "HE WAS TOO CLEVER TO MISS THE POINT"
+  },
+  {
+    "id": 14,
+    "question": "THE POET LAUREATE IS-",
+    "options": [
+      "THE BEST POET OF THE COUNTRY",
+      "THE COURT PORT OF ENGLAND",
+      "A WINNER OF THE NOBEL PRIZE IN POETRY",
+      "A CLASSICAL POET"
+    ],
+    "answer": "THE BEST POET OF THE COUNTRY"
+  },
+  {
+    "id": 15,
+    "question": "WHICH OF THE FOLLOWING SCHOOL OF LITERARY WRITINGS IS CONNECTED WITH A MEDICAL THEORY?",
+    "options": [
+      "THEATER OF THE ABSURD",
+      "COMEDY OF HUMOURS",
+      "HEROIC TRAGEDY",
+      "COMEDY OF MANNERS"
+    ],
+    "answer": "COMEDY OF HUMOURS"
+  },
+  {
+    "id": 16,
+    "question": "WHO OF THE FOLLOWING WAS BOTH A POET AND PAINTER?",
+    "options": ["DONNE", "KEATS", "BLAKE", "SPENCER"],
+    "answer": "BLAKE"
+  },
+  {
+    "id": 17,
+    "question": "What is the synonym of INCREDIBLE?",
+    "options": ["UNTHINKABLE", "UNBELIEVABLE", "UNTHINKING", "UNLIKELY"],
+    "answer": "UNBELIEVABLE"
+  },
+  {
+    "id": 18,
+    "question": "What is the antonym of FAMOUS?",
+    "options": ["OBSCURE", "ILLITERATE", "OPAQUE", "IMMATURE"],
+    "answer": "OBSCURE"
+  },
+  {
+    "id": 19,
+    "question": "PLEBISCITE IS A TERM RELATED TO-",
+    "options": ["MEDICINE", "TECHNOLOGY", "LAW", "POLITICS"],
+    "answer": "POLITICS"
+  },
+  {
+    "id": 20,
+    "question": "WHO WROTE BEAUTY IS TRUTH, TRUTH IS BEAUTY?",
+    "options": ["SHAKESPEARE", "WORDSWORTH", "KEATS", "ELIOT"],
+    "answer": "KEATS"
+  },
+  {
+    "id": 21,
+    "question": "MANY ISLANDS MAKE UP-",
+    "options": ["AN ISLES", "AN ARCHIPELAGO", "A PENINSULA", "A CONTINENT"],
+    "answer": "AN ARCHIPELAGO"
+  }
+]

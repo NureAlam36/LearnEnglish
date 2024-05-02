@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "I have not heard from him__",
+    "options": ["for long", "since long", "for a long time", "long since"],
+    "answer": "for long"
+  },
+  {
+    "id": 2,
+    "question": "Honey is__sweet.",
+    "options": ["too much", "Very", "much too", "excessive"],
+    "answer": "Very"
+  },
+  {
+    "id": 3,
+    "question": "Your conduct admits __ no excuse.",
+    "options": ["of", "for", "To", "at"],
+    "answer": "of"
+  },
+  {
+    "id": 4,
+    "question": "He had a __ headache.",
+    "options": ["acute", "serious", "bad", "strong"],
+    "answer": "bad"
+  },
+  {
+    "id": 5,
+    "question": "I shall not __ the examination this year",
+    "options": ["go for", "sit", "Give", "appear at"],
+    "answer": "appear at"
+  },
+  {
+    "id": 6,
+    "question": "They travelled to Savar__",
+    "options": ["by walking", "on foot", "on their feet", "by foot"],
+    "answer": "on foot"
+  },
+  {
+    "id": 7,
+    "question": "He said that he __ be unable to come.",
+    "options": ["will", "shall", "should", "would"],
+    "answer": "would"
+  },
+  {
+    "id": 8,
+    "question": "Naither Rini nor Simi __ qualified for the job.",
+    "options": ["is", "Are", "were", "had"],
+    "answer": "is"
+  },
+  {
+    "id": 9,
+    "question": "He said that he __ the previous day.",
+    "options": ["has come", "came", "had come", "arrived"],
+    "answer": "had come"
+  },
+  {
+    "id": 10,
+    "question": "He watched the boat __ down the river.",
+    "options": ["had floated", "was floating", "to float", "floating"],
+    "answer": "floating"
+  },
+  {
+    "id": 11,
+    "question": "'Sky' is to 'bird as water is to-'",
+    "options": ["feather", "fish", "boat", "lotus"],
+    "answer": "fish"
+  },
+  {
+    "id": 12,
+    "question": "'Good' is to 'bad' as 'white' is to__",
+    "options": ["Dark", "grey", "black", "ebony"],
+    "answer": "black"
+  },
+  {
+    "id": 13,
+    "question": "'Botany' is to 'plants' as 'Zoology' is to-.",
+    "options": ["dear", "animals", "trees", "Flowers"],
+    "answer": "animals"
+  },
+  {
+    "id": 14,
+    "question": "The bad news struck him like a bolt from the----",
+    "options": ["blue", "firmament", "heavens", "sky"],
+    "answer": "blue"
+  },
+  {
+    "id": 15,
+    "question": "When one is 'pragmatic' he is being-",
+    "options": ["fussy", "Wasteful", "productive", "practical"],
+    "answer": "practical"
+  },
+  {
+    "id": 16,
+    "question": "\"\"\"Into the __ of death rode the six hundred.\"",
+    "options": ["City", "tunnel", "valley", "road"],
+    "answer": "valley"
+  },
+  {
+    "id": 17,
+    "question": "\"\"\"To be or not to be, that is the__\"\".\"",
+    "options": ["question", "answer", "Meaning", "isssue"],
+    "answer": "question"
+  },
+  {
+    "id": 18,
+    "question": "\"\"\"I have a __ that one day this nation will live out the true meaning of its creed that all men are created equal\"\"\"",
+    "options": ["dream", "hope", "Desire", "wish"],
+    "answer": "dream"
+  },
+  {
+    "id": 19,
+    "question": "Who wrote the two famous novels , 'David Copperfiled' and 'The Tale Of Tow Cities'",
+    "options": [
+      "George Eliot",
+      "Charles Dickens",
+      "Janne Austen",
+      "Thomas Hardy"
+    ],
+    "answer": "Charles Dickens"
+  },
+  {
+    "id": 20,
+    "question": "Who wrote the plays , 'The Tempest' and 'The Mid Summer Night's Dream'?",
+    "options": [
+      "William Shakespeare",
+      "John Dryden",
+      "Christopher",
+      "Ben Johnson"
+    ],
+    "answer": "William Shakespeare"
+  }
+]

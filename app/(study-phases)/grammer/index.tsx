@@ -33,21 +33,26 @@ const DATA = [
     },
     {
         id: 5,
+        title: "Sentence",
+        link: "sentence",
+    },
+    {
+        id: 6,
         title: "Number",
         link: "number",
     },
     {
-        id: 6,
+        id: 7,
         title: "Word",
         link: "word",
     },
     {
-        id: 7,
+        id: 8,
         title: "Modifiers",
         link: "modifiers",
     },
     {
-        id: 8,
+        id: 9,
         title: "Narration",
         link: "narration",
     },

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Choose the correct sentence",
+    "options": [
+      "Everybody have gone there",
+      "Everybody are gone there",
+      "Everybody has gone there",
+      "Everybody has went there"
+    ],
+    "answer": "Everybody has gone there"
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct sentence",
+    "options": [
+      "The train is running in time",
+      "The train is running on time",
+      "The train is running with time",
+      "The train is running to time"
+    ],
+    "answer": "The train is running on time"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct preposition. My brother has no interest __ music.",
+    "options": ["for", "in", "with", "at"],
+    "answer": "in"
+  },
+  {
+    "id": 4,
+    "question": "Fill in the blank with right option. I am looking forward __ you.",
+    "options": ["to seeing", "seeing", "to see", "to have seen"],
+    "answer": "to seeing"
+  },
+  {
+    "id": 5,
+    "question": "Choose the correct form (passive) of – “Who will do the work?”",
+    "options": [
+      "Who will be done the work?",
+      "Who will done the work?",
+      "By whom will the work be done",
+      "Whom will the work be done?"
+    ],
+    "answer": "By whom will the work be done"
+  },
+  {
+    "id": 6,
+    "question": "Choose the correct sentence",
+    "options": [
+      "I have looked for a good doctor before I met you",
+      "I had looked for a good doctor before I met you",
+      "I looked for a good doctor before I had met you",
+      "I am looking for a good doctor before meeting you"
+    ],
+    "answer": "I had looked for a good doctor before I met you"
+  },
+  {
+    "id": 7,
+    "question": "Fill in the blank with correct preposition. He is devoid __ commonsense.",
+    "options": ["of", "from", "introduction", "at"],
+    "answer": "of"
+  },
+  {
+    "id": 8,
+    "question": "Select the right word. He ran fast lest he __ miss the train.",
+    "options": ["can", "should", "could", "has"],
+    "answer": "should"
+  },
+  {
+    "id": 9,
+    "question": "The Arabian Nights __ still a great favorite.",
+    "options": ["has", "are", "is", "were"],
+    "answer": "is"
+  },
+  {
+    "id": 10,
+    "question": "Choose the correct preposition. The police is looking __ the case.",
+    "options": ["after", "on", "up", "into"],
+    "answer": "into"
+  },
+  {
+    "id": 11,
+    "question": "Choose the correct spelling.",
+    "options": ["ascertain", "assertain", "asertain", "asartain"],
+    "answer": "ascertain"
+  },
+  {
+    "id": 12,
+    "question": "Select the correct sentence.",
+    "options": [
+      "The man was tall who stole my bag",
+      "The man stole my bag who was tall",
+      "The man who stole my bag was tall",
+      "The man was tall who is stealing tall my bag."
+    ],
+    "answer": "The man who stole my bag was tall"
+  },
+  {
+    "id": 13,
+    "question": "Complete the sentence with the correct verb form: ‘Neela __ her hand when she was cooking dinner.",
+    "options": ["is burning", "burnt", "will burn", "was burning"],
+    "answer": "burnt"
+  },
+  {
+    "id": 14,
+    "question": "Choose the correct preposition. The tree has been blown __ by the storm.",
+    "options": ["away", "up", "off", "out"],
+    "answer": "away"
+  },
+  {
+    "id": 15,
+    "question": "Identify the correct passive form of ‘He is going to open a shop’.",
+    "options": [
+      "He is being gone to open a shop",
+      "A shop is being gone opened by him",
+      "A shop will be opened by him",
+      "A shop is going to be opened by him"
+    ],
+    "answer": "A shop is going to be opened by him"
+  },
+  {
+    "id": 16,
+    "question": "Identify the correct synonym for the word ‘Magnanimous’.",
+    "options": ["generous", "unkind", "revengeful", "friendly"],
+    "answer": "generous"
+  },
+  {
+    "id": 17,
+    "question": "Fill in the blank with the correct phrase: ‘__ your shoes before entering the mosque’.",
+    "options": ["put out", "put off", "put away", "put on"],
+    "answer": "put off"
+  },
+  {
+    "id": 18,
+    "question": "Fill in the blank with the correct phrase: ‘He __ arrested if he had tried to leave the country.",
+    "options": ["would", "could be", "would have been", "must be"],
+    "answer": "would have been"
+  },
+  {
+    "id": 19,
+    "question": "Choose the right word to fill the blank: ‘Two of the children have to sleep in one bed, but the other three have __ ones’.",
+    "options": ["different", "separate", "complete", "lonely"],
+    "answer": "separate"
+  },
+  {
+    "id": 20,
+    "question": "Choose the right word to fill the blank: “The Democratic party’s candidate __ defeat in the small hours of the morning”.",
+    "options": ["consented", "agreed", "accepted", "granted"],
+    "answer": "accepted"
+  },
+  {
+    "id": 21,
+    "question": "Choose the right word to fill the blank : The proper function of the press is surely to - the man in the street with facts.",
+    "options": ["deliver", "equip", "proffer", "provide"],
+    "answer": "provide"
+  },
+  {
+    "id": 22,
+    "question": "Choose the right word to fill the blank : Since his retirement, Mr. Chowdhury, who was a teacher, has written four novels",
+    "options": ["Already", "Formerly", "Presently", "Usually"],
+    "answer": "Formerly"
+  },
+  {
+    "id": 23,
+    "question": "Choose the right word to fill the blank : I should appreciate it if you could complete  this work - Thursday.",
+    "options": ["till", "untill", "up to", "by"],
+    "answer": "by"
+  },
+  {
+    "id": 24,
+    "question": "Choose the right word to fill the blank : It will be your task to make sure the __ of traffic is maintained without interruption.",
+    "options": ["circulation", "flow", "current", "procession"],
+    "answer": "flow"
+  },
+  {
+    "id": 25,
+    "question": "‘Paediatric’ relates to the treatment of:",
+    "options": ["Adults", "Children", "Women", "Old people"],
+    "answer": "Children"
+  },
+  {
+    "id": 26,
+    "question": "The word 'Ecological' is related to-",
+    "options": ["Atmosphere", "Pollution", "Environment", "Demography"],
+    "answer": "Environment"
+  },
+  {
+    "id": 27,
+    "question": "The correct spelling is-",
+    "options": ["Humorous", "Humourious", "Humourous", "Humorious"],
+    "answer": "Humorous"
+  },
+  {
+    "id": 28,
+    "question": "A pilgrim is a person who undertakes a journey to a -",
+    "options": ["a new country", "a bazar", "a mosque", "holy place"],
+    "answer": "holy place"
+  },
+  {
+    "id": 29,
+    "question": "A person who write about his own life writers-.",
+    "options": ["an autobiography", "a chronicle", "a diary", "a biography"],
+    "answer": "an autobiography"
+  },
+  {
+    "id": 40,
+    "question": "What is the meaning of 'White Elephant'?",
+    "options": [
+      "a hoarder",
+      "a very costly or troublesome possession",
+      "a black marketer",
+      "An elephant of white colour"
+    ],
+    "answer": "a very costly or troublesome possession"
+  },
+  {
+    "id": 41,
+    "question": "If we want concrete proof, we are looking for - .",
+    "options": [
+      "building material",
+      "something to cover a path",
+      "clear evidence",
+      "a cement mixer"
+    ],
+    "answer": "clear evidence"
+  },
+  {
+    "id": 42,
+    "question": "The light have been blown - by the strong wind.",
+    "options": ["off", "up", "away", "out"],
+    "answer": "out"
+  },
+  {
+    "id": 43,
+    "question": "As the sun - , I decided to go out.",
+    "options": ["has shone", "shine", "shines", "was shining"],
+    "answer": "was shining"
+  },
+  {
+    "id": 44,
+    "question": "Maiden speech means-",
+    "options": ["Late speech", "Early speech", "Final speech", "First speech"],
+    "answer": "First speech"
+  },
+  {
+    "id": 45,
+    "question": "'Out and out' means-",
+    "options": ["not at all", "brave", "thoroughly", "whole heated"],
+    "answer": "thoroughly"
+  },
+  {
+    "id": 46,
+    "question": "He divided the money - the two children .",
+    "options": ["between", "among", "in between", "over"],
+    "answer": "between"
+  },
+  {
+    "id": 47,
+    "question": "No one can - that he is clever.",
+    "options": ["defy", "deny", "denounce", "discard"],
+    "answer": "deny"
+  },
+  {
+    "id": 48,
+    "question": "Do not make a noise while your father -",
+    "options": ["has slept", "is sleeping", "asleep", "is being asleep"],
+    "answer": "is sleeping"
+  },
+  {
+    "id": 49,
+    "question": "He gave up - football when he got married.",
+    "options": ["of playing", "to play", "playing", "play"],
+    "answer": "playing"
+  },
+  {
+    "id": 40,
+    "question": "He has been ill - Friday last.",
+    "options": ["in", "since", "on", "from"],
+    "answer": "since"
+  }
+]

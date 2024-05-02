@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "question": "you should show good manners in the company of young ladies. which is the appropriate phrase for the bracket expression above?",
+    "options": [
+      "do not talk rudely",
+      "behave yourself",
+      "practise manners",
+      "behave gently"
+    ],
+    "answer": "behave gently"
+  },
+  {
+    "id": 2,
+    "question": "The invention of computer has turned over a new leaf in the history of modern technology, which of the following nearest in meaning to the italicized idiom above?",
+    "options": [
+      "created a new history",
+      "opened a new chapter",
+      "created a sensation",
+      "began a new civilization"
+    ],
+    "answer": "opened a new chapter"
+  },
+  {
+    "id": 3,
+    "question": "Trying unitedly we were able to have our project approved against strong oppositions.",
+    "options": [
+      "in the wake of",
+      "in the guise of",
+      "in the plea of",
+      "in the teeth of"
+    ],
+    "answer": "in the teeth of"
+  },
+  {
+    "id": 4,
+    "question": "Not many people can commit such a heinous crime in cold blood.",
+    "options": [
+      "stirred by sudden emotion",
+      "so impatiently and thoughtlessly",
+      "in cool brain and calculated thought",
+      "so patiently and thoughtfully"
+    ],
+    "answer": "in cool brain and calculated thought"
+  },
+  {
+    "id": 5,
+    "question": "The condition of most slum dwellers is so miserable that it can not be described in words.",
+    "options": [
+      "beggars description",
+      "cuts to the quick",
+      "boils down to this",
+      "keeps open house"
+    ],
+    "answer": "beggars description"
+  },
+  {
+    "id": 6,
+    "question": "A Speech Full Of Too Many Words Is-",
+    "options": [
+      "a big speech",
+      "a verbose speech",
+      "an unimportant speech",
+      "maiden speech"
+    ],
+    "answer": "a verbose speech"
+  },
+  {
+    "id": 7,
+    "question": "To meet trouble halfway means-",
+    "options": [
+      "to bear up",
+      "to get nervous",
+      "to be puzzled",
+      "to be disappointed"
+    ],
+    "answer": "to be puzzled"
+  },
+  {
+    "id": 8,
+    "question": "Paradise Lost attempted to-",
+    "options": [
+      "justify the ways of god to men",
+      "justify the ways of man to god",
+      "show that the satan and god have equal power",
+      "explain why god and evil are necessary"
+    ],
+    "answer": "justify the ways of god to men"
+  },
+  {
+    "id": 9,
+    "question": "What is the meaning of the idiom ‘a round dozen’?",
+    "options": [
+      "a little less than a dozen",
+      "a full dozen",
+      "round about a dozen",
+      "a little more than a dozen"
+    ],
+    "answer": "a full dozen"
+  },
+  {
+    "id": 10,
+    "question": "What is the meaning of ‘soft soap’?",
+    "options": [
+      "to speak high to others",
+      "to speak ill of others",
+      "flatter for self motives",
+      "to recognize other good deeds"
+    ],
+    "answer": "flatter for self motives"
+  },
+  {
+    "id": 11,
+    "question": "People who assume that no can befall them are foolishly",
+    "options": ["Complacent", "Ardent", "Confident", "Apprehensive"],
+    "answer": "Complacent"
+  },
+  {
+    "id": 12,
+    "question": "One who unduly forwards in rendering services for others is not generally liked in society -which of the following word truly represents the character of the person mentioned above?",
+    "options": ["Bureaucratic", "Benevolent", "Official", "Officious"],
+    "answer": "Officious"
+  },
+  {
+    "id": 13,
+    "question": "What kind of man is quite the opposite type of supercilious?",
+    "options": ["Wicked", "Disdainful", "Affable", "Haughty"],
+    "answer": "Affable"
+  },
+  {
+    "id": 14,
+    "question": "How many eggs have your hens __ this month?",
+    "options": ["laid", "lain", "lay", "lied"],
+    "answer": "laid"
+  },
+  {
+    "id": 15,
+    "question": "The walls of our house have been painted ---green. -Which is the correct preposition in the blank above?",
+    "options": ["By", "In", "With", "No preposition"],
+    "answer": "No preposition"
+  },
+  {
+    "id": 16,
+    "question": "Can you tell me where ___? which of the following of the best clause in the above sentence?",
+    "options": [
+      "Mr. Ali lives",
+      "lives Mr. Ali",
+      "Mr. Ali does live",
+      "does Mr. Ali live"
+    ],
+    "answer": "Mr. Ali lives"
+  },
+  {
+    "id": 17,
+    "question": "What is the full name of the great American short story writer O'Henry?",
+    "options": [
+      "Walt Whitman",
+      "Mark Twain",
+      "William Sydney Porter",
+      "None of the above"
+    ],
+    "answer": "William Sydney Porter"
+  },
+  {
+    "id": 18,
+    "question": "Nowadays many villages are lit ---electricity - Which of the following is the correct preposition in the above blank?",
+    "options": ["By", "With", "From", "On"],
+    "answer": "With"
+  },
+  {
+    "id": 19,
+    "question": "The second-anniversary celebration of our college will be held of December 15. -Which of the following is the correct phrase for will be held above?",
+    "options": [
+      "Will bring about",
+      "Takes off",
+      "Comes off",
+      "Will come round"
+    ],
+    "answer": "Comes off"
+  },
+  {
+    "id": 20,
+    "question": "Dog days means-",
+    "options": [
+      "Hot weather",
+      "A period of misfortune",
+      "A period of having youthful flings",
+      "A period of being carefree"
+    ],
+    "answer": "Hot weather"
+  }
+]
