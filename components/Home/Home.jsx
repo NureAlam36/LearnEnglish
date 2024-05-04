@@ -13,10 +13,22 @@ import DailyUpdates from "./DailyUpdates/DailyUpdates";
 import JobSolution from "./JobSolution/JobSolution";
 import StudyPhases from "./StudyPhases/StudyPhases";
 import Tools from "./Tools/Tools";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+import { COLORS } from "@/constants";
 
 const Home = () => {
+  const { colorScheme } = useColorSchemeContext();
+
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView
+      style={[
+        styles.container,
+        {
+          backgroundColor:
+            colorScheme === "light" ? "#f2f2f2" : COLORS.darkPrimary,
+        },
+      ]}
+    >
       <FlatList
         data={["daily", "job-solution", "study", "tools"]}
         renderItem={({ item }) => {
@@ -45,7 +57,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     paddingHorizontal: 10,
-    backgroundColor: "#f2f2f2",
   },
   item: {
     backgroundColor: "#f9c2ff",

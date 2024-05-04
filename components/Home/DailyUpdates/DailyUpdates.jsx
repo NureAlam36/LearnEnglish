@@ -8,18 +8,20 @@ import {
   StyleSheet,
 } from "react-native";
 import { FONT, COLORS } from "../../../constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Daily Test",
-    image: "https://cdn-icons-png.flaticon.com/512/3068/3068553.png",
+    image:
+      "https://cdn4.iconfinder.com/data/icons/popicon-bluetone-education/256/14-512.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "PDF Library",
     image:
-      "https://icons.veryicon.com/png/o/file-type/file-type-1/pdf-icon.png",
+      "https://w7.pngwing.com/pngs/616/366/png-transparent-book-design-creativity-creative-design-three-books-blue-angle-text-thumbnail.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
@@ -28,21 +30,45 @@ const DATA = [
   },
 ];
 
-const Item = ({ item }) => (
-  <TouchableOpacity style={styles.item} activeOpacity={0.7}>
-    <View style={styles.imageContainer}>
-      <Image source={{ uri: item.image }} style={{ width: 45, height: 45 }} />
-    </View>
-    <Text style={styles.title}>{item.title}</Text>
-  </TouchableOpacity>
-);
-
 const DailyUpdates = () => {
+  const { colorScheme } = useColorSchemeContext();
+
   return (
     <View style={styles.sectionContainer}>
       <FlatList
         data={DATA}
-        renderItem={({ item }) => <Item item={item} />}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={[
+              styles.item,
+              {
+                backgroundColor:
+                  colorScheme === "light" ? "#fff" : COLORS.darkSecondary,
+              },
+            ]}
+            activeOpacity={0.7}
+          >
+            <View style={styles.imageContainer}>
+              <Image
+                source={{ uri: item.image }}
+                style={{ width: 45, height: 45 }}
+              />
+            </View>
+            <Text
+              style={[
+                styles.title,
+                {
+                  color:
+                    colorScheme === "light"
+                      ? COLORS.darkText
+                      : COLORS.lightText,
+                },
+              ]}
+            >
+              {item.title}
+            </Text>
+          </TouchableOpacity>
+        )}
         keyExtractor={(item) => item.id}
         horizontal={true}
         showsHorizontalScrollIndicator={false}
@@ -61,7 +87,6 @@ const styles = StyleSheet.create({
   item: {
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
     padding: 20,
     gap: 15,
     borderRadius: 10,

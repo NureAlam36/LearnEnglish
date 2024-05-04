@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { Link } from "expo-router";
 
@@ -66,13 +67,34 @@ const DATA = [
 ];
 
 const StudyPhases = () => {
+  const { colorScheme } = useColorSchemeContext();
+
   return (
     <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>Study Phases</Text>
+      <Text
+        style={[
+          styles.sectionTitle,
+          {
+            color: colorScheme === "light" ? COLORS.darkText : COLORS.lightText,
+          },
+        ]}
+      >
+        Study Phases
+      </Text>
       <FlatList
         data={DATA}
         renderItem={({ item }) => (
-          <Link href={`/${item.link}`} style={styles.itemContainer} asChild>
+          <Link
+            href={`/${item.link}`}
+            style={[
+              styles.itemContainer,
+              {
+                backgroundColor:
+                  colorScheme === "light" ? "#fff" : COLORS.darkSecondary,
+              },
+            ]}
+            asChild
+          >
             <TouchableOpacity activeOpacity={0.7}>
               <View style={styles.item}>
                 <View style={styles.imageWraper}>
@@ -82,7 +104,19 @@ const StudyPhases = () => {
                     resizeMode="contain"
                   />
                 </View>
-                <Text style={styles.title}>{item.title}</Text>
+                <Text
+                  style={[
+                    styles.title,
+                    {
+                      color:
+                        colorScheme === "light"
+                          ? COLORS.darkText
+                          : COLORS.lightText,
+                    },
+                  ]}
+                >
+                  {item.title}
+                </Text>
               </View>
             </TouchableOpacity>
           </Link>
@@ -110,7 +144,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#fff",
     borderRadius: 5,
     padding: 4,
   },

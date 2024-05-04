@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
 import { Stack } from 'expo-router'
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { Link } from "expo-router";
 
@@ -149,6 +150,7 @@ const DATA = [
 ];
 
 const StudyPhases = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -175,30 +177,38 @@ const StudyPhases = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
-                <Text style={styles.sectionTitle}>Topics</Text>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkSecondary }]}>
+                <Text
+                    style={[
+                        styles.sectionTitle,
+                        {
+                            color: colorScheme === "light" ? COLORS.darkText : COLORS.lightText,
+                        },
+                    ]}
+                >Topics</Text>
                 <FlatList
                     data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <Link href={`/common-conversations/${item.link}`} style={styles.itemContainer} asChild>
+                        <Link href={`/common-conversations/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
-                                    <View style={styles.imageWraper}>
+                                    <View style={[styles.imageWraper, { backgroundColor: colorScheme === 'light' ? '#e5f5ff' : COLORS.darkSecondary }]}>
                                         <Image
                                             style={styles.image}
                                             source={{ uri: item.image }}
                                             resizeMode="contain"
                                         />
                                     </View>
-                                    <Text style={styles.title}>{item.name}</Text>
+                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
                                 </View>
                             </TouchableOpacity>
                         </Link>
                     )}
                     keyExtractor={(item, index) => index.toString()}
                     numColumns={2}
-                    contentContainerStyle={{ paddingBottom: 20 }}
+                    contentContainerStyle={{ gap: 10 }}
+                    columnWrapperStyle={{ gap: 10 }}
                     showsVerticalScrollIndicator={false}
                 />
             </View>
@@ -208,9 +218,8 @@ const StudyPhases = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        marginTop: 10,
-        marginBottom: 18,
-        paddingHorizontal: 10,
+        flex: 1,
+        padding: 10,
     },
     sectionTitle: {
         fontSize: 18,
@@ -219,8 +228,6 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flex: 1,
-        backgroundColor: "#fff",
-        margin: 5,
         borderRadius: 5,
         padding: 5,
     },
@@ -235,7 +242,6 @@ const styles = StyleSheet.create({
     imageWraper: {
         width: '100%',
         height: 80,
-        backgroundColor: '#e5f5ff',
         padding: 15,
         borderRadius: 10,
     },

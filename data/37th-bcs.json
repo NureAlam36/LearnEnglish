@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following words is in singular form ?",
+    "options": ["formulae", "agenda", "oases", "radius"],
+    "answer": "radius"
+  },
+  {
+    "id": 2,
+    "question": "Choose the correct sentence:",
+    "options": [
+      "All of it depend on you",
+      "All of it are depending on you",
+      "All of it are depended on you",
+      "All of it depends on you"
+    ],
+    "answer": "All of it depends on you"
+  },
+  {
+    "id": 3,
+    "question": "“A rolling stone gathers no moss” The complex form of the sentence is-",
+    "options": [
+      "Since a stone is rolling, it gathers no moss.",
+      "Though a stone rolls, it gathers no moss.",
+      "A stone that rolls gathers no moss.",
+      "A stone what rolls gathers no moss."
+    ],
+    "answer": "A stone that rolls gathers no moss."
+  },
+  {
+    "id": 4,
+    "question": "A chart was appended to the report. Here ‘appended’ means-",
+    "options": ["changed", "joined", "removed", "shortened"],
+    "answer": "joined"
+  },
+  {
+    "id": 5,
+    "question": "The mother sat vigilantly beside the sick baby. Here ‘vigilantly’ is -",
+    "options": ["A noun", "An adjective", "An adverb", "none of the three"],
+    "answer": "An adverb"
+  },
+  {
+    "id": 6,
+    "question": "“A new offer of job was alluring . Here ‘alluring’ means-",
+    "options": ["tempting", "unexpected", "disappointing", "ordinary"],
+    "answer": "tempting"
+  },
+  {
+    "id": 7,
+    "question": "“who planted this tree here ?” The correct passive voice of this sentence is-",
+    "options": [
+      "By whom was this tree planted here ?",
+      "Who the tree had been planted hereby ?",
+      "The tree was planted here by whom ?",
+      "By whom had the tree been planted here ?"
+    ],
+    "answer": "By whom was this tree planted here ?"
+  },
+  {
+    "id": 8,
+    "question": "Frailty the name is women. Here ‘Frailty’ is :",
+    "options": ["An adjective", "A verb", "An adverb", "A noun"],
+    "answer": "A noun"
+  },
+  {
+    "id": 9,
+    "question": "Education is enlightening. Here ‘enlightening’ is :",
+    "options": ["A gerund", "An infinitive", "A participle", "A finite verb"],
+    "answer": "A participle"
+  },
+  {
+    "id": 10,
+    "question": "Choose the appropriate prepositions in the blank of the following sentence : The family doesn’t feel ____ going outing this season.",
+    "options": ["like", "on", "in", "of"],
+    "answer": "like"
+  },
+  {
+    "id": 11,
+    "question": "Fill in the blank with appropriate use of tense “I couldn’t mend the computer myself, so I ____ at a shop.",
+    "options": ["had it mend", "had it mended", "had mended", "did it mend"],
+    "answer": "had it mended"
+  },
+  {
+    "id": 12,
+    "question": "Use the appropriate article- I saw ____ one-eyed man when I was walking on the road.",
+    "options": ["an", "A", "the", "No article is needed"],
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "The word ‘omnivorous’ means :",
+    "options": [
+      "eating only",
+      "eating only meat",
+      "eating all types of food",
+      "eating grass and plants only"
+    ],
+    "answer": "eating all types of food"
+  },
+  {
+    "id": 14,
+    "question": "Complete the following sentence choosing the appropriate option : It’s raining cats and dogs, so-",
+    "options": [
+      "Make sure you take an umbrella.",
+      "Watch out for falling animals.",
+      "Keep your pets inside.",
+      "Keep the windows open."
+    ],
+    "answer": "Make sure you take an umbrella."
+  },
+  {
+    "id": 15,
+    "question": "The phrase ‘Achilles heel’ means :",
+    "options": [
+      "A strong point",
+      "A permanent solution",
+      "A weak point",
+      "A serious idea"
+    ],
+    "answer": "A weak point"
+  },
+  {
+    "id": 16,
+    "question": "He worked with all sincerity. The underlined phrase is-",
+    "options": [
+      "A noun phrase",
+      "An Adverbial phrase",
+      "An adjective phrase",
+      "An infinitive phrase"
+    ],
+    "answer": "An Adverbial phrase"
+  },
+  {
+    "id": 17,
+    "question": "This is the book I lost. Here ‘I lost’ is-",
+    "options": [
+      "A noun clause",
+      "An Adjective clause",
+      "An adverbial clause",
+      "None of the three"
+    ],
+    "answer": "An Adjective clause"
+  },
+  {
+    "id": 18,
+    "question": "Which do you think is the nearest in meaning to ‘proviso’ :",
+    "options": ["stipulation", "sanction", "substitute", "directive"],
+    "answer": "stipulation"
+  },
+  {
+    "id": 19,
+    "question": "Cassandra is a night owl, so she doesn’t usually get up until about :",
+    "options": ["7 am", "11 pm", "11 am", "7 pm"],
+    "answer": "11 am"
+  },
+  {
+    "id": 20,
+    "question": "Select the word that is the most closely opposite in meaning to the capitalized word : DELETERIOUS",
+    "options": ["toxic", "spurious", "lethal", "harmless"],
+    "answer": "harmless"
+  },
+  {
+    "id": 21,
+    "question": "“Gerontion” is a poem by-",
+    "options": [
+      "W. B. Yeats",
+      "Mathew Arnold",
+
+      "Robert Browning",
+      "T. S. Eliot"
+    ],
+    "answer": "T. S. Eliot"
+  },
+  {
+    "id": 22,
+    "question": "Fill in the blank. ‘_____’ is Shakespeare’s last play.",
+    "options": ["As you like it", "Macbeth", "Tempest", "Othello"],
+    "answer": "Tempest"
+  },
+  {
+    "id": 23,
+    "question": "Who has written the poem “Elegy Written in a Country Churcyard” ?",
+    "options": ["Robert Frost", "P. B. Shelley", "Y. B. Yeats", "Thomas Gray"],
+    "answer": "Thomas Gray"
+  },
+  {
+    "id": 24,
+    "question": "Who has written the play ‘Volpone’ ?",
+    "options": [
+      "John Webster",
+      "Ben Jonson",
+      "Christopher Marlowe",
+      "William Shakespeare"
+    ],
+    "answer": "Ben Jonson"
+  },
+  {
+    "id": 25,
+    "question": "Shakespeare composed much of his plays in what sort of verse ?",
+    "options": [
+      "Alliterative verse",
+      "Sonnet form",
+      "Lambic pentameter",
+      "Daetylic Haxameter"
+    ],
+    "answer": "Lambic pentameter"
+  },
+  {
+    "id": 26,
+    "question": "The repetition of beginning consonant sound is known as -",
+    "options": ["Alliteration", "personification", "onomatopoeia", "rhyme"],
+    "answer": "Alliteration"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is not a poetic tradition ?",
+    "options": ["The Epic", "The Comic", "The Occult", "The Tragic"],
+    "answer": "The Comic"
+  },
+  {
+    "id": 28,
+    "question": "What is a funny poem of five lines called ?",
+    "options": ["Limerick", "Quartet", "Sixtet", "Haiku"],
+    "answer": "Limerick"
+  },
+  {
+    "id": 29,
+    "question": "Who wrote “Biographia Literaria” ?",
+    "options": [
+      "Lord Byron",
+      "S. T. Coleridge",
+      "P.B. Shelley",
+      "Charles Lamb"
+    ],
+    "answer": "S. T. Coleridge"
+  },
+  {
+    "id": 30,
+    "question": "Robert Browning was a ____ poet. Fill in the gap with appropriate word.",
+    "options": ["Romantic", "Modern", "Victorian", "Elizabethan"],
+    "answer": "Victorian"
+  },
+  {
+    "id": 31,
+    "question": "Othello gave Desdemona _____ as a token of love.",
+    "options": ["Handkerchief", "Ring", "Pendant", "Bangles"],
+    "answer": "Handkerchief"
+  },
+  {
+    "id": 32,
+    "question": "P. B. Shelley’s ‘Adonais’ is an elegy on the death of-",
+    "options": ["John Milton", "S. T. Coleridge", "Lord Byron", "John Keats"],
+    "answer": "John Keats"
+  },
+  {
+    "id": 33,
+    "question": "The comparison of unlike things using the words like on as is known to be-",
+    "options": ["metaphor", "simile", "alliteration", "personification"],
+    "answer": "simile"
+  },
+  {
+    "id": 34,
+    "question": "‘Restoration period’ in English literature refers to -",
+    "options": ["1560", "1660", "1760", "1866"],
+    "answer": "1660"
+  },
+  {
+    "id": 35,
+    "question": "‘The Sun Also Rises’ is a novel written by -",
+    "options": [
+      "Earnest Hemingway",
+      "Charles Dickens",
+      "Hermanne Melville",
+      "Thomas Hardy"
+    ],
+    "answer": "Earnest Hemingway"
+  }
+]

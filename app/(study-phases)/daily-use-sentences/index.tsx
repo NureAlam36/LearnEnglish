@@ -4,6 +4,7 @@ import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
 import { FontAwesome } from '@expo/vector-icons';
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import dailyUseSentences from '@/data/daily-use-sentences.json'
 
@@ -94,6 +95,7 @@ const DATA = [
 ];
 
 const index = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -109,7 +111,7 @@ const index = () => {
         })
     }, [])
 
-    console.log(categories);
+    // console.log(categories);
 
     return (
         <React.Fragment>
@@ -119,15 +121,15 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <View>
-                    <Text style={styles.sectionTitle}>Categories</Text>
+                    <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Categories</Text>
                 </View>
                 <FlatList
                     data={categories}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/daily-use-sentences/${item.link}`} style={styles.itemContainer} asChild>
+                        <Link href={`/daily-use-sentences/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
                                     <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
@@ -135,7 +137,7 @@ const index = () => {
                                             <Image style={styles.item_icon} source={{ uri: item.image }} />
                                         </View>
                                         <View>
-                                            <Text style={styles.title}>{item.name}</Text>
+                                            <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
                                             <Text style={{ color: COLORS.gray2 }}>{item.totalItems} Sentences</Text>
                                         </View>
                                     </View>
@@ -155,7 +157,6 @@ const index = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        backgroundColor: '#f2f2f2',
         flex: 1,
         padding: 5
     },
@@ -167,7 +168,6 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flexDirection: "row",
-        backgroundColor: "#fff",
         margin: 5,
         borderRadius: 5,
         padding: 5,
@@ -190,7 +190,6 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 14,
         fontFamily: FONT.medium,
-        color: "#1f1f1f",
         marginBottom: 3
     },
 });

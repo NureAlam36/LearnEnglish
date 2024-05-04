@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the author of ‘Man and Superman’?",
+    "options": [
+      "G. B. Shaw",
+      "Thomas Hardy",
+      "Ernest Hamingway",
+      "Charles Dickens"
+    ],
+    "answer": "G. B. Shaw"
+  },
+  {
+    "id": 2,
+    "question": "The most famous satirist in English literature is -",
+    "options": [
+      "Jonathan Swift",
+      "Alexander Pope",
+      "Joseph Addison",
+      "Richard Steel"
+    ],
+    "answer": "Jonathan Swift"
+  },
+  {
+    "id": 3,
+    "question": "What is the plural form of the word ‘louse’?",
+    "options": ["louses", "lices", "licess", "lice"],
+    "answer": "lice"
+  },
+  {
+    "id": 4,
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He refrained to take any drastic action",
+      "He refrained from taking any drastic action",
+      "He refrained on taking any drastic action",
+      "He refrained in taking any drastic action"
+    ],
+    "answer": "He refrained from taking any drastic action"
+  },
+  {
+    "id": 5,
+    "question": "Which word is closest in meaning to ‘Franchise’?",
+    "options": ["privilege", "utility", "frankness", "superficial"],
+    "answer": "privilege"
+  },
+  {
+    "id": 6,
+    "question": "‘Once in a blue moon’ means-",
+    "options": ["always", "nearly", "hourly", "very rarely"],
+    "answer": "very rarely"
+  },
+  {
+    "id": 7,
+    "question": "‘Jacobean Period’ of English Literature refers to--",
+    "options": ["1558-1603", "1625-1649", "1649-1660", "1603-1625"],
+    "answer": "1603-1625"
+  },
+  {
+    "id": 8,
+    "question": "A retired officer lives next door. Here, the underlined word is used as a/an:",
+    "options": ["Gerund", "adverb", "participle", "preposition"],
+    "answer": "participle"
+  },
+  {
+    "id": 9,
+    "question": "Choose the appropriate preposition in the blank of the following sentence:\n\nEight men were concerned ___ the plot.",
+    "options": ["at", "with", "for", "in"],
+    "answer": "for"
+  },
+  {
+    "id": 10,
+    "question": "Fill in the gap with the right tense:\n\nWhen water ____ it turns into ice.",
+    "options": ["will freeze", "freezes", "would freeze", "froze"],
+    "answer": "freezes"
+  },
+  {
+    "id": 11,
+    "question": "Which one is the correct antonym of ‘frugal’?",
+    "options": ["Extraordinary", "spendthrift", "economical", "authentic"],
+    "answer": "spendthrift"
+  },
+  {
+    "id": 12,
+    "question": "Choose the meaning of the idiom-\n\n‘Take the bull by the horns’.",
+    "options": [
+      "To challenge the enemy with courage",
+      "Force the enemy to submit",
+      "Out of one’s wit",
+      "Surrender before the enemy"
+    ],
+    "answer": "To challenge the enemy with courage"
+  },
+  {
+    "id": 13,
+    "question": "Fill in the blank with the correct quantifier.\n\nI still have ___ money.",
+    "options": ["a few", "quite a few", "a little", "many"],
+    "answer": "a little"
+  },
+  {
+    "id": 14,
+    "question": "Select the right compound structure of the sentence:\n\n“Though he is poor, he is honest”.",
+    "options": [
+      "He is poor and honest",
+      "As he is poor, he is honest",
+      "Since he is poor, he is honest",
+      "He is poor but honest"
+    ],
+    "answer": "He is poor but honest"
+  },
+  {
+    "id": 15,
+    "question": "Where do the following lines occur in?\n\n“ Alone, alone, all, all alone,\n\nAlone on a wide, wide sea …..”",
+    "options": [
+      "Kubla Khan",
+      "The Rime of the Ancient Mariner",
+      "The Nightingle",
+      "The Dungeon"
+    ],
+    "answer": "The Rime of the Ancient Mariner"
+  },
+  {
+    "id": 16,
+    "question": "‘For God’s sake hold your tongue, and let me love.’\n\nThis line is written by -",
+    "options": ["John donne", "Emily Dickinson", "T.S. Eliot", "Mathew Arnold"],
+    "answer": "John donne"
+  },
+  {
+    "id": 17,
+    "question": "Fill in the blank:\n\nTourists ___ their reservations well in advance if they want or fly to Cox’s Bazar.",
+    "options": [
+      "better to had get",
+      "had better to get",
+      "had better got",
+      "had better get"
+    ],
+    "answer": "had better get"
+  },
+  {
+    "id": 18,
+    "question": "The sun went down. The underlined word is used here as a/an:",
+    "options": ["preposition", "noun", "adverb", "conjunction"],
+    "answer": "adverb"
+  },
+  {
+    "id": 19,
+    "question": "Which one of the following words is in singular form?",
+    "options": ["agenda", "oases", "radius", "formulae"],
+    "answer": "radius"
+  },
+  {
+    "id": 20,
+    "question": "Identify the right passive voice of ‘It is impossible to do this’.",
+    "options": [
+      "This is impossible to be done",
+      "Doing this is impossible",
+      "This is must be done",
+      "This can’t be done"
+    ],
+    "answer": "This is impossible to be done"
+  },
+  {
+    "id": 21,
+    "question": "Of the following authors, who wrote an epic?",
+    "options": [
+      "Jane Mansfield",
+      "William Cowper",
+      "John Milton",
+      "William Shakespeare"
+    ],
+    "answer": "John Milton"
+  },
+  {
+    "id": 22,
+    "question": "The literary term ‘euphemism’ means-",
+    "options": [
+      "vague idea",
+      "a sonnet",
+      "wise saying",
+      "inoffensive expression"
+    ],
+    "answer": "inoffensive expression"
+  },
+  {
+    "id": 23,
+    "question": "‘Mutton’ is a/an",
+    "options": ["Common noun", "Material noun", "Abstract noun", "Proper noun"],
+    "answer": "Material noun"
+  },
+  {
+    "id": 24,
+    "question": "Reading is an excellent habit. Here, the underlined was is a-",
+    "options": ["Verbal noun", "Participle", "Gerund", "Verb"],
+    "answer": "Gerund"
+  },
+  {
+    "id": 25,
+    "question": "Which one of the following words is an example of a distributive pronoun?",
+    "options": ["either", "such", "that", "any"],
+    "answer": "either"
+  },
+  {
+    "id": 26,
+    "question": "Who is not a Victorian poet?",
+    "options": [
+      "Mathew Arnold",
+      "Alexander Pope",
+      "Robert Browning",
+      "Alfred Tennyson"
+    ],
+    "answer": "Alexander Pope"
+  },
+  {
+    "id": 27,
+    "question": "A speech of too many words is called-",
+    "options": [
+      "A big speech",
+      "Maiden speech",
+      "An unimportant speech",
+      "A verbose speech"
+    ],
+    "answer": "A verbose speech"
+  },
+  {
+    "id": 28,
+    "question": "‘Strike while the iron is hot’ is an example of -",
+    "options": [
+      "Noun clause",
+      "Adverbial clause",
+      "Adjective clause",
+      "Subordinate clause"
+    ],
+    "answer": "Adverbial clause"
+  },
+  {
+    "id": 29,
+    "question": "The play ‘The Spanish Tragedy’ is written by-",
+    "options": [
+      "Thomas Kyd",
+      "Christopher Marlowe",
+      "Shakespeare",
+      "Ben Jonson"
+    ],
+    "answer": "Thomas Kyd"
+  },
+  {
+    "id": 30,
+    "question": "Who among the following Indian English writers is a famous novelist?",
+    "options": [
+      "Gayatri Chakravorty Spivak",
+      "R. K. Narayan",
+      "Nissim Exekiel",
+      "Kamala Das"
+    ],
+    "answer": "R. K. Narayan"
+  },
+  {
+    "id": 31,
+    "question": "The word ‘Panegyric’ means",
+    "options": ["Criticism", "curse", "elaborate praise", "high sound"],
+    "answer": "elaborate praise"
+  },
+  {
+    "id": 32,
+    "question": "Select the correctly spelt word:",
+    "options": [
+      "hetarogeneous",
+      "heterogeneous",
+      "hetrogeneous",
+      "hetroganeous"
+    ],
+    "answer": "heterogeneous"
+  },
+  {
+    "id": 33,
+    "question": "‘Among’ is a preposition that is used when __ people are involved.",
+    "options": ["more then two", "two", "two or more than two", "four only"],
+    "answer": "more then two"
+  },
+  {
+    "id": 34,
+    "question": "Which period is known as “The golden age of English literature”?",
+    "options": [
+      "The Victorian age",
+      "The Elizabethi age",
+      "The Restoration",
+      "The Elighteenth Century"
+    ],
+    "answer": "The Elizabethi age"
+  },
+  {
+    "id": 35,
+    "question": "Which one in the correct indirect narration?\n\n“Why have you beaten my dog”? he said to me.",
+    "options": [
+      "He demanded me why had I beaten his dog",
+      "He asked me why I have had beaten his dog",
+      "He demanded of me why I had beaten his dog",
+      "He enquired me why had I had beaten his dog"
+    ],
+    "answer": "He demanded of me why I had beaten his dog"
+  }
+]

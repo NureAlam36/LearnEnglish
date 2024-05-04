@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "question": "‘Please write to me at the above address’. The word ‘above’ in this sentence is a/an-",
+    "options": ["noun", "adjective", "pronoun", "adverb"],
+    "answer": "adjective"
+  },
+  {
+    "id": 2,
+    "question": "In which sentence is the word ‘past’ used as a preposition?",
+    "options": [
+      "Tania was a wonderful singer, but she’s past her prime.",
+      "Writing letters is a thing of the past",
+      "I look back on the past without regret",
+      "I called out to him as he ran past"
+    ],
+    "answer": "Tania was a wonderful singer, but she’s past her prime."
+  },
+  {
+    "id": 3,
+    "question": "The word ‘sibling’ means-",
+    "options": ["a brother", "a brother or sister", "a sister", "an infant"],
+    "answer": "a brother or sister"
+  },
+  {
+    "id": 4,
+    "question": "Fill in the blank: As she was talking, he suddenly broke __, saying, ‘That’s a lie!’",
+    "options": ["off", "down", "in", "into"],
+    "answer": "in"
+  },
+  {
+    "id": 5,
+    "question": "Fill in the blank: You may go for a walk if you feel ___ it.",
+    "options": ["like", "about", "on", "for"],
+    "answer": "like"
+  },
+  {
+    "id": 6,
+    "question": "Identify the word which is spelt incorrectly:",
+    "options": [
+      "perseverance",
+      "convalescence",
+      "maintenance",
+      "consciencious"
+    ],
+    "answer": "consciencious"
+  },
+  {
+    "id": 7,
+    "question": "‘You look terrific in that dress!’ The word ‘terrific’ in the above sentence means-",
+    "options": ["funny", "very ugly", "horrible", "excellent"],
+    "answer": "excellent"
+  },
+  {
+    "id": 8,
+    "question": "someone who is capricious is-",
+    "options": [
+      "easily irritated",
+      "wise and willing to cooperate",
+      "known for sudden changes in attitude or behaviour",
+      "exceedingly conceited and arrogant"
+    ],
+    "answer": "known for sudden changes in attitude or behaviour"
+  },
+  {
+    "id": 9,
+    "question": "Which one of the following words is masculine",
+    "options": ["mare", "pillow", "lad", "pony"],
+    "answer": "lad"
+  },
+  {
+    "id": 10,
+    "question": "A man whose wife has died is called a ---",
+    "options": ["widow", "widower", "spinster", "bachelor"],
+    "answer": "widower"
+  },
+  {
+    "id": 11,
+    "question": "Which word is similar to ‘appal’ ?",
+    "options": ["deceive", "dismay", "confuse", "solicit"],
+    "answer": "dismay"
+  },
+  {
+    "id": 12,
+    "question": "Which word means the opposite of ‘dearth’ ?",
+    "options": ["abundance", "lack", "poverty", "shortage"],
+    "answer": "abundance"
+  },
+  {
+    "id": 13,
+    "question": "Indentify the word which remains the same in its plural form:",
+    "options": ["intention", "mouse", "aircraft", "thesis"],
+    "answer": "aircraft"
+  },
+  {
+    "id": 14,
+    "question": "Identify the determiner in the following sentence: ‘I have no news for you.’",
+    "options": ["have", "news", "for", "no"],
+    "answer": "no"
+  },
+  {
+    "id": 15,
+    "question": "‘A lost opportunity never returns.’ Here ‘lost’ is a __",
+    "options": ["gerund", "participle", "verbal noun", "gerundial infinitive"],
+    "answer": "participle"
+  },
+  {
+    "id": 16,
+    "question": "The saying 'enough is enough' is used when you want-",
+    "options": [
+      "something to stop",
+      "something to continue",
+      "something to continue until it's enough",
+      "to tell instructions are clear"
+    ],
+    "answer": "something to stop"
+  },
+  {
+    "id": 17,
+    "question": "‘He ran with great speed.’ The underlined part of the sentence is a -",
+    "options": [
+      "noun phrase",
+      "adjective phrase",
+      "participle phrase",
+      "adverb phrase"
+    ],
+    "answer": "adverb phrase"
+  },
+  {
+    "id": 18,
+    "question": "‘We must not be late, else we will miss the train.’ This is a -",
+    "options": [
+      "complex sentence",
+      "simple sentence",
+      "compound sentence",
+      "interrogative sentence"
+    ],
+    "answer": "compound sentence"
+  },
+  {
+    "id": 19,
+    "question": "Change the voice: ‘Who is calling me?’",
+    "options": [
+      "By whom am I being called?",
+      "By whom am I called?",
+      "By whom I am called?",
+      "Whom am I called by?"
+    ],
+    "answer": "By whom am I being called?"
+  },
+  {
+    "id": 20,
+    "question": "An extra message added at the end of a letter after it is signed is called-",
+    "options": ["postscript", "NB", "corrigendum", "RSVP"],
+    "answer": "postscript"
+  },
+  {
+    "id": 21,
+    "question": "‘The Rape of the Lock’ by Alexander Pope is a/an-",
+    "options": ["epic", "ballad", "elegy", "mock-heroic poem"],
+    "answer": "mock-heroic poem"
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is not an American poet?",
+    "options": [
+      "Robert Frost",
+      "W. B. Yeats",
+      "Emily dickinson",
+      "Langston Hughes"
+    ],
+    "answer": "W. B. Yeats"
+  },
+  {
+    "id": 23,
+    "question": "William Shakespeare was born in -",
+    "options": ["1616", "1664", "1564", "1493"],
+    "answer": "1564"
+  },
+  {
+    "id": 24,
+    "question": "Tennyson’s ‘In Memoriam’ is an elegy on the death of-",
+    "options": [
+      "Arthur Henry Hallam",
+      "John Milton",
+      "John Keats",
+      "Sydney Smith"
+    ],
+    "answer": "Arthur Henry Hallam"
+  },
+  {
+    "id": 25,
+    "question": "‘Sweet Helen’ make me immortal with a kiss.’ The sentence has been taken from the play-",
+    "options": [
+      "Romeo and Juliet",
+      "Caesar and Cleopatra",
+      "Doctor Faustus",
+      "Antony and Cleopatra"
+    ],
+    "answer": "Doctor Faustus"
+  },
+  {
+    "id": 26,
+    "question": "‘What’s in a name? That which we call a rose By any other name would smell as sweet’- Who said this?",
+    "options": ["Romeo", "Portia", "Rosalind", "Juliet"],
+    "answer": "Juliet"
+  },
+  {
+    "id": 27,
+    "question": "‘Man’s love is of man’s life a thing apart, ‘Tis woman’s whole existence.’- This is taken from the poem of-",
+    "options": ["P. B. Shelley", "Lord Byron", "John Keats", "Edmund Spenser"],
+    "answer": "Lord Byron"
+  },
+  {
+    "id": 28,
+    "question": "Who translated the ‘rubaiyat of Omar Khayyam’ into English?",
+    "options": [
+      "Thomas Carlyle",
+      "D. G. Rossetti",
+      "Edward Fitzgerald",
+      "William Thackeray"
+    ],
+    "answer": "Edward Fitzgerald"
+  },
+  {
+    "id": 29,
+    "question": "‘Ulysses’ is a novel written by-",
+    "options": [
+      "James Joyce",
+      "Joseph conrad",
+      "Thomas Hardy",
+      "Charles Dickens"
+    ],
+    "answer": "James Joyce"
+  },
+  {
+    "id": 30,
+    "question": "The short story ‘The Diamond Necklace’ was written by-",
+    "options": [
+      "Guy de Maupassant",
+      "Somerset Maugham",
+      "O Henry",
+      "George Orwell"
+    ],
+    "answer": "Somerset Maugham"
+  },
+  {
+    "id": 31,
+    "question": "‘All the perfumes of Arabia will not sweeten this little hand.’- Who said this?",
+    "options": ["Macbeth", "Lady Macbeth", "Lady Macduff", "Macduff"],
+    "answer": "Lady Macbeth"
+  },
+  {
+    "id": 32,
+    "question": "‘Where are the songs of Spring? Aye, where are they? Think not of them, thou hast thy music too’.- Who wrote this?",
+    "options": [
+      "William Wordsworth",
+      "Robert Browning",
+      "Samuel Coleridge",
+      "John Keats"
+    ],
+    "answer": "John Keats"
+  },
+  {
+    "id": 33,
+    "question": "Who is the central character of ‘Wuthering Heights’ by Emily Bronte?",
+    "options": ["Heathcliff", "Mr. Earnshaw", "Catherine", "Hindley Earnshaw"],
+    "answer": "Heathcliff"
+  },
+  {
+    "id": 34,
+    "question": "‘The old order changeth, yielding place to new.’- This line is extracted from Tennyson’s poem-",
+    "options": [
+      "The Lotos-Eaters",
+      "Morte d’ Arthur",
+      "Tithonus",
+      "Locksley Hall"
+    ],
+    "answer": "Morte d’ Arthur"
+  },
+  {
+    "id": 35,
+    "question": "Who wrote the poem ‘The Good-Morrow’?",
+    "options": [
+      "George Herbert",
+      "Andrew Marvell",
+      "John Donne",
+      "Henry Vaughan"
+    ],
+    "answer": "John Donne"
+  }
+]

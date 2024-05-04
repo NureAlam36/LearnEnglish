@@ -4,11 +4,13 @@ import { Stack } from 'expo-router';
 import { FontAwesome, Entypo, AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import * as FileSystem from 'expo-file-system';
 
 
 const Index = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [inputText, setInputText] = useState('');
 
     const speakText = async () => {
@@ -31,24 +33,37 @@ const Index = () => {
                     title: 'Text To Speech',
                     headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Text To Speech</Text>,
                     headerStyle: { backgroundColor: '#5495fb' },
-                    headerRight: () => (
-                        <View style={styles.headerStyle}>
-                            <FontAwesome style={{ color: '#fff' }} name="save" size={24} color="black" />
-                            <Entypo style={{ color: '#fff' }} name="dots-three-vertical" size={24} color="black" />
-                        </View>
-                    )
+                    // headerRight: () => (
+                    //     <View style={styles.headerStyle}>
+                    //         <FontAwesome style={{ color: '#fff' }} name="save" size={24} color="black" />
+                    //         <Entypo style={{ color: '#fff' }} name="dots-three-vertical" size={24} color="black" />
+                    //     </View>
+                    // )
                 }}
             />
-            <TextInput
-                style={styles.textInput}
-                multiline
-                placeholder="Enter text here..."
-                value={inputText}
-                onChangeText={setInputText}
-            />
-            <TouchableOpacity style={styles.button} onPress={speakText}>
-                <Text style={styles.buttonText}><AntDesign name="sound" size={24} color="white" /></Text>
-            </TouchableOpacity>
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
+                <TextInput
+                    style={[
+                        styles.textInput,
+                        {
+                            backgroundColor: colorScheme === 'light' ? COLORS.white : COLORS.darkSecondary,
+                            borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
+                            borderWidth: colorScheme === 'light' ? 1 : 0,
+                            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText
+                        }
+                    ]}
+                    multiline
+                    placeholder="Enter text here..."
+                    placeholderTextColor={colorScheme === 'light' ? COLORS.gray : COLORS.gray2}
+                    value={inputText}
+                    onChangeText={setInputText}
+                />
+
+
+                <TouchableOpacity style={styles.button} onPress={speakText}>
+                    <Text style={styles.buttonText}><AntDesign name="sound" size={24} color="white" /></Text>
+                </TouchableOpacity>
+            </View>
         </React.Fragment>
     );
 };
@@ -60,16 +75,15 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     textInput: {
-        backgroundColor: COLORS.white,
         padding: 10,
         margin: 20,
         borderRadius: 10,
         minHeight: 250,
-        borderWidth: 1,
-        borderColor: COLORS.gray2,
         fontSize: 16,
         fontFamily: FONT.regular,
-        color: COLORS.gray,
+    },
+    lightStyle: {
+
     },
     button: {
         backgroundColor: COLORS.primary,

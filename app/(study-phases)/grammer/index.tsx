@@ -3,7 +3,7 @@ import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react
 import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
-
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [
     {
@@ -59,6 +59,8 @@ const DATA = [
 ];
 
 const index = () => {
+    const { colorScheme } = useColorSchemeContext();
+
     return (
         <React.Fragment>
             <Stack.Screen
@@ -67,22 +69,23 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={{ backgroundColor: '#f2f2f2', flex: 1 }}>
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <FlatList
                     data={DATA}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/grammer/${item.link}`} style={styles.itemContainer} asChild>
+                        <Link href={`/grammer/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
                                     <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
-                                    <Text style={styles.title}>{item.title}</Text>
+                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.title}</Text>
                                 </View>
                             </TouchableOpacity>
                         </Link>
                     )}
                     keyExtractor={(item) => item.id.toString()}
-                    contentContainerStyle={{ paddingBottom: 20 }}
+                    contentContainerStyle={{ padding: 10, gap: 10 }}
+                    showsVerticalScrollIndicator={false}
                 />
             </View>
         </React.Fragment>
@@ -92,7 +95,6 @@ const index = () => {
 const styles = StyleSheet.create({
     sectionContainer: {
         marginTop: 10,
-        marginBottom: -15,
     },
     sectionTitle: {
         fontSize: 18,
@@ -101,8 +103,6 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flexDirection: "row",
-        backgroundColor: "#fff",
-        margin: 5,
         borderRadius: 5,
         padding: 5,
     },
@@ -126,7 +126,6 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 14,
         fontFamily: FONT.medium,
-        color: "#1f1f1f",
     },
 });
 

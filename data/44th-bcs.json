@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "question": "‘He prayeth best, who loveth best’.- Who said it?",
+    "options": ["John Milton", "John Donne", "Lord Byron", "S. T. Coleridge"],
+    "answer": "S. T. Coleridge"
+  },
+  {
+    "id": 2,
+    "question": "The controlling sentence of a paragraph in known as-",
+    "options": [
+      "content modulator",
+      "terminator",
+      "thesis statement",
+      "topic sentence"
+    ],
+    "answer": "topic sentence"
+  },
+  {
+    "id": 3,
+    "question": "Choose the correct comparative form of the sentence: ‘Very few boys are as industrious as Zaman’.",
+    "options": [
+      "Zaman is one of the most industrious boys.",
+      "Zaman is more industrious than most other boys.",
+      "Zaman is really industrious like other boys.",
+      "Zaman is as industrious as other boys."
+    ],
+    "answer": "Zaman is more industrious than most other boys."
+  },
+  {
+    "id": 4,
+    "question": "Identify the appropriate preposition: Your opinion is identical __ mine.",
+    "options": ["for", "in", "with", "by"],
+    "answer": "with"
+  },
+  {
+    "id": 5,
+    "question": "‘Paradise Lost’ attempted to-",
+    "options": [
+      "justify the ways of man to God.",
+      "show that Satan and God have equal power",
+      "justify the ways of God to man",
+      "explain why both good and evil are necessary."
+    ],
+    "answer": "justify the ways of God to man"
+  },
+  {
+    "id": 6,
+    "question": "The synonym for ‘panoramic’ is-",
+    "options": ["scenic", "narrow", "limited", "restricted"],
+    "answer": "scenic"
+  },
+  {
+    "id": 7,
+    "question": "The antonym for ‘slothful’ is-",
+    "options": ["playful", "sluggish", "energetic", "quarrelsome"],
+    "answer": "energetic"
+  },
+  {
+    "id": 8,
+    "question": "Alexander Pope’s ‘Essay on Man’ is a-",
+    "options": ["novel", "treatise", "short story", "poem"],
+    "answer": "poem"
+  },
+  {
+    "id": 9,
+    "question": "‘By and large’ means-",
+    "options": ["everywhere", "very large", "mostly", "far away"],
+    "answer": "mostly"
+  },
+  {
+    "id": 10,
+    "question": "Francis Bacon is an illustrious _",
+    "options": ["essayist", "dramatist", "novelist", "journalist"],
+    "answer": "essayist"
+  },
+  {
+    "id": 11,
+    "question": "‘He could not win but learnt a lot.’ Which part of speech is the word ‘but’?",
+    "options": ["an adverb", "a verb", "an adjective", "a conjunction"],
+    "answer": "a conjunction"
+  },
+  {
+    "id": 12,
+    "question": "Select the appropriate preposition: ‘Are you doing’ anything special --- the weekend?’",
+    "options": ["at", "with", "on", "for"],
+    "answer": "at"
+  },
+  {
+    "id": 13,
+    "question": "What is the plural form of ‘sheep’?",
+    "options": ["sheeps", "sheep", "sheepes", "sheepses"],
+    "answer": "sheep"
+  },
+  {
+    "id": 14,
+    "question": "‘Sweet are the uses of adversity’ is quoted from Shakespeare’s-",
+    "options": [
+      "Julius Caesar",
+      "Macbeth",
+      "Comedy of Errors",
+      "As you Like It"
+    ],
+    "answer": "As you Like It"
+  },
+  {
+    "id": 15,
+    "question": "What is the verb form of the word ‘ability’?",
+    "options": ["capable", "inability", "enable", "unable"],
+    "answer": "enable"
+  },
+  {
+    "id": 16,
+    "question": "The word ‘equivocation’ refers to -",
+    "options": [
+      "stating like an author",
+      "two contradictory things in the same statement",
+      "free expression of opinions",
+      "a true statement"
+    ],
+    "answer": "two contradictory things in the same statement"
+  },
+  {
+    "id": 17,
+    "question": "“Life’s but a walking shadow, a poor player, That struts and frets his hour upon the stage, And then is heard no more;” These memorable lines in Shakespearean tragedy are spoken by-",
+    "options": ["Lady Macbeth", "Banquo", "Duncan", "Macbeth"],
+    "answer": "Macbeth"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following words is spelt correctly?",
+    "options": [
+      "authoratative",
+      "autheritative",
+      "authoritative",
+      "authoratative"
+    ],
+    "answer": "authoritative"
+  },
+  {
+    "id": 19,
+    "question": "Find out the active form of the sentence: ‘By whom can our country be saved?’",
+    "options": [
+      "Who can save our country?",
+      "Our country has been saved by who?",
+      "Who save our country?",
+      "Who will save our country?"
+    ],
+    "answer": "Who can save our country?"
+  },
+  {
+    "id": 20,
+    "question": "“All changed, changed utterly: A terrible beauty is born.” This extract is taken from W. B. Yeats’ poem titled-",
+    "options": [
+      "No Second Troy",
+      "Easter 1916",
+      "The Second Coming",
+      "The Wild Swans at Coole"
+    ],
+    "answer": "Easter 1916"
+  },
+  {
+    "id": 21,
+    "question": "Identify the correct passive form: ‘Do not close the door.’",
+    "options": [
+      "Let not the door close",
+      "Let not the door be closed",
+      "Let not the door close",
+      "Let not door closed"
+    ],
+    "answer": "Let not the door be closed"
+  },
+  {
+    "id": 22,
+    "question": "The poetic drama ‘Murder in the Cathedral’ was written by -",
+    "options": ["Harold Pinter", "G. B. Shaw", "T. S. Eliot", "Samuel Backett"],
+    "answer": "T. S. Eliot"
+  },
+  {
+    "id": 23,
+    "question": "‘All for love’ is a drama written by-",
+    "options": [
+      "John Dryden",
+      "William Congreve",
+      "John Bunyan",
+      "Francis Bacon"
+    ],
+    "answer": "John Dryden"
+  },
+  {
+    "id": 24,
+    "question": "Sitting happily, the chicken laid eggs. The underlined part is a/an-",
+    "options": [
+      "noun clause",
+      "subordinate clause",
+      "independent clause",
+      "coordinate clause"
+    ],
+    "answer": "subordinate clause"
+  },
+  {
+    "id": 25,
+    "question": "Caliban is an important character from Shakespeare’s-",
+    "options": ["The Tempest", "Hamlet", "Macbeth", "Othello"],
+    "answer": "The Tempest"
+  },
+  {
+    "id": 26,
+    "question": "What kind of noun is ‘river’?",
+    "options": ["Material", "Collective", "Proper", "Common"],
+    "answer": "Common"
+  },
+  {
+    "id": 27,
+    "question": "‘Oh, lift me as a wave, a leaf, a cloud! I fall upon the thorns of life! I bleed!’ The extract is taken from P. B. Shelley’s poem-",
+    "options": ["The Cloud", "To a Skylark", "Ode to the West Wind", "Adonais"],
+    "answer": "Ode to the West Wind"
+  },
+  {
+    "id": 28,
+    "question": "Who wrote the short story ‘The Ant and the Grasshopper’?",
+    "options": [
+      "Guy de maupassant",
+      "W. Somerset Maugham",
+      "J. K. Rawlings",
+      "O’Henry"
+    ],
+    "answer": "W. Somerset Maugham"
+  },
+  {
+    "id": 29,
+    "question": "The word ‘vital’ is a/an-",
+    "options": ["noun", "adverb", "adjective", "verb"],
+    "answer": "adjective"
+  },
+  {
+    "id": 30,
+    "question": "‘To get along with’ means-",
+    "options": ["to adjust", "to interest", "to accompany", "to walk"],
+    "answer": "to adjust"
+  },
+  {
+    "id": 31,
+    "question": "‘Caesar and Cleopatra’ is-",
+    "options": [
+      "a tragedy by William Shakespeare",
+      "a poem by Lord Byron",
+      "a play by Bernard Shaw",
+      "a novel by S. T. Coleridge"
+    ],
+    "answer": "a play by Bernard Shaw"
+  },
+  {
+    "id": 32,
+    "question": "Identify the right tense: ‘My father __ before I came’.",
+    "options": [
+      "would be leaving",
+      "had been leaving",
+      "had left",
+      "will leave"
+    ],
+    "answer": "had left"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following words is spelt incorrectly?",
+    "options": ["reminescence", "glycerin", "idiosyncrasy", "lexicography"],
+    "answer": "reminescence"
+  },
+  {
+    "id": 34,
+    "question": "Who wrote the picaresque novel titled ‘Tom Jones’?",
+    "options": [
+      "Samuel Richardson",
+      "Horace Walpole",
+      "Henry Fielding",
+      "Laurence Sterne"
+    ],
+    "answer": "Henry Fielding"
+  },
+  {
+    "id": 35,
+    "question": "The story of ‘Moby Dick’ centers on--",
+    "options": ["a mermaid", "a whale", "a crocodile", "a shark"],
+    "answer": "a whale"
+  }
+]

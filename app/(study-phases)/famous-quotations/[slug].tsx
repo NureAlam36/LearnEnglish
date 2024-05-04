@@ -8,8 +8,11 @@ import { Feather } from '@expo/vector-icons';
 import { useRoute } from '@react-navigation/native';
 import famousQuotations from '@/data/famous-quotations.json'
 
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+
 const index = () => {
     const route = useRoute();
+    const { colorScheme } = useColorSchemeContext();
     const { slug } = route.params as any;
 
     const [topicName, setTopicName] = useState<any>([]);
@@ -39,17 +42,17 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={quotes}
                     renderItem={({ item }) => (
-                        <TouchableOpacity style={styles.slide} activeOpacity={0.7}>
-                            <Text style={styles.slideTextEnglish}>“{item.english}”</Text>
-                            <Text style={styles.slideTextBangla}>“{item.bangla}”</Text>
-                            <Text style={styles.slideTextAuthor}>– {item.author}</Text>
-                            <View style={{ display: 'flex', flexDirection: 'row', gap: 5, alignItems: 'center', justifyContent: 'center', borderWidth: 1, width: 75, borderColor: COLORS.gray2, borderRadius: 5, paddingVertical: 3 }}>
-                                <Feather name="copy" size={18} color="black" />
-                                <Text style={{ fontFamily: FONT.regular, color: COLORS.gray }} onPress={() => copyToClipboard(item.english, item.bangla, item.author)}>Copy</Text>
+                        <TouchableOpacity style={[styles.item, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} activeOpacity={0.7}>
+                            <Text style={[styles.textEn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.english}”</Text>
+                            <Text style={[styles.textBn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.bangla}”</Text>
+                            <Text style={[styles.textAuthor, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>– {item.author}</Text>
+                            <View style={{ display: 'flex', flexDirection: 'row', gap: 5, alignItems: 'center', justifyContent: 'center', borderWidth: 1, width: 75, borderColor: '#5495fb', borderRadius: 5, paddingVertical: 3 }}>
+                                <Feather name="copy" size={18} color={colorScheme === 'light' ? COLORS.gray : '#fff'} />
+                                <Text style={{ fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.gray : '#fff' }} onPress={() => copyToClipboard(item.english, item.bangla, item.author)}>Copy</Text>
                             </View>
                         </TouchableOpacity>
                     )}
@@ -64,31 +67,26 @@ const index = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        backgroundColor: '#f2f2f2',
         flex: 1,
         padding: 5,
         marginBottom: -20
     },
-    slide: {
+    item: {
         flex: 1,
         justifyContent: 'center',
         borderRadius: 10,
         padding: 15,
         margin: 5,
-        backgroundColor: '#fff'
     },
-    slideTextEnglish: {
-        color: COLORS.gray,
+    textEn: {
         fontSize: 18,
         marginBottom: 10,
     },
-    slideTextBangla: {
-        color: COLORS.gray,
+    textBn: {
         fontSize: 16,
     },
-    slideTextAuthor: {
+    textAuthor: {
         textAlign: 'right',
-        color: COLORS.gray,
         marginBottom: -5
     },
 });

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Image, SafeAreaView, StyleSheet, Text, View, TouchableOpacity, Pressable } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { Image, SafeAreaView, StyleSheet, Text, View, TouchableOpacity, Pressable, Button } from 'react-native';
 import { Tabs } from 'expo-router';
-import { Ionicons, AntDesign, FontAwesome } from '@expo/vector-icons';
+import { Ionicons, AntDesign, FontAwesome, Entypo, MaterialIcons } from '@expo/vector-icons';
 
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
 
@@ -9,14 +9,20 @@ import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 
-import AppSidebar from '@/components/Sidebar/Sidebar';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
+import AppSidebar from '@/components/Sidebar/Sidebar';
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
+
 function TabBarIcon(props: any) {
   return <FontAwesome size={28} style={{ marginBottom: -3 }} {...props} />;
 }
 
 const HeaderComponent = ({ toggleSidebar }: any) => {
+  const { colorScheme, toggleColorScheme } = useColorSchemeContext();
+  // console.log(colorScheme);
+
+
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 10, width: '100%' }}>
       {/* Left component (Sidebar menu icon) */}
@@ -31,8 +37,12 @@ const HeaderComponent = ({ toggleSidebar }: any) => {
       </View>
 
       {/* Right component (Notification icon) */}
-      <TouchableOpacity onPress={() => {/* Handle notification icon press */ }}>
-        <Ionicons name="notifications-outline" size={24} color="white" />
+      <TouchableOpacity onPress={toggleColorScheme} style={{ padding: 10 }}>
+        {colorScheme === 'light' ? (
+          <Image source={require('@/assets/icons/dark_mode.png')} resizeMode="contain" style={{ width: 30, height: 30 }} />
+        ) : (
+          <Image source={require('@/assets/icons/light_mode.png')} resizeMode="contain" style={{ width: 30, height: 30 }} />
+        )}
       </TouchableOpacity>
     </View>
   );
@@ -47,6 +57,7 @@ const Sidebar = ({ isOpen, onClose }: any) => {
 };
 
 export default function TabLayout() {
+  const { colorScheme, toggleColorScheme } = useColorSchemeContext();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -57,7 +68,7 @@ export default function TabLayout() {
     setIsSidebarOpen(false);
   };
 
-  const colorScheme = useColorScheme();
+  // const colorScheme = useColorScheme();
 
   return (
     <View style={{ flex: 1 }}>
@@ -68,11 +79,12 @@ export default function TabLayout() {
       <View style={{ flex: 1 }}>
         <Tabs
           screenOptions={{
-            tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+            tabBarActiveTintColor: colorScheme === 'light' ? COLORS.primary : COLORS.white,
             // Disable the static render of the header on web
             // to prevent a hydration error in React Navigation v6.
             headerShown: useClientOnlyValue(false, true),
-            tabBarStyle: { height: 50, backgroundColor: '#fff', paddingBottom: 2, paddingTop: 2 },
+            tabBarStyle: { height: 50, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary, paddingBottom: 8, paddingTop: 5 },
+            tabBarLabelStyle: { fontFamily: FONT.medium }
           }}
         >
           <Tabs.Screen
@@ -81,7 +93,16 @@ export default function TabLayout() {
               title: 'Home',
               headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
               headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />
+              tabBarIcon: ({ color }) => <TabBarIcon size={22} name="home" color={color} />
+            }}
+          />
+          <Tabs.Screen
+            name="three"
+            options={{
+              title: 'Translator',
+              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
+              headerStyle: { backgroundColor: '#5495fb' },
+              tabBarIcon: ({ color }) => <MaterialIcons name="g-translate" size={24} color={color} />,
             }}
           />
           <Tabs.Screen
@@ -90,7 +111,7 @@ export default function TabLayout() {
               title: 'Contact',
               headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
               headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <AntDesign name="customerservice" size={24} color={color} />,
+              tabBarIcon: ({ color }) => <MaterialIcons name="import-contacts" size={24} color={color} />,
             }}
           />
         </Tabs>
@@ -130,7 +151,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: 'red',
     padding: 20,
   },
   appInfo: {

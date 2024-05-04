@@ -3,6 +3,7 @@ import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react
 import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
@@ -50,6 +51,7 @@ const DATA = [
 ];
 
 const index = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -70,22 +72,22 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={{ backgroundColor: '#f2f2f2', flex: 1 }}>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={categories}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/idioms-and-phrases/${item.name}`} style={styles.itemContainer} asChild>
+                        <Link href={`/idioms-and-phrases/${item.name}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
                                     <Text style={styles.item_icon}>{item.name.toUpperCase()}</Text>
-                                    <Text style={styles.title}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>
+                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>
                                 </View>
                             </TouchableOpacity>
                         </Link>
                     )}
                     keyExtractor={(item, index) => index.toString()}
-                    contentContainerStyle={{ paddingBottom: 20 }}
+                    contentContainerStyle={{ gap: 10 }}
                 />
             </View>
         </React.Fragment>
@@ -94,17 +96,10 @@ const index = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        marginTop: 10,
-        marginBottom: -15,
-    },
-    sectionTitle: {
-        fontSize: 18,
-        marginBottom: 10,
-        fontFamily: FONT.bold,
+        flex: 1
     },
     itemContainer: {
         flexDirection: "row",
-        backgroundColor: "#fff",
         margin: 5,
         borderRadius: 5,
         padding: 5,

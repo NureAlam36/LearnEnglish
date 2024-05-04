@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
 import { LinearGradient } from "expo-linear-gradient";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { Link } from "expo-router";
 
@@ -46,9 +47,28 @@ const DATA = [
 ];
 
 const JobSolution = () => {
+  const { colorScheme } = useColorSchemeContext();
+
   return (
-    <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>Job Solution</Text>
+    <View
+      style={[
+        styles.sectionContainer,
+        {
+          backgroundColor:
+            colorScheme === "light" ? "#fff" : COLORS.darkSecondary,
+        },
+      ]}
+    >
+      <Text
+        style={[
+          styles.sectionTitle,
+          {
+            color: colorScheme === "light" ? COLORS.darkText : COLORS.lightText,
+          },
+        ]}
+      >
+        Job Solution
+      </Text>
       <FlatList
         data={DATA}
         renderItem={({ item }) => (
@@ -67,7 +87,19 @@ const JobSolution = () => {
                     resizeMode="contain"
                   />
                 </LinearGradient>
-                <Text style={styles.title}>{item.title}</Text>
+                <Text
+                  style={[
+                    styles.title,
+                    {
+                      color:
+                        colorScheme === "light"
+                          ? COLORS.darkText
+                          : COLORS.lightText,
+                    },
+                  ]}
+                >
+                  {item.title}
+                </Text>
               </View>
             </TouchableOpacity>
           </Link>
@@ -84,7 +116,6 @@ const JobSolution = () => {
 const styles = StyleSheet.create({
   sectionContainer: {
     marginVertical: 10,
-    backgroundColor: "#fff",
     padding: 15,
     borderRadius: 10,
   },

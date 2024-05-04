@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "question": "A person who believes that laws and governments are not necessary is known as -",
+    "options": ["a militant", "a terrorist", "an anarchist", "an extremist"],
+    "answer": "an anarchist"
+  },
+  {
+    "id": 2,
+    "question": "He went to ___ hospital because he had ___ heart attack. Use article in the gap-",
+    "options": ["no article, an", "a, an", "no article, a", "the, no article"],
+    "answer": "no article, a"
+  },
+  {
+    "id": 3,
+    "question": "The word 'florid' indicates--",
+    "options": ["flower", "flour", "foliage", "floor"],
+    "answer": "flower"
+  },
+  {
+    "id": 4,
+    "question": "Complete the following sentence :'Had I known you were waiting outside, I -",
+    "options": [
+      "had invited you to come in",
+      "would invite you to come in",
+      "would be inviting you to come in",
+      "would have invited you to come in"
+    ],
+    "answer": "would have invited you to come in"
+  },
+  {
+    "id": 5,
+    "question": "Cricket is a kind of play. It is also a kind of --",
+    "options": ["food", "bird", "flower", "insect"],
+    "answer": "insect"
+  },
+  {
+    "id": 6,
+    "question": "A soporific speech is likely to --",
+    "options": [
+      "be incomprehensible",
+      "appeal primarily to emotions",
+      "put one to sleep",
+      "stimulate action"
+    ],
+    "answer": "put one to sleep"
+  },
+  {
+    "id": 7,
+    "question": "Select the word with right spelling -",
+    "options": [
+      "Schizophrenia",
+      "Seizophrania",
+      "Scizophrenia",
+      "Schizophrania"
+    ],
+    "answer": "Schizophrenia"
+  },
+  {
+    "id": 8,
+    "question": "Love for the whole world is called ?",
+    "options": ["misogyny", "misanthropy", "philanthropy", "benevolence"],
+    "answer": "philanthropy"
+  },
+  {
+    "id": 9,
+    "question": "When we want to mean a government by the richest class we use the term",
+    "options": ["Oligarchy", "Cryptocracy", "Aristocracy", "Plutocracy"],
+    "answer": "Plutocracy"
+  },
+  {
+    "id": 10,
+    "question": "Hospitals ___ the sick",
+    "options": ["operate", "admit", "nurse", "treat"],
+    "answer": "treat"
+  },
+  {
+    "id": 11,
+    "question": "The warning of the authority falls on deaf ears. Here warning does the function of -",
+    "options": ["adverb", "adjective", "verb", "noun"],
+    "answer": "noun"
+  },
+  {
+    "id": 12,
+    "question": "Identify the correct passive form of the sentence below:\n\n'Do you know them?",
+    "options": [
+      "Are they known by you?",
+      "Are they known to you?",
+      "Ate they known with you?",
+      "Would they be known by you?"
+    ],
+    "answer": "Are they known to you?"
+  },
+  {
+    "id": 13,
+    "question": "'Panacea' means-",
+    "options": ["pancreatic", "Cure all", "widespread disease", "gland"],
+    "answer": "Cure all"
+  },
+  {
+    "id": 14,
+    "question": "What is the plural number of 'ovum' -",
+    "options": ["ovams", "ovumes", "ova", "ovums"],
+    "answer": "ova"
+  },
+  {
+    "id": 15,
+    "question": "কোন শব্দযুগলটি ভিন্ন?",
+    "options": [
+      "False, True",
+      "Sharp, Blunt",
+      "Abundance, Scarcity",
+      "Love, affection"
+    ],
+    "answer": "Love, affection"
+  },
+  {
+    "id": 16,
+    "question": "'A Christams Carol' is a ___ by Charles Dickens.",
+    "options": ["ballad", "sketch story", "historical novel", "Short Novel"],
+    "answer": "Short Novel"
+  },
+  {
+    "id": 17,
+    "question": "'There was a small reception following the wedding'. The word 'following' in the sentence above is a/an -",
+    "options": ["adjective", "adverb", "Preposition", "noun"],
+    "answer": "Preposition"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following words has been formed with a prefix?",
+    "options": ["authentic", "amoral", "amnesia", "aspersions"],
+    "answer": "amoral"
+  },
+  {
+    "id": 19,
+    "question": "লেফটেন্যান্ট জেনারেল শব্দের সঠিক ইংরেজি বানান কোনটি?",
+    "options": ["Lieutenant", "Leaftenant", "Leiftenant", "Lieaflenant"],
+    "answer": "Lieutenant"
+  },
+  {
+    "id": 20,
+    "question": "'To be, or not to be - that is the question,'-- is a famous soliloquy from --",
+    "options": ["Hamlet", "Macbeth", "King Lear", "Othello"],
+    "answer": "Hamlet"
+  },
+  {
+    "id": 21,
+    "question": "'Geriatrics' is the branch of medicine concerned with the diseases and care of --",
+    "options": ["old women", "newly-weds", "newborn babies", "old people"],
+    "answer": "old people"
+  },
+  {
+    "id": 22,
+    "question": "নিচের উপমাটি পূর্ণকারী শব্দ কোনটি ?",
+    "options": ["Flower", "Tree", "Twig", "Branch"],
+    "answer": "Twig"
+  },
+  {
+    "id": 23,
+    "question": "'Hand out' এর শুদ্ধ বাংলা পরিভাষা হচ্ছে ?",
+    "options": ["হস্ত পত্র", "প্রচার পত্র", "জ্ঞাপনপত্র", "তথ্য পত্র"],
+    "answer": "জ্ঞাপনপত্র"
+  }
+]

@@ -1,14 +1,15 @@
 import React from 'react'
-import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
+import { View, Text, FlatList, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
 import { Stack } from 'expo-router'
 import { MaterialIcons } from '@expo/vector-icons';
 
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import proverbs from '@/data/proverbs.json'
 
 const index = () => {
-
+    const { colorScheme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
@@ -19,18 +20,18 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View>
+            <ScrollView style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={proverbs}
                     keyExtractor={item => item.id.toString()}
                     renderItem={({ item, index }) => (
-                        <TouchableOpacity style={[styles.item, index % 2 === 0 ? styles.itemEven : null]} activeOpacity={0.6}>
-                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, color: COLORS.gray, marginBottom: 10 }}>{item.bangla}</Text>
-                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: COLORS.black }}>{item.english}</Text>
+                        <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? '#f6f6f6' : COLORS.darkPrimary) : '' }]} activeOpacity={0.6}>
+                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, marginBottom: 10, color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }}>{item.bangla}</Text>
+                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }}>{item.english}</Text>
                         </TouchableOpacity>
                     )}
                 />
-            </View>
+            </ScrollView>
         </React.Fragment >
     )
 }
@@ -38,12 +39,8 @@ const index = () => {
 const styles = StyleSheet.create({
     item: {
         padding: 15,
-        borderBottomWidth: 1,
-        borderBottomColor: '#e1e1e1'
-    },
-
-    itemEven: {
-        backgroundColor: '#f6f6f6',
+        // borderBottomWidth: 1,
+        // borderBottomColor: '#e1e1e1'
     }
 })
 

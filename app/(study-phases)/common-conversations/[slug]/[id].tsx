@@ -6,10 +6,12 @@ import { COLORS, FONT } from '@/constants';
 import { AntDesign, Feather } from '@expo/vector-icons';
 import { useRoute } from '@react-navigation/native';
 
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import conversations from '@/data/conversations.json';
 
 const Conversation = () => {
     const route = useRoute();
+    const { colorScheme } = useColorSchemeContext();
     const { id, slug } = route.params as any;
 
     const [topicName, setTopicName] = useState<any>([]);
@@ -60,7 +62,7 @@ const Conversation = () => {
                     headerRight: () => <Feather name="play-circle" size={32} color="white" onPress={() => speakConversation()} />
                 }}
             />
-            <View style={{ flex: 1, backgroundColor: '#fff', paddingHorizontal: 15 }}>
+            <View style={{ flex: 1, paddingHorizontal: 15, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <FlatList
                     data={dialog}
                     renderItem={({ item, index }) => (
@@ -68,7 +70,7 @@ const Conversation = () => {
                             {
                                 index % 2 === 0 ? <View style={{ alignItems: 'center', gap: 12, flexDirection: 'row' }}>
                                     <View style={{ display: 'flex', flexDirection: 'row', gap: 10 }}>
-                                        <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: COLORS.gray }}>Amy:</Text>
+                                        <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>Amy:</Text>
                                         <AntDesign name="sound" size={24} color={COLORS.gray2} onPress={() => speakText(item.text, '1st')} />
                                     </View>
                                     <View style={{ backgroundColor: '#5495fb', maxWidth: '90%', padding: 10, borderRadius: 5 }}>
@@ -79,7 +81,7 @@ const Conversation = () => {
                                 </View>
                                     : <View style={{ alignItems: 'center', gap: 12, flexDirection: 'row' }}>
                                         <View style={{ display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center' }}>
-                                            <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: COLORS.gray }}>Lisa:</Text>
+                                            <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>Lisa:</Text>
                                             <AntDesign name="sound" size={24} color={COLORS.gray2} onPress={() => speakText(item.text, '2nd')} />
                                         </View>
                                         <View style={{ backgroundColor: '#eaeef6', maxWidth: '90%', padding: 10, borderRadius: 5 }}>
@@ -102,7 +104,6 @@ const Conversation = () => {
 
 const styles = StyleSheet.create({
     item: {
-        backgroundColor: '#fff',
         display: 'flex',
         gap: 16,
         marginVertical: 15,

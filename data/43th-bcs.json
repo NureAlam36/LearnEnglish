@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "question": "The phrase ‘sine die’ means-",
+    "options": ["half-heartedly", "doubtfully", "fixed", "uncertain"],
+    "answer": "doubtfully"
+  },
+  {
+    "id": 2,
+    "question": "Fill in the gap: Birds fly ___ in the sky.",
+    "options": ["random", "at large", "at a stitch", "are long"],
+    "answer": "are long"
+  },
+  {
+    "id": 3,
+    "question": "Who is the author of ‘Jane Eyre’?",
+    "options": [
+      "Charlotte Bronte",
+      "Emily Bronte",
+      "Jane Austen",
+      "Mary Shelley"
+    ],
+    "answer": "Charlotte Bronte"
+  },
+  {
+    "id": 4,
+    "question": "The most famous romantic poet of English literature is-",
+    "options": [
+      "John Dryden",
+      "Alexander Pope",
+      "William Wordsworth",
+      "T. S. Eliot"
+    ],
+    "answer": "William Wordsworth"
+  },
+  {
+    "id": 5,
+    "question": "Identify the correct synonym for the word ‘magnanimous’.",
+    "options": ["unkind", "generous", "revengeful", "friendly"],
+    "answer": "generous"
+  },
+  {
+    "id": 6,
+    "question": "Which gender is the word ‘orphan’?",
+    "options": ["neuter", "feminine", "common", "masculine"],
+    "answer": "common"
+  },
+  {
+    "id": 7,
+    "question": "Who wrote the play ‘The Way of the World’?",
+    "options": [
+      "William Shakespeare",
+      "William Congreve",
+      "Ben Jonson",
+      "Oscar Wilde"
+    ],
+    "answer": "William Congreve"
+  },
+  {
+    "id": 8,
+    "question": "“Better to reign in Hell, than serve in Heav’n.”-Who wrote this?",
+    "options": [
+      "Geoffrey Chaucer",
+      "Christopher Marlowe",
+      "John Milton",
+      "P. B. Shelley"
+    ],
+    "answer": "John Milton"
+  },
+  {
+    "id": 9,
+    "question": "Who is not an Irish Writer?",
+    "options": [
+      "Oscar Wilde",
+      "James Joyce",
+      "Jonathan Swift",
+      "D. H. Lawrence"
+    ],
+    "answer": "D. H. Lawrence"
+  },
+  {
+    "id": 10,
+    "question": "‘A herd of cattle is passing’. The underlined word is a/an-",
+    "options": ["adverb", "adjective", "collective noun", "abstract noun"],
+    "answer": "collective noun"
+  },
+  {
+    "id": 11,
+    "question": "What is the adjective form of the word ‘people’?",
+    "options": ["populous", "popular", "popularity", "popularize"],
+    "answer": "populous"
+  },
+  {
+    "id": 12,
+    "question": "A speech full of too many words is-",
+    "options": [
+      "a big speech",
+      "maiden speech",
+      "a verbose speech",
+      "an unimportant speech"
+    ],
+    "answer": "a verbose speech"
+  },
+  {
+    "id": 13,
+    "question": "Who is the poet of the poem ‘Ozymandias’?",
+    "options": [
+      "P. B. Shelley",
+      "William Wordsworth",
+      "S. T. Coleridge",
+      "John Keats"
+    ],
+    "answer": "P. B. Shelley"
+  },
+  {
+    "id": 14,
+    "question": "‘Moby Dick’, a novel, was written by-",
+    "options": [
+      "Herman Melville",
+      "Nathaniel Hawthorne",
+      "Mark Twain",
+      "William Faulkner"
+    ],
+    "answer": "Herman Melville"
+  },
+  {
+    "id": 15,
+    "question": "“if Winter comes, can Spring be far behind?”- Who wrote this?",
+    "options": [
+      "William Blake",
+      "S. T. Coleridge",
+      "Lord Byron",
+      "P. B. Shelley"
+    ],
+    "answer": "P. B. Shelley"
+  },
+  {
+    "id": 16,
+    "question": "O’ Henry was from-",
+    "options": ["Canada", "America", "England", "Ireland"],
+    "answer": "America"
+  },
+  {
+    "id": 17,
+    "question": "‘He contemplated marrying his cousin’. Here ‘marrying’ is a/an-",
+    "options": ["present participle", "gerund", "verb", "infinitive"],
+    "answer": "gerund"
+  },
+  {
+    "id": 18,
+    "question": "‘No Second Troy’ is a-",
+    "options": ["short story", "novel", "poem", "drama"],
+    "answer": "poem"
+  },
+  {
+    "id": 19,
+    "question": "Who is not a modern poet?",
+    "options": ["W. B. Yeats", "W. H. Auden", "John Keats", "T. S. Eliot"],
+    "answer": "John Keats"
+  },
+  {
+    "id": 20,
+    "question": "Who is the author of the novel ‘The God of Small Things’?",
+    "options": [
+      "Thomas Hardy",
+      "Jhumpa Lahiri",
+      "R. K. Narayan",
+      "Arundhati Roy"
+    ],
+    "answer": "Arundhati Roy"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following novels is not written by an English writer?",
+    "options": [
+      "A Passage to India",
+      "Sons and Lovers",
+      "One Hundred Years of Solitude",
+      "Pride and Prejudice"
+    ],
+    "answer": "One Hundred Years of Solitude"
+  },
+  {
+    "id": 22,
+    "question": "Where is the setting of the play ‘Hamlet’?",
+    "options": ["England", "Italy", "France", "Denmark"],
+    "answer": "Denmark"
+  },
+  {
+    "id": 23,
+    "question": "The word ‘to genuflect’ means-",
+    "options": [
+      "to be genuine",
+      "to reflect",
+      "to bend the knee",
+      "to be flexible"
+    ],
+    "answer": "to bend the knee"
+  },
+  {
+    "id": 24,
+    "question": "Fill in the blank: ‘She went to New Market ___’.",
+    "options": ["on foot", "on feet", "by foot", "by walking"],
+    "answer": "on foot"
+  },
+  {
+    "id": 25,
+    "question": "Identify the word which is spelt incorrectly:",
+    "options": ["fluctuation", "remission", "ocassion", "decision"],
+    "answer": "ocassion"
+  },
+  {
+    "id": 26,
+    "question": "Change the voice: ‘Nobody trusts a traitor’.",
+    "options": [
+      "A traitor is trusted",
+      "A traitor should not be trusted",
+      "Everybody hates a traitor",
+      "A traitor is not trusted by anybody"
+    ],
+    "answer": "A traitor is not trusted by anybody"
+  },
+  {
+    "id": 27,
+    "question": "Choose the right form of verb: ‘It is high time we (act) on the matter.’",
+    "options": ["are acting", "acted", "have acted", "could act"],
+    "answer": "acted"
+  },
+  {
+    "id": 28,
+    "question": "What is the noun form of the word ‘laugh’?",
+    "options": ["laughing", "laughable", "laughter", "laughingly"],
+    "answer": "laughter"
+  },
+  {
+    "id": 29,
+    "question": "What kind of play is ‘Julius Ceasar’?",
+    "options": ["romantic", "anti-romantic", "comedy", "historical"],
+    "answer": "historical"
+  },
+  {
+    "id": 30,
+    "question": "Do you have any money __ you? Fill in the blank with appropriate preposition:",
+    "options": ["to", "over", "in", "on"],
+    "answer": "on"
+  },
+  {
+    "id": 31,
+    "question": "What is the antonym for the word ‘deformation’?",
+    "options": ["distortion", "contortion", "wholeness", "disfigurement"],
+    "answer": "wholeness"
+  },
+  {
+    "id": 32,
+    "question": "Words inscribed on a tomb is an-",
+    "options": ["epitome", "epithet", "episode", "epitaph"],
+    "answer": "epitaph"
+  },
+  {
+    "id": 33,
+    "question": "The phrase ‘dog days’ means-",
+    "options": [
+      "hot weather",
+      "cold shower",
+      "rain-soaked streets",
+      "ice storm"
+    ],
+    "answer": "hot weather"
+  },
+  {
+    "id": 34,
+    "question": "__ was both a poet and a painter.",
+    "options": ["John Keats", "Spenser", "William Blake", "John Donne"],
+    "answer": "William Blake"
+  },
+  {
+    "id": 35,
+    "question": "Identify the correct sentence:",
+    "options": [
+      "The girl burst out tears",
+      "The girl burst into tears",
+      "The girl burst with tears",
+      "The girl bursted out tears"
+    ],
+    "answer": "The girl burst into tears"
+  }
+]

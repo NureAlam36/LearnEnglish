@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native
 import { useRoute } from '@react-navigation/native';
 import { COLORS, FONT } from "@/constants";
 
+import Stack from 'expo-router/stack';
+
 import bcs10th from '@/data/10th-bcs.json';
 import bcs11th from '@/data/11th-bcs.json';
 import bcs12th from '@/data/12th-bcs.json';
@@ -29,6 +31,16 @@ import bcs32nd from '@/data/32th-bcs.json';
 import bcs33rd from '@/data/33th-bcs.json';
 import bcs34th from '@/data/34th-bcs.json';
 import bcs35th from '@/data/35th-bcs.json';
+import bcs36th from '@/data/36th-bcs.json';
+import bcs37th from '@/data/37th-bcs.json';
+import bcs38th from '@/data/38th-bcs.json';
+import bcs39th from '@/data/39th-bcs.json';
+import bcs40th from '@/data/40th-bcs.json';
+import bcs41st from '@/data/41th-bcs.json';
+import bcs42nd from '@/data/42th-bcs.json';
+import bcs43rd from '@/data/43th-bcs.json';
+import bcs44th from '@/data/44th-bcs.json';
+import bcs45th from '@/data/45th-bcs.json';
 
 // Create a mapping object to map IDs to JSON files
 const dataMap: any = {
@@ -58,6 +70,16 @@ const dataMap: any = {
     33: bcs33rd,
     34: bcs34th,
     35: bcs35th,
+    36: bcs36th,
+    37: bcs37th,
+    38: bcs38th,
+    39: bcs39th,
+    40: bcs40th,
+    41: bcs41st,
+    42: bcs42nd,
+    43: bcs43rd,
+    44: bcs44th,
+    45: bcs45th
 };
 
 const MCQs = () => {
@@ -81,32 +103,40 @@ const MCQs = () => {
     const optionKeys = ['A', 'B', 'C', 'D', 'E'];
 
     return (
-        <View style={styles.sectionContainer}>
-            <FlatList
-                data={selectedData}
-                renderItem={({ item, index }) => (
-                    <TouchableOpacity style={{}} activeOpacity={0.7}>
-                        <View style={styles.item}>
-                            <Text style={[styles.title, styles.fontMedium, { marginBottom: 8, fontSize: 17 }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
-                            <FlatList
-                                data={item.options}
-                                renderItem={({ item, index }) => (
-                                    <Text style={styles.title}><Text style={styles.fontBold}>{optionKeys[index]})</Text> {item}</Text>
-                                )}
-                                keyExtractor={(item) => item}
-                                style={{ gap: 8 }}
-                                showsVerticalScrollIndicator={false}
-                            />
-
-                            <Text style={[styles.title, { marginTop: 15 }]}><Text style={[styles.fontMedium, { color: '#28a745' }]}>Correct Answer:</Text> {item.answer}</Text>
-                        </View>
-                    </TouchableOpacity>
-                )}
-                keyExtractor={(item) => item.id}
-                contentContainerStyle={{ gap: 10 }}
-                showsVerticalScrollIndicator={false}
+        <React.Fragment>
+            <Stack.Screen
+                options={{
+                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{id}th BCS Preliminary</Text>,
+                    headerStyle: { backgroundColor: '#5495fb' }
+                }}
             />
-        </View>
+            <View style={styles.sectionContainer}>
+                <FlatList
+                    data={selectedData}
+                    renderItem={({ item, index }) => (
+                        <TouchableOpacity style={{}} activeOpacity={0.7}>
+                            <View style={styles.item}>
+                                <Text style={[styles.title, styles.fontMedium, { marginBottom: 8, fontSize: 17 }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
+                                <FlatList
+                                    data={item.options}
+                                    renderItem={({ item, index }) => (
+                                        <Text style={styles.title}><Text style={styles.fontBold}>{optionKeys[index]})</Text> {item}</Text>
+                                    )}
+                                    keyExtractor={(item) => item}
+                                    style={{ gap: 8 }}
+                                    showsVerticalScrollIndicator={false}
+                                />
+
+                                <Text style={[styles.title, { marginTop: 15 }]}><Text style={[styles.fontMedium, { color: '#28a745' }]}>Correct Answer:</Text> {item.answer}</Text>
+                            </View>
+                        </TouchableOpacity>
+                    )}
+                    keyExtractor={(item) => item.id}
+                    contentContainerStyle={{ gap: 10 }}
+                    showsVerticalScrollIndicator={false}
+                />
+            </View>
+        </React.Fragment>
     );
 };
 

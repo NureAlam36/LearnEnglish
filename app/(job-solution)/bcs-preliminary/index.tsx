@@ -52,7 +52,7 @@ const StudyPhases = () => {
             <Stack.Screen
                 options={{
                     title: 'Famous Quotations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Famous Quotations</Text>,
+                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>BCS Preliminary</Text>,
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />

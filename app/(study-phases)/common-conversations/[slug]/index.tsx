@@ -13,144 +13,12 @@ import { useRoute } from '@react-navigation/native';
 
 import { Link } from "expo-router";
 
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { conversations } from '@/data/conversations.json';
-
-const DATA = [
-    {
-        id: "1",
-        title: "Travel",
-        link: "travel",
-        image:
-            "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
-    },
-    {
-        id: "2",
-        title: "Food",
-        link: "food",
-        image:
-            "https://cdn.iconscout.com/icon/premium/png-256-thumb/vocabulary-3599386-3015185.png?f=webp",
-    },
-    {
-        id: "3",
-        title: "Books",
-        link: "books",
-        image: "https://cdn-icons-png.flaticon.com/512/4039/4039248.png",
-    },
-    {
-        id: "4",
-        title: "Movies and TV shows",
-        link: "story",
-        image: "https://cdn-icons-png.flaticon.com/512/8750/8750683.png",
-    },
-    {
-        id: "5",
-        title: "Hobbies",
-        link: "essential-phrases",
-        image: "https://www.southlakebaptist.com/wp-content/uploads/Words-Icon.png",
-    },
-    {
-        id: "6",
-        title: "Technology",
-        link: "common-conversations",
-        image: "https://cdn-icons-png.flaticon.com/512/608/608968.png",
-    },
-    {
-        id: "7",
-        title: "Music",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "8",
-        title: "Health and fitness",
-        link: "famous-quotations",
-        image: "https://cdn-icons-png.flaticon.com/512/6314/6314351.png",
-    },
-    {
-        id: "9",
-        title: "Pets",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "10",
-        title: "Relationships",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "11",
-        title: "Education",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "12",
-        title: "Career",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "13",
-        title: "Current events",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "14",
-        title: "Nature and environment",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "15",
-        title: "Art and creativity",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "16",
-        title: "Culture",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    }, {
-        id: "17",
-        title: "Philosophy and spirituality",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    }, {
-        id: "18",
-        title: "Finance",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    }, {
-        id: "18",
-        title: "Fashion",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    }, {
-        id: "20",
-        title: "Social media",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-];
 
 const StudyPhases = () => {
     const route = useRoute();
+    const { colorScheme } = useColorSchemeContext();
     const { slug } = route.params as any;
 
     const [topics, setTopics] = useState<any>([]);
@@ -174,7 +42,7 @@ const StudyPhases = () => {
         })
     }, [])
 
-    console.log(topics);
+    // console.log(topics);
 
     return (
         <React.Fragment>
@@ -185,26 +53,27 @@ const StudyPhases = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
-                <Text style={styles.sectionTitle}>Chapter List</Text>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
+                <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Chapter List</Text>
                 <FlatList
                     data={topics}
                     renderItem={({ item, index }) => (
                         // @ts-ignore
-                        <Link href={`/common-conversations/${slug}/${item.id}`} style={styles.itemContainer} asChild>
+                        <Link href={`/common-conversations/${slug}/${item.id}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
                                     <View style={styles.itemIcon}>
                                         <Text
                                             style={styles.itemSn}>{item.id}</Text>
                                     </View>
-                                    <Text style={styles.title}>{item.name}</Text>
+                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
                                 </View>
                             </TouchableOpacity>
                         </Link>
                     )}
                     keyExtractor={(item) => item.id}
                     showsVerticalScrollIndicator={false}
+                    contentContainerStyle={{ gap: 10 }}
                 />
             </View>
         </React.Fragment>
@@ -213,9 +82,8 @@ const StudyPhases = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        marginTop: 10,
-        marginBottom: 40,
-        paddingHorizontal: 10,
+        flex: 1,
+        padding: 10,
     },
     sectionTitle: {
         fontSize: 18,
@@ -224,8 +92,6 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flex: 1,
-        backgroundColor: "#fff",
-        margin: 5,
         borderRadius: 5,
         padding: 5,
     },
@@ -255,7 +121,6 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 14,
         fontFamily: FONT.medium,
-        color: "#1f1f1f",
         textAlign: 'center'
     },
 });

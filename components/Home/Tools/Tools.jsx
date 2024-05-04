@@ -12,6 +12,7 @@ import {
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
 import { LinearGradient } from "expo-linear-gradient";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [
   {
@@ -39,29 +40,53 @@ const DATA = [
   },
 ];
 
-const Item = ({ item }) => (
-  <Link href={`/${item.link}`} style={styles.itemContainer} asChild>
-    <TouchableOpacity style={styles.item} activeOpacity={0.7}>
-      <LinearGradient
-        colors={item.background}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={styles.imageContainer}
-      >
-        <Image source={{ uri: item.image }} style={{ width: 35, height: 35 }} />
-      </LinearGradient>
-      <Text style={styles.title}>{item.title}</Text>
-    </TouchableOpacity>
-  </Link>
-);
-
 const Tools = () => {
+  const { colorScheme } = useColorSchemeContext();
+
   return (
     <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>Tools</Text>
+      <Text
+        style={[
+          styles.sectionTitle,
+          {
+            color: colorScheme === "light" ? COLORS.darkText : COLORS.lightText,
+          },
+        ]}
+      >
+        Tools
+      </Text>
       <FlatList
         data={DATA}
-        renderItem={({ item }) => <Item item={item} />}
+        renderItem={({ item }) => (
+          <Link href={`/${item.link}`} asChild>
+            <TouchableOpacity style={styles.item} activeOpacity={0.7}>
+              <LinearGradient
+                colors={item.background}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={styles.imageContainer}
+              >
+                <Image
+                  source={{ uri: item.image }}
+                  style={{ width: 35, height: 35 }}
+                />
+              </LinearGradient>
+              <Text
+                style={[
+                  styles.title,
+                  {
+                    color:
+                      colorScheme === "light"
+                        ? COLORS.darkText
+                        : COLORS.lightText,
+                  },
+                ]}
+              >
+                {item.title}
+              </Text>
+            </TouchableOpacity>
+          </Link>
+        )}
         keyExtractor={(item) => item.id}
         horizontal={true}
         showsHorizontalScrollIndicator={false}

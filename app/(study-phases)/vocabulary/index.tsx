@@ -3,10 +3,13 @@ import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity, Dimensions }
 import { Stack } from 'expo-router'
 
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import vocabulary from '@/data/vocabulary.json';
 
 const index = () => {
+    const { colorScheme } = useColorSchemeContext();
+
     const screenWidth = Dimensions.get('window').width;
     const adjustedWidth = screenWidth - 50;
 
@@ -23,11 +26,11 @@ const index = () => {
                 <FlatList
                     data={vocabulary}
                     renderItem={({ item, index }) => (
-                        <TouchableOpacity style={[styles.item, index % 2 === 0 ? styles.itemEven : null]} activeOpacity={0.7}>
+                        <TouchableOpacity style={[styles.item, index % 2 === 0 ? (colorScheme === 'light' ? { backgroundColor: '#fff' } : { backgroundColor: COLORS.darkSecondary }) : (colorScheme === 'light' ? { backgroundColor: '#f6f6f6' } : { backgroundColor: COLORS.darkPrimary })]} activeOpacity={0.7}>
                             <View style={{ transform: 'rotate(180deg)' }}>
                                 <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/3298/3298618.png' }} style={{ width: 20, height: 20 }} />
                             </View>
-                            <Text style={[styles.text, { width: adjustedWidth }]}>{item.en} - {item.bn}</Text>
+                            <Text style={[styles.text, { width: adjustedWidth, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.en} - {item.bn}</Text>
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id.toString()}
@@ -40,8 +43,8 @@ const index = () => {
 
 const styles = StyleSheet.create({
     item: {
-        paddingHorizontal: 10,
         paddingVertical: 15,
+        paddingHorizontal: 10,
         backgroundColor: 'white',
         display: 'flex',
         flexDirection: 'row',
@@ -52,7 +55,6 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 16,
         fontFamily: FONT.regular,
-        color: COLORS.gray,
     },
     itemEven: {
         backgroundColor: '#f6f6f6',

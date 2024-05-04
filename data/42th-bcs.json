@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "question": "What is the correct indirect form of : He said, “You had better see a doctor.”",
+    "options": [
+      "He advised him to see a doctor",
+      "He advised that he should see a doctor",
+      "He suggested that he had seen a doctor",
+      "He proposed to see a doctor"
+    ],
+    "answer": "He advised him to see a doctor"
+  },
+  {
+    "id": 2,
+    "question": "Identify the word that remains same in plural form:",
+    "options": ["deer", "horse", "elephant", "tiger"],
+    "answer": "deer"
+  },
+  {
+    "id": 3,
+    "question": "যদি ICE : COLDNESS হয়, তবে EARTH : ?",
+    "options": ["weight", "jungle", "sea", "gravity"],
+    "answer": "gravity"
+  },
+  {
+    "id": 4,
+    "question": "Which word is correct?",
+    "options": ["Furnitures", "Informations", "Sceneries", "Proceeds"],
+    "answer": "Proceeds"
+  },
+  {
+    "id": 5,
+    "question": "The word ‘flying’ in the sentence ‘Look at the flying bird’ is a:",
+    "options": ["gerund", "participle", "verbal noun", "gerundial infinitive"],
+    "answer": "participle"
+  },
+  {
+    "id": 6,
+    "question": "Identify the determiner in the sentence ‘Bring me that book’",
+    "options": ["bring", "me", "that", "book"],
+    "answer": "that"
+  },
+  {
+    "id": 7,
+    "question": "‘A Passage to India’ is written by:",
+    "options": [
+      "E. M. Forster",
+      "Nirad C. Chaudhuri",
+      "Rudyard Kipling",
+      "Walt Whitman"
+    ],
+    "answer": "E. M. Forster"
+  },
+  {
+    "id": 8,
+    "question": "What is the meaning of musk?",
+    "options": [
+      "a form of drama",
+      "a face cover",
+      "a substance used in making perfume",
+      "a disguise"
+    ],
+    "answer": "a substance used in making perfume"
+  },
+  {
+    "id": 9,
+    "question": "অনুকম্পা শব্দের ইংরেজি কোনটি?",
+    "options": ["Clemency", "Enthral", "Erudition", "Fathom"],
+    "answer": "Clemency"
+  },
+  {
+    "id": 10,
+    "question": "Identify the correctly spelled one:",
+    "options": ["Cesarean", "caeserean", "ciserian", "scissorian"],
+    "answer": "Cesarean"
+  },
+  {
+    "id": 11,
+    "question": "What is the function of a topic sentence?",
+    "options": [
+      "to introduce the topic",
+      "to analyse the topic",
+      "to present the main idea",
+      "to expand the idea"
+    ],
+    "answer": "to present the main idea"
+  },
+  {
+    "id": 12,
+    "question": "Who wrote Dr. Zivago?",
+    "options": [
+      "Maxim Gorky",
+      "Boris Pastornak",
+      "Fyodor Dostoevsky",
+      "Leo Tolstoy"
+    ],
+    "answer": "Boris Pastornak"
+  },
+  {
+    "id": 13,
+    "question": "Would you please find out Bangladesh ___ the map.",
+    "options": ["in", "on", "over", "at"],
+    "answer": "on"
+  },
+  {
+    "id": 14,
+    "question": "Hasan has read most of the ___ of Shakespeare:",
+    "options": ["poem", "play", "drama", "works"],
+    "answer": "works"
+  },
+  {
+    "id": 15,
+    "question": "‘For God’s sake, hold your tongue and let me love’ occurs in a novel by:",
+    "options": [
+      "Jane Austen",
+      "Syed Waliullah",
+      "Somerset Maugham",
+      "Rabindranath Tagore"
+    ],
+    "answer": "Rabindranath Tagore"
+  },
+  {
+    "id": 16,
+    "question": "Complete the sentence: If I were you, I ____ take the money:",
+    "options": ["shall", "will", "would", "may"],
+    "answer": "would"
+  },
+  {
+    "id": 17,
+    "question": "Go and catch the falling star. Here the ‘falling’ is",
+    "options": ["an adverb", "a preposition", "an adjective", "a verb"],
+    "answer": "an adjective"
+  },
+  {
+    "id": 18,
+    "question": "Fill in the gap with the correct form of verb: The police ___ informed yesterday.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "were"
+  },
+  {
+    "id": 19,
+    "question": "‘Giving someone the cold shoulder’ means-",
+    "options": [
+      "to torture somebody",
+      "to harm someone",
+      "to appreciate someone",
+      "to ignore somebody"
+    ],
+    "answer": "to ignore somebody"
+  },
+  {
+    "id": 20,
+    "question": "‘September on the Jessore Road’ is written by:",
+    "options": [
+      "Madhusudan Dutt",
+      "Allen Ginsberg",
+      "Kaiser Huq",
+      "Vikram Seth"
+    ],
+    "answer": "Allen Ginsberg"
+  },
+  {
+    "id": 21,
+    "question": "Liza had given me two:",
+    "options": [
+      "pair of jean",
+      "pairs of jean",
+      "pair of jeans",
+      "pairs of jeans"
+    ],
+    "answer": "pairs of jeans"
+  }
+]

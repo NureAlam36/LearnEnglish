@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "question": "She insisted on leaving the house.",
+    "options": ["he", "him", "himself", "His"],
+    "answer": "His"
+  },
+  {
+    "id": 2,
+    "question": "The phrase 'Achilles' heel' means-",
+    "options": [
+      "a strong point",
+      "a strong solution",
+      "a weak point",
+      "a permanent solution"
+    ],
+    "answer": "a weak point"
+  },
+  {
+    "id": 3,
+    "question": "He does not adhere __ any principle.",
+    "options": ["by", "in", "at", "to"],
+    "answer": "to"
+  },
+  {
+    "id": 4,
+    "question": "Millennium is a period of-",
+    "options": ["100 year", "1000 year", "1 million year", "1 billion year"],
+    "answer": "1000 year"
+  },
+  {
+    "id": 5,
+    "question": "Identify the passive form of the following sentence: 'Who has broken this jug?'",
+    "options": [
+      "By whom has this jag been broken?",
+      "By whom has this jug broken?",
+      "By whom this jug has been broken",
+      "Whom has this jug been broken?"
+    ],
+    "answer": "By whom has this jag been broken?"
+  },
+  {
+    "id": 6,
+    "question": "Who is not a Victorian poet?",
+    "options": [
+      "Alfred Tennyson",
+      "Robert Browning",
+      "William Wandsworth",
+      "Matthew Arnold"
+    ],
+    "answer": "William Wandsworth"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following novels was written by George Orwell?",
+    "options": [
+      "1984",
+      "Brave New World",
+      "A Clockwork Orange",
+      "For Whom the Bell Tolls"
+    ],
+    "answer": "1984"
+  },
+  {
+    "id": 8,
+    "question": "Identify the correct sentence:",
+    "options": [
+      "She speaks English like English",
+      "She speaks the English like English.",
+      "She speaks the English like the English",
+      "She speaks English like the English"
+    ],
+    "answer": "She speaks English like the English"
+  },
+  {
+    "id": 9,
+    "question": "When one makes a promise, one must not go __ on it.",
+    "options": ["forward", "by", "back", "around"],
+    "answer": "back"
+  },
+  {
+    "id": 10,
+    "question": "I can't put up with him any more. Here 'put up with' means:",
+    "options": ["To protect", "To terminate", "To tolerate", "To prevent"],
+    "answer": "To tolerate"
+  },
+  {
+    "id": 11,
+    "question": "The poem 'To His Coy Mistress' was written by:",
+    "options": [
+      "Andrew Marvell",
+      "John Donne",
+      "George Herbert",
+      "Henry Vaughan"
+    ],
+    "answer": "Andrew Marvell"
+  },
+  {
+    "id": 12,
+    "question": "The synonym of 'altitude' is-",
+    "options": ["height", "width", "length", "depth"],
+    "answer": "height"
+  },
+  {
+    "id": 13,
+    "question": "The character, Elizabeth Bennett, appears in the novel-",
+    "options": [
+      "Pride and Prejudice",
+      "Tess of the d'Urbervilles",
+      "Wuthering Heights",
+      "Jane Eyre"
+    ],
+    "answer": "Pride and Prejudice"
+  },
+  {
+    "id": 14,
+    "question": "This could have worked if I - been more far-sighted.",
+    "options": ["have", "had", "might", "would"],
+    "answer": "had"
+  },
+  {
+    "id": 15,
+    "question": "What may be considered courteous in one culture may be arrogant in another. Here the word 'arrogant' means-",
+    "options": ["rude", "gracious", "coarse", "pretentious"],
+    "answer": "rude"
+  },
+  {
+    "id": 16,
+    "question": "Don Juan was composed by-",
+    "options": [
+      "WB Yeats",
+      "E. B. Browning",
+      "George Gordon Byron",
+      "Alexander Pope"
+    ],
+    "answer": "George Gordon Byron"
+  },
+  {
+    "id": 17,
+    "question": "Identify the imperative sentence:",
+    "options": [
+      "Shut up!",
+      "Shahin is playing football.",
+      "I shall cook dinner now.",
+      "What is your name?"
+    ],
+    "answer": "Shut up!"
+  },
+  {
+    "id": 18,
+    "question": "'Black Death' is the name of a --",
+    "options": [
+      "fever",
+      "black fever",
+      "plague pandemic",
+      "death of black people"
+    ],
+    "answer": "plague pandemic"
+  },
+  {
+    "id": 19,
+    "question": "'Ulysses' is a poem written by-",
+    "options": [
+      "Robert Browning",
+      "Wordsworth",
+      "S.T. Coleridge",
+      "Alfred Tennyson"
+    ],
+    "answer": "Alfred Tennyson"
+  },
+  {
+    "id": 20,
+    "question": "Who wrote the poem 'Ozymandias'?",
+    "options": [
+      "Thomas Hardy",
+      "Robert Frost",
+      "P. B. Shelley",
+      "Edmund Spenser"
+    ],
+    "answer": "P. B. Shelley"
+  },
+  {
+    "id": 21,
+    "question": "Clym Yeobright is the protagonist of the novel-",
+    "options": [
+      "David Copperfield",
+      "Adam Bede",
+      "A Passage to India",
+      "The Return of the Native"
+    ],
+    "answer": "The Return of the Native"
+  },
+  {
+    "id": 22,
+    "question": "The train is running - forty miles an hour.",
+    "options": ["on", "to", "at", "for"],
+    "answer": "at"
+  },
+  {
+    "id": 23,
+    "question": "He divided the money - the two children.",
+    "options": ["between", "over", "among", "in between"],
+    "answer": "between"
+  },
+  {
+    "id": 24,
+    "question": "No one can --- that he is clever.",
+    "options": ["defy", "deny", "admire", "denounce"],
+    "answer": "deny"
+  },
+  {
+    "id": 25,
+    "question": "Choose the right form of verb: The boy (to lie) on the floor yesterday.",
+    "options": ["lies", "lied", "lay", "layed"],
+    "answer": "lay"
+  },
+  {
+    "id": 26,
+    "question": "She played on the flute. Passive form is-",
+    "options": [
+      "The flute was played by her.",
+      "The flute was played on by her.",
+      "The flute was being played by her.",
+      "The flute was played to her."
+    ],
+    "answer": "The flute was played on by her."
+  },
+  {
+    "id": 27,
+    "question": "Antonym for ‘Adieu’-",
+    "options": ["Farewell", "Good bye", "Hello", "Valediction"],
+    "answer": "Hello"
+  },
+  {
+    "id": 28,
+    "question": "'Walk fast lest you should miss the train'. This is a-",
+    "options": [
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Integrative sentence"
+    ],
+    "answer": "Complex sentence"
+  },
+  {
+    "id": 29,
+    "question": "A number of singers in a church is called-",
+    "options": ["Choir", "Cast", "Claque", "Clump"],
+    "answer": "Choir"
+  },
+  {
+    "id": 30,
+    "question": "Put the right word in the blank. He reached the - of his literary career.",
+    "options": ["abattoir", "acme", "admonish", "abdicate"],
+    "answer": "acme"
+  },
+  {
+    "id": 31,
+    "question": "Anger may be compared - fire.",
+    "options": ["to", "within", "against", "Into"],
+    "answer": "to"
+  },
+  {
+    "id": 32,
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He discussed the matter.",
+      "He discussed about the matter.",
+      "He discussed on the matter.",
+      "None of the above."
+    ],
+    "answer": "He discussed the matter."
+  },
+  {
+    "id": 33,
+    "question": "Identify the correctly spelt word.",
+    "options": ["Horroscope", "Pneumonia", "Occassion", "Embarass"],
+    "answer": "Pneumonia"
+  },
+  {
+    "id": 34,
+    "question": "Desdemona is a character in the following Shakespearean play:",
+    "options": ["Macbeth", "Othello", "Hamlet", "King Lear"],
+    "answer": "Othello"
+  },
+  {
+    "id": 35,
+    "question": "Meteorology is related to-",
+    "options": [
+      "concrete slabs",
+      "motor vehicles",
+      "weather forecasting",
+      "motor neuron disease"
+    ],
+    "answer": "weather forecasting"
+  }
+]

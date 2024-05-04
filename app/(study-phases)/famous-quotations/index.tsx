@@ -8,6 +8,7 @@ import { COLORS, FONT } from "../../../constants";
 import { AntDesign } from '@expo/vector-icons';
 
 import famousQuotations from '@/data/famous-quotations.json'
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [
     {
@@ -97,6 +98,7 @@ const quotes = [
 ]
 
 const StudyPhases = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -122,7 +124,7 @@ const StudyPhases = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.container}>
+            <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
                 <LinearGradient
                     colors={['#1e3c72', '#1e3c72', '#2a5298']}
                     start={{ x: 0, y: 0 }}
@@ -139,12 +141,12 @@ const StudyPhases = () => {
                         ))}
                     </Swiper>
                 </LinearGradient>
-                <Text style={styles.sectionTitle}>Topics</Text>
+                <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Topics</Text>
                 <FlatList
                     data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <Link href={`/famous-quotations/${item.link}`} style={styles.itemContainer} asChild>
+                        <Link href={`/famous-quotations/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
                                     <View style={styles.imageWraper}>
@@ -154,7 +156,7 @@ const StudyPhases = () => {
                                             resizeMode="contain"
                                         />
                                     </View>
-                                    <Text style={styles.title}>{item.name}</Text>
+                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
                                 </View>
                             </TouchableOpacity>
                         </Link>

@@ -115,13 +115,13 @@ const StudyPhases = () => {
             <Stack.Screen
                 options={{
                     title: 'Famous Quotations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Famous Quotations</Text>,
+                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>BCS 10th - 45th</Text>,
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
             <ScrollView showsVerticalScrollIndicator={false}>
                 {
-                    Array.from({ length: 35 }, (_, index) => (
+                    Array.from({ length: 36 }, (_, index) => (
                         <Link href={`/bcs-solution/${index + 10}`} key={index} style={styles.itemContainer} asChild>
                             <TouchableOpacity activeOpacity={0.7}>
                                 <View style={styles.item}>
