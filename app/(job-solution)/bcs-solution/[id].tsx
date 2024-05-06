@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native
 import { useRoute } from '@react-navigation/native';
 import { COLORS, FONT } from "@/constants";
 
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+
 import Stack from 'expo-router/stack';
 
 import bcs10th from '@/data/10th-bcs.json';
@@ -85,6 +87,7 @@ const dataMap: any = {
 const MCQs = () => {
     const route = useRoute();
     const { id } = route.params as any;
+    const { colorScheme } = useColorSchemeContext();
 
     // State to store the selected data
     const [selectedData, setSelectedData] = useState<any>(null);
@@ -110,24 +113,24 @@ const MCQs = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={selectedData}
                     renderItem={({ item, index }) => (
                         <TouchableOpacity style={{}} activeOpacity={0.7}>
-                            <View style={styles.item}>
-                                <Text style={[styles.title, styles.fontMedium, { marginBottom: 8, fontSize: 17 }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
+                            <View style={[styles.item, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                                <Text style={[styles.title, styles.fontMedium, { marginBottom: 8, fontSize: 17, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
                                 <FlatList
                                     data={item.options}
                                     renderItem={({ item, index }) => (
-                                        <Text style={styles.title}><Text style={styles.fontBold}>{optionKeys[index]})</Text> {item}</Text>
+                                        <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}><Text style={styles.fontBold}>{optionKeys[index]})</Text> {item}</Text>
                                     )}
                                     keyExtractor={(item) => item}
                                     style={{ gap: 8 }}
                                     showsVerticalScrollIndicator={false}
                                 />
 
-                                <Text style={[styles.title, { marginTop: 15 }]}><Text style={[styles.fontMedium, { color: '#28a745' }]}>Correct Answer:</Text> {item.answer}</Text>
+                                <Text style={[styles.title, { marginTop: 15, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}><Text style={[styles.fontMedium, { color: '#28a745' }]}>Correct Answer:</Text> {item.answer}</Text>
                             </View>
                         </TouchableOpacity>
                     )}
@@ -146,13 +149,11 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     item: {
-        backgroundColor: '#fff',
         padding: 15,
         borderRadius: 10
     },
     title: {
         fontSize: 16,
-        color: "#1f1f1f",
     },
     fontRegular: {
         fontFamily: FONT.regular,

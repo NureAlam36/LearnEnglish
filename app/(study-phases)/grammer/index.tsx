@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
 import { Stack } from 'expo-router'
 import { Link } from "expo-router";
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [

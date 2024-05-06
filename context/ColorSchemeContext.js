@@ -9,9 +9,7 @@ const ColorSchemeContext = createContext();
 export const useColorSchemeContext = () => useContext(ColorSchemeContext);
 
 export const ColorSchemeProvider = ({ children }) => {
-    const [colorScheme, setColorScheme] = useState('light'); // Set default value
-
-
+    const [colorScheme, setColorScheme] = useState('light');
 
     const toggleColorScheme = () => {
         setColorScheme(prevScheme => {
@@ -21,6 +19,7 @@ export const ColorSchemeProvider = ({ children }) => {
             return newScheme;
         });
     };
+
 
     return (
         <ColorSchemeContext.Provider value={{ colorScheme, toggleColorScheme }}>

@@ -7,7 +7,7 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from "react-native";
-import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
+import { COLORS, FONT } from "../../../constants";
 import { Stack } from 'expo-router'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
@@ -164,8 +164,6 @@ const StudyPhases = () => {
             setCategories((categories: any) => [...categories, category]);
         })
     }, [])
-
-    console.log(categories);
 
 
     return (

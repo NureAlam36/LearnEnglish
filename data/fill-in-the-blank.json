@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Prepositions",
+    "link": "prepositions",
+    "lesions": [
+      {
+        "id": 1,
+        "name": "Exercise 1",
+        "exercises": [
+          {
+            "id": 1,
+            "question": "The boss didn’t punish him for coming late. He must be_____ his good books.",
+            "options": ["in", "on", "at", "by"],
+            "answer": "in"
+          },
+          {
+            "id": 2,
+            "question": "Do you take pride_____ your appearance?",
+            "options": ["in", "on", "at", "by"],
+            "answer": "in"
+          },
+          {
+            "id": 3,
+            "question": "He is always busy_____ his work.",
+            "options": ["in", "on", "at", "with"],
+            "answer": "with"
+          },
+          {
+            "id": 4,
+            "question": "He is not interested_____ politics.",
+            "options": ["in", "on", "at", "by"],
+            "answer": "in"
+          },
+          {
+            "id": 5,
+            "question": "I tripped ______ the cat and fell downstairs.",
+            "options": ["in", "on", "at", "by"],
+            "answer": "in"
+          },
+          {
+            "id": 6,
+            "question": "I tripped ______ the cat and fell downstairs.",
+            "options": ["in", "on", "at", "by"],
+            "answer": "in"
+          }
+        ]
+      }
+    ]
+  }
+]

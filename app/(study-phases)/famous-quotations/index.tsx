@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image, ImageBackground } from "react-native";
+import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { Stack } from 'expo-router';
 import Swiper from 'react-native-swiper';
 import { Link } from "expo-router";
@@ -9,60 +9,6 @@ import { AntDesign } from '@expo/vector-icons';
 
 import famousQuotations from '@/data/famous-quotations.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-
-const DATA = [
-    {
-        id: "1",
-        title: "Travel",
-        link: "travel",
-        image:
-            "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
-    },
-    {
-        id: "2",
-        title: "Food",
-        link: "food",
-        image:
-            "https://cdn.iconscout.com/icon/premium/png-256-thumb/vocabulary-3599386-3015185.png?f=webp",
-    },
-    {
-        id: "3",
-        title: "Books",
-        link: "books",
-        image: "https://cdn-icons-png.flaticon.com/512/4039/4039248.png",
-    },
-    {
-        id: "4",
-        title: "Movies and \nTV shows",
-        link: "story",
-        image: "https://cdn-icons-png.flaticon.com/512/8750/8750683.png",
-    },
-    {
-        id: "5",
-        title: "Hobbies",
-        link: "essential-phrases",
-        image: "https://www.southlakebaptist.com/wp-content/uploads/Words-Icon.png",
-    },
-    {
-        id: "6",
-        title: "Technology",
-        link: "common-conversations",
-        image: "https://cdn-icons-png.flaticon.com/512/608/608968.png",
-    },
-    {
-        id: "7",
-        title: "Music",
-        link: "proverbs",
-        image:
-            "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
-    },
-    {
-        id: "8",
-        title: "Health \nand fitness",
-        link: "famous-quotations",
-        image: "https://cdn-icons-png.flaticon.com/512/6314/6314351.png",
-    }
-];
 
 const quotes = [
     {
@@ -112,8 +58,6 @@ const StudyPhases = () => {
             setCategories((categories: any) => [...categories, category]);
         })
     }, [])
-
-    console.log(categories);
 
     return (
         <React.Fragment>

@@ -30,7 +30,7 @@ const MCQComponent = ({ item, index }: any) => {
         setResultMessages({ ...resultMessages, [questionId]: isCorrect ? "Correct!" : "Incorrect!" });
     };
     return (
-        <View style={styles.item}>
+        <View style={[styles.item, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
             <LinearGradient
                 colors={['#1e3c72', '#1e3c72', '#2a5298']}
                 start={{ x: 0, y: 0 }}
@@ -39,7 +39,7 @@ const MCQComponent = ({ item, index }: any) => {
             >
                 <Text style={[styles.fontMedium, { color: 'white' }]}>Question: {index + 1}</Text>
             </LinearGradient>
-            <Text style={[styles.title, styles.fontMedium, { paddingTop: 20, marginBottom: 10, fontSize: 17 }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
+            <Text style={[styles.title, styles.fontMedium, { paddingTop: 20, marginBottom: 10, fontSize: 17, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}><Text style={styles.fontBold}>{index + 1}.</Text> {item.question}</Text>
             <RadioButtonGroup
                 containerStyle={{ gap: 10 }}
                 selected={selectedOptions[item.id]}
@@ -52,8 +52,8 @@ const MCQComponent = ({ item, index }: any) => {
                         value={optionIndex}
                         label={
                             <View style={{ display: 'flex', flexDirection: 'row', gap: 5, marginLeft: 8 }}>
-                                <Text style={[styles.fontMedium, { fontSize: 15, color: selectedOptions[item.id] === optionIndex ? (resultMessages[item.id] === "Correct!" ? "green" : "red") : COLORS.gray }]}>{optionKeys[optionIndex]})</Text>
-                                <Text style={[styles.fontMedium, { fontSize: 15, color: selectedOptions[item.id] === optionIndex ? (resultMessages[item.id] === "Correct!" ? "green" : "red") : COLORS.gray }]}>{option}</Text>
+                                <Text style={[styles.fontMedium, { fontSize: 15, color: selectedOptions[item.id] === optionIndex ? (resultMessages[item.id] === "Correct!" ? "green" : "red") : colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{optionKeys[optionIndex]})</Text>
+                                <Text style={[styles.fontMedium, { fontSize: 15, color: selectedOptions[item.id] === optionIndex ? (resultMessages[item.id] === "Correct!" ? "green" : "red") : colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{option}</Text>
                             </View>
                         }
                     />
@@ -77,7 +77,6 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 16,
-        color: "#1f1f1f",
     },
     fontMedium: {
         fontFamily: FONT.medium,

@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import {
     View,
-    Image,
     Text,
     FlatList,
     StyleSheet,
     TouchableOpacity,
 } from "react-native";
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 import { Stack } from 'expo-router'
 import { useRoute } from '@react-navigation/native';
 

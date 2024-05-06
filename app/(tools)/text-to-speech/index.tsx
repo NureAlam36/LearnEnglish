@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, Alert } from 'react-native';
 import { Stack } from 'expo-router';
-import { FontAwesome, Entypo, AntDesign } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-
-import * as FileSystem from 'expo-file-system';
-
 
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();

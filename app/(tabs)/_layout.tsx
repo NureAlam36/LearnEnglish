@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Image, SafeAreaView, StyleSheet, Text, View, TouchableOpacity, Pressable, Button } from 'react-native';
 import { Tabs } from 'expo-router';
-import { Ionicons, AntDesign, FontAwesome, Entypo, MaterialIcons } from '@expo/vector-icons';
+import { Ionicons, AntDesign, FontAwesome, FontAwesome5, MaterialIcons } from '@expo/vector-icons';
 
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
 
@@ -97,26 +97,36 @@ export default function TabLayout() {
             }}
           />
           <Tabs.Screen
+            name="exercise"
+            options={{
+              title: 'Exercise',
+              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
+              headerStyle: { backgroundColor: '#5495fb' },
+              tabBarIcon: ({ color }) => <FontAwesome5 name="book-reader" size={20} color={color} />,
+            }}
+          />
+          <Tabs.Screen
             name="three"
             options={{
               title: 'Translator',
               headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
               headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <MaterialIcons name="g-translate" size={24} color={color} />,
+              tabBarIcon: ({ color }) => <MaterialIcons name="g-translate" size={20} color={color} />,
             }}
           />
+
           <Tabs.Screen
             name="two"
             options={{
               title: 'Contact',
               headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
               headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <MaterialIcons name="import-contacts" size={24} color={color} />,
+              tabBarIcon: ({ color }) => <MaterialIcons name="import-contacts" size={22} color={color} />,
             }}
           />
         </Tabs>
       </View>
-    </View>
+    </View >
   );
 }
 

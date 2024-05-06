@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, TextInput, Alert, Button } from 'react-native';
+import { View, Text, StyleSheet, TextInput, Alert, Button } from 'react-native';
 import { Stack } from 'expo-router';
-import { FontAwesome5, FontAwesome6, Entypo, AntDesign } from '@expo/vector-icons';
+import { FontAwesome5, FontAwesome6, AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
 import { Clipboard } from 'react-native';
@@ -16,9 +16,9 @@ const Index = () => {
 
     const changeLanguage = () => {
         if (language === 'en') {
-            setLanguage('en');
-        } else {
             setLanguage('bn');
+        } else {
+            setLanguage('en');
         }
 
         setInputText(translatedText);

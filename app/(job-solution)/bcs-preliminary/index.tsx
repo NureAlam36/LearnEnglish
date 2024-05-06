@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image, ScrollView } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from "react-native";
 import { Stack } from 'expo-router';
-import Swiper from 'react-native-swiper';
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
-import { AntDesign } from '@expo/vector-icons';
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import famousQuotations from '@/data/famous-quotations.json'
 
@@ -33,6 +32,7 @@ const DATA = [
 ];
 
 const StudyPhases = () => {
+    const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -56,36 +56,37 @@ const StudyPhases = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <ScrollView showsVerticalScrollIndicator={false}>
-                {
-                    Array.from({ length: DATA.length }, (_, index) => (
-                        <Link href={`/bcs-preliminary/${DATA[index].id}`} key={index} style={styles.itemContainer} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <View style={styles.imageWraper}>
-                                        <Image
-                                            style={styles.image}
-                                            source={{ uri: "https://smartstore.beijerelectronics.com/-/media/inRiver/1/0/4/7/8/10478-1123.ashx?as=0&h=458&la=en&w=458&hash=8C51FFFFE43A1FEA225C1DB2F2DBC87D3F751AD0 " }}
-                                            resizeMode="contain"
-                                        />
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
+                <ScrollView showsVerticalScrollIndicator={false}>
+                    {
+                        Array.from({ length: DATA.length }, (_, index) => (
+                            <Link href={`/bcs-preliminary/${DATA[index].id}`} key={index} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
+                                <TouchableOpacity activeOpacity={0.7}>
+                                    <View style={styles.item}>
+                                        <View style={styles.imageWraper}>
+                                            <Image
+                                                style={styles.image}
+                                                source={{ uri: "https://smartstore.beijerelectronics.com/-/media/inRiver/1/0/4/7/8/10478-1123.ashx?as=0&h=458&la=en&w=458&hash=8C51FFFFE43A1FEA225C1DB2F2DBC87D3F751AD0 " }}
+                                                resizeMode="contain"
+                                            />
+                                        </View>
+                                        <View>
+                                            <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{DATA[index].title}</Text>
+                                            <Text style={[styles.title, { color: COLORS.gray2, marginTop: 3 }]}>English</Text>
+                                        </View>
                                     </View>
-                                    <View>
-                                        <Text style={styles.title}>{DATA[index].title}</Text>
-                                        <Text style={[styles.title, { color: COLORS.gray2, marginTop: 3 }]}>English</Text>
-                                    </View>
-                                </View>
-                            </TouchableOpacity>
-                        </Link>
-                    ))
-                }
-            </ScrollView>
+                                </TouchableOpacity>
+                            </Link>
+                        ))
+                    }
+                </ScrollView>
+            </View>
         </React.Fragment >
     );
 };
 
 const styles = StyleSheet.create({
     itemContainer: {
-        backgroundColor: "#fff",
         margin: 5,
         borderRadius: 5,
         padding: 5,
@@ -110,7 +111,6 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 14,
         fontFamily: FONT.medium,
-        color: "#1f1f1f",
     },
     sliderButton: {
         color: 'red', // Change this color as per your preference

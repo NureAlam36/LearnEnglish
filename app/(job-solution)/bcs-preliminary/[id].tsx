@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, FlatList, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, FlatList, ActivityIndicator } from 'react-native';
 import { useRoute } from '@react-navigation/native';
 import { Stack } from 'expo-router'
 
@@ -7,10 +7,12 @@ import { COLORS, FONT } from "@/constants";
 import { questions as DATA } from '@/data/bcs-english.json';
 
 import MCQComponent from '@/components/MCQComponent';
+import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const MCQs = () => {
     const route = useRoute();
     const { id } = route.params as any;
+    const { colorScheme } = useColorSchemeContext();
     const [isLoading, setIsLoading] = useState(true);
     const [questions, setQuestions] = useState<any>([]);
 
@@ -41,6 +43,7 @@ const MCQs = () => {
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
+                backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary
             }}>
                 <ActivityIndicator size="large" color={COLORS.primary} />
             </View>
@@ -55,7 +58,7 @@ const MCQs = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={styles.sectionContainer}>
+            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={questions}
                     renderItem={({ item, index }) => (

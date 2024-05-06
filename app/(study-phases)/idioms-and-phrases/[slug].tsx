@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { View, Text, Image, FlatList, TouchableOpacity, Dimensions, StyleSheet } from 'react-native'
 import { Stack } from 'expo-router'
 
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 
 import { useRoute } from '@react-navigation/native';
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';

@@ -8,7 +8,7 @@ import { useRoute } from '@react-navigation/native';
 import dailyUseSentences from '@/data/daily-use-sentences.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 
 const DATA = [
     {
@@ -83,8 +83,6 @@ const index = () => {
     const speakText = (text: string) => {
         Speech.speak(text, { language: 'en' });
     };
-
-    console.log(sentences);
 
 
     return (

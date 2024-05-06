@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native'
 import { Stack } from 'expo-router'
 
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import vocabulary from '@/data/vocabulary.json';
