@@ -68,7 +68,7 @@ const StudyPhases = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
+            <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <LinearGradient
                     colors={['#1e3c72', '#1e3c72', '#2a5298']}
                     start={{ x: 0, y: 0 }}

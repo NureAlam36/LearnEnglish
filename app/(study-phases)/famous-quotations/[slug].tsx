@@ -68,7 +68,6 @@ const index = () => {
 const styles = StyleSheet.create({
     sectionContainer: {
         flex: 1,
-        padding: 5,
         marginBottom: -20
     },
     item: {

@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
         padding: 5,
     },
     sectionTitle: {
-        fontSize: 18,
+        fontSize: 17,
         marginTop: 5,
         marginBottom: 10,
         fontFamily: FONT.bold,

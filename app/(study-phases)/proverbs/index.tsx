@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, FlatList, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { Stack } from 'expo-router'
 
 import { COLORS, FONT } from "@/constants";
@@ -19,7 +19,7 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <ScrollView style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={proverbs}
                     keyExtractor={item => item.id.toString()}
@@ -29,8 +29,9 @@ const index = () => {
                             <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }}>{item.english}</Text>
                         </TouchableOpacity>
                     )}
+                    showsVerticalScrollIndicator={false}
                 />
-            </ScrollView>
+            </View>
         </React.Fragment >
     )
 }

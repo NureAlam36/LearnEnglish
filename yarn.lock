@@ -2254,7 +2254,7 @@
     react-is "^16.13.0"
     use-latest-callback "^0.1.9"
 
-"@react-navigation/drawer@^6.5.8", "@react-navigation/drawer@^6.6.15":
+"@react-navigation/drawer@^6.5.8":
   version "6.6.15"
   resolved "https://registry.npmjs.org/@react-navigation/drawer/-/drawer-6.6.15.tgz"
   integrity sha512-GLkFQNxjtmxB/qXSHmu1DfoB89jCzW64tmX68iPndth+9U+0IP27GcCCaMZxQfwj+nI8Kn2zlTlXAZDIIHE+DQ==
@@ -2512,7 +2512,24 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.12.tgz"
   integrity sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==
 
-"@types/react@~18.2.45":
+"@types/react-native-indicators@^0.16.6":
+  version "0.16.6"
+  resolved "https://registry.npmjs.org/@types/react-native-indicators/-/react-native-indicators-0.16.6.tgz"
+  integrity sha512-m3H8cCX67zk7alEEdKdv+kYPzOHSCOiU+Brw04sXFBflw9R2HUM7IJnsM6lu96Lm7b8wyyW016ZsmzIHoQO3iQ==
+  dependencies:
+    "@types/react" "*"
+    react-native "*"
+
+"@types/react-native-table-component@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.npmjs.org/@types/react-native-table-component/-/react-native-table-component-1.2.8.tgz"
+  integrity sha512-ZhWnoW3LpzXx+fCyosNBVasVCuaWNCMDMcP0mO9FSSK8eRE4ihLTqKiit6zjpph9ot4LQ/mD8hmbhV0YpRLvOQ==
+  dependencies:
+    "@types/react" "*"
+    csstype "^3.0.3"
+    react-native "*"
+
+"@types/react@*", "@types/react@~18.2.45":
   version "18.2.79"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.2.79.tgz"
   integrity sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==
@@ -3619,7 +3636,7 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.0.3:
   version "3.1.3"
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
@@ -4150,7 +4167,6 @@ expo-asset@~9.0.2:
     "@react-native/assets-registry" "~0.73.1"
     blueimp-md5 "^2.10.0"
     expo-constants "~15.4.0"
-    expo-file-system "~16.0.0"
     invariant "^2.2.4"
     md5-file "^3.2.3"
 
@@ -4166,7 +4182,7 @@ expo-constants@*, expo-constants@~15.4.0, expo-constants@~15.4.3:
   dependencies:
     "@expo/config" "~8.5.0"
 
-expo-file-system@~16.0.0, expo-file-system@~16.0.9:
+expo-file-system@~16.0.9:
   version "16.0.9"
   resolved "https://registry.npmjs.org/expo-file-system/-/expo-file-system-16.0.9.tgz"
   integrity sha512-3gRPvKVv7/Y7AdD9eHMIdfg5YbUn2zbwKofjsloTI5sEC57SLUFJtbLvUCz9Pk63DaSQ7WIE1JM0EASyvuPbuw==
@@ -4281,7 +4297,6 @@ expo@*, expo@~50.0.14:
     "@expo/vector-icons" "^14.0.0"
     babel-preset-expo "~10.0.2"
     expo-asset "~9.0.2"
-    expo-file-system "~16.0.9"
     expo-font "~11.10.3"
     expo-keep-awake "~12.8.2"
     expo-modules-autolinking "1.10.3"
@@ -7184,6 +7199,13 @@ react-is@^17.0.1:
     invariant "^2.2.4"
     lodash "^4.17.21"
     prop-types "^15.7.2"
+
+react-native-indicators@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.npmjs.org/react-native-indicators/-/react-native-indicators-0.17.0.tgz"
+  integrity sha512-s23em477GHGxWeGczWrixScAZD6tQU4mx1fttlrwhEGKOxhBgp55Kh3RoD9Wj4yna4e5W35xQNoPqoJAT6QW5A==
+  dependencies:
+    prop-types "^15.5.10"
 
 react-native-progress-circle@^2.1.0:
   version "2.1.0"

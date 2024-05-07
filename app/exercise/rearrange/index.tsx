@@ -185,7 +185,7 @@ const Exercise = () => {
                             : <View style={{ marginTop: 50 }}>
                                 <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: COLORS.gray }}>Your Score</Text>
                                 <View style={{ display: 'flex', alignItems: 'center', marginTop: 30 }}>
-                                    {/* <ProgressCircle
+                                    <ProgressCircle
                                         percent={calCulatePercentage()}
                                         radius={50}
                                         borderWidth={8}
@@ -199,7 +199,7 @@ const Exercise = () => {
                                         bgColor="#fff"
                                     >
                                         <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
-                                    </ProgressCircle> */}
+                                    </ProgressCircle>
                                 </View>
                                 <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 50, marginTop: 20 }}>
                                     <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>

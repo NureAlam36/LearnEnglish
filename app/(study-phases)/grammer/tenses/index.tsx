@@ -35,9 +35,9 @@ const index = () => {
             />
             <View style={[styles.container, { backgroundColor: '#f2f2f2', flex: 1 }]}>
                 <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Tense বা কাল কাকে বলে?</Text>
-                <Text style={styles.text}>ক্রিয়ার কাল কে Tense বলা হয় ৷অর্থাৎ কোন কাজ সম্পাদনের সময়কে Tense বা কাল বলে। Tense দ্বারা সময়কে উল্লেখ করা হয় এবং যা বর্তমান, অতীত কিংবা ভবিষ্যত হতে পারে।</Text>
+                <Text style={styles.text}>ক্রিয়ার কাল কে Tense বলা হয়৷ অর্থাৎ কোন কাজ সম্পাদনের সময়কে Tense বা কাল বলে। Tense দ্বারা সময়কে উল্লেখ করা হয় এবং যা বর্তমান, অতীত কিংবা ভবিষ্যত হতে পারে।</Text>
 
-                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#a72a24' }]}>উদাহরণ:</Text>
+                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#a72a24' }]}>উদাহরণঃ</Text>
 
                 <View style={{ display: 'flex', gap: 5 }}>
                     <Text style={styles.text}>• I eat rice. (Present) আমি ভাত খাই ৷ (বর্তমান)</Text>
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     itemContainer: {
         flexDirection: "row",
         backgroundColor: "#fff",
-        margin: 5,
+        marginVertical: 5,
         borderRadius: 5,
         padding: 5,
     },
