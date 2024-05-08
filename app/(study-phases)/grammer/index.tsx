@@ -5,6 +5,8 @@ import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const DATA = [
     {
         id: 0,
@@ -58,17 +60,13 @@ const DATA = [
     },
 ];
 
-const index = () => {
+const Index = () => {
     const { colorScheme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Grammer</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Grammer" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <FlatList
                     data={DATA}
@@ -129,4 +127,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default index
+export default Index

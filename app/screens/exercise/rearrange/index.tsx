@@ -11,7 +11,8 @@ import Feather from '@expo/vector-icons/Feather';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import CustomHeader from '@/components/Headers/CustomHeader';
+// import CustomHeader from '@/components/Headers/CustomHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Exercise = () => {
     const { colorScheme } = useColorSchemeContext();
@@ -119,11 +120,8 @@ const Exercise = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    header: () => <CustomHeader title="Rearrange Sentence" />,
-                }}
-            />
+            <ContentHeader title="Rearrange Sentence" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
                     !showMessage && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
@@ -226,59 +224,58 @@ const Exercise = () => {
                     }
                 </View>
             </View>
-            {
-                !showMessage && <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
-                    {
-                        isChecked ? <View>
-                            <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
-                                <LinearGradient
-                                    colors={['#1e3c72', '#1e3c72', '#2a5298']}
-                                    start={{ x: 1, y: 1 }}
-                                    end={{ x: 1, y: 0 }}
-                                    style={{
-                                        height: 150,
-                                        borderRadius: 10,
-                                        margin: 10
-                                    }}
-                                >
 
-                                    <View style={{ marginTop: 5 }}>
-                                        {
-                                            isChecked && isCorrect ? (
-                                                <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
-                                                    <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/463/463574.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
-                                                    <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#00c47d' }}>আপনার উত্তর সঠিক</Text>
-                                                </View>
-                                            ) : isChecked && !isCorrect ? (
-                                                <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
-                                                    <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/5610/5610967.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
-                                                    <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#ff1f1f' }}>আপনার উত্তর সঠিক হয়নি!</Text>
-                                                </View>
-                                            ) : null
-                                        }
-                                    </View>
-                                </LinearGradient>
-                            </View>
-                            <TouchableOpacity
-                                activeOpacity={0.7}
-                                style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
-                                onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
-                                disabled={selectedOptions.length === 0}
+            <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
+                {
+                    !showMessage && isChecked ? <View>
+                        <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
+                            <LinearGradient
+                                colors={['#1e3c72', '#1e3c72', '#2a5298']}
+                                start={{ x: 1, y: 1 }}
+                                end={{ x: 1, y: 0 }}
+                                style={{
+                                    height: 150,
+                                    borderRadius: 10,
+                                    margin: 10
+                                }}
                             >
-                                <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
-                            </TouchableOpacity>
+
+                                <View style={{ marginTop: 5 }}>
+                                    {
+                                        isChecked && isCorrect ? (
+                                            <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
+                                                <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/463/463574.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
+                                                <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#00c47d' }}>আপনার উত্তর সঠিক</Text>
+                                            </View>
+                                        ) : isChecked && !isCorrect ? (
+                                            <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
+                                                <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/5610/5610967.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
+                                                <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#ff1f1f' }}>আপনার উত্তর সঠিক হয়নি!</Text>
+                                            </View>
+                                        ) : null
+                                    }
+                                </View>
+                            </LinearGradient>
                         </View>
-                            : <TouchableOpacity
-                                activeOpacity={0.7}
-                                style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
-                                onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
-                                disabled={selectedOptions.length === 0}
-                            >
-                                <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
-                            </TouchableOpacity>
-                    }
-                </View>
-            }
+                        <TouchableOpacity
+                            activeOpacity={0.7}
+                            style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
+                            onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
+                            disabled={selectedOptions.length === 0}
+                        >
+                            <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
+                        </TouchableOpacity>
+                    </View>
+                        : <TouchableOpacity
+                            activeOpacity={0.7}
+                            style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
+                            onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
+                            disabled={selectedOptions.length === 0}
+                        >
+                            <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
+                        </TouchableOpacity>
+                }
+            </View>
         </React.Fragment>
     );
 };

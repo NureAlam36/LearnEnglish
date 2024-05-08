@@ -10,6 +10,8 @@ import { AntDesign } from '@expo/vector-icons';
 import famousQuotations from '@/data/famous-quotations.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const quotes = [
     {
         "id": "1",
@@ -61,13 +63,8 @@ const StudyPhases = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Famous Quotations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Famous Quotations</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Famous Quotations" />
+
             <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <LinearGradient
                     colors={['#1e3c72', '#1e3c72', '#2a5298']}

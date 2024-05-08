@@ -9,6 +9,8 @@ import { questions as DATA } from '@/data/bcs-english.json';
 import MCQComponent from '@/components/MCQComponent';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
+import ContentHeader from '@/components/Headers/ContentHeader';
+
 const MCQs = () => {
     const route = useRoute();
     const { id } = route.params as any;
@@ -37,38 +39,37 @@ const MCQs = () => {
     // Function to handle option selection
 
 
-    if (isLoading) {
-        return (
-            <View style={{
-                flex: 1,
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary
-            }}>
-                <ActivityIndicator size="large" color={COLORS.primary} />
-            </View>
-        );
-    }
+    // if (isLoading) {
+    //     return (
+    //         <View style={{
+    //             flex: 1,
+    //             justifyContent: 'center',
+    //             alignItems: 'center',
+    //             backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary
+    //         }}>
+    //             <ActivityIndicator size="large" color={COLORS.primary} />
+    //         </View>
+    //     );
+    // }
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{pageTitle}</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
-            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
-                <FlatList
-                    data={questions}
-                    renderItem={({ item, index }) => (
-                        <MCQComponent item={item} index={index} />
-                    )}
-                    keyExtractor={(item) => item.id.toString()}
-                    contentContainerStyle={{ gap: 10 }}
-                    showsVerticalScrollIndicator={false}
-                />
-            </View>
+            <ContentHeader title={pageTitle} />
+            {
+                !isLoading ? <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
+                    <FlatList
+                        data={questions}
+                        renderItem={({ item, index }) => (
+                            <MCQComponent item={item} index={index} />
+                        )}
+                        keyExtractor={(item) => item.id.toString()}
+                        contentContainerStyle={{ gap: 10 }}
+                        showsVerticalScrollIndicator={false}
+                    />
+                </View>
+                    : <ActivityIndicator size="large" color={COLORS.primary} />
+            }
+
         </React.Fragment>
     );
 };

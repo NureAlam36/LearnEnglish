@@ -7,18 +7,15 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import proverbs from '@/data/proverbs.json'
 
-const index = () => {
+import ContentHeader from "@/components/Headers/ContentHeader";
+
+const Proverbs = () => {
     const { colorScheme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Proverbs',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Proverbs</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Proverbs" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={proverbs}
@@ -44,4 +41,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default index
+export default Proverbs

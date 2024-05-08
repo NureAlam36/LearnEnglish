@@ -12,16 +12,12 @@ import Feather from '@expo/vector-icons/Feather';
 import Fontisto from '@expo/vector-icons/Fontisto';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-import { Stack } from 'expo-router'
-
-import CustomHeader from '@/components/Headers/CustomHeader';
-
-import { useRoute } from '@react-navigation/native';
 import FillInTheBlank from '@/data/fill-in-the-blank.json';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
-const Exercise = ({ categoryLink, lesionId }: any) => {
-    const route = useRoute();
-    const { slug } = route.params as any;
+const Exercise = ({ route }: any) => {
+    // const route = useRoute();
+    const { categoryLink, lesionId } = route.params as any;
     const { colorScheme } = useColorSchemeContext();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState(null);
@@ -112,11 +108,7 @@ const Exercise = ({ categoryLink, lesionId }: any) => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    header: () => <CustomHeader title={currentLesion} />,
-                }}
-            />
+            <ContentHeader title={currentLesion} />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
@@ -170,7 +162,7 @@ const Exercise = ({ categoryLink, lesionId }: any) => {
 
                             {
                                 !showMessage && <TouchableOpacity activeOpacity={0.7}
-                                    style={[styles.nextButton, { backgroundColor: '#5495fb', marginTop: 30, opacity: !optionsDisabled ? 0.7 : 1 }]}
+                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 30, opacity: !optionsDisabled ? 0.7 : 1 }]}
                                     onPress={handleNextQuestion}
                                     disabled={!selectedOption}
                                 >
@@ -276,7 +268,7 @@ const styles = StyleSheet.create({
 
     },
     correctOption: {
-        backgroundColor: '#00c47d',
+        backgroundColor: '#1bb285',
     },
     incorrectOption: {
         backgroundColor: '#f37375',

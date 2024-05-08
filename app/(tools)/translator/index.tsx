@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, Alert, Button } from 'react-native';
-import { Stack } from 'expo-router';
 import { FontAwesome5, FontAwesome6, AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
 import { Clipboard } from 'react-native';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();
@@ -64,18 +64,8 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Translator',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Translator</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' },
-                    headerRight: () => (
-                        <View style={styles.headerStyle}>
-                            {/* <FontAwesome5 name="exchange-alt" size={24} color="white" /> */}
-                        </View>
-                    )
-                }}
-            />
+            <ContentHeader title="Translator" />
+
             <View style={{ flex: 1, padding: 15, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 <View style={{ display: 'flex', alignSelf: 'center', flexDirection: 'row', alignItems: 'center', gap: 30, marginTop: 5, marginBottom: 30 }}>
                     <Button title={language === 'en' ? 'English' : 'Bangla'} />

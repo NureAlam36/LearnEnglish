@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from "react-native";
-import { Stack } from 'expo-router';
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import famousQuotations from '@/data/famous-quotations.json'
+import ContentHeader from "@/components/Headers/ContentHeader";
 
 const DATA = [
     {
@@ -15,7 +15,6 @@ const DATA = [
     {
         id: 2,
         title: "BCS Preliminary 201-400",
-        link: "food",
     },
     {
         id: 3,
@@ -45,17 +44,12 @@ const StudyPhases = () => {
 
             setCategories((categories: any) => [...categories, category]);
         })
-    }, [])
+    }, []);
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Famous Quotations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>BCS Preliminary</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="BCS Preliminary" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <ScrollView showsVerticalScrollIndicator={false}>
                     {
@@ -111,11 +105,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 14,
         fontFamily: FONT.medium,
-    },
-    sliderButton: {
-        color: 'red', // Change this color as per your preference
-        fontSize: 24,
-    },
+    }
 });
 
 export default StudyPhases;

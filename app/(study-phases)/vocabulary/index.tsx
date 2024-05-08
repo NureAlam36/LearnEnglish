@@ -4,9 +4,10 @@ import { Stack } from 'expo-router';
 
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-import { useColorScheme } from '@/components/useColorScheme';
 
 import vocabularyData from '@/data/vocabulary.json';
+
+import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();
@@ -30,28 +31,10 @@ const Index = () => {
 
     const renderFooter = () => isLoading && <View style={{ paddingVertical: 15 }}><ActivityIndicator size="large" color="#0000ff" /></View>;
 
-    // if (isLoading) {
-    //     return (
-    //         <View style={{
-    //             flex: 1,
-    //             justifyContent: 'center',
-    //             alignItems: 'center',
-    //             backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary
-    //         }}>
-    //             <ActivityIndicator size="large" color={COLORS.primary} />
-    //         </View>
-    //     );
-    // }
-
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Vocabulary',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Vocabulary</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Vocabulary" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={vocabulary}

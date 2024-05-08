@@ -8,12 +8,13 @@ import {
     TouchableOpacity,
 } from "react-native";
 import { COLORS, FONT } from "../../../constants";
-import { Stack } from 'expo-router'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { Link } from "expo-router";
 
 import { conversations } from '@/data/conversations.json';
+
+import ContentHeader from "@/components/Headers/ContentHeader";
 
 const DATA = [
     {
@@ -168,13 +169,8 @@ const StudyPhases = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Common Conversations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Common Conversations</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Common Conversations" />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkSecondary }]}>
                 <Text
                     style={[

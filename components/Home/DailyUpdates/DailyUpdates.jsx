@@ -43,16 +43,13 @@ const DailyUpdates = () => {
               styles.item,
               {
                 backgroundColor:
-                  colorScheme === "light" ? "#fff" : COLORS.darkSecondary,
+                  colorScheme === "light" ? "#a2e7d6de" : COLORS.darkSecondary,
               },
             ]}
             activeOpacity={0.7}
           >
             <View style={styles.imageContainer}>
-              <Image
-                source={{ uri: item.image }}
-                style={{ width: 45, height: 45 }}
-              />
+              <Image style={styles.image} source={{ uri: item.image }} />
             </View>
             <Text
               style={[
@@ -80,7 +77,7 @@ const DailyUpdates = () => {
 
 const styles = StyleSheet.create({
   sectionContainer: {
-    marginTop: 10,
+    marginTop: 15,
     marginBottom: 10,
     alignItems: "flex-start",
   },
@@ -90,9 +87,16 @@ const styles = StyleSheet.create({
     padding: 20,
     gap: 15,
     borderRadius: 10,
-    width: 120,
+    width: 160,
+    flexDirection: "row",
+    borderWidth: 1,
+    borderColor: "#1bb28582",
   },
   imageContainer: {},
+  image: {
+    width: 36,
+    height: 36,
+  },
   title: {
     fontSize: 14,
     textAlign: "center",

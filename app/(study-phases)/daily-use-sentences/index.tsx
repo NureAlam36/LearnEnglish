@@ -8,6 +8,8 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import dailyUseSentences from '@/data/daily-use-sentences.json'
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const DATA = [
     {
         id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
@@ -94,7 +96,7 @@ const DATA = [
     }
 ];
 
-const index = () => {
+const Index = () => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -115,12 +117,8 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Daily use Sentences</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Daily Use Sentences" />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <View>
                     <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Categories</Text>
@@ -194,4 +192,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default index
+export default Index

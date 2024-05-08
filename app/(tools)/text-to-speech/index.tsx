@@ -5,6 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();
@@ -25,19 +26,8 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Text To Speech',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium }}>Text To Speech</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' },
-                    // headerRight: () => (
-                    //     <View style={styles.headerStyle}>
-                    //         <FontAwesome style={{ color: '#fff' }} name="save" size={24} color="black" />
-                    //         <Entypo style={{ color: '#fff' }} name="dots-three-vertical" size={24} color="black" />
-                    //     </View>
-                    // )
-                }}
-            />
+            <ContentHeader title="Text To Speech" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 <TextInput
                     style={[

@@ -1,81 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import { Image, SafeAreaView, StyleSheet, Text, View, TouchableOpacity, Pressable, Button } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, View, StatusBar } from 'react-native';
 import { Tabs } from 'expo-router';
-import { Ionicons, AntDesign, FontAwesome, FontAwesome5, MaterialIcons } from '@expo/vector-icons';
+import { FontAwesome, FontAwesome5, MaterialIcons, Feather } from '@expo/vector-icons';
 
-import { COLORS, FONT, icons, images, SIZES } from "@/constants";
+import { COLORS, FONT } from "@/constants";
 
-import Colors from '@/constants/Colors';
-import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import AppSidebar from '@/components/Sidebar/Sidebar';
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
-function TabBarIcon(props: any) {
-  return <FontAwesome size={28} style={{ marginBottom: -3 }} {...props} />;
-}
-
-const HeaderComponent = ({ toggleSidebar }: any) => {
-  const { colorScheme, toggleColorScheme } = useColorSchemeContext();
-  // console.log(colorScheme);
-
-
-  return (
-    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 10, width: '100%' }}>
-      {/* Left component (Sidebar menu icon) */}
-      <TouchableOpacity onPress={toggleSidebar}>
-        <Ionicons name="menu-outline" size={36} color="white" />
-      </TouchableOpacity>
-
-      {/* Center component (App icon/name) */}
-      <View style={{ alignItems: 'center' }}>
-        <Text style={{ fontSize: 20, color: 'white', fontFamily: FONT.bold }}>Learn English</Text>
-        <Text style={{ fontSize: 13, color: '#e8e8e8', fontFamily: FONT.medium }}>Fast and Easy Way</Text>
-      </View>
-
-      {/* Right component (Notification icon) */}
-      <TouchableOpacity onPress={toggleColorScheme} style={{ padding: 10 }}>
-        {colorScheme === 'light' ? (
-          <Image source={require('@/assets/icons/dark_mode.png')} resizeMode="contain" style={{ width: 30, height: 30 }} />
-        ) : (
-          <Image source={require('@/assets/icons/light_mode.png')} resizeMode="contain" style={{ width: 30, height: 30 }} />
-        )}
-      </TouchableOpacity>
-    </View>
-  );
-};
-
-const Sidebar = ({ isOpen, onClose }: any) => {
-  return (
-    <SafeAreaView style={[styles.sidebar, isOpen ? styles.openSidebar : styles.closedSidebar]}>
-      <AppSidebar />
-    </SafeAreaView>
-  );
-};
-
 export default function TabLayout() {
-  const { colorScheme, toggleColorScheme } = useColorSchemeContext();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
-
-  const closeSidebar = () => {
-    setIsSidebarOpen(false);
-  };
-
+  const { colorScheme } = useColorSchemeContext();
   // const colorScheme = useColorScheme();
 
   return (
     <View style={{ flex: 1 }}>
-      {isSidebarOpen && (
-        <Pressable onPress={closeSidebar} style={styles.overlay} /> // Add transparent overlay to detect press outside sidebar
-      )}
-      <Sidebar isOpen={isSidebarOpen} />
+      {/* Set the content color of the status bar */}
+      <StatusBar barStyle="light-content" />
+
       <View style={{ flex: 1 }}>
         <Tabs
           screenOptions={{
@@ -91,16 +34,15 @@ export default function TabLayout() {
             name="index"
             options={{
               title: 'Home',
-              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
-              headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <TabBarIcon size={22} name="home" color={color} />
+              tabBarIcon: ({ color }) => <FontAwesome name="home" size={20} color={color} />,
+              headerShown: false,
             }}
           />
           <Tabs.Screen
             name="exercise"
             options={{
               title: 'Exercise',
-              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
+              headerShown: false,
               headerStyle: { backgroundColor: '#5495fb' },
               tabBarIcon: ({ color }) => <FontAwesome5 name="book-reader" size={20} color={color} />,
             }}
@@ -109,8 +51,6 @@ export default function TabLayout() {
             name="three"
             options={{
               title: 'Translator',
-              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
-              headerStyle: { backgroundColor: '#5495fb' },
               tabBarIcon: ({ color }) => <MaterialIcons name="g-translate" size={20} color={color} />,
             }}
           />
@@ -118,10 +58,10 @@ export default function TabLayout() {
           <Tabs.Screen
             name="two"
             options={{
-              title: 'Contact',
-              headerTitle: () => <HeaderComponent toggleSidebar={toggleSidebar} />,
-              headerStyle: { backgroundColor: '#5495fb' },
-              tabBarIcon: ({ color }) => <MaterialIcons name="import-contacts" size={22} color={color} />,
+              title: 'Settings',
+              headerStyle: { backgroundColor: COLORS.primary },
+              tabBarIcon: ({ color }) => <Feather name="bar-chart-2" size={20} color={color} />,
+              headerTitleStyle: { fontFamily: FONT.medium, color: '#fff' },
             }}
           />
         </Tabs>
@@ -148,7 +88,7 @@ const styles = StyleSheet.create({
     transform: [{ translateX: 0 }],
   },
   closedSidebar: {
-    transform: [{ translateX: -250 }],
+    transform: [{ translateX: -251 }],
   },
   overlay: {
     position: 'absolute',

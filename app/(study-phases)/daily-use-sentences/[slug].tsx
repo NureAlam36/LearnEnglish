@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, FlatList, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { Stack } from 'expo-router'
 import * as Speech from 'expo-speech';
 import { MaterialIcons } from '@expo/vector-icons';
@@ -9,59 +9,6 @@ import dailyUseSentences from '@/data/daily-use-sentences.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { COLORS, FONT } from "@/constants";
-
-const DATA = [
-    {
-        id: 1,
-        english: 'What is your phone number?',
-        bangla: 'আপনার ফোন নাম্বার কি?',
-    },
-    {
-        id: 2,
-        english: 'My phone number is...',
-        bangla: 'আমার ফোন নাম্বার ...',
-    },
-    {
-        id: 3,
-        english: 'What is your email address?',
-        bangla: 'আপনার ইমেইল ঠিকানা কি?',
-    },
-    {
-        id: 4,
-        english: 'My email address is...',
-        bangla: 'আমার ইমেইল ঠিকানা ...',
-    },
-    {
-        id: 5,
-        english: 'What is the time?',
-        bangla: 'এখন কত বাজে?',
-    },
-    {
-        id: 6,
-        english: 'It is ... o\'clock',
-        bangla: 'এটা ... ঘণ্টা',
-    },
-    {
-        id: 7,
-        english: 'How much is this?',
-        bangla: 'এটা কত?',
-    },
-    {
-        id: 8,
-        english: 'Where is the bathroom?',
-        bangla: 'বাথরুম কোথায়?',
-    },
-    {
-        id: 9,
-        english: 'How do I get to ...?',
-        bangla: 'আমি ... কিভাবে পৌঁছাব?',
-    },
-    {
-        id: 10,
-        english: 'Can you help me?',
-        bangla: 'আপনি আমাকে সাহায্য করতে পারবেন?',
-    },
-];
 
 const index = () => {
     const route = useRoute();
@@ -94,7 +41,7 @@ const index = () => {
                     headerStyle: { backgroundColor: '#5495fb' }
                 }}
             />
-            <ScrollView style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={sentences}
                     keyExtractor={item => item.id.toString()}
@@ -114,7 +61,7 @@ const index = () => {
                     )
                     }
                 />
-            </ScrollView>
+            </View>
         </React.Fragment >
     )
 }

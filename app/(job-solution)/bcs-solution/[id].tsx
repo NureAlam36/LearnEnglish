@@ -5,7 +5,7 @@ import { COLORS, FONT } from "@/constants";
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
-import Stack from 'expo-router/stack';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 import bcs10th from '@/data/10th-bcs.json';
 import bcs11th from '@/data/11th-bcs.json';
@@ -97,7 +97,6 @@ const MCQs = () => {
         const data = dataMap[id];
         if (data) {
             setSelectedData(data);
-            console.log(data);
         } else {
             console.error(`Data not found for id: ${id}`);
         }
@@ -107,12 +106,8 @@ const MCQs = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{id}th BCS Preliminary</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title={`${id}th BCS Preliminary`} />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={selectedData}

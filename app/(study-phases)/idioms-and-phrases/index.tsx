@@ -7,6 +7,8 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const DATA = [
     {
         id: 1,
@@ -50,7 +52,7 @@ const DATA = [
     },
 ];
 
-const index = () => {
+const Index = () => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -66,12 +68,8 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Idioms And Phrases</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Idioms & Phrases" />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={categories}
@@ -128,4 +126,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default index
+export default Index

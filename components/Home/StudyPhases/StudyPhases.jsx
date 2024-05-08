@@ -16,57 +16,57 @@ const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Grammar",
-    link: "grammer",
+    screen: "grammer_screen",
     image:
       "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Vocabulary",
-    link: "vocabulary",
+    screen: "vocabulary_screen",
     image:
       "https://cdn.iconscout.com/icon/premium/png-256-thumb/vocabulary-3599386-3015185.png?f=webp",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Daily Use \nSentences",
-    link: "daily-use-sentences",
+    screen: "dus_screen",
     image: "https://cdn-icons-png.flaticon.com/512/4039/4039248.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Story",
-    link: "story",
+    screen: "story_screen",
     image: "https://cdn-icons-png.flaticon.com/512/8750/8750683.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Idioms and \nPhrases",
-    link: "idioms-and-phrases",
+    screen: "phrases_screen",
     image: "https://www.southlakebaptist.com/wp-content/uploads/Words-Icon.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f65",
     title: "Common \nConversations",
-    link: "common-conversations",
+    screen: "conversation_screen",
     image: "https://cdn-icons-png.flaticon.com/512/608/608968.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f66",
     title: "Proverbs",
-    link: "proverbs",
+    screen: "proverbs_screen",
     image:
       "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f66",
     title: "Famous \nQuotations",
-    link: "famous-quotations",
+    screen: "quotation_screen",
     image: "https://cdn-icons-png.flaticon.com/512/6314/6314351.png",
   },
 ];
 
-const StudyPhases = () => {
+const StudyPhases = ({ navigation }) => {
   const { colorScheme } = useColorSchemeContext();
 
   return (
@@ -84,8 +84,9 @@ const StudyPhases = () => {
       <FlatList
         data={DATA}
         renderItem={({ item }) => (
-          <Link
-            href={`/${item.link}`}
+          <TouchableOpacity
+            onPress={() => navigation.navigate(item.screen)}
+            activeOpacity={0.7}
             style={[
               styles.itemContainer,
               {
@@ -95,31 +96,27 @@ const StudyPhases = () => {
             ]}
             asChild
           >
-            <TouchableOpacity activeOpacity={0.7}>
-              <View style={styles.item}>
-                <View style={styles.imageWraper}>
-                  <Image
-                    style={styles.image}
-                    source={{ uri: item.image }}
-                    resizeMode="contain"
-                  />
-                </View>
-                <Text
-                  style={[
-                    styles.title,
-                    {
-                      color:
-                        colorScheme === "light"
-                          ? COLORS.darkText
-                          : COLORS.lightText,
-                    },
-                  ]}
-                >
-                  {item.title}
-                </Text>
+            <View style={styles.item}>
+              <View style={styles.imageWraper}>
+                <Image
+                  style={styles.image}
+                  source={{ uri: item.image }}
+                  resizeMode="contain"
+                />
               </View>
-            </TouchableOpacity>
-          </Link>
+              <Text
+                style={[
+                  styles.title,
+                  {
+                    color:
+                      colorScheme === "light" ? COLORS.gray : COLORS.lightText,
+                  },
+                ]}
+              >
+                {item.title}
+              </Text>
+            </View>
+          </TouchableOpacity>
         )}
         keyExtractor={(item) => item.id}
         numColumns={2}
