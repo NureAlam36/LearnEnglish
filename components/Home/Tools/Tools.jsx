@@ -23,13 +23,13 @@ const DATA = [
       "https://static-00.iconduck.com/assets.00/google-translate-icon-2048x2035-36xcbzp3.png",
     link: "translator",
   },
-  {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Dictionary",
-    background: ["#fbc2eb", "#a6c1ee"],
-    image: "https://cdn-icons-png.flaticon.com/512/8750/8750741.png",
-    link: "dictionary",
-  },
+  // {
+  //   id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+  //   title: "Dictionary",
+  //   background: ["#fbc2eb", "#a6c1ee"],
+  //   image: "https://cdn-icons-png.flaticon.com/512/8750/8750741.png",
+  //   link: "dictionary",
+  // },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Text To Speech",

@@ -15,45 +15,6 @@ import Excercises from './exercises';
 
 import ContentHeader from '@/components/Headers/ContentHeader';
 
-const DATA = [
-    {
-        id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-        title: "Prepositions",
-        link: "prepositions",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f61",
-        title: "Articles",
-        link: "articles",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f62",
-        title: "Modifiers",
-        link: "modifiers",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-        title: "Pronouns",
-        link: "pronouns",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
-        title: "\"Wh\" questions",
-        link: "number",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f65",
-        title: "Subject-Verb Agreement",
-        link: "word",
-        image: "https://i.pinimg.com/originals/ff/fb/48/fffb481f28a395fb8ad93e7ecd8f2ec7.png"
-    }
-];
-
 const HomeScreen = () => {
     return (
         <Stack.Navigator

@@ -12,25 +12,6 @@ import { COLORS, FONT } from "@/constants";
 import FillInTheBlankScreen from './exercise/fill_in_the_blank';
 import RearrangeScreen from './exercise/rearrange';
 
-
-import CustomHeader from '@/components/Headers/CustomHeader';
-import { Stack as ExpoStack } from 'expo-router';
-
-const DATA = [
-    {
-        id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-        title: "Fill In The Blank",
-        link: "fill_in_the_blank",
-        image: "https://image.winudf.com/v2/image/YXN1Lm1jcV9pY29uXzBfYzVkMzhmYzE/icon.png?w=&fakeurl=1"
-    },
-    {
-        id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f61",
-        title: "Rearrange",
-        link: "rearrange",
-        image: "https://cdn-icons-png.flaticon.com/512/1127/1127749.png"
-    }
-];
-
 // Define stack navigator for nested screens within HomeScreen
 const Stack = createStackNavigator();
 

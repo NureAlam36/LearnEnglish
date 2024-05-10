@@ -15,7 +15,8 @@ const Home = ({ navigation }) => {
 
   return (
     <React.Fragment>
-      <MainPageHeader />
+      <MainPageHeader navigation={navigation} />
+
       <SafeAreaView
         style={[
           styles.container,

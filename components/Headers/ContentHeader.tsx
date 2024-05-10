@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Image, StatusBar, Platform, TextInput } from 'react-native';
-import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+// import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 
 import { useNavigation } from '@react-navigation/native';
@@ -12,13 +12,8 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { Stack as ExpoStack } from "expo-router";
 
 const CustomHeader = ({ title }: any) => {
-    const { colorScheme } = useColorSchemeContext();
-
     const navigation = useNavigation();
-
-    const handleBackPress = () => {
-        navigation.goBack();
-    };
+    // const { colorScheme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
@@ -28,7 +23,7 @@ const CustomHeader = ({ title }: any) => {
                     header: () => <View style={[styles.header, { backgroundColor: '#1bb285' }]}>
                         <View style={styles.headerContent}>
                             <View style={{ display: 'flex', flexDirection: 'row', alignContent: 'center' }}>
-                                <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
+                                <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
                                     <Ionicons name="arrow-back-outline" size={24} color="white" />
                                 </TouchableOpacity>
                                 <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

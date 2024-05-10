@@ -43,7 +43,6 @@ export default function TabLayout() {
             options={{
               title: 'Exercise',
               headerShown: false,
-              headerStyle: { backgroundColor: '#5495fb' },
               tabBarIcon: ({ color }) => <FontAwesome5 name="book-reader" size={20} color={color} />,
             }}
           />
@@ -59,9 +58,8 @@ export default function TabLayout() {
             name="two"
             options={{
               title: 'Settings',
-              headerStyle: { backgroundColor: COLORS.primary },
+              headerShown: false,
               tabBarIcon: ({ color }) => <Feather name="bar-chart-2" size={20} color={color} />,
-              headerTitleStyle: { fontFamily: FONT.medium, color: '#fff' },
             }}
           />
         </Tabs>

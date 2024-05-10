@@ -3,6 +3,7 @@ import { createStackNavigator, TransitionPresets } from '@react-navigation/stack
 
 // screen components
 import HomeScreen from '@/components/Home/Home';
+import NotificationScreen from '@/app/screens/notification';
 
 // Job Solution
 import BcsSolution from '@/app/(job-solution)/bcs-solution/index';
@@ -21,6 +22,7 @@ import QuotationScreen from '@/app/(study-phases)/famous-quotations/index';
 import DailyTest from '@/app/(daily-updates)/daily-test/index';
 
 
+
 // Create a stack navigator
 const Stack = createStackNavigator();
 
@@ -34,6 +36,7 @@ export default function TabOneScreen() {
       }}>
 
       <Stack.Screen name="home_screen" component={HomeScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="notification_screen" component={NotificationScreen} options={{ headerShown: false }} />
 
       <Stack.Screen name="daily_test_screen" component={DailyTest} options={{ headerShown: false }} />
 

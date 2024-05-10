@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Image, StatusBar, Platform, T
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 
-import { useNavigation } from '@react-navigation/native';
+// import { useNavigation } from '@react-navigation/native';
 
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import Feather from '@expo/vector-icons/Feather';
@@ -11,14 +11,8 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 
 import { Stack as ExpoStack } from "expo-router";
 
-const CustomHeader = ({ title }: any) => {
+const CustomHeader = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
-
-    const navigation = useNavigation();
-
-    const handleBackPress = () => {
-        navigation.goBack();
-    };
 
     return (
         <ExpoStack.Screen
@@ -30,7 +24,7 @@ const CustomHeader = ({ title }: any) => {
                             <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <Text style={{ color: '#fff', fontFamily: FONT.bold, fontSize: 20 }}>Learn English</Text>
                             </View>
-                            <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
+                            <TouchableOpacity onPress={() => navigation.navigate('notification_screen')} style={styles.backButton}>
                                 <Ionicons name="notifications-outline" size={28} color="white" />
                             </TouchableOpacity>
                         </View>

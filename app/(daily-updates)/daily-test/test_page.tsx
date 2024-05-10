@@ -13,49 +13,100 @@ import { Link } from 'expo-router';
 import Feather from '@expo/vector-icons/Feather';
 import Fontisto from '@expo/vector-icons/Fontisto';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import AntDesign from '@expo/vector-icons/AntDesign';
+
 
 import ContentHeader from '@/components/Headers/ContentHeader';
 
-const TestPage = ({ route }: any) => {
+import BeginnerLevelData from '@/data/daily-test/beginner.json';
+import IntermediateLevelData from '@/data/daily-test/intermediate.json';
+import AdvancedLevelData from '@/data/daily-test/advanced.json';
+import ExpertLevelData from '@/data/daily-test/expert.json';
+import ProfessionalLevelData from '@/data/daily-test/professional.json';
+import MasterLevelData from '@/data/daily-test/master.json';
+
+const TestPage = ({ route, navigation }: any) => {
+    const { colorScheme } = useColorSchemeContext();
     const { level, day } = route.params || {};
 
-    const [loading, setLoading] = useState(true)
     const [questions, setQuestions] = useState<any>([]);
 
-    const { colorScheme } = useColorSchemeContext();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedValue, setSelectedValue] = useState<any>(null);
-    const [showMessage, setShowMessage] = useState(false);
+    const [isCompleted, setIsCompleted] = useState(false);
+    const [timeRemaining, setTimeRemaining] = useState('00:00');
     const [optionsDisabled, setOptionsDisabled] = useState(false);
     const [totalCorrectAnswers, setTotalCorrectAnswers] = useState(0);
     const [totalWrongAnswers, setTotalWrongAnswers] = useState(0);
-    const [timeRemaining, setTimeRemaining] = useState('00:10:00');
-    // const [wrongIDs, setWrongIDs] = useState<any>([]);
     const [showResults, setShowResults] = useState(false);
     const [selectedOptions, setSelectedOptions] = useState<any>([]);
+    const [intervalID, setIntervalID] = useState<any>(null);
 
     useEffect(() => {
-        // Fetch questions from the JSON file based on the level
-        const fetchQuestions = async () => {
-            try {
-                const response = await fetch(`/data/daily-test/${level}.json`);
-                const data = await response.json();
+        switch (level) {
+            case 'beginner':
+                setQuestions(BeginnerLevelData[day - 1]?.questions || []);
+                break;
+            case 'intermediate':
+                setQuestions(IntermediateLevelData[day - 1]?.questions || []);
+                break;
+            case 'advanced':
+                setQuestions(AdvancedLevelData[day - 1]?.questions || []);
+                break;
+            case 'expert':
+                setQuestions(ExpertLevelData[day - 1]?.questions || []);
+                break;
+            case 'professional':
+                setQuestions(ProfessionalLevelData[day - 1]?.questions || []);
+                break;
+            case 'master':
+                setQuestions(MasterLevelData[day - 1]?.questions || []);
+                break;
+            default:
+                break;
+        }
+    }, []);
 
-                data.forEach((item: any) => {
-                    if (item.day === day) {
-                        setQuestions(item.questions);
+    const useCountdownTimer = () => {
+        const totalDuration = 30 * questions.length; // Total duration in seconds
+        let remainingTime = totalDuration;
+        let interval: any;
+
+        const startTimer = () => {
+            interval = setInterval(() => {
+                setTimeRemaining((time) => {
+                    remainingTime -= 1;
+
+                    if (remainingTime <= 0) {
+                        clearInterval(interval);
+                        setIsCompleted(true);
                     }
-                })
 
+                    return `${Math.floor(remainingTime / 60)
+                        .toString()
+                        .padStart(2, '0')
+                        }:${(remainingTime % 60)
+                            .toString()
+                            .padStart(2, '0')
+                        }`;
+                });
+            }, 1000);
 
-                setLoading(false);
-            } catch (error) {
-                console.error('Error fetching questions:', error);
-            }
+            setIntervalID(interval);
         };
 
-        fetchQuestions();
-    }, [level]);
+        startTimer();
+
+        return () => clearInterval(interval);
+    }
+
+
+    useEffect(() => {
+        if (questions.length > 0) {
+            useCountdownTimer();
+        }
+    }, [questions.length]);
+
 
 
     const calCulatePercentage = () => {
@@ -67,7 +118,9 @@ const TestPage = ({ route }: any) => {
     const handleNextQuestion = () => {
         if (currentIndex < questions.length - 1) {
         } else {
-            setShowMessage(true);
+            setTimeRemaining('00:00');
+            clearInterval(intervalID);
+            setIsCompleted(true);
         }
 
         setCurrentIndex(currentIndex + 1);
@@ -93,12 +146,14 @@ const TestPage = ({ route }: any) => {
     };
 
     const ReTest = () => {
+        clearInterval(intervalID);
         setCurrentIndex(0);
         setSelectedValue(null);
         setOptionsDisabled(false);
         setTotalCorrectAnswers(0);
         setTotalWrongAnswers(0);
-        setShowMessage(false);
+        setIsCompleted(false);
+        useCountdownTimer();
     }
     const getSelectedOption = (questionId: number) => {
         const selectedOption = selectedOptions.find((item: any) => item.id === questionId);
@@ -106,16 +161,13 @@ const TestPage = ({ route }: any) => {
         return selectedOption?.selected;
     }
 
-    console.log(selectedOptions);
-
-
     return (
         <React.Fragment>
             <ContentHeader title="" />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
-                    !showMessage && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
+                    !isCompleted && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
                         <View style={{}}>
                             <Text style={styles.scoreText}>Total Questions: {currentIndex + 1}/{questions.length}</Text>
                         </View>
@@ -129,7 +181,7 @@ const TestPage = ({ route }: any) => {
 
                 <View style={{ padding: 15, marginTop: 20 }}>
                     {
-                        !showMessage ? <View>
+                        !isCompleted ? <View>
                             <Text style={[styles.questionText, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>
                                 {questions[currentIndex]?.question}
                             </Text>
@@ -137,39 +189,27 @@ const TestPage = ({ route }: any) => {
                             <FlatList
                                 data={questions[currentIndex]?.options}
                                 renderItem={({ item }) => (
-                                    <TouchableOpacity
-                                        activeOpacity={0.7}
-                                        style={[
-                                            styles.optionButton,
-                                            {
-                                                display: 'flex',
-                                                flexDirection: 'row',
-                                            }
-                                        ]}
-                                        onPress={() => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
+                                    <RadioButtonGroup
+                                        selected={selectedValue}
+                                        radioBackground={COLORS.primary}
+                                        onSelected={(value: any) => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
+                                        containerStyle={styles.optionButton}
+
                                     >
-                                        <RadioButtonGroup
-                                            selected={selectedValue}
-                                            radioBackground={COLORS.primary}
-                                        >
-                                            <RadioButtonItem
-                                                key={currentIndex}
-                                                value={item}
-                                                label={
-                                                    <View></View>
-                                                }
-                                            />
-                                        </RadioButtonGroup>
-                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-                                            <Text style={styles.optionText}>{item}</Text>
-                                        </View>
-                                    </TouchableOpacity>
+                                        <RadioButtonItem
+                                            key={currentIndex}
+                                            value={item}
+                                            label={
+                                                <Text style={styles.optionText}>{item}</Text>
+                                            }
+                                        />
+                                    </RadioButtonGroup>
                                 )}
                                 keyExtractor={(item, index) => index.toString()}
                             />
 
                             {
-                                !showMessage && <TouchableOpacity activeOpacity={0.7}
+                                !isCompleted && <TouchableOpacity activeOpacity={0.7}
                                     style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 30, opacity: !optionsDisabled ? 0.7 : 1 }]}
                                     onPress={handleNextQuestion}
                                     disabled={!selectedValue}
@@ -197,7 +237,13 @@ const TestPage = ({ route }: any) => {
                                         <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
                                     </ProgressCircle>
                                 </View>
-                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 50, marginTop: 20 }}>
+                                <View style={{ display: 'flex', alignItems: 'center', alignSelf: 'center', gap: 10, marginTop: 20 }}>
+                                    {
+                                        questions.length - (totalCorrectAnswers + totalWrongAnswers) > 0 && <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            <AntDesign name="export" size={24} color="#5495fb" />
+                                            <Text style={{ color: '#5495fb', fontFamily: FONT.medium, fontSize: 15 }}>Not answered: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
+                                        </View>
+                                    }
                                     <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                         <Feather name="check-circle" size={24} color="#00c47d" />
                                         <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
@@ -208,28 +254,27 @@ const TestPage = ({ route }: any) => {
                                     </View>
                                 </View>
 
-                                <View style={{ display: 'flex', flexDirection: 'row', gap: 20, alignSelf: 'center', marginTop: 50 }}>
-                                    {/* @ts-ignore */}
-                                    <Link href={`/exercise/fill_in_the_blank/`} style={[styles.nextButton, { backgroundColor: '#00c47d', marginTop: 40, paddingHorizontal: 20 }]} asChild>
-                                        <TouchableOpacity activeOpacity={0.7}>
+                                <View style={{ display: 'flex', flexDirection: 'column', gap: 20, alignSelf: 'center', marginTop: 50 }}>
+                                    <View style={{ display: 'flex', flexDirection: 'row', gap: 20, alignSelf: 'center' }}>
+                                        <TouchableOpacity onPress={() => navigation.navigate('Categories_screen', { level: level })} activeOpacity={0.7} style={[styles.nextButton, { backgroundColor: '#00c47d', paddingHorizontal: 20 }]}>
                                             <Text style={styles.nextButtonText}>More Excercises</Text>
                                         </TouchableOpacity>
-                                    </Link>
-                                    <TouchableOpacity activeOpacity={0.7}
-                                        style={[styles.nextButton, { backgroundColor: '#5495fb', marginTop: 40, paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10, }]}
-                                        onPress={ReTest}
-                                    >
+                                        <TouchableOpacity activeOpacity={0.7}
+                                            style={[styles.nextButton, { backgroundColor: '#5495fb', paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10, }]}
+                                            onPress={ReTest}
+                                        >
 
-                                        <MaterialCommunityIcons name="book-play-outline" size={24} color="white" />
-                                        <Text style={styles.nextButtonText}>Re-Test</Text>
-                                    </TouchableOpacity>
+                                            <MaterialCommunityIcons name="book-play-outline" size={24} color="white" />
+                                            <Text style={styles.nextButtonText}>Re-Test</Text>
+                                        </TouchableOpacity>
+                                    </View>
                                     <TouchableOpacity activeOpacity={0.7}
-                                        style={[styles.nextButton, { backgroundColor: '#00c47d', marginTop: 40, paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10, }]}
+                                        style={[styles.nextButton, { backgroundColor: '#fff', borderWidth: 2, borderColor: '#00c47d', paddingHorizontal: 20, display: 'flex' }]}
                                         onPress={() => setShowResults(true)}
                                     >
 
                                         {/* <MaterialCommunityIcons name="book-play-outline" size={24} color="white" /> */}
-                                        <Text style={styles.nextButtonText}>Review Test</Text>
+                                        <Text style={[styles.nextButtonText, { textAlign: 'center', color: COLORS.gray }]}>Review Test</Text>
                                     </TouchableOpacity>
                                 </View>
 
@@ -252,21 +297,12 @@ const TestPage = ({ route }: any) => {
                                                             display: 'flex',
                                                             flexDirection: 'row',
                                                         },
-                                                        getSelectedOption(item.id) === item.answer && option === item.answer ? styles.correctOption : getSelectedOption(item.id) === option ? styles.incorrectOption : option === item.answer ? styles.correctOption : {}
+                                                        getSelectedOption(item.id) !== undefined && (
+                                                            getSelectedOption(item.id) === item.answer && option === item.answer ? styles.correctOption : getSelectedOption(item.id) === option ? styles.incorrectOption : option === item.answer ? styles.correctOption : {}
+                                                        )
 
                                                     ]}>
-                                                    <RadioButtonGroup
-                                                        selected={selectedValue}
-                                                        radioBackground={COLORS.primary}
-                                                    >
-                                                        <RadioButtonItem
-                                                            key={currentIndex}
-                                                            value={option}
-                                                            label={
-                                                                <View style={styles.optionText}>{option}</View>
-                                                            }
-                                                        />
-                                                    </RadioButtonGroup>
+                                                    <Text style={styles.optionText}>{option}</Text>
                                                 </TouchableOpacity>
                                             ))}
                                             {/*  */}
@@ -313,6 +349,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     optionButton: {
+        flex: 1,
         padding: 15,
         borderRadius: 10,
         marginBottom: 10,
