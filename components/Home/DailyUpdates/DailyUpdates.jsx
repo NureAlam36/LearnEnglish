@@ -14,23 +14,26 @@ const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Daily Test",
+    screen: "daily_test_screen",
     image:
       "https://cdn4.iconfinder.com/data/icons/popicon-bluetone-education/256/14-512.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "PDF Library",
+    screen: "pdf_library_screen",
     image:
       "https://w7.pngwing.com/pngs/616/366/png-transparent-book-design-creativity-creative-design-three-books-blue-angle-text-thumbnail.png",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Quizzes",
+    screen: "quizzes_screen",
     image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
   },
 ];
 
-const DailyUpdates = () => {
+const DailyUpdates = ({ navigation }) => {
   const { colorScheme } = useColorSchemeContext();
 
   return (
@@ -39,6 +42,7 @@ const DailyUpdates = () => {
         data={DATA}
         renderItem={({ item }) => (
           <TouchableOpacity
+            onPress={() => navigation.navigate(item.screen)}
             style={[
               styles.item,
               {

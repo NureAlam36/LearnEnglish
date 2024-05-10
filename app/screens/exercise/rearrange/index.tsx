@@ -227,7 +227,7 @@ const Exercise = () => {
 
             <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
-                    !showMessage && isChecked ? <View>
+                    !showMessage && isChecked && <View>
                         <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
                             <LinearGradient
                                 colors={['#1e3c72', '#1e3c72', '#2a5298']}
@@ -266,14 +266,17 @@ const Exercise = () => {
                             <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
                         </TouchableOpacity>
                     </View>
-                        : <TouchableOpacity
-                            activeOpacity={0.7}
-                            style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
-                            onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
-                            disabled={selectedOptions.length === 0}
-                        >
-                            <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
-                        </TouchableOpacity>
+                }
+
+                {
+                    !isChecked && <TouchableOpacity
+                        activeOpacity={0.7}
+                        style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
+                        onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
+                        disabled={selectedOptions.length === 0}
+                    >
+                        <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
+                    </TouchableOpacity>
                 }
             </View>
         </React.Fragment>

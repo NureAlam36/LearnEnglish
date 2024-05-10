@@ -1,12 +1,12 @@
 [
   {
-    "id": 19,
+    "id": 1,
     "question": "Choose the correct alternative to complete the sentence. “ He – to see us if he had been able to”",
     "options": ["would come", "would have come", "may have come", "bad attack"],
     "answer": "would have come"
   },
   {
-    "id": 20,
+    "id": 2,
     "question": "Choose the appropriate alternative to complete the sentence. He had a -- of fever.",
     "options": [
       "strong attack",
@@ -17,7 +17,7 @@
     "answer": "severe attack"
   },
   {
-    "id": 21,
+    "id": 3,
     "question": "Choose the correct sentence.",
     "options": [
       "I asked Javed had he passed",
@@ -28,7 +28,7 @@
     "answer": "I asked Javed if he had passed"
   },
   {
-    "id": 22,
+    "id": 4,
     "question": "Choose the correct sentence.",
     "options": [
       "A few of the three boys got a prize",
@@ -39,7 +39,7 @@
     "answer": "Each of the three boys got a prize"
   },
   {
-    "id": 23,
+    "id": 5,
     "question": "Choose the correct sentence.",
     "options": [
       "The man that said that was a fool",
@@ -50,7 +50,7 @@
     "answer": "The man who said that was a fool."
   },
   {
-    "id": 24,
+    "id": 6,
     "question": "Choose the correct answer. How long did you wait?",
     "options": [
       "Till lunch time",
@@ -61,31 +61,31 @@
     "answer": "Till he came"
   },
   {
-    "id": 25,
+    "id": 7,
     "question": "\"What will be the correct preposition to complete the sentence? \"\"I am not bad.... tennis.\"\"",
     "options": ["about", "with", "in", "at"],
     "answer": "at"
   },
   {
-    "id": 26,
+    "id": 8,
     "question": "What is the antonym of ''Gentle''?",
     "options": ["foolish", "modest", "clever", "rude"],
     "answer": "rude"
   },
   {
-    "id": 27,
+    "id": 9,
     "question": "What is the synonym of 'Jovial?",
     "options": ["Jolly", "Jealous", "Gay", "Happy"],
     "answer": "Jolly"
   },
   {
-    "id": 28,
+    "id": 10,
     "question": "What is the synonym of 'competent' ?",
     "options": ["circumspect", "discrete", "capable", "prudent"],
     "answer": "capable"
   },
   {
-    "id": 29,
+    "id": 11,
     "question": "\"Who is the auther of \"\"A Farewell to Arms\"\"?\"",
     "options": [
       "Ernest Hemingway",
@@ -96,7 +96,7 @@
     "answer": "Ernest Hemingway"
   },
   {
-    "id": 30,
+    "id": 12,
     "question": "\"Who is the auther of \"\"Animal Farm\"\"?\"",
     "options": [
       "George Orwel",
@@ -107,7 +107,7 @@
     "answer": "George Orwel"
   },
   {
-    "id": 31,
+    "id": 13,
     "question": "\"Who is the author of \"\"India Wins Freedom\"\"?\"",
     "options": [
       "Mahatma Gandhi",
@@ -118,19 +118,19 @@
     "answer": "Abul Kalam Azad"
   },
   {
-    "id": 32,
+    "id": 14,
     "question": "\"what kind of noun is \"\"Cattle\"\"?\"",
     "options": ["Collective", "Common", "Material", "Proper"],
     "answer": "Collective"
   },
   {
-    "id": 33,
+    "id": 15,
     "question": "What kind of noun is girl ?",
     "options": ["Collective", "Proper", "Common", "Material"],
     "answer": "Common"
   },
   {
-    "id": 34,
+    "id": 16,
     "question": "What is the meaning of 'White Elephant'?",
     "options": [
       "A very costly or troublesome possession",
