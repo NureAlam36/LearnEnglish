@@ -25,12 +25,12 @@ const DATA = [
     image:
       "https://w7.pngwing.com/pngs/616/366/png-transparent-book-design-creativity-creative-design-three-books-blue-angle-text-thumbnail.png",
   },
-  {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
-    title: "Quizzes",
-    screen: "quizzes_screen",
-    image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
-  },
+  // {
+  //   id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
+  //   title: "Quizzes",
+  //   screen: "quizzes_screen",
+  //   image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
+  // },
 ];
 
 const DailyUpdates = ({ navigation }) => {

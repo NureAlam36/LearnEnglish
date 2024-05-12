@@ -1,152 +1,5428 @@
 [
   {
     "day": 1,
+    "topics": ["tenses", "passives"],
     "questions": [
       {
         "id": 1,
-        "question": "Choose the correct alternative to complete the sentence. “ He – to see us if he had been able to”",
-        "options": [
-          "would come",
-          "would have come",
-          "may have come",
-          "bad attack"
-        ],
-        "answer": "would have come"
+        "question": "When I last talked to him, he ______ English.",
+        "options": ["studies", "study", "was studying", "studied"],
+        "answer": "was studying"
       },
       {
         "id": 2,
-        "question": "Choose the appropriate alternative to complete the sentence. He had a -- of fever.",
+        "question": "I met her at yesterday’s party, but I ______ her by sight for years before that.",
         "options": [
-          "strong attack",
-          "severe attack",
-          "serious attack",
-          "bad attack"
+          "had known",
+          "have known",
+          "will have known",
+          "had been known"
         ],
-        "answer": "severe attack"
+        "answer": "had known"
       },
       {
         "id": 3,
-        "question": "Choose the correct sentence.",
+        "question": "By 2010, scientists surely ______ a cure for cancer.",
         "options": [
-          "I asked Javed had he passed",
-          "I asked Javed that had he passed",
-          "I asked Javed if you had passed",
-          "I asked Javed if he had passed"
+          "are discovering",
+          "have been discovered",
+          "will have discovered",
+          "had discovered"
         ],
-        "answer": "I asked Javed if he had passed"
+        "answer": "will have discovered"
       },
       {
         "id": 4,
-        "question": "Choose the correct sentence.",
+        "question": "Since the day he ______ ill he ______ a lot of reading.",
         "options": [
-          "A few of the three boys got a prize",
-          "All of the three boys got a prize",
-          "Each of the three boys got a prize",
-          "Each of the three boy got a prize"
+          "was / had done",
+          "is / has done",
+          "was / has done",
+          "is / has been done"
         ],
-        "answer": "Each of the three boys got a prize"
+        "answer": "was / has done"
       },
       {
         "id": 5,
-        "question": "Choose the correct sentence.",
+        "question": "A: What’s the time? B: I’m sorry I ______. My watch ______.",
         "options": [
-          "The man that said that was a fool",
-          "The man who said that was a fool.",
-          "The man that said that was a fool.",
-          "The man which said that was a fool."
+          "can’t tell / stopped",
+          "didn’t know / stopped",
+          "don’t know / has stopped",
+          "don’t know / had stopped"
         ],
-        "answer": "The man who said that was a fool."
+        "answer": "don’t know / has stopped"
       },
       {
         "id": 6,
-        "question": "Choose the correct answer. How long did you wait?",
+        "question": "He ______ in the library every night for the last two months.",
         "options": [
-          "Till lunch time",
-          "Till he came",
-          "Untill 6 o'clock",
-          "since this morning"
+          "would be studying",
+          "will have studied",
+          "has been studied",
+          "has been studying"
         ],
-        "answer": "Till he came"
+        "answer": "has been studying"
       },
       {
         "id": 7,
-        "question": "\"What will be the correct preposition to complete the sentence? \"\"I am not bad.... tennis.\"\"",
-        "options": ["about", "with", "in", "at"],
-        "answer": "at"
+        "question": "Last Sunday we ____ out of the house where we ____ for five years.",
+        "options": [
+          "had moved / lived",
+          "have moved / had lived",
+          "moved / had lived",
+          "will move / have lived"
+        ],
+        "answer": "moved / had lived"
       },
       {
         "id": 8,
-        "question": "What is the antonym of ''Gentle''?",
-        "options": ["foolish", "modest", "clever", "rude"],
-        "answer": "rude"
+        "question": "We spent hours talking about what we ______ since we left school.",
+        "options": [
+          "have done",
+          "had been doing",
+          "have been doing",
+          "were doing"
+        ],
+        "answer": "had been doing"
       },
       {
         "id": 9,
-        "question": "What is the synonym of 'Jovial?",
-        "options": ["Jolly", "Jealous", "Gay", "Happy"],
-        "answer": "Jolly"
+        "question": "They ______ married but in the end they changed their mind.",
+        "options": [
+          "are going to get",
+          "will have been",
+          "were going to get",
+          "had been"
+        ],
+        "answer": "were going to get"
       },
       {
         "id": 10,
-        "question": "What is the synonym of 'competent' ?",
-        "options": ["circumspect", "discrete", "capable", "prudent"],
-        "answer": "capable"
+        "question": "A: Would you like me to give Mike a message for you?\nB: Oh, I don’t want to trouble you.\nA: It’s no trouble, really. I ______ Mike tomorrow anyway.",
+        "options": ["am seeing", "saw", "have seen", "would see"],
+        "answer": "am seeing"
       },
       {
         "id": 11,
-        "question": "\"Who is the auther of \"\"A Farewell to Arms\"\"?\"",
-        "options": [
-          "Ernest Hemingway",
-          "Thomas Hardy",
-          "George Orwel",
-          "H. G. Wells"
-        ],
-        "answer": "Ernest Hemingway"
+        "question": "When I counted my change I realized they ______ me $ 3 too much.",
+        "options": ["gave", "had given", "have given", "had been given"],
+        "answer": "had given"
       },
       {
         "id": 12,
-        "question": "\"Who is the auther of \"\"Animal Farm\"\"?\"",
-        "options": [
-          "George Orwel",
-          "Thomas More",
-          "Boris Pasternak",
-          "Charles Dickens"
-        ],
-        "answer": "George Orwel"
+        "question": "When he’d counted his change he ______ it in his pocket.",
+        "options": ["was put", "put", "had put", "has put"],
+        "answer": "put"
       },
       {
         "id": 13,
-        "question": "\"Who is the author of \"\"India Wins Freedom\"\"?\"",
-        "options": [
-          "Mahatma Gandhi",
-          "J. L. Nehru",
-          "Abul Kalam Azad",
-          "Debashish"
-        ],
-        "answer": "Abul Kalam Azad"
+        "question": "As soon as she ______ out of bed she got dressed.",
+        "options": ["had got", "gets", "has got", "would get"],
+        "answer": "had got"
       },
       {
         "id": 14,
-        "question": "\"what kind of noun is \"\"Cattle\"\"?\"",
-        "options": ["Collective", "Common", "Material", "Proper"],
-        "answer": "Collective"
+        "question": "In a fortnight’s time they ______ their exams.",
+        "options": [
+          "have taken",
+          "will have taken",
+          "will have been taken",
+          "had taken"
+        ],
+        "answer": "will have taken"
       },
       {
         "id": 15,
-        "question": "What kind of noun is girl ?",
-        "options": ["Collective", "Proper", "Common", "Material"],
-        "answer": "Common"
+        "question": "They were very rude to us. We ______ there again.",
+        "options": ["won’t go", "hadn’t gone", "didn’t go", "wouldn’t go"],
+        "answer": "won’t go"
       },
       {
         "id": 16,
-        "question": "What is the meaning of 'White Elephant'?",
+        "question": "In about forty years’ time we’ll probably ______ on pills.",
         "options": [
-          "A very costly or troublesome possession",
-          "A black marketer",
-          "A hoarder",
-          "An elephant of white colour"
+          "be living",
+          "have been living",
+          "have been lived",
+          "have lived"
         ],
-        "answer": "A very costly or troublesome possession"
+        "answer": "be living"
+      },
+      {
+        "id": 17,
+        "question": "A: Why have you set your alarm clock to go off at 5.30?\nB: Because I ______ then. I have to catch the early train.",
+        "options": [
+          "get up",
+          "was going to get up",
+          "am going to get up",
+          "have got"
+        ],
+        "answer": "am going to get up"
+      },
+      {
+        "id": 18,
+        "question": "A: I’ve planned my future for the next five years.\nB: That is very clever of you. What ______ when you retire?",
+        "options": [
+          "will you do",
+          "are you going to do",
+          "have done",
+          "do you do"
+        ],
+        "answer": "are you going to do"
+      },
+      {
+        "id": 19,
+        "question": "You’ll feel a lot better after you ______ a rest.",
+        "options": ["had", "have had", "will have", "had had"],
+        "answer": "have had"
+      },
+      {
+        "id": 20,
+        "question": "Next August, while you ______ for your exams, I ______ on a Mediterranean beach.",
+        "options": [
+          "are preparing / will be",
+          "were preparing / would be",
+          "prepare / will be",
+          "were preparing / was"
+        ],
+        "answer": "are preparing / will be"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 22,
+        "question": "By 5.30 this afternoon, Tom ______ at work for eight hours.",
+        "options": [
+          "had been",
+          "would have been",
+          "will have been",
+          "has been"
+        ],
+        "answer": "will have been"
+      },
+      {
+        "id": 23,
+        "question": "She ______ unwell for several days when she was taken to hospital.",
+        "options": [
+          "had been feeling",
+          "has been feeling",
+          "was feeling",
+          "had felt"
+        ],
+        "answer": "had been feeling"
+      },
+      {
+        "id": 24,
+        "question": "During this year we ______ many advances in computer science.",
+        "options": ["had seen", "have seen", "saw", "are seeing"],
+        "answer": "have seen"
+      },
+      {
+        "id": 25,
+        "question": "Our maths teacher ______ us a lot of homework last week but he ______ us very much so far this week.",
+        "options": [
+          "would give / didn’t give",
+          "had given / didn’t give",
+          "gave / didn’t given",
+          "gave / hasn’t given"
+        ],
+        "answer": "gave / hasn’t given"
+      },
+      {
+        "id": 26,
+        "question": "It is expected that man ______ on several planets by the end of this century.",
+        "options": [
+          "would have landed",
+          "will be landing",
+          "will have been landed",
+          "will have landed"
+        ],
+        "answer": "will have landed"
+      },
+      {
+        "id": 30,
+        "question": "He found everything rather strange as he ______ never ______ abroad before.",
+        "options": ["has / been", "will / be", "hasn’t / been", "had / been"],
+        "answer": "hasn’t / been"
+      },
+      {
+        "id": 31,
+        "question": "I ______ you know as soon as the telegram ______.",
+        "options": [
+          "will let / arrives",
+          "would let / arrives",
+          "will let / arrived",
+          "let / had arrived"
+        ],
+        "answer": "will let / arrives"
+      },
+      {
+        "id": 32,
+        "question": "Please ______ until after the plane ______.",
+        "options": [
+          "not smoke / takes off",
+          "don’t smoke / has taken off",
+          "don’t smoke / took off",
+          "not smoke / has taken off"
+        ],
+        "answer": "not smoke / takes off"
+      },
+      {
+        "id": 33,
+        "question": "It is the first time I ______ of anything like that.",
+        "options": ["had heard", "have heard", "hear", "am hearing"],
+        "answer": "have heard"
+      },
+      {
+        "id": 34,
+        "question": "You’re always late. This is the third time you ______ late this week.",
+        "options": ["had been", "were", "have been", "will be"],
+        "answer": "have been"
+      },
+      {
+        "id": 35,
+        "question": "It was the first time she ______ ever ______ a prize.",
+        "options": ["has / won", "had / won", "is / won", "would / win"],
+        "answer": "had / won"
+      },
+      {
+        "id": 37,
+        "question": "Yesterday while I ______ in class I ______ the hiccups. The boy next to me told me ______ my breath.",
+        "options": [
+          "was sitting / had got / to hold",
+          "sat / got / to hold",
+          "was sitting / got / to hold",
+          "am sitting / got / hold"
+        ],
+        "answer": "was sitting / got / to hold"
+      },
+      {
+        "id": 38,
+        "question": "Hello! I ______ to phone you all week. Where ______?",
+        "options": [
+          "am trying / were you",
+          "have tried / did you go",
+          "tried / were you",
+          "have been trying / have you been"
+        ],
+        "answer": "have been trying / have you been"
+      },
+      {
+        "id": 40,
+        "question": "I think you should apologize when you______ her.",
+        "options": ["will see", "see", "saw", "are seen"],
+        "answer": "see"
+      },
+      {
+        "id": 41,
+        "question": "His clothes are in a mess because he ______ the house all morning.",
+        "options": [
+          "has been painting",
+          "will be painting",
+          "had been painting",
+          "will have painted"
+        ],
+        "answer": "has been painting"
+      },
+      {
+        "id": 42,
+        "question": "Since I last met him he ______.",
+        "options": [
+          "will get married",
+          "gets married",
+          "had got married",
+          "has got married"
+        ],
+        "answer": "has got married"
+      },
+      {
+        "id": 43,
+        "question": "They quarreled last week. They ______ to each other since.",
+        "options": [
+          "didn’t talk",
+          "haven’t talked",
+          "don’t talk",
+          "hadn’t talked"
+        ],
+        "answer": "haven’t talked"
+      },
+      {
+        "id": 44,
+        "question": "I ______ much of the film because I fell asleep half-way through.",
+        "options": ["had seen", "didn’t see", "wasn’t seen", "saw"],
+        "answer": "didn’t see"
+      },
+      {
+        "id": 45,
+        "question": "There is nothing we can do that ____ people from driving too fast.",
+        "options": ["is stopping", "stop", "will stop", "stopped"],
+        "answer": "will stop"
+      },
+      {
+        "id": 46,
+        "question": "I didn’t answer the phone when it ______ because I ______ a shower, so I ______ it until it was too late.",
+        "options": [
+          "rang / was having / didn’t hear",
+          "rung / was having / wasn’t heard",
+          "was ringing / had / didn’t hear",
+          "rang / was having / wasn’t heard"
+        ],
+        "answer": "rang / was having / didn’t hear"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Last night I ______ you, but the phone was out of order.",
+        "options": [
+          "would phone",
+          "phoned",
+          "were going to phone",
+          "didn’t phone"
+        ],
+        "answer": "would phone"
+      },
+      {
+        "id": 2,
+        "question": "She wants us to meet at the cafeteria, but I’d rather we ______ here.",
+        "options": ["meet", "will meet", "met", "had met"],
+        "answer": "met"
+      },
+      {
+        "id": 3,
+        "question": "We met at the cafeteria as she wanted. I’d rather we ______ here.",
+        "options": ["meet", "would meet", "met", "had met"],
+        "answer": "had met"
+      },
+      {
+        "id": 4,
+        "question": "It is likely that by the time you ______ to the shop it______ shut.",
+        "options": [
+          "will get / will be",
+          "got / will be",
+          "would get / will",
+          "get / will be"
+        ],
+        "answer": "get / will be"
+      },
+      {
+        "id": 5,
+        "question": "______ you ever ______ of him? He is a world-famous violinist.",
+        "options": [
+          "Won’t / hear",
+          "Didn’t / hear",
+          "Haven’t / heard",
+          "Had / heard"
+        ],
+        "answer": "Haven’t / heard"
+      },
+      {
+        "id": 6,
+        "question": "I ______ what the problem is by tomorrow.",
+        "options": [
+          "will be discovering",
+          "have discovered",
+          "will have discovered",
+          "will be discovered"
+        ],
+        "answer": "will have discovered"
+      },
+      {
+        "id": 7,
+        "question": "By the time I got to the stadium they ______ already ______ for ten minutes.",
+        "options": [
+          "have / been playing",
+          "were/playing",
+          "had / been playing",
+          "will / have played"
+        ],
+        "answer": "had / been playing"
+      },
+      {
+        "id": 8,
+        "question": "Someone ______ my bike last night. ______ you ever ______ your bike stolen?",
+        "options": [
+          "stole / Did / have",
+          "stolen / Have / had",
+          "was stolen / Have / had",
+          "stole / Have / had"
+        ],
+        "answer": "stole / Have / had"
+      },
+      {
+        "id": 9,
+        "question": "The doctor ______ the patient with a smile and told him that he ______ better.",
+        "options": [
+          "approached / is looking",
+          "approached / was looking",
+          "approaches / is looking",
+          "had approached / looked"
+        ],
+        "answer": "approached / was looking"
+      },
+      {
+        "id": 10,
+        "question": "I used to smoke at one time but now I ______ it up.",
+        "options": ["have given", "gave", "had given", "am given"],
+        "answer": "have given"
+      },
+      {
+        "id": 11,
+        "question": "He ______ silly questions until my patience finally ran out.",
+        "options": [
+          "has kept asking",
+          "kept asking",
+          "had been kept asking",
+          "was kept asking"
+        ],
+        "answer": "kept asking"
+      },
+      {
+        "id": 12,
+        "question": "He ______ at tennis since he came to the USA.",
+        "options": [
+          "isn’t beaten",
+          "hasn’t beaten",
+          "hasn’t been beaten",
+          "wasn’t beaten"
+        ],
+        "answer": "hasn’t been beaten"
+      },
+      {
+        "id": 13,
+        "question": "It is probably about time we ______ the car serviced.",
+        "options": ["had", "would have", "will have", "have had"],
+        "answer": "had"
+      },
+      {
+        "id": 14,
+        "question": "A: ______ we ______ somewhere before?\nB: Yes, I ______ you at your sister’s wedding.",
+        "options": [
+          "Didn’t / meet / saw",
+          "Haven’t / met / saw",
+          "Hadn’t / met / had seen",
+          "Haven’t / meet / have seen"
+        ],
+        "answer": "Haven’t / met / saw"
+      },
+      {
+        "id": 15,
+        "question": "The weather ______ worse last year than I ______ it to be.",
+        "options": [
+          "was / had expected",
+          "was / have expected",
+          "had been / expected",
+          "had been / have expected"
+        ],
+        "answer": "was / had expected"
+      },
+      {
+        "id": 16,
+        "question": "I______ hungry at four because I ______ a big lunch at one.",
+        "options": [
+          "wasn’t / had had",
+          "am not / had",
+          "was / had had",
+          "wouldn’t be / had"
+        ],
+        "answer": "wasn’t / had had"
+      },
+      {
+        "id": 17,
+        "question": "I woke up feeling tired this morning because I ______ very well.",
+        "options": [
+          "haven’t slept",
+          "wasn’t sleeping",
+          "hadn’t slept",
+          "haven’t been sleeping"
+        ],
+        "answer": "hadn’t slept"
+      },
+      {
+        "id": 18,
+        "question": "Go out and get some fresh air! You ______ here reading all morning.",
+        "options": [
+          "had been sitting",
+          "were sitting",
+          "are sitting",
+          "have been sitting"
+        ],
+        "answer": "have been sitting"
+      },
+      {
+        "id": 19,
+        "question": "Transport systems ______ likely to change in the future. One probable difference is that there ______ more electric vehicles.",
+        "options": [
+          "is / will be",
+          "are / will be",
+          "will / are",
+          "will / would be"
+        ],
+        "answer": "are / will be"
+      },
+      {
+        "id": 20,
+        "question": "The men were to ______ but the manager decided to give them a second chance.",
+        "options": [
+          "have been dismissed",
+          "dismissed",
+          "being dismissed",
+          "be dismissing"
+        ],
+        "answer": "have been dismissed"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 71,
+        "question": "Mike ______ in a travel agency for six months in 1990. He already had some experience of the tourist industry because he ______ in a Tourist Information office in Bristol two years before.",
+        "options": [
+          "had worked / had worked",
+          "was working / worked",
+          "worked / has worked",
+          "worked / had worked"
+        ],
+        "answer": "worked / had worked"
+      },
+      {
+        "id": 74,
+        "question": "I ______ her a week ago but she ______ yet.",
+        "options": [
+          "wrote / hasn’t answered",
+          "wrote / didn’t answer",
+          "had written / hasn’t answered",
+          "was written / doesn’t answer"
+        ],
+        "answer": "wrote / hasn’t answered"
+      },
+      {
+        "id": 75,
+        "question": "A: What happens to traffic in a traffic jam?\nB: It______ up.",
+        "options": ["is held", "will hold", "has been held", "was held"],
+        "answer": "is held"
+      },
+      {
+        "id": 76,
+        "question": "No one brought up that question at the meeting. That question ______ up at the meeting.",
+        "options": [
+          "was brought",
+          "won’t be brought",
+          "hasn’t been brought",
+          "wasn’t brought"
+        ],
+        "answer": "wasn’t brought"
+      },
+      {
+        "id": 77,
+        "question": "By the end of this century most of the world’s oil supplies ______.",
+        "options": [
+          "have used up",
+          "will have used up",
+          "have been used up",
+          "will have been used up"
+        ],
+        "answer": "will have been used up"
+      },
+      {
+        "id": 78,
+        "question": "My brother ______ in a restaurant for the summer, but he ______ it very much.",
+        "options": [
+          "worked / doesn’t like",
+          "is working / doesn’t like",
+          "has been working / didn’t like",
+          "working/doesn’t like"
+        ],
+        "answer": "is working / doesn’t like"
+      },
+      {
+        "id": 79,
+        "question": "Someone saw him. He was driving a Renault Manager. He ______ a Renault Manager.",
+        "options": [
+          "saw driving",
+          "was seen driving",
+          "is seen driving",
+          "has been seen drive"
+        ],
+        "answer": "was seen driving"
+      },
+      {
+        "id": 80,
+        "question": "There has been a serious accident on the E5, and a section of the motorway ______ to traffic.",
+        "options": [
+          "was closed",
+          "has been closed",
+          "had been closed",
+          "are closed"
+        ],
+        "answer": "has been closed"
+      },
+      {
+        "id": 81,
+        "question": "People say that Istanbul is one of the world’s most interesting cities. Istanbul ______ one of the world’s most interesting cities.",
+        "options": [
+          "said to be",
+          "is said to be",
+          "told to be",
+          "was said to be"
+        ],
+        "answer": "is said to be"
+      },
+      {
+        "id": 82,
+        "question": "Long ago, people thought that the earth was flat. Long ago, the earth ______ flat.",
+        "options": [
+          "was thinking to be",
+          "was thought to be",
+          "is thought to be",
+          "thought to be"
+        ],
+        "answer": "was thought to be"
+      },
+      {
+        "id": 83,
+        "question": "When I arrived, no arrangements ______.",
+        "options": [
+          "had been made",
+          "weren’t made",
+          "hadn’t been made",
+          "have been made"
+        ],
+        "answer": "had been made"
+      },
+      {
+        "id": 84,
+        "question": "The pilot ______ thought to ______ in the crash.",
+        "options": [
+          "was / have died",
+          "was / be dying",
+          "had / have died",
+          "has / would die"
+        ],
+        "answer": "was / have died"
+      },
+      {
+        "id": 85,
+        "question": "A: Who’s going to meet him at the airport?\nB: He ______ by our ambassador.",
+        "options": [
+          "is going to be met",
+          "will have been met",
+          "is going to meet",
+          "has gone to meet"
+        ],
+        "answer": "is going to be met"
+      },
+      {
+        "id": 86,
+        "question": "This week we’ve had the house ______ into by thieves.",
+        "options": ["to break", "be broken", "broken", "being broken"],
+        "answer": "broken"
+      },
+      {
+        "id": 87,
+        "question": "A: What do they use this building for?\nB: Well, years ago it ______ as a dance hall but now it ______ for offices.",
+        "options": [
+          "is used / being used",
+          "had been used / is using",
+          "was used / is used",
+          "has been used / is used"
+        ],
+        "answer": "was used / is used"
+      },
+      {
+        "id": 88,
+        "question": "A: Were you able to cure the patient?\nB: He ______ already ______ by the time I got there.",
+        "options": [
+          "will / have been cured",
+          "had / been cured",
+          "had / cured",
+          "has / been cured"
+        ],
+        "answer": "had / been cured"
+      },
+      {
+        "id": 89,
+        "question": "Mars is the first planet ______.",
+        "options": [
+          "to discover",
+          "was discovered",
+          "to be discovered",
+          "to have been discovered"
+        ],
+        "answer": "to be discovered"
+      },
+      {
+        "id": 90,
+        "question": "They were unhappy with the way things ______.",
+        "options": [
+          "are going",
+          "were going",
+          "have been going on",
+          "will be going on"
+        ],
+        "answer": "were going"
+      },
+      {
+        "id": 91,
+        "question": "Don’t touch that electric stove while it ______.",
+        "options": [
+          "was being repaired",
+          "being repaired",
+          "is being repaired",
+          "will be repairing"
+        ],
+        "answer": "is being repaired"
+      },
+      {
+        "id": 92,
+        "question": "He was 8 kilos overweight and ______ to go on a diet.",
+        "options": [
+          "is advised",
+          "has been advised",
+          "was advised",
+          "had advised"
+        ],
+        "answer": "was advised"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "People like policemen ______ always ______ against flu.",
+        "options": [
+          "do / vaccinate",
+          "are / vaccinated",
+          "to be / vaccinated",
+          "is / to be vaccinated"
+        ],
+        "answer": "are / vaccinated"
+      },
+      {
+        "id": 2,
+        "question": "His novels ______ into eight languages.",
+        "options": [
+          "to be translated",
+          "has been translated",
+          "have translated",
+          "have been translated"
+        ],
+        "answer": "have been translated"
+      },
+      {
+        "id": 3,
+        "question": "We usually ______ the news on TV at eight o’clock, but tonight we ______ that new soap opera.",
+        "options": [
+          "are watching / watched",
+          "watch / are watching",
+          "are watching / are watching",
+          "watch / watched"
+        ],
+        "answer": "watch / are watching"
+      },
+      {
+        "id": 4,
+        "question": "He noticed that the room ______ recently.",
+        "options": [
+          "hasn’t been cleaned",
+          "was not cleaned",
+          "hadn’t been cleaned",
+          "won’t be cleaned"
+        ],
+        "answer": "hadn’t been cleaned"
+      },
+      {
+        "id": 5,
+        "question": "I hate it when my boiled egg ______ properly.",
+        "options": ["not done", "isn’t done", "wasn’t done", "won’t be done"],
+        "answer": "isn’t done"
+      },
+      {
+        "id": 6,
+        "question": "A speech to the nation was ______ by the Prime Minister, but it had to be cancelled at the last minute because of a cabinet crisis.",
+        "options": [
+          "would make",
+          "has been made",
+          "being made",
+          "to have been made"
+        ],
+        "answer": "to have been made"
+      },
+      {
+        "id": 7,
+        "question": "He ______ empty the contents of his suitcases onto the counter.",
+        "options": ["was made", "was made to", "had made", "will be made"],
+        "answer": "was made to"
+      },
+      {
+        "id": 8,
+        "question": "The authorities feared the missing man was dead. The missing man was feared ______.",
+        "options": ["being dead", "dead", "to be dead", "was dead"],
+        "answer": "to be dead"
+      },
+      {
+        "id": 9,
+        "question": "Someone heard him shout for help. He ______ shout for help.",
+        "options": [
+          "has been heard",
+          "is heard to",
+          "was heard",
+          "was heard to"
+        ],
+        "answer": "was heard to"
+      },
+      {
+        "id": 10,
+        "question": "The authorities will make him pay all his debts. He ______ pay all his debts.",
+        "options": [
+          "is going to be",
+          "will be made",
+          "was made to",
+          "will be made to"
+        ],
+        "answer": "will be made to"
+      },
+      {
+        "id": 11,
+        "question": "She’s spring-cleaning the house from bottom to top. The house ______ from top to bottom.",
+        "options": [
+          "is being spring-cleaned",
+          "was to be spring-cleaned",
+          "has been spring-cleaned",
+          "is to be spring-cleaned"
+        ],
+        "answer": "is being spring-cleaned"
+      },
+      {
+        "id": 12,
+        "question": "The last days of the holiday ______ by rain.",
+        "options": [
+          "was spoiled",
+          "are spoiled",
+          "have been spoiled",
+          "were spoiled"
+        ],
+        "answer": "were spoiled"
+      },
+      {
+        "id": 13,
+        "question": "They have used up all the petrol in the tank. All the petrol in the tank ______ up.",
+        "options": [
+          "has been using",
+          "has been used",
+          "will have been used",
+          "have been used"
+        ],
+        "answer": "has been used"
+      },
+      {
+        "id": 14,
+        "question": "I expect the police will find him. I expect he ______ by the police.",
+        "options": [
+          "to be found",
+          "would be found",
+          "be found",
+          "will be found"
+        ],
+        "answer": "will be found"
+      },
+      {
+        "id": 15,
+        "question": "People don’t bring up children properly these days. Children ______ properly these days.",
+        "options": [
+          "didn’t bring up",
+          "aren’t bringing up",
+          "aren’t brought up",
+          "weren’t brought up"
+        ],
+        "answer": "aren’t brought up"
+      },
+      {
+        "id": 16,
+        "question": "They ______ the traffic problem when the plans for the project ______ made last year.",
+        "options": [
+          "haven’t considered / were being",
+          "weren’t considered / were",
+          "didn’t consider / was being",
+          "didn’t consider / were being"
+        ],
+        "answer": "didn’t consider / were being"
+      },
+      {
+        "id": 17,
+        "question": "Because of the patient’s health, ______.",
+        "options": [
+          "the doctor was advised to lose weight",
+          "he was advised by the doctor to lose weight",
+          "the doctor wants to lose weight",
+          "he advised the doctor to lose weight"
+        ],
+        "answer": "he was advised by the doctor to lose weight"
+      },
+      {
+        "id": 18,
+        "question": "They hadn’t done any damage to it. No damage ______ to it.",
+        "options": [
+          "was done",
+          "had been done",
+          "hadn’t been done",
+          "has been done"
+        ],
+        "answer": "had been done"
+      },
+      {
+        "id": 19,
+        "question": "“They say he robbed the bank.” means: ______.",
+        "options": [
+          "they say he’s been robbed in the bank.",
+          "He is said to rob the bank.",
+          "He said he’d robbed the bank.",
+          "He is said to have robbed the bank."
+        ],
+        "answer": "He is said to have robbed the bank."
+      },
+      {
+        "id": 20,
+        "question": "A: Did Arsenal beat Galatasaray in the final?\nB: ______.",
+        "options": [
+          "Yes, Arsenal was beaten by Galatasaray in the final.",
+          "Yes, Galatasaray beat Arsenal in the final.",
+          "No, Galatasaray was beaten by Arsenal",
+          "No, Arsenal was beaten by Galatasaray in the final."
+        ],
+        "answer": "No, Arsenal was beaten by Galatasaray in the final."
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "People think he is guilty. He ______ guilty.",
+        "options": [
+          "thought to be",
+          "thinks he is",
+          "is thought to be",
+          "thought he was"
+        ],
+        "answer": "is thought to be"
+      },
+      {
+        "id": 2,
+        "question": "Foreign investments _____ reduced by 20 per cent since the election.",
+        "options": ["have been", "were", "have had", "has been"],
+        "answer": "have been"
+      },
+      {
+        "id": 3,
+        "question": "It _____ that the Government would do something to relieve the situation.",
+        "options": ["is assumed", "assumed", "was assuming", "was assumed"],
+        "answer": "was assumed"
+      },
+      {
+        "id": 4,
+        "question": "The man who ______ by a snake was given a serum.",
+        "options": [
+          "is bitten",
+          "has been bitten",
+          "had been bitten",
+          "had bitten"
+        ],
+        "answer": "had been bitten"
+      },
+      {
+        "id": 5,
+        "question": "A cease-fire ______ expected to ______ later this month.",
+        "options": [
+          "was / be declaring",
+          "is / be declared",
+          "is / declare",
+          "has expected / to be declared"
+        ],
+        "answer": "is / be declared"
+      },
+      {
+        "id": 6,
+        "question": "A great deal of research ______ into the possible causes of cancer.",
+        "options": [
+          "are being done",
+          "have been done",
+          "has been done",
+          "has done"
+        ],
+        "answer": "has been done"
+      },
+      {
+        "id": 7,
+        "question": "She promised that she ______ hospital until she ______ better.",
+        "options": [
+          "would not leave / was",
+          "wouldn’t leave / would be",
+          "doesn’t leave / was",
+          "didn’t leave / was"
+        ],
+        "answer": "would not leave / was"
+      },
+      {
+        "id": 8,
+        "question": "New sources of energy ______ developed. This will become increasingly important as oil reserves ______ up.",
+        "options": [
+          "is being / are used",
+          "has been / have been used",
+          "are being / are used",
+          "have been / is used"
+        ],
+        "answer": "are being / are used"
+      },
+      {
+        "id": 9,
+        "question": "The transistor ______ in 1948. As a result of this, both the size and the cost of electronic equipment ______ greatly reduced.",
+        "options": [
+          "was invented / have been",
+          "had been invented / has been",
+          "was invented / have had",
+          "had invented / will be"
+        ],
+        "answer": "was invented / have been"
+      },
+      {
+        "id": 10,
+        "question": "Radio waves ______ by the ionosphere. This makes it possible ______ short-wave radio signals over great distances.",
+        "options": [
+          "is reflected / to send",
+          "are reflecting / sent",
+          "are reflected / sending",
+          "are reflected / to send"
+        ],
+        "answer": "are reflected / to send"
+      },
+      {
+        "id": 11,
+        "question": "Plans to develop cars on methanol are likely ______ in the future.",
+        "options": [
+          "will be realized",
+          "will have been realized",
+          "to be realized",
+          "being realized"
+        ],
+        "answer": "to be realized"
+      },
+      {
+        "id": 12,
+        "question": "There is no bread left because we ______ it all.",
+        "options": [
+          "have eaten",
+          "has been eaten",
+          "had eaten",
+          "have been eaten"
+        ],
+        "answer": "have eaten"
+      },
+      {
+        "id": 13,
+        "question": "Little ____ she realize that the evening was ____ out very differently.",
+        "options": [
+          "did / turning",
+          "will / to turn",
+          "does / to have turned",
+          "did / to turn"
+        ],
+        "answer": "did / to turn"
+      },
+      {
+        "id": 14,
+        "question": "It is highly probable that more and more solar energy ______ in the future.",
+        "options": ["will be used", "be used", "to be used", "will be using"],
+        "answer": "will be used"
+      },
+      {
+        "id": 15,
+        "question": "There isn’t any more chalk, it ______ all ______.",
+        "options": [
+          "has / used up",
+          "was / used up",
+          "has / been used up",
+          "had / been used up"
+        ],
+        "answer": "has / been used up"
+      },
+      {
+        "id": 16,
+        "question": "You can stop looking for his watch. He ______ just ______ it.",
+        "options": [
+          "has / been found",
+          "has / found",
+          "had / found",
+          "will / have found"
+        ],
+        "answer": "has / found"
+      },
+      {
+        "id": 17,
+        "question": "Don’t ask me what cauliflower tastes like. I ______ eating it.",
+        "options": [
+          "am not trying",
+          "didn’t try",
+          "haven’t tried",
+          "don’t try"
+        ],
+        "answer": "haven’t tried"
+      },
+      {
+        "id": 18,
+        "question": "I bought another concert ticket in case you ____ to come with me.",
+        "options": ["wanted", "will want", "have wanted", "would want"],
+        "answer": "wanted"
+      },
+      {
+        "id": 19,
+        "question": "We’ll close all the windows in case it ______ while we are out.",
+        "options": ["rains", "rained", "will rain", "rain"],
+        "answer": "rains"
+      },
+      {
+        "id": 20,
+        "question": "Take an umbrella with you in case it ______.",
+        "options": ["rained", "will rain", "should rain", "is raining"],
+        "answer": "should rain"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "topics": ["tenses", "passives"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "She ought to pass her exams so long as she ______.",
+        "options": [
+          "doesn’t panic",
+          "won’t panic",
+          "shouldn’t panic",
+          "didn’t panic"
+        ],
+        "answer": "doesn’t panic"
+      },
+      {
+        "id": 2,
+        "question": "His hopes of making a fortune ______ when his factory burned down.",
+        "options": [
+          "were dashed",
+          "have dashed",
+          "was dashed",
+          "will be dashed"
+        ],
+        "answer": "were dashed"
+      },
+      {
+        "id": 3,
+        "question": "When eleven o’clock came and he still ______, I began to wonder if he ______ an accident.",
+        "options": [
+          "didn’t arrive / had",
+          "hadn’t arrived / had had",
+          "won’t arrive / had had",
+          "didn’t arrive / had had"
+        ],
+        "answer": "hadn’t arrived / had had"
+      },
+      {
+        "id": 4,
+        "question": "Some patients shout in pain while ______ an injection.",
+        "options": ["giving", "being given", "given", "have been given"],
+        "answer": "being given"
+      },
+      {
+        "id": 5,
+        "question": "For various reasons, clothing of some type ______ by human beings since the beginning of time.",
+        "options": ["has worn", "was worn", "is being worn", "has been worn"],
+        "answer": "has been worn"
+      },
+      {
+        "id": 6,
+        "question": "Considering the weather is so uncertain, the reception ____ indoors.",
+        "options": ["was held", "will be held", "to be held", "has held"],
+        "answer": "will be held"
+      },
+      {
+        "id": 7,
+        "question": "In most non-western countries punishment______ as a deterrent.",
+        "options": [
+          "is not seen",
+          "hasn’t seen",
+          "weren’t seen",
+          "aren’t seen"
+        ],
+        "answer": "is not seen"
+      },
+      {
+        "id": 8,
+        "question": "If we compare the mass of hydrogen in a star with the rate at which energy ______, we can estimate its potential life.",
+        "options": [
+          "is being emitted",
+          "be emitted",
+          "was emitted",
+          "will be emitted"
+        ],
+        "answer": "is being emitted"
+      },
+      {
+        "id": 9,
+        "question": "It has been predicted that within the next 50 years, scientists ______ a drug to prolong life up to 150 years or more.",
+        "options": [
+          "are producing",
+          "to be produced",
+          "will be produced",
+          "will have produced"
+        ],
+        "answer": "will have produced"
+      },
+      {
+        "id": 10,
+        "question": "We ______ at the Italian restaurant last night, but it was full, so we ate somewhere else.",
+        "options": [
+          "were eating",
+          "were going to eat",
+          "are going to eat",
+          "had eaten"
+        ],
+        "answer": "were going to eat"
+      },
+      {
+        "id": 11,
+        "question": "The door ______ unless you ______.",
+        "options": [
+          "won’t open / push",
+          "doesn’t open / will push",
+          "won’t open / will push",
+          "isn’t open / push"
+        ],
+        "answer": "won’t open / push"
+      },
+      {
+        "id": 12,
+        "question": "His parents ______ married for eight years when he was born.",
+        "options": ["have been", "will be", "had been", "were"],
+        "answer": "had been"
+      },
+      {
+        "id": 13,
+        "question": "By April 2010, he ______ for this organization for fifteen years.",
+        "options": [
+          "has been working",
+          "will be working",
+          "will have been working",
+          "had been working"
+        ],
+        "answer": "will have been working"
+      },
+      {
+        "id": 14,
+        "question": "He ______ from the company for several years before they found him out.",
+        "options": [
+          "has been stealing",
+          "had been stealing",
+          "was stealing",
+          "will have been stolen"
+        ],
+        "answer": "had been stealing"
+      },
+      {
+        "id": 15,
+        "question": "He ______ a cold for the last three days.",
+        "options": [
+          "is fighting off",
+          "will have fought off",
+          "has been fighting off",
+          "was fighting off"
+        ],
+        "answer": "has been fighting off"
+      },
+      {
+        "id": 16,
+        "question": "The Prime Minister refuses to enter into negotiations with the railway men until they ______ all ______ to work.",
+        "options": [
+          "are / return",
+          "have / returned",
+          "had / returned",
+          "will / have I returned"
+        ],
+        "answer": "have / returned"
+      },
+      {
+        "id": 17,
+        "question": "In the years ahead, it seems likely that people ______ even greater control over nature.",
+        "options": [
+          "to acquire",
+          "will be acquired",
+          "will acquire",
+          "will have been acquired"
+        ],
+        "answer": "will acquire"
+      },
+      {
+        "id": 18,
+        "question": "You ______ pleased to hear that your father______ to the committee.",
+        "options": [
+          "have been / selected",
+          "will be / has been selected",
+          "are / is selecting",
+          "have been / was selected"
+        ],
+        "answer": "will be / has been selected"
+      },
+      {
+        "id": 19,
+        "question": "Hardly _____ I_____ the phone down when it started ringing again.",
+        "options": [
+          "did / put",
+          "will have / put",
+          "did / to have put",
+          "had / put"
+        ],
+        "answer": "had / put"
+      },
+      {
+        "id": 20,
+        "question": "The day she agreed to marry him was the happiest he ______ ever ______ in his life.",
+        "options": ["has / had", "had / had", "will / have", "would / have"],
+        "answer": "had / had"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "I’ll stay home if it ______.",
+        "options": ["rained", "rains", "will rain", "won’t rain"],
+        "answer": "rains"
+      },
+      {
+        "id": 2,
+        "question": "If I ______ out, I’ll buy a newspaper",
+        "options": ["go", "will go", "am going", "went"],
+        "answer": "go"
+      },
+      {
+        "id": 3,
+        "question": "I’ll help him if he ______.",
+        "options": ["ask", "asked", "asks", "will ask"],
+        "answer": "asks"
+      },
+      {
+        "id": 4,
+        "question": "If I fail the exam, I ______ it again.",
+        "options": ["took", "wouldn’t take", "will take", "didn’t take"],
+        "answer": "will take"
+      },
+      {
+        "id": 5,
+        "question": "If I ______ time, I could go with you.",
+        "options": ["have", "will have", "am having", "had"],
+        "answer": "had"
+      },
+      {
+        "id": 6,
+        "question": "I’ll go to the park if it ______ cold.",
+        "options": ["weren’t", "wasn’t", "isn’t", "doesn’t"],
+        "answer": "isn’t"
+      },
+      {
+        "id": 7,
+        "question": "If I ______ a bird, I could fly home.",
+        "options": ["were", "will be", "would be", "be"],
+        "answer": "were"
+      },
+      {
+        "id": 8,
+        "question": "If the weather were nice, I ______ to the beach.",
+        "options": ["will go", "would go", "went", "go"],
+        "answer": "would go"
+      },
+      {
+        "id": 9,
+        "question": "If she ______, she usually does well on the tests.",
+        "options": ["studied", "had studied", "studies", "will study"],
+        "answer": "studies"
+      },
+      {
+        "id": 10,
+        "question": "If you needed the money, I ______ it to you.",
+        "options": ["would lend", "lent", "will lend", "lend"],
+        "answer": "would lend"
+      },
+      {
+        "id": 11,
+        "question": "I ______ to you if you don’t come.",
+        "options": [
+          "wouldn’t talk",
+          "won’t talk",
+          "didn’t talk",
+          "doesn’t talk"
+        ],
+        "answer": "won’t talk"
+      },
+      {
+        "id": 12,
+        "question": "If I ______ a lot of money, I’d take a long holiday.",
+        "options": ["won", "win", "would win", "had won"],
+        "answer": "won"
+      },
+      {
+        "id": 13,
+        "question": "You wouldn’t ______ your car if you had driven more carefully.",
+        "options": ["damage", "damaged", "has damaged", "have damaged"],
+        "answer": "have damaged"
+      },
+      {
+        "id": 14,
+        "question": "If I had time, ______ see the new film at the cinema.",
+        "options": ["I’ll", "I’d", "I can", "I am"],
+        "answer": "I’d"
+      },
+      {
+        "id": 15,
+        "question": "A: I smoke too much.\nB: If I ______ you, I ______ smoke at all.",
+        "options": [
+          "was / won’t",
+          "were / weren’t",
+          "am / won’t",
+          "were / wouldn’t"
+        ],
+        "answer": "were / wouldn’t"
+      },
+      {
+        "id": 16,
+        "question": "I don’t have much money so I can’t travel. If I ______ a lot of money, I ______ travel.",
+        "options": [
+          "have / could",
+          "had / would",
+          "had / can",
+          "had had / would"
+        ],
+        "answer": "had / would"
+      },
+      {
+        "id": 17,
+        "question": "I’m going out. If the phone ______, please answer it.",
+        "options": ["rang", "rings", "would ring", "will ring"],
+        "answer": "rings"
+      },
+      {
+        "id": 18,
+        "question": "I ______ the car if I had the right tools.",
+        "options": ["can repair", "repaired", "could repair", "will repair"],
+        "answer": "could repair"
+      },
+      {
+        "id": 19,
+        "question": "If you mix yellow and blue, you ______ green.",
+        "options": ["get", "got", "would get", "gets"],
+        "answer": "get"
+      },
+      {
+        "id": 20,
+        "question": "I usually take some aspirin if I ______ a headache.",
+        "options": ["had", "have", "will have", "would have"],
+        "answer": "have"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 21,
+        "question": "If flowers ______ enough water, they die.",
+        "options": ["don’t get", "get", "didn’t get", "doesn’t get"],
+        "answer": "don’t get"
+      },
+      {
+        "id": 22,
+        "question": "I ______ write to you if you don’t give me your address.",
+        "options": ["can’t", "couldn’t", "wouldn’t", "didn’t"],
+        "answer": "can’t"
+      },
+      {
+        "id": 23,
+        "question": "Your cough ______ get better if you don’t stop smoking.",
+        "options": ["will", "would", "won’t", "didn’t"],
+        "answer": "won’t"
+      },
+      {
+        "id": 24,
+        "question": "If he ______ a promise, he always keeps it.",
+        "options": ["made", "would make", "make", "makes"],
+        "answer": "makes"
+      },
+      {
+        "id": 25,
+        "question": "If you ______ me, I’d have helped you.",
+        "options": ["asked", "would ask", "had asked", "ask"],
+        "answer": "had asked"
+      },
+      {
+        "id": 26,
+        "question": "If I ______ ill yesterday, I wouldn’t have stayed at home.",
+        "options": ["weren’t", "had been", "hadn’t been", "wasn’t"],
+        "answer": "hadn’t been"
+      },
+      {
+        "id": 27,
+        "question": "He is fat because he doesn’t take any exercise. If he ______ some exercise, he ______ so fat.",
+        "options": [
+          "took / won’t be",
+          "will take / won’t be",
+          "takes / wouldn’t be",
+          "took / wouldn’t be"
+        ],
+        "answer": "took / wouldn’t be"
+      },
+      {
+        "id": 28,
+        "question": "I’d like to go to the concert, but I haven’t got a ticket. If I ______ a ticket, I ______ go to it.",
+        "options": [
+          "had / will",
+          "have / will",
+          "will have / can",
+          "had / could"
+        ],
+        "answer": "had / could"
+      },
+      {
+        "id": 29,
+        "question": "Would he have passed if he ______ hard?",
+        "options": ["studied", "had studied", "studies", "would study"],
+        "answer": "had studied"
+      },
+      {
+        "id": 30,
+        "question": "If you ______ practice, you can’t learn English.",
+        "options": ["aren’t", "didn’t", "won’t", "don’t"],
+        "answer": "don’t"
+      },
+      {
+        "id": 31,
+        "question": "If I could go anywhere in the world, I ______ to Japan.",
+        "options": ["would go", "will go", "went", "had gone"],
+        "answer": "would go"
+      },
+      {
+        "id": 32,
+        "question": "You will kill yourself if you ______ stop smoking.",
+        "options": ["aren’t", "didn’t", "don’t", "weren’t"],
+        "answer": "don’t"
+      },
+      {
+        "id": 33,
+        "question": "If the teacher ______ a little more slowly, I could understand him.",
+        "options": ["speak", "will speak", "speaks", "spoke"],
+        "answer": "spoke"
+      },
+      {
+        "id": 34,
+        "question": "If people ______ ill, they go to see a doctor.",
+        "options": ["is", "are", "were", "will be"],
+        "answer": "are"
+      },
+      {
+        "id": 35,
+        "question": "If she ______ him, she would marry him.",
+        "options": ["loved", "would love", "loves", "had loved"],
+        "answer": "had loved"
+      },
+      {
+        "id": 36,
+        "question": "Perhaps he would excuse you if you ______ to him yourself.",
+        "options": ["spoke", "will speak", "speak", "had spoken"],
+        "answer": "had spoken"
+      },
+      {
+        "id": 37,
+        "question": "I could tell you the time if I ______ a watch.",
+        "options": ["had had", "had", "would have", "will have"],
+        "answer": "had had"
+      },
+      {
+        "id": 38,
+        "question": "If you don’t take your medicine, you ______ get well quickly.",
+        "options": ["won’t", "wouldn’t", "couldn’t", "aren’t"],
+        "answer": "won’t"
+      },
+      {
+        "id": 39,
+        "question": "I’d have been there on time if I ______.",
+        "options": [
+          "get up early",
+          "could get on the first train",
+          "had caught the earlier bus",
+          "set my alarm clock"
+        ],
+        "answer": "had caught the earlier bus"
+      },
+      {
+        "id": 40,
+        "question": "If the sun ______ the world ______ dark.",
+        "options": [
+          "won’t rise / will be",
+          "hadn’t risen / would have been",
+          "doesn’t / will be",
+          "didn’t rise / would be"
+        ],
+        "answer": "didn’t rise / would be"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 41,
+        "question": "If Neil Armstrong had lived in 1453, he ______ on the moon.",
+        "options": [
+          "couldn’t walk",
+          "wouldn’t walk",
+          "can’t walk",
+          "couldn’t have walked"
+        ],
+        "answer": "couldn’t have walked"
+      },
+      {
+        "id": 42,
+        "question": "If she ______ younger, she could start jogging.",
+        "options": ["were", "would be", "is", "will be"],
+        "answer": "were"
+      },
+      {
+        "id": 43,
+        "question": "He ______ angry if you argue with him.",
+        "options": ["got", "get", "gets", "would get"],
+        "answer": "gets"
+      },
+      {
+        "id": 44,
+        "question": "Diana would have got up earlier if ______ .",
+        "options": [
+          "she knew the train left at 6.30",
+          "the alarm clock went off on time",
+          "you could have woken her up",
+          "she could sleep well"
+        ],
+        "answer": "you could have woken her up"
+      },
+      {
+        "id": 45,
+        "question": "If I had listened to the weather forecast ______.",
+        "options": [
+          "I would stay at home",
+          "I’d know it was windy",
+          "I wouldn’t have watered the flowers",
+          "we were going to play football"
+        ],
+        "answer": "I wouldn’t have watered the flowers"
+      },
+      {
+        "id": 46,
+        "question": "______ they’d take you to hospital.",
+        "options": [
+          "If you are seriously ill",
+          "If you have a terrible headache",
+          "If you got any worse",
+          "If you’d become worried"
+        ],
+        "answer": "If you got any worse"
+      },
+      {
+        "id": 47,
+        "question": "Everything would be all right if ______.",
+        "options": [
+          "I could start on the 9th of September",
+          "you’d apologize to her",
+          "it hadn’t rained",
+          "she hadn’t phoned the police"
+        ],
+        "answer": "it hadn’t rained"
+      },
+      {
+        "id": 48,
+        "question": "______, I wouldn’t have told you.",
+        "options": [
+          "If it was a piece of bad news",
+          "If I failed the driving test",
+          "If you were dismissed",
+          "If I’d known you were going to be upset"
+        ],
+        "answer": "If I’d known you were going to be upset"
+      },
+      {
+        "id": 49,
+        "question": "She’d go on a diet if ______.",
+        "options": [
+          "you ask her to do",
+          "she had had some complaints",
+          "she will marry a rich man",
+          "she appeared on TV"
+        ],
+        "answer": "she appeared on TV"
+      },
+      {
+        "id": 50,
+        "question": "She wouldn’t have married him if ______.",
+        "options": [
+          "she weren’t beautiful",
+          "he didn’t have a lot of money",
+          "she had a villa",
+          "he hadn’t been an engineer"
+        ],
+        "answer": "he hadn’t been an engineer"
+      },
+      {
+        "id": 51,
+        "question": "Tell me ______.",
+        "options": [
+          "where is the station",
+          "what is your name",
+          "why she is crying",
+          "how did you learn English"
+        ],
+        "answer": "why she is crying"
+      },
+      {
+        "id": 52,
+        "question": "Ask the driver ______.",
+        "options": [
+          "how long does it take to the airport",
+          "how much we’ll pay",
+          "if he had any change",
+          "the car is his own"
+        ],
+        "answer": "how much we’ll pay"
+      },
+      {
+        "id": 53,
+        "question": "Does anybody know why ______ ?",
+        "options": [
+          "does the teacher get angry",
+          "Ray is absent",
+          "is he waiting outside",
+          "are they late"
+        ],
+        "answer": "Ray is absent"
+      },
+      {
+        "id": 54,
+        "question": "“Are you ready?” she asked. She asked ______ ready.",
+        "options": ["if I was", "when I am", "to be", "why I was"],
+        "answer": "if I was"
+      },
+      {
+        "id": 55,
+        "question": "I don’t know______.",
+        "options": [
+          "when is it",
+          "what time it is",
+          "what time is it",
+          "when was it"
+        ],
+        "answer": "what time it is"
+      },
+      {
+        "id": 56,
+        "question": "I wonder why ______.",
+        "options": [
+          "is the sky blue",
+          "was the sky blue",
+          "the sky was blue",
+          "the sky is blue"
+        ],
+        "answer": "the sky is blue"
+      },
+      {
+        "id": 57,
+        "question": "“Why is he smiling ?” I want to know______.",
+        "options": [
+          "why he was smiling",
+          "why was he smiling",
+          "why is he smiling",
+          "why he is smiling"
+        ],
+        "answer": "why he is smiling"
+      },
+      {
+        "id": 58,
+        "question": "I wonder whether ______ on other planets.",
+        "options": ["is there life", "there was", "there’s life", "was there"],
+        "answer": "there’s life"
+      },
+      {
+        "id": 59,
+        "question": "Could you tell me where ______?",
+        "options": [
+          "the bus station was",
+          "is the bus station",
+          "the bus station is",
+          "was the bus station"
+        ],
+        "answer": "the bus station is"
+      },
+      {
+        "id": 60,
+        "question": "She said, “My brother is a student.” She said that ______ a student.",
+        "options": [
+          "my brother is",
+          "her brother was",
+          "my brother was",
+          "your brother was"
+        ],
+        "answer": "her brother was"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 61,
+        "question": "“When will you be here?” she asked. She asked me when ______ there.",
+        "options": ["I would be", "would I be", "she will be", "she would be"],
+        "answer": "I would be"
+      },
+      {
+        "id": 62,
+        "question": "He said, “I will watch TV”. He said ______.",
+        "options": [
+          "I would watch TV",
+          "I will watch TV",
+          "she would watch TV",
+          "he would watch TV"
+        ],
+        "answer": "he would watch TV"
+      },
+      {
+        "id": 63,
+        "question": "“Do you need a pen?” Anne asked me ______ a pen.",
+        "options": [
+          "do you need",
+          "did I need",
+          "if I needed",
+          "whether she needed"
+        ],
+        "answer": "if I needed"
+      },
+      {
+        "id": 64,
+        "question": "“I may be late.” Mike told me______ late.",
+        "options": ["he might be", "I might be", "he may be", "he was"],
+        "answer": "he might be"
+      },
+      {
+        "id": 65,
+        "question": "“What are you talking about?” Dick asked me what______.",
+        "options": [
+          "am I talking about",
+          "I was talking about",
+          "he is talking about",
+          "was he talking about"
+        ],
+        "answer": "I was talking about"
+      },
+      {
+        "id": 66,
+        "question": "“Can you come to the party?” David asked me ____ to the party.",
+        "options": [
+          "could he come",
+          "can he come",
+          "if I could come",
+          "whether I can come"
+        ],
+        "answer": "if I could come"
+      },
+      {
+        "id": 67,
+        "question": "“I have to study.” Barbara said______.",
+        "options": [
+          "she had to study",
+          "if he had to study",
+          "she has to study",
+          "if she has to study"
+        ],
+        "answer": "she had to study"
+      },
+      {
+        "id": 68,
+        "question": "I don’t know if I ______ succeed in passing my exam or not.",
+        "options": ["will", "could", "would", "will be"],
+        "answer": "will"
+      },
+      {
+        "id": 69,
+        "question": "“ Have you seen my grammar book?” Nancy wanted to know ______ grammar book.",
+        "options": [
+          "whether she’d seen my",
+          "if I’d seen her",
+          "did I see her",
+          "I’d seen her"
+        ],
+        "answer": "if I’d seen her"
+      },
+      {
+        "id": 70,
+        "question": "He explained why ______.",
+        "options": [
+          "did he come late",
+          "was he late",
+          "late he was",
+          "he was late"
+        ],
+        "answer": "he was late"
+      },
+      {
+        "id": 71,
+        "question": "My friend said, “I can’t believe it.” He said ______ it.",
+        "options": [
+          "he can’t believe",
+          "I couldn’t believe",
+          "he couldn’t believe",
+          "he didn’t believe"
+        ],
+        "answer": "he couldn’t believe"
+      },
+      {
+        "id": 72,
+        "question": "The nurse doesn’t understand why the girl______.",
+        "options": ["is coughing", "was coughing", "would cough", "cough"],
+        "answer": "is coughing"
+      },
+      {
+        "id": 73,
+        "question": "I didn’t know if he ______ there.",
+        "options": ["were", "is going to be", "would be", "will be"],
+        "answer": "would be"
+      },
+      {
+        "id": 74,
+        "question": "Peter asked his brother ______.",
+        "options": [
+          "where are the hammers",
+          "where was the hammer",
+          "where is the hammer",
+          "where the hammer was"
+        ],
+        "answer": "where the hammer was"
+      },
+      {
+        "id": 75,
+        "question": "Father said that ______.",
+        "options": [
+          "I’m at my office",
+          "he was at his office",
+          "you are at your office",
+          "“I’m at my office”"
+        ],
+        "answer": "he was at his office"
+      },
+      {
+        "id": 76,
+        "question": "I heard that you ______ at the basketball match.",
+        "options": ["are", "were", "been", "gone"],
+        "answer": "were"
+      },
+      {
+        "id": 77,
+        "question": "George said that ______ to Tom.",
+        "options": ["he’d spoken", "he’s spoken", "you speak", "I have spoken"],
+        "answer": "he’d spoken"
+      },
+      {
+        "id": 78,
+        "question": "They promised that they ______ Mike next year.",
+        "options": ["visit", "would visit", "will visit", "won’t visit"],
+        "answer": "would visit"
+      },
+      {
+        "id": 79,
+        "question": "She was sorry that ______.",
+        "options": [
+          "she was late",
+          "she is late",
+          "was she late",
+          "to be late"
+        ],
+        "answer": "she was late"
+      },
+      {
+        "id": 80,
+        "question": "“ May I use your telephone?” He asked me if ______.",
+        "options": [
+          "I might use his telephone",
+          "he may use his telephone",
+          "he might use my telephone",
+          "he might use his telephone"
+        ],
+        "answer": "he might use my telephone"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 81,
+        "question": "“ Can you help me?” She wondered if ______.",
+        "options": [
+          "I can help her",
+          "she could help me",
+          "I could help her",
+          "she can help me"
+        ],
+        "answer": "I could help her"
+      },
+      {
+        "id": 82,
+        "question": "I don’t know where ______.",
+        "options": [
+          "the lavatory is",
+          "is the lavatory",
+          "was the lavatory",
+          "the lavatory was"
+        ],
+        "answer": "the lavatory is"
+      },
+      {
+        "id": 83,
+        "question": "She asked me if ______ to the meeting.",
+        "options": [
+          "I was going",
+          "I am going",
+          "she is going",
+          "would she go"
+        ],
+        "answer": "I was going"
+      },
+      {
+        "id": 84,
+        "question": "The surgeon says, “You may have some pain for a few days.” He says that ______ some pain for a few days.",
+        "options": ["I might have", "he may have", "he might", "I may have"],
+        "answer": "I may have"
+      },
+      {
+        "id": 85,
+        "question": "She asked me, “Can you help us?” She wanted to know if ______.",
+        "options": [
+          "could we help her",
+          "I could help them",
+          "we could help her",
+          "I can help them"
+        ],
+        "answer": "I could help them"
+      },
+      {
+        "id": 86,
+        "question": "“Don’t walk on the bridge.” He warned us ______ on that bridge.",
+        "options": ["didn’t walk", "to walk", "don’t walk", "not to walk"],
+        "answer": "not to walk"
+      },
+      {
+        "id": 87,
+        "question": "“Please be quiet.” I asked them ______ quiet.",
+        "options": ["be", "not to be", "to be", "are"],
+        "answer": "not to be"
+      },
+      {
+        "id": 88,
+        "question": "“Shall I call a taxi?” He asked me if ______ a taxi.",
+        "options": [
+          "he should call",
+          "I should call",
+          "should he call",
+          "he will call"
+        ],
+        "answer": "he should call"
+      },
+      {
+        "id": 89,
+        "question": "The teacher told me ______ the board.",
+        "options": ["he is cleaning", "I clean", "cleaning", "to clean"],
+        "answer": "to clean"
+      },
+      {
+        "id": 90,
+        "question": "“Open your mouth.” The dentist told me ______.",
+        "options": [
+          "to open his mouth",
+          "opened my mouth",
+          "open your mouth",
+          "to open my mouth"
+        ],
+        "answer": "to open my mouth"
+      },
+      {
+        "id": 91,
+        "question": "“Don’t be late.” The teacher told us ______.",
+        "options": [
+          "not to be late",
+          "not being late",
+          "to be late",
+          "we don’t be late"
+        ],
+        "answer": "not to be late"
+      },
+      {
+        "id": 92,
+        "question": "“Are you free now?” He asked her if ______ then.",
+        "options": [
+          "I was free",
+          "is she free",
+          "she was free",
+          "was she free"
+        ],
+        "answer": "she was free"
+      },
+      {
+        "id": 93,
+        "question": "The teacher said, “Pick up your book, Mike.” The teacher told Mike ______.",
+        "options": [
+          "pick up his book",
+          "to pick up her book",
+          "to pick up my book",
+          "to pick up his book"
+        ],
+        "answer": "to pick up his book"
+      },
+      {
+        "id": 94,
+        "question": "A: Who is that woman? B: I don’t know ______.",
+        "options": [
+          "who’s that woman",
+          "who was that woman",
+          "who that woman is",
+          "who that woman was"
+        ],
+        "answer": "who that woman is"
+      },
+      {
+        "id": 95,
+        "question": "A: What started the fire? B: Nobody knows ______.",
+        "options": [
+          "who started the fire",
+          "what started the fire",
+          "what starts the fire",
+          "who’d started the fire"
+        ],
+        "answer": "what started the fire"
+      },
+      {
+        "id": 96,
+        "question": "A: What did Julia buy? B: I don’t know ______.",
+        "options": [
+          "what she bought",
+          "what she’s bought",
+          "what did she buy",
+          "what she had bought"
+        ],
+        "answer": "what she bought"
+      },
+      {
+        "id": 97,
+        "question": "Don’t look at your friend’s paper. The teacher warned me ______ my friend’s paper.",
+        "options": [
+          "to look at",
+          "I don’t look at",
+          "you don’t look at",
+          "not to look at"
+        ],
+        "answer": "not to look at"
+      },
+      {
+        "id": 98,
+        "question": "He said that ______.",
+        "options": [
+          "it is raining",
+          "she is unable to come",
+          "it was somebody else’s bike",
+          "I didn’t come"
+        ],
+        "answer": "it was somebody else’s bike"
+      },
+      {
+        "id": 99,
+        "question": "I don’t know ______.",
+        "options": [
+          "will he come",
+          "what time the next train is",
+          "he is there",
+          "why did he fail"
+        ],
+        "answer": "what time the next train is"
+      },
+      {
+        "id": 100,
+        "question": "I can’t imagine how ______ the children.",
+        "options": [
+          "they are going to rescue",
+          "did they rescue",
+          "do they rescue",
+          "are they going to rescue"
+        ],
+        "answer": "they are going to rescue"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 101,
+        "question": "Janet said that she was hungry. Janet said, “”",
+        "options": [
+          "I was hungry",
+          "I am hungry",
+          "She was hungry",
+          "She is hungry"
+        ],
+        "answer": "I am hungry"
+      },
+      {
+        "id": 102,
+        "question": "Mike says his father is ill. Mike says, “”",
+        "options": [
+          "My father is ill",
+          "His father is ill",
+          "My father was ill",
+          "Your father is ill"
+        ],
+        "answer": "My father is ill"
+      },
+      {
+        "id": 103,
+        "question": "We said that we were leaving on Saturday. We said, “”",
+        "options": [
+          "You are leaving on Saturday",
+          "We leave on Saturday",
+          "We are leaving on Saturday",
+          "You were leaving on Saturday"
+        ],
+        "answer": "We are leaving on Saturday"
+      },
+      {
+        "id": 104,
+        "question": "The secretary told me that Mr. Rich had gone out. The secretary told me, “”",
+        "options": [
+          "Mr. Rich was going out",
+          "Mr. Rich goes out",
+          "Mr. Rich has gone out",
+          "Mr. Rich is going out"
+        ],
+        "answer": "Mr. Rich has gone out"
+      },
+      {
+        "id": 105,
+        "question": "Bill said he didn’t like to study. Bill said, “”",
+        "options": [
+          "I don’t like to study",
+          "You don’t like to study",
+          "He doesn’t like to study",
+          "We don’t like to study"
+        ],
+        "answer": "I don’t like to study"
+      },
+      {
+        "id": 106,
+        "question": "The old lady said she wasn’t feeling well. The old lady said, “”",
+        "options": [
+          "I’m not feeling well",
+          "She isn’t feeling well",
+          "I don’t feel well",
+          "She hasn’t been feeling well"
+        ],
+        "answer": "I’m not feeling well"
+      },
+      {
+        "id": 107,
+        "question": "Carol said that she would see me the next day. Carol said, “”",
+        "options": [
+          "You will see me tomorrow",
+          "I will see you tomorrow",
+          "She will see you tomorrow",
+          "She will see me tomorrow"
+        ],
+        "answer": "I will see you tomorrow"
+      },
+      {
+        "id": 108,
+        "question": "You told me that you would be careful. You said to me, “”",
+        "options": [
+          "You will be careful",
+          "You would be careful",
+          "I will be careful",
+          "Be careful"
+        ],
+        "answer": "I will be careful"
+      },
+      {
+        "id": 109,
+        "question": "He asked me what I was reading. “?” he asked me.",
+        "options": [
+          "What do you read",
+          "What you are reading",
+          "What are you reading",
+          "What you were reading"
+        ],
+        "answer": "What are you reading"
+      },
+      {
+        "id": 110,
+        "question": "I asked the clerk if they had a double room. “?” I asked the clerk.",
+        "options": [
+          "Have you got a double room",
+          "Did you have a double room",
+          "Is there a double room",
+          "They have got a double room"
+        ],
+        "answer": "Have you got a double room"
+      },
+      {
+        "id": 111,
+        "question": "I asked her what her name was. “?” I asked her.",
+        "options": [
+          "What is your name",
+          "What my name was",
+          "What is her name",
+          "What her name is"
+        ],
+        "answer": "What is your name"
+      },
+      {
+        "id": 112,
+        "question": "They asked me if I was Turkish. “?” they asked me.",
+        "options": [
+          "You are Turkish",
+          "Am I Turkish",
+          "Are they Turkish",
+          "Are you Turkish"
+        ],
+        "answer": "Am I Turkish"
+      },
+      {
+        "id": 113,
+        "question": "My father told me to do my homework. My father said, “”",
+        "options": [
+          "You do your homework",
+          "You don’t do your homework",
+          "I don’t do my homework",
+          "Do your homework"
+        ],
+        "answer": "Do your homework"
+      },
+      {
+        "id": 114,
+        "question": "He warned me not to touch the wire. “” he warned me.",
+        "options": [
+          "I don’t touch the wire",
+          "Touch the wire",
+          "Don’t touch the wire",
+          "I didn’t touch the wire"
+        ],
+        "answer": "Don’t touch the wire"
+      },
+      {
+        "id": 115,
+        "question": "The doctor told him not to eat much. “” the doctor said to him.",
+        "options": [
+          "You eat very little",
+          "Don’t eat much",
+          "I don’t eat much",
+          "Eat very little"
+        ],
+        "answer": "Don’t eat much"
+      },
+      {
+        "id": 116,
+        "question": "He says he is cold. He says, “______”",
+        "options": ["You are cold", "I am cold", "He is cold", "I was cold"],
+        "answer": "I am cold"
+      },
+      {
+        "id": 117,
+        "question": "The book ______ is on the table is mine.",
+        "options": ["who", "which", "whose", "where"],
+        "answer": "which"
+      },
+      {
+        "id": 118,
+        "question": "The man ______ car was stolen phoned the police.",
+        "options": ["who", "which", "whose", "that"],
+        "answer": "whose"
+      },
+      {
+        "id": 119,
+        "question": "Bryan Adams is the singer ______ songs I like best.",
+        "options": ["whom", "whose", "that", "who"],
+        "answer": "whose"
+      },
+      {
+        "id": 120,
+        "question": "A river ______ is polluted is not safe for swimming.",
+        "options": ["whose", "where", "when", "which"],
+        "answer": "which"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 121,
+        "question": "People ______ study the weather are called meteorologists.",
+        "options": ["that", "when", "whom", "whose"],
+        "answer": "that"
+      },
+      {
+        "id": 122,
+        "question": "I like photographs ______ are in black and white.",
+        "options": ["when", "which", "whom", "whose"],
+        "answer": "which"
+      },
+      {
+        "id": 123,
+        "question": "Is there a time ______ we can discus this problem?",
+        "options": ["when", "which", "that", "where"],
+        "answer": "when"
+      },
+      {
+        "id": 124,
+        "question": "A library is a place ______ we can borrow books.",
+        "options": ["where", "which", "when", "that"],
+        "answer": "where"
+      },
+      {
+        "id": 125,
+        "question": "The factory ______ he works is closing down.",
+        "options": ["that", "which", "where", "whom"],
+        "answer": "where"
+      },
+      {
+        "id": 126,
+        "question": "I’ve got a friend ______ father is a pilot.",
+        "options": ["whom", "of which", "who", "whose"],
+        "answer": "whose"
+      },
+      {
+        "id": 127,
+        "question": "His wife, ______ lives in Paris, is a fashion model.",
+        "options": ["who", "that", "whom", "whose"],
+        "answer": "who"
+      },
+      {
+        "id": 128,
+        "question": "Elvis Presley, ______ name was probably one of the best known in the world, died in 1977.",
+        "options": ["who", "whose", "whom", "of which"],
+        "answer": "whose"
+      },
+      {
+        "id": 129,
+        "question": "A thermostat is something ______ controls temperatures.",
+        "options": ["who", "where", "when", "which"],
+        "answer": "which"
+      },
+      {
+        "id": 130,
+        "question": "Miss Snow, ______ you met at the theatre, is my classmate.",
+        "options": ["who", "whom", "where", "that"],
+        "answer": "whom"
+      },
+      {
+        "id": 131,
+        "question": "Mustafa Kemal, ______ was born in 1881, became the first President of Turkey on October 29th, 1923.",
+        "options": ["that", "who", "whom", "when"],
+        "answer": "who"
+      },
+      {
+        "id": 132,
+        "question": "It was the blue car______.",
+        "options": [
+          "it caused the accident",
+          "caused the accident",
+          "it is expensive",
+          "which caused the accident"
+        ],
+        "answer": "which caused the accident"
+      },
+      {
+        "id": 133,
+        "question": "The man ______ is an electrical engineer.",
+        "options": [
+          "who lives next door",
+          "makes cars",
+          "works in a factory",
+          "whose job"
+        ],
+        "answer": "who lives next door"
+      },
+      {
+        "id": 134,
+        "question": "That is the film ______.",
+        "options": [
+          "it is about Turkish people",
+          "we are liked",
+          "I watched last week",
+          "it is a western"
+        ],
+        "answer": "I watched last week"
+      },
+      {
+        "id": 135,
+        "question": "A teacher is a man ______.",
+        "options": [
+          "works at a school",
+          "makes us study",
+          "who teaches",
+          "which is liked by everybody"
+        ],
+        "answer": "who teaches"
+      },
+      {
+        "id": 136,
+        "question": "Your heart is the part of your body ______.",
+        "options": [
+          "which pumps blood",
+          "can’t live without it",
+          "it causes heart attacks",
+          "makes us sad or happy"
+        ],
+        "answer": "which pumps blood"
+      },
+      {
+        "id": 137,
+        "question": "I like films ______.",
+        "options": [
+          "they are interesting",
+          "which hasn’t got a sad story",
+          "are not sad ones",
+          "that are funny"
+        ],
+        "answer": "that are funny"
+      },
+      {
+        "id": 138,
+        "question": "______ I was watching TV, the telephone rang.",
+        "options": ["While", "Before", "After", "Until"],
+        "answer": "While"
+      },
+      {
+        "id": 139,
+        "question": "He broke his leg ______ he was skiing.",
+        "options": ["as soon as", "after", "when", "before"],
+        "answer": "when"
+      },
+      {
+        "id": 140,
+        "question": "I always brush my teeth ______ I go to bed.",
+        "options": ["before", "as soon as", "while", "until"],
+        "answer": "before"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 141,
+        "question": "We waited ______ the plane took off.",
+        "options": ["as soon as", "when", "as", "until"],
+        "answer": "until"
+      },
+      {
+        "id": 142,
+        "question": "We went out ______ it stopped raining.",
+        "options": ["until", "as soon as", "as", "while"],
+        "answer": "as soon as"
+      },
+      {
+        "id": 143,
+        "question": "I hope he gets here _____ the train leaves. There isn’t another train today.",
+        "options": ["before", "while", "until", "after"],
+        "answer": "before"
+      },
+      {
+        "id": 144,
+        "question": "You must wait ______ the light changes to green.",
+        "options": ["after", "before", "until", "as soon as"],
+        "answer": "until"
+      },
+      {
+        "id": 145,
+        "question": "He hasn’t written to us ______ he left.",
+        "options": ["since", "until", "while", "when"],
+        "answer": "since"
+      },
+      {
+        "id": 146,
+        "question": "______ she doesn’t enjoy her job, she works hard.",
+        "options": ["Since", "Although", "Because", "As"],
+        "answer": "Although"
+      },
+      {
+        "id": 147,
+        "question": "They went out for a walk, ______ the weather was bad.",
+        "options": ["even though", "so", "therefore", "for"],
+        "answer": "even though"
+      },
+      {
+        "id": 148,
+        "question": "He was late ______ he took a taxi to go to work.",
+        "options": ["as", "because", "so", "in order to"],
+        "answer": "so"
+      },
+      {
+        "id": 149,
+        "question": "I use my umbrella ______ it rains.",
+        "options": ["until", "after", "whenever", "although"],
+        "answer": "whenever"
+      },
+      {
+        "id": 150,
+        "question": "______ the film is over, I’ll go to bed.",
+        "options": ["While", "As soon as", "By the time", "Until"],
+        "answer": "As soon as"
+      },
+      {
+        "id": 151,
+        "question": "I’ll never speak to her______ I live.",
+        "options": ["as long as", "until", "whenever", "whereas"],
+        "answer": "as long as"
+      },
+      {
+        "id": 152,
+        "question": "She is sneezing______ she has a cold.",
+        "options": ["so", "before", "whereas", "because"],
+        "answer": "because"
+      },
+      {
+        "id": 153,
+        "question": "It was hot; ______ we went swimming.",
+        "options": ["because", "therefore", "as long as", "even though"],
+        "answer": "even though"
+      },
+      {
+        "id": 154,
+        "question": "He didn’t know the answers to the exercises, ______ he guessed.",
+        "options": ["as", "even though", "because", "so"],
+        "answer": "even though"
+      },
+      {
+        "id": 155,
+        "question": "I had toothache ______.",
+        "options": [
+          "because I am going to the dentist",
+          "so I went to the dentist",
+          "why I went to the dentist",
+          "I seldom brush my teeth"
+        ],
+        "answer": "so I went to the dentist"
+      },
+      {
+        "id": 156,
+        "question": "We went out______ the bell rang.",
+        "options": ["so", "although", "after", "until"],
+        "answer": "after"
+      },
+      {
+        "id": 157,
+        "question": "By the time he ______ here, it will be too late for the theatre.",
+        "options": ["will get", "got", "gets", "get"],
+        "answer": "gets"
+      },
+      {
+        "id": 158,
+        "question": "I have known him ______ he was a baby.",
+        "options": ["for", "since", "because", "when"],
+        "answer": "since"
+      },
+      {
+        "id": 159,
+        "question": "We can leave as soon as ______.",
+        "options": [
+          "the train arrived",
+          "the plane will take off",
+          "you are ready",
+          "they are going to phone"
+        ],
+        "answer": "you are ready"
+      },
+      {
+        "id": 160,
+        "question": "I’ll be at the airport when ______.",
+        "options": [
+          "the plane landed",
+          "the plane will take off",
+          "you arrive",
+          "you will get there"
+        ],
+        "answer": "you arrive"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 161,
+        "question": "She left the clothes out although ______.",
+        "options": [
+          "the sun is shining",
+          "it was raining",
+          "it isn’t hot",
+          "the weather was good"
+        ],
+        "answer": "it was raining"
+      },
+      {
+        "id": 162,
+        "question": "______ as soon as I get home.",
+        "options": [
+          "I will phone you",
+          "I have taken a shower",
+          "I went to bed",
+          "I would have a cup of coffee"
+        ],
+        "answer": "I will phone you"
+      },
+      {
+        "id": 163,
+        "question": "Always turn your television off ______.",
+        "options": [
+          "when you went to bed",
+          "as soon as you got bored",
+          "after you have fallen asleep",
+          "before you leave home"
+        ],
+        "answer": "before you leave home"
+      },
+      {
+        "id": 164,
+        "question": "She was not listening while ______.",
+        "options": [
+          "I was talking",
+          "we are complaining",
+          "she is very angry with you",
+          "you tell him something to do"
+        ],
+        "answer": "I was talking"
+      },
+      {
+        "id": 165,
+        "question": "He went out as ______.",
+        "options": [
+          "she came in",
+          "the sun is shining",
+          "I am leaving home",
+          "he is worried about something"
+        ],
+        "answer": "she came in"
+      },
+      {
+        "id": 166,
+        "question": "The lights went out ______.",
+        "options": [
+          "when the eight o’clock news started",
+          "after I have finished my homework",
+          "as soon as you arrive home",
+          "before the Prime Minister enters the conference hall"
+        ],
+        "answer": "when the eight o’clock news started"
+      },
+      {
+        "id": 167,
+        "question": "They studied hard although ______.",
+        "options": [
+          "they were tired",
+          "they were good friends",
+          "they were happy",
+          "they had a lot to eat"
+        ],
+        "answer": "they were tired"
+      },
+      {
+        "id": 168,
+        "question": "When I got home, ______.",
+        "options": [
+          "my sister opens the door for me",
+          "I will have a good rest",
+          "my mother was setting the table",
+          "my father hasn’t come back home"
+        ],
+        "answer": "my mother was setting the table"
+      },
+      {
+        "id": 169,
+        "question": "I swim every day when______.",
+        "options": [
+          "the weather was very hot",
+          "I will be in Marmaris",
+          "I am on holiday",
+          "the sea will get hot"
+        ],
+        "answer": "I am on holiday"
+      },
+      {
+        "id": 170,
+        "question": "I usually listen to some classical music______ I am reading.",
+        "options": ["as", "because", "for", "since"],
+        "answer": "as"
+      },
+      {
+        "id": 171,
+        "question": "No buses were running ______.",
+        "options": [
+          "because I had no ticket",
+          "however I was late",
+          "as I was at the bus stop",
+          "so I had to walk to school"
+        ],
+        "answer": "so I had to walk to school"
+      },
+      {
+        "id": 172,
+        "question": "It is raining now. We’d better wait until it ______.",
+        "options": ["will stop", "stop", "stops", "stopped"],
+        "answer": "stops"
+      },
+      {
+        "id": 173,
+        "question": "I have a mark on my coat but ______.",
+        "options": [
+          "it is not noticeable",
+          "I’ve cleaned it",
+          "you can see it",
+          "it was very small"
+        ],
+        "answer": "it is not noticeable"
+      },
+      {
+        "id": 174,
+        "question": "I couldn’t solve the problem so ______.",
+        "options": [
+          "I telephoned the police",
+          "I called an ambulance",
+          "I asked my father to help me",
+          "I answered the advertisement"
+        ],
+        "answer": "I asked my father to help me"
+      },
+      {
+        "id": 175,
+        "question": "You’d better take care of yourself , otherwise, ______.",
+        "options": [
+          "it is very cold outside",
+          "you will catch cold",
+          "put on a sweater",
+          "you should take a hot shower"
+        ],
+        "answer": "you will catch cold"
+      },
+      {
+        "id": 176,
+        "question": "She is very healthy, but______.",
+        "options": [
+          "she can play tennis",
+          "she is also rich",
+          "she might get sick",
+          "she reads a lot"
+        ],
+        "answer": "she might get sick"
+      },
+      {
+        "id": 177,
+        "question": "Although he eats a lot, ______.",
+        "options": [
+          "he is losing weight",
+          "he is gaining weight",
+          "he is getting fatter",
+          "he is putting on weight"
+        ],
+        "answer": "he is losing weight"
+      },
+      {
+        "id": 178,
+        "question": "The doctor examined me; however, ______.",
+        "options": [
+          "he found nothing wrong with me",
+          "he prescribed some medicine",
+          "I wasn’t feeling very well",
+          "I was given an injection"
+        ],
+        "answer": "he found nothing wrong with me"
+      },
+      {
+        "id": 179,
+        "question": "There is ‘no smoking’ sign in our library but ______.",
+        "options": [
+          "I never smoke there",
+          "a lot of people ignore it",
+          "nobody smokes",
+          "everybody must obey this"
+        ],
+        "answer": "a lot of people ignore it"
+      },
+      {
+        "id": 180,
+        "question": "We can’t do anything before ______.",
+        "options": [
+          "the doctor comes",
+          "the doctor didn’t come",
+          "the doctor will come",
+          "the doctor doesn’t come"
+        ],
+        "answer": "the doctor comes"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "topics": ["adjective", "adverb", "noun clauses"],
+    "questions": [
+      {
+        "id": 1,
+        "question": "I don’t know _______ to telephone.",
+        "options": [
+          "whom did Tom want",
+          "why was Tom going",
+          "when is Tom",
+          "who Tom was going"
+        ],
+        "answer": "who Tom was going"
+      },
+      {
+        "id": 2,
+        "question": "No one seemed to know _______.",
+        "options": [
+          "why was he angry",
+          "which party has won",
+          "when the festival was due to start",
+          "what is his latest decision"
+        ],
+        "answer": "when the festival was due to start"
+      },
+      {
+        "id": 3,
+        "question": "“Why don’t we go out for dinner?” His wife suggested that _______.",
+        "options": [
+          "they would go out for dinner",
+          "they should go out for dinner",
+          "we will go out for dinner",
+          "we’d like to go out for dinner"
+        ],
+        "answer": "they should go out for dinner"
+      },
+      {
+        "id": 4,
+        "question": "“Oh dear! It looks as if it is going to rain again.” Mother was afraid that _______.",
+        "options": [
+          "it was raining again",
+          "it was going to rain",
+          "it is going to rain again",
+          "it looked like rain again"
+        ],
+        "answer": "it was going to rain"
+      },
+      {
+        "id": 5,
+        "question": "“Fantastic! I’ve actually passed my exam!” exclaimed Janet. Janet was delighted to find that _______.",
+        "options": [
+          "I’d passed my exam",
+          "I’ve passed my exam",
+          "she’s passed her exam",
+          "she’d passed her exam"
+        ],
+        "answer": "she’d passed her exam"
+      },
+      {
+        "id": 6,
+        "question": "I doubt _______ anybody knows how to solve the housing problem in Turkey.",
+        "options": ["whether", "which", "why", "what"],
+        "answer": "whether"
+      },
+      {
+        "id": 7,
+        "question": "It is important that you _______ late.",
+        "options": ["don’t be", "won’t be", "not to be", "not be"],
+        "answer": "not be"
+      },
+      {
+        "id": 8,
+        "question": "The doctor recommended that she _______ in bed for a few days.",
+        "options": ["will stay", "stay", "would stay", "to stay"],
+        "answer": "stay"
+      },
+      {
+        "id": 9,
+        "question": "The bank manager suggested that I _______ again the following year.",
+        "options": ["should apply", "applied", "to apply", "would apply"],
+        "answer": "should apply"
+      },
+      {
+        "id": 10,
+        "question": "_______ is still uncertain.",
+        "options": [
+          "Why did they lose the match",
+          "He is really guilty",
+          "When will they come",
+          "Who first reported the fire"
+        ],
+        "answer": "Who first reported the fire"
+      },
+      {
+        "id": 11,
+        "question": "The accused pretended that he _______ the lawyer’s question.",
+        "options": [
+          "didn’t understand",
+          "hasn’t understood",
+          "doesn’t understand",
+          "wouldn’t understand"
+        ],
+        "answer": "didn’t understand"
+      },
+      {
+        "id": 12,
+        "question": "His doctor recommended that he _______ taking sleeping pills for a while.",
+        "options": ["would try", "should try", "tries", "tried"],
+        "answer": "should try"
+      },
+      {
+        "id": 13,
+        "question": "_______ next was lost in the general uproar.",
+        "options": [
+          "What the speaker said",
+          "That the speaker said",
+          "What did the speaker say",
+          "The speaker said that"
+        ],
+        "answer": "What the speaker said"
+      },
+      {
+        "id": 14,
+        "question": "_______ is where you get all your energy from.",
+        "options": [
+          "It amazes me",
+          "That amazes me",
+          "What amazes me",
+          "That amazed me"
+        ],
+        "answer": "What amazes me"
+      },
+      {
+        "id": 15,
+        "question": "_______ me to do is out of question.",
+        "options": [
+          "What you are asking",
+          "How you are asking",
+          "That you ask",
+          "That you asked"
+        ],
+        "answer": "What you are asking"
+      },
+      {
+        "id": 16,
+        "question": "No one doubted _______ sincere in his beliefs.",
+        "options": ["what he was", "that he was", "why was he", "that he is"],
+        "answer": "that he was"
+      },
+      {
+        "id": 17,
+        "question": "He didn’t even apologize. This made her really angry. _______ he didn’t even apologize made her really angry.",
+        "options": ["Why", "What", "The fact that", "The reason"],
+        "answer": "The fact that"
+      },
+      {
+        "id": 18,
+        "question": "_______ made her angry was the fact that her husband had forgotten her birthday.",
+        "options": ["Why", "The fact that", "What", "The thing"],
+        "answer": "The fact that"
+      },
+      {
+        "id": 19,
+        "question": "On entering the restaurant, I immediately realized _____ so popular.",
+        "options": [
+          "why was it",
+          "how is it",
+          "the fact that was",
+          "why it was"
+        ],
+        "answer": "why it was"
+      },
+      {
+        "id": 20,
+        "question": "Where the pilot finally managed to land _______.",
+        "options": [
+          "is not known",
+          "nobody knows;",
+          "we don’t know",
+          "nobody knew"
+        ],
+        "answer": "is not known"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "questions": [
+      {
+        "id": 21,
+        "question": "Teachers have found the overhead projector to be invaluable as a teaching aid.\n\nTeachers have found that the overhead projector _______",
+        "options": [
+          "to be invaluable as a teaching aid",
+          "is invaluable as a teaching aid",
+          "was invaluable as a teaching aid",
+          "invaluable as a teaching aid"
+        ],
+        "answer": "is invaluable as a teaching aid"
+      },
+      {
+        "id": 22,
+        "question": "The law requires that all cars _______ regularly tested for safety and efficiency.",
+        "options": ["should be", "to be", "were to be", "have to be"],
+        "answer": "should be"
+      },
+      {
+        "id": 23,
+        "question": "I assured him that he _______ pneumonia.",
+        "options": ["should get", "would get", "get", "gets"],
+        "answer": "would get"
+      },
+      {
+        "id": 24,
+        "question": "He began to realize that he _______ mistake.",
+        "options": ["is making", "has made", "had made", "will make"],
+        "answer": "had made"
+      },
+      {
+        "id": 25,
+        "question": "The Prime minister warned that higher wages _____ higher prices.",
+        "options": ["would mean", "will mean", "mean", "to mean"],
+        "answer": "would mean"
+      },
+      {
+        "id": 26,
+        "question": "Many people considered it to be cruel to send animals in rockets into outer space.\n\nMany people consider that _______ cruel to send animals in rockets into further space.",
+        "options": ["to be", "it to be", "it is", "it was"],
+        "answer": "it is"
+      },
+      {
+        "id": 27,
+        "question": "The Prime Minister clearly suspects his party to have little chance of winning the next election.\n\nThe Prime Minister clearly suspects that his party _______ little chance of winning the next election.",
+        "options": ["to have", "has", "would have", "had"],
+        "answer": "has"
+      },
+      {
+        "id": 28,
+        "question": "The witness later disclosed the evidence to have been destroyed.\n\nThe witness later disclosed that the evidence _______",
+        "options": [
+          "to be destroyed",
+          "had been destroyed",
+          "has been destroyed",
+          "would be destroyed"
+        ],
+        "answer": "had been destroyed"
+      },
+      {
+        "id": 29,
+        "question": "Researches have now proved that earlier theories _______ incorrect.",
+        "options": ["were", "had been", "to have been", "to be"],
+        "answer": "were"
+      },
+      {
+        "id": 30,
+        "question": "“May I have my letters addressed in care of your office?” asked Mr. Taylor.\n\nMr. Taylor asked if ______ letters addressed in care of ______ office.",
+        "options": [
+          "he may have his / my",
+          "I might have my / your",
+          "he may have his / his",
+          "he might have his / my"
+        ],
+        "answer": "he might have his / my"
+      },
+      {
+        "id": 31,
+        "question": "The doctor says, “The moisture in the air might affect your breathing.”\n\nHe thinks that the moisture in the air _______",
+        "options": [
+          "might affect my breathing",
+          "might affect your breathing",
+          "would affect my breathing",
+          "may affect your breathing"
+        ],
+        "answer": "might affect my breathing"
+      },
+      {
+        "id": 32,
+        "question": "“I’d love to come.” she said.\n\nShe said _______ to come.",
+        "options": ["she’d liked", "I’d like", "she’d like", "I’d liked"],
+        "answer": "she’d like"
+      },
+      {
+        "id": 33,
+        "question": "“Which of these films have you seen?” My friend asked me which of the films _______",
+        "options": [
+          "have I seen",
+          "I had seen",
+          "you had seen",
+          "have you seen"
+        ],
+        "answer": "I had seen"
+      },
+      {
+        "id": 34,
+        "question": "“Whom did you see at the concert last night?” She asked us whom _______ the other night.",
+        "options": ["I’d seen", "we’d seen", "we saw", "I saw"],
+        "answer": "we’d seen"
+      },
+      {
+        "id": 35,
+        "question": "They asked, “Is the work going to be easy?”\n\nThey wondered if _______",
+        "options": [
+          "was work going to be easy",
+          "the work is going to be easy",
+          "the work was easy",
+          "the work was going to be easy"
+        ],
+        "answer": "the work was going to be easy"
+      },
+      {
+        "id": 36,
+        "question": "He asked “Have you read The old Man and the Sea, Ted?”\n\nHe wanted to know if _______ The old Man and the Sea.",
+        "options": ["I’d read", "he’d read", "I have read", "he has read"],
+        "answer": "he’d read"
+      },
+      {
+        "id": 37,
+        "question": "“Please give me a pain killer.” the patient said.\n\nThe patient begged the nurse _______ a pain killer.",
+        "options": [
+          "to give her",
+          "she would give her",
+          "she would give me",
+          "to give me"
+        ],
+        "answer": "to give her"
+      },
+      {
+        "id": 38,
+        "question": "“Don’t eat those cherries, they are poisonous,” said David.\n\nDavid _______ not to eat those cherries because they were poisonous.",
+        "options": [
+          "didn’t want me",
+          "said to me that",
+          "warned me",
+          "suggested that"
+        ],
+        "answer": "warned me"
+      },
+      {
+        "id": 39,
+        "question": "“Did she agree with me?”\n\nHe wondered if _______",
+        "options": [
+          "she’d agreed with he",
+          "she agreed with him",
+          "she’d agreed with him",
+          "she’d agree with him"
+        ],
+        "answer": "she’d agreed with him"
+      },
+      {
+        "id": 40,
+        "question": "I wanted to know why no one _______.",
+        "options": ["had come", "hadn’t come", "has come", "hasn’t come"],
+        "answer": "had come"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "questions": [
+      {
+        "id": 41,
+        "question": "Everybody said, “We’re glad the danger is over.”\n\nEverybody said that _______",
+        "options": [
+          "he was glad the danger was over",
+          "they are glad the danger is over",
+          "they were glad the danger was over",
+          "he is glad the danger is over"
+        ],
+        "answer": "they were glad the danger was over"
+      },
+      {
+        "id": 42,
+        "question": "_______ was to have dinner after the meeting.",
+        "options": [
+          "What we are to do",
+          "Which we needed",
+          "What I wanted to do",
+          "Why he comes"
+        ],
+        "answer": "What I wanted to do"
+      },
+      {
+        "id": 43,
+        "question": "I recommended that the patient _______ on as soon as possible.",
+        "options": [
+          "is operated",
+          "operated",
+          "would be operated",
+          "be operated"
+        ],
+        "answer": "be operated"
+      },
+      {
+        "id": 44,
+        "question": "George told me that _______ with his roommate next semester.",
+        "options": [
+          "he’d rather not live",
+          "he wouldn’t have lived",
+          "he won’t live",
+          "he hadn’t lived"
+        ],
+        "answer": "he’d rather not live"
+      },
+      {
+        "id": 45,
+        "question": "“I’ll hit you!” _______ to hit me.",
+        "options": [
+          "He suggested",
+          "He threatened",
+          "He promised",
+          "He offered"
+        ],
+        "answer": "He threatened"
+      },
+      {
+        "id": 46,
+        "question": "“Would you like to come to my party?” He invited her _______.",
+        "options": [
+          "she’d like to come to his party",
+          "she’d like to come to my party",
+          "if she’d come to his party",
+          "to come to his party"
+        ],
+        "answer": "to come to his party"
+      },
+      {
+        "id": 47,
+        "question": "I didn’t hear _______ because there was so much noise where I was sitting.",
+        "options": [
+          "what was he saying",
+          "what he has said",
+          "what did he say",
+          "what he said"
+        ],
+        "answer": "what he said"
+      },
+      {
+        "id": 48,
+        "question": "I had hoped _______ my letter.",
+        "options": [
+          "that she answer",
+          "she answers",
+          "that she would answer",
+          "she will answer"
+        ],
+        "answer": "that she would answer"
+      },
+      {
+        "id": 49,
+        "question": "I have no idea _______.",
+        "options": [
+          "what does this word mean",
+          "why he has left",
+          "when will he arrive",
+          "how was he killed"
+        ],
+        "answer": "why he has left"
+      },
+      {
+        "id": 50,
+        "question": "“Let’s go to the cinema this evening,” she said.\n\nShe suggested that they _______ to the cinema that evening.",
+        "options": ["should go", "would go", "will go", "had gone"],
+        "answer": "should go"
+      },
+      {
+        "id": 51,
+        "question": "A: Are you going to complain to the police?\n\nB: Yes, that is _______.",
+        "options": [
+          "what I have done",
+          "what I’m going to do",
+          "what I was going to do",
+          "what I would do"
+        ],
+        "answer": "what I’m going to do"
+      },
+      {
+        "id": 52,
+        "question": "He _______ to me that he had written a new book.",
+        "options": ["told", "tells", "has said", "said"],
+        "answer": "said"
+      },
+      {
+        "id": 53,
+        "question": "She said _______ to walk back home.",
+        "options": [
+          "she’d rather",
+          "she’d prefer",
+          "she’d better",
+          "she has got"
+        ],
+        "answer": "she’d prefer"
+      },
+      {
+        "id": 54,
+        "question": "I knew that _______ would be difficult.",
+        "options": [
+          "their coming",
+          "they would come",
+          "they came",
+          "they were coming"
+        ],
+        "answer": "they would come"
+      },
+      {
+        "id": 55,
+        "question": "It is important that _______ the bilateral talks.",
+        "options": ["he attend", "he attends", "he attended", "he’ll attend"],
+        "answer": "he attends"
+      },
+      {
+        "id": 56,
+        "question": "We urge that the plans _______.",
+        "options": [
+          "not approved",
+          "not be approved",
+          "not to be approved",
+          "won’t be approved"
+        ],
+        "answer": "not be approved"
+      },
+      {
+        "id": 57,
+        "question": "We now insist that all cars _____ seat belts to reduce the death toll.",
+        "options": ["to have", "will have", "have had", "have"],
+        "answer": "have"
+      },
+      {
+        "id": 58,
+        "question": "_______ makes visiting him very difficult.",
+        "options": [
+          "The fact that he is very busy",
+          "The reason why he is very busy",
+          "What I know is that he is very busy",
+          "It is a fact that he is very busy"
+        ],
+        "answer": "The fact that he is very busy"
+      },
+      {
+        "id": 59,
+        "question": "_______ was clear from his letter.",
+        "options": [
+          "He was angry",
+          "He resented being treated rudely",
+          "That he was not interested",
+          "What I knew"
+        ],
+        "answer": "That he was not interested"
+      },
+      {
+        "id": 60,
+        "question": "The fact that the experts say stagnation will continue for some time _______.",
+        "options": [
+          "industry will suffer a lot",
+          "we should be prepared for higher inflation",
+          "is annoying",
+          "we cannot avoid it"
+        ],
+        "answer": "is annoying"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "questions": [
+      {
+        "id": 61,
+        "question": "If grades are going to be given to students for their reports, it is suggested that these _______ for expression and use of language.",
+        "options": ["given", "to be given", "are given", "be given"],
+        "answer": "be given"
+      },
+      {
+        "id": 62,
+        "question": "_______ best is riding horses.",
+        "options": [
+          "She likes",
+          "That she likes",
+          "What she liked",
+          "What she likes"
+        ],
+        "answer": "What she likes"
+      },
+      {
+        "id": 63,
+        "question": "We had hoped _______ the game, but the other team played very well.",
+        "options": [
+          "the National Team to win",
+          "that the National Team win",
+          "that the National Team would win",
+          "the National Team’s winning"
+        ],
+        "answer": "that the National Team would win"
+      },
+      {
+        "id": 64,
+        "question": "It is important that he _______ his reservations by Saturday.",
+        "options": ["will confirm", "confirm", "confirms", "must confirm"],
+        "answer": "confirm"
+      },
+      {
+        "id": 65,
+        "question": "He asked me if I had ever played the piano. He asked me, “____?”",
+        "options": [
+          "Do you ever play the piano",
+          "Did you ever play the piano",
+          "Have I ever played the piano",
+          "Have you ever played the piano"
+        ],
+        "answer": "Have you ever played the piano"
+      },
+      {
+        "id": 66,
+        "question": "The doctor asked the patient if she had had a heart attack before.\n\nThe doctor asked the patient,” _______ a heart attack before ?”",
+        "options": [
+          "Has she had",
+          "Have you had",
+          "Did she have",
+          "Did you have"
+        ],
+        "answer": "Did she have"
+      },
+      {
+        "id": 67,
+        "question": "It is urgent that he _______ on time.",
+        "options": ["arrived", "will arrive", "would arrive", "arrive"],
+        "answer": "arrive"
+      },
+      {
+        "id": 68,
+        "question": "It is important that you _______ honest.",
+        "options": ["will be", "be", "were", "to be"],
+        "answer": "be"
+      },
+      {
+        "id": 69,
+        "question": "The doctor recommended that I _______ weight.",
+        "options": ["should lose", "would lose", "must lose", "will lose"],
+        "answer": "should lose"
+      },
+      {
+        "id": 70,
+        "question": "Julia must understand the question. It is necessary.\n\nIt is necessary that Julia _______ the question.",
+        "options": [
+          "understood",
+          "understands",
+          "must understand",
+          "should understand"
+        ],
+        "answer": "should understand"
+      },
+      {
+        "id": 71,
+        "question": "Bill must talk to the teacher. It is urgent.\n\nIt is urgent that Bill _______ to the teacher.",
+        "options": ["must talk", "talk", "talks", "has talked"],
+        "answer": "talk"
+      },
+      {
+        "id": 72,
+        "question": "_______ because he got bored so easily.",
+        "options": [
+          "Why he left early",
+          "Why he was embarrassed",
+          "Why did he get angry",
+          "Why he acted as he did was"
+        ],
+        "answer": "Why he acted as he did was"
+      },
+      {
+        "id": 73,
+        "question": "I can’t imagine _______.",
+        "options": [
+          "why did he recommend him",
+          "who recommended him for training",
+          "when will he recommend me",
+          "how will he recommend him"
+        ],
+        "answer": "who recommended him for training"
+      },
+      {
+        "id": 74,
+        "question": "What would have suited him better _______.",
+        "options": [
+          "would be to be a politician",
+          "to give up smoking",
+          "he shouldn’t have married her",
+          "than his father’s job"
+        ],
+        "answer": "would be to be a politician"
+      },
+      {
+        "id": 75,
+        "question": "I suggested that she _______ a doctor.",
+        "options": ["will see", "would see", "must see", "see"],
+        "answer": "see"
+      },
+      {
+        "id": 76,
+        "question": "I don’t know _______.",
+        "options": [
+          "they were thinking about",
+          "that they were thinking about",
+          "what do they think about",
+          "what they were thinking about"
+        ],
+        "answer": "what they were thinking about"
+      },
+      {
+        "id": 77,
+        "question": "I insisted that he _______ me the money.",
+        "options": ["was paid", "be paid", "pay", "will pay"],
+        "answer": "pay"
+      },
+      {
+        "id": 78,
+        "question": "It is not probable that _______ in the next ten years.",
+        "options": [
+          "the world’s population stopped",
+          "man must discover a cure for cancer",
+          "computers must become more important",
+          "air pollution will decrease"
+        ],
+        "answer": "air pollution will decrease"
+      },
+      {
+        "id": 79,
+        "question": "_______ still puzzles me.",
+        "options": [
+          "He got selected president",
+          "Where they got the idea from",
+          "He has got a lot of money",
+          "How can they beat us"
+        ],
+        "answer": "Where they got the idea from"
+      },
+      {
+        "id": 80,
+        "question": "I don’t know much about art but I know_______.",
+        "options": [
+          "what I like",
+          "who is a good artist",
+          "what is it like",
+          "why are people paying that much"
+        ],
+        "answer": "what I like"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "questions": [
+      {
+        "id": 81,
+        "question": "Do you think _______ man will travel to Mars in this century?",
+        "options": [
+          "is it possible that",
+          "it is possible that",
+          "will it be possible",
+          "it became possible"
+        ],
+        "answer": "it is possible that"
+      },
+      {
+        "id": 82,
+        "question": "Mike must explain his idea. It is important.\n\nIt is important that Mike _______ his ideas.",
+        "options": ["explain", "will explain", "explains", "would explain"],
+        "answer": "explain"
+      },
+      {
+        "id": 83,
+        "question": "Why is it necessary that _______?",
+        "options": [
+          "for him to study",
+          "he will have an operation",
+          "he consult an expert",
+          "he applied for a job"
+        ],
+        "answer": "he consult an expert"
+      },
+      {
+        "id": 84,
+        "question": "He advised that she _______ the bad news.",
+        "options": [
+          "not be told",
+          "not to be told",
+          "isn’t told",
+          "wouldn’t tell"
+        ],
+        "answer": "not be told"
+      },
+      {
+        "id": 85,
+        "question": "He asked us whom we would visit. He asked us, “Whom _______?”",
+        "options": [
+          "will you visit",
+          "would you visit",
+          "you will visit",
+          "we would visit"
+        ],
+        "answer": "will you visit"
+      },
+      {
+        "id": 86,
+        "question": "The teacher insisted on the students’ arriving punctually for their lessons.\n\nThe teacher insisted that the students _______ punctually for their lessons.",
+        "options": [
+          "had arrived",
+          "should arrive",
+          "would arrive",
+          "have to arrive"
+        ],
+        "answer": "should arrive"
+      },
+      {
+        "id": 87,
+        "question": "Most people don’t even know _______.",
+        "options": [
+          "why has he resigned",
+          "where was he buried",
+          "what good music is",
+          "where did they take him"
+        ],
+        "answer": "what good music is"
+      },
+      {
+        "id": 88,
+        "question": "I refuse to believe her having told me the truth. I refuse to believe that she _______ me the truth.",
+        "options": ["tell", "tells", "had told", "would tell"],
+        "answer": "had told"
+      },
+      {
+        "id": 89,
+        "question": "They proposed that a new highway_______.",
+        "options": ["should build", "must build", "to be built", "be built"],
+        "answer": "be built"
+      },
+      {
+        "id": 90,
+        "question": "It is desirable that no one else _______ about the problem.",
+        "options": ["doesn’t know", "know", "to know", "will know"],
+        "answer": "know"
+      },
+      {
+        "id": 91,
+        "question": "That she was chosen Miss Turkey _______.",
+        "options": [
+          "made me happy",
+          "nobody was glad about it",
+          "everybody approved it",
+          "everyone present voted in her favor"
+        ],
+        "answer": "made me happy"
+      },
+      {
+        "id": 92,
+        "question": "Whether they do it or not _______.",
+        "options": [
+          "don’t make any difference",
+          "depends on various factors",
+          "created a big problem",
+          "will cause a lot of disturbance"
+        ],
+        "answer": "depends on various factors"
+      },
+      {
+        "id": 93,
+        "question": "I am satisfied _______.",
+        "options": [
+          "that she came third in the competition.",
+          "it was our victory against enemies",
+          "what you promised to do",
+          "will make her happy, I believe"
+        ],
+        "answer": "that she came third in the competition."
+      },
+      {
+        "id": 94,
+        "question": "The fact that they blamed us for the accident _______.",
+        "options": [
+          "which was not our fault",
+          "was surprising",
+          "at which a person was killed",
+          "I wasn’t involved"
+        ],
+        "answer": "was surprising"
+      },
+      {
+        "id": 95,
+        "question": "_______ is a fact.",
+        "options": [
+          "That the poor have a hard life",
+          "The world is round",
+          "He came first",
+          "What is he saying"
+        ],
+        "answer": "The world is round"
+      },
+      {
+        "id": 96,
+        "question": "Did _______ help him in his career?",
+        "options": [
+          "the fact that his father was a professor",
+          "he was rich and friendly",
+          "that he won a scholarship",
+          "his teacher recommended him"
+        ],
+        "answer": "the fact that his father was a professor"
+      },
+      {
+        "id": 97,
+        "question": "It is incredible that _______.",
+        "options": [
+          "she study very hard",
+          "will be the result",
+          "he undergo an operation",
+          "he has passed his exams"
+        ],
+        "answer": "he has passed his exams"
+      },
+      {
+        "id": 98,
+        "question": "It is necessary that everyone _______ here on time.",
+        "options": ["will be", "be", "are", "to be"],
+        "answer": "be"
+      },
+      {
+        "id": 99,
+        "question": "“If I were you, I’d open a bank account because interest is high now” I told her.\n\nI suggested that she _______ a saving account.",
+        "options": ["would open", "will open", "open", "had opened"],
+        "answer": "open"
+      },
+      {
+        "id": 100,
+        "question": "Our teacher wishes he _______ another profession.",
+        "options": ["chose", "had chosen", "would choose", "has chosen"],
+        "answer": "had chosen"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "questions": [
+      {
+        "id": 101,
+        "question": "I wish the teacher ______ us more about the exam before it takes place.",
+        "options": ["would tell", "has told", "had told", "tells"],
+        "answer": "would tell"
+      },
+      {
+        "id": 102,
+        "question": "I wish you _______ here now. I miss you a lot.",
+        "options": ["are", "were", "had been", "will be"],
+        "answer": "were"
+      },
+      {
+        "id": 103,
+        "question": "I wish you _______. I’m sure you would enjoy joining us.",
+        "options": ["could come", "had come", "may come", "would come"],
+        "answer": "had come"
+      },
+      {
+        "id": 104,
+        "question": "She won’t help me. I wish she _______ me.",
+        "options": ["will help", "would help", "helps", "had helped"],
+        "answer": "would help"
+      },
+      {
+        "id": 105,
+        "question": "I wish I _______ the last bus. Now I’ll have to walk.",
+        "options": [
+          "didn’t miss",
+          "hadn’t missed",
+          "wouldn’t miss",
+          "wouldn’t have missed"
+        ],
+        "answer": "hadn’t missed"
+      },
+      {
+        "id": 106,
+        "question": "Don’t you wish we _______ tonight?",
+        "options": ["weren’t going", "aren’t going", "don’t go", "hadn’t gone"],
+        "answer": "weren’t going"
+      },
+      {
+        "id": 107,
+        "question": "It is raining. I wish it _______.",
+        "options": [
+          "hadn’t rain",
+          "didn’t rain",
+          "weren’t raining",
+          "isn’t raining"
+        ],
+        "answer": "weren’t raining"
+      },
+      {
+        "id": 108,
+        "question": "When it was too late, he wished he _______ a better husband.",
+        "options": ["has been", "had been", "were", "would be"],
+        "answer": "had been"
+      },
+      {
+        "id": 109,
+        "question": "You can’t change things simply by wishing they _______ different.",
+        "options": ["are", "will be", "would be", "were"],
+        "answer": "were"
+      },
+      {
+        "id": 110,
+        "question": "I wish he _______ to Tokyo with me last weekend.",
+        "options": ["came", "would come", "had come", "could come"],
+        "answer": "had come"
+      },
+      {
+        "id": 111,
+        "question": "I wish that you _______ such a bad headache because I’m sure that you’d have enjoyed the party.",
+        "options": ["didn’t have", "hadn’t had", "wouldn’t have", "won’t have"],
+        "answer": "hadn’t had"
+      },
+      {
+        "id": 112,
+        "question": "I wish that I _______ with you last summer.",
+        "options": ["went", "could go", "have gone", "could’ve gone"],
+        "answer": "could’ve gone"
+      },
+      {
+        "id": 113,
+        "question": "You might have cleaned the bath after you’d used it.\n\nI wish you _______ the bath after using it.",
+        "options": ["had cleaned", "cleaned", "would clean", "clean"],
+        "answer": "had cleaned"
+      },
+      {
+        "id": 114,
+        "question": "You might come to work a bit earlier on Mondays. I wish you _______ a bit earlier on Mondays.",
+        "options": ["had come", "would’ve come", "were coming", "would come"],
+        "answer": "would come"
+      },
+      {
+        "id": 115,
+        "question": "You might have remembered my birthday. I wish you _______ my birthday.",
+        "options": [
+          "had remembered",
+          "remembered",
+          "would remember",
+          "could remember"
+        ],
+        "answer": "had remembered"
+      },
+      {
+        "id": 116,
+        "question": "You might make less noise. If only you _______ less noise.",
+        "options": ["had made", "made", "would make", "might make"],
+        "answer": "made"
+      },
+      {
+        "id": 117,
+        "question": "If only I _____ busy yesterday. I could have helped you with the problem.",
+        "options": ["weren’t", "hadn’t been", "wasn’t", "haven’t been"],
+        "answer": "hadn’t been"
+      },
+      {
+        "id": 118,
+        "question": "He wishes his father _____ him some shoes before the new term starts.",
+        "options": [
+          "was buying",
+          "was going to buy",
+          "would buy",
+          "had bought"
+        ],
+        "answer": "would buy"
+      },
+      {
+        "id": 119,
+        "question": "I wish our school _______ a bigger library than it has.",
+        "options": ["had had", "would have", "had", "will have"],
+        "answer": "had"
+      },
+      {
+        "id": 120,
+        "question": "I wish we _______ late for this film. I can’t follow the story.",
+        "options": [
+          "didn’t arrive",
+          "hadn’t arrived",
+          "wouldn’t arrive",
+          "wouldn’t have arrived"
+        ],
+        "answer": "hadn’t arrived"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "questions": [
+      {
+        "id": 121,
+        "question": "She wishes she _______ younger than she is.",
+        "options": ["were", "would be", "had been", "is"],
+        "answer": "were"
+      },
+      {
+        "id": 122,
+        "question": "A: Janet couldn’t come to the concert last night.\n\nB: I wish she _______ .",
+        "options": [
+          "is able to come",
+          "was able to come",
+          "could have come",
+          "had come"
+        ],
+        "answer": "could have come"
+      },
+      {
+        "id": 123,
+        "question": "I couldn’t get through the traffic in time.\n\nI wish I _______ through the traffic in time.",
+        "options": [
+          "am able to get",
+          "had been able to get",
+          "was able to get",
+          "would have got"
+        ],
+        "answer": "had been able to get"
+      },
+      {
+        "id": 124,
+        "question": "My father wasn’t able to pay the money back.\n\nI wish my father _______ the money back.",
+        "options": [
+          "could have paid",
+          "were able to pay",
+          "could pay",
+          "would be able to pay"
+        ],
+        "answer": "could have paid"
+      },
+      {
+        "id": 125,
+        "question": "It is a pity you drink too much. If only you _______ so much.",
+        "options": [
+          "don’t drink",
+          "won’t drink",
+          "didn’t drink",
+          "hadn’t drunk"
+        ],
+        "answer": "didn’t drink"
+      },
+      {
+        "id": 126,
+        "question": "It is a pity that we rejected their proposal. If only we _______ their proposal.",
+        "options": [
+          "won’t reject",
+          "hadn’t rejected",
+          "wouldn’t reject",
+          "didn’t reject"
+        ],
+        "answer": "hadn’t rejected"
+      },
+      {
+        "id": 127,
+        "question": "A: I must go home now. B: I wish you _______ home now.",
+        "options": [
+          "don’t have to go",
+          "mustn’t have gone",
+          "didn’t have to go",
+          "needn’t have gone"
+        ],
+        "answer": "didn’t have to go"
+      },
+      {
+        "id": 128,
+        "question": "A: Don’t you have enough time to learn English?\n\nB: No, I don’t. I wish I _______ time to learn English.",
+        "options": ["did have", "had had", "do have", "will have"],
+        "answer": "did have"
+      },
+      {
+        "id": 129,
+        "question": "The bus always stops at every bus stop. I wish it _______ at every bus stop.",
+        "options": [
+          "didn’t stop",
+          "would stop",
+          "hadn’t stopped",
+          "won’t stop"
+        ],
+        "answer": "didn’t stop"
+      },
+      {
+        "id": 130,
+        "question": "The party was so bad that they left early. They wish _______.",
+        "options": [
+          "they didn’t go",
+          "they wouldn’t have gone",
+          "they didn’t have to go",
+          "they hadn’t gone"
+        ],
+        "answer": "they hadn’t gone"
+      },
+      {
+        "id": 131,
+        "question": "A: Sandy had an accident because she wasn’t careful.\n\nB: If only she _______.",
+        "options": [
+          "had been careful",
+          "were careful",
+          "would be careful",
+          "would have been careful"
+        ],
+        "answer": "had been careful"
+      },
+      {
+        "id": 132,
+        "question": "A: Robert is unhappy because he can’t find his passport.\n\nB: If only he _______.",
+        "options": [
+          "could have found it",
+          "had been able to find",
+          "could find it",
+          "had found it"
+        ],
+        "answer": "could find it"
+      },
+      {
+        "id": 133,
+        "question": "A: We have to cancel the match because it is raining.\n\nB: If only it _______.",
+        "options": [
+          "won’t be raining",
+          "isn’t raining",
+          "didn’t rain",
+          "weren’t raining"
+        ],
+        "answer": "weren’t raining"
+      },
+      {
+        "id": 134,
+        "question": "A: Mary is sorry that she bought such an expensive dress.\n\nB: If only she _______ such an expensive dress.",
+        "options": [
+          "didn’t buy",
+          "wouldn’t have bought",
+          "hadn’t bought",
+          "could have bought"
+        ],
+        "answer": "hadn’t bought"
+      },
+      {
+        "id": 135,
+        "question": "Don’t you think it is significant _______?",
+        "options": [
+          "in case he fails",
+          "that he has been re elected",
+          "how comfortable is it",
+          "if we had been offered the job"
+        ],
+        "answer": "that he has been re elected"
+      },
+      {
+        "id": 136,
+        "question": "Water is a compound _______ molecule consists of two atoms of hydrogen and one atom of oxygen.",
+        "options": ["which", "whom", "whose", "of which"],
+        "answer": "whose"
+      },
+      {
+        "id": 137,
+        "question": "A dynamo is a machine _______ is used for producing electricity.",
+        "options": ["who", "which", "whom", "of which"],
+        "answer": "which"
+      },
+      {
+        "id": 138,
+        "question": "The student couldn’t remember the year _______ Hitler was born.",
+        "options": ["when", "which", "at which", "where"],
+        "answer": "when"
+      },
+      {
+        "id": 139,
+        "question": "That is the hotel _______ I stayed at.",
+        "options": ["where", "which", "that", "whose"],
+        "answer": "which"
+      },
+      {
+        "id": 140,
+        "question": "Hydrogen is an element _______ atomic number is 1 and _______ atomic weight is 1.008.",
+        "options": [
+          "whose / whose",
+          "of which / whose",
+          "which / of which",
+          "which / which"
+        ],
+        "answer": "whose / whose"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "questions": [
+      {
+        "id": 141,
+        "question": "Neron, _______ was Emperor of Rome, from 45 to 68 A.D, is believed to have murdered both his mother and his wife.",
+        "options": ["whom", "whose", "who", "that"],
+        "answer": "who"
+      },
+      {
+        "id": 142,
+        "question": "Marlon Brando, _______, is a friend of my fathers.",
+        "options": [
+          "whose son is in jail now",
+          "which is famous worldwide",
+          "that you met at the seminar",
+          "has just arrived in Spain"
+        ],
+        "answer": "whose son is in jail now"
+      },
+      {
+        "id": 143,
+        "question": "The problem was with the battery _______ a dead cell.",
+        "options": ["that has", "which had", "who had", "in which has"],
+        "answer": "which had"
+      },
+      {
+        "id": 144,
+        "question": "There were fifty questions on the test, _______.",
+        "options": [
+          "either was easy",
+          "all of which were difficult",
+          "all of them were very hard",
+          "all of whom were very interested"
+        ],
+        "answer": "all of which were difficult"
+      },
+      {
+        "id": 145,
+        "question": "I’m looking for something with _______ I can clean the board.",
+        "options": ["whom", "which", "that", "whose"],
+        "answer": "which"
+      },
+      {
+        "id": 146,
+        "question": "Gentlemen, from _______ we expect politeness, ought not to lose their tempers.",
+        "options": ["which", "who", "whom", "where"],
+        "answer": "whom"
+      },
+      {
+        "id": 147,
+        "question": "Your information, for _______ I’m grateful, is very helpful.",
+        "options": ["that", "which", "whom", "whose"],
+        "answer": "which"
+      },
+      {
+        "id": 148,
+        "question": "Men _______ work is good receive high wages.",
+        "options": ["who", "that", "whom", "whose"],
+        "answer": "whose"
+      },
+      {
+        "id": 149,
+        "question": "He did his medical training at a hospital _______.",
+        "options": [
+          "who is very famous as a surgeon",
+          "of which is located just beside a river",
+          "which specializes in heart surgery",
+          "whose patients are treated very carefully"
+        ],
+        "answer": "which specializes in heart surgery"
+      },
+      {
+        "id": 150,
+        "question": "That evening we went to the opera, _______.",
+        "options": [
+          "where we met the newly appointed general director",
+          "that was opened last week by the Minister of Culture",
+          "which were fully booked",
+          "when all the lights went out"
+        ],
+        "answer": "where we met the newly appointed general director"
+      },
+      {
+        "id": 151,
+        "question": "His father, _______, said he didn’t like to work.",
+        "options": [
+          "that had retired a few weeks ago",
+          "he gave a series of interviews",
+          "is an electrical engineer",
+          "who was already over sixty   five"
+        ],
+        "answer": "who was already over sixty five"
+      },
+      {
+        "id": 152,
+        "question": "Mr. Benson, _______, shot himself.",
+        "options": [
+          "that was known to be very rich",
+          "whose firm closed because of complaints",
+          "we haven’t ever met him",
+          "he owns several factories"
+        ],
+        "answer": "whose firm closed because of complaints"
+      },
+      {
+        "id": 153,
+        "question": "Crops can now be grown in deserts _______.",
+        "options": [
+          "most of them are in Africa",
+          "it was impossible to cultivate the land",
+          "where farming would be impossible without irrigation",
+          "these are known as dry areas"
+        ],
+        "answer": "where farming would be impossible without irrigation"
+      },
+      {
+        "id": 154,
+        "question": "The boys _______ are having special lessons.",
+        "options": [
+          "which need more care",
+          "they are behind the other boys",
+          "who have been offered a scholarship",
+          "their fathers own factories"
+        ],
+        "answer": "who have been offered a scholarship"
+      },
+      {
+        "id": 155,
+        "question": "It was they _______.",
+        "options": [
+          "who told us the news",
+          "are against the proposal",
+          "when they came to see us",
+          "which is very late"
+        ],
+        "answer": "who told us the news"
+      },
+      {
+        "id": 156,
+        "question": "They refused to be reasonable about the delay, _______.",
+        "options": [
+          "the rain was late",
+          "that caused a lot of trouble",
+          "which made me angry",
+          "whose passengers were tourists"
+        ],
+        "answer": "which made me angry"
+      },
+      {
+        "id": 157,
+        "question": "George ordered an enormous steak, _______.",
+        "options": [
+          "it wasn’t well – done",
+          "which cost him a lot",
+          "was very delicious",
+          "he ate all by himself"
+        ],
+        "answer": "which cost him a lot"
+      },
+      {
+        "id": 158,
+        "question": "The students in the early class, _______, did very well on yesterday’s maths test.",
+        "options": [
+          "they study very hard all semester",
+          "very few of them had studied very hard",
+          "most of whom had studied the night before",
+          "they studied hard last week"
+        ],
+        "answer": "most of whom had studied the night before"
+      },
+      {
+        "id": 159,
+        "question": "He forgot to get the tickets, _______.",
+        "options": [
+          "whose wife got very angry with him",
+          "his wife had booked yesterday",
+          "where his wife wanted to see",
+          "which annoyed his wife very much"
+        ],
+        "answer": "which annoyed his wife very much"
+      },
+      {
+        "id": 160,
+        "question": "It is nuclear war, which could exterminate mankind, _______.",
+        "options": [
+          "which is a great danger",
+          "its power is unquestionable",
+          "that we must avoid",
+          "everybody knows it is dangerous"
+        ],
+        "answer": "which is a great danger"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "questions": [
+      {
+        "id": 161,
+        "question": "The book was ______ boring ______ I only could read two chapters.",
+        "options": ["such / that", "so / that", "very / that", "too / that"],
+        "answer": "so / that"
+      },
+      {
+        "id": 162,
+        "question": "It was ______ a boring book ______ I only could read two chapters.",
+        "options": ["such / that", "so / that", "too / as", "very / as"],
+        "answer": "such / that"
+      },
+      {
+        "id": 163,
+        "question": "_______ you talk to him, _______ you like him.",
+        "options": [
+          "Much / the more",
+          "The more / the less",
+          "More / more",
+          "The most / the most"
+        ],
+        "answer": "The more / the less"
+      },
+      {
+        "id": 164,
+        "question": "_______ I didn’t know anybody at the reception, I had a good time.",
+        "options": ["In spite of that", "Even so", "Even if", "Even though"],
+        "answer": "Even though"
+      },
+      {
+        "id": 165,
+        "question": "_____ I’ve finished “A Tale of Two Cities, I’ll read “Oliver Twist”.",
+        "options": ["Therefore", "Even if", "Though", "Now that"],
+        "answer": "Now that"
+      },
+      {
+        "id": 166,
+        "question": "No sooner had I opened the door _______ the telephone rang.",
+        "options": ["when", "before", "than", "as soon as"],
+        "answer": "than"
+      },
+      {
+        "id": 167,
+        "question": "_______ you’re happy about it, I have no objection.",
+        "options": ["As long as", "Whatever", "Therefore", "Even so"],
+        "answer": "As long as"
+      },
+      {
+        "id": 168,
+        "question": "He didn’t have any money, _______ he couldn’t buy a ticket.",
+        "options": ["moreover", "however", "because", "consequently"],
+        "answer": "however"
+      },
+      {
+        "id": 169,
+        "question": "He had enough money to buy a ticket, _____, he decided not to go.",
+        "options": ["consequently", "nevertheless", "moreover", "because"],
+        "answer": "nevertheless"
+      },
+      {
+        "id": 170,
+        "question": "He wanted to go with us; _______ he packed his suitcase.",
+        "options": ["so", "nevertheless", "moreover", "but"],
+        "answer": "but"
+      },
+      {
+        "id": 171,
+        "question": "It is late; _______, it is raining cats and dogs.",
+        "options": ["therefore", "nevertheless", "because", "moreover"],
+        "answer": "therefore"
+      },
+      {
+        "id": 172,
+        "question": "I didn’t have enough time; _______, I couldn’t go.",
+        "options": ["nevertheless", "moreover", "therefore", "however"],
+        "answer": "however"
+      },
+      {
+        "id": 173,
+        "question": "She’s been working for eight hours; _______, she is tired.",
+        "options": ["consequently", "however", "nevertheless", "because"],
+        "answer": "consequently"
+      },
+      {
+        "id": 174,
+        "question": "I’ll finish this. Then I’ll join you. When I _______ this, I’ll join you.",
+        "options": ["was finished", "will finish", "finished", "have finished"],
+        "answer": "have finished"
+      },
+      {
+        "id": 175,
+        "question": "She dressed the child in a heavy overcoat, _______ he should catch cold.",
+        "options": ["because", "therefore", "however", "lest"],
+        "answer": "lest"
+      },
+      {
+        "id": 176,
+        "question": "I’ve written it down for her, _______ she forgets it.",
+        "options": ["so as to", "therefore", "in case", "in order to"],
+        "answer": "in case"
+      },
+      {
+        "id": 177,
+        "question": "I will go home for vacation as soon as I _______ my exams.",
+        "options": ["will finish", "finish", "am finishing", "finished"],
+        "answer": "finish"
+      },
+      {
+        "id": 178,
+        "question": "When she arrived, I was pretty fed up, because I _______ since eight o’clock.",
+        "options": [
+          "had been waiting",
+          "have waited",
+          "have been waiting",
+          "had waited"
+        ],
+        "answer": "had been waiting"
+      },
+      {
+        "id": 179,
+        "question": "We left early _______ avoid the traffic.",
+        "options": ["because", "so as not to", "so as to", "not to"],
+        "answer": "so as to"
+      },
+      {
+        "id": 180,
+        "question": "They tiptoed up the stairs _______ wake the children.",
+        "options": ["in order to", "so as not to", "so as to", "because of"],
+        "answer": "so as not to"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "questions": [
+      {
+        "id": 181,
+        "question": "We won’t go unless the weather _______ fine.",
+        "options": ["will be", "is", "won’t be", "isn’t"],
+        "answer": "is"
+      },
+      {
+        "id": 182,
+        "question": "I was on vacation; _______, I didn’t get your letter.",
+        "options": ["therefore", "however", "even if", "although"],
+        "answer": "therefore"
+      },
+      {
+        "id": 183,
+        "question": "Dr. King gives interesting lectures; _______, he is very popular with his students.",
+        "options": ["however", "consequently", "but also", "not only"],
+        "answer": "consequently"
+      },
+      {
+        "id": 184,
+        "question": "Robert didn’t study for the test; _______ he did very well.",
+        "options": ["consequently", "therefore", "moreover", "nevertheless"],
+        "answer": "nevertheless"
+      },
+      {
+        "id": 185,
+        "question": "James wants to buy a new car, _____ he doesn’t have enough money.",
+        "options": ["however", "therefore", "moreover", "consequently"],
+        "answer": "however"
+      },
+      {
+        "id": 186,
+        "question": "He found everything rather strange, as he _______ abroad before.",
+        "options": [
+          "would never",
+          "had never been",
+          "has never been",
+          "will never be"
+        ],
+        "answer": "had never been"
+      },
+      {
+        "id": 187,
+        "question": "_______ coal reserves are abundant, taking advantage of them requires an active program of development.",
+        "options": ["Even though", "Therefore", "So that", "Nevertheless"],
+        "answer": "Even though"
+      },
+      {
+        "id": 188,
+        "question": "_______ the price of petrol is so high, I can’t afford to run a car any more.",
+        "options": ["However", "Now that", "So that", "Even though"],
+        "answer": "Now that"
+      },
+      {
+        "id": 189,
+        "question": "_______ the bans remained in force, Turkey could not claim to be fully democratic.",
+        "options": ["Unless", "Provided", "As long as", "Because of"],
+        "answer": "As long as"
+      },
+      {
+        "id": 190,
+        "question": "Doctors often use X rays _____ they can pass through skin and flesh.",
+        "options": ["so that", "as long as", "provided", "nevertheless"],
+        "answer": "provided"
+      },
+      {
+        "id": 191,
+        "question": "Within another hundred years we will have to find alternative sources of energy, _______ the world’s reserves of oil will not last that long.",
+        "options": ["so that", "since", "unless", "while"],
+        "answer": "since"
+      },
+      {
+        "id": 192,
+        "question": "An airline pilot and a racing driver are similar _______ they must possess good judgment and the ability to react quickly in a crisis.",
+        "options": ["however", "so that", "in that", "even if"],
+        "answer": "in that"
+      },
+      {
+        "id": 193,
+        "question": "They built a high fence around the building _______ no one could get out.",
+        "options": ["as", "so that", "since", "because"],
+        "answer": "so that"
+      },
+      {
+        "id": 194,
+        "question": "The old woman had to stand all the way _______ no one let her sit down on the bus.",
+        "options": ["so", "so that", "since", "although"],
+        "answer": "since"
+      },
+      {
+        "id": 195,
+        "question": "He stole the money _______ I warned him not to.",
+        "options": ["due to", "in case", "because", "although"],
+        "answer": "although"
+      },
+      {
+        "id": 196,
+        "question": "We were _______ late _______ we missed the plane to Istanbul.",
+        "options": ["so / that", "such / than", "very / then", "too / to"],
+        "answer": "so / that"
+      },
+      {
+        "id": 197,
+        "question": "I had to work until midnight _______ I was very tired.",
+        "options": ["although", "so that", "in case", "provided that"],
+        "answer": "although"
+      },
+      {
+        "id": 198,
+        "question": "_______ I took an aspirin, I still have a headache.",
+        "options": ["Even though", "Nevertheless", "Because", "As"],
+        "answer": "Even though"
+      },
+      {
+        "id": 199,
+        "question": "A: You studied hard. Did you pass the test?\nB: No, _______ I studied hard, I didn’t pass the test.",
+        "options": ["because", "as", "even though", "unless"],
+        "answer": "even though"
+      },
+      {
+        "id": 200,
+        "question": "It was cold; _______ we went on a picnic.",
+        "options": ["even though", "nevertheless", "so", "while"],
+        "answer": "nevertheless"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "questions": [
+      {
+        "id": 201,
+        "question": "_______ he had a broken leg, he continued to go to class.",
+        "options": [
+          "Nevertheless",
+          "In spite of the fact that",
+          "In spite of",
+          "Because of"
+        ],
+        "answer": "In spite of the fact that"
+      },
+      {
+        "id": 202,
+        "question": "Some people are fat, _______ others are thin.",
+        "options": ["because", "in spite of", "despite of", "whereas"],
+        "answer": "whereas"
+      },
+      {
+        "id": 203,
+        "question": "_______ some students think physics is easy, others find it difficult.",
+        "options": ["As", "even", "Nevertheless", "While"],
+        "answer": "While"
+      },
+      {
+        "id": 204,
+        "question": "Do you want to walk? The rain has stopped.\n_______ the rain’s stopped, do you want to walk?",
+        "options": ["In spite of", "As long as", "Now that", "Due to"],
+        "answer": "Now that"
+      },
+      {
+        "id": 205,
+        "question": "_______ it’s raining, I think I’ll stay at home.",
+        "options": [
+          "As long as",
+          "Because of",
+          "Despite of",
+          "On the other hand"
+        ],
+        "answer": "As long as"
+      },
+      {
+        "id": 206,
+        "question": "_______ Monday is a national holiday, all government offices will be closed.",
+        "options": ["Whereas", "Since", "While", "Because of"],
+        "answer": "Since"
+      },
+      {
+        "id": 207,
+        "question": "I’ll eat lunch with you _______ there is enough for both of us.",
+        "options": ["provided", "so as", "therefore", "whereas"],
+        "answer": "provided"
+      },
+      {
+        "id": 208,
+        "question": "We’ll get along just fine _______ he minds his own business.",
+        "options": ["as", "therefore", "as long as", "so that"],
+        "answer": "as long as"
+      },
+      {
+        "id": 209,
+        "question": "Apparently Betty is jealous ______ I get better grades than she does.",
+        "options": ["in spite of", "in case", "moreover", "because"],
+        "answer": "because"
+      },
+      {
+        "id": 210,
+        "question": "_______ I apologized, he looked as if he wanted to strangle me.",
+        "options": ["In spite of", "Even though", "Because", "Therefore"],
+        "answer": "Even though"
+      },
+      {
+        "id": 211,
+        "question": "The government puts up taxes _______ get more money from us.",
+        "options": ["in order to", "as", "because", "so that"],
+        "answer": "in order to"
+      },
+      {
+        "id": 212,
+        "question": "I wrote down the address _______ I wouldn’t forget it.",
+        "options": ["because", "so as to", "so that", "as"],
+        "answer": "so that"
+      },
+      {
+        "id": 213,
+        "question": "Roy talks _______ nonsense that no one listens to him anymore.",
+        "options": ["although", "as if", "like", "such"],
+        "answer": "such"
+      },
+      {
+        "id": 214,
+        "question": "She doesn’t mind working overtime _______ she’s paid for it.",
+        "options": ["provided that", "so that", "as a result", "in case"],
+        "answer": "provided that"
+      },
+      {
+        "id": 215,
+        "question": "We have to do the job _______ we like it or not.",
+        "options": ["if", "whether", "unless", "provided that"],
+        "answer": "whether"
+      },
+      {
+        "id": 216,
+        "question": "I did my homework _______ our teacher had instructed.",
+        "options": ["as", "in order that", "for fear that", "so that"],
+        "answer": "as"
+      },
+      {
+        "id": 217,
+        "question": "I’ll give you my telephone number _______ you want to get in touch with me again.",
+        "options": ["although", "in case", "so that", "as if"],
+        "answer": "in case"
+      },
+      {
+        "id": 218,
+        "question": "I obeyed her _______ she should be angry.",
+        "options": ["provided that", "but", "unless", "lest"],
+        "answer": "lest"
+      },
+      {
+        "id": 219,
+        "question": "Please turn down the TV. I want to be able to get to sleep. Please turn down the TV so that _______.",
+        "options": [
+          "I am getting to sleep",
+          "I’ll be able to sleep",
+          "I could get to sleep",
+          "I can get to sleep"
+        ],
+        "answer": "I can get to sleep"
+      },
+      {
+        "id": 220,
+        "question": "Please be quiet so that _______.",
+        "options": [
+          "the teacher will get angry",
+          "I can hear what the teacher is saying",
+          "I heard what the teacher said",
+          "to hear what the teacher is saying"
+        ],
+        "answer": "I can hear what the teacher is saying"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "questions": [
+      {
+        "id": 221,
+        "question": "Mike decided to become an anthropologist _______.",
+        "options": [
+          "so he can study the life of a primitive tribe",
+          "that’s why he will watch the documentary film on a primitive tribe",
+          "after he saw a documentary film on a primitive tribe",
+          "due to the fact that the film is on a primitive tribe"
+        ],
+        "answer": "after he saw a documentary film on a primitive tribe"
+      },
+      {
+        "id": 222,
+        "question": "“Having seen that film before, she wants to see a different one.” means: _______",
+        "options": [
+          "As she has seen a different film before, she can see this film.",
+          "Because she’s seen that film before, she wants to go to a different one.",
+          "As she’d seen that film before, she wanted to see a different one.",
+          "Because she wants to see that film, she can watch it."
+        ],
+        "answer": "As she’d seen that film before, she wanted to see a different one."
+      },
+      {
+        "id": 223,
+        "question": "“Having worked all day, I was tired last night.” means: _______.",
+        "options": [
+          "As I had worked all day, I was feeling tired last night.",
+          "I worked tiringly hard all day yesterday.",
+          "Since I’ve worked all day, I am tired now.",
+          "Because I was tired last night, I worked all day."
+        ],
+        "answer": "As I had worked all day, I was feeling tired last night."
+      },
+      {
+        "id": 224,
+        "question": "“I got to the airport at 9.15. My plane left ten minutes later.” means: _______.",
+        "options": [
+          "My plane had left ten minutes ago.",
+          "Before I got to the airport, my plane had taken off.",
+          "I got to the airport just before my plane left.",
+          "I couldn’t catch my plane."
+        ],
+        "answer": "I got to the airport just before my plane left."
+      },
+      {
+        "id": 225,
+        "question": "Since he’s not interested in classical music, he _______.",
+        "options": [
+          "hasn’t gone to the concert",
+          "would have gone to the concert",
+          "had decided not to go to the concert",
+          "was supposed to go to the concert"
+        ],
+        "answer": "hasn’t gone to the concert"
+      },
+      {
+        "id": 226,
+        "question": "_______ the semester is finished, I’m going to rest a few days and then take a trip.",
+        "options": ["Whenever", "Now that", "In spite of", "In order to"],
+        "answer": "Now that"
+      },
+      {
+        "id": 227,
+        "question": "This is _______ book that I don’t think I’ll finish it.",
+        "options": ["such a boring", "very boring", "such boring", "so boring"],
+        "answer": "so boring"
+      },
+      {
+        "id": 228,
+        "question": "I can’t repair the dishwasher myself _______.",
+        "options": [
+          "that it has broken down",
+          "because I had it repaired",
+          "so I will get someone to do it for me",
+          "unless the repairman had helped me"
+        ],
+        "answer": "so I will get someone to do it for me"
+      },
+      {
+        "id": 229,
+        "question": "I’ve gained _______ weight that I can’t wear any of my old clothes.",
+        "options": ["so many", "too many", "so much", "too much"],
+        "answer": "so much"
+      },
+      {
+        "id": 230,
+        "question": "I’ve met _______ people in the last few days that I can’t possibly remember all of their names.",
+        "options": ["so many", "too many", "so much", "too much"],
+        "answer": "so many"
+      },
+      {
+        "id": 231,
+        "question": "Ever since I was a child, I _______ afraid of dogs.",
+        "options": ["am", "was", "have been", "will be"],
+        "answer": "have been"
+      },
+      {
+        "id": 232,
+        "question": "Janet’s contact lens popped out while she _______.",
+        "options": ["was playing", "is playing", "has been playing", "played"],
+        "answer": "was playing"
+      },
+      {
+        "id": 233,
+        "question": "Be sure to reread your composition for errors before you _______ it in to the teacher tomorrow.",
+        "options": ["are handed", "hand", "having handed", "handed"],
+        "answer": "hand"
+      },
+      {
+        "id": 234,
+        "question": "By the time I leave this city, I _______ here for ten years.",
+        "options": [
+          "have lived",
+          "would have lived",
+          "will live",
+          "will have lived"
+        ],
+        "answer": "will have lived"
+      },
+      {
+        "id": 235,
+        "question": "“We can’t leave now. We have to wait for Peggy.” means: _______",
+        "options": [
+          "We can’t leave because Peggy isn’t here.",
+          "We must leave now, because Peggy is waiting for us.",
+          "Peggy is waiting; we can’t leave.",
+          "We must stay here until Peggy arrives."
+        ],
+        "answer": "We must stay here until Peggy arrives."
+      },
+      {
+        "id": 236,
+        "question": "“_______ the terrible weather, we enjoyed ourselves.",
+        "options": ["In spite of", "Because", "Although", "However"],
+        "answer": "In spite of"
+      },
+      {
+        "id": 237,
+        "question": "“My roommate walked into the room. Immediately, I knew that something was wrong.” means: _______ I knew that something was wrong.",
+        "options": [
+          "As soon as my roommate entered the room,",
+          "Before my roommate walked into the room,",
+          "By the time my roommate came into the room,",
+          "After my roommate came into the room,"
+        ],
+        "answer": "As soon as my roommate entered the room,"
+      },
+      {
+        "id": 238,
+        "question": "_______ the harm she’s done him, he still loves her.",
+        "options": ["In spite of", "Although", "Because", "Even though"],
+        "answer": "In spite of"
+      },
+      {
+        "id": 239,
+        "question": "_______ hard I try, I still can’t do it.",
+        "options": ["In spite of", "Although", "Therefore", "However"],
+        "answer": "However"
+      },
+      {
+        "id": 240,
+        "question": "_______ quickly you work, you’ll never catch up.",
+        "options": ["Although", "even though", "Moreover", "However"],
+        "answer": "However"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "questions": [
+      {
+        "id": 241,
+        "question": "You’d better leave now. _______, you’ll have to get a taxi home.",
+        "options": ["otherwise", "in case", "yet", "still"],
+        "answer": "otherwise"
+      },
+      {
+        "id": 242,
+        "question": "He left school at sixteen, _______ he has had no real education.",
+        "options": ["because", "for", "so", "even though"],
+        "answer": "so"
+      },
+      {
+        "id": 243,
+        "question": "She didn’t seem to recognize me _______ we had never met.",
+        "options": ["like", "as if", "although", "yet"],
+        "answer": "as if"
+      },
+      {
+        "id": 244,
+        "question": "The food may be good at the Harvard but it’s _______ expensive.",
+        "options": ["very much", "far too", "even so", "quite a lot"],
+        "answer": "far too"
+      },
+      {
+        "id": 245,
+        "question": "People normally treat you just_______ you treat them.",
+        "options": ["the same", "as if", "as though", "as"],
+        "answer": "as"
+      },
+      {
+        "id": 246,
+        "question": "He acted strangely, _______ he was frightened,",
+        "options": ["otherwise", "like", "as though", "the way"],
+        "answer": "as though"
+      },
+      {
+        "id": 247,
+        "question": "The weather was _______ bad _______ we didn’t go to the seaside.",
+        "options": ["such / then", "very / that", "so / that", "too / that"],
+        "answer": "so / that"
+      },
+      {
+        "id": 248,
+        "question": "It was hot, _______ I didn’t need my coat.",
+        "options": ["because", "so", "however", "although"],
+        "answer": "so"
+      },
+      {
+        "id": 249,
+        "question": "She doesn’t like phones in living rooms, and _____ does her sister.",
+        "options": ["so", "but", "neither", "too"],
+        "answer": "neither"
+      },
+      {
+        "id": 250,
+        "question": "____ everybody seemed to be out of cigarettes, I passed mine round.",
+        "options": ["As", "So", "So that", "In order that"],
+        "answer": "As"
+      },
+      {
+        "id": 251,
+        "question": "____ she had sung, the whole audience stood and applauded loudly.",
+        "options": ["Although", "After", "Now that", "So long as"],
+        "answer": "After"
+      },
+      {
+        "id": 252,
+        "question": "_______ he is very rich, he lives very simply.",
+        "options": ["After", "While", "As", "Although"],
+        "answer": "Although"
+      },
+      {
+        "id": 253,
+        "question": "_______ you say to her, she still keeps smiling.",
+        "options": ["However", "Moreover", "Whatever", "Whenever"],
+        "answer": "Whatever"
+      },
+      {
+        "id": 254,
+        "question": "You shouldn’t be rude, _______ you’re very angry.",
+        "options": ["even if", "however", "as if", "therefore"],
+        "answer": "even if"
+      },
+      {
+        "id": 255,
+        "question": "You can phone me _______ you like.",
+        "options": ["whichever", "in case", "whatever", "whenever"],
+        "answer": "whenever"
+      },
+      {
+        "id": 256,
+        "question": "He speaks English much _______ he writes it.",
+        "options": ["better than", "worse", "clearer than", "a lot worse"],
+        "answer": "better than"
+      },
+      {
+        "id": 257,
+        "question": "Mr. Taylor, I’m here just in case _______.",
+        "options": [
+          "they will come earlier",
+          "anything out of the ordinary happens",
+          "they telephoned to meet them at the airport",
+          "you might need my help"
+        ],
+        "answer": "anything out of the ordinary happens"
+      },
+      {
+        "id": 258,
+        "question": "I’m in a difficult situation in that _______.",
+        "options": [
+          "I’ve been offered two jobs and they both sound interesting",
+          "I had better study harder",
+          "I don’t want to get disillusioned",
+          "there was some misunderstanding"
+        ],
+        "answer": "I’ve been offered two jobs and they both sound interesting"
+      },
+      {
+        "id": 259,
+        "question": "He feels himself to be dependent in that_______.",
+        "options": [
+          "he is not free to question decisions affecting his daily life",
+          "he isn’t in good health and spirits",
+          "the company collapsed within six months",
+          "early retirement is a means of reducing the workforce"
+        ],
+        "answer": "he isn’t in good health and spirits"
+      },
+      {
+        "id": 260,
+        "question": "Be clear and factual in order that _______.",
+        "options": [
+          "to protect the employee’s rights",
+          "there will be many exciting opportunities in the future",
+          "agriculture and rural industry are flourishing",
+          "there may be no misunderstanding"
+        ],
+        "answer": "there may be no misunderstanding"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "questions": [
+      {
+        "id": 261,
+        "question": "I’d have married her even _______.",
+        "options": [
+          "her parents had given their consent",
+          "she’d rather I had married her",
+          "she had been penniless",
+          "she was in love with another man"
+        ],
+        "answer": "she had been penniless"
+      },
+      {
+        "id": 262,
+        "question": "He grabbed me and shook me till _______.",
+        "options": [
+          "my teeth rattled",
+          "the police have arrived",
+          "I’d apologized to him",
+          "he would have noticed I had a gun"
+        ],
+        "answer": "my teeth rattled"
+      },
+      {
+        "id": 263,
+        "question": "Long before you return _______.",
+        "options": [
+          "everybody has already left",
+          "we’d sold out of your size",
+          "she will have forgotten you",
+          "I’d finished all the work"
+        ],
+        "answer": "she will have forgotten you"
+      },
+      {
+        "id": 264,
+        "question": "I had no sooner checked in to the hotel_______.",
+        "options": [
+          "when two gunmen ordered me to open my briefcase",
+          "than he arrived with the appropriate documents",
+          "a young lady approached me with a smile",
+          "before all rooms have been reserved"
+        ],
+        "answer": "than he arrived with the appropriate documents"
+      },
+      {
+        "id": 265,
+        "question": "Hardly had he uttered the words _______.",
+        "options": [
+          "than we left the room",
+          "when he began laughing",
+          "as soon as everybody sat down",
+          "the manager came in"
+        ],
+        "answer": "when he began laughing"
+      },
+      {
+        "id": 266,
+        "question": "Nobody gets anything unless _______.",
+        "options": [
+          "they ask for it",
+          "he has enough money",
+          "they don’t work harder",
+          "he isn’t very determined"
+        ],
+        "answer": "he has enough money"
+      },
+      {
+        "id": 267,
+        "question": "I get an electrician to check all my electrical appliances every autumn whether or not _______.",
+        "options": [
+          "they are giving trouble",
+          "they don’t need checking",
+          "he is very good at it",
+          "he charges me a lot"
+        ],
+        "answer": "they are giving trouble"
+      },
+      {
+        "id": 268,
+        "question": "“They built a statue of him lest people should forget what he had done.” means: _______.",
+        "options": [
+          "They built a statue of him so that people would not forget what he had done.",
+          "They built a statue of him because people wouldn’t forget what he had done.",
+          "As people would forget what he had done one day, they built a statue of him.",
+          "Believing that it was necessary for people not to forget what he had done, they had a statue of him built."
+        ],
+        "answer": "They built a statue of him so that people would not forget what he had done."
+      },
+      {
+        "id": 269,
+        "question": "Tourism is a good thing inasmuch as _______.",
+        "options": [
+          "if we are to pay our debts",
+          "foreign exchange is concerned",
+          "foreign trade is essential",
+          "it brings people into contact with other nations"
+        ],
+        "answer": "it brings people into contact with other nations"
+      },
+      {
+        "id": 270,
+        "question": "I used to love listening to her, even though _______.",
+        "options": [
+          "she has nothing interesting to mention",
+          "we didn’t have a radio to listen to",
+          "she was a good friend of mine",
+          "I could only understand about half of what she said"
+        ],
+        "answer": "I could only understand about half of what she said"
+      },
+      {
+        "id": 271,
+        "question": "Nobody said a thing except that _______.",
+        "options": [
+          "one or two asked me if I was better",
+          "I would tell them everything in detail",
+          "they had already told everything in their mind",
+          "a man who has been involved in the accident"
+        ],
+        "answer": "one or two asked me if I was better"
+      },
+      {
+        "id": 272,
+        "question": "In Turkey, _______ you come across ceremonies.",
+        "options": [
+          "which is rich in history",
+          "I’m sure you’ll enjoy it",
+          "wherever you go",
+          "its people are very hospitable"
+        ],
+        "answer": "wherever you go"
+      },
+      {
+        "id": 273,
+        "question": "I was never allowed to do the things_______.",
+        "options": [
+          "the way I wanted to do them",
+          "I’ve always thought of realizing",
+          "I’m very keen on carrying out",
+          "nevertheless, I am very determined to solve"
+        ],
+        "answer": "the way I wanted to do them"
+      },
+      {
+        "id": 274,
+        "question": "She felt as if _______.",
+        "options": [
+          "she is a stranger",
+          "the fur coat was very nice",
+          "she had a fever",
+          "she is in a crowded stadium"
+        ],
+        "answer": "she had a fever"
+      },
+      {
+        "id": 275,
+        "question": "His hair looked as if _______.",
+        "options": [
+          "it has just been dyed",
+          "it had been combed with his fingers",
+          "it hasn’t been cut for ages",
+          "it needs cutting"
+        ],
+        "answer": "it needs cutting"
+      },
+      {
+        "id": 276,
+        "question": "I felt as if _______.",
+        "options": [
+          "I’m going to get selected",
+          "I’ve done my best for the realization of the project",
+          "I were the center of the universe",
+          "I would have fainted"
+        ],
+        "answer": "I were the center of the universe"
+      },
+      {
+        "id": 277,
+        "question": "He behaved as though _______.",
+        "options": [
+          "it was nothing to be ashamed of",
+          "he is a millionaire",
+          "he has come to a garden party",
+          "he lost all his money"
+        ],
+        "answer": "it was nothing to be ashamed of"
+      },
+      {
+        "id": 278,
+        "question": "Our aim is to recruit the most qualified person, _______.",
+        "options": [
+          "unless there are some really good ones",
+          "whether or not we liked them",
+          "no matter where he is from",
+          "whichever way you looked at it"
+        ],
+        "answer": "no matter where he is from"
+      },
+      {
+        "id": 279,
+        "question": "I’d do anything to get that contract, but it is highly unlikely _______.",
+        "options": [
+          "my firm would get it",
+          "that my firm will get it",
+          "for my firm getting it",
+          "if my firm can get it"
+        ],
+        "answer": "that my firm will get it"
+      },
+      {
+        "id": 280,
+        "question": "They decided to postpone the match, _______ the weather conditions were better than they had expected.",
+        "options": ["yet", "nevertheless", "even though", "because"],
+        "answer": "even though"
       }
     ]
   }
