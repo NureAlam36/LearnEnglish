@@ -10,6 +10,32 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 const AboutUs = () => {
     const { colorScheme } = useColorSchemeContext();
 
+    const styles = StyleSheet.create({
+        heading: {
+            paddingTop: 15,
+            fontSize: 24,
+            marginBottom: 10,
+            fontFamily: FONT.bold,
+            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText
+        },
+        subHeading: {
+            fontSize: 20,
+            marginBottom: 5,
+            fontFamily: FONT.bold,
+            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText
+        },
+        paragraph: {
+            fontSize: 17,
+            fontFamily: FONT.regular,
+            marginBottom: 20,
+            color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText
+        },
+        bold: {
+            fontFamily: FONT.bold
+        },
+    });
+
+
     return (
         <React.Fragment>
             <CustomHeader title="About Us" />
@@ -41,10 +67,6 @@ const AboutUs = () => {
                     <Text style={styles.paragraph}>
                         <Text style={styles.bold}>Accessible Anytime, Anywhere:</Text> Learn on the go with our mobile-friendly app, accessible anytime, anywhere, whether you're at home, commuting, or traveling.
                     </Text>
-
-                    <Text style={styles.subHeading}>Our Commitment to Quality:</Text>
-                    <Text style={styles.paragraph}>We are committed to providing high-quality educational content that is both engaging and effective. Our team of language experts works tirelessly to ensure that our app remains up-to-date with the latest teaching methodologies and linguistic trends.</Text>
-
                     <Text style={styles.subHeading}>Join Our Community:</Text>
                     <Text style={styles.paragraph}>Join our growing community of language learners who are passionate about mastering English the fast and easy way. Whether you're a beginner just starting your language journey or an advanced learner looking to refine your skills, we welcome you to explore all that our app has to offer.</Text>
 
@@ -55,28 +77,5 @@ const AboutUs = () => {
         </React.Fragment>
     )
 }
-
-const styles = StyleSheet.create({
-    heading: {
-        paddingTop: 15,
-        fontSize: 24,
-        marginBottom: 10,
-        fontFamily: FONT.bold
-    },
-    subHeading: {
-        fontSize: 20,
-        marginBottom: 5,
-        fontFamily: FONT.bold
-    },
-    paragraph: {
-        fontSize: 17,
-        color: COLORS.gray,
-        fontFamily: FONT.regular,
-        marginBottom: 20
-    },
-    bold: {
-        fontFamily: FONT.bold
-    },
-});
 
 export default AboutUs

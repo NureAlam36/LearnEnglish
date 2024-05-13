@@ -12,25 +12,24 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 const DATA = [
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    id: 1,
     title: "Daily Test",
     screen: "daily_test_screen",
-    image:
-      "https://cdn4.iconfinder.com/data/icons/popicon-bluetone-education/256/14-512.png",
+    image: require("@/assets/images/education.png"),
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+    id: 2,
     title: "PDF Library",
     screen: "pdf_library_screen",
-    image:
-      "https://w7.pngwing.com/pngs/616/366/png-transparent-book-design-creativity-creative-design-three-books-blue-angle-text-thumbnail.png",
+    image: require("@/assets/images/books-blue.png"),
   },
-  // {
-  //   id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
-  //   title: "Quizzes",
-  //   screen: "quizzes_screen",
-  //   image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
-  // },
+
+  {
+    id: 3,
+    title: "Quizzes",
+    screen: "quizzes_screen",
+    image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
+  },
 ];
 
 const DailyUpdates = ({ navigation }) => {
@@ -53,7 +52,7 @@ const DailyUpdates = ({ navigation }) => {
             activeOpacity={0.7}
           >
             <View style={styles.imageContainer}>
-              <Image style={styles.image} source={{ uri: item.image }} />
+              <Image style={styles.image} source={item.image} />
             </View>
             <Text
               style={[

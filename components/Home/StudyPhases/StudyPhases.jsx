@@ -7,62 +7,57 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
-import { COLORS, FONT, icons, images, SIZES } from "../../../constants";
+import { COLORS, FONT } from "../../../constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-
-import { Link } from "expo-router";
 
 const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Grammar",
     screen: "grammer_screen",
-    image:
-      "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
+    image: require("@/assets/images/english-book.webp"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Vocabulary",
     screen: "vocabulary_screen",
-    image:
-      "https://cdn.iconscout.com/icon/premium/png-256-thumb/vocabulary-3599386-3015185.png?f=webp",
+    image: require("@/assets/images/vocabulary.webp"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Daily Use \nSentences",
     screen: "dus_screen",
-    image: "https://cdn-icons-png.flaticon.com/512/4039/4039248.png",
+    image: require("@/assets/images/sentences.png"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     title: "Story",
     screen: "story_screen",
-    image: "https://cdn-icons-png.flaticon.com/512/8750/8750683.png",
+    image: require("@/assets/images/story-book.png"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Idioms and \nPhrases",
     screen: "phrases_screen",
-    image: "https://www.southlakebaptist.com/wp-content/uploads/Words-Icon.png",
+    image: require("@/assets/images/phrases.png"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f65",
     title: "Common \nConversations",
     screen: "conversation_screen",
-    image: "https://cdn-icons-png.flaticon.com/512/608/608968.png",
+    image: require("@/assets/images/conversations.png"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f66",
     title: "Proverbs",
     screen: "proverbs_screen",
-    image:
-      "https://overviewbible.com/wp-content/uploads/2014/06/proverbs-free-bible-icon.png-300x300.png",
+    image: require("@/assets/images/proverbs.png"),
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f66",
     title: "Famous \nQuotations",
     screen: "quotation_screen",
-    image: "https://cdn-icons-png.flaticon.com/512/6314/6314351.png",
+    image: require("@/assets/images/quotations.png"),
   },
 ];
 
@@ -100,7 +95,7 @@ const StudyPhases = ({ navigation }) => {
               <View style={styles.imageWraper}>
                 <Image
                   style={styles.image}
-                  source={{ uri: item.image }}
+                  source={item.image}
                   resizeMode="contain"
                 />
               </View>

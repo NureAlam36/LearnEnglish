@@ -29,28 +29,11 @@ const MCQs = () => {
         // setPageTitle();
         setPageTitle(`BCS Preliminary ${itemsPerPage * id - itemsPerPage + 1}- ${itemsPerPage * id}`);
 
-
         const currentPageData = DATA.slice(startIdx, endIdx + 1);
 
         setQuestions(currentPageData);
         setIsLoading(false);
     }, []);
-
-    // Function to handle option selection
-
-
-    // if (isLoading) {
-    //     return (
-    //         <View style={{
-    //             flex: 1,
-    //             justifyContent: 'center',
-    //             alignItems: 'center',
-    //             backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary
-    //         }}>
-    //             <ActivityIndicator size="large" color={COLORS.primary} />
-    //         </View>
-    //     );
-    // }
 
     return (
         <React.Fragment>

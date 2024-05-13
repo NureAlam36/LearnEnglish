@@ -18,10 +18,9 @@ const DATA = [
   {
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     title: "Translator",
-    background: ["#a1c4fd", "#c2e9fb"],
-    image:
-      "https://static-00.iconduck.com/assets.00/google-translate-icon-2048x2035-36xcbzp3.png",
+    background: ["#4481eb", "#04befe"],
     link: "translator",
+    image: require("@/assets/images/translate.png"),
   },
   // {
   //   id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
@@ -33,9 +32,8 @@ const DATA = [
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f64",
     title: "Text To Speech",
-    background: ["#84fab0", "#8fd3f4"],
-    image:
-      "https://cdn-icons-png.freepik.com/256/3069/3069810.png?semt=ais_hybrid",
+    background: ["#2CD8D5", "#6B8DD6", "#8E37D7"],
+    image: require("@/assets/images/text-to-speech.png"),
     link: "text-to-speech",
   },
 ];
@@ -66,10 +64,7 @@ const Tools = () => {
                 end={{ x: 1, y: 1 }}
                 style={styles.imageContainer}
               >
-                <Image
-                  source={{ uri: item.image }}
-                  style={{ width: 35, height: 35 }}
-                />
+                <Image source={item.image} style={{ width: 40, height: 40 }} />
               </LinearGradient>
               <Text
                 style={[
@@ -111,12 +106,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
     alignItems: "center",
     justifyContent: "center",
-
     gap: 10,
   },
   imageContainer: {
     backgroundColor: "#ccdfffb8",
-    padding: 20,
+    padding: 18,
     borderRadius: 10,
   },
   title: {

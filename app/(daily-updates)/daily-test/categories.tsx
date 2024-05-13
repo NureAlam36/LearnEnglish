@@ -104,7 +104,7 @@ const Categories = ({ route, navigation }: any) => {
         <React.Fragment>
             <ContentHeader title="Categories" />
 
-            <View style={{ flex: 1, padding: 10 }}>
+            <View style={{ flex: 1 }}>
                 <FlatList
                     data={DATA}
                     renderItem={({ item }) => (
@@ -119,7 +119,7 @@ const Categories = ({ route, navigation }: any) => {
                     )}
                     keyExtractor={(item, index) => index.toString()}
                     numColumns={4}
-                    contentContainerStyle={{ gap: 10 }}
+                    contentContainerStyle={{ gap: 10, padding: 15 }}
                     columnWrapperStyle={{ gap: 10, height: 85 }}
                 />
             </View>

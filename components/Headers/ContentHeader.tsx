@@ -12,7 +12,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { Stack as ExpoStack } from "expo-router";
 
 const CustomHeader = ({ title }: any) => {
-    const navigation = useNavigation();
+    const navigation = useNavigation() as any;
     // const { colorScheme } = useColorSchemeContext();
 
     return (
@@ -30,9 +30,9 @@ const CustomHeader = ({ title }: any) => {
                                     <Text style={{ color: '#fff', fontFamily: FONT.bold, fontSize: 20 }}>{title ? title : 'Learn English'}</Text>
                                 </View>
                             </View>
-                            <View>
+                            <TouchableOpacity onPress={() => navigation.navigate('notification_screen')} activeOpacity={0.7}>
                                 <Ionicons name="notifications-outline" size={28} color="white" />
-                            </View>
+                            </TouchableOpacity>
                         </View>
                     </View>
                 }}

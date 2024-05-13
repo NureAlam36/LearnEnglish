@@ -36,7 +36,8 @@ const Index = () => {
                             backgroundColor: colorScheme === 'light' ? COLORS.white : COLORS.darkSecondary,
                             borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
                             borderWidth: colorScheme === 'light' ? 1 : 0,
-                            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText
+                            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
+                            textAlignVertical: 'top'
                         }
                     ]}
                     multiline
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
         padding: 10,
         margin: 20,
         borderRadius: 10,
-        minHeight: 250,
+        minHeight: 200,
         fontSize: 16,
         fontFamily: FONT.regular,
     },

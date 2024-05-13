@@ -93,12 +93,117 @@ const MCQs = () => {
     const [selectedData, setSelectedData] = useState<any>(null);
 
     useEffect(() => {
-        // Retrieve the selected data from the mapping object
-        const data = dataMap[id];
-        if (data) {
-            setSelectedData(data);
-        } else {
-            console.error(`Data not found for id: ${id}`);
+        switch (id) {
+            case '10':
+                setSelectedData(bcs10th);
+                break;
+            case '11':
+                setSelectedData(bcs11th);
+                break;
+            case '12':
+                setSelectedData(bcs12th);
+                break;
+            case '13':
+                setSelectedData(bcs13th);
+                break;
+            case '14':
+                setSelectedData(bcs14th);
+                break;
+            case '15':
+                setSelectedData(bcs15th);
+                break;
+            case '16':
+                setSelectedData(bcs16th);
+                break;
+            case '17':
+                setSelectedData(bcs17th);
+                break;
+            case '18':
+                setSelectedData(bcs18th);
+                break;
+            case '19':
+                setSelectedData(bcs19th);
+                break;
+            case '20':
+                setSelectedData(bcs20th);
+                break;
+            case '21':
+                setSelectedData(bcs21st);
+                break;
+            case '22':
+                setSelectedData(bcs22nd);
+                break;
+            case '23':
+                setSelectedData(bcs23rd);
+                break;
+            case '24':
+                setSelectedData(bcs24th);
+                break;
+            case '25':
+                setSelectedData(bcs25th);
+                break;
+            case '26':
+                setSelectedData(bcs26th);
+                break;
+            case '27':
+                setSelectedData(bcs27th);
+                break;
+            case '28':
+                setSelectedData(bcs28th);
+                break;
+            case '29':
+                setSelectedData(bcs29th);
+                break;
+            case '30':
+                setSelectedData(bcs30th);
+                break;
+            case '31':
+                setSelectedData(bcs31st);
+                break;
+            case '32':
+                setSelectedData(bcs32nd);
+                break;
+            case '33':
+                setSelectedData(bcs33rd);
+                break;
+            case '34':
+                setSelectedData(bcs34th);
+                break;
+            case '35':
+                setSelectedData(bcs35th);
+                break;
+            case '36':
+                setSelectedData(bcs36th);
+                break;
+            case '37':
+                setSelectedData(bcs37th);
+                break;
+            case '38':
+                setSelectedData(bcs38th);
+                break;
+            case '39':
+                setSelectedData(bcs39th);
+                break;
+            case '40':
+                setSelectedData(bcs40th);
+                break;
+            case '41':
+                setSelectedData(bcs41st);
+                break;
+            case '42':
+                setSelectedData(bcs42nd);
+                break;
+            case '43':
+                setSelectedData(bcs43rd);
+                break;
+            case '44':
+                setSelectedData(bcs44th);
+                break;
+            case '45':
+                setSelectedData(bcs45th);
+                break;
+            default:
+                setSelectedData(null);
         }
     }, [id]);
 

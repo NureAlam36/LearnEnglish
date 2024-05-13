@@ -47,7 +47,7 @@ export default function TabLayout() {
             }}
           />
           <Tabs.Screen
-            name="three"
+            name="translator"
             options={{
               title: 'Translator',
               tabBarIcon: ({ color }) => <MaterialIcons name="g-translate" size={20} color={color} />,
@@ -55,7 +55,7 @@ export default function TabLayout() {
           />
 
           <Tabs.Screen
-            name="two"
+            name="settings"
             options={{
               title: 'Settings',
               headerShown: false,

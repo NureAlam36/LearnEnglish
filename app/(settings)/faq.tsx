@@ -10,6 +10,34 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 const FAQ = () => {
     const { colorScheme } = useColorSchemeContext();
 
+    const styles = StyleSheet.create({
+        heading: {
+            paddingTop: 20,
+            fontSize: 16,
+            marginBottom: 20,
+            fontFamily: FONT.regular,
+            color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText
+        },
+        question: {
+            fontSize: 16,
+            fontWeight: 'bold',
+            marginBottom: 10,
+            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText
+        },
+        answer: {
+            fontSize: 16,
+            marginBottom: 20,
+            fontFamily: FONT.regular,
+            color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText
+        },
+        paragraph: {
+            fontSize: 17,
+            marginBottom: 20,
+            fontFamily: FONT.regular,
+            color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText
+        }
+    });
+
     return (
         <React.Fragment>
             <CustomHeader title="FAQ" />
@@ -54,34 +82,5 @@ const FAQ = () => {
         </React.Fragment>
     )
 }
-
-const styles = StyleSheet.create({
-    heading: {
-        paddingTop: 20,
-        fontSize: 16,
-        marginBottom: 20,
-        color: COLORS.gray,
-        fontFamily: FONT.regular,
-    },
-    question: {
-        fontSize: 16,
-        fontWeight: 'bold',
-        marginBottom: 10,
-        color: COLORS.darkText,
-        fontFamily: FONT.bold,
-    },
-    answer: {
-        fontSize: 16,
-        marginBottom: 20,
-        color: COLORS.gray,
-        fontFamily: FONT.regular,
-    },
-    paragraph: {
-        fontSize: 17,
-        color: COLORS.gray,
-        fontFamily: FONT.regular,
-        marginBottom: 20
-    }
-});
 
 export default FAQ;

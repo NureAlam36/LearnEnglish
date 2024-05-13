@@ -20,7 +20,9 @@ import ProverbsScreen from '@/app/(study-phases)/proverbs/index';
 import QuotationScreen from '@/app/(study-phases)/famous-quotations/index';
 
 import DailyTest from '@/app/(daily-updates)/daily-test/index';
+import SpeakingTest from '@/app/(daily-updates)/speaking-test/index';
 
+import Search from '@/app/search/index';
 
 
 // Create a stack navigator
@@ -37,8 +39,11 @@ export default function TabOneScreen() {
 
       <Stack.Screen name="home_screen" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="notification_screen" component={NotificationScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="search_screen" component={Search} options={{ headerShown: false }} />
 
+      {/* Daily Updates */}
       <Stack.Screen name="daily_test_screen" component={DailyTest} options={{ headerShown: false }} />
+      <Stack.Screen name="speaking_test_screen" component={SpeakingTest} options={{ headerShown: false }} />
 
       {/* Job Solution */}
       <Stack.Screen name="bcs_solution_screen" component={BcsSolution} options={{ headerShown: false }} />
