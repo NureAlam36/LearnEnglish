@@ -26,7 +26,7 @@ const ExampleComponent = () => {
     )
 }
 
-const person = () => {
+const Articles = () => {
     const [loading, setLoading] = useState(true);
     const { colorScheme } = useColorSchemeContext();
 
@@ -568,4 +568,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default person
+export default Articles

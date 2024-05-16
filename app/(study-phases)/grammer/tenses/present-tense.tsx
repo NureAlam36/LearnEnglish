@@ -23,7 +23,7 @@ const LineBreaker = ({ height = '10' }) => {
     )
 }
 
-const person = () => {
+const PresentTense = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -451,4 +451,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default person
+export default PresentTense

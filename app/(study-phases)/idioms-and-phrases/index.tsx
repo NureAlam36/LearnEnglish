@@ -68,7 +68,7 @@ const Index = () => {
             }}>
 
             <Stack.Screen name="phrasesCategory_screen" component={PhrasesCategory} options={{ header: () => <ContentHeader title="Idioms and Phrases" />, headerShown: true }} />
-            <Stack.Screen name="phrases_screen" component={Phrases} />
+            <Stack.Screen name="phrases_content_screen" component={Phrases} />
         </Stack.Navigator>
     );
 }
@@ -96,7 +96,7 @@ const PhrasesCategory = ({ navigation }: any) => {
                     data={categories}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate('phrases_screen', { slug: item.name })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
+                        <TouchableOpacity onPress={() => navigation.navigate('phrases_content_screen', { slug: item.name })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
                             <View style={styles.item}>
                                 <Text style={styles.item_icon}>{item.name.toUpperCase()}</Text>
                                 <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>

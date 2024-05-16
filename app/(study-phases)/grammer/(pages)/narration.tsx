@@ -3,12 +3,10 @@ import { View, Text, StyleSheet, ScrollView, Image } from 'react-native'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { FONT, COLORS } from "@/constants";
 
+// @ts-ignore
 import { Table, Row } from 'react-native-table-component';
 
 import PreLoader from '@/components/PreLoader';
-import Stack from 'expo-router/stack';
-
-import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
     return (
@@ -22,7 +20,7 @@ const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) =
     )
 }
 
-const person = () => {
+const Narration = () => {
     const [loading, setLoading] = useState(true);
     const { colorScheme } = useColorSchemeContext();
 
@@ -520,4 +518,4 @@ const person = () => {
 
 
 
-export default person
+export default Narration

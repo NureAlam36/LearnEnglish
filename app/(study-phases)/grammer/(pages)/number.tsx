@@ -28,7 +28,7 @@ const NumberOfRules = ({ rule = '০' }) => {
     )
 }
 
-const person = () => {
+const Number = () => {
     const [loading, setLoading] = useState(true);
     const { colorScheme } = useColorSchemeContext();
 
@@ -340,4 +340,4 @@ const person = () => {
 
 
 
-export default person
+export default Number

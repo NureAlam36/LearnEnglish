@@ -165,7 +165,7 @@ const Search = ({ route }: any) => {
                         renderItem={({ item, index }) => (
                             <React.Fragment>
                                 {
-                                    index === 0 && <View style={{ display: 'flex', gap: 8, padding: 15, marginBottom: 15, borderRadius: 2, backgroundColor: '#57c9a957', borderWidth: 1, borderColor: '#1bb28582' }}>
+                                    index === 0 && <View style={{ display: 'flex', gap: 8, padding: 10, marginBottom: 10, borderRadius: 2, backgroundColor: '#57c9a957', borderWidth: 1, borderColor: '#1bb28582' }}>
                                         <Text style={{ fontFamily: FONT.medium, color: COLORS.gray }}>Search result for "{key}"</Text>
                                         <Text style={{ fontFamily: FONT.regular, color: COLORS.gray }}>সার্চ ফলাফলঃ {DATA.length} টি</Text>
                                     </View>
@@ -174,7 +174,7 @@ const Search = ({ route }: any) => {
                             </React.Fragment>
                         )}
                         keyExtractor={(item) => item.id.toString()}
-                        contentContainerStyle={{ gap: 10, padding: 15 }}
+                        contentContainerStyle={{ gap: 10, padding: 10 }}
                         showsVerticalScrollIndicator={false}
                     />
                 </View>

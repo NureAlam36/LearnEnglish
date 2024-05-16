@@ -85,7 +85,7 @@ const TabOneScreen = () => {
                 headerShown: false
             }}>
 
-            <Stack.Screen name="grammer_screen" component={Index} options={{ header: () => <ContentHeader title="Grammer" />, headerShown: true }} />
+            <Stack.Screen name="grammer_topics_screen" component={Index} options={{ header: () => <ContentHeader title="Grammer" />, headerShown: true }} />
             <Stack.Screen name="person_screen" component={Person} options={{ header: () => <ContentHeader title="Person" />, headerShown: true }} />
             <Stack.Screen name="tenses_screen" component={Tenses} />
             <Stack.Screen name="partsOfSpeech_screen" component={PartsOfSpeech} options={{ header: () => <ContentHeader title="Parts of speech" />, headerShown: true }} />

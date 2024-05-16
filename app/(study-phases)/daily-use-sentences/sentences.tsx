@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
-import { Stack } from 'expo-router'
 import * as Speech from 'expo-speech';
 import { MaterialIcons } from '@expo/vector-icons';
 
@@ -9,6 +8,7 @@ import dailyUseSentences from '@/data/daily-use-sentences.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import { COLORS, FONT } from "@/constants";
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const index = () => {
     const route = useRoute();
@@ -34,13 +34,8 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Daily Use Sentences',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{topicName}</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title={topicName} />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList
                     data={sentences}
@@ -60,6 +55,7 @@ const index = () => {
                         </View>
                     )
                     }
+                    showsVerticalScrollIndicator={false}
                 />
             </View>
         </React.Fragment >

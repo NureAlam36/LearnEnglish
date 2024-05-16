@@ -7,7 +7,7 @@ import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
 import ContentHeader from '@/components/Headers/ContentHeader';
 
-const index = ({ route }: any) => {
+const Phrases = ({ route }: any) => {
     const { slug } = route.params as any;
 
     const screenWidth = Dimensions.get('window').width;
@@ -72,4 +72,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default index
+export default Phrases

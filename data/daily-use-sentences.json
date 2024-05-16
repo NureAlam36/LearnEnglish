@@ -1,151 +1,153 @@
 [
-    {
-        "category": "Greetings",
-        "link": "greetings",
-        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
-        "sentences": [
-            {
-                "id": 1,
-                "english": "What is your phone number?",
-                "bangla": "আপনার ফোন নাম্বার কি?"
-            },
-            {
-                "id": 2,
-                "english": "My phone number is...",
-                "bangla": "আমার ফোন নাম্বার ..."
-            },
-            {
-                "id": 3,
-                "english": "What is your email address?",
-                "bangla": "আপনার ইমেইল ঠিকানা কি?"
-            },
-            {
-                "id": 4,
-                "english": "My email address is...",
-                "bangla": "আমার ইমেইল ঠিকানা ..."
-            },
-            {
-                "id": 5,
-                "english": "What is the time?",
-                "bangla": "এখন কত বাজে?"
-            },
-            {
-                "id": 6,
-                "english": "How much is this?",
-                "bangla": "এটা কত?"
-            },
-            {
-                "id": 7,
-                "english": "Where is the bathroom?",
-                "bangla": "বাথরুম কোথায়?"
-            },
-            {
-                "id": 8,
-                "english": "How do I get to ...?",
-                "bangla": "আমি ... কিভাবে পৌঁছাব?"
-            },
-            {
-                "id": 9,
-                "english": "Can you help me?",
-                "bangla": "আপনি আমাকে সাহায্য করতে পারবেন?"
-            }
-        ]
-    }, {
-        "category": "Shopping",
-        "link": "shopping",
-        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
-        "sentences": [
-            {
-                "id": 1,
-                "english": "How much is this?",
-                "bangla": "এটা কত?"
-            },
-            {
-                "id": 2,
-                "english": "Can I pay by credit card?",
-                "bangla": "আমি ক্রেডিট কার্ড দিয়ে পেমেন্ট করতে পারি?"
-            },
-            {
-                "id": 3,
-                "english": "Do you accept credit cards?",
-                "bangla": "আপনি ক্রেডিট কার্ড গ্রহণ করেন?"
-            },
-            {
-                "id": 4,
-                "english": "Do you accept cash?",
-                "bangla": "আপনি নগদ গ্রহণ করেন?"
-            },
-            {
-                "id": 5,
-                "english": "Do you accept checks?",
-                "bangla": "আপনি চেক গ্রহণ করেন?"
-            },
-            {
-                "id": 6,
-                "english": "Can I pay by check?",
-                "bangla": "আমি চেক দিয়ে পেমেন্ট করতে পারি?"
-            },
-            {
-                "id": 7,
-                "english": "Can I pay by cash?",
-                "bangla": "আমি নগদ দিয়ে পেমেন্ট করতে পারি?"
-            },
-            {
-                "id": 8,
-                "english": "Can I pay by mobile money?",
-                "bangla": "আমি মো বাইল মানি দিয়ে পেমেন্ট করতে পারি?"
-            }
-        ]
-    }, {
-        "category": "Travel",
-        "link": "travel",
-        "image": "https://cdn.iconscout.com/icon/premium/png-256-thumb/english-book-3465842-2900552.png",
-        "sentences": [
-            {
-                "id": 1,
-                "english": "Where is the airport?",
-                "bangla": "বিমানবন্দর কোথায়?"
-            },
-            {
-                "id": 2,
-                "english": "Where is the bus station?",
-                "bangla": "বাস স্টেশন কোথায়?"
-            },
-            {
-                "id": 3,
-                "english": "Where is the train station?",
-                "bangla": "রেলওয়ে স্টেশন কোথায়?"
-            },
-            {
-                "id": 4,
-                "english": "Where is the taxi stand?",
-                "bangla": "ট্যাক্সি স্ট্যান্ড কোথায়?"
-            },
-            {
-                "id": 5,
-                "english": "Where is the hotel?",
-                "bangla": "হোটেল কোথায়?"
-            },
-            {
-                "id": 6,
-                "english": "Where is the restaurant?",
-                "bangla": "রেস্টুরেন্ট কোথায়?"
-            },
-            {
-                "id": 7,
-                "english": "Where is the bank?",
-                "bangla": "ব্যাংক কোথায়?"
-            },
-            {
-                "id": 8,
-                "english": "Where is the hospital?",
-                "bangla": "হাসপাতাল কোথায়?"
-            },
-            {
-                "id": 9,
-                "english": "Where is the police station?",
-                "bangla": "পুলিশ স্টেশন কোথা য়?"
-            }
-        ]
-    }
+  {
+    "category": "Greetings",
+    "link": "greetings",
+    "image": "",
+    "sentences": [
+      {
+        "id": 1,
+        "english": "What is your phone number?",
+        "bangla": "আপনার ফোন নাম্বার কি?"
+      },
+      {
+        "id": 2,
+        "english": "My phone number is...",
+        "bangla": "আমার ফোন নাম্বার ..."
+      },
+      {
+        "id": 3,
+        "english": "What is your email address?",
+        "bangla": "আপনার ইমেইল ঠিকানা কি?"
+      },
+      {
+        "id": 4,
+        "english": "My email address is...",
+        "bangla": "আমার ইমেইল ঠিকানা ..."
+      },
+      {
+        "id": 5,
+        "english": "What is the time?",
+        "bangla": "এখন কত বাজে?"
+      },
+      {
+        "id": 6,
+        "english": "How much is this?",
+        "bangla": "এটা কত?"
+      },
+      {
+        "id": 7,
+        "english": "Where is the bathroom?",
+        "bangla": "বাথরুম কোথায়?"
+      },
+      {
+        "id": 8,
+        "english": "How do I get to ...?",
+        "bangla": "আমি ... কিভাবে পৌঁছাব?"
+      },
+      {
+        "id": 9,
+        "english": "Can you help me?",
+        "bangla": "আপনি আমাকে সাহায্য করতে পারবেন?"
+      }
+    ]
+  },
+  {
+    "category": "Shopping",
+    "link": "shopping",
+    "image": "",
+    "sentences": [
+      {
+        "id": 1,
+        "english": "How much is this?",
+        "bangla": "এটা কত?"
+      },
+      {
+        "id": 2,
+        "english": "Can I pay by credit card?",
+        "bangla": "আমি ক্রেডিট কার্ড দিয়ে পেমেন্ট করতে পারি?"
+      },
+      {
+        "id": 3,
+        "english": "Do you accept credit cards?",
+        "bangla": "আপনি ক্রেডিট কার্ড গ্রহণ করেন?"
+      },
+      {
+        "id": 4,
+        "english": "Do you accept cash?",
+        "bangla": "আপনি নগদ গ্রহণ করেন?"
+      },
+      {
+        "id": 5,
+        "english": "Do you accept checks?",
+        "bangla": "আপনি চেক গ্রহণ করেন?"
+      },
+      {
+        "id": 6,
+        "english": "Can I pay by check?",
+        "bangla": "আমি চেক দিয়ে পেমেন্ট করতে পারি?"
+      },
+      {
+        "id": 7,
+        "english": "Can I pay by cash?",
+        "bangla": "আমি নগদ দিয়ে পেমেন্ট করতে পারি?"
+      },
+      {
+        "id": 8,
+        "english": "Can I pay by mobile money?",
+        "bangla": "আমি মো বাইল মানি দিয়ে পেমেন্ট করতে পারি?"
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "link": "travel",
+    "image": "",
+    "sentences": [
+      {
+        "id": 1,
+        "english": "Where is the airport?",
+        "bangla": "বিমানবন্দর কোথায়?"
+      },
+      {
+        "id": 2,
+        "english": "Where is the bus station?",
+        "bangla": "বাস স্টেশন কোথায়?"
+      },
+      {
+        "id": 3,
+        "english": "Where is the train station?",
+        "bangla": "রেলওয়ে স্টেশন কোথায়?"
+      },
+      {
+        "id": 4,
+        "english": "Where is the taxi stand?",
+        "bangla": "ট্যাক্সি স্ট্যান্ড কোথায়?"
+      },
+      {
+        "id": 5,
+        "english": "Where is the hotel?",
+        "bangla": "হোটেল কোথায়?"
+      },
+      {
+        "id": 6,
+        "english": "Where is the restaurant?",
+        "bangla": "রেস্টুরেন্ট কোথায়?"
+      },
+      {
+        "id": 7,
+        "english": "Where is the bank?",
+        "bangla": "ব্যাংক কোথায়?"
+      },
+      {
+        "id": 8,
+        "english": "Where is the hospital?",
+        "bangla": "হাসপাতাল কোথায়?"
+      },
+      {
+        "id": 9,
+        "english": "Where is the police station?",
+        "bangla": "পুলিশ স্টেশন কোথা য়?"
+      }
+    ]
+  }
 ]

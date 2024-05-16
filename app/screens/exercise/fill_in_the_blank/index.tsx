@@ -79,7 +79,7 @@ const MainHomeScreen = ({ navigation }: any) => {
                                     </View>
                                 </View>
                                 <View>
-                                    <MaterialIcons name="arrow-forward-ios" size={20} color={COLORS.gray} />
+                                    <MaterialIcons name="arrow-forward-ios" size={18} color={COLORS.primary} />
                                 </View>
                             </View>
                         </TouchableOpacity>

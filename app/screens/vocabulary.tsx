@@ -32,6 +32,7 @@ const HomeScreen = () => {
                 title: 'Rearrange',
                 headerStyle: { backgroundColor: '#5495fb' },
                 headerTitleStyle: { color: '#fff', fontFamily: FONT.medium },
+                headerShown: false
             }} />
         </Stack.Navigator>
     );
@@ -44,33 +45,22 @@ const MainHomeScreen = ({ navigation }: any) => {
         <React.Fragment>
             <ContentHeader title="Exercise" />
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
-                <TouchableOpacity onPress={() => navigation.navigate('FillInTheBlank')} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                <TouchableOpacity onPress={() => navigation.navigate('FillInTheBlank')} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? COLORS.primary : COLORS.darkSecondary }]}>
                     <View style={styles.item}>
-                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-                            <View style={styles.item_icon_wraper}>
-                                <Image style={styles.item_icon} source={{ uri: 'https://image.winudf.com/v2/image/YXN1Lm1jcV9pY29uXzBfYzVkMzhmYzE/icon.png?w=&fakeurl=1' }} />
-                            </View>
-                            <View>
-                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Fill In The Blank</Text>
-                            </View>
+                        <View style={styles.item_icon_wraper}>
+                            <Image style={styles.item_icon} source={{ uri: 'https://image.winudf.com/v2/image/YXN1Lm1jcV9pY29uXzBfYzVkMzhmYzE/icon.png?w=&fakeurl=1' }} />
                         </View>
-                        {/* <FontAwesome name="arrow-circle-right" size={24} color={COLORS.primary} /> */}
+                        <Text style={styles.title}>Fill In The Blank</Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('Rearrange')} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                <TouchableOpacity onPress={() => navigation.navigate('Rearrange')} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? COLORS.primary : COLORS.darkSecondary }]}>
                     <View style={styles.item}>
-                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-                            <View style={styles.item_icon_wraper}>
-                                <Image style={styles.item_icon} source={{ uri: 'https://cdn-icons-png.flaticon.com/512/1127/1127749.png' }} />
-                            </View>
-                            <View>
-                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Rearrange</Text>
-                            </View>
+                        <View style={styles.item_icon_wraper}>
+                            <Image style={styles.item_icon} source={{ uri: 'https://cdn-icons-png.flaticon.com/512/1127/1127749.png' }} />
                         </View>
-                        {/* <FontAwesome name="arrow-circle-right" size={24} color={COLORS.primary} /> */}
+                        <Text style={styles.title}>Rearrange</Text>
                     </View>
                 </TouchableOpacity>
-
             </View>
         </React.Fragment>
     );
@@ -81,6 +71,10 @@ const styles = StyleSheet.create({
         flex: 1,
         gap: 10,
         padding: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+        flexWrap: 'wrap'
     },
     sectionTitle: {
         fontSize: 18,
@@ -89,17 +83,17 @@ const styles = StyleSheet.create({
         fontFamily: FONT.bold,
     },
     itemContainer: {
-        flexDirection: "row",
         borderRadius: 5,
-        padding: 10,
+        padding: 8,
+        alignItems: 'center',
+        width: '48%',
     },
     item: {
-        flex: 1,
-        flexDirection: "row",
+        flexDirection: 'column',
         alignItems: "center",
-        justifyContent: "space-between",
         margin: 5,
         gap: 10,
+        width: '100%',
     },
     item_icon_wraper: {
         width: 50,
@@ -114,7 +108,8 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 15,
-        fontFamily: FONT.medium
+        fontFamily: FONT.medium,
+        color: '#fff'
     },
 });
 

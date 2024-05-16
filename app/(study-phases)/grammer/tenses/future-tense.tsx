@@ -23,7 +23,7 @@ const LineBreaker = ({ height = '10' }) => {
     )
 }
 
-const person = () => {
+const FutureTense = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -229,4 +229,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default person
+export default FutureTense

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
-import { Stack } from 'expo-router'
 import { Clipboard } from 'react-native';
 import { COLORS, FONT } from "@/constants";
 import { Feather } from '@expo/vector-icons';
@@ -12,7 +11,7 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import ContentHeader from "@/components/Headers/ContentHeader";
 
-const index = () => {
+const Quotations = () => {
     const route = useRoute();
     const { colorScheme } = useColorSchemeContext();
     const { slug } = route.params as any;
@@ -88,4 +87,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default index
+export default Quotations

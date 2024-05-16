@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Image, StatusBar, Platform } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Image, Alert } from 'react-native';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
-import Stack from 'expo-router/stack';
 import { Audio } from 'expo-av';
 import ProgressCircle from 'react-native-progress-circle'
 
@@ -11,9 +10,13 @@ import Feather from '@expo/vector-icons/Feather';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import CustomHeader from '@/components/Headers/CustomHeader';
+// import CustomHeader from '@/components/Headers/CustomHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
-const Exercise = () => {
+import RearrangeSentences from '@/data/rearrange-sentences.json';
+
+const Exercise = ({ navigation, route }: any) => {
+    const { categoryId } = route.params;
     const { colorScheme } = useColorSchemeContext();
     const [totalQuestions, setTotalQuestions] = useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,26 +28,50 @@ const Exercise = () => {
     const [isChecked, setIsChecked] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [optionsDisabled, setOptionsDisabled] = useState(false);
-
-    const DATA = [
-        {
-            id: 1,
-            question: 'পাখিরা উড়তে পারে',
-            options: ["Birds", "can", "fly"],
-            answer: 'Birds can fly'
-        },
-        {
-            id: 2,
-            question: 'আমি বাংলা ভাষায় কথা বলতে পারি',
-            options: ["I", "speak", "in", "Bengali"],
-            answer: 'I speak in Bengali'
-        }
-    ];
-
-
+    const [DATA, setData] = useState<any>([]);
 
     useEffect(() => {
-        setTotalQuestions(DATA.length);
+        const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
+            e.preventDefault();
+
+            Alert.alert(
+                'Confirm',
+                'Are you sure you want to leave this screen?',
+                [
+                    {
+                        text: 'Cancel',
+                        onPress: () => null,
+                        style: 'cancel',
+                    },
+                    {
+                        text: 'OK',
+                        onPress: () => navigation.dispatch(e.data.action),
+                    },
+                ],
+                { cancelable: false }
+            );
+        });
+
+        return unsubscribe;
+    }, [navigation]);
+
+    useEffect(() => {
+        RearrangeSentences.forEach((data) => {
+            if (data.id === categoryId) {
+                data.exercises.forEach((item: any) => {
+                    const options = item.en.split(' ');
+                    const shuffledOptions = options.sort(() => Math.random() - 0.5);
+
+                    setData((exercises: any) => [...exercises, {
+                        question: item.bn,
+                        options: shuffledOptions,
+                        answer: item.en,
+                    }]);
+                })
+
+                setTotalQuestions(data.exercises.length);
+            }
+        })
     }, []);
 
     const calCulatePercentage = () => {
@@ -119,11 +146,8 @@ const Exercise = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    header: () => <CustomHeader title="Rearrange Sentence" />,
-                }}
-            />
+            <ContentHeader title="Rearrange Sentence" />
+
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
                     !showMessage && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
@@ -150,7 +174,7 @@ const Exercise = () => {
                                 <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }]}>Rearrange words in the correct order to make a meaningful Sentence</Text>
 
                                 <Text style={[styles.questionText, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>
-                                    {DATA[currentIndex].question}
+                                    {DATA[currentIndex]?.question}
                                 </Text>
 
                                 <View style={{ minHeight: 57, borderBottomWidth: 1, borderBottomColor: '#e1e1e1', backgroundColor: '#f2f2f2', padding: 10 }}>
@@ -164,7 +188,7 @@ const Exercise = () => {
                                 </View>
 
                                 <View style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', alignSelf: 'center', gap: 5, paddingTop: 15 }}>
-                                    {DATA[currentIndex].options.map((option, index) => (
+                                    {DATA[currentIndex]?.options.map((option: string, index: number) => (
                                         selectedOptions.includes(option) ? (
                                             <View key={index} style={[styles.optionButton, { borderWidth: 1, borderColor: '#f2f2f2' }]}>
                                                 <Text style={{ fontFamily: FONT.medium, color: 'transparent' }}>{option}</Text>
@@ -214,7 +238,7 @@ const Exercise = () => {
 
 
                                 <TouchableOpacity activeOpacity={0.7}
-                                    style={[styles.nextButton, { backgroundColor: '#5495fb', marginTop: 100, paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignSelf: 'center', gap: 10, }]}
+                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 100, paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignSelf: 'center', gap: 10, }]}
                                     onPress={ReTest}
                                 >
 
@@ -226,59 +250,61 @@ const Exercise = () => {
                     }
                 </View>
             </View>
-            {
-                !showMessage && <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
-                    {
-                        isChecked ? <View>
-                            <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
-                                <LinearGradient
-                                    colors={['#1e3c72', '#1e3c72', '#2a5298']}
-                                    start={{ x: 1, y: 1 }}
-                                    end={{ x: 1, y: 0 }}
-                                    style={{
-                                        height: 150,
-                                        borderRadius: 10,
-                                        margin: 10
-                                    }}
-                                >
 
-                                    <View style={{ marginTop: 5 }}>
-                                        {
-                                            isChecked && isCorrect ? (
-                                                <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
-                                                    <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/463/463574.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
-                                                    <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#00c47d' }}>আপনার উত্তর সঠিক</Text>
-                                                </View>
-                                            ) : isChecked && !isCorrect ? (
-                                                <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
-                                                    <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/5610/5610967.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
-                                                    <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#ff1f1f' }}>আপনার উত্তর সঠিক হয়নি!</Text>
-                                                </View>
-                                            ) : null
-                                        }
-                                    </View>
-                                </LinearGradient>
-                            </View>
-                            <TouchableOpacity
-                                activeOpacity={0.7}
-                                style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
-                                onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
-                                disabled={selectedOptions.length === 0}
+            <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
+                {
+                    !showMessage && isChecked && <View>
+                        <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
+                            <LinearGradient
+                                colors={['#1e3c72', '#1e3c72', '#2a5298']}
+                                start={{ x: 1, y: 1 }}
+                                end={{ x: 1, y: 0 }}
+                                style={{
+                                    height: 150,
+                                    borderRadius: 10,
+                                    margin: 10
+                                }}
                             >
-                                <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
-                            </TouchableOpacity>
+
+                                <View style={{ marginTop: 5 }}>
+                                    {
+                                        isChecked && isCorrect ? (
+                                            <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
+                                                <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/463/463574.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
+                                                <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#00c47d' }}>আপনার উত্তর সঠিক হয়েছে</Text>
+                                            </View>
+                                        ) : isChecked && !isCorrect ? (
+                                            <View style={{ padding: 15, display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center', alignSelf: 'center' }}>
+                                                <Image source={{ uri: 'https://cdn-icons-png.freepik.com/256/5610/5610967.png' }} style={{ width: 30, height: 30, alignSelf: 'center' }} />
+                                                <Text style={{ fontFamily: FONT.medium, fontSize: 18, color: '#ff1f1f' }}>আপনার উত্তর সঠিক হয়নি!</Text>
+                                            </View>
+                                        ) : null
+                                    }
+                                </View>
+                            </LinearGradient>
                         </View>
-                            : <TouchableOpacity
-                                activeOpacity={0.7}
-                                style={[styles.nextButton, { backgroundColor: '#5495fb', marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
-                                onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
-                                disabled={selectedOptions.length === 0}
-                            >
-                                <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
-                            </TouchableOpacity>
-                    }
-                </View>
-            }
+                        <TouchableOpacity
+                            activeOpacity={0.7}
+                            style={[styles.nextButton, { backgroundColor: COLORS.primary, marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
+                            onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
+                            disabled={selectedOptions.length === 0}
+                        >
+                            <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
+                        </TouchableOpacity>
+                    </View>
+                }
+
+                {
+                    !isChecked && <TouchableOpacity
+                        activeOpacity={0.7}
+                        style={[styles.nextButton, { backgroundColor: COLORS.primary, marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
+                        onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}
+                        disabled={selectedOptions.length === 0}
+                    >
+                        <Text style={styles.nextButtonText}>{!isChecked ? 'Check' : 'Next'}</Text>
+                    </TouchableOpacity>
+                }
+            </View>
         </React.Fragment>
     );
 };

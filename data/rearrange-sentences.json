@@ -1,14 +1,2654 @@
 [
   {
     "id": 1,
-    "title": "Fill In The Blank",
-    "link": "fill_in_the_blank",
-    "image": "https://image.winudf.com/v2/image/YXN1Lm1jcV9pY29uXzBfYzVkMzhmYzE/icon.png?w=&fakeurl=1"
+    "category": "Exercise 1",
+    "exercises": [
+      {
+        "id": 445,
+        "bn": "সে একটা বই পড়ছে",
+        "en": "He is reading a book."
+      },
+      {
+        "id": 443,
+        "bn": "সে ইংরেজি পড়ছিল",
+        "en": "He was reading English."
+      },
+      {
+        "id": 395,
+        "bn": "রুনা একটি গান গাইছে",
+        "en": "Runa is singing a song."
+      },
+      {
+        "id": 89,
+        "bn": "আমি ভাত খাচ্ছিলাম",
+        "en": "I was eating rice."
+      },
+      {
+        "id": 53,
+        "bn": "আমার সময় নেই",
+        "en": "I have no time."
+      },
+      {
+        "id": 46,
+        "bn": "আমরা স্কুলে যাচ্ছি",
+        "en": "We are going to school."
+      },
+      {
+        "id": 36,
+        "bn": "আমরা বাংলাদেশে বাস করি",
+        "en": "We live in Bangladesh."
+      },
+      {
+        "id": 24,
+        "bn": "আমরা কি ইংরেজি শিখছি?",
+        "en": "Are we learning English?"
+      },
+      {
+        "id": 7,
+        "bn": "আটটা বেজেছে",
+        "en": "It is 8.00 o’clock."
+      },
+      {
+        "id": 1,
+        "bn": "অনন্ত বেড়াতে যায়নি",
+        "en": "Ananto did not go for a walk."
+      },
+      {
+        "id": 4,
+        "bn": "অভির একটি শার্ট আছে",
+        "en": "Avi has a shirt."
+      },
+      {
+        "id": 5,
+        "bn": "আকবর একটি চিঠি লিখেছিল",
+        "en": "Akbar wrote a letter."
+      },
+      {
+        "id": 11,
+        "bn": "আপনি কি সেখানে গিয়েছিলেন?",
+        "en": "Did you go there?"
+      },
+      {
+        "id": 12,
+        "bn": "আব্বা কি খবরের কাগজ পড়ছিলেন?",
+        "en": "Was father reading the newspaper?"
+      },
+      {
+        "id": 13,
+        "bn": "আব্বা খবরের কাগজ পড়ছিলেন",
+        "en": "Father was reading the newspaper."
+      },
+      {
+        "id": 14,
+        "bn": "আব্বা খবরের কাগজ পড়েন",
+        "en": "Father reads the newspaper."
+      },
+      {
+        "id": 15,
+        "bn": "আব্বা টাকা পাঠায়নি",
+        "en": "Father has not sent money."
+      },
+      {
+        "id": 16,
+        "bn": "আমটা তাজা হবে না",
+        "en": "The mango will not be fresh."
+      },
+      {
+        "id": 17,
+        "bn": "আমটি কি মিষ্টি নয়?",
+        "en": "Is the mango not sweet?"
+      },
+      {
+        "id": 18,
+        "bn": "আমরা অঙ্কটা করিনি",
+        "en": "We have not done the sum."
+      }
+    ]
   },
   {
     "id": 2,
-    "title": "Rearrange",
-    "link": "rearrange",
-    "image": "https://cdn-icons-png.flaticon.com/512/1127/1127749.png"
+    "category": "Exercise 2",
+    "exercises": [
+      {
+        "id": 19,
+        "bn": "আমরা ইহা জানতাম না",
+        "en": "We did not know it."
+      },
+      {
+        "id": 20,
+        "bn": "আমরা উপস্থিত ছিলাম না",
+        "en": "We were not present."
+      },
+      {
+        "id": 21,
+        "bn": "আমরা এখন খেলিব না",
+        "en": "We shall not play now."
+      },
+      {
+        "id": 22,
+        "bn": "আমরা এটা করব না",
+        "en": "We shall not do this."
+      },
+      {
+        "id": 23,
+        "bn": "আমরা কি অঙ্কটা করিনি?",
+        "en": "Have we not done the sum?"
+      },
+
+      {
+        "id": 25,
+        "bn": "আমরা কি খেলা দেখব?",
+        "en": "Shall we watch the match?"
+      },
+      {
+        "id": 26,
+        "bn": "আমরা কি চার বছর ধরে এখানে বাস করছি?",
+        "en": "Have we been living here for four years?"
+      },
+      {
+        "id": 27,
+        "bn": "আমরা কি টেলিভিশন দেখছিলাম?",
+        "en": "Were we watching television?"
+      },
+      {
+        "id": 28,
+        "bn": "আমরা কি তোমার জন্য অপেক্ষা করছিলাম না?",
+        "en": "Were we not waiting for you?"
+      },
+      {
+        "id": 29,
+        "bn": "আমরা কি দেরি করেছি?",
+        "en": "Have we made delay?"
+      },
+      {
+        "id": 30,
+        "bn": "আমরা কোথাও যাব না",
+        "en": "We shall not go anywhere."
+      },
+      {
+        "id": 31,
+        "bn": "আমরা ক্রিকেট খেলব",
+        "en": "We shall play cricket."
+      },
+      {
+        "id": 32,
+        "bn": "আমরা তাকে দেখেছিলাম",
+        "en": "We saw him."
+      },
+      {
+        "id": 33,
+        "bn": "আমরা তাকে সাহায্য করেছি",
+        "en": "We have helped him."
+      },
+      {
+        "id": 34,
+        "bn": "আমরা দেরি করেছি",
+        "en": "We have made delay."
+      },
+      {
+        "id": 35,
+        "bn": "আমরা পড়া শিখছিলাম না",
+        "en": "We were not learning the lesson."
+      },
+      {
+        "id": 37,
+        "bn": "আমরা বাইরে গেলাম না",
+        "en": "We did not go out."
+      },
+      {
+        "id": 38,
+        "bn": "আমরা ব্যস্ত নই",
+        "en": "We are not busy."
+      },
+      {
+        "id": 39,
+        "bn": "আমরা রেডিও শুনছিলাম",
+        "en": "We were listening to the radio."
+      },
+      {
+        "id": 40,
+        "bn": "আমরা লোকটিকে দেখি নাই",
+        "en": "We did not see the man."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Exercise 3",
+    "exercises": [
+      {
+        "id": 41,
+        "bn": "আমরা শিক্ষককে সম্মান করি",
+        "en": "We respect our teacher."
+      },
+      {
+        "id": 42,
+        "bn": "আমরা সকালে রওনা হলাম",
+        "en": "We started in the morning."
+      },
+      {
+        "id": 43,
+        "bn": "আমরা সময় পাব না",
+        "en": "We shall not get time."
+      },
+      {
+        "id": 44,
+        "bn": "আমরা সমস্যাটি সমাধান করেছিলাম",
+        "en": "We solved the problem."
+      },
+      {
+        "id": 45,
+        "bn": "আমরা সেখানে যাচ্ছি",
+        "en": "We are going there."
+      },
+      {
+        "id": 47,
+        "bn": "আমরা স্কুলে যাচ্ছিলাম",
+        "en": "We were going to school."
+      },
+      {
+        "id": 48,
+        "bn": "আমরা স্টেশনে পৌঁছাবার পূর্বে ট্রেন ছেড়ে দিল",
+        "en": "The train had left before we reached the station."
+      },
+      {
+        "id": 49,
+        "bn": "আমরা স্টেশনে পৌঁছেছি",
+        "en": "We have reached at the station."
+      },
+      {
+        "id": 50,
+        "bn": "আমরা স্টেশনে পৌঁছাবার পর ট্রন ছেড়ে দিল",
+        "en": "The train left after we had reached the station."
+      },
+      {
+        "id": 51,
+        "bn": "আমরা হাসছিলাম না",
+        "en": "We were not laughing."
+      },
+      {
+        "id": 52,
+        "bn": "আমাকে একটি এক টাকার নোট দাও",
+        "en": "Give me a one taka note."
+      },
+      {
+        "id": 54,
+        "bn": "আমি আগামীকাল খুলনা যাব",
+        "en": "I shall go to Khulna tomorrow."
+      },
+      {
+        "id": 55,
+        "bn": "আমি আজ সকালে এসেছি",
+        "en": "I came this morning."
+      },
+      {
+        "id": 56,
+        "bn": "আমি আরবি জানি না",
+        "en": "I do not know Arabic."
+      },
+      {
+        "id": 57,
+        "bn": "আমি ইংরেজি শিখব",
+        "en": "I shall learn English."
+      },
+      {
+        "id": 58,
+        "bn": "আমি ইত্তেফাক পড়ি",
+        "en": "I read the Ittefaq."
+      },
+      {
+        "id": 59,
+        "bn": "আমি একটা বই কিনেছিলাম",
+        "en": "I bought a book."
+      },
+      {
+        "id": 60,
+        "bn": "আমি একটায় স্কুল থেকে আসি",
+        "en": "I come from school at 1.00 p.m."
+      },
+      {
+        "id": 61,
+        "bn": "আমি একটি কলম কিনছিলাম",
+        "en": "I was buying a pen."
+      },
+      {
+        "id": 62,
+        "bn": "আমি একটি গান গাইছিলাম",
+        "en": "I was singing a song."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Exercise 4",
+    "exercises": [
+      {
+        "id": 63,
+        "bn": "আমি একটি চিঠি লিখছি",
+        "en": "I am writing a letter."
+      },
+      {
+        "id": 64,
+        "bn": "আমি একটি ছাতা কিনেছিলাম",
+        "en": "I bought an umbrella."
+      },
+      {
+        "id": 65,
+        "bn": "আমি একটি পাখি দেখিতেছি",
+        "en": "I am seeing a bird."
+      },
+      {
+        "id": 66,
+        "bn": "আমি একটি পুরস্কার পাব",
+        "en": "I shall get a prize."
+      },
+      {
+        "id": 67,
+        "bn": "আমি একটি বই কিনেছি",
+        "en": "I have bought a book."
+      },
+      {
+        "id": 68,
+        "bn": "আমি এখনো চিঠিটা লিখিনি",
+        "en": "I have not yet written the letter."
+      },
+      {
+        "id": 69,
+        "bn": "আমি এখনো যাইনি",
+        "en": "I have not yet gone."
+      },
+      {
+        "id": 70,
+        "bn": "আমি এটা পছন্দ করলাম না",
+        "en": "I did not like it."
+      },
+      {
+        "id": 71,
+        "bn": "আমি কাউকে ভয় পাই না",
+        "en": "I am not afraid of anybody."
+      },
+      {
+        "id": 72,
+        "bn": "আমি কাজটি করছিলাম না",
+        "en": "I was not doing the work."
+      },
+      {
+        "id": 73,
+        "bn": "আমি কাজটি করেছি",
+        "en": "I have done the work."
+      },
+      {
+        "id": 74,
+        "bn": "আমি কি কাজটা করেছি?",
+        "en": "Have I done the work?"
+      },
+      {
+        "id": 75,
+        "bn": "আমি কি তোমাকে একটি বই দিয়েছিলাম?",
+        "en": "Did I give you a book?"
+      },
+      {
+        "id": 76,
+        "bn": "আমি কি ভাত খাচ্ছিলাম?",
+        "en": "Was I eating rice?"
+      },
+      {
+        "id": 77,
+        "bn": "আমি কি স্কুলে যাব?",
+        "en": "Shall I go to school?"
+      },
+      {
+        "id": 78,
+        "bn": "আমি গান গাইতে থাকিব",
+        "en": "I shall be singing a song."
+      },
+      {
+        "id": 79,
+        "bn": "আমি ঘুমাচ্ছিলাম না",
+        "en": "I was not sleeping."
+      },
+      {
+        "id": 80,
+        "bn": "আমি চিঠিটি লিখেছি",
+        "en": "I have written the letter."
+      },
+      {
+        "id": 81,
+        "bn": "আমি তখন ঘুমুচ্ছিলাম",
+        "en": "I was sleeping at that time."
+      },
+      {
+        "id": 82,
+        "bn": "আমি তার সঙ্গে কথা বলছি",
+        "en": "I am talking with him."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Exercise 5",
+    "exercises": [
+      {
+        "id": 83,
+        "bn": "আমি তিন বছর ধরে এখানে বাস করছি",
+        "en": "I have been living here for three years."
+      },
+      {
+        "id": 84,
+        "bn": "আমি তোমার জন্য অপেক্ষা করছি",
+        "en": "I am waiting for you."
+      },
+      {
+        "id": 85,
+        "bn": "আমি দুই ঘণ্টা ধরে আপনার জন্য অপেক্ষা করছি",
+        "en": "I have been waiting for you for two hours."
+      },
+      {
+        "id": 86,
+        "bn": "আমি দুধ পান করেছিলাম",
+        "en": "I drank milk."
+      },
+      {
+        "id": 87,
+        "bn": "আমি নদীতে গোসল করলাম",
+        "en": "I took a bath in the river."
+      },
+      {
+        "id": 88,
+        "bn": "আমি পাঁচ ঘণ্টা ধরে পড়ছি",
+        "en": "I have been reading for five hours."
+      },
+      {
+        "id": 90,
+        "bn": "আমি যাবার পর তুমি এসেছিলে",
+        "en": "You came after I had left."
+      },
+      {
+        "id": 91,
+        "bn": "আমি রিকশায় স্কুলে যাই",
+        "en": "I go to school by rickshaw."
+      },
+      {
+        "id": 92,
+        "bn": "আমি রোজ স্কুলে যাই",
+        "en": "I go to school everyday."
+      },
+      {
+        "id": 93,
+        "bn": "আমি রোদে দৌড়াচ্ছিলাম না",
+        "en": "I was not running in the sun."
+      },
+      {
+        "id": 94,
+        "bn": "আমি শিক্ষক হইব",
+        "en": "I shall be a Teacher."
+      },
+      {
+        "id": 95,
+        "bn": "আমি সকালে বেড়াই না",
+        "en": "I do not walk in the morning."
+      },
+      {
+        "id": 96,
+        "bn": "আমি সাড়ে আটটায় স্কুলে যাই",
+        "en": "I go to school at 8.30 a.m."
+      },
+      {
+        "id": 97,
+        "bn": "আমি সুস্থ ছিলাম না",
+        "en": "I was not well."
+      },
+      {
+        "id": 98,
+        "bn": "আমি সেখানে যাব না",
+        "en": "I shall not go there."
+      },
+      {
+        "id": 99,
+        "bn": "আমি স্কুলে যাবার পূর্বে পড়া শিখেছিলাম",
+        "en": "I had learnt lesson before I went to school."
+      },
+      {
+        "id": 100,
+        "bn": "আর ঘুমিয়ো না",
+        "en": "Do not sleep any more."
+      },
+      {
+        "id": 101,
+        "bn": "ইংরেজরা চতুর",
+        "en": "The English are clever."
+      },
+      {
+        "id": 102,
+        "bn": "ইহা একটি একমুখো রাস্তা",
+        "en": "It is a one way road."
+      },
+      {
+        "id": 103,
+        "bn": "ইহার একটি লেজ আছে",
+        "en": "It has a tail."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Exercise 6",
+    "exercises": [
+      {
+        "id": 104,
+        "bn": "এই ফুলগুলো তাজা নয়",
+        "en": "These flowers are not fresh."
+      },
+      {
+        "id": 105,
+        "bn": "এক ঘণ্টা সময় লাগবে",
+        "en": "It will take an hour."
+      },
+      {
+        "id": 106,
+        "bn": "এক যে ছিল রাজা",
+        "en": "There was a king."
+      },
+      {
+        "id": 107,
+        "bn": "এক সপ্তাহ ধরে তারা কাজটি করিতেছিল",
+        "en": "They had been doing the work for a week."
+      },
+      {
+        "id": 108,
+        "bn": "এক সপ্তাহ ধরে তিনি জ্বরে ভুগছিলেন",
+        "en": "He had been suffering from fever for a week."
+      },
+      {
+        "id": 109,
+        "bn": "এখন পাঁচটা বাজে",
+        "en": "It is 5.00 o’clock now."
+      },
+      {
+        "id": 110,
+        "bn": "এখন বৃষ্টি হচ্ছে",
+        "en": "Now it is raining"
+      },
+      {
+        "id": 111,
+        "bn": "এখন বৃষ্টি হচ্ছে না",
+        "en": "Now it is not raining."
+      },
+      {
+        "id": 112,
+        "bn": "এখন সাড়ে চারটা",
+        "en": "Now it is half past four."
+      },
+      {
+        "id": 113,
+        "bn": "এখন সাড়ে চারটা বাজে",
+        "en": "It is half past four now."
+      },
+      {
+        "id": 114,
+        "bn": "এগুলো সবুজ",
+        "en": "These are green."
+      },
+      {
+        "id": 115,
+        "bn": "ওই ফুলগুলো লাল নয়",
+        "en": "Those flowers are not red."
+      },
+      {
+        "id": 116,
+        "bn": "ওরা দুষ্ট ছিল",
+        "en": "They were naughty."
+      },
+      {
+        "id": 117,
+        "bn": "কবির গাড়ি চালাচ্ছিল",
+        "en": "Kabir was driving."
+      },
+      {
+        "id": 118,
+        "bn": "কয়টা বাজে",
+        "en": "What is the time?"
+      },
+      {
+        "id": 119,
+        "bn": "করিম অংকটি করবে",
+        "en": "Karim will do the sum."
+      },
+      {
+        "id": 120,
+        "bn": "করিম কি অলস নয়?",
+        "en": "Is not Karim lazy?"
+      },
+      {
+        "id": 121,
+        "bn": "করিম গতকাল আসেনি",
+        "en": "Karim did not come yesterday."
+      },
+      {
+        "id": 122,
+        "bn": "করিম বাঁশি বাজাবে",
+        "en": "Karim will play flute."
+      },
+      {
+        "id": 123,
+        "bn": "করিম বিশ্বস্ত ছিল",
+        "en": "Karim was faithful."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Exercise 7",
+    "exercises": [
+      {
+        "id": 124,
+        "bn": "কলমটি লাল ছিল",
+        "en": "The pen was red."
+      },
+      {
+        "id": 125,
+        "bn": "কাক কুৎসিতপাখি",
+        "en": "The crow is an ugly bird."
+      },
+      {
+        "id": 126,
+        "bn": "কাঠ একটি প্রয়োজনীয় বস্তু",
+        "en": "Wood is a useful thing."
+      },
+      {
+        "id": 127,
+        "bn": "কামাল সত্য কথা বলে",
+        "en": "Kamal speaks the truth."
+      },
+      {
+        "id": 128,
+        "bn": "কিছুক্ষণ অপেক্ষা করো",
+        "en": "Wait for some time (a while)."
+      },
+      {
+        "id": 129,
+        "bn": "কিরন খেলা করছে",
+        "en": "Kiran is playing."
+      },
+      {
+        "id": 130,
+        "bn": "কুকুরটি কি ঘেউ ঘেউ করছিল না?",
+        "en": "Was not the dog barking?"
+      },
+      {
+        "id": 131,
+        "bn": "কুকুরটি ঘেউ ঘেউ করছে",
+        "en": "The dog is barking."
+      },
+      {
+        "id": 132,
+        "bn": "কৃষক জমি চাষ করছে",
+        "en": "The farmer is ploughing the lands."
+      },
+      {
+        "id": 133,
+        "bn": "কৃষকেরা মাঠে যাচ্ছে",
+        "en": "The farmers are going to the field."
+      },
+      {
+        "id": 134,
+        "bn": "কেউই আমাকে সাহায্য করতে আসে নাই",
+        "en": "Nobody came to help me."
+      },
+      {
+        "id": 135,
+        "bn": "ক্লাস শুরু হবার আগে ছেলেরা গোলমাল করছিল",
+        "en": "The boys had been making a noise before the class began."
+      },
+      {
+        "id": 136,
+        "bn": "গরু উপকারী জন্তু",
+        "en": "The cow is a useful animal."
+      },
+      {
+        "id": 137,
+        "bn": "গরু নিরীহ প্রাণী",
+        "en": "The cow is a humble animal."
+      },
+      {
+        "id": 138,
+        "bn": "গরুটি ঘাস খাইতেছিল",
+        "en": "The cow was eating grass."
+      },
+      {
+        "id": 139,
+        "bn": "গরুর কি শিং আছে?",
+        "en": "Has the cow horn?"
+      },
+      {
+        "id": 140,
+        "bn": "গাড়ি ছাড়ার পর আমরা স্টেশনে পৌঁছলাম",
+        "en": "We reached the station after the train had started."
+      },
+      {
+        "id": 141,
+        "bn": "গাধা ভারবাহী পশু",
+        "en": "The ass is a beast of burden."
+      },
+      {
+        "id": 142,
+        "bn": "গোলাপের গন্ধ মিষ্টি",
+        "en": "The rose smells sweet."
+      },
+      {
+        "id": 143,
+        "bn": "ঘড়ির দুটি কাঁটা আছে",
+        "en": "The clock has two hands."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Exercise 8",
+    "exercises": [
+      {
+        "id": 144,
+        "bn": "ঘুমাবার আগে তিনি একটা বই পড়িতেছিলেন",
+        "en": "He had been reading a book before he slept."
+      },
+      {
+        "id": 145,
+        "bn": "ঘোড়ার কি শিং আছে?",
+        "en": "Has the horse horns?"
+      },
+      {
+        "id": 146,
+        "bn": "চন্দ্র উজ্জ্বল",
+        "en": "The moon is bright."
+      },
+      {
+        "id": 147,
+        "bn": "চাঁদ উঠেছে",
+        "en": "The moon is up."
+      },
+      {
+        "id": 148,
+        "bn": "চাঁদ কিরণ দিতেছিল",
+        "en": "The moon was shining."
+      },
+      {
+        "id": 149,
+        "bn": "চাঁদ রাতে কিরণ দেয়",
+        "en": "The moon shines at night."
+      },
+      {
+        "id": 150,
+        "bn": "চাকরটি বিশ্বাসী",
+        "en": "The servant is faithful."
+      },
+      {
+        "id": 151,
+        "bn": "চাষিরা কি জমি চাষ করছে না?",
+        "en": "Are not the farmers ploughing lands?"
+      },
+      {
+        "id": 152,
+        "bn": "ছাগলটি দৌড়াইতেছিল",
+        "en": "The goat was running."
+      },
+      {
+        "id": 153,
+        "bn": "ছাত্ররা গোলমাল করছিল না",
+        "en": "The students were not making a noise."
+      },
+      {
+        "id": 154,
+        "bn": "ছেলেগুলো কর্মঠ হবে না",
+        "en": "The boys will not be active."
+      },
+      {
+        "id": 155,
+        "bn": "ছেলেগুলো গোলমাল করছিল",
+        "en": "The boys were making a noise."
+      },
+      {
+        "id": 156,
+        "bn": "ছেলেটা বোকা ছিল",
+        "en": "The boy was foolish."
+      },
+      {
+        "id": 157,
+        "bn": "ছেলেটি হাঁটছিল",
+        "en": "The boy was walking."
+      },
+      {
+        "id": 158,
+        "bn": "ছেলেরা আগামীকাল খেলবে",
+        "en": "The boys will play tomorrow."
+      },
+      {
+        "id": 159,
+        "bn": "ছেলেরা বিদ্যালয়ে উপস্থিত হয়েছিল",
+        "en": "The students were present in the school."
+      },
+      {
+        "id": 160,
+        "bn": "জয় কাজ করছে",
+        "en": "Joy is working."
+      },
+      {
+        "id": 161,
+        "bn": "জলি দুধ পান করেছিল",
+        "en": "Jolly drank milk."
+      },
+      {
+        "id": 162,
+        "bn": "জলি নিয়মিত পড়াশোনা করে",
+        "en": "Jolly studies regularly."
+      },
+      {
+        "id": 163,
+        "bn": "জুয়েল একজন সত্ বালক",
+        "en": "Jewel is an honest boy."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Exercise 9",
+    "exercises": [
+      {
+        "id": 164,
+        "bn": "জেলেরা মাছ ধরছিল না",
+        "en": "The fishermen were not catching fish."
+      },
+      {
+        "id": 165,
+        "bn": "টেবিলটির পায়া নেই",
+        "en": "The table has no legs."
+      },
+      {
+        "id": 166,
+        "bn": "ট্রেন আসার পূর্বে তারা ঝগড়া করছিল",
+        "en": "They had been quarreling before the train arrived."
+      },
+      {
+        "id": 167,
+        "bn": "ঠিক ঠিক উত্তরা দাও",
+        "en": "Answer to the point."
+      },
+      {
+        "id": 168,
+        "bn": "ড. মুহম্মদ ইউনুছ কি পেয়েছেন?",
+        "en": "What Dr. Mohammad Younus got?"
+      },
+      {
+        "id": 169,
+        "bn": "ড. মুহাম্মদ ইউনূস কে?",
+        "en": "Who is Dr. Mohammad Younus?"
+      },
+      {
+        "id": 170,
+        "bn": "ডাক্তার আসার আগে রোগীটি মারা গেল",
+        "en": "The patient had died before the doctor came."
+      },
+      {
+        "id": 171,
+        "bn": "ডাক্তার আসার পর রোগীটি মারা গেল",
+        "en": "The patient died after the doctor had come."
+      },
+      {
+        "id": 172,
+        "bn": "তাদের কি বাড়ি আছে?",
+        "en": "Have they a house?"
+      },
+      {
+        "id": 173,
+        "bn": "তাদের চাচা নেই",
+        "en": "They have no uncle."
+      },
+      {
+        "id": 174,
+        "bn": "তাদের প্রচুর টাকা আছে",
+        "en": "They have plenty of money."
+      },
+      {
+        "id": 175,
+        "bn": "তার চিঠি পাবার পর আমি রওনা হলাম",
+        "en": "I started after I had received his letter."
+      },
+      {
+        "id": 176,
+        "bn": "তার চিঠি পাবার পূর্বে আমি রওনা হলাম",
+        "en": "I had started before I got his letter."
+      },
+      {
+        "id": 177,
+        "bn": "তার দেরি হয়েছে",
+        "en": "He is late."
+      },
+      {
+        "id": 178,
+        "bn": "তার বাবার কাজ নেই",
+        "en": "His father has no work."
+      },
+      {
+        "id": 179,
+        "bn": "তারা আজ রওয়ানা হবে না",
+        "en": "They will not start today."
+      },
+      {
+        "id": 180,
+        "bn": "তারা আমাদের সাহায্য করবে",
+        "en": "They will help us."
+      },
+      {
+        "id": 181,
+        "bn": "তারা কলহ করছিল না",
+        "en": "They were not quarrelling."
+      },
+      {
+        "id": 182,
+        "bn": "তারা কি পরীক্ষায় পাস করেছে?",
+        "en": "Have they passed in the exam?"
+      },
+      {
+        "id": 183,
+        "bn": "তারা কি ফুঠবল খেলেছিল?",
+        "en": "Did they play football?"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Exercise 10",
+    "exercises": [
+      {
+        "id": 184,
+        "bn": "তারা ক্লাসে অঙ্ক করছে",
+        "en": "He are doing sums in the class."
+      },
+      {
+        "id": 185,
+        "bn": "তারা ক্লাসে গোলমাল করছে না",
+        "en": "They are not making noise in the class"
+      },
+      {
+        "id": 186,
+        "bn": "তারা গোলমাল করবে না",
+        "en": "They will not make a noise."
+      },
+      {
+        "id": 187,
+        "bn": "তারা ঘরটা তৈরি করল না",
+        "en": "They did not make the house."
+      },
+      {
+        "id": 188,
+        "bn": "তারা চা পান করেছে",
+        "en": "They have drunk tea."
+      },
+      {
+        "id": 189,
+        "bn": "তারা তোমাকে বিরক্ত করবে না",
+        "en": "They will not disturb you."
+      },
+      {
+        "id": 190,
+        "bn": "তারা তোমাকে স্মরণ করবে",
+        "en": "They will remember you."
+      },
+      {
+        "id": 191,
+        "bn": "তারা দয়ালু ছিল না",
+        "en": "They were not kind."
+      },
+      {
+        "id": 192,
+        "bn": "তারা পরস্পর কলহ করছিল",
+        "en": "They were quarreling with one another."
+      },
+      {
+        "id": 193,
+        "bn": "তারা মাছ ধরছিল না",
+        "en": "They were not catching fish."
+      },
+      {
+        "id": 194,
+        "bn": "তারা মাঠে খেলিতে থাকিবে",
+        "en": "They will be playing in the field."
+      },
+      {
+        "id": 195,
+        "bn": "তারা মাঠে যায় নাই",
+        "en": "They did not go to field."
+      },
+      {
+        "id": 196,
+        "bn": "তারা সাঁতার কাটতে জানে না",
+        "en": "They do not know how to swim."
+      },
+      {
+        "id": 197,
+        "bn": "তাহাদের কি কোনো শক্র নেই?",
+        "en": "Have they no enemy?"
+      },
+      {
+        "id": 198,
+        "bn": "তাহারা আমাকে সাহায্য করবে",
+        "en": "They will help me."
+      },
+      {
+        "id": 199,
+        "bn": "তাহারা কি গিয়েছিল?",
+        "en": "Did they go?"
+      },
+      {
+        "id": 200,
+        "bn": "তাহারা কি চা পান করেছে?",
+        "en": "Have they drunk tea?"
+      },
+      {
+        "id": 201,
+        "bn": "তাহারা কি মাঠে খেলছিল?",
+        "en": "Were they playing in the field?"
+      },
+      {
+        "id": 202,
+        "bn": "তাহারা কি যাইতেছে?",
+        "en": "Are they going?"
+      },
+      {
+        "id": 203,
+        "bn": "তাহারা ক্লাসে গোলমাল করেনি",
+        "en": "They did not make a noise in the class."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Exercise 11",
+    "exercises": [
+      {
+        "id": 204,
+        "bn": "তাহারা খেলছে না",
+        "en": "They are not playing."
+      },
+      {
+        "id": 205,
+        "bn": "তাহারা ফুটবল খেলেছিল",
+        "en": "They played football."
+      },
+      {
+        "id": 206,
+        "bn": "তাহারা বাড়ি ফিরেছে",
+        "en": "They have returned home."
+      },
+      {
+        "id": 207,
+        "bn": "তাহারা ভাত খেয়েছে",
+        "en": "They have eaten rice."
+      },
+      {
+        "id": 208,
+        "bn": "তাহারা মাঠে খেলছিল না",
+        "en": "They were not playing in the field."
+      },
+      {
+        "id": 209,
+        "bn": "তাহারা সৎ হইবে",
+        "en": "They will be honest."
+      },
+      {
+        "id": 210,
+        "bn": "তিন ঘণ্টা ধরে বৃষ্টি হচ্ছে",
+        "en": "It has been raining for three hours."
+      },
+      {
+        "id": 211,
+        "bn": "তিন দিন ধরে বৃষ্টি হচ্ছিল",
+        "en": "It had been raining for three days."
+      },
+      {
+        "id": 212,
+        "bn": "তিন দিন ধরে বৃষ্টি হচ্ছে",
+        "en": "It has been raining for three days."
+      },
+      {
+        "id": 213,
+        "bn": "তিনি একজন কৃষক",
+        "en": "He is a farmer."
+      },
+      {
+        "id": 214,
+        "bn": "তিনি কি আমাকে ডেকেছেন",
+        "en": "Has he called me?"
+      },
+      {
+        "id": 215,
+        "bn": "তিনি কি একজন ডাক্তার?",
+        "en": "Is he a doctor?"
+      },
+      {
+        "id": 216,
+        "bn": "তিনি কি ঔষধ খেয়েছিলেন?",
+        "en": "Did he take medicine?"
+      },
+      {
+        "id": 217,
+        "bn": "তিনি কি চিঠিখানা পড়েছেন?",
+        "en": "Has he read the letter?"
+      },
+      {
+        "id": 218,
+        "bn": "তিনি গত রাতে বাড়ি গিয়েছেন",
+        "en": "He went home last night."
+      },
+      {
+        "id": 219,
+        "bn": "তিনি জাহাজটির অধিনায়ক",
+        "en": "He is the captain of the ship."
+      },
+      {
+        "id": 220,
+        "bn": "তিনি দিনে ঘুমান না",
+        "en": "He does not sleep by day."
+      },
+      {
+        "id": 221,
+        "bn": "তিনি বাজারে গিয়েছেন",
+        "en": "He went to market."
+      },
+      {
+        "id": 222,
+        "bn": "তিনি সম্মানী লোক",
+        "en": "He is an honourable man."
+      },
+      {
+        "id": 223,
+        "bn": "তুমি অসুস্থ ছিলে",
+        "en": "You were sick/ill."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Exercise 12",
+    "exercises": [
+      {
+        "id": 224,
+        "bn": "তুমি আসার পূর্বে আমি অংক করছিলাম",
+        "en": "I had been doing sums before you came."
+      },
+      {
+        "id": 225,
+        "bn": "তুমি ইংরেজি শিখছ",
+        "en": "You are learning English."
+      },
+      {
+        "id": 226,
+        "bn": "তুমি ইংরেজি শিখছিলে",
+        "en": "You were learning English."
+      },
+      {
+        "id": 227,
+        "bn": "তুমি এ কাজটি করবে",
+        "en": "You will do this work."
+      },
+      {
+        "id": 228,
+        "bn": "তুমি একটি চিঠি লিখছ",
+        "en": "You are writing a letter."
+      },
+      {
+        "id": 229,
+        "bn": "তুমি এখনো পড়া শেখনি",
+        "en": "You have not yet learnt your lesson."
+      },
+      {
+        "id": 230,
+        "bn": "তুমি কি অঙ্ক করিতেছ না?",
+        "en": "Are you not doing sums?"
+      },
+      {
+        "id": 231,
+        "bn": "তুমি কি আমার সাথে যাচ্ছ?",
+        "en": "Are you going with me?"
+      },
+      {
+        "id": 232,
+        "bn": "তুমি কি একটা গান গাইবে?",
+        "en": "Will you sing a song?"
+      },
+      {
+        "id": 233,
+        "bn": "তুমি কি কাজটি করিতেছ না?",
+        "en": "Are you not doing the work?"
+      },
+      {
+        "id": 234,
+        "bn": "তুমি কি খবরটি শুনেছ?",
+        "en": "Have you heard the news?"
+      },
+      {
+        "id": 235,
+        "bn": "তুমি কি খবরটি শোননি?",
+        "en": "Have you not heard the news?"
+      },
+      {
+        "id": 236,
+        "bn": "তুমি কি চা পান করো?",
+        "en": "Do you drink tea?"
+      },
+      {
+        "id": 237,
+        "bn": "তুমি কি চোর?",
+        "en": "Are you a thief?"
+      },
+      {
+        "id": 238,
+        "bn": "তুমি কি ঢাকা গিয়েছিলে?",
+        "en": "Did you go to Dhaka?"
+      },
+      {
+        "id": 239,
+        "bn": "তুমি কি তাকে চেন?",
+        "en": "Do you know him?"
+      },
+      {
+        "id": 240,
+        "bn": "তুমি কি তাকে টাকা দিয়েছিলে?",
+        "en": "Did you give him money?"
+      },
+      {
+        "id": 241,
+        "bn": "তুমি কি তাকে দেখ নাই?",
+        "en": "Have you not seen him?"
+      },
+      {
+        "id": 242,
+        "bn": "তুমি কি তাকে সাহায্য করো?",
+        "en": "Do you help him?"
+      },
+      {
+        "id": 243,
+        "bn": "তুমি কি তার নাম জানো?",
+        "en": "Do you know his name?"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Exercise 13",
+    "exercises": [
+      {
+        "id": 244,
+        "bn": "তুমি কি নদীতে গোসল করছিলে?",
+        "en": "Were you bathing in the river?"
+      },
+      {
+        "id": 245,
+        "bn": "তুমি কি নাশতা খাবে?",
+        "en": "Will you take Tiffin?"
+      },
+      {
+        "id": 246,
+        "bn": "তুমি কি ফুটবল খেলবে?",
+        "en": "Will you play football?"
+      },
+      {
+        "id": 247,
+        "bn": "তুমি কি বইটা কিনেছিলে?",
+        "en": "Did you buy the book?"
+      },
+      {
+        "id": 248,
+        "bn": "তুমি কি বইটি পড়বে না?",
+        "en": "Will you not read the book?"
+      },
+      {
+        "id": 249,
+        "bn": "তুমি কি বোকা নও?",
+        "en": "Are you not a foolish?"
+      },
+      {
+        "id": 250,
+        "bn": "তুমি কি ভাত খেয়েছিলে?",
+        "en": "Did you eat rice?"
+      },
+      {
+        "id": 251,
+        "bn": "তুমি কি রহিমকে দেখেছ?",
+        "en": "Have you seen Rahim?"
+      },
+      {
+        "id": 252,
+        "bn": "তুমি কি সাপটি মার নাই?",
+        "en": "Have you not killed the snake?"
+      },
+      {
+        "id": 253,
+        "bn": "তুমি কি স্কুলে যাবে না?",
+        "en": "Will you not go to school?"
+      },
+      {
+        "id": 254,
+        "bn": "তুমি কি স্কুলে যাবে?",
+        "en": "Will you go to school?"
+      },
+      {
+        "id": 255,
+        "bn": "তুমি ক্রিকেট খেলছিলে",
+        "en": "You were playing cricket."
+      },
+      {
+        "id": 256,
+        "bn": "তুমি তখন কী করছিলে?",
+        "en": "What were you doing at that time"
+      },
+      {
+        "id": 257,
+        "bn": "তুমি দুধ পান করছিলে",
+        "en": "You were drinking milk."
+      },
+      {
+        "id": 258,
+        "bn": "তুমি পরীক্ষায় পাস করবে",
+        "en": "You will pass in the examination."
+      },
+      {
+        "id": 259,
+        "bn": "তুমি পাঁচ ঘণ্টা ধরে সাঁতার কাটছ",
+        "en": "You have been swimming for five hours."
+      },
+      {
+        "id": 260,
+        "bn": "তুমি প্লেটটি ভেঙেছ",
+        "en": "You have broken the plate."
+      },
+      {
+        "id": 261,
+        "bn": "তুমি বইটি পড়বে",
+        "en": "You will read the book."
+      },
+      {
+        "id": 262,
+        "bn": "তুমি ভাত খেয়েছিলে",
+        "en": "You ate rice."
+      },
+      {
+        "id": 263,
+        "bn": "তুমি ভুল করেছ",
+        "en": "You have mistaken."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Exercise 14",
+    "exercises": [
+      {
+        "id": 264,
+        "bn": "তুমি মিথ্যা বলেছ",
+        "en": "You have told a lie."
+      },
+      {
+        "id": 265,
+        "bn": "তুমি সৎ নও",
+        "en": "You are not honest."
+      },
+      {
+        "id": 266,
+        "bn": "তুমি সত্য কথা বলছ না",
+        "en": "You are not speaking the truth."
+      },
+      {
+        "id": 267,
+        "bn": "তুমি সত্য বলেছিলে",
+        "en": "You spoke the truth."
+      },
+      {
+        "id": 268,
+        "bn": "তুমি সত্য বলেছিলে",
+        "en": "You spoke the truth."
+      },
+      {
+        "id": 269,
+        "bn": "তুমি সাহসী ছিলে না",
+        "en": "You were not brave."
+      },
+      {
+        "id": 270,
+        "bn": "তুলি একটি গান করছে",
+        "en": "Tuli is singing a song."
+      },
+      {
+        "id": 271,
+        "bn": "তুলি গান করছে না",
+        "en": "Tuli is not singing."
+      },
+      {
+        "id": 272,
+        "bn": "তোমরা অংক করছিলে না",
+        "en": "You were not doing sum."
+      },
+      {
+        "id": 273,
+        "bn": "তোমরা অসহায় ছিলে না",
+        "en": "You were not helpless."
+      },
+      {
+        "id": 274,
+        "bn": "তোমরা আমাকে সাহায্য করনি",
+        "en": "You did not help me."
+      },
+      {
+        "id": 275,
+        "bn": "তোমরা এখন লিখিবে",
+        "en": "You will write now."
+      },
+      {
+        "id": 276,
+        "bn": "তোমরা কি আমাকে দেখেছ?",
+        "en": "Have you seen me?"
+      },
+      {
+        "id": 277,
+        "bn": "তোমরা কি গোলমাল করছিলে?",
+        "en": "Were you making a noise?"
+      },
+      {
+        "id": 278,
+        "bn": "তোমরা কি গোলমাল করনি?",
+        "en": "Have you not made a noise?"
+      },
+      {
+        "id": 279,
+        "bn": "তোমরা কি চা খাবে না?",
+        "en": "Will you not take tea?"
+      },
+      {
+        "id": 280,
+        "bn": "তোমরা কি ডাক্তার ডেকেছ?",
+        "en": "Have you called the doctor?"
+      },
+      {
+        "id": 281,
+        "bn": "তোমরা কি তাকে সাহায্য করনি?",
+        "en": "Did you not help him?"
+      },
+      {
+        "id": 282,
+        "bn": "তোমরা কি শক্তিশালী?",
+        "en": "Are you strong?"
+      },
+      {
+        "id": 283,
+        "bn": "তোমরা ক্রিকেট খেলো না",
+        "en": "You do not play cricket."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Exercise 15",
+    "exercises": [
+      {
+        "id": 284,
+        "bn": "তোমরা খুব চালাক",
+        "en": "You are very clever."
+      },
+      {
+        "id": 285,
+        "bn": "তোমরা গোলমাল করনি",
+        "en": "You have not made a noise."
+      },
+      {
+        "id": 286,
+        "bn": "তোমরা ভাগ্যবান",
+        "en": "You are lucky."
+      },
+      {
+        "id": 287,
+        "bn": "তোমরা মাছ ধরছ",
+        "en": "You are catching fish."
+      },
+      {
+        "id": 288,
+        "bn": "তোমরা সময় চাইলে না",
+        "en": "You did not want time."
+      },
+      {
+        "id": 289,
+        "bn": "তোমরা সুখী হবে না",
+        "en": "You will not be happy."
+      },
+      {
+        "id": 290,
+        "bn": "তোমরা সেখানে যাচ্ছ না",
+        "en": "You are not going there."
+      },
+      {
+        "id": 291,
+        "bn": "তোমাদের কোনো অভাব নেই",
+        "en": "You have no want."
+      },
+      {
+        "id": 2,
+        "bn": "অনু কি তোমাকে সাহায্য করে না?",
+        "en": "Does not Anu help you?"
+      },
+      {
+        "id": 3,
+        "bn": "অভি শিক্ষক হবে না",
+        "en": "Avi will not be a teacher."
+      },
+      {
+        "id": 6,
+        "bn": "আঙ্গুরগুলো টক ছিল",
+        "en": "The grapes were sour."
+      },
+      {
+        "id": 8,
+        "bn": "আনিস কলা খাবে না",
+        "en": "Anis will not eat banana."
+      },
+      {
+        "id": 9,
+        "bn": "আপনারা ব্যাপারটা বোঝেননি?",
+        "en": "Have you not understood the matter?"
+      },
+      {
+        "id": 10,
+        "bn": "আপনি এখানে এসেছিলেন",
+        "en": "You came here."
+      },
+      {
+        "id": 292,
+        "bn": "তোমার কি একজন বন্ধু আছে?",
+        "en": "Have you a friend?"
+      },
+      {
+        "id": 293,
+        "bn": "তোমার কি একটা ঘড়ি আছে?",
+        "en": "Have you a watch?"
+      },
+      {
+        "id": 294,
+        "bn": "তোমার কি একটি পাখি আছে?",
+        "en": "Have you a bird?"
+      },
+      {
+        "id": 295,
+        "bn": "তোমার বস্ত্র নেই",
+        "en": "You have no clothe."
+      },
+      {
+        "id": 296,
+        "bn": "তোমার বাবা কি টাকা পাঠিয়েছেন?",
+        "en": "Has your father sent money?"
+      },
+      {
+        "id": 297,
+        "bn": "তোমার ভাই কি কাজটি করবে না?",
+        "en": "Will not your brother do the work?"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Exercise 16",
+    "exercises": [
+      {
+        "id": 298,
+        "bn": "দাদিমা গল্প বলছিল",
+        "en": "Grandmother was telling a story."
+      },
+      {
+        "id": 299,
+        "bn": "দিন শেষ হয়েছে",
+        "en": "The day is over."
+      },
+      {
+        "id": 300,
+        "bn": "নানি একটি গল্প বলেছিলেন",
+        "en": "Grandmother told a story."
+      },
+      {
+        "id": 301,
+        "bn": "নাসিমা গত জুন মাস থেকে এই বিদ্যালয়ে পড়ছে",
+        "en": "Nasima has been reading in this school since last June."
+      },
+      {
+        "id": 302,
+        "bn": "নিপু নদীতে সাঁতার কাটছিল",
+        "en": "Nipu was swimming in the river."
+      },
+      {
+        "id": 303,
+        "bn": "নৌকাটি নদীতে ডুবেছিল",
+        "en": "The boat sank in the river."
+      },
+      {
+        "id": 304,
+        "bn": "পদ্মা একটি বড় নদী",
+        "en": "The Padma is a big river."
+      },
+      {
+        "id": 305,
+        "bn": "পরীক্ষা শেষ হয়েছে",
+        "en": "The examination is over."
+      },
+      {
+        "id": 306,
+        "bn": "পলাশ চিঠি লিখছিল না",
+        "en": "Palash was not writing a letter."
+      },
+      {
+        "id": 307,
+        "bn": "পলি একটা ছবি আঁকছিল",
+        "en": "Poly was drawing a picture."
+      },
+      {
+        "id": 308,
+        "bn": "পলি চারটি আম কিনেছিল",
+        "en": "Poly bought four mangoes."
+      },
+      {
+        "id": 309,
+        "bn": "পাখি কি আকাশে ওড়ে?",
+        "en": "Do the birds fly in the sky?"
+      },
+      {
+        "id": 310,
+        "bn": "পাখিরা আকাশে উড়ছে",
+        "en": "Birds are flying in the sky."
+      },
+      {
+        "id": 311,
+        "bn": "পাখিরা আকাশে ওড়ে",
+        "en": "Birds fly in the sky."
+      },
+      {
+        "id": 312,
+        "bn": "পাখিরা কিচিরমিচির করছে",
+        "en": "The birds are cheeping/chirping."
+      },
+      {
+        "id": 313,
+        "bn": "পিঁপড়ার ছয়টি পা আছে",
+        "en": "The ant has six legs."
+      },
+      {
+        "id": 314,
+        "bn": "পিয়া এখনো আসেনি",
+        "en": "Piya has not yet come."
+      },
+      {
+        "id": 315,
+        "bn": "পুলিশ কি চোরটা ধরেছে?",
+        "en": "Have the police caught the thief?"
+      },
+      {
+        "id": 316,
+        "bn": "পৃথিবী গোল",
+        "en": "The earth is round."
+      },
+      {
+        "id": 318,
+        "bn": "প্রায় দুই ঘণ্টা ধরে বৃষ্টি হচ্ছে",
+        "en": "It has been raining for about two hours."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Exercise 17",
+    "exercises": [
+      {
+        "id": 317,
+        "bn": "পৃথিবী সূর্যের চারদিকে ঘোরে",
+        "en": "The earth moves round the sun."
+      },
+      {
+        "id": 319,
+        "bn": "ফলটি কি তাজা হবে না?",
+        "en": "Will not the fruit be fresh?"
+      },
+      {
+        "id": 320,
+        "bn": "ফুল দেখতে খুব সুন্দর",
+        "en": "Flower looks very beautiful."
+      },
+      {
+        "id": 321,
+        "bn": "ফুলগুলো কি লাল ছিল না?",
+        "en": "Were the flowers not red?"
+      },
+      {
+        "id": 322,
+        "bn": "ফুলগুলো তাজা ছিল",
+        "en": "The flowers were fresh."
+      },
+      {
+        "id": 323,
+        "bn": "ফুলটি কি লাল হবে?",
+        "en": "Will the flower be red?"
+      },
+      {
+        "id": 324,
+        "bn": "বনি কি স্কুলে যায়নি?",
+        "en": "Did not Bony go to school?"
+      },
+      {
+        "id": 325,
+        "bn": "বাংলা একটি মধুর ভাষা",
+        "en": "Bangla is a sweet language."
+      },
+      {
+        "id": 326,
+        "bn": "বাঘ হিংস্র পশু",
+        "en": "The tiger is a wild/ferocious animal."
+      },
+      {
+        "id": 327,
+        "bn": "বাঙালিরা কর্মঠ",
+        "en": "The Bengalese are active."
+      },
+      {
+        "id": 328,
+        "bn": "বাঙালিরা সাহসী",
+        "en": "The Bangalese are brave."
+      },
+      {
+        "id": 329,
+        "bn": "বাতাস ছাড়া কেউ বাঁচতে পারে না",
+        "en": "No one can live without air."
+      },
+      {
+        "id": 330,
+        "bn": "বাবা আমাকে ভালো উপদেশ দিয়েছিলেন",
+        "en": "Father gave me good advice."
+      },
+      {
+        "id": 331,
+        "bn": "বাবা চা পান করেন না",
+        "en": "Father does not drink tea."
+      },
+      {
+        "id": 332,
+        "bn": "বাবা টাকা পাঠিয়েছে",
+        "en": "Father has sent money."
+      },
+      {
+        "id": 333,
+        "bn": "বাবা বাসায় নেই",
+        "en": "Father is not at home."
+      },
+      {
+        "id": 334,
+        "bn": "বাবা মসজিদে যাচ্ছিলেন",
+        "en": "Father was going to Mosque."
+      },
+      {
+        "id": 335,
+        "bn": "বাবু কি এটা পছন্দ করবে?",
+        "en": "Will Babu like it?"
+      },
+      {
+        "id": 336,
+        "bn": "বালকগুলো এক ঘণ্টা ধরে খেলছে",
+        "en": "The boys have been playing for an hour."
+      },
+      {
+        "id": 337,
+        "bn": "বালকগুলো মাঠে দৌড়াদৌড়ি করছিল",
+        "en": "The boys were running in the field."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Exercise 18",
+    "exercises": [
+      {
+        "id": 338,
+        "bn": "বালকটি কি পড়া শিখেনি?",
+        "en": "Did not the boy learn the lesson?"
+      },
+      {
+        "id": 339,
+        "bn": "বালকটি কিছু পাবে না",
+        "en": "The boy will not get anything."
+      },
+      {
+        "id": 340,
+        "bn": "বালিকাটি একটি ছবি এঁকেছে",
+        "en": "The girl has drawn a picture."
+      },
+      {
+        "id": 341,
+        "bn": "বালিকাটি কি কাঁদছে না?",
+        "en": "Is not the girl crying?"
+      },
+      {
+        "id": 342,
+        "bn": "বালিকাটি গত সোমবার একটি চিঠি লিখেছিল",
+        "en": "The girl wrote a letter last Monday."
+      },
+      {
+        "id": 343,
+        "bn": "বিড়াল ইঁদুর মারে",
+        "en": "The cat kills the mouse."
+      },
+      {
+        "id": 344,
+        "bn": "বিড়ালটি ইঁদুর মেরেছিল",
+        "en": "The cat killed the mouse."
+      },
+      {
+        "id": 345,
+        "bn": "বিড়ালটি কি একটা ইঁদুর ধরেছে?",
+        "en": "Has the cat caught a rat?"
+      },
+      {
+        "id": 346,
+        "bn": "বৃষ্টি থামবার পর আমরা সেখানে পৌঁছালাম",
+        "en": "We had reached there before the rain stopped."
+      },
+      {
+        "id": 347,
+        "bn": "বৃষ্টি পড়ছে/হচ্ছে",
+        "en": "It is raining."
+      },
+      {
+        "id": 348,
+        "bn": "বৃষ্টি শুরু পূর্বে আমরা সেখানে পৌঁছালাম",
+        "en": "We had reached there before the rain started."
+      },
+      {
+        "id": 349,
+        "bn": "ভগবান আমাদের সাহায্য করবেন",
+        "en": "God will help us."
+      },
+      {
+        "id": 350,
+        "bn": "ভাইকে ভালোবাস",
+        "en": "Love your brother."
+      },
+      {
+        "id": 351,
+        "bn": "ভোর হওয়ার পূর্বে আমরা রওনা হয়েছিলাম",
+        "en": "We had started before it was dawn."
+      },
+      {
+        "id": 352,
+        "bn": "ভোর হওয়ার পূর্বে বৃদ্ধা মহিলাটি মারা গেল",
+        "en": "The old woman had died before it was dawn."
+      },
+      {
+        "id": 353,
+        "bn": "ভোর হয়েছে",
+        "en": "It is morning."
+      },
+      {
+        "id": 354,
+        "bn": "মতিন এখনো পৌঁছায়নি",
+        "en": "Matin has not yet reached."
+      },
+      {
+        "id": 355,
+        "bn": "ময়না সুন্দর পাখি",
+        "en": "The Mayna is a pretty/beautiful/lovely bird."
+      },
+      {
+        "id": 356,
+        "bn": "মহিলাটি মিথ্যা কথা বললো না",
+        "en": "The woman did not tell a lie."
+      },
+      {
+        "id": 357,
+        "bn": "মা একটি গল্প বলছে",
+        "en": "Mother is telling a story."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Exercise 19",
+    "exercises": [
+      {
+        "id": 358,
+        "bn": "মা কি রান্না করছিল না?",
+        "en": "Was not mother cooking?"
+      },
+      {
+        "id": 359,
+        "bn": "মা কোরআন পড়তে থাকবেন",
+        "en": "Mother will be reading Quran."
+      },
+      {
+        "id": 360,
+        "bn": "মা খাবার রান্না করেছে",
+        "en": "Mother has cooked food."
+      },
+      {
+        "id": 361,
+        "bn": "মা পিঠা তৈরি করছে",
+        "en": "Mother is making cake."
+      },
+      {
+        "id": 362,
+        "bn": "মা পিঠা তৈরি করেছিল",
+        "en": "Mother made cake."
+      },
+      {
+        "id": 363,
+        "bn": "মা ভাত রান্না করবেন",
+        "en": "Mother will cook rice."
+      },
+      {
+        "id": 364,
+        "bn": "মা রান্না করছে",
+        "en": "Mother is cooking."
+      },
+      {
+        "id": 365,
+        "bn": "মা রান্না করিতেছিল",
+        "en": "Mother was cooking."
+      },
+      {
+        "id": 366,
+        "bn": "মানুষ মরণশীল",
+        "en": "Man is mortal."
+      },
+      {
+        "id": 367,
+        "bn": "মা-বাবাকে মান্য করো",
+        "en": "Obey your parents."
+      },
+      {
+        "id": 368,
+        "bn": "মারুফ বই পড়ছে না",
+        "en": "Maruf is not reading the book."
+      },
+      {
+        "id": 369,
+        "bn": "মার্কিনরা ধনী",
+        "en": "The Americans are rich."
+      },
+      {
+        "id": 370,
+        "bn": "মাসুদ গত শুক্রবার হতে জ্বরে ভুগছে",
+        "en": "Masud has been suffering from fever since Friday last."
+      },
+      {
+        "id": 371,
+        "bn": "মিতু বিদ্যালয়ে যায়",
+        "en": "Mitu goes to school."
+      },
+      {
+        "id": 372,
+        "bn": "মিতুর কি একটি পুতুল আছে",
+        "en": "Does Mitu have a doll?"
+      },
+      {
+        "id": 373,
+        "bn": "মিনু বুদ্ধিমতী ছিল",
+        "en": "Minu was intelligent."
+      },
+      {
+        "id": 374,
+        "bn": "মেয়েগুলো বোকা হবে না",
+        "en": "The girls will not be foolish."
+      },
+      {
+        "id": 375,
+        "bn": "মেয়েটি কি সত্য কথা বলবে?",
+        "en": "Will the girl speak the truth?"
+      },
+      {
+        "id": 376,
+        "bn": "মেয়েটি কোরআন পড়ছিল",
+        "en": "The girl was reading the Quran."
+      },
+      {
+        "id": 377,
+        "bn": "মেয়েটি চা তৈরি করছে না",
+        "en": "The girl is not making tea."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Exercise 20",
+    "exercises": [
+      {
+        "id": 379,
+        "bn": "মেয়েটি সত্য কথা বলে",
+        "en": "The girl speaks the truth."
+      },
+      {
+        "id": 378,
+        "bn": "মেয়েটি নাচছে",
+        "en": "The girl is dancing."
+      },
+      {
+        "id": 380,
+        "bn": "মৌমাছি ক্ষুদ্র পোকা",
+        "en": "Bee is a small insect."
+      },
+      {
+        "id": 381,
+        "bn": "যুবকটি মিথ্যা কথা বলে",
+        "en": "The young man tells a lie."
+      },
+      {
+        "id": 382,
+        "bn": "রনি ও রুমি কি স্কুলে যাইতেছে?",
+        "en": "Are Rony and Rumi going to school?"
+      },
+      {
+        "id": 383,
+        "bn": "রনি ডাক্তার হবে",
+        "en": "Rony will be a doctor."
+      },
+      {
+        "id": 384,
+        "bn": "রনি স্কুলে যায় নাই",
+        "en": "Rony did not go to school."
+      },
+      {
+        "id": 385,
+        "bn": "রহিম ও করিম হাঁটিতেছিল",
+        "en": "Rahim and Karim were walking."
+      },
+      {
+        "id": 386,
+        "bn": "রহিম কি গাভিটি এখনো বিক্রি করেন নাই?",
+        "en": "Has Rahim not yet sold the cow?"
+      },
+      {
+        "id": 387,
+        "bn": "রহিম কি বাজারে যাচ্ছিল?",
+        "en": "Was Rahim going to the market?"
+      },
+      {
+        "id": 388,
+        "bn": "রহিম পাঁচ বছর ধরে এই স্কুলে পড়ছে",
+        "en": "Rahim has been reading in this school for five years."
+      },
+      {
+        "id": 389,
+        "bn": "রহিম মাছ ধরিতেছে",
+        "en": "Rahim is catching fish."
+      },
+      {
+        "id": 390,
+        "bn": "রানা অঙ্কে দুর্বল",
+        "en": "Rana is weak in math."
+      },
+      {
+        "id": 391,
+        "bn": "রানা কি মিথ্যাবাদী নয়?",
+        "en": "Is Rana not a liar?"
+      },
+      {
+        "id": 392,
+        "bn": "রানী এখনো বইটি কিনেনি",
+        "en": "Rani has not yet bought the book."
+      },
+      {
+        "id": 393,
+        "bn": "রাম কি চা পান করে না?",
+        "en": "Does not Ram drink tea?"
+      },
+      {
+        "id": 394,
+        "bn": "রিতার কি জামা নেই?",
+        "en": "Has Rita no frock?"
+      },
+      {
+        "id": 396,
+        "bn": "রুনা একটি গান গেয়েছে",
+        "en": "Runa has sung a song."
+      },
+      {
+        "id": 397,
+        "bn": "রুনা কি একটা গান গেয়েছে?",
+        "en": "Has Runa sung a song?"
+      },
+      {
+        "id": 398,
+        "bn": "রোজি খাবার রান্না করছে",
+        "en": "Rosy is cooking food."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Exercise 21",
+    "exercises": [
+      {
+        "id": 399,
+        "bn": "রোববারে এসো",
+        "en": "Come on Sunday."
+      },
+      {
+        "id": 400,
+        "bn": "রোহান কি ঘুমাবে?",
+        "en": "Will Ruhan sleep?"
+      },
+      {
+        "id": 401,
+        "bn": "রোহান কি পড়ছিল?",
+        "en": "Was Ruhan reading?"
+      },
+      {
+        "id": 402,
+        "bn": "রোহিত ও রোহান পাঁচ বছর ধরে এ স্কুলে পড়ছিল",
+        "en": "Ruhit and Ruhan had been reading in this school for five years."
+      },
+      {
+        "id": 403,
+        "bn": "লাবনী গান গেয়েছিল",
+        "en": "Laboni sang a song."
+      },
+      {
+        "id": 404,
+        "bn": "লিলি কি ইতিহাস পড়বে?",
+        "en": "Will Lily read history?"
+      },
+      {
+        "id": 405,
+        "bn": "লিলির কি পর্যাপ্ত টাকা আছে?",
+        "en": "Has Lily enough money?"
+      },
+      {
+        "id": 406,
+        "bn": "লোকটি ঘুড়ি উড়িয়েছিল",
+        "en": "The man flew the kite."
+      },
+      {
+        "id": 407,
+        "bn": "লোকটি মিথ্যা কথা বলে",
+        "en": "The man tells a lie."
+      },
+      {
+        "id": 408,
+        "bn": "লোপা এখন ছবি আঁকবে না",
+        "en": "Lopa will not draw a picture now."
+      },
+      {
+        "id": 409,
+        "bn": "লোহা একটি প্রয়োজনীয় জিনিস",
+        "en": "Iron is a useful thing."
+      },
+      {
+        "id": 410,
+        "bn": "শহীদ আমার জন্য অপেক্ষা করবে",
+        "en": "Shahid will wait for me."
+      },
+      {
+        "id": 411,
+        "bn": "শাকিব মাছ ধরছে না",
+        "en": "Sakib is not catching fish."
+      },
+      {
+        "id": 412,
+        "bn": "শামীম অঙ্কটি করেছে",
+        "en": "Shamim has done the sum."
+      },
+      {
+        "id": 413,
+        "bn": "শামীম কি ফুটবল খেলছিল না?",
+        "en": "Was Shamim not playing football?"
+      },
+      {
+        "id": 414,
+        "bn": "শিক্ষক আমাদের উপদেশ দিয়েছিলেন",
+        "en": "The teacher advised us."
+      },
+      {
+        "id": 415,
+        "bn": "শিশুটি এখনো ঘুমায়নি",
+        "en": "The baby has not yet slept."
+      },
+      {
+        "id": 416,
+        "bn": "শিশুটি ঘুমাচ্ছে",
+        "en": "The baby is sleeping."
+      },
+      {
+        "id": 417,
+        "bn": "শিশুটি ঘুমাচ্ছে না?",
+        "en": "Is not the baby sleeping?"
+      },
+      {
+        "id": 418,
+        "bn": "শিশুটি দুধ পান করবে না",
+        "en": "The baby will not drink milk."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Exercise 22",
+    "exercises": [
+      {
+        "id": 419,
+        "bn": "শীঘ্রই সূর্য উঠবে",
+        "en": "The sun will rise soon."
+      },
+      {
+        "id": 420,
+        "bn": "শীত এখনো শুরু হয়নি",
+        "en": "Winter has not yet set in."
+      },
+      {
+        "id": 421,
+        "bn": "সকাল থেকে বৃষ্টি হচ্ছে",
+        "en": "It has been raining since morning."
+      },
+      {
+        "id": 422,
+        "bn": "সততা সর্বোৎকৃষ্ট পন্থা",
+        "en": "Honesty is the best policy."
+      },
+      {
+        "id": 423,
+        "bn": "সময় এসেছে",
+        "en": "The time has come."
+      },
+      {
+        "id": 424,
+        "bn": "সিংহটি খাঁচার ভেতর ছিল",
+        "en": "The lion was in the cage."
+      },
+      {
+        "id": 425,
+        "bn": "সূর্য অস্ত যাওয়ার পর আমরা বাড়ি পৌঁছালাম",
+        "en": "We reached home after the sun had set."
+      },
+      {
+        "id": 426,
+        "bn": "সূর্য অস্ত যাওয়ার পূর্বে আমরা বাড়ি পৌঁছালাম",
+        "en": "We had reached home before the sun set."
+      },
+      {
+        "id": 427,
+        "bn": "সূর্য অস্ত যাওয়ার পূর্বে আমি হাঁটছিলাম",
+        "en": "I had been walking before the sunset."
+      },
+      {
+        "id": 428,
+        "bn": "সূর্য অস্ত যাচ্ছে",
+        "en": "The sun is setting."
+      },
+      {
+        "id": 429,
+        "bn": "সূর্য অস্ত যাবার পর তারা এখানে পৌঁছেছিল",
+        "en": "The sun had set before they reached here."
+      },
+      {
+        "id": 430,
+        "bn": "সূর্য উঠার পর আমি ঘুম থেকে উঠলাম",
+        "en": "I got up from sleep after the sun had risen."
+      },
+      {
+        "id": 431,
+        "bn": "সূর্য ওঠার আগে আমি ঘুম থেকে উঠেছিলাম",
+        "en": "I had got up before the sun rose."
+      },
+      {
+        "id": 432,
+        "bn": "সূর্য কি উদিত হচ্ছে?",
+        "en": "Is the sun rising?"
+      },
+      {
+        "id": 433,
+        "bn": "সূর্য ডুবার আগে তারা একঘণ্টা ধরে ফুটবল খেলছিল",
+        "en": "They had been playing football for an hour before the sunset."
+      },
+      {
+        "id": 436,
+        "bn": "সে (স্ত্রী) একটি ছবি এঁকেছে",
+        "en": "She has drawn a picture."
+      },
+      {
+        "id": 437,
+        "bn": "সে (স্ত্রী) কি গান করছিল না?",
+        "en": "Was she not singing?"
+      },
+      {
+        "id": 438,
+        "bn": "সে (স্ত্রী) কি জ্বরে ভুগেছিল?",
+        "en": "Did she suffer from fever?"
+      },
+
+      {
+        "id": 439,
+        "bn": "সে (স্ত্রী) বুদ্ধিমতী",
+        "en": "She is intelligent."
+      },
+      {
+        "id": 440,
+        "bn": "সে (স্ত্রী) ভাত রান্না করছিল না",
+        "en": "She was not cooking rice."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Exercise 23",
+    "exercises": [
+      {
+        "id": 434,
+        "bn": "সূর্য পশ্চিম দিকে অস্ত যায়",
+        "en": "The sun sets in the west."
+      },
+      {
+        "id": 435,
+        "bn": "সূর্য পূর্ব দিকে উদিত হয়",
+        "en": "The sun rises in the east."
+      },
+      {
+        "id": 441,
+        "bn": "সে অঙ্ক করছে না",
+        "en": "He is not doing sums."
+      },
+      {
+        "id": 442,
+        "bn": "সে আমটি খেয়েছিল",
+        "en": "He ate the mango."
+      },
+      {
+        "id": 444,
+        "bn": "সে ইংরেজি শিখবে না",
+        "en": "He will not learn English."
+      },
+      {
+        "id": 446,
+        "bn": "সে একটি চিঠি লিখেছিল",
+        "en": "He wrote a letter."
+      },
+      {
+        "id": 447,
+        "bn": "সে একটি বই কিনবে",
+        "en": "He will buy a book."
+      },
+      {
+        "id": 448,
+        "bn": "সে একটি রচনা লিখছিল",
+        "en": "He was writing an essay."
+      },
+      {
+        "id": 449,
+        "bn": "সে এখনো খায়নি",
+        "en": "He has not yet eaten."
+      },
+      {
+        "id": 450,
+        "bn": "সে এখনো ঘুমায়নি",
+        "en": "He has not yet slept."
+      },
+      {
+        "id": 451,
+        "bn": "সে কি আজ এখানে আসিতেছে?",
+        "en": "Is he coming here today?"
+      },
+      {
+        "id": 452,
+        "bn": "সে কি আমটি খেয়েছিল?",
+        "en": "Did he eat the mango?"
+      },
+      {
+        "id": 453,
+        "bn": "সে কি ইংরেজি জানে?",
+        "en": "Does he know English?"
+      },
+      {
+        "id": 454,
+        "bn": "সে কি ইংরেজি শিখবে না?",
+        "en": "Will he not learn English?"
+      },
+      {
+        "id": 455,
+        "bn": "সে কি কাজটা শুরু করবে?",
+        "en": "Will he start the work?"
+      },
+      {
+        "id": 456,
+        "bn": "সে কি গাভিটি বিক্রি করেছিল?",
+        "en": "Did he sell the cow?"
+      },
+      {
+        "id": 457,
+        "bn": "সে কি গোলমাল করছে?",
+        "en": "Is he making a noise?"
+      },
+      {
+        "id": 458,
+        "bn": "সে কি চার বছর ধরে এখানে চাকরি করছে?",
+        "en": "Has he been serving here for four years?"
+      },
+      {
+        "id": 459,
+        "bn": "সে কি তিন বছর ধরে এখানে চাকরি করছে?",
+        "en": "Has he been serving here for three years?"
+      },
+      {
+        "id": 460,
+        "bn": "সে কি দিনে ঘুমায় না?",
+        "en": "Does he not sleep by day?"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Exercise 24",
+    "exercises": [
+      {
+        "id": 461,
+        "bn": "সে কি ভাত খায়?",
+        "en": "Does he eat rice?"
+      },
+      {
+        "id": 462,
+        "bn": "সে কি মিথ্যা কথা বলবে না",
+        "en": "Will he not tell a lie?"
+      },
+      {
+        "id": 463,
+        "bn": "সে কি মিথ্যা কথা বলবে?",
+        "en": "Will he tell a lie?"
+      },
+      {
+        "id": 464,
+        "bn": "সে কি রচনাটি লেখেনি?",
+        "en": "Has he not written the essay?"
+      },
+      {
+        "id": 465,
+        "bn": "সে কি শনিবার থেকে স্কুলে যাচ্ছে না?",
+        "en": "Has he not been going to school since Saturday?"
+      },
+      {
+        "id": 466,
+        "bn": "সে কি স্কুলে যাচ্ছিল?",
+        "en": "Was he going to school?"
+      },
+      {
+        "id": 467,
+        "bn": "সে গতকাল এসেছিল",
+        "en": "He came yesterday."
+      },
+      {
+        "id": 468,
+        "bn": "সে গ্লাসটি ভেঙ্গেছিল",
+        "en": "He broke the glass."
+      },
+      {
+        "id": 469,
+        "bn": "সে চলে যাবার আগে আমি এসেছিলাম",
+        "en": "I had come before he left."
+      },
+      {
+        "id": 470,
+        "bn": "সে চা পান করছিল না",
+        "en": "He was not drinking tea."
+      },
+      {
+        "id": 471,
+        "bn": "সে চারা গাছগুলোতে জল দিতে থাকিবে",
+        "en": "He will be watering the plants."
+      },
+      {
+        "id": 472,
+        "bn": "সে ঝগড়া করছিল না",
+        "en": "He did not quarrel."
+      },
+      {
+        "id": 473,
+        "bn": "সে নাচিতেছিল না",
+        "en": "She was not dancing."
+      },
+      {
+        "id": 474,
+        "bn": "সে পাঁচ বছর ধরে এই স্কুলে পড়ছে",
+        "en": "He has been reading in this school for five years."
+      },
+      {
+        "id": 475,
+        "bn": "সে বলটি লাথি মেরেছিল",
+        "en": "He hit the ball."
+      },
+      {
+        "id": 476,
+        "bn": "সে বোকা",
+        "en": "He is foolish."
+      },
+      {
+        "id": 477,
+        "bn": "সে ব্যস্ত ছিল",
+        "en": "He was busy."
+      },
+      {
+        "id": 478,
+        "bn": "সে ভাত খেয়েছে",
+        "en": "He has eaten rice."
+      },
+      {
+        "id": 479,
+        "bn": "সে ভালো ইংরেজি জানে",
+        "en": "He knows English well."
+      },
+      {
+        "id": 480,
+        "bn": "সে মাছ ধরিতে থাকিবে",
+        "en": "He will be catching fish."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Exercise 25",
+    "exercises": [
+      {
+        "id": 481,
+        "bn": "সে মিথ্যা কথা বলে না",
+        "en": "He does not tell a lie."
+      },
+      {
+        "id": 482,
+        "bn": "সে শনিবার থেকে স্কুলে যাচ্ছে না",
+        "en": "He has not been going to school since Saturday."
+      },
+      {
+        "id": 483,
+        "bn": "সে সত্য কথা বলছে",
+        "en": "He is speaking the truth."
+      },
+      {
+        "id": 484,
+        "bn": "সে সত্য কথা বলে না",
+        "en": "He does not speak the truth."
+      },
+      {
+        "id": 485,
+        "bn": "সে সময়মতো পৌঁছল না",
+        "en": "He did not reach in time."
+      },
+      {
+        "id": 486,
+        "bn": "সে সাঁতার কাটে না",
+        "en": "He does not swim."
+      },
+      {
+        "id": 487,
+        "bn": "সে সাত দিন ধরে জ্বরে ভুগছে",
+        "en": "He has been suffering from fever for seven days."
+      },
+      {
+        "id": 488,
+        "bn": "সে সাহসী হবে না",
+        "en": "He will not be brave."
+      },
+      {
+        "id": 489,
+        "bn": "সে স্কুলে গিয়েছিল",
+        "en": "He went to school."
+      },
+      {
+        "id": 490,
+        "bn": "সে স্কুলে গিয়েছে",
+        "en": "He has gone to school."
+      },
+      {
+        "id": 491,
+        "bn": "সে স্কুলে যায় না",
+        "en": "He does not go to school."
+      },
+      {
+        "id": 492,
+        "bn": "সেখানে পৌঁছাতে এক ঘণ্টা সময় লাগবে",
+        "en": "It will take one hour to reach there."
+      },
+      {
+        "id": 493,
+        "bn": "হাঁসগুলো পুকুরে সাঁতার কাটছে",
+        "en": "The ducks are swimming in the pond."
+      },
+      {
+        "id": 494,
+        "bn": "হাসানের কি ছাতা আছে?",
+        "en": "Has Hasan an umbrella?"
+      },
+      {
+        "id": 495,
+        "bn": "হিমালয় ভারতের উত্তরে",
+        "en": "The Himalayas are in the north of India."
+      },
+      {
+        "id": 496,
+        "bn": "হেলেন কি ছবি আঁকছে?",
+        "en": "Is Helen drawing a picture?"
+      },
+      {
+        "id": 497,
+        "bn": "এই ওয়েবসাইটি খুব ভালো",
+        "en": "This website is very good."
+      },
+      {
+        "id": 498,
+        "bn": "আমি আমার ভারতকে ভালোবাসি।",
+        "en": "I love my India."
+      },
+      {
+        "id": 499,
+        "bn": "সমস্ত ভারতবাসী হল আমার ভাই-বোন।",
+        "en": "All Indians are my brothers and sisters."
+      },
+      {
+        "id": 500,
+        "bn": "আমি বাংলা ভাষা ভালবাসি।",
+        "en": "I love Bengali Language."
+      }
+    ]
   }
 ]

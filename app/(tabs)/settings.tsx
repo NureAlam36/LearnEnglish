@@ -165,6 +165,9 @@ const SettingsScreen = ({ navigation }: any) => {
             </View>
           </TouchableOpacity>
         </View>
+        <View style={styles.section}>
+          <Text style={styles.text}>Version - 1.0.1</Text>
+        </View>
       </View>
     </React.Fragment>
   );

@@ -41,7 +41,7 @@ const Index = () => {
                 headerShown: false
             }}>
 
-            <Stack.Screen name="grammer_screen" component={Tenses} options={{ header: () => <ContentHeader title="Tenses" />, headerShown: true }} />
+            <Stack.Screen name="tenses_main_screen" component={Tenses} options={{ header: () => <ContentHeader title="Tenses" />, headerShown: true }} />
             <Stack.Screen name="presentTense_screen" component={PresentTense} options={{ header: () => <ContentHeader title="Present Tense" />, headerShown: true }} />
             <Stack.Screen name="pastTense_screen" component={PastTense} options={{ header: () => <ContentHeader title="Past Tense" />, headerShown: true }} />
             <Stack.Screen name="futureTense_screen" component={FutureTense} options={{ header: () => <ContentHeader title="Future Tense" />, headerShown: true }} />
@@ -75,7 +75,7 @@ const Tenses = ({ navigation }: any) => {
                     renderItem={({ item }) => (
                         //@ts-ignore
                         <TouchableOpacity onPress={() => navigation.navigate(item.screen)} activeOpacity={0.7} style={styles.itemContainer}>
-                            <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15, paddingRight: 10 }}>
+                            <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15, paddingRight: 10, width: '100%' }}>
                                 <View style={styles.item}>
                                     <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
                                     <Text style={styles.title}>{item.title}</Text>
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     item_icon: {
         width: 38,
         height: 37,
-        backgroundColor: '#5495fb',
+        backgroundColor: COLORS.primary,
         borderRadius: 50,
         textAlign: 'center',
         paddingTop: 10,

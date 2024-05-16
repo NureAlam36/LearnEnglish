@@ -20,7 +20,7 @@ const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) =
     )
 }
 
-const person = () => {
+const Sentence = () => {
     const [loading, setLoading] = useState(true);
     const { colorScheme } = useColorSchemeContext();
 
@@ -265,4 +265,4 @@ const person = () => {
 
 
 
-export default person
+export default Sentence

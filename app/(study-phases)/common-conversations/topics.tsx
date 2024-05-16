@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     itemIcon: {
         width: 45,
         height: 45,
-        backgroundColor: '#5495fb',
+        backgroundColor: COLORS.primary,
         borderRadius: 10,
     },
     itemSn: {

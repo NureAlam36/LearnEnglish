@@ -40,6 +40,7 @@ const Conversation = () => {
 
     };
 
+
     const speakConversation = async () => {
         // Loop through each conversation item
         for (let i = 0; i < dialog.length; i++) {
@@ -74,10 +75,10 @@ const Conversation = () => {
                             {
                                 index % 2 === 0 ? <View style={{ alignItems: 'center', gap: 12, flexDirection: 'row' }}>
                                     <View style={{ display: 'flex', flexDirection: 'row', gap: 10 }}>
-                                        <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>Amy:</Text>
+                                        <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>{item.speaker} :</Text>
                                         <AntDesign name="sound" size={24} color={COLORS.gray2} onPress={() => speakText(item.text, '1st')} />
                                     </View>
-                                    <View style={{ backgroundColor: '#5495fb', maxWidth: '90%', padding: 10, borderRadius: 5 }}>
+                                    <View style={{ backgroundColor: COLORS.primary, maxWidth: '90%', padding: 10, borderRadius: 5 }}>
                                         <View style={{ display: 'flex', flexDirection: 'row', gap: 10 }}>
                                             <Text style={[styles.title, { color: 'white' }]}>{item.text}</Text>
                                         </View>
@@ -85,7 +86,7 @@ const Conversation = () => {
                                 </View>
                                     : <View style={{ alignItems: 'center', gap: 12, flexDirection: 'row' }}>
                                         <View style={{ display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center' }}>
-                                            <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>Lisa:</Text>
+                                            <Text style={{ fontFamily: FONT.medium, fontSize: 15, color: colorScheme === 'light' ? COLORS.gray : COLORS.gray2 }}>{item.speaker} :</Text>
                                             <AntDesign name="sound" size={24} color={COLORS.gray2} onPress={() => speakText(item.text, '2nd')} />
                                         </View>
                                         <View style={{ backgroundColor: '#eaeef6', maxWidth: '90%', padding: 10, borderRadius: 5 }}>
@@ -109,7 +110,6 @@ const Conversation = () => {
 const styles = StyleSheet.create({
     item: {
         display: 'flex',
-        gap: 16,
         marginVertical: 15,
     },
     title: {
