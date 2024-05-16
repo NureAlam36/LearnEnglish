@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, FlatList, StyleSheet, Alert } from 'react-native';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import { Audio } from 'expo-av';
@@ -41,6 +41,31 @@ const TestPage = ({ route, navigation }: any) => {
     const [showResults, setShowResults] = useState(false);
     const [selectedOptions, setSelectedOptions] = useState<any>([]);
     const [intervalID, setIntervalID] = useState<any>(null);
+
+    useEffect(() => {
+        const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
+            e.preventDefault();
+
+            Alert.alert(
+                'Confirm',
+                'Are you sure you want to leave this screen?',
+                [
+                    {
+                        text: 'Cancel',
+                        onPress: () => null,
+                        style: 'cancel',
+                    },
+                    {
+                        text: 'OK',
+                        onPress: () => navigation.dispatch(e.data.action),
+                    },
+                ],
+                { cancelable: false }
+            );
+        });
+
+        return unsubscribe;
+    }, [navigation]);
 
     useEffect(() => {
         switch (level) {

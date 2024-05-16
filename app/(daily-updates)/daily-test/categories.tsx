@@ -110,8 +110,22 @@ const Categories = ({ route, navigation }: any) => {
                     renderItem={({ item }) => (
                         <TouchableOpacity style={styles.ctg_item} onPress={() => navigation.navigate('test_page_screen', { level: level, day: item.id })} activeOpacity={0.7}>
                             <View style={styles.item_wrap}>
-                                <View>
-                                    <Text style={{ fontFamily: FONT.medium, color: COLORS.gray, fontSize: 12 }}>Day</Text>
+                                <View style={{
+                                    position: 'absolute',
+                                    top: 0,
+                                    marginLeft: '-30%', // Adjust to center horizontally
+                                    width: '100%',
+
+                                    height: 20,
+                                    padding: 3
+                                }}>
+                                    <View style={{
+                                        backgroundColor: COLORS.primary, width: '100%', borderTopStartRadius: 50,
+                                        borderTopEndRadius: 50, alignItems: 'center', height: 20,
+                                        justifyContent: 'center',
+                                    }}>
+                                        <Text style={{ fontFamily: FONT.medium, color: COLORS.white, fontSize: 11, marginTop: -2 }}>Day</Text>
+                                    </View>
                                 </View>
                                 <Text style={styles.text}>{item.id}</Text>
                             </View>
@@ -119,7 +133,7 @@ const Categories = ({ route, navigation }: any) => {
                     )}
                     keyExtractor={(item, index) => index.toString()}
                     numColumns={4}
-                    contentContainerStyle={{ gap: 10, padding: 15 }}
+                    contentContainerStyle={{ gap: 10, padding: 12 }}
                     columnWrapperStyle={{ gap: 10, height: 85 }}
                 />
             </View>
@@ -130,7 +144,6 @@ const Categories = ({ route, navigation }: any) => {
 const styles = StyleSheet.create({
     ctg_item: {
         flex: 1,
-        borderRadius: 5,
     },
     item_wrap: {
         flex: 1,
@@ -142,9 +155,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#57c9a924',
     },
     text: {
-        fontSize: 23,
+        fontSize: 25,
         fontFamily: FONT.bold,
         color: COLORS.gray,
+        marginTop: 15
     }
 })
 

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image } from "react-native";
-import { Stack } from 'expo-router';
 import Swiper from 'react-native-swiper';
 import { Link } from "expo-router";
 import { LinearGradient } from 'expo-linear-gradient';
@@ -11,6 +10,13 @@ import famousQuotations from '@/data/famous-quotations.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import ContentHeader from "@/components/Headers/ContentHeader";
+
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
+
+import Quotations from './quotations';
 
 const quotes = [
     {
@@ -45,7 +51,21 @@ const quotes = [
     }
 ]
 
-const StudyPhases = () => {
+const Index = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+
+            <Stack.Screen name="phrasesCategory_screen" component={FamousQuotations} options={{ header: () => <ContentHeader title="Idioms and Phrases" />, headerShown: true }} />
+            <Stack.Screen name="quotations_screen" component={Quotations} />
+        </Stack.Navigator>
+    );
+}
+
+const FamousQuotations = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -59,7 +79,7 @@ const StudyPhases = () => {
 
             setCategories((categories: any) => [...categories, category]);
         })
-    }, [])
+    }, []);
 
     return (
         <React.Fragment>
@@ -87,20 +107,18 @@ const StudyPhases = () => {
                     data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <Link href={`/famous-quotations/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <View style={styles.imageWraper}>
-                                        <Image
-                                            style={styles.image}
-                                            source={{ uri: item.image }}
-                                            resizeMode="contain"
-                                        />
-                                    </View>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                        <TouchableOpacity onPress={() => navigation.navigate('quotations_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                            <View style={styles.item}>
+                                <View style={styles.imageWraper}>
+                                    <Image
+                                        style={styles.image}
+                                        source={{ uri: item.image }}
+                                        resizeMode="contain"
+                                    />
                                 </View>
-                            </TouchableOpacity>
-                        </Link>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id}
                     numColumns={2}
@@ -202,4 +220,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default StudyPhases;
+export default Index;

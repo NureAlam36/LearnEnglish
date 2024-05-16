@@ -1,38 +1,57 @@
 import React from 'react'
 import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
-import { Stack } from 'expo-router'
+// import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT, icons, images, SIZES } from "@/constants";
 import { FontAwesome } from '@expo/vector-icons';
 
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+import ContentHeader from '@/components/Headers/ContentHeader';
+
+import PresentTense from './present-tense';
+import PastTense from './past-tense';
+import FutureTense from './future-tense';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
 
 const DATA = [
     {
         id: 1,
         title: "Present Tense",
-        link: "present-tense",
+        screen: "presentTense_screen",
     },
     {
         id: 2,
         title: "Past Tense",
-        link: "past-tense",
+        screen: "pastTense_screen",
     },
     {
         id: 3,
         title: "Future Tense",
-        link: "future-tense",
+        screen: "futureTense_screen",
     }
 ];
 
-const index = () => {
+const Index = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+
+            <Stack.Screen name="grammer_screen" component={Tenses} options={{ header: () => <ContentHeader title="Tenses" />, headerShown: true }} />
+            <Stack.Screen name="presentTense_screen" component={PresentTense} options={{ header: () => <ContentHeader title="Present Tense" />, headerShown: true }} />
+            <Stack.Screen name="pastTense_screen" component={PastTense} options={{ header: () => <ContentHeader title="Past Tense" />, headerShown: true }} />
+            <Stack.Screen name="futureTense_screen" component={FutureTense} options={{ header: () => <ContentHeader title="Future Tense" />, headerShown: true }} />
+        </Stack.Navigator>
+    );
+}
+
+const Tenses = ({ navigation }: any) => {
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Tenses</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
             <View style={[styles.container, { backgroundColor: '#f2f2f2', flex: 1 }]}>
                 <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Tense বা কাল কাকে বলে?</Text>
                 <Text style={styles.text}>ক্রিয়ার কাল কে Tense বলা হয়৷ অর্থাৎ কোন কাজ সম্পাদনের সময়কে Tense বা কাল বলে। Tense দ্বারা সময়কে উল্লেখ করা হয় এবং যা বর্তমান, অতীত কিংবা ভবিষ্যত হতে পারে।</Text>
@@ -55,15 +74,15 @@ const index = () => {
                     data={DATA}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/grammer/tenses/${item.link}`} style={styles.itemContainer} asChild>
-                            <TouchableOpacity activeOpacity={0.7} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15, paddingRight: 10 }}>
+                        <TouchableOpacity onPress={() => navigation.navigate(item.screen)} activeOpacity={0.7} style={styles.itemContainer}>
+                            <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15, paddingRight: 10 }}>
                                 <View style={styles.item}>
                                     <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
                                     <Text style={styles.title}>{item.title}</Text>
                                 </View>
                                 <FontAwesome name="arrow-circle-right" size={24} color={COLORS.primary} />
-                            </TouchableOpacity>
-                        </Link>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id.toString()}
                     contentContainerStyle={{ paddingBottom: 20 }}
@@ -130,4 +149,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default index
+export default Index

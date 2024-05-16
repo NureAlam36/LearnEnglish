@@ -39,7 +39,7 @@ const MCQs = () => {
         <React.Fragment>
             <ContentHeader title={pageTitle} />
             {
-                !isLoading ? <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
+                !isLoading ? <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                     <FlatList
                         data={questions}
                         renderItem={({ item, index }) => (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, FlatList, StyleSheet, Alert } from 'react-native';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import { Audio } from 'expo-av';
@@ -15,8 +15,8 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import FillInTheBlank from '@/data/fill-in-the-blank.json';
 import ContentHeader from '@/components/Headers/ContentHeader';
 
-const Exercise = ({ route }: any) => {
-    // const route = useRoute();
+
+const Exercise = ({ route, navigation }: any) => {
     const { categoryLink, lesionId } = route.params as any;
     const { colorScheme } = useColorSchemeContext();
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,6 +30,31 @@ const Exercise = ({ route }: any) => {
 
     const [currentLesion, setCurrentLesion] = useState<any>('');
     const [lesionData, setLesionData] = useState<any>([]);
+
+    useEffect(() => {
+        const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
+            e.preventDefault();
+
+            Alert.alert(
+                'Confirm',
+                'Are you sure you want to leave this screen?',
+                [
+                    {
+                        text: 'Cancel',
+                        onPress: () => null,
+                        style: 'cancel',
+                    },
+                    {
+                        text: 'OK',
+                        onPress: () => navigation.dispatch(e.data.action),
+                    },
+                ],
+                { cancelable: false }
+            );
+        });
+
+        return unsubscribe;
+    }, [navigation]);
 
 
     useEffect(() => {

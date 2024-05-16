@@ -1,85 +1,121 @@
 import React from 'react'
 import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
-import { Stack } from 'expo-router'
+// import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import ContentHeader from "@/components/Headers/ContentHeader";
 
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
+
 const DATA = [
     {
         id: 0,
         title: "Person",
-        link: "person",
+        screen: "person_screen",
     },
     {
         id: 1,
         title: "Tenses",
-        link: "tenses",
+        screen: "tenses_screen",
     },
     {
         id: 2,
         title: "Parts of Speech",
-        link: "parts-of-speech",
+        screen: "partsOfSpeech_screen",
     },
     {
         id: 3,
         title: "Articles",
-        link: "articles",
+        screen: "articles_screen",
     },
     {
         id: 4,
         title: "Right Forms of Verbs",
-        link: "right-forms-of-verbs",
+        screen: "rightFormsOfVerbs_screen",
     },
     {
         id: 5,
         title: "Sentence",
-        link: "sentence",
+        screen: "sentence_screen",
     },
     {
         id: 6,
         title: "Number",
-        link: "number",
+        screen: "number_screen",
     },
     {
         id: 7,
         title: "Word",
-        link: "word",
+        screen: "word_screen",
     },
     {
         id: 8,
         title: "Modifiers",
-        link: "modifiers",
+        screen: "modifiers_screen",
     },
     {
         id: 9,
         title: "Narration",
-        link: "narration",
+        screen: "narration_screen",
     },
 ];
 
-const Index = () => {
+import Person from "./(pages)/person";
+import Tenses from "./tenses/index";
+import PartsOfSpeech from "./(pages)/parts-of-speech";
+import Articles from "./(pages)/articles";
+import RightFormsOfVerbs from "./(pages)/right-forms-of-verbs";
+import Sentence from "./(pages)/sentence";
+import Number from "./(pages)/number";
+// import Word from "./(pages)/word";
+import Modifiers from "./(pages)/modifiers";
+import Narration from "./(pages)/narration";
+
+
+const TabOneScreen = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+
+            <Stack.Screen name="grammer_screen" component={Index} options={{ header: () => <ContentHeader title="Grammer" />, headerShown: true }} />
+            <Stack.Screen name="person_screen" component={Person} options={{ header: () => <ContentHeader title="Person" />, headerShown: true }} />
+            <Stack.Screen name="tenses_screen" component={Tenses} />
+            <Stack.Screen name="partsOfSpeech_screen" component={PartsOfSpeech} options={{ header: () => <ContentHeader title="Parts of speech" />, headerShown: true }} />
+            <Stack.Screen name="articles_screen" component={Articles} options={{ header: () => <ContentHeader title="Article" />, headerShown: true }} />
+            <Stack.Screen name="rightFormsOfVerbs_screen" component={RightFormsOfVerbs} options={{ header: () => <ContentHeader title="Right Form of Verbs" />, headerShown: true }} />
+            <Stack.Screen name="sentence_screen" component={Sentence} options={{ header: () => <ContentHeader title="Sentence" />, headerShown: true }} />
+            <Stack.Screen name="number_screen" component={Number} options={{ header: () => <ContentHeader title="Number" />, headerShown: true }} />
+            {/* <Stack.Screen name="word_screen" component={Word} options={{ header: () => <ContentHeader title="Word" />, headerShown: true }} /> */}
+            <Stack.Screen name="modifiers_screen" component={Modifiers} options={{ header: () => <ContentHeader title="Modifiers" />, headerShown: true }} />
+            <Stack.Screen name="narration_screen" component={Narration} options={{ header: () => <ContentHeader title="Narration" />, headerShown: true }} />
+        </Stack.Navigator>
+    );
+}
+
+const Index = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
-            <ContentHeader title="Grammer" />
-
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <FlatList
                     data={DATA}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/grammer/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.title}</Text>
-                                </View>
-                            </TouchableOpacity>
-                        </Link>
+                        <TouchableOpacity onPress={() => navigation.navigate(item.screen)} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                            <View style={styles.item}>
+                                <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.title}</Text>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id.toString()}
                     contentContainerStyle={{ padding: 10, gap: 10 }}
@@ -114,7 +150,7 @@ const styles = StyleSheet.create({
     item_icon: {
         width: 45,
         height: 45,
-        backgroundColor: '#5495fb',
+        backgroundColor: COLORS.primary,
         borderRadius: 10,
         textAlign: 'center',
         textAlignVertical: 'center',
@@ -127,4 +163,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Index
+export default TabOneScreen

@@ -8,6 +8,8 @@ import { FONT, COLORS } from "@/constants";
 import Stack from 'expo-router/stack';
 import PreLoader from '@/components/PreLoader';
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
     return (
         <View style={{
@@ -68,13 +70,6 @@ const person = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Number</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
-
             {
                 !loading ? <ScrollView style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
                     <View style={{ padding: 15 }}>

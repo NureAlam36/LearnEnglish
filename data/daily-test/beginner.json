@@ -10,7 +10,7 @@
       },
       {
         "id": 2,
-        "question": "______ name is John. And my ______ is Johnson.",
+        "question": "______ name is Farhana. And my ______ is Rahman.",
         "options": [
           "Your / surname",
           "My / surname",
@@ -21,19 +21,19 @@
       },
       {
         "id": 3,
-        "question": "My name is Lisa. ______ Lisa Peterson.",
+        "question": "My name is Aisha. ______ Aisha Khan.",
         "options": ["My am", "I is", "I am", "I"],
         "answer": "I am"
       },
       {
         "id": 4,
-        "question": "______ name is Apple. ______ Ann Apple.",
+        "question": "______ name is Fahim. ______ Fahim Ahmed.",
         "options": ["His / She", "His / He’s", "Her / She’s", "His / His"],
-        "answer": "His / She's"
+        "answer": "Her / She’s"
       },
       {
         "id": 5,
-        "question": "“Where ______ John from?” “______ from the US.”",
+        "question": "“Where ______ Emma from?” “______ from the US.”",
         "options": ["is / He’s", "is / His", "am / He’s", "is / She’s"],
         "answer": "is / He’s"
       },
@@ -74,7 +74,7 @@
       },
       {
         "id": 11,
-        "question": "“What ____ their _____?”",
+        "question": "“What ____ their _____?”\n\n“Alexander and Philip.”",
         "options": ["are/name", "is / name", "is / names", "are / names"],
         "answer": "are / names"
       },
@@ -92,7 +92,7 @@
       },
       {
         "id": 14,
-        "question": "“What ______ this?”",
+        "question": "“What ______ this?”\n\n“It's ______ umbrella.”",
         "options": ["are / a", "is / a", "is / an", "its / an"],
         "answer": "is / an"
       },
@@ -110,7 +110,7 @@
       },
       {
         "id": 17,
-        "question": "“What is ______ ?”",
+        "question": "“What is ______ ?”\n\n“She is a bank manager.”",
         "options": ["his job", "she job", "he job", "her job"],
         "answer": "her job"
       },
@@ -127,13 +127,13 @@
       },
       {
         "id": 19,
-        "question": "“How old is your aunt?”",
+        "question": "“How old is your aunt?”\n\n“______ is 29.”",
         "options": ["She", "He", "She’s", "He’s"],
         "answer": "She’s"
       },
       {
         "id": 20,
-        "question": "“Where ______ she from?”",
+        "question": "“Where ______ she from?”\n\n“She ______ from Japan.”",
         "options": ["are / is", "is / is", "is / am", "are / are"],
         "answer": "is / is"
       }
@@ -156,9 +156,9 @@
       },
       {
         "id": 3,
-        "question": "“What is ______ name?”",
+        "question": "“What is ______ name?” “My name’s Carlos.”",
         "options": ["his", "her", "your", "my"],
-        "answer": "his"
+        "answer": "my"
       },
       {
         "id": 4,
@@ -168,7 +168,7 @@
       },
       {
         "id": 5,
-        "question": "I have ______ brother. ______ name is David",
+        "question": "I have ______ brother. ______ name is David.",
         "options": ["an / His", "a / Her", "a / His", "* / His"],
         "answer": "a / His"
       },
@@ -181,7 +181,7 @@
           "name is / am from",
           "name am / is from"
         ],
-        "answer": "name is / am from"
+        "answer": "name is / from am"
       },
       {
         "id": 7,
@@ -221,13 +221,13 @@
       },
       {
         "id": 13,
-        "question": "“______ is your phone number?”",
+        "question": "“______ is your phone number?”\n\n“It’s 2229.”",
         "options": ["Where", "How", "What", "Who"],
         "answer": "What"
       },
       {
         "id": 14,
-        "question": "“______ are you?”",
+        "question": "“______ are you?”\n\n“I’m Alex.”",
         "options": ["Which", "How", "What", "Who"],
         "answer": "Who"
       },
@@ -235,11 +235,11 @@
         "id": 15,
         "question": "What’s this ______ English?",
         "options": ["*", "in", "at", "on"],
-        "answer": "in"
+        "answer": "*"
       },
       {
         "id": 16,
-        "question": "Champagne is ______ French drink.",
+        "question": "Champaigne is ______ French drink.",
         "options": ["a", "the", "an", "*"],
         "answer": "a"
       },
@@ -265,7 +265,7 @@
         "id": 20,
         "question": "Milan is ______ Italian city.",
         "options": ["a", "an", "the", "*"],
-        "answer": "a"
+        "answer": "an"
       }
     ]
   },
@@ -274,31 +274,7 @@
     "questions": [
       {
         "id": 1,
-        "question": "A JVC is ______ Japanese camera.",
-        "options": ["a", "an", "the", "*"],
-        "answer": "a"
-      },
-      {
-        "id": 2,
-        "question": "I have two ______ .",
-        "options": ["sister", "sisters", "a sister", "sister’s"],
-        "answer": "sisters"
-      },
-      {
-        "id": 3,
-        "question": "It’s ______ Spanish orange.",
-        "options": ["a", "an", "the", "*"],
-        "answer": "a"
-      },
-      {
-        "id": 4,
-        "question": "It’s ______ green apple.",
-        "options": ["a", "an", "the", "*"],
-        "answer": "a"
-      },
-      {
-        "id": 5,
-        "question": "“_____ her name Eliza?”\n“No, _____ .”",
+        "question": "“_____ her name Eliza?”\n\n“No, _____ .”",
         "options": [
           "What / it isn’t",
           "Is / she isn’t",
@@ -308,7 +284,7 @@
         "answer": "Is / it isn’t"
       },
       {
-        "id": 6,
+        "id": 2,
         "question": "Is your surname Anderson?",
         "options": [
           "Yes, you are.",
@@ -319,14 +295,14 @@
         "answer": "Yes, it is."
       },
       {
-        "id": 7,
-        "question": "“Is she American?”\n“No, _____ .”",
+        "id": 3,
+        "question": "“Is she American?”\n\n“No, _____ .”",
         "options": ["hers isn’t", "she isn’t", "she is not", "she her isn’t"],
         "answer": "she isn’t"
       },
       {
-        "id": 8,
-        "question": "“____ their names Jack & Benny?”\n“Yes, _____ .”",
+        "id": 4,
+        "question": "“____ their names Jack & Benny?”\n\n“Yes, _____ .”",
         "options": [
           "Are / they are",
           "Aren’t / there are",
@@ -336,76 +312,100 @@
         "answer": "Are / they are"
       },
       {
-        "id": 9,
-        "question": "“Is your dog 2 years old?”\n“Yes, _____ .”",
+        "id": 5,
+        "question": "“Is your dog 2 years old?”\n\n“Yes, _____ .”",
         "options": ["it’s", "dog is", "it is", "its"],
         "answer": "it is"
       },
       {
-        "id": 10,
-        "question": "“Is your elder brother married?”\n“No, _____ .”",
+        "id": 6,
+        "question": "“Is your elder brother married?”\n\n“No, _____ .”",
         "options": ["brother isn’t", "he isn’t", "he is not", "she isn’t"],
         "answer": "he isn’t"
       },
       {
-        "id": 11,
-        "question": "“Are you from Senegal?”\n“No, _____ .”",
+        "id": 7,
+        "question": "“Are you from Senegal?”\n\n“No, _____ .”",
         "options": ["I’m not", "I amn’t", "I are not", "I not"],
         "answer": "I’m not"
       },
       {
-        "id": 12,
-        "question": "“_____ Martha English?”\n“Yes, she _____ .”",
+        "id": 8,
+        "question": "“_____ Martha English?”\n\n“Yes, she _____ .”",
         "options": ["Is / isn’t", "Are / is", "Is / is", "Are / is"],
         "answer": "Is / is"
       },
       {
-        "id": 13,
-        "question": "“_____ her surname Smith?”\n“No, it _____ .”",
+        "id": 9,
+        "question": "“_____ her surname Smith?”\n\n“No, it _____ .”",
         "options": ["What / isn’t", "Is / is", "Is / isn’t", "Are / isn’t"],
         "answer": "Is / isn’t"
       },
       {
-        "id": 14,
-        "question": "“Are you a student?”\n“Yes, I _____ .”",
+        "id": 10,
+        "question": "“Are you a student?”\n\n“Yes, I _____ .”",
         "options": ["am", "have", "is", "‘m not"],
         "answer": "am"
       },
       {
-        "id": 15,
-        "question": "“_____ you from Barcelona?”\n“No, I’m not.”",
+        "id": 11,
+        "question": "“_____ you from Barcelona?”\n\n“No, I’m not.”",
         "options": ["Is", "Are", "Do", "Where"],
         "answer": "Are"
       },
       {
-        "id": 16,
-        "question": "“_____ you married?”\n“No, I _____ .”",
+        "id": 12,
+        "question": "“_____ you married?”\n\n“No, I _____ .”",
         "options": ["Aren’t / am", "Are / am", "Is / am not", "Are / ’m not"],
         "answer": "Are / ’m not"
       },
       {
-        "id": 17,
-        "question": "“_____ is Brenda?”\n“She’s Patrick’s wife.”",
+        "id": 13,
+        "question": "“_____ is Brenda?”\n\n“She’s Patrick’s wife.”",
         "options": ["What", "Who", "Which", "Where"],
         "answer": "Who"
       },
       {
-        "id": 18,
+        "id": 14,
         "question": "My teacher’s name _____ John.",
         "options": ["are", "is", "am", "not"],
         "answer": "is"
       },
       {
-        "id": 19,
+        "id": 15,
         "question": "Marcus and Carlos _____ my brothers.",
         "options": ["is", "am", "are", "be"],
         "answer": "are"
       },
       {
-        "id": 20,
+        "id": 16,
         "question": "My mother and father _____ at work.",
         "options": ["is", "am", "are", "*"],
         "answer": "are"
+      },
+      {
+        "id": 17,
+        "question": "A JVC is ______ Japanese camera.",
+        "options": ["a", "an", "the", "*"],
+        "answer": "a"
+      },
+      {
+        "id": 18,
+        "question": "I have two ______ .",
+        "options": ["sister", "sisters", "a sister", "sister’s"],
+        "answer": "sisters"
+      },
+      {
+        "id": 19,
+        "question": "It’s ______ Spanish orange.",
+        "options": ["a", "an", "the", "*"],
+        "answer": "a"
+      },
+      {
+        "id": 20,
+        "question": "It’s ______ green apple.",
+        "options": ["a", "an", "the", "*"],
+        "answer": "a"
       }
     ]
   },
@@ -434,13 +434,13 @@
         "id": 4,
         "question": "I’m _____ home.",
         "options": ["in", "on", "at", "from"],
-        "answer": "at"
+        "answer": "in"
       },
       {
         "id": 5,
         "question": "I’m _____ La Guardia Community College.",
         "options": ["in", "on", "at", "of"],
-        "answer": "in"
+        "answer": "at"
       },
       {
         "id": 6,
@@ -457,7 +457,7 @@
       {
         "id": 8,
         "question": "I live _____ an apartment _____ two American boys.",
-        "options": ["in / of", "at / with", "in / with", "of/with"],
+        "options": ["in / of", "at / with", "in / with", "of / with"],
         "answer": "in / with"
       },
       {
@@ -468,7 +468,7 @@
       },
       {
         "id": 10,
-        "question": "“_____ is his job?”\n“He _____ a policeman.”",
+        "question": "“_____ is his job?”\n\n“He _____ a policeman.”",
         "options": ["Which / is", "What / are", "What / is", "Where / is"],
         "answer": "What / is"
       },
@@ -480,62 +480,57 @@
       },
       {
         "id": 12,
-        "question": "We _____ in a Russian class.\nWe _____ in an English class.",
-        "options": ["are / are", "are / not", "aren’t / are", "are / am"],
-        "answer": "are / not"
+        "question": "“_____ _____ is a hamburger and chips?”\n\n“Three pounds fifty.”",
+        "options": ["How many", "How often", "How much", "How long"],
+        "answer": "How much"
       },
       {
         "id": 13,
-        "question": "Rolls-Royce cars are _____ .",
-        "options": ["cheap", "blue", "expensive", "tall"],
-        "answer": "expensive"
+        "question": "easy - ______",
+        "options": ["cold", "cheap", "difference", "difficult"],
+        "answer": "difficult"
       },
       {
         "id": 14,
-        "question": "“_____ your teachers married?”\n“Yes, _____ .”",
-        "options": ["Is / he is", "Is / he’s", "Is / she is", "Are / they are"],
-        "answer": "Are / they are"
+        "question": "lovely - ______",
+        "options": ["old", "expensive", "horrible", "quick"],
+        "answer": "horrible"
       },
       {
         "id": 15,
-        "question": "“Is it hot today?”\n“No, _____ .”",
-        "options": ["it isn’t", "it is not", "it’s not", "it not"],
-        "answer": "it’s not"
+        "question": "fast - ______",
+        "options": ["slow", "small", "quick", "warm"],
+        "answer": "slow"
       },
       {
         "id": 16,
-        "question": "“Are _____ your parents?”\n“Yes, _____ .”",
-        "options": [
-          "they-their are",
-          "their-they are",
-          "they-they are",
-          "they-they"
-        ],
-        "answer": "their-they are"
+        "question": "expensive - ______",
+        "options": ["big", "cheap", "cold", "hot"],
+        "answer": "cheap"
       },
       {
         "id": 17,
-        "question": "Eliza _____ from Greece. _____ from Poland.",
-        "options": ["is / Is", "isn’t / She’s", "is / Isn’t", "is / Is not"],
-        "answer": "isn’t / She’s"
+        "question": "hot - ______",
+        "options": ["cold", "new", "warm", "small"],
+        "answer": "cold"
       },
       {
         "id": 18,
-        "question": "Ann is _____ wife.",
-        "options": ["John’s", "John is", "John’s is", "John"],
-        "answer": "John’s"
+        "question": "big - ______",
+        "options": ["high", "small", "tall", "slow"],
+        "answer": "small"
       },
       {
         "id": 19,
-        "question": "This is not just my computer. It is 4 _____ computer.",
-        "options": ["students’", "students’s", "student’s", "student"],
-        "answer": "students’"
+        "question": "young - ______",
+        "options": ["old", "big", "small", "quick"],
+        "answer": "old"
       },
       {
         "id": 20,
-        "question": "A: What is _____ ?\nB: She is a bank manager.",
-        "options": ["his job", "she job", "he job", "her job"],
-        "answer": "her job"
+        "question": "“Are you married?”\n\n“No, _____ .”",
+        "options": ["I am not", "I’m not", "I amn’t", "I m not"],
+        "answer": "I’m not"
       }
     ]
   },
@@ -544,128 +539,134 @@
     "questions": [
       {
         "id": 1,
+        "question": "Brazil ____ in Asia. ____ in South America.",
+        "options": ["is / It isn’t", "is / It’s", "is / Is", "isn’t / It’s"],
+        "answer": "isn’t / It’s"
+      },
+      {
+        "id": 2,
+        "question": "Snow is _____ .",
+        "options": ["cold", "hot", "small", "cheap"],
+        "answer": "cold"
+      },
+      {
+        "id": 3,
+        "question": "A: _____ Greek?\nB: Yes, I am.",
+        "options": ["You", "Are you", "Am I", "I"],
+        "answer": "Are you"
+      },
+      {
+        "id": 4,
+        "question": "We _____ in a Russian class.\nWe _____ in an English class.",
+        "options": ["are / are", "are / not", "aren’t / are", "are / am"],
+        "answer": "aren’t / are"
+      },
+      {
+        "id": 5,
+        "question": "Rolls-Royce cars are _____ .",
+        "options": ["cheap", "blue", "expensive", "tall"],
+        "answer": "expensive"
+      },
+      {
+        "id": 6,
+        "question": "“_____ your teachers married?”\n“Yes, _____ .”",
+        "options": ["Is / he is", "Is / he’s", "Is / she is", "Are / they are"],
+        "answer": "Are / they are"
+      },
+      {
+        "id": 7,
+        "question": "“Is it hot today?”\n“No, _____ .”",
+        "options": ["it isn’t", "it is not", "it’s not", "it not"],
+        "answer": "it isn’t"
+      },
+      {
+        "id": 8,
+        "question": "“Are _____ your parents?”\n“Yes, _____ .”",
+        "options": [
+          "they-their are",
+          "their-they are",
+          "they-they are",
+          "they-they"
+        ],
+        "answer": "they-they are"
+      },
+      {
+        "id": 9,
+        "question": "Eliza _____ from Greece. _____ from Poland.",
+        "options": ["is / Is", "isn’t / She’s", "is / Isn’t", "is / Is not"],
+        "answer": "isn’t / She’s"
+      },
+      {
+        "id": 10,
+        "question": "Ann is _____ wife.",
+        "options": ["John’s", "John is", "John’s is", "John"],
+        "answer": "John’s"
+      },
+      {
+        "id": 11,
+        "question": "This is not just my computer. It is 4 _____ computer.",
+        "options": ["students’", "students’s", "student’s", "student"],
+        "answer": "students’"
+      },
+      {
+        "id": 12,
+        "question": "A: What is _____ ?\nB: She is a bank manager.",
+        "options": ["his job", "she job", "he job", "her job"],
+        "answer": "her job"
+      },
+      {
+        "id": 13,
         "question": "“How old is your brother?”\n“_____ 29.”",
         "options": ["They are", "I am", "It is", "He is"],
         "answer": "He is"
       },
       {
-        "id": 2,
+        "id": 50,
         "question": "“How old _____ Mr. & Mrs. White?”\n“_____ 50 and 48.”",
         "options": ["is / They", "are / They’re", "are / They", "*/ They are"],
         "answer": "are / They’re"
       },
       {
-        "id": 3,
-        "question": "“How old , Andrew?”\n“__ 21 years old.”",
+        "id": 14,
+        "question": "“How old ___, Andrew?”\n“_____ 21 years old.”",
         "options": ["are you / I’m", "is he / He’s", "is / He is", "are / I"],
-        "answer": "is / He is"
+        "answer": "are you / I’m"
       },
       {
-        "id": 4,
+        "id": 15,
         "question": "“_____ you now?”\n“I’m at the school.”",
         "options": ["Where’s", "Where’re are", "Where’re", "Where"],
         "answer": "Where’re"
       },
       {
-        "id": 5,
+        "id": 16,
         "question": "“Where _____ now?”\n“In her office.”",
         "options": ["is he", "is she", "is it", "is"],
         "answer": "is she"
       },
       {
-        "id": 6,
+        "id": 17,
         "question": "“_____ is his father’s job?”\n“He’s a teacher.”",
         "options": ["Who", "When", "Why", "What"],
         "answer": "What"
       },
       {
-        "id": 7,
+        "id": 18,
         "question": "This is those _____ toy.",
         "options": ["kid’s", "kid", "kids’s", "kids’"],
         "answer": "kids’"
       },
       {
-        "id": 8,
+        "id": 19,
         "question": "They are not my _____ books.",
         "options": ["children’s", "childs", "children’", "children of"],
         "answer": "children’s"
       },
       {
-        "id": 9,
+        "id": 20,
         "question": "They’re not his _____ mistakes.",
         "options": ["friend’s", "friend", "friends", "friends’s"],
         "answer": "friend’s"
-      },
-      {
-        "id": 10,
-        "question": "She _____ a uniform.",
-        "options": ["wear", "to wear", "wearing", "wears"],
-        "answer": "wears"
-      },
-      {
-        "id": 11,
-        "question": "He _____ his car every weekend.",
-        "options": ["wash", "washes", "washing", "washed"],
-        "answer": "washes"
-      },
-      {
-        "id": 12,
-        "question": "Rosemary _____ three languages.",
-        "options": ["speaks", "talks", "tells", "know"],
-        "answer": "speaks"
-      },
-      {
-        "id": 13,
-        "question": "My dad _____ at 7 o’clock every day.",
-        "options": ["stands up", "looks up", "gets up", "jumps up"],
-        "answer": "gets up"
-      },
-      {
-        "id": 14,
-        "question": "Isabel is a flight attendant. She _____ passengers.",
-        "options": ["serve", "to serve", "serves", "serving"],
-        "answer": "serves"
-      },
-      {
-        "id": 15,
-        "question": "Their son _____ in this hospital.",
-        "options": ["works", "begins", "starts", "likes"],
-        "answer": "works"
-      },
-      {
-        "id": 16,
-        "question": "Jim’s a postman. He _____ letters to people.",
-        "options": ["answers", "works", "delivers", "serves"],
-        "answer": "delivers"
-      },
-      {
-        "id": 17,
-        "question": "Jane’s a doctor. She _____ ill people.",
-        "options": ["looks at", "speaks to", "helps", "serves drinks"],
-        "answer": "helps"
-      },
-      {
-        "id": 18,
-        "question": "Bern _____ in a flat in Birmingham.",
-        "options": ["lives", "stands", "has", "wants"],
-        "answer": "lives"
-      },
-      {
-        "id": 19,
-        "question": "Nancy’s uncle is a pilot. He _____ all over the world.",
-        "options": ["goes", "sees", "travels", "delivers"],
-        "answer": "travels"
-      },
-      {
-        "id": 20,
-        "question": "In winter Sheila _____ skiing and in summer _____ tennis.",
-        "options": [
-          "makes / plays",
-          "goes / plays",
-          "does / plays",
-          "starts / *"
-        ],
-        "answer": "does / plays"
       }
     ]
   },
@@ -674,42 +675,113 @@
     "questions": [
       {
         "id": 1,
+        "question": "She _____ a uniform.",
+        "options": ["wear", "to wear", "wearing", "wears"],
+        "answer": "wears"
+      },
+      {
+        "id": 2,
+        "question": "He _____ his car every weekend.",
+        "options": ["wash", "washes", "washing", "washed"],
+        "answer": "washes"
+      },
+      {
+        "id": 3,
+        "question": "Rosemary _____ three languages.",
+        "options": ["speaks", "talks", "tells", "know"],
+        "answer": "speaks"
+      },
+      {
+        "id": 4,
+        "question": "My dad _____ at 7 o’clock every day.",
+        "options": ["stands up", "looks up", "gets up", "jumps up"],
+        "answer": "gets up"
+      },
+      {
+        "id": 5,
+        "question": "Isabel is a flight attendant. She _____ passengers.",
+        "options": ["serve", "to serve", "serves", "serving"],
+        "answer": "serves"
+      },
+      {
+        "id": 6,
+        "question": "Their son _____ in this hospital.",
+        "options": ["works", "begins", "starts", "likes"],
+        "answer": "works"
+      },
+      {
+        "id": 7,
+        "question": "Jim’s a postman. He _____ letters to people.",
+        "options": ["answers", "works", "delivers", "serves"],
+        "answer": "delivers"
+      },
+      {
+        "id": 8,
+        "question": "Jane’s a doctor. She _____ ill people.",
+        "options": ["looks at", "speaks to", "helps", "serves drinks"],
+        "answer": "helps"
+      },
+      {
+        "id": 9,
+        "question": "Bern _____ in a flat in Birmingham.",
+        "options": ["lives", "stands", "has", "wants"],
+        "answer": "lives"
+      },
+      {
+        "id": 10,
+        "question": "Nancy’s uncle is a pilot. He _____ all over the world.",
+        "options": ["goes", "sees", "travels", "delivers"],
+        "answer": "travels"
+      },
+      {
+        "id": 11,
+        "question": "In winter Sheila _____ skiing and in summer _____ tennis.",
+        "options": [
+          "makes / plays",
+          "goes / plays",
+          "does / plays",
+          "starts / *"
+        ],
+        "answer": "goes / plays"
+      },
+      {
+        "id": 12,
         "question": "My friend’s son _____ Turkish and English at university.",
         "options": ["has", "plays", "studies", "goes"],
         "answer": "studies"
       },
       {
-        "id": 2,
+        "id": 13,
         "question": "Most of the people _____ work at 8 o’clock every morning.",
         "options": ["finishes", "goes", "does", "starts"],
         "answer": "starts"
       },
       {
-        "id": 3,
+        "id": 14,
         "question": "A: _____ does Tony Blair live?\nB: In Great Britain.",
         "options": ["When", "Where", "What time", "How"],
         "answer": "Where"
       },
       {
-        "id": 4,
+        "id": 15,
         "question": "_____ does your father do in his free time?",
         "options": ["Why", "What kind", "How many", "What"],
         "answer": "What"
       },
       {
-        "id": 5,
+        "id": 16,
         "question": "_____ does Andy’s little brother play with?",
         "options": ["Who", "Why", "How old", "Where"],
         "answer": "Who"
       },
       {
-        "id": 6,
+        "id": 17,
         "question": "A: _____ does Natalie’s nephew do?\nB: He’s an architect.",
         "options": ["How", "Whom", "When", "What"],
         "answer": "What"
       },
       {
-        "id": 7,
+        "id": 18,
         "question": "A: _____ does it rain here?\nB: Mostly in summer and winter.\nA: _____ snow?\nB: In winter.",
         "options": [
           "When / Why",
@@ -717,22 +789,27 @@
           "What time / Whom",
           "When / What about"
         ],
-        "answer": "Why / How"
+        "answer": "When / What about"
       },
       {
-        "id": 8,
+        "id": 19,
         "question": "A: _____ does Anthony go to work?\nB: _____ bus.",
         "options": ["How / By", "How well / On", "What kind / In", "How / In"],
         "answer": "How / By"
       },
       {
-        "id": 9,
+        "id": 20,
         "question": "She _____ from England.",
         "options": ["come", "comes", "don’t come", "goes"],
         "answer": "comes"
-      },
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "questions": [
       {
-        "id": 10,
+        "id": 1,
         "question": "_____ she _____ French?",
         "options": [
           "Do / speaks",
@@ -743,7 +820,7 @@
         "answer": "Does / speak"
       },
       {
-        "id": 11,
+        "id": 2,
         "question": "She _____ _____ from America.",
         "options": [
           "don’t comes",
@@ -754,156 +831,156 @@
         "answer": "doesn’t come"
       },
       {
-        "id": 12,
+        "id": 3,
         "question": "Every time he _____ a glass of lemonade before breakfast.",
         "options": ["is", "have", "has", "does"],
         "answer": "has"
       },
       {
-        "id": 13,
+        "id": 4,
         "question": "_____ he _____ three children?",
         "options": ["Does / have", "Does / has", "Do / have", "Has / have"],
         "answer": "Does / have"
       },
       {
-        "id": 14,
+        "id": 5,
         "question": "_____ a shower.",
         "options": ["Come", "Go", "Have", "Has"],
         "answer": "Have"
       },
       {
-        "id": 15,
+        "id": 6,
         "question": "_____ the phone.",
         "options": ["Go", "Read", "Look", "Answer"],
         "answer": "Answer"
       },
       {
-        "id": 16,
+        "id": 7,
         "question": "She _____ a white coat.",
         "options": ["wear", "wears", "does wear", "have"],
         "answer": "wears"
       },
       {
-        "id": 17,
+        "id": 8,
         "question": "_____ a magazine.",
         "options": ["Go", "Read", "Live", "Has"],
         "answer": "Read"
       },
       {
-        "id": 18,
+        "id": 9,
         "question": "Our teacher gives _____ a lot of homework.",
         "options": ["our", "us", "her", "his"],
         "answer": "us"
       },
       {
-        "id": 19,
+        "id": 10,
         "question": "He _____ television every evening.",
         "options": ["watch", "watches", "see", "buy"],
         "answer": "watches"
       },
       {
-        "id": 20,
+        "id": 11,
+        "question": "At ten we go _____ bed.",
+        "options": ["in", "on", "to", "sleep"],
+        "answer": "to"
+      },
+      {
+        "id": 12,
         "question": "He picks up the apples _____ the tree.",
         "options": ["for", "from", "on", "at"],
         "answer": "from"
-      }
-    ]
-  },
-  {
-    "day": 7,
-    "questions": [
+      },
       {
-        "id": 1,
+        "id": 13,
         "question": "Get _____ the bus.",
         "options": ["on", "in", "to", "out"],
         "answer": "on"
       },
       {
-        "id": 2,
+        "id": 14,
         "question": "She lives _____ Switzerland.",
         "options": ["at", "on", "in", "city"],
         "answer": "in"
       },
       {
-        "id": 3,
-        "question": "A nurse looks _____ people in the hospital.",
+        "id": 15,
+        "question": "A nurse looks _____ people in hospital.",
         "options": ["at", "for", "after", "helps"],
         "answer": "after"
       },
       {
-        "id": 4,
+        "id": 16,
         "question": "There’s a letter _____ you.",
         "options": ["for", "to", "about", "on"],
         "answer": "for"
       },
       {
-        "id": 5,
+        "id": 17,
         "question": "Tourists come _____ boat.",
         "options": ["by", "to", "of", "with"],
         "answer": "by"
       },
       {
-        "id": 6,
+        "id": 18,
         "question": "He drives the children _____ school.",
         "options": ["of", "at", "to", "go"],
         "answer": "to"
       },
       {
-        "id": 7,
+        "id": 19,
         "question": "He speaks to people _____ his radio.",
         "options": ["at", "on", "of", "in"],
         "answer": "on"
       },
       {
-        "id": 8,
+        "id": 20,
         "question": "She likes going _____ walks _____ summer.",
         "options": ["for / at", "to / at", "for / in", "on / at"],
-        "answer": "for / at"
-      },
+        "answer": "for / in"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "questions": [
       {
-        "id": 9,
-        "question": "She goes skiing _____ her free time.",
-        "options": ["in", "on", "at", "of"],
-        "answer": "in"
-      },
-      {
-        "id": 10,
+        "id": 1,
         "question": "He works _____ an undertaker.",
         "options": ["as", "for", "of", "in"],
         "answer": "as"
       },
       {
-        "id": 11,
-        "question": "“Does she live in Australia?”",
+        "id": 2,
+        "question": "“Does she live in Australia?”\n“No, she _____.”",
         "options": ["do", "does", "don’t", "doesn’t"],
         "answer": "doesn’t"
       },
       {
-        "id": 12,
+        "id": 3,
         "question": "We _____ _____ watching television.",
         "options": ["doesn’t like", "do like", "doesn’t like", "don’t like"],
         "answer": "don’t like"
       },
       {
-        "id": 13,
+        "id": 4,
         "question": "He _____ to help people.",
         "options": ["flies", "likes", "runs", "swims"],
         "answer": "likes"
       },
       {
-        "id": 14,
+        "id": 5,
         "question": "_____ _____ languages does she speak?",
         "options": ["How much", "How many", "Why", "Where"],
         "answer": "How many"
       },
       {
-        "id": 15,
+        "id": 6,
         "question": "_____ sells things.",
         "options": ["A postman", "A nurse", "A doctor", "A shopkeeper"],
         "answer": "A shopkeeper"
       },
       {
-        "id": 16,
+        "id": 7,
         "question": "A barman _____.",
         "options": [
           "sells things",
@@ -914,667 +991,105 @@
         "answer": "serves drinks"
       },
       {
-        "id": 17,
+        "id": 8,
+        "question": "_____ _____ looks after money.",
+        "options": ["A nurse", "A postman", "An accountant", "A dentist"],
+        "answer": "An accountant"
+      },
+      {
+        "id": 9,
         "question": "__________ designs buildings.",
         "options": ["A pilot", "An architect", "An interpreter", "An engineer"],
         "answer": "An architect"
       },
       {
-        "id": 18,
+        "id": 10,
         "question": "He lives ____ an island _____ the west of Scotland.",
         "options": ["on / in", "in / in", "on / on", "in / at"],
         "answer": "on / in"
       },
       {
-        "id": 19,
+        "id": 11,
         "question": "She’s married _____ an American man.",
         "options": ["with", "for", "to", "on"],
         "answer": "to"
       },
       {
-        "id": 20,
+        "id": 12,
         "question": "He _____ listening _____ music.",
         "options": ["like / to", "likes / to", "likes / of", "likes / with"],
         "answer": "likes / to"
-      }
-    ]
-  },
-  {
-    "day": 8,
-    "questions": [
-      {
-        "id": 1,
-        "question": "“How _____ he _____ to work?”",
-        "options": ["do / go", "does / goes", "does / go", "does / play"],
-        "answer": "does / goes"
       },
       {
-        "id": 2,
+        "id": 13,
+        "question": "“How _____ he _____ to work?”\n“No, he _____.”",
+        "options": [
+          "do / go / doesn’t",
+          "does / goes / isn’t",
+          "does / go / isn’t",
+          "does / play / is"
+        ],
+        "answer": "does / goes / isn’t"
+      },
+      {
+        "id": 14,
         "question": "Anna likes Joanna, but Maria doesn’t like _____.",
         "options": ["her", "them", "your", "their"],
         "answer": "her"
       },
       {
-        "id": 3,
+        "id": 15,
         "question": "That’s my dictionary. Can I have ___ back please?",
         "options": ["it", "you", "them", "my"],
         "answer": "it"
       },
       {
-        "id": 4,
+        "id": 16,
         "question": "Philippe _____ in London.",
         "options": ["work", "starts", "comes", "lives"],
         "answer": "lives"
       },
       {
-        "id": 5,
-        "question": "“_____ he married?”",
+        "id": 17,
+        "question": "“_____ he married?”\n“No, he _____.”",
         "options": ["Is / doesn’t", "Does / isn’t", "Is / isn’t", "Does / is"],
         "answer": "Is / isn’t"
       },
       {
-        "id": 6,
-        "question": "“What _____ she do?”",
+        "id": 18,
+        "question": "“What _____ she do?”\n“She is an interpreter.”",
         "options": ["is", "do", "does", "are"],
         "answer": "does"
       },
       {
-        "id": 7,
+        "id": 19,
         "question": "_____ he sleep well?",
         "options": ["Has", "Have", "Do", "Does"],
         "answer": "Does"
       },
       {
-        "id": 8,
-        "question": "What _____ you _____ at the weekend?",
-        "options": ["does / does", "do / does", "does / do", "do / do"],
-        "answer": "do / do"
-      },
-      {
-        "id": 9,
-        "question": "What _____ Dick and Tom like _____?",
-        "options": ["do / doing", "doing / *", "do / do", "does / doing"],
-        "answer": "do / doing"
-      },
-      {
-        "id": 10,
-        "question": "Do boys like _____ jeans?",
-        "options": ["wear", "wearing", "to wear", "worn"],
-        "answer": "wearing"
-      },
-      {
-        "id": 11,
-        "question": "My classmates _____ on picnic every month.",
-        "options": ["went", "goes", "going", "go"],
-        "answer": "go"
-      },
-      {
-        "id": 12,
-        "question": "Mary _____ face every morning.",
-        "options": ["washes his", "wash my", "washes her", "washes their"],
-        "answer": "washes her"
-      },
-      {
-        "id": 13,
-        "question": "I _____ a cigarette, but my teacher _____ smoke.",
-        "options": [
-          "don’t / smokes",
-          "smoke / doesn’t",
-          "smokes / smokes",
-          "smoke / don’t"
-        ],
-        "answer": "smoke / doesn’t"
-      },
-      {
-        "id": 14,
-        "question": "They _____ wash _____ car every day.",
-        "options": [
-          "don’t / my",
-          "don’t / his",
-          "don’t / their",
-          "don’t / our"
-        ],
-        "answer": "don’t / their"
-      },
-      {
-        "id": 15,
-        "question": "My parents _____ eat meat.",
-        "options": ["don’t", "aren’t", "doesn’t", "are"],
-        "answer": "don’t"
-      },
-      {
-        "id": 16,
-        "question": "Summer holidays _____ in June.",
-        "options": ["begins", "begin", "beginning", "began"],
-        "answer": "begin"
-      },
-      {
-        "id": 17,
-        "question": "We _____ tennis on Monday evenings, but my little sister _____ on Sundays.",
-        "options": [
-          "play / play",
-          "plays / plays",
-          "play / plays",
-          "plays / play"
-        ],
-        "answer": "play / plays"
-      },
-      {
-        "id": 18,
-        "question": "You _____ a lot of things in _____ free time.",
-        "options": ["do / our", "does / your", "do / my", "do / your"],
-        "answer": "do / your"
-      },
-      {
-        "id": 19,
-        "question": "My cat licks _____ tail every evening. But my dogs never lick _____ tails.",
-        "options": ["its / their", "its / its", "their / its", "* / *"],
-        "answer": "its / their"
-      },
-      {
         "id": 20,
-        "question": "I like _____ football, but my brother doesn’t.",
-        "options": ["play", "played", "playing", "plays"],
-        "answer": "playing"
+        "question": "She goes skiing _____ her free time.",
+        "options": ["in", "on", "at", "of"],
+        "answer": "in"
       }
     ]
   },
   {
     "day": 9,
-    "questions": [
-      {
-        "id": 1,
-        "question": "She likes _____ TV, but her husband doesn’t.",
-        "options": ["watching", "to watch", "watches", "D)watched"],
-        "answer": "watching"
-      },
-      {
-        "id": 2,
-        "question": "Her sister doesn’t _____ eating a hamburger.",
-        "options": ["like", "likes", "liking", "liked"],
-        "answer": "like"
-      },
-      {
-        "id": 3,
-        "question": "Do you like _____ in your free time?",
-        "options": ["read", "reads", "to read", "reading"],
-        "answer": "reading"
-      },
-      {
-        "id": 4,
-        "question": "I like _____ but I _____ like swimming.",
-        "options": [
-          "sailing / don’t",
-          "sail / doesn’t",
-          "sail / don’t",
-          "sail / do"
-        ],
-        "answer": "sailing / don’t"
-      },
-      {
-        "id": 5,
-        "question": "Tom _____ her but she doesn’t like _____.",
-        "options": ["like / her", "likes / him", "likes / he", "like / him"],
-        "answer": "like / him"
-      },
-      {
-        "id": 6,
-        "question": "Andrew buys a newspaper every day. _____ reads _____ at home.",
-        "options": ["It / he", "Him / it", "He / it", "His / it"],
-        "answer": "He / it"
-      },
-      {
-        "id": 7,
-        "question": "Mike eats cheeseburgers because _____ likes _____.",
-        "options": ["he / their", "him / they", "he / them", "him / them"],
-        "answer": "he / them"
-      },
-      {
-        "id": 8,
-        "question": "“What time is it?”",
-        "options": [
-          "It is quarter past three.",
-          "It is fifteen past four.",
-          "It is quarter to four.",
-          "It is fifteen to four."
-        ],
-        "answer": "It is quarter past three."
-      },
-      {
-        "id": 9,
-        "question": "It is half past eight.",
-        "options": ["8:30", "7:30", "18:30", "17:30"],
-        "answer": "8:30"
-      },
-      {
-        "id": 10,
-        "question": "It is quarter past eight.",
-        "options": ["8:30", "7:30", "8:15", "17:15"],
-        "answer": "8:15"
-      },
-      {
-        "id": 11,
-        "question": "It is five to nine.",
-        "options": ["9:55", "9:35", "8:55", "9:05"],
-        "answer": "8:55"
-      },
-      {
-        "id": 12,
-        "question": "It is five past nine.",
-        "options": ["9:55", "9:35", "8:55", "9:05"],
-        "answer": "9:05"
-      },
-      {
-        "id": 13,
-        "question": "A friend of mine likes _____ on picnic at weekends.",
-        "options": ["to go", "going", "goes", "go"],
-        "answer": "going"
-      },
-      {
-        "id": 14,
-        "question": "I _____ my teeth every morning.",
-        "options": ["brushing", "brush", "brushes", "to brush"],
-        "answer": "brush"
-      },
-      {
-        "id": 15,
-        "question": "_____ Kate live near Jane?",
-        "options": ["Is", "Are", "Do", "Does"],
-        "answer": "Does"
-      },
-      {
-        "id": 16,
-        "question": "His father _____ , but Bill’s father _____ smoke.",
-        "options": [
-          "smokes / don’t",
-          "smokes / doesn’t",
-          "smoke / don’t",
-          "smokes / isn’t"
-        ],
-        "answer": "smokes / doesn’t"
-      },
-      {
-        "id": 17,
-        "question": "My father _____ driving.",
-        "options": [
-          "doesn’t likes",
-          "don’t likes",
-          "doesn’t like",
-          "don’t like"
-        ],
-        "answer": "doesn’t like"
-      },
-      {
-        "id": 18,
-        "question": "She _____ a bus to university.",
-        "options": [
-          "always takes",
-          "always take",
-          "takes always",
-          "take always"
-        ],
-        "answer": "always takes"
-      },
-      {
-        "id": 19,
-        "question": "I _____ to a football match every Sunday but my father _____ .",
-        "options": [
-          "go / don’t",
-          "goes / doesn’t",
-          "go / doesn’t",
-          "goes / don’t"
-        ],
-        "answer": "goes / doesn’t"
-      },
-      {
-        "id": 20,
-        "question": "Every year millions of people _____ The London Museum.",
-        "options": ["visit", "go", "come", "want"],
-        "answer": "visit"
-      }
-    ]
+    "questions": []
   },
   {
     "day": 10,
-    "questions": [
-      {
-        "id": 1,
-        "question": "The Buckingham Palace _____ lots of rooms.",
-        "options": ["have", "has", "to have", "having"],
-        "answer": "has"
-      },
-      {
-        "id": 2,
-        "question": "Visitors _____ to India's Independence Day from all over the world.",
-        "options": ["visit", "come", "leave", "goes"],
-        "answer": "come"
-      },
-      {
-        "id": 3,
-        "question": "I _____ English, Russian, and Romanian, but I _____ Chinese.",
-        "options": [
-          "speak / don’t speak",
-          "speaks / speak",
-          "speaks / speaks",
-          "speaks / don’t speak"
-        ],
-        "answer": "speak / don’t speak"
-      },
-      {
-        "id": 4,
-        "question": "Many foreigners in our country _____ to the Golden Bazaar.",
-        "options": ["buy", "go shopping", "want", "come"],
-        "answer": "go shopping"
-      },
-      {
-        "id": 5,
-        "question": "A: What _____ you _____ ?\nB: An architect.",
-        "options": ["do / do", "does / do", "are / do", "do / are"],
-        "answer": "do / do"
-      },
-      {
-        "id": 6,
-        "question": "A: What _____ your niece _____ ?\nB: A nurse.",
-        "options": ["do / do", "does / is", "does / do", "is / do"],
-        "answer": "does / is"
-      },
-      {
-        "id": 7,
-        "question": "A: Where _____ your parents _____ ?\nB: In the Ministry of Education.",
-        "options": ["do / do", "do / work", "are / work", "work / *"],
-        "answer": "do / work"
-      },
-      {
-        "id": 8,
-        "question": "_____ languages do they speak?",
-        "options": ["What", "How many", "How", "Which"],
-        "answer": "How many"
-      }
-    ]
+    "questions": []
   },
   {
     "day": 11,
-    "questions": [
-      {
-        "id": 1,
-        "question": "A: Do you _____ Afghani?\nB: No, _____ .",
-        "options": [
-          "speak / you don’t",
-          "speak / I don’t",
-          "speak / don’t I",
-          "speaks / don’t speak"
-        ],
-        "answer": "speak / I don’t"
-      },
-      {
-        "id": 2,
-        "question": "_____ New York exciting?",
-        "options": ["Are", "Do", "Does", "Is"],
-        "answer": "Is"
-      },
-      {
-        "id": 3,
-        "question": "Where _____ they live?",
-        "options": ["are", "do", "does", "is"],
-        "answer": "does"
-      },
-      {
-        "id": 4,
-        "question": "Why _____ you want to learn English?",
-        "options": ["do", "are", "*", "is"],
-        "answer": "do"
-      },
-      {
-        "id": 5,
-        "question": "We _____ Algerians.",
-        "options": ["does", "are", "do", "am"],
-        "answer": "are"
-      },
-      {
-        "id": 6,
-        "question": "What _____ he do at weekends?",
-        "options": ["do", "is", "does", "are"],
-        "answer": "does"
-      },
-      {
-        "id": 7,
-        "question": "He plays football _____ Friday mornings.",
-        "options": ["in", "on", "at", "of"],
-        "answer": "on"
-      },
-      {
-        "id": 8,
-        "question": "Do you relax _____ weekends?",
-        "options": ["at", "on", "in", "by"],
-        "answer": "on"
-      },
-      {
-        "id": 9,
-        "question": "Where do you go _____ holiday?",
-        "options": ["at", "in", "of", "on"],
-        "answer": "on"
-      },
-      {
-        "id": 10,
-        "question": "I like _____ .",
-        "options": ["cooks", "cooking", "cook", "cooked"],
-        "answer": "cooking"
-      },
-      {
-        "id": 11,
-        "question": "She gets up early _____ the morning.",
-        "options": ["on", "in", "at", "by"],
-        "answer": "in"
-      },
-      {
-        "id": 12,
-        "question": "She gets up early _____ the weekdays.",
-        "options": ["at", "of", "on", "in"],
-        "answer": "on"
-      },
-      {
-        "id": 13,
-        "question": "He takes photos only _____ spring.",
-        "options": ["in", "at", "on", "by"],
-        "answer": "in"
-      },
-      {
-        "id": 14,
-        "question": "He hates _____ football _____ television.",
-        "options": [
-          "watching / on",
-          "to watch / in",
-          "watch / on",
-          "watching / in"
-        ],
-        "answer": "watching / on"
-      },
-      {
-        "id": 15,
-        "question": "They like _____ very much.",
-        "options": ["sail", "sailed", "sailing", "sail"],
-        "answer": "sailing"
-      },
-      {
-        "id": 16,
-        "question": "My brother’s birthday is _____ March.",
-        "options": ["in", "on", "at", "to"],
-        "answer": "in"
-      },
-      {
-        "id": 17,
-        "question": "The train leaves Paris _____ 4 p.m.",
-        "options": ["in", "at", "on", "by"],
-        "answer": "at"
-      },
-      {
-        "id": 18,
-        "question": "Vancouver is very cold _____ winter.",
-        "options": ["at", "in", "on", "to"],
-        "answer": "in"
-      },
-      {
-        "id": 19,
-        "question": "Sometimes we _____ cards.",
-        "options": ["plays", "playing", "play", "to play"],
-        "answer": "play"
-      },
-      {
-        "id": 20,
-        "question": "She never _____ meat.",
-        "options": ["eats", "eating", "eat", "to eat"],
-        "answer": "eats"
-      }
-    ]
+    "questions": []
   },
   {
     "day": 12,
-    "questions": [
-      {
-        "id": 1,
-        "question": "We always _____ lemonade in the evenings.",
-        "options": ["to drink", "has", "drinking", "have"],
-        "answer": "have"
-      },
-      {
-        "id": 2,
-        "question": "A: I’m sorry. I’m late.\nB: _____ Come and sit down.",
-        "options": [
-          "Excuse me!",
-          "Don’t worry!",
-          "What’s the matter?",
-          "Why are you late?"
-        ],
-        "answer": "Don’t worry!"
-      },
-      {
-        "id": 3,
-        "question": "A- _____ your wife _____ English?\nB- Yes, she does.",
-        "options": [
-          "Do / speak",
-          "Does / speaking",
-          "Does / speak",
-          "Do / speaking"
-        ],
-        "answer": "Does / speak"
-      },
-      {
-        "id": 4,
-        "question": "“How many languages _____ you _____ ?”\n“Three: English, German and Spanish.”",
-        "options": [
-          "does / speak",
-          "do / speak",
-          "do / speaking",
-          "does / speaking"
-        ],
-        "answer": "do / speak"
-      },
-      {
-        "id": 5,
-        "question": "Why _____ you like _____ in the hotel?",
-        "options": [
-          "do / working",
-          "do / work",
-          "does / working",
-          "does / work"
-        ],
-        "answer": "do / work"
-      },
-      {
-        "id": 6,
-        "question": "They never go out _____ Friday evenings .",
-        "options": ["on", "in", "at", "by"],
-        "answer": "on"
-      },
-      {
-        "id": 7,
-        "question": "She loves _____ to music.",
-        "options": ["listening", "to listen", "listens", "listen"],
-        "answer": "listening"
-      },
-      {
-        "id": 8,
-        "question": "They often eat in a restaurant ___ Tuesdays.",
-        "options": ["on", "in", "of", "at"],
-        "answer": "on"
-      },
-      {
-        "id": 9,
-        "question": "_____ summer I play tennis _____ Sundays.",
-        "options": ["In / in", "At / on", "In / on", "At / in"],
-        "answer": "In / on"
-      },
-      {
-        "id": 10,
-        "question": "“Do Mr. Adams and his daughter like going _____ ?”\n“No, they _____ .”",
-        "options": [
-          "ski / don’t",
-          "skiing / don’t",
-          "skiing / do",
-          "ski / does"
-        ],
-        "answer": "skiing / don’t"
-      },
-      {
-        "id": 11,
-        "question": "“_____ they _____ a winter holiday?”\n“Yes, they do.”",
-        "options": [
-          "Do / wanting",
-          "Does / want",
-          "Do / want",
-          "Does / wanting"
-        ],
-        "answer": "Do / want"
-      },
-      {
-        "id": 12,
-        "question": "What time ____ you go to bed?",
-        "options": ["do", "does", "is", "have"],
-        "answer": "do"
-      },
-      {
-        "id": 13,
-        "question": "“_____ do you do your homework?”\n“After dinner.”",
-        "options": ["Where", "What", "How", "When"],
-        "answer": "What"
-      },
-      {
-        "id": 14,
-        "question": "“_____ you go out on Friday evenings?”\n“Yes, I do sometimes.”",
-        "options": ["Do", "Where", "Are", "Does"],
-        "answer": "Do"
-      },
-      {
-        "id": 15,
-        "question": "“_____ you like your job?”\n“Because it’s interesting.”",
-        "options": ["Why", "What", "How", "Where"],
-        "answer": "Why"
-      },
-      {
-        "id": 16,
-        "question": "“_____ you travel to school?”\n“By bus.”",
-        "options": ["How", "What", "Why", "Where"],
-        "answer": "How"
-      },
-      {
-        "id": 17,
-        "question": "“____ ____ you live with?”\n“With my mother and sisters.”",
-        "options": ["What / do", "Who / do", "Where / does", "Who / does"],
-        "answer": "Who / do"
-      },
-      {
-        "id": 18,
-        "question": "“_____ _____ you _____ on Sundays?”\n“I always relax.”",
-        "options": ["How / doing", "What / do", "Where / does", "What / relax"],
-        "answer": "What / relax"
-      },
-      {
-        "id": 19,
-        "question": "“_____ you _____ on holiday?”\n“To Rome or Paris.”",
-        "options": ["Where / like", "How / relax", "Where / go", "Why / go"],
-        "answer": "Where / go"
-      }
-    ]
+    "questions": []
   },
   {
     "day": 13,
@@ -1591,350 +1106,326 @@
   {
     "day": 16,
     "questions": [
-      [
-        {
-          "id": 1,
-          "question": "Our homework ____ very difficult yesterday, but today it ____ easy.",
-          "options": ["is / is", "was / is", "was / was", "is / was"],
-          "answer": "was / is"
-        },
-        {
-          "id": 2,
-          "question": "I know that I _____ late 2 days ago, but this time I _____ late.",
-          "options": [
-            "am / were",
-            "am not / am not",
-            "was / was",
-            "wasn’t / am"
-          ],
-          "answer": "wasn’t / am"
-        },
-        {
-          "id": 3,
-          "question": "A: _____ was she born?\nB: She _____ born in New Zealand.",
-          "options": [
-            "Where / was",
-            "Where / were",
-            "When / were",
-            "When / was"
-          ],
-          "answer": "Where / was"
-        },
-        {
-          "id": 4,
-          "question": "A: _____ were they late for the meeting?\nB: Because they _____ asleep.",
-          "options": ["What / were", "Why / was", "Why / were", "Why / are"],
-          "answer": "Why / were"
-        },
-        {
-          "id": 5,
-          "question": "The weather _____ nice today, but it _____ nasty yesterday.",
-          "options": ["is / was", "was / is", "is / is", "is / were"],
-          "answer": "is / was"
-        },
-        {
-          "id": 6,
-          "question": "A: _____ was Mr. Black born?\nB: He was born _____ 1963.",
-          "options": ["When / at", "Where / in", "What / in", "When / in"],
-          "answer": "When / in"
-        },
-        {
-          "id": 7,
-          "question": "The students _____ very tired today. Because they _____ at a party last night.",
-          "options": ["were / are", "are / was", "are / were", "were / were"],
-          "answer": "are / were"
-        },
-        {
-          "id": 8,
-          "question": "A: _____ was Jennifer’s job 2 years ago?\nB: She _____ a flight attendant.",
-          "options": ["Why / were", "What / was", "Who / was", "Who / were"],
-          "answer": "What / was"
-        },
-        {
-          "id": 9,
-          "question": "A: _____ is the briefcase?\nB: It _____ 200 dollars, but it _____ 100 dollars before.",
-          "options": [
-            "How much / is / was",
-            "How many / is / was",
-            "How much / was / is",
-            "How much / is / is"
-          ],
-          "answer": "How much / is / was"
-        },
-        {
-          "id": 10,
-          "question": "A: How old _____ you in 1990?\nB: I _____ 10, but I _____ 25 now.",
-          "options": [
-            "are / are / was",
-            "were / was / am",
-            "was / are / were",
-            "were / was / are"
-          ],
-          "answer": "were / was / am"
-        },
-        {
-          "id": 11,
-          "question": "A: How _____ they after the accident?\nB: They _____ shocked, but now they _____ better.",
-          "options": [
-            "were / are / were",
-            "were / were / were",
-            "was / were / are",
-            "were / were / are"
-          ],
-          "answer": "were / were / are"
-        },
-        {
-          "id": 12,
-          "question": "A: How much _____ the tea cups before?\nB: They _____ 10 euros each, they _____ 8 euros now!",
-          "options": [
-            "were / were / are",
-            "were / are / were",
-            "are / were / were",
-            "are / were / are"
-          ],
-          "answer": "were / were / are"
-        },
-        {
-          "id": 13,
-          "question": "A: Where _____ they born?\nB: They _____ born _____ .",
-          "options": [
-            "were / were / in 1995",
-            "was / were / in Italy",
-            "were / were / in Denmark",
-            "was / were / in 1995"
-          ],
-          "answer": "were / were / in Denmark"
-        },
-        {
-          "id": 14,
-          "question": "I _____ play chess _____ I was five.",
-          "options": [
-            "can / when",
-            "could / when",
-            "could / what",
-            "can / where"
-          ],
-          "answer": "could / when"
-        },
-        {
-          "id": 15,
-          "question": "_____ could you do when you _____ seven.",
-          "options": ["Were / was", "What / was", "What / are", "What / were"],
-          "answer": "What / were"
-        },
-        {
-          "id": 16,
-          "question": "A: _____ languages _____ Nicola speak when he _____ a child?\nB: 2 languages.",
-          "options": [
-            "How many / could / was",
-            "How much / could / was",
-            "What / was / could",
-            "What / could / was"
-          ],
-          "answer": "How many / could / was"
-        },
-        {
-          "id": 17,
-          "question": "A: _____ languages could they speak when they _____ teenagers?\nB: Italian and Russian.",
-          "options": ["Which / was", "What / were", "What / was", "How / were"],
-          "answer": "What / were"
-        },
-        {
-          "id": 18,
-          "question": "My little sister _____ paint pictures alone when she _____ nine, but she _____ now.",
-          "options": [
-            "could / can / can",
-            "can / was / could",
-            "couldn’t / was / can",
-            "was / can / could"
-          ],
-          "answer": "couldn’t / was / can"
-        },
-        {
-          "id": 19,
-          "question": "Kim _____ ski 4 years ago, but he _____ ski very well now.",
-          "options": [
-            "could / can",
-            "can / could",
-            "could / can’t",
-            "couldn’t / can"
-          ],
-          "answer": "couldn’t / can"
-        },
-        {
-          "id": 20,
-          "question": "_____ Ben and Jane married ten years ago?",
-          "options": ["Was", "Were", "Are", "Is"],
-          "answer": "Were"
-        }
-      ]
+      {
+        "id": 1,
+        "question": "Our homework ____ very difficult yesterday, but today it ____ easy.",
+        "options": ["is / is", "was / is", "was / was", "is / was"],
+        "answer": "was / is"
+      },
+      {
+        "id": 2,
+        "question": "I know that I _____ late 2 days ago, but this time I _____ late.",
+        "options": ["am / were", "am not / am not", "was / was", "wasn’t / am"],
+        "answer": "wasn’t / am"
+      },
+      {
+        "id": 3,
+        "question": "A: _____ was she born?\nB: She _____ born in New Zealand.",
+        "options": ["Where / was", "Where / were", "When / were", "When / was"],
+        "answer": "Where / was"
+      },
+      {
+        "id": 4,
+        "question": "A: _____ were they late for the meeting?\nB: Because they _____ asleep.",
+        "options": ["What / were", "Why / was", "Why / were", "Why / are"],
+        "answer": "Why / were"
+      },
+      {
+        "id": 5,
+        "question": "The weather _____ nice today, but it _____ nasty yesterday.",
+        "options": ["is / was", "was / is", "is / is", "is / were"],
+        "answer": "is / was"
+      },
+      {
+        "id": 6,
+        "question": "A: _____ was Mr. Black born?\nB: He was born _____ 1963.",
+        "options": ["When / at", "Where / in", "What / in", "When / in"],
+        "answer": "When / in"
+      },
+      {
+        "id": 7,
+        "question": "The students _____ very tired today. Because they _____ at a party last night.",
+        "options": ["were / are", "are / was", "are / were", "were / were"],
+        "answer": "are / were"
+      },
+      {
+        "id": 8,
+        "question": "A: _____ was Jennifer’s job 2 years ago?\nB: She _____ a flight attendant.",
+        "options": ["Why / were", "What / was", "Who / was", "Who / were"],
+        "answer": "What / was"
+      },
+      {
+        "id": 9,
+        "question": "A: _____ is the briefcase?\nB: It _____ 200 dollars, but it _____ 100 dollars before.",
+        "options": [
+          "How much / is / was",
+          "How many / is / was",
+          "How much / was / is",
+          "How much / is / is"
+        ],
+        "answer": "How much / is / was"
+      },
+      {
+        "id": 10,
+        "question": "A: How old _____ you in 1990?\nB: I _____ 10, but I _____ 25 now.",
+        "options": [
+          "are / are / was",
+          "were / was / am",
+          "was / are / were",
+          "were / was / are"
+        ],
+        "answer": "were / was / am"
+      },
+      {
+        "id": 11,
+        "question": "A: How _____ they after the accident?\nB: They _____ shocked, but now they _____ better.",
+        "options": [
+          "were / are / were",
+          "were / were / were",
+          "was / were / are",
+          "were / were / are"
+        ],
+        "answer": "were / were / are"
+      },
+      {
+        "id": 12,
+        "question": "A: How much _____ the tea cups before?\nB: They _____ 10 euros each, they _____ 8 euros now!",
+        "options": [
+          "were / were / are",
+          "were / are / were",
+          "are / were / were",
+          "are / were / are"
+        ],
+        "answer": "were / were / are"
+      },
+      {
+        "id": 13,
+        "question": "A: Where _____ they born?\nB: They _____ born _____ .",
+        "options": [
+          "were / were / in 1995",
+          "was / were / in Italy",
+          "were / were / in Denmark",
+          "was / were / in 1995"
+        ],
+        "answer": "were / were / in Denmark"
+      },
+      {
+        "id": 14,
+        "question": "I _____ play chess _____ I was five.",
+        "options": [
+          "can / when",
+          "could / when",
+          "could / what",
+          "can / where"
+        ],
+        "answer": "could / when"
+      },
+      {
+        "id": 15,
+        "question": "_____ could you do when you _____ seven.",
+        "options": ["Were / was", "What / was", "What / are", "What / were"],
+        "answer": "What / were"
+      },
+      {
+        "id": 16,
+        "question": "A: _____ languages _____ Nicola speak when he _____ a child?\nB: 2 languages.",
+        "options": [
+          "How many / could / was",
+          "How much / could / was",
+          "What / was / could",
+          "What / could / was"
+        ],
+        "answer": "How many / could / was"
+      },
+      {
+        "id": 17,
+        "question": "A: _____ languages could they speak when they _____ teenagers?\nB: Italian and Russian.",
+        "options": ["Which / was", "What / were", "What / was", "How / were"],
+        "answer": "What / were"
+      },
+      {
+        "id": 18,
+        "question": "My little sister _____ paint pictures alone when she _____ nine, but she _____ now.",
+        "options": [
+          "could / can / can",
+          "can / was / could",
+          "couldn’t / was / can",
+          "was / can / could"
+        ],
+        "answer": "couldn’t / was / can"
+      },
+      {
+        "id": 19,
+        "question": "Kim _____ ski 4 years ago, but he _____ ski very well now.",
+        "options": [
+          "could / can",
+          "can / could",
+          "could / can’t",
+          "couldn’t / can"
+        ],
+        "answer": "couldn’t / can"
+      },
+      {
+        "id": 20,
+        "question": "_____ Ben and Jane married ten years ago?",
+        "options": ["Was", "Were", "Are", "Is"],
+        "answer": "Were"
+      }
     ]
   },
   {
     "day": 17,
     "questions": [
-      [
-        {
-          "id": 21,
-          "question": "Tim _____ run very well, but I _____ run like him, because I was bad at running.",
-          "options": [
-            "could / couldn’t",
-            "could / could",
-            "can / could",
-            "can / can"
-          ],
-          "answer": "could / couldn’t"
-        },
-        {
-          "id": 22,
-          "question": "I _____ play football well, but I _____ play ice-hockey very well.",
-          "options": [
-            "can’t / can",
-            "could / can’t",
-            "could / can",
-            "can / could"
-          ],
-          "answer": "could / can’t"
-        },
-        {
-          "id": 23,
-          "question": "Last year they _____ in Europe, and visited Germany, _____ they traveled only in Berlin.",
-          "options": ["was / but", "were / but", "were / so", "was / and"],
-          "answer": "were / but"
-        },
-        {
-          "id": 24,
-          "question": "I _____ born in Amsterdam _____ I live in New York now.",
-          "options": ["was / and", "was / but", "were / and", "were / but"],
-          "answer": "was / but"
-        },
-        {
-          "id": 25,
-          "question": "She _____ understand English, _____ she can’t speak it.",
-          "options": ["could / and", "can / and", "can / but", "can’t / but"],
-          "answer": "can / but"
-        },
-        {
-          "id": 26,
-          "question": "I love Netherlands, _____ I came to Amsterdam.",
-          "options": ["and", "however", "for", "*"],
-          "answer": "however"
-        },
-        {
-          "id": 27,
-          "question": "A: _____ you _____ the piano?\nB: Yes, _____ .",
-          "options": [
-            "Can / use / I can",
-            "Can / play / I can",
-            "Can / play / I",
-            "Can / use / *"
-          ],
-          "answer": "Can / play / I can"
-        },
-        {
-          "id": 28,
-          "question": "A: _____ of food _____ our cook cook?\nB: Italian & French food.",
-          "options": [
-            "What of / can",
-            "Which / can",
-            "What kind / can",
-            "What / can"
-          ],
-          "answer": "What kind / can"
-        },
-        {
-          "id": 29,
-          "question": "A: _____ can she _____ the guitar?\nB: Very well.",
-          "options": ["How / play", "Why / play", "What / play", "When / play"],
-          "answer": "How / play"
-        },
-        {
-          "id": 30,
-          "question": "A: _____ can they _____ a computer?\nB: In the office.",
-          "options": [
-            "What time / use",
-            "Where / use",
-            "When / use",
-            "Where / using"
-          ],
-          "answer": "Where / use"
-        },
-        {
-          "id": 31,
-          "question": "A: _____ languages can her aunt _____ ?\nB: 2 languages.",
-          "options": [
-            "How many / speak",
-            "How much / speak",
-            "What / use",
-            "What / speak"
-          ],
-          "answer": "How many / speak"
-        },
-        {
-          "id": 32,
-          "question": "A: _____ languages can Mrs. Brown speak?\nB: English & Irish.",
-          "options": ["How", "What", "Why", "Where"],
-          "answer": "What"
-        },
-        {
-          "id": 33,
-          "question": "A: _____ can you cook Italian food for us?\nB: On Friday evening.",
-          "options": ["What", "When", "What time", "Why"],
-          "answer": "When"
-        },
-        {
-          "id": 34,
-          "question": "A: _____ can my students come?\nB: At 3 in the afternoon.",
-          "options": ["What", "Where", "How", "What time"],
-          "answer": "What time"
-        },
-        {
-          "id": 35,
-          "question": "A: _____ can Alison go skiing?\nB: On her winter holiday.",
-          "options": ["Where", "Why", "When", "What"],
-          "answer": "When"
-        },
-        {
-          "id": 36,
-          "question": "A: _____ Paul play rugby?\nB: No, he can’t. But he can _____ baseball.",
-          "options": [
-            "Can / play",
-            "Can / plays",
-            "Does / play",
-            "Does / play"
-          ],
-          "answer": "Can / play"
-        },
-        {
-          "id": 37,
-          "question": "A: _____ can’t you come to the party?\nB: Because I have an exam tomorrow.",
-          "options": ["When", "*", "Why", "What"],
-          "answer": "Why"
-        },
-        {
-          "id": 38,
-          "question": "Adam _____ ride a motorbike and he _____ drive a car.",
-          "options": ["can’t / can", "can / can", "can / is", "can / can’t"],
-          "answer": "can / can"
-        },
-        {
-          "id": 39,
-          "question": "Adam _____ use a computer, but he _____ program a computer.",
-          "options": [
-            "is / isn’t",
-            "can / can",
-            "can / can’t",
-            "can’t / can’t"
-          ],
-          "answer": "can / can’t"
-        },
-        {
-          "id": 40,
-          "question": "Flora _____ drive a car but she _____ ride a motorbike.",
-          "options": ["can / can’t", "is / can’t", "can’t / can’t", "is / can"],
-          "answer": "can / can’t"
-        }
-      ]
+      {
+        "id": 21,
+        "question": "Tim _____ run very well, but I _____ run like him, because I was bad at running.",
+        "options": [
+          "could / couldn’t",
+          "could / could",
+          "can / could",
+          "can / can"
+        ],
+        "answer": "could / couldn’t"
+      },
+      {
+        "id": 22,
+        "question": "I _____ play football well, but I _____ play ice-hockey very well.",
+        "options": [
+          "can’t / can",
+          "could / can’t",
+          "could / can",
+          "can / could"
+        ],
+        "answer": "could / can’t"
+      },
+      {
+        "id": 23,
+        "question": "Last year they _____ in Europe, and visited Germany, _____ they traveled only in Berlin.",
+        "options": ["was / but", "were / but", "were / so", "was / and"],
+        "answer": "were / but"
+      },
+      {
+        "id": 24,
+        "question": "I _____ born in Amsterdam _____ I live in New York now.",
+        "options": ["was / and", "was / but", "were / and", "were / but"],
+        "answer": "was / but"
+      },
+      {
+        "id": 25,
+        "question": "She _____ understand English, _____ she can’t speak it.",
+        "options": ["could / and", "can / and", "can / but", "can’t / but"],
+        "answer": "can / but"
+      },
+      {
+        "id": 26,
+        "question": "I love Netherlands, _____ I came to Amsterdam.",
+        "options": ["and", "however", "for", ""],
+        "answer": "however"
+      },
+      {
+        "id": 27,
+        "question": "A: _____ you _____ the piano?\nB: Yes, _____ .",
+        "options": [
+          "Can / use / I can",
+          "Can / play / I can",
+          "Can / play / I",
+          "Can / use / *"
+        ],
+        "answer": "Can / play / I can"
+      },
+      {
+        "id": 28,
+        "question": "A: _____ of food _____ our cook cook?\nB: Italian & French food.",
+        "options": [
+          "What of / can",
+          "Which / can",
+          "What kind / can",
+          "What / can"
+        ],
+        "answer": "What kind / can"
+      },
+      {
+        "id": 29,
+        "question": "A: _____ can she _____ the guitar?\nB: Very well.",
+        "options": ["How / play", "Why / play", "What / play", "When / play"],
+        "answer": "How / play"
+      },
+      {
+        "id": 30,
+        "question": "A: _____ can they _____ a computer?\nB: In the office.",
+        "options": [
+          "What time / use",
+          "Where / use",
+          "When / use",
+          "Where / using"
+        ],
+        "answer": "Where / use"
+      },
+      {
+        "id": 31,
+        "question": "A: _____ languages can her aunt _____ ?\nB: 2 languages.",
+        "options": [
+          "How many / speak",
+          "How much / speak",
+          "What / use",
+          "What / speak"
+        ],
+        "answer": "How many / speak"
+      },
+      {
+        "id": 32,
+        "question": "A: _____ languages can Mrs. Brown speak?\nB: English & Irish.",
+        "options": ["How", "What", "Why", "Where"],
+        "answer": "What"
+      },
+      {
+        "id": 33,
+        "question": "A: _____ can you cook Italian food for us?\nB: On Friday evening.",
+        "options": ["What", "When", "What time", "Why"],
+        "answer": "When"
+      },
+      {
+        "id": 34,
+        "question": "A: _____ can my students come?\nB: At 3 in the afternoon.",
+        "options": ["What", "Where", "How", "What time"],
+        "answer": "What time"
+      },
+      {
+        "id": 35,
+        "question": "A: _____ can Alison go skiing?\nB: On her winter holiday.",
+        "options": ["Where", "Why", "When", "What"],
+        "answer": "When"
+      },
+      {
+        "id": 36,
+        "question": "A: _____ Paul play rugby?\nB: No, he can’t. But he can _____ baseball.",
+        "options": ["Can / play", "Can / plays", "Does / play", "Does / play"],
+        "answer": "Can / play"
+      },
+      {
+        "id": 37,
+        "question": "A: _____ can’t you come to the party?\nB: Because I have an exam tomorrow.",
+        "options": ["When", "*", "Why", "What"],
+        "answer": "Why"
+      },
+      {
+        "id": 38,
+        "question": "Adam _____ ride a motorbike and he _____ drive a car.",
+        "options": ["can’t / can", "can / can", "can / is", "can / can’t"],
+        "answer": "can / can"
+      },
+      {
+        "id": 39,
+        "question": "Adam _____ use a computer, but he _____ program a computer.",
+        "options": ["is / isn’t", "can / can", "can / can’t", "can’t / can’t"],
+        "answer": "can / can’t"
+      },
+      {
+        "id": 40,
+        "question": "Flora _____ drive a car but she _____ ride a motorbike.",
+        "options": ["can / can’t", "is / can’t", "can’t / can’t", "is / can"],
+        "answer": "can / can’t"
+      }
     ]
   },
   {
@@ -2008,7 +1499,7 @@
       },
       {
         "id": 52,
-        "question": "“Where _____ you born?”\n“I _____ born in India.",
+        "question": "\"Where _____ you born?\"\n\"I _____ born in India.\"",
         "options": ["are / am", "were / was", "were / were", "was / were"],
         "answer": "were / was"
       },
@@ -2025,13 +1516,13 @@
       },
       {
         "id": 54,
-        "question": "“Where _____ your sister born?”\n“She _____ born in India, too.”",
+        "question": "\"Where _____ your sister born?\"\n\"She _____ born in India, too.\"",
         "options": ["were / was", "are / is", "was / was", "was / were"],
         "answer": "was / was"
       },
       {
         "id": 55,
-        "question": "“_____ you drive?”\n“No, I can’t.”",
+        "question": "\"_____ you drive?\"\n\"No, I can’t.\"",
         "options": ["Could", "Are", "Can", "Is"],
         "answer": "Can"
       },
@@ -2071,49 +1562,49 @@
     "day": 19,
     "questions": [
       {
-        "id": 1,
+        "id": 61,
         "question": "John lives _____ home _____ his parents.",
         "options": ["in / with", "at / with", "at / of", "on / with"],
         "answer": "in / with"
       },
       {
-        "id": 2,
+        "id": 62,
         "question": "I go _____ work _____ bus.",
         "options": ["to / by", "at / on", "to / with", "by / to"],
         "answer": "to / by"
       },
       {
-        "id": 3,
+        "id": 63,
         "question": "I work _____ 6 a.m. _____ 6 p.m.",
         "options": ["from / to", "to / at", "at / at", "at / until"],
         "answer": "from / to"
       },
       {
-        "id": 4,
+        "id": 64,
         "question": "Look _____ this photo _____ my brother. Isn’t he tall?",
         "options": ["at / of", "of / on", "in / in", "in / at"],
         "answer": "at / of"
       },
       {
-        "id": 5,
+        "id": 65,
         "question": "Queen Elizabeth was born _____ London _____ 1926.",
         "options": ["at / in", "of / on", "in / in", "on / in"],
         "answer": "in / in"
       },
       {
-        "id": 6,
+        "id": 66,
         "question": "“ Can you help me with my homework ?”\n“_____ course I can; give it _____ me.”",
         "options": ["Of / for", "Of / to", "It / at", "For / of"],
         "answer": "Of / to"
       },
       {
-        "id": 7,
+        "id": 67,
         "question": "“Could she cook?”\n“Yes, she _____”",
         "options": ["can", "is", "could", "was"],
         "answer": "could"
       },
       {
-        "id": 8,
+        "id": 68,
         "question": "“_____ you cook Italian food?”\n“No, I _____ but I love eating it.”",
         "options": [
           "Are / am not",
@@ -2124,13 +1615,13 @@
         "answer": "Can / can’t"
       },
       {
-        "id": 9,
+        "id": 69,
         "question": "Everybody _____ drive a car in my family.",
         "options": ["was", "can", "is", "are"],
         "answer": "can"
       },
       {
-        "id": 10,
+        "id": 70,
         "question": "_____ you _____ any other languages?",
         "options": [
           "Could / know",
@@ -2141,43 +1632,43 @@
         "answer": "Can / speak"
       },
       {
-        "id": 11,
+        "id": 71,
         "question": "“ _____ your friend speak English?”\n“No, she _____ .”",
         "options": ["Is / isn’t", "Can / can’t", "Could / could", "Can/can"],
         "answer": "Can / can’t"
       },
       {
-        "id": 12,
+        "id": 72,
         "question": "He _____ paint pictures when he was just three.",
         "options": ["can", "could", "is", "are"],
         "answer": "could"
       },
       {
-        "id": 13,
+        "id": 73,
         "question": "“_____ you in England in 1999?”\n“Yes, I _____ .”",
         "options": ["Could / could", "Are / am", "Were / was", "Was / were"],
         "answer": "Were / was"
       },
       {
-        "id": 14,
+        "id": 74,
         "question": "_____ you swim when you were five?",
         "options": ["Could", "Can", "Do", "Are"],
         "answer": "Could"
       },
       {
-        "id": 15,
+        "id": 75,
         "question": "Where _____ you now?",
         "options": ["were", "do", "are", "is"],
         "answer": "are"
       },
       {
-        "id": 16,
+        "id": 76,
         "question": "What month _____ it last month?",
         "options": ["was", "is", "were", "did"],
-        "answer": "did"
+        "answer": "was"
       },
       {
-        "id": 17,
+        "id": 77,
         "question": "_____ your teacher speak English when he was seven?",
         "options": ["Can", "Could", "Does", "Are"],
         "answer": "Could"
@@ -2185,7 +1676,7 @@
     ]
   },
   {
-    "day": 10,
+    "day": 20,
     "questions": [
       {
         "id": 1,

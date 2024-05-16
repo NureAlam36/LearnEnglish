@@ -8,6 +8,7 @@ import { useRoute } from '@react-navigation/native';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import conversations from '@/data/conversations.json';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Conversation = () => {
     const route = useRoute();
@@ -54,14 +55,17 @@ const Conversation = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
+            {/* <Stack.Screen
                 options={{
                     title: 'Daily Use Sentences',
                     headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{topicName}</Text>,
                     headerStyle: { backgroundColor: '#5495fb' },
                     headerRight: () => <Feather name="play-circle" size={32} color="white" onPress={() => speakConversation()} />
                 }}
-            />
+            /> */}
+
+            <ContentHeader title={topicName} />
+
             <View style={{ flex: 1, paddingHorizontal: 15, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
                 <FlatList
                     data={dialog}

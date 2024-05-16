@@ -14,8 +14,9 @@ import { Link } from "expo-router";
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { conversations } from '@/data/conversations.json';
+import ContentHeader from "@/components/Headers/ContentHeader";
 
-const StudyPhases = () => {
+const StudyPhases = ({ navigation }: any) => {
     const route = useRoute();
     const { colorScheme } = useColorSchemeContext();
     const { slug } = route.params as any;
@@ -32,11 +33,9 @@ const StudyPhases = () => {
                         name: item.name,
                     }
 
-                    console.log(topic);
+                    // console.log(topic);
                     setTopics((topics: any) => [...topics, topic]);
                 })
-
-
             }
         })
     }, [])
@@ -45,30 +44,23 @@ const StudyPhases = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Common Conversations',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Common Conversations</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title="Chapter List" />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Chapter List</Text>
                 <FlatList
                     data={topics}
                     renderItem={({ item, index }) => (
                         // @ts-ignore
-                        <Link href={`/common-conversations/${slug}/${item.id}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <View style={styles.itemIcon}>
-                                        <Text
-                                            style={styles.itemSn}>{item.id}</Text>
-                                    </View>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                        <TouchableOpacity onPress={() => navigation.navigate('conversations_screen', { id: item.id, slug: slug })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                            <View style={styles.item}>
+                                <View style={styles.itemIcon}>
+                                    <Text
+                                        style={styles.itemSn}>{item.id}</Text>
                                 </View>
-                            </TouchableOpacity>
-                        </Link>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id}
                     showsVerticalScrollIndicator={false}

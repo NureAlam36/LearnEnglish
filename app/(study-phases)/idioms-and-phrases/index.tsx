@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
-import { Stack } from 'expo-router'
+// import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
@@ -8,6 +8,13 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
 import ContentHeader from "@/components/Headers/ContentHeader";
+
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+
+import Phrases from './phrases';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
 
 const DATA = [
     {
@@ -53,6 +60,20 @@ const DATA = [
 ];
 
 const Index = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+
+            <Stack.Screen name="phrasesCategory_screen" component={PhrasesCategory} options={{ header: () => <ContentHeader title="Idioms and Phrases" />, headerShown: true }} />
+            <Stack.Screen name="phrases_screen" component={Phrases} />
+        </Stack.Navigator>
+    );
+}
+
+const PhrasesCategory = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -68,21 +89,19 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <ContentHeader title="Idioms & Phrases" />
+            {/* <ContentHeader title="Idioms & Phrases" /> */}
 
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={categories}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <Link href={`/idioms-and-phrases/${item.name}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <Text style={styles.item_icon}>{item.name.toUpperCase()}</Text>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>
-                                </View>
-                            </TouchableOpacity>
-                        </Link>
+                        <TouchableOpacity onPress={() => navigation.navigate('phrases_screen', { slug: item.name })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
+                            <View style={styles.item}>
+                                <Text style={styles.item_icon}>{item.name.toUpperCase()}</Text>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
                     contentContainerStyle={{ gap: 10 }}
@@ -112,7 +131,7 @@ const styles = StyleSheet.create({
     item_icon: {
         width: 45,
         height: 45,
-        backgroundColor: '#5495fb',
+        backgroundColor: COLORS.primary,
         borderRadius: 10,
         textAlign: 'center',
         textAlignVertical: 'center',

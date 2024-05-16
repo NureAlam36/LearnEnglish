@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, Image, FlatList, TouchableOpacity, Dimensions, StyleSheet } from 'react-native'
-import { Stack } from 'expo-router'
 
 import { COLORS, FONT } from "@/constants";
 
-import { useRoute } from '@react-navigation/native';
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
-const index = () => {
-    const route = useRoute();
+import ContentHeader from '@/components/Headers/ContentHeader';
+
+const index = ({ route }: any) => {
     const { slug } = route.params as any;
 
     const screenWidth = Dimensions.get('window').width;
@@ -28,13 +27,8 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    title: 'Vocabulary',
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Beginning With ‘{topicName.toUpperCase()}’</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title={`Beginning With ‘${topicName.toUpperCase()}’`} />
+
             <View>
                 <FlatList
                     data={phrases}

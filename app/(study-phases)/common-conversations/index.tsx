@@ -16,6 +16,14 @@ import { conversations } from '@/data/conversations.json';
 
 import ContentHeader from "@/components/Headers/ContentHeader";
 
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
+
+import Conversations from './conversations'
+import Topics from './topics'
+
 const DATA = [
     {
         id: "1",
@@ -150,7 +158,22 @@ const DATA = [
     },
 ];
 
-const StudyPhases = () => {
+const Index = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+
+            <Stack.Screen name="phrasesCategory_screen" component={CommonConversations} options={{ header: () => <ContentHeader title="Idioms and Phrases" />, headerShown: true }} />
+            <Stack.Screen name="topics_screen" component={Topics} options={{ header: () => <ContentHeader title="Topics" />, headerShown: true }} />
+            <Stack.Screen name="conversations_screen" component={Conversations} />
+        </Stack.Navigator>
+    );
+}
+
+const CommonConversations = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -184,20 +207,18 @@ const StudyPhases = () => {
                     data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <Link href={`/common-conversations/${item.link}`} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]} asChild>
-                            <TouchableOpacity activeOpacity={0.7}>
-                                <View style={styles.item}>
-                                    <View style={[styles.imageWraper, { backgroundColor: colorScheme === 'light' ? '#e5f5ff' : COLORS.darkSecondary }]}>
-                                        <Image
-                                            style={styles.image}
-                                            source={{ uri: item.image }}
-                                            resizeMode="contain"
-                                        />
-                                    </View>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                        <TouchableOpacity onPress={() => navigation.navigate('topics_screen', { slug: 'greetings' })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
+                            <View style={styles.item}>
+                                <View style={[styles.imageWraper, { backgroundColor: colorScheme === 'light' ? '#e5f5ff' : COLORS.darkSecondary }]}>
+                                    <Image
+                                        style={styles.image}
+                                        source={{ uri: item.image }}
+                                        resizeMode="contain"
+                                    />
                                 </View>
-                            </TouchableOpacity>
-                        </Link>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                            </View>
+                        </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
                     numColumns={2}
@@ -251,4 +272,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default StudyPhases;
+export default Index;

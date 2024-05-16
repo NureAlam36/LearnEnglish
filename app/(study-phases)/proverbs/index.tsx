@@ -22,8 +22,8 @@ const Proverbs = () => {
                     keyExtractor={item => item.id.toString()}
                     renderItem={({ item, index }) => (
                         <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? '#f6f6f6' : COLORS.darkPrimary) : '' }]} activeOpacity={0.6}>
-                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, marginBottom: 10, color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }}>{item.bangla}</Text>
-                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }}>{item.english}</Text>
+                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, marginBottom: 10, color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }}>{item.bn}</Text>
+                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }}>{item.en}</Text>
                         </TouchableOpacity>
                     )}
                     showsVerticalScrollIndicator={false}

@@ -1,52 +1,3067 @@
 [
-    {
-        "id": 1,
-        "bangla": "যেমন কর্ম তেমন ফল ।",
-        "english": "As you make your bed, so you must lie on it ."
-    },
-    {
-        "id": 2,
-        "bangla": "লোভে পাপ, পাপে মৃত্যু।",
-        "english": "Avarice begets sin and sin begets death."
-    },
-    {
-        "id": 3,
-        "bangla": "মাথা নেই তার মাথা ব্যথা।",
-        "english": "Bachelors’ wives and maids’ children are always well taught."
-    },
-    {
-        "id": 4,
-        "bangla": "যত গর্জে তত বর্ষে না ।",
-        "english": "Barking dogs seldom bite ."
-    },
-    {
-        "id": 5,
-        "bangla": "সোনার চামচ মুখে নিয়ে জন্মান; সচ্ছল পরিবারে জন্মগ্রহন করা।",
-        "english": "Be born with a silver spoon in one’s mouth ."
-    },
-    {
-        "id": 6,
-        "bangla": "জরু, গরু, ধান, তিন রাখে বিদ্যমান।",
-        "english": "Be mindful of your wife, kine and paddy."
-    },
-    {
-        "id": 7,
-        "bangla": "বিয়ে করতে কড়ি, ঘর বাঁধতে দড়ি।",
-        "english": "Be sure before you marry of a house wherein to tarry."
-    },
-    {
-        "id": 8,
-        "bangla": "যার নুন খাও তার গুণ গাও।",
-        "english": "Be true to your salt."
-    },
-    {
-        "id": 9,
-        "bangla": "প্রতিকারের চেয়ে প্রতিরোধ ভালো ।",
-        "english": "An ounce of prevention is worth a pound of cure ."
-    },
-    {
-        "id": 10,
-        "bangla": "অকালে কী না খায়।",
-        "english": "Any food is good enough when there is a famine."
-    }
+  {
+    "id": "1",
+    "bn": "অপদার্থ যেখান থেকে শুরু করে সেখানেই ফিরে আসে।",
+    "en": "A bad penny always turns up."
+  },
+  {
+    "id": "2",
+    "bn": "নাচতে না জানলে উঠোন বাঁকা।",
+    "en": "A bad workman quarrels with his tools."
+  },
+  {
+    "id": "3",
+    "bn": "যত গর্জে তত বর্ষে না।",
+    "en": "A barking dog never or seldom bites."
+  },
+  {
+    "id": "4",
+    "bn": "মাথা নেই তার মাথাব্যথা।",
+    "en": "A beggar cannot be a bankrupt."
+  },
+  {
+    "id": "5",
+    "bn": "নেংটার নেই বাটপাড়ের ভয়।",
+    "en": "A beggar may sing before a pick-pocket."
+  },
+  {
+    "id": "6",
+    "bn": "হাতের জিনিস ফেলে দূরের জিনিস নিতে নেই।",
+    "en": "A bird in the hand is worth two in the bush."
+  },
+  {
+    "id": "7",
+    "bn": "বিনা মেঘে বজ্রপাত।",
+    "en": "A bolt from the blue."
+  },
+  {
+    "id": "8",
+    "bn": "তর্জনকারী বা ষন্ডা সব সময়ই কাপুরুষ।",
+    "en": "A bully is always a coward."
+  },
+  {
+    "id": "9",
+    "bn": "ঘর-পোড়া গরু সিন্দুরে মেঘ দেখলে ভয় পায়।",
+    "en": "A burnt child dreads the fire or Once bitten, twice shy."
+  },
+  {
+    "id": "11",
+    "bn": "কই মাছের প্রাণ বড়ই শক্ত।",
+    "en": "A cat has nine lives."
+  },
+  {
+    "id": "12",
+    "bn": "সোজা আঙ্গুলে ঘি ওঠে না।",
+    "en": "A cat in gloves catches no mice."
+  },
+  {
+    "id": "13",
+    "bn": "আপন গাঁয়ে কুকুর রাজা।",
+    "en": "A cock is always bold on its own dunghill."
+  },
+  {
+    "id": "14",
+    "bn": "যতক্ষণ শ্বাস, ততকক্ষণ আঁশ।",
+    "en": "A drawing man catches or clutches at a straw."
+  },
+  {
+    "id": "15",
+    "bn": "বোকার কাছে টাকা থাকে না।",
+    "en": "A fool and his money are soon parted."
+  },
+  {
+    "id": "16",
+    "bn": "অসময়ের বন্ধুই প্রকৃত বন্ধু।",
+    "en": "A friend in need is a friend indeed."
+  },
+  {
+    "id": "17",
+    "bn": "ভাত ছড়ালে কাকের অভাব হয় না।",
+    "en": "A full purse never lacks friends."
+  },
+  {
+    "id": "18",
+    "bn": "টাকায় বাঘের দুধ মেলে।",
+    "en": "A golden key can open any door."
+  },
+  {
+    "id": "19",
+    "bn": "একটা সুন্দর শুরু কোন কাজের অর্ধেক সাফল্য এনে দেয়",
+    "en": "A good beginning is half the battle."
+  },
+  {
+    "id": "20",
+    "bn": "স্বামী ভালো হলে স্ত্রীও ভালো হয় ।",
+    "en": "A good husband makes a good wife."
+  },
+  {
+    "id": "21",
+    "bn": "স্বামী ভালো হলে স্ত্রীও ভালো হয়।",
+    "en": "A good jack makes a good jill."
+  },
+  {
+    "id": "22",
+    "bn": "সেয়ানে সেয়ানে কোলাকুলি।",
+    "en": "A Greek meeting a Greek."
+  },
+  {
+    "id": "23",
+    "bn": "বাড়ন্তরা অনেক খায়।",
+    "en": "A growing youth has a wolf in his belly."
+  },
+  {
+    "id": "24",
+    "bn": "অনুতপ্ত হলে অভিযোগকারীর প্রয়োজন নেই।",
+    "en": "A guilty conscience needs no accuser."
+  },
+  {
+    "id": "25",
+    "bn": "ঠাকুর ঘরে কে, আমি তো কলা খাইনি।",
+    "en": "A guilty mind is always suspicious."
+  },
+  {
+    "id": "26",
+    "bn": "পকেটে টাকা থাকলে মনও ভালো থাকে।",
+    "en": "A heavy purse makes a light heart."
+  },
+  {
+    "id": "27",
+    "bn": "একাই একশো।",
+    "en": "A host in himself."
+  },
+  {
+    "id": "28",
+    "bn": "বিদুরের খুদ ।",
+    "en": "A humble gift made by a poor man with a sincere heart."
+  },
+  {
+    "id": "29",
+    "bn": "খিদের জ্বালায় মাথা ঠিক থাকে না ।",
+    "en": "A hungry fox is an angry fox."
+  },
+  {
+    "id": "30",
+    "bn": "ভাগাড়ে গরু মরে, শুকুনির টনক নড়ে।",
+    "en": "A hungry kite sees a dead horse afar."
+  },
+  {
+    "id": "31",
+    "bn": "নেবু কচলালে তেতো হয়।",
+    "en": "A jest driven hard, loses its point."
+  },
+  {
+    "id": "32",
+    "bn": "আজ বাদশা কাল ফকির।",
+    "en": "A king today is a beggar tomorrow."
+  },
+  {
+    "id": "33",
+    "bn": "ট্যাক খালি তো মুখ কালি।",
+    "en": "A light purse is a heavy curse."
+  },
+  {
+    "id": "34",
+    "bn": "পকেটে টাকা না থাকলে মনও ভালো থাকে না।",
+    "en": "A light purse makes a heavy heart."
+  },
+  {
+    "id": "35",
+    "bn": "অল্পবিদ্যা ভয়ংকরী।",
+    "en": "A little learning is a dangerous thing."
+  },
+  {
+    "id": "36",
+    "bn": "পাগলে কী না বলে, ছাগলে কী না খায়।",
+    "en": "A mad man and a animal have no difference."
+  },
+  {
+    "id": "37",
+    "bn": "সঙ্গ দেখে লোক চেনা যায় ।",
+    "en": "A man is known by the company he keeps."
+  },
+  {
+    "id": "38",
+    "bn": "নিজ বাড়ি নিজ ভুবন ।",
+    "en": "A man’s home is his castle."
+  },
+  {
+    "id": "39",
+    "bn": "প্রায় শেষ করা আর একেবারেই শুরু না করা একই কথা ।",
+    "en": "A miss is as good as a mile."
+  },
+  {
+    "id": "40",
+    "bn": "নেংটার নেই বাটপারের ভয় ।",
+    "en": "A pauper has nothing to lose."
+  },
+  {
+    "id": "41",
+    "bn": "এক পয়সা জমানো মানে এক পয়সা রোজগার করা ।",
+    "en": "A penny saved is a penny earned."
+  },
+  {
+    "id": "42",
+    "bn": "কাঁচায় না নোয়ালে বাঁশ, পাকলে করে ট্যাঁশট্যাঁশ।",
+    "en": "A pet lamb, makes a cross ram."
+  },
+  {
+    "id": "43",
+    "bn": "যে রক্ষক সেই ভক্ষক ।",
+    "en": "A poacher turned gamekeeper."
+  },
+  {
+    "id": "44",
+    "bn": "স্বজন কর্তৃক বা স্বদেশে সম্মান মেলে না",
+    "en": "A prophet is not without honor save in his own country."
+  },
+  {
+    "id": "45",
+    "bn": "চোরে শোনে না ধর্মের কাহিনী ।",
+    "en": "A rogue is deaf to all good."
+  },
+  {
+    "id": "46",
+    "bn": "স্থির না হলে উন্নতি হয় না।",
+    "en": "A rolling stone gathers no mass."
+  },
+  {
+    "id": "47",
+    "bn": "অসৎ সঙ্গে সর্বনাশ ।",
+    "en": "A rotten sheep infects the flock."
+  },
+  {
+    "id": "48",
+    "bn": "চুন খেয়ে গাল পোড়ে, দই দেখলে ভয় করে",
+    "en": "A scalded dog fears cold water."
+  },
+  {
+    "id": "49",
+    "bn": "নেড়ে বেলতলা একবারই যায় ।",
+    "en": "A severe punishment for a venial offence."
+  },
+  {
+    "id": "50",
+    "bn": "কুঁড়ে লোকের দ্বারা কোন কাজ হয় না; কুঁড়ের অন্ন হয় না ।",
+    "en": "A sleeping fox catches no poultry."
+  },
+  {
+    "id": "51",
+    "bn": "কোমল ব্যবহার সংঘর্ষ এড়ায় ।",
+    "en": "A soft answer turneth away wrath."
+  },
+  {
+    "id": "52",
+    "bn": "কাঁঠালের আমসত্ত্ব।",
+    "en": "A square peg in a round hole (An Impossibility)."
+  },
+  {
+    "id": "53",
+    "bn": "জ্ঞানীরা স্বল্পভাষী হয়।",
+    "en": "A still tongue makes a wise head."
+  },
+  {
+    "id": "54",
+    "bn": "সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়।",
+    "en": "A stitch in time saves nine."
+  },
+  {
+    "id": "55",
+    "bn": "বার মাসে তের পার্বণ।",
+    "en": "A succession of festivities all the year round."
+  },
+  {
+    "id": "56",
+    "bn": "চায়ের কাপে তুফান।",
+    "en": "A tempest in a tea-pot."
+  },
+  {
+    "id": "57",
+    "bn": "সুন্দর সবসময়ই আনন্দদায়ক ।",
+    "en": "A thing of beauty is a joy forever."
+  },
+  {
+    "id": "58",
+    "bn": "ফলনে পরিচীয়তে ।",
+    "en": "A tree is known by its fruit."
+  },
+  {
+    "id": "59",
+    "bn": "কারো সাথে ভাগাভাগি করলে সমস্যা অর্ধেক হয়ে যায়।",
+    "en": "A trouble shared is a trouble halved."
+  },
+  {
+    "id": "60",
+    "bn": "লোভে পাপ পাপে মৃত্যু ।",
+    "en": "A varice begets sin, sin begets death."
+  },
+  {
+    "id": "61",
+    "bn": "অপেক্ষার সময় শেষ হয় না ।",
+    "en": "A watched pot never boils."
+  },
+  {
+    "id": "62",
+    "bn": "দিল্লীর লাড্ডু - খেলেও পস্তাবে, না খেলেও পস্তাবে।",
+    "en": "A wish, gained or lost, leaves one unsatisfied in either case."
+  },
+  {
+    "id": "63",
+    "bn": "ছদ্মবেশী শত্রু; বাইরে দেখতে ভালো, ভিতরে খারাপ।",
+    "en": "A wolf in sheep’s clothing."
+  },
+  {
+    "id": "64",
+    "bn": "অবলার মুখই বল।",
+    "en": "A woman's weapon is her tongue."
+  },
+  {
+    "id": "65",
+    "bn": "মহিলাদের কাজ বাড়ির ভিতরে ।",
+    "en": "A woman’s place is in the home."
+  },
+  {
+    "id": "66",
+    "bn": "মহিলাদের কাজ কখনও শেষ হয় না ।",
+    "en": "A woman’s work is never done."
+  },
+  {
+    "id": "67",
+    "bn": "মুখ দিয়ে যে কথা একবার বেরিয়ে যায় তা আর ফিরিয়ে আনা সম্ভব না।",
+    "en": "A word once spoken is past recalling."
+  },
+  {
+    "id": "68",
+    "bn": "জ্ঞানীরা অল্প কথাতেই বোঝে ।",
+    "en": "A word to the wise is sufficient."
+  },
+  {
+    "id": "69",
+    "bn": "ভক্তি হলো অজ্ঞতার কন্যা; অজ্ঞতাই ভক্তি করে ।",
+    "en": "Admiration is the daughter of ignorance."
+  },
+  {
+    "id": "70",
+    "bn": "হিতে বিপরীত ।",
+    "en": "Adversity often leads to prosperity."
+  },
+  {
+    "id": "71",
+    "bn": "ঝড় থেমে গেলে সব কিছু শান্ত হয়।",
+    "en": "After a storm comes a calm."
+  },
+  {
+    "id": "72",
+    "bn": "মেঘ দেখে করিসনে ভয়,আড়ালে তার সূর্য হাসে ।",
+    "en": "After clouds comes fair weather."
+  },
+  {
+    "id": "73",
+    "bn": "চোর পালালে বুদ্ধি বাড়ে।",
+    "en": "After death comes the doctor."
+  },
+  {
+    "id": "74",
+    "bn": "নুন আনতে পান্তা ফুরায়।",
+    "en": "After meat comes mustard."
+  },
+  {
+    "id": "75",
+    "bn": "যত হাসি তত কান্না বলে গেছে রাম শর্মা।",
+    "en": "After sweet meat comes sour sauce."
+  },
+  {
+    "id": "76",
+    "bn": "যত দোষ নন্দ ঘোষ।",
+    "en": "All are blaming \"nobody\"."
+  },
+  {
+    "id": "77",
+    "bn": "পৈতে থাকলেই বামুন হয় না।",
+    "en": "All are not saints that go to church."
+  },
+  {
+    "id": "78",
+    "bn": "অতি লোভে তাঁতি নষ্ট।",
+    "en": "All covet, all lost."
+  },
+  {
+    "id": "79",
+    "bn": "নানা মুনির নানা মত ।",
+    "en": "All feet tread not in one shoe."
+  },
+  {
+    "id": "80",
+    "bn": "নিজের জিনিস সকলেই ভালো দেখে ।",
+    "en": "All his geese are swans."
+  },
+  {
+    "id": "81",
+    "bn": "ভালোবাসা এবং যুদ্ধে সবকিছুই বৈধ",
+    "en": "All is fair in love and war."
+  },
+  {
+    "id": "82",
+    "bn": "ভালোবাসা এবং যুদ্ধে কোন নিয়মনীতি নেই ।",
+    "en": "All is fair in love and war."
+  },
+  {
+    "id": "83",
+    "bn": "সুখের সময়গুলো দ্রুত চলে যায় ।",
+    "en": "All our sweetest hours fly fastest."
+  },
+  {
+    "id": "84",
+    "bn": "পক্ষপাতদুষ্ট লোকের নিকট সবাই মন্দ ।",
+    "en": "All seems yellow to the jaundiced eye."
+  },
+  {
+    "id": "85",
+    "bn": "চকচক করলেই সোনা হয় না।",
+    "en": "All that glitters is not gold."
+  },
+  {
+    "id": "86",
+    "bn": "পুরোনো চাল ভাতে বাড়ে।",
+    "en": "All that is old is not bad."
+  },
+  {
+    "id": "87",
+    "bn": "যে সহে সে রহে; সবুরে মেওয়া ফলে।",
+    "en": "All things come to him who waits."
+  },
+  {
+    "id": "88",
+    "bn": "শেষ রক্ষাই রক্ষা; মধুরেণ সমাপয়াত; সব ভালো তার, শেষ ভালো যার।",
+    "en": "All's well that ends well."
+  },
+  {
+    "id": "89",
+    "bn": "সব ভাল যার শেষ ভাল তার।",
+    "en": "All's well that ends well."
+  },
+  {
+    "id": "90",
+    "bn": "দিনে একটা আপেল খেলে কখনও ডাক্তারের কাছে যেতে হয় না।",
+    "en": "An apple a day keeps the doctor away."
+  },
+  {
+    "id": "91",
+    "bn": "ভাগের মা গঙ্গা পায় না।",
+    "en": "An ass that is a common property is always worst saddle."
+  },
+  {
+    "id": "92",
+    "bn": "পেটে খাবার আর পকেটে টাকা না থাকলে কোন কাজ ঠিকমতো করা যায় না।",
+    "en": "An empty sack cannot stand upright."
+  },
+  {
+    "id": "93",
+    "bn": "চোখের বদলে চোখ।",
+    "en": "An eye for an eye."
+  },
+  {
+    "id": "94",
+    "bn": "অলস মস্তিষ্ক শয়তানের কারখানা।",
+    "en": "An idle brain is the devil’s workshop."
+  },
+  {
+    "id": "95",
+    "bn": "শুঁড়ির সাক্ষী মাতাল ।",
+    "en": "An interested witness is no witness."
+  },
+  {
+    "id": "96",
+    "bn": "ঝানু লোক বোকা বনে না।",
+    "en": "An old bird is not caught with chaff."
+  },
+  {
+    "id": "97",
+    "bn": "বুড়ো পাখি পোষ মানে না।",
+    "en": "An old dog learns no trick."
+  },
+  {
+    "id": "98",
+    "bn": "যে চুরি করতে জানে সেই চুরি ঠেকাতে জানে।",
+    "en": "An old poacher makes the best gamekeepers."
+  },
+  {
+    "id": "99",
+    "bn": "তত্ত্বের চেয়ে প্রায়োগিক জ্ঞান গুরুত্বপূর্ণ।",
+    "en": "An ounce of common sense is worth a pound of theory."
+  },
+  {
+    "id": "100",
+    "bn": "বুদ্ধির চেয়ে বিচক্ষণতা ভালো ।",
+    "en": "An ounce of discretion is worth a pound of wit."
+  },
+  {
+    "id": "101",
+    "bn": "প্রতিকারের চেয়ে প্রতিরোধ ভালো ।",
+    "en": "An ounce of prevention is worth a pound of cure."
+  },
+  {
+    "id": "102",
+    "bn": "অকালে কী না খায়।",
+    "en": "Any food is good enough when there is a famine."
+  },
+  {
+    "id": "103",
+    "bn": "দিল্লীকা লাড্ডু।",
+    "en": "Apple of sodom or Dead sea apple."
+  },
+  {
+    "id": "104",
+    "bn": "বিদ্যা অনন্ত, জীবন সংক্ষিপ্ত ।",
+    "en": "Art is long, life is short."
+  },
+  {
+    "id": "105",
+    "bn": "অবলার মুখই বল ।",
+    "en": "Arthur could not tame a woman’s tongue."
+  },
+  {
+    "id": "106",
+    "bn": "যেমনি বুনো ওল, তেমনি বাঘা তেঁতুল ।",
+    "en": "As is the evil, so is the remedy."
+  },
+  {
+    "id": "107",
+    "bn": "যেমন গাছ, তার তেমনি ফল।",
+    "en": "As is the tree, so is the fruit."
+  },
+  {
+    "id": "108",
+    "bn": "যতদিন কমলার কৃপা থাকে।",
+    "en": "As long as fortune smiles on one."
+  },
+  {
+    "id": "109",
+    "bn": "ঝোপ বুঝে কোপ মারা ।",
+    "en": "As the wind blows, you must set your sail."
+  },
+  {
+    "id": "110",
+    "bn": "রাজায় রাজায় যুদ্ধ হয়, উলুখাগড়ার প্রাণ যায়।",
+    "en": "As you brew, so you drink."
+  },
+  {
+    "id": "111",
+    "bn": "যেমন কর্ম তেমন ফল ।",
+    "en": "As you make your bed, so you must lie on it ."
+  },
+  {
+    "id": "112",
+    "bn": "যেমন কর্ম তেমন ফল।",
+    "en": "As you sow so you reap."
+  },
+  {
+    "id": "113",
+    "bn": "লোভে পাপ, পাপে মৃত্যু।",
+    "en": "Avarice begets sin and sin begets death."
+  },
+  {
+    "id": "114",
+    "bn": "মাথা নেই তার মাথা ব্যথা।",
+    "en": "Bachelors’ wives and maids’ children are always well taught."
+  },
+  {
+    "id": "115",
+    "bn": "যত গর্জে তত বর্ষে না ।",
+    "en": "Barking dogs seldom bite ."
+  },
+  {
+    "id": "116",
+    "bn": "সোনার চামচ মুখে নিয়ে জন্মান; সচ্ছল পরিবারে জন্মগ্রহন করা।",
+    "en": "Be born with a silver spoon in one’s mouth ."
+  },
+  {
+    "id": "117",
+    "bn": "জরু, গরু, ধান, তিন রাখে বিদ্যমান।",
+    "en": "Be mindful of your wife, kine and paddy."
+  },
+  {
+    "id": "118",
+    "bn": "বিয়ে করতে কড়ি, ঘর বাঁধতে দড়ি।",
+    "en": "Be sure before you marry of a house wherein to tarry."
+  },
+  {
+    "id": "119",
+    "bn": "যার নুন খাও তার গুণ গাও।",
+    "en": "Be true to your salt."
+  },
+  {
+    "id": "120",
+    "bn": "দ্রষ্টার চোখেই সৌন্দর্য থাকে ।",
+    "en": "Beauty lies in the eye of the beholder."
+  },
+  {
+    "id": "121",
+    "bn": "গ্রাম নাই তার সীমানা।",
+    "en": "Beggars must not be choosers."
+  },
+  {
+    "id": "122",
+    "bn": "কাঙালের ঘোড়া রোগ।",
+    "en": "Beggars on horseback will ride to the devil."
+  },
+  {
+    "id": "123",
+    "bn": "কুসঙ্গে থাকার চেয়ে একা থাকাও ভালো।",
+    "en": "Better alone than in bad company."
+  },
+  {
+    "id": "124",
+    "bn": "দুষ্ট গরুর চেয়ে শূন্য গোয়াল ভালো ।",
+    "en": "Better an empty house than an ill tenant ."
+  },
+  {
+    "id": "125",
+    "bn": "নেতৃত্ব যেখানেই থাক তা সম্মানজনক ।",
+    "en": "Better be the head of a dog than the tail of a lion ."
+  },
+  {
+    "id": "126",
+    "bn": "একেবারে না হওয়ার চেয়ে দেরিতে হওয়া ভালো ।",
+    "en": "Better late than never ."
+  },
+  {
+    "id": "127",
+    "bn": "জলে কুমির ডাঙ্গায় বাঘ, সর্বত্র বিপদ ।",
+    "en": "Between the devil and the deep blue sea or, between a rock and a hard place."
+  },
+  {
+    "id": "128",
+    "bn": "জলে কুমীর, ডাঙায় বাঘ।",
+    "en": "Between two fires or Between the devil and the deep sea."
+  },
+  {
+    "id": "129",
+    "bn": "শত্রুর ছলাকলায় ভুলে যেও না ।",
+    "en": "Beware of Greeks bearing gifts ."
+  },
+  {
+    "id": "130",
+    "bn": "চোরে চোরে মাসতুতো ভাই ।",
+    "en": "Birds of a feather flock together ."
+  },
+  {
+    "id": "131",
+    "bn": "একই গোয়ালের গরু।",
+    "en": "Birds of the same feather."
+  },
+  {
+    "id": "132",
+    "bn": "চোরে চোরে মাসতুত ভাই।",
+    "en": "Birds of the same feather flock together."
+  },
+  {
+    "id": "133",
+    "bn": "কয়লা ধুলে ময়লা যায় না ।",
+    "en": "Black will take no other hue ."
+  },
+  {
+    "id": "134",
+    "bn": "দাঁত থাকতে দাঁতের মর্যাদা জানে না।",
+    "en": "Blessings are not valued till they are gone."
+  },
+  {
+    "id": "135",
+    "bn": "রক্তের টান বড় টান।",
+    "en": "Blood is thicker than water."
+  },
+  {
+    "id": "136",
+    "bn": "গোবরে পদ্মফুল।",
+    "en": "Blossoms in the dust or Musk in a kennel."
+  },
+  {
+    "id": "137",
+    "bn": "দূরের জিনিস ভালো মনে হয় ।",
+    "en": "Blue are the hills that are far from us ."
+  },
+  {
+    "id": "138",
+    "bn": "দুধ কলা দিয়ে সাপ পোষা।",
+    "en": "Breed up a crow, and it will pluck your eyes."
+  },
+  {
+    "id": "139",
+    "bn": "মানিকের খানিক ভালো ।",
+    "en": "Brevity is the soul of wit ."
+  },
+  {
+    "id": "140",
+    "bn": "আঁধার ঘরের মানিক।",
+    "en": "Bright gem in a dark cave."
+  },
+  {
+    "id": "141",
+    "bn": "আকাশকুসুম কল্পণা করা।",
+    "en": "Build castles in the air."
+  },
+  {
+    "id": "142",
+    "bn": "নিজের নাক কেটে পরের যাত্রা ভঙ্গ করা।",
+    "en": "Burn not thy fingers to snuff another man's candle."
+  },
+  {
+    "id": "143",
+    "bn": "নিজের নাক কেটে অপরের যাত্রা ভঙ্গ করো না ।",
+    "en": "Burn not your house to fright the mouse away ."
+  },
+  {
+    "id": "144",
+    "bn": "কাজও নাই, কামাইও নাই।",
+    "en": "Busy about nothing or No work, no leisure or It is all bustle."
+  },
+  {
+    "id": "145",
+    "bn": "বিপদই প্রকৃত কষ্টিপাথর ।",
+    "en": "Calamity is man’s true touchstone ."
+  },
+  {
+    "id": "146",
+    "bn": "স্পষ্টাস্পষ্টি কথা বলা ।",
+    "en": "Call a spade a spade ."
+  },
+  {
+    "id": "147",
+    "bn": "অতি যত্নে মরণফাঁদ।",
+    "en": "Care killed the cat."
+  },
+  {
+    "id": "148",
+    "bn": "তেলা মাথায় তেল দেওয়া ।",
+    "en": "Carry coal to new castle ."
+  },
+  {
+    "id": "149",
+    "bn": "অনিশ্চিতের আশায় নিশ্চিত ত্যাগ করা ।",
+    "en": "Cast at the shadow and lose the substance ."
+  },
+  {
+    "id": "150",
+    "bn": "আগে ঘর তারপর পর আগে ঘর, তবে ত পর; আত্মরেখে ধর্ম ।",
+    "en": "Charity begins at home."
+  },
+  {
+    "id": "151",
+    "bn": "সৌন্দর্য ধরা পড়ে চোখে আর জ্ঞান ধরা পড়ে অন্তরে।",
+    "en": "Charm strikes the sight, merit wins the soul."
+  },
+  {
+    "id": "152",
+    "bn": "সস্তার তিন অবস্থা।",
+    "en": "Cheap and nasty."
+  },
+  {
+    "id": "153",
+    "bn": "সস্তার তিন অবস্থা।",
+    "en": "Cheap goods are dear in the long run."
+  },
+  {
+    "id": "154",
+    "bn": "প্রতারক জীবনে উন্নতি করতে পারে না।",
+    "en": "Cheats never prosper."
+  },
+  {
+    "id": "155",
+    "bn": "ছেলের হাতের মোয়া।",
+    "en": "Child's plaything."
+  },
+  {
+    "id": "156",
+    "bn": "বুড়ো শালিকের ঘাড়ে রোঁ।",
+    "en": "Childish behavior of an old man."
+  },
+  {
+    "id": "157",
+    "bn": "শিশু এবং বোকারাই সত্য বলে।",
+    "en": "Children and fools tell the truth."
+  },
+  {
+    "id": "158",
+    "bn": "ভালো হতে পয়সা লাগে না।",
+    "en": "Civility/courtesy costs nothing."
+  },
+  {
+    "id": "159",
+    "bn": "ফরসা কাপড়ে মান বাড়ে",
+    "en": "Clothes make the man."
+  },
+  {
+    "id": "160",
+    "bn": "পরিষ্কার পরিচ্ছন্নতা ঈশ্বরভক্তির একটি ধাপ।",
+    "en": "Cleanliness is next to godliness."
+  },
+  {
+    "id": "161",
+    "bn": "বেশ ভূষা দ্বারা মানুষ চেনা যায়।",
+    "en": "Clothes make the man."
+  },
+  {
+    "id": "162",
+    "bn": "লেগে থাকলে কাজ হয় ।",
+    "en": "Constant dripping wears away a stone."
+  },
+  {
+    "id": "163",
+    "bn": "ঘোমটার ভিতর খেমটার নাচ।",
+    "en": "Coquetry under the guise of modesty."
+  },
+  {
+    "id": "164",
+    "bn": "গাছে কাঁঠাল গোঁফে তেল; কালনেমির লংকাভাগ; গাছে না উঠতেই এক কাঁদি।",
+    "en": "Count (to) chickens till they are hatched."
+  },
+  {
+    "id": "165",
+    "bn": "পরহস্তগত ধন হিসাবের বাইরে রাখ।",
+    "en": "Count not money that is still to come."
+  },
+  {
+    "id": "166",
+    "bn": "ভীরুরা মরার আগেই দু'বেলা (দুবার) মরে।",
+    "en": "Cowards die many times before their death."
+  },
+  {
+    "id": "167",
+    "bn": "নিজের নাক কেটে অপরের যাত্রা ভঙ্গ করা ।",
+    "en": "Cut off one’s nose to spite one’s face."
+  },
+  {
+    "id": "168",
+    "bn": "আয় বুঝে ব্যয় করা।",
+    "en": "Cut your coat according to your cloth."
+  },
+  {
+    "id": "169",
+    "bn": "বিপদ একাকী আসে না ।",
+    "en": "Danger never comes alone."
+  },
+  {
+    "id": "170",
+    "bn": "যেখানে বাঘের ভয়, সেখানেই সন্ধ্যা হয়।",
+    "en": "Danger often comes where danger is feared."
+  },
+  {
+    "id": "171",
+    "bn": "অন্ধের কিবা রাত্রি কিবা দিন।",
+    "en": "Day and night are alike to a blind man."
+  },
+  {
+    "id": "172",
+    "bn": "মরণকালে ঔষুধ নাই।",
+    "en": "Death defies doctors."
+  },
+  {
+    "id": "173",
+    "bn": "মৃত্যু বলে কয়ে আসে না।",
+    "en": "Death keeps no calendar."
+  },
+  {
+    "id": "174",
+    "bn": "মরনের সময় অসময় নাই।",
+    "en": "Death keeps no time."
+  },
+  {
+    "id": "175",
+    "bn": "যেমনি বুনো ওল তেমনি বাঘা তেঁতুল ।",
+    "en": "Desperate diseases must have desperate remedies."
+  },
+  {
+    "id": "176",
+    "bn": "রতনে রতন চেনে ।",
+    "en": "Diamond cuts diamond."
+  },
+  {
+    "id": "177",
+    "bn": "পরিশ্রমই সৌভাগ্যের মূল।",
+    "en": "Diligence is the mother of good luck."
+  },
+  {
+    "id": "178",
+    "bn": "যে মাছটা পালায় সেটাই বড়।",
+    "en": "Distance lends enchantment to the view."
+  },
+  {
+    "id": "179",
+    "bn": "অনিশ্চিতের আশায় নিশ্চিত ত্যাগ করিও না।",
+    "en": "Do not exchange your substance for shadow."
+  },
+  {
+    "id": "180",
+    "bn": "মায়ের কাছে মামা বাড়ির গল্প করো না।",
+    "en": "Do not teach your grandmother to such egg."
+  },
+  {
+    "id": "181",
+    "bn": "মন্ত্রের সাধন কিংবা শরীর পতন; মার অথবা মর ।",
+    "en": "Do or die."
+  },
+  {
+    "id": "182",
+    "bn": "স্বজাতির ক্ষতি কেউ চায় না ।",
+    "en": "Dog does not eat a dog."
+  },
+  {
+    "id": "183",
+    "bn": "এক লাফেই তালগাছে ওঠা যায় না।",
+    "en": "Don't run before you can walk."
+  },
+  {
+    "id": "184",
+    "bn": "ছেড়ে দে মা কেঁদে বাঁচি।",
+    "en": "Don't nag me, and leave me in peace."
+  },
+  {
+    "id": "185",
+    "bn": "গাছে কাঁঠাল গোঁফে তেল দিওনা ।",
+    "en": "Don’t count your chickens before they are hatched."
+  },
+  {
+    "id": "186",
+    "bn": "চক চক করলেই সোনা হয় না ।",
+    "en": "Don’t judge a book by its cover."
+  },
+  {
+    "id": "187",
+    "bn": "বিন্দু বিন্দু জলে সিন্ধু হয়",
+    "en": "Drops of water make ocean."
+  },
+  {
+    "id": "188",
+    "bn": "বলা সহজ, করা কঠিন ।",
+    "en": "Easier said than done."
+  },
+  {
+    "id": "189",
+    "bn": "অসারের তর্জন গর্জনই সার; অল্প জলে পুঁটিমাছ ফরফর করে; বর্ষন নেই গর্জন সার।",
+    "en": "Empty vessels sound much."
+  },
+  {
+    "id": "190",
+    "bn": "নিজের (আপনার) ভালো পাগলও বোঝে।",
+    "en": "Even a fool known his business."
+  },
+  {
+    "id": "191",
+    "bn": "দেওয়ালেরও কান আছে।",
+    "en": "Even walls have ears."
+  },
+  {
+    "id": "192",
+    "bn": "পরিশ্রমীদের প্রতি ভাগ্য সুপ্রসন্ন।",
+    "en": "Fortune favors the industrious."
+  },
+  {
+    "id": "193",
+    "bn": "লক্ষ্মী চঞ্চলা।",
+    "en": "Fortune is fickle."
+  },
+  {
+    "id": "194",
+    "bn": "অধিকতর খারাপ অবস্থায় পড়া।।",
+    "en": "From the frying pan to the fire."
+  },
+  {
+    "id": "195",
+    "bn": "কাজের সময় কাজী, কাজ ফুরালে পাজী।",
+    "en": "Get rid of one who has served the purpose."
+  },
+  {
+    "id": "196",
+    "bn": "বানরকে নাই দিলে মাথায় ওঠে।",
+    "en": "Give him an inch and he will take an ell."
+  },
+  {
+    "id": "197",
+    "bn": "যার যা প্রাপ্য তাকে তা দাও ; শয়তানকেও তার ন্যায্য পাওনা দেবে।",
+    "en": "Give the devil his due."
+  },
+  {
+    "id": "198",
+    "bn": "কান টানলে মাথা আসে।",
+    "en": "Give the one, the other will follow."
+  },
+  {
+    "id": "199",
+    "bn": "পরিশ্রমীদের আল্লাহ সাহায্য করেন।",
+    "en": "God helps them who help themselves."
+  },
+  {
+    "id": "200",
+    "bn": "জ্বীব দিয়েছেন যিনি, আহার দিবেন তিনি।",
+    "en": "God never sends mouths, but He sends meat."
+  },
+  {
+    "id": "201",
+    "bn": "খুশ খবরের মিথ্যাও ভাল।",
+    "en": "Good news is good, if it is proves false."
+  },
+  {
+    "id": "202",
+    "bn": "চেনা বামুনের পৈতা লাগে না।",
+    "en": "Good wine needs no bush."
+  },
+  {
+    "id": "203",
+    "bn": "অতি লোভে তাঁতি নষ্ট।",
+    "en": "Grasp all lose all."
+  },
+  {
+    "id": "204",
+    "bn": "দুরের জিনিস ভালো দেখায়।",
+    "en": "Grass is always greener on the other side of the fence."
+  },
+  {
+    "id": "205",
+    "bn": "আপনার চরকায় তেল দাও।",
+    "en": "Grease your own wheel."
+  },
+  {
+    "id": "206",
+    "bn": "মহৎ লোকেরা এ রকম চিন্তা করেন।",
+    "en": "Great minds think alike."
+  },
+  {
+    "id": "207",
+    "bn": "মুখে বুলি লম্বা, কাজে অষ্টরম্ভা।",
+    "en": "Great talkers are little doers."
+  },
+  {
+    "id": "208",
+    "bn": "কুকুরের পেটে ঘি সয় না",
+    "en": "Grease will not gather in a dog's belly."
+  },
+  {
+    "id": "209",
+    "bn": "ঢেঁকি স্বর্গে গেলেও ধান ভানে।",
+    "en": "Habit is the second nature."
+  },
+  {
+    "id": "210",
+    "bn": "নাই মামার চেয়ে কানা মামা ভাল।",
+    "en": "Half a loaf is better than no loaf."
+  },
+  {
+    "id": "211",
+    "bn": "যে হাতে দোলনা দোলায় সে হাত পৃথিবী চালায়।",
+    "en": "Hand that rocks the cradle rules the world."
+  },
+  {
+    "id": "212",
+    "bn": "রূপে কালো গুণে আলো।",
+    "en": "Handsome is that handsome does."
+  },
+  {
+    "id": "213",
+    "bn": "জাতের মেয়ে কালো ভালো নদীর পানি ঘোলা ভালো।",
+    "en": "Handsome is what handsome does."
+  },
+  {
+    "id": "214",
+    "bn": "পরের মন্দ করতে গেলে আপনার মন্দ আগে হয়",
+    "en": "Harm watch, harm catch."
+  },
+  {
+    "id": "215",
+    "bn": "ভয় করলে ভয় আপনি এসে পড়ে।",
+    "en": "Haste makes waste."
+  },
+  {
+    "id": "216",
+    "bn": "তাড়াতাড়ি কোন কাজ ভালো হয় না।",
+    "en": "He can hardly keep the wolf from the door."
+  },
+  {
+    "id": "217",
+    "bn": "তার একটু মাথায় ছিট আছে।",
+    "en": "He is a bit crazy or eccentric."
+  },
+  {
+    "id": "218",
+    "bn": "সে কচি খোকা নয়।",
+    "en": "He is no chicken."
+  },
+  {
+    "id": "219",
+    "bn": "সব ভালো তার শেষ ভালো যার।",
+    "en": "He laughs best who loveth best."
+  },
+  {
+    "id": "220",
+    "bn": "ভাজা মাছটি উলটে খেতে জানে না।",
+    "en": "He poses to be quite simple and innocent."
+  },
+  {
+    "id": "221",
+    "bn": "জীবে প্রেম করে যেইজন, সেইজন সেবিছে ঈশ্বর।",
+    "en": "He prayeth best who loveth best."
+  },
+  {
+    "id": "222",
+    "bn": "সাপ হয়ে কাটে, আর ওঝা হয়ে ঝাড়ে ; বরের ঘরের পিসী, কনের ঘরের মাসী।",
+    "en": "He runs with the hare and hunts with the hounds."
+  },
+  {
+    "id": "223",
+    "bn": "কুটো চুরি করতে করতেই কুলো চোর হয়।",
+    "en": "He that will steal an egg will steal an ox."
+  },
+  {
+    "id": "224",
+    "bn": "মেয়েকে জয় করতে হলে আগে তার মাকে খুশী কর।",
+    "en": "He that would the daughter win, must win the mother first begin."
+  },
+  {
+    "id": "225",
+    "bn": "অনেক কাজ একসাথে শুরু করলে কোনটাই ভালো হয় না।",
+    "en": "He who begins many things, finishes but few."
+  },
+  {
+    "id": "226",
+    "bn": "দুই নৌকায় পা দিলে কোনটাতেই ওঠা যায় না।",
+    "en": "He who follows two hares catches neither."
+  },
+  {
+    "id": "227",
+    "bn": "আপনি শুতে ঠাঁই পায় না, শষঙ্করাকে ডাকে।",
+    "en": "He who has nothing to spare must not keep a dog."
+  },
+  {
+    "id": "228",
+    "bn": "অদৃষ্টে করলা ভাতে, বিচি কচকচ করে তাতে।",
+    "en": "He who is born in misfortune stumbles as he goes."
+  },
+  {
+    "id": "229",
+    "bn": "শেষ ভালো যার সব ভালো তার।",
+    "en": "He who laughs last laughs longest."
+  },
+  {
+    "id": "230",
+    "bn": "যে টাকা দেয় তার ইচ্ছাতেই কর্ম হয়।",
+    "en": "He who pays the piper calls the tune."
+  },
+  {
+    "id": "231",
+    "bn": "আকাশের দিকে থুথু ফেললে আপন গায়েই লাগে।",
+    "en": "He who spits against the wind spits against his own face."
+  },
+  {
+    "id": "232",
+    "bn": "হাতি ঘোড়া গেল তল, পিঁপড়ে বলে কত জল।",
+    "en": "He would bend the bow of Ulysses."
+  },
+  {
+    "id": "233",
+    "bn": "বড় যদি হতে চাও ছোট হও তবে।",
+    "en": "He would climb the ladder must begin at the bottom."
+  },
+  {
+    "id": "234",
+    "bn": "মায়ের পায়ের তলে বেহেস্ত।",
+    "en": "Heaven lies at the foot of mother."
+  },
+  {
+    "id": "235",
+    "bn": "শাক দিয়ে মাছ ঢাকা।",
+    "en": "Hide in a superficial way."
+  },
+  {
+    "id": "236",
+    "bn": "উঁচু গাছেই বেশি ঝড় লাগে।",
+    "en": "High winds blow on high hills."
+  },
+  {
+    "id": "237",
+    "bn": "এখন তার একাদশে বৃহস্পতি।",
+    "en": "His stars are now in the ascendant."
+  },
+  {
+    "id": "238",
+    "bn": "সময় সুযোগ বুঝে কাজ কর।",
+    "en": "Hoist your sail when the wind is fair."
+  },
+  {
+    "id": "239",
+    "bn": "বাড়ি হলো তাই যেখানে হৃদয় থাকে।",
+    "en": "Home is where the heart is."
+  },
+  {
+    "id": "240",
+    "bn": "সততাই সর্বোত্তম পন্থা।",
+    "en": "Honesty is the best policy."
+  },
+  {
+    "id": "241",
+    "bn": "শাঁখের করাত, যেতেও কাটে আসতেও কাটে।",
+    "en": "Horns of dilemma."
+  },
+  {
+    "id": "242",
+    "bn": "ক্ষুধা পেলে বাঘে ধান খায়।",
+    "en": "Hunger is the best sauce."
+  },
+  {
+    "id": "243",
+    "bn": "তুমি বেড়াও ডালে-ডালে, তো আমি বেড়াই পাতায়-পাতায়।",
+    "en": "I know the ins and outs more than you do."
+  },
+  {
+    "id": "244",
+    "bn": "পড়ল কথা সভার মাঝে, যার কথা তার গায়ে বাজে।",
+    "en": "If the cap fits, wear it."
+  },
+  {
+    "id": "245",
+    "bn": "শীত সমাগত, তবুও বসন্ত কি বহু দূরে?; মেঘ দেখে কেউ করিসনে ভয় আড়ালে তার সূর্য হাসে।",
+    "en": "If winter comes can spring be far behind? ."
+  },
+  {
+    "id": "246",
+    "bn": "যত হাসি তত কান্না, বলে গেছে রাম শর্মা।",
+    "en": "If you laugh to-day you may cry to-morrow."
+  },
+  {
+    "id": "247",
+    "bn": "পাপের ধন প্রায়শ্চিত্তে যায়।",
+    "en": "Ill got, ill spent."
+  },
+  {
+    "id": "248",
+    "bn": "মন্দ খবর বাতাসের আগে চলে।",
+    "en": "Ill news runs apace."
+  },
+  {
+    "id": "249",
+    "bn": "মন্দ খবর বাতাসের আগে যায় ।",
+    "en": "Ill news spreads faster than wind ."
+  },
+  {
+    "id": "250",
+    "bn": "আগাছার বাড় বেশি।",
+    "en": "Ill weed's grow apace."
+  },
+  {
+    "id": "251",
+    "bn": "অজাতের বৃদ্ধি বেশি।",
+    "en": "Ill weeds grow apace ."
+  },
+  {
+    "id": "252",
+    "bn": "বেঙের সর্দি হওয়া।",
+    "en": "Impossibility ; absurdity."
+  },
+  {
+    "id": "253",
+    "bn": "এক কান দিয়ে ঢোকে, আর এক কান দিয়ে বেরোয়।",
+    "en": "In at one ear and out at the another."
+  },
+  {
+    "id": "254",
+    "bn": "কুঁড়ের অন্ন হয় না ।",
+    "en": "Indolence is the mother of poverty ."
+  },
+  {
+    "id": "255",
+    "bn": "পরিশ্রমই সৌভাগ্যের চাবিকাঠি।",
+    "en": "Industry is the key to success ."
+  },
+  {
+    "id": "256",
+    "bn": "বিধাতার লিখন না যায় খন্ডন।",
+    "en": "Inevitable are the decrees of God."
+  },
+  {
+    "id": "257",
+    "bn": "আসলের চেয়ে সুদ মিষ্টি।",
+    "en": "Interest is sweeter than the principal."
+  },
+  {
+    "id": "258",
+    "bn": "বড় লোকের বড় কথা।",
+    "en": "It is a different matter with the rich."
+  },
+  {
+    "id": "259",
+    "bn": "যার কোন গুণ নাই তার কপালে আগুন।",
+    "en": "It is a pity he is good for nothing (Ne'er-do well)."
+  },
+  {
+    "id": "260",
+    "bn": "রক্তমাংসের শরীরে এটা সহ্য করতে পারা যায় না।",
+    "en": "It is beyond human endurance."
+  },
+  {
+    "id": "261",
+    "bn": "বলা সহজ, করা কঠিন।",
+    "en": "It is easy to say but difficult to do."
+  },
+  {
+    "id": "262",
+    "bn": "জলে বাস করে কুমীরের সাথে বিবাদ ।",
+    "en": "It is folly to live in Rome and strive with the Pope ."
+  },
+  {
+    "id": "263",
+    "bn": "কুমীরের সঙ্গে বিবাদ করে জলে বাস।",
+    "en": "It is hard to sit at Rome and strive with the Pope."
+  },
+  {
+    "id": "264",
+    "bn": "এই তো কলির সন্ধ্যা ।",
+    "en": "It is just the beginning the trouble."
+  },
+  {
+    "id": "265",
+    "bn": "দেরি হলেও সংশোধনের সময় থাকে ।",
+    "en": "It is never too late to mend ."
+  },
+  {
+    "id": "266",
+    "bn": "গতস্য শোচনা নাস্তি; অতীত নিয়ে দুঃখ করে লাভ নেই ।",
+    "en": "It is no use crying over spilt milk ."
+  },
+  {
+    "id": "267",
+    "bn": "অপরের দোষ ধরা সহজ।",
+    "en": "It is very easy to find fault with others ."
+  },
+  {
+    "id": "268",
+    "bn": "মন্দরা সব একসাথে আসে ।",
+    "en": "It never rains but it pours."
+  },
+  {
+    "id": "269",
+    "bn": "এক হাতে তালি বাজে না।",
+    "en": "It takes two to make a quarrel or battle."
+  },
+  {
+    "id": "270",
+    "bn": "ভাঙে তো মচকায় না।",
+    "en": "It would rather break in twain than bend."
+  },
+  {
+    "id": "271",
+    "bn": "সবজান্তা কিন্তু কোনটিতেই ওস্তাদ নয় ।",
+    "en": "Jack of all trades, master of none ."
+  },
+  {
+    "id": "272",
+    "bn": "বিলম্বে বিচার মানে বিচারের নামে প্রহসন ।",
+    "en": "Justice delayed is justice denied ."
+  },
+  {
+    "id": "273",
+    "bn": "অতি লোভে তাঁতি নষ্ট।",
+    "en": "Kill the goose that lays golden eggs."
+  },
+  {
+    "id": "274",
+    "bn": "বুদ্ধি যার, বল তার জ্ঞানই বল ।",
+    "en": "Knowledge is power."
+  },
+  {
+    "id": "275",
+    "bn": "বিবেকহীন জ্ঞান হলো আত্মার মৃত্যু ।",
+    "en": "Knowledge without conscience is but the ruin of soul."
+  },
+  {
+    "id": "276",
+    "bn": "ঘরের ভাত খেয়ে বনের মোষ তাড়ানো।",
+    "en": "Labour of Love or To work for others without remuneration."
+  },
+  {
+    "id": "277",
+    "bn": "যে রক্ষক সে-ই ভক্ষক।",
+    "en": "Law makers are law breakers ."
+  },
+  {
+    "id": "278",
+    "bn": "ভগ্ন যষ্টির উপর ভর দেওয়া।",
+    "en": "Lean on a broken reed."
+  },
+  {
+    "id": "279",
+    "bn": "বিদ্যা অমূল্য ধন।",
+    "en": "Learning is a priceless treasure."
+  },
+  {
+    "id": "280",
+    "bn": "টাকায় বন্ধুত্ব নষ্ট হয় ।",
+    "en": "Lend your money and loss your friend ."
+  },
+  {
+    "id": "281",
+    "bn": "কুকুরকে লাই দিও না ।",
+    "en": "Let not the shoemaker go beyond his last ."
+  },
+  {
+    "id": "282",
+    "bn": "কাদা ঘেঁট না।",
+    "en": "Let sleeping dogs lie ."
+  },
+  {
+    "id": "283",
+    "bn": "কোথাকার জল কোথায় দাঁড়ায়।",
+    "en": "Let us wait to see the conclusion."
+  },
+  {
+    "id": "284",
+    "bn": "চিন্তার মাঝে নয়, কাজের মাঝেই জীবন ।",
+    "en": "Life in action not contemplation ."
+  },
+  {
+    "id": "285",
+    "bn": "জীবন চলমান ছায়া ছাড়া আর কিছুই নয় ।",
+    "en": "Life is but a walking shadow ."
+  },
+  {
+    "id": "286",
+    "bn": "কাঁটা দিয়ে কাঁটা তোলা; বিষস্য বুষমৌষাধম ।",
+    "en": "Like cures like ."
+  },
+  {
+    "id": "287",
+    "bn": "যেমন কুকুর, তেমনি মুগুর।",
+    "en": "Like dog, like hammer."
+  },
+  {
+    "id": "288",
+    "bn": "বাপকা বেটা, সিপাইকা ঘোড়া (যেমন বাপ তেমনি বেটা)।",
+    "en": "Like father, like son."
+  },
+  {
+    "id": "289",
+    "bn": "যেমন মা, তেমনি মেয়ে ।",
+    "en": "Like mother, like daughter ."
+  },
+  {
+    "id": "290",
+    "bn": "যেমন দেবতা তেমনি নৈবেদ্য ।",
+    "en": "Like saint, like offering ."
+  },
+  {
+    "id": "291",
+    "bn": "বেকাদায় পড়লে হাতি চামচিকায় মারে লাথি।",
+    "en": "Little birds may peck a dead lion."
+  },
+  {
+    "id": "292",
+    "bn": "দিন আনে, দিন খায়।",
+    "en": "Living from hand to mouth."
+  },
+  {
+    "id": "293",
+    "bn": "তালপুকুর নাম কিন্তু ঘটি ডোবে না।",
+    "en": "Long title but little purse."
+  },
+  {
+    "id": "294",
+    "bn": "ভাবিয়া করিও কাজ, করিয়া ভাবিও না।",
+    "en": "Look before you leap ."
+  },
+  {
+    "id": "295",
+    "bn": "সম্মান একবার গেলে আর ফিরে আসে না; ভাঙ্গা কপাল জোড়া লাগে না।",
+    "en": "Lost credit is like a broken glass ."
+  },
+  {
+    "id": "296",
+    "bn": "প্রেম সব জয় করে ।",
+    "en": "Love conquers all ."
+  },
+  {
+    "id": "297",
+    "bn": "প্রেম অন্ধ; যার সঙ্গে যার মজে মন, কিবা হাড়ি কিবা ডোম ।",
+    "en": "Love is blind ."
+  },
+  {
+    "id": "298",
+    "bn": "অহিংসা পরম ধর্ম।",
+    "en": "Love is the best virtue."
+  },
+  {
+    "id": "299",
+    "bn": "আগে ফাঁসি তার পর বিচার।",
+    "en": "Lydford law."
+  },
+  {
+    "id": "300",
+    "bn": "ঝোপ বুঝে কোপ মার।",
+    "en": "Make hay while the sun shines ."
+  },
+  {
+    "id": "301",
+    "bn": "নতুন বন্ধুত্ব কর কিন্তু পুরনোকে রেখো, কারন নতুনরা হলো রৌপ্য আর পুরনোরা হল সোনা।",
+    "en": "Make new friends but keep the old. These are silver those are gold ."
+  },
+  {
+    "id": "302",
+    "bn": "মানুষ জন্মগতভাবে স্বাধীন, কিন্তু সর্বত্রই সে শৃঙ্খলিত।",
+    "en": "Man is born free but everywhere he is in chain ."
+  },
+  {
+    "id": "303",
+    "bn": "মানুষ নিজেই তার ভাগ্যের নিয়ন্তা।",
+    "en": "Man is the architect of his own fate."
+  },
+  {
+    "id": "304",
+    "bn": "মানুষ বাঁচে তার কর্মে বয়সে নয় ।",
+    "en": "Man live in deeds not in years ."
+  },
+  {
+    "id": "305",
+    "bn": "মানুষ ভাবে এক আর হয় আরেক।",
+    "en": "Man proposes, but God disposes."
+  },
+  {
+    "id": "306",
+    "bn": "দশের লাঠি একের বোঝা।",
+    "en": "Many a little makes a mickle ."
+  },
+  {
+    "id": "307",
+    "bn": "দশে মিলে করি কাজ, হারি যিতি নাহি লাজ; দশের লাঠি একের বোঝা।",
+    "en": "Many drops make light work ."
+  },
+  {
+    "id": "308",
+    "bn": "নানা মানুষ নানা মত।",
+    "en": "Many men, many minds."
+  },
+  {
+    "id": "309",
+    "bn": "নানা মুনির নানা মত।",
+    "en": "Many men, many opinions."
+  },
+  {
+    "id": "310",
+    "bn": "হুটহাট করে বিয়ে করলে পস্তাতে হয় ।",
+    "en": "Marry is haste, repent at leisure ."
+  },
+  {
+    "id": "311",
+    "bn": "মানুষ বাঁচে তার কর্মে বয়সে নয়।",
+    "en": "Men live deeds not in years."
+  },
+  {
+    "id": "312",
+    "bn": "জোর যার মুল্লুক তার ।",
+    "en": "Might is right ."
+  },
+  {
+    "id": "313",
+    "bn": "বিপদ কখনও একা আসে না।",
+    "en": "Misfortune never comes alone."
+  },
+  {
+    "id": "314",
+    "bn": "টাকায় টাকা আনে ।",
+    "en": "Money brings (makes) money ."
+  },
+  {
+    "id": "315",
+    "bn": "অর্থই অনর্থের মূল।",
+    "en": "Money is the root of all evils."
+  },
+  {
+    "id": "316",
+    "bn": "টাকা্য় কী না হয়।",
+    "en": "Money makes everything."
+  },
+  {
+    "id": "317",
+    "bn": "টাকা থাকলেই মানুষ।",
+    "en": "Money makes the man."
+  },
+  {
+    "id": "318",
+    "bn": "টাকায় সব হয় ।",
+    "en": "Money makes the mare go ."
+  },
+  {
+    "id": "319",
+    "bn": "টাকায় কথা বলে ।",
+    "en": "Money talks ."
+  },
+  {
+    "id": "320",
+    "bn": "উঠন্তি মূলা পত্তনেই চেনা যায় ।",
+    "en": "Morning shows the day ."
+  },
+  {
+    "id": "321",
+    "bn": "বহুবারম্ভে লঘু ক্রিয়া; বেশি আড়ম্বরে কাজ হয় না।",
+    "en": "Much ado about nothing ."
+  },
+  {
+    "id": "322",
+    "bn": "যত গর্জে তত বর্ষে না ।",
+    "en": "Much cry, little water ."
+  },
+  {
+    "id": "323",
+    "bn": "প্রয়োজনই আবিষ্কারের প্রসূতি।",
+    "en": "Necessity is the mother of invention."
+  },
+  {
+    "id": "324",
+    "bn": "অভাবে স্বভাব নষ্ট।",
+    "en": "Necessity knows no law."
+  },
+  {
+    "id": "325",
+    "bn": "কিনতে ছাগল বেচতে পাগল।",
+    "en": "Necessity never makes a bargain."
+  },
+  {
+    "id": "326",
+    "bn": "কারও পৌষ মাস, কারও সর্বনাশ।",
+    "en": "Nero fiddles while Rome burns."
+  },
+  {
+    "id": "327",
+    "bn": "যার নুন খাও তার গুন গাও ।",
+    "en": "Never fall out with your bread and butter ."
+  },
+  {
+    "id": "328",
+    "bn": "নূতন পীরিতের বড় আঠা।",
+    "en": "New brooms sweep well."
+  },
+  {
+    "id": "329",
+    "bn": "নতুন নেতা, নতুন নীতি।",
+    "en": "New lords, new laws."
+  },
+  {
+    "id": "330",
+    "bn": "কষ্ট না করলে কেষ্ট মেলে না।",
+    "en": "No pains no gains or No sweat, no sweet or No cross, no crown."
+  },
+  {
+    "id": "331",
+    "bn": "চাঁদেও কলঙ্ক আছে ।",
+    "en": "No rose without thorns ."
+  },
+  {
+    "id": "332",
+    "bn": "কারণ বিনা কার্য হয় না।",
+    "en": "No smoke without fire."
+  },
+  {
+    "id": "333",
+    "bn": "গরিবের কথা বাসি হলে মিষ্টি হয়।",
+    "en": "Nobody listens to the advice of an ordinary man, however good it may prove in the long run."
+  },
+  {
+    "id": "334",
+    "bn": "মানুষ মাত্রই ভুল হয়।",
+    "en": "None but a fool is always right ."
+  },
+  {
+    "id": "335",
+    "bn": "বীর ভোগ্য বসন্ধরা।",
+    "en": "None but the brave deserve the fair."
+  },
+  {
+    "id": "336",
+    "bn": "যে জেগে ঘুমায়, তারে জাগানো দায়।",
+    "en": "None so deaf as those that will not hear."
+  },
+  {
+    "id": "337",
+    "bn": "পেটে আসছে, মুখে আসছে না।",
+    "en": "Not to remember a thing aright."
+  },
+  {
+    "id": "338",
+    "bn": "কারন বিনা কার্য হয় না ।",
+    "en": "Nothing comes out of nothing ."
+  },
+  {
+    "id": "339",
+    "bn": "ঠেলার নাম বাবাজি।",
+    "en": "Nothing like force."
+  },
+  {
+    "id": "340",
+    "bn": "চুরি-বিদ্যা বড় বিদ্যা যদি না পড়ে ধরা।",
+    "en": "Nothing like stealing if it goes undetected."
+  },
+  {
+    "id": "341",
+    "bn": "জয়কালে ক্ষয় নাই\nঝুঁকি না নিলে লাভ হয় না ।",
+    "en": "Nothing succeeds like success."
+  },
+  {
+    "id": "342",
+    "bn": "লাগে টাকা দেবে গৌরী সেন।",
+    "en": "Nunky pays."
+  },
+  {
+    "id": "343",
+    "bn": "সে রামও নাই, অযোধ্যাও নাই ।",
+    "en": "Oh the times! Oh the manners ."
+  },
+  {
+    "id": "344",
+    "bn": "নিজের চরকায় তেল দাও।",
+    "en": "Oil your own machine."
+  },
+  {
+    "id": "345",
+    "bn": "পুরনো অভ্যাস যেতে চায় না ।",
+    "en": "Old habits die hard ."
+  },
+  {
+    "id": "346",
+    "bn": "আভাগা যেদিকে চায়, সাগর শুকিয়ে যায়।",
+    "en": "Once unlucky, always unlucky."
+  },
+  {
+    "id": "347",
+    "bn": "এক পুরুষে করে ধন আরেক পুরুষে খায় ।",
+    "en": "One beats the bush, another catches the bird ."
+  },
+  {
+    "id": "348",
+    "bn": "দুষ্ট গরুর চেয়ে শূন্য ঘোয়াল ভালো।",
+    "en": "One black sheep spoils the whole flock ."
+  },
+  {
+    "id": "349",
+    "bn": "পরে কখনও পরের মর্ম বোঝে না।",
+    "en": "One cannot really, feel for another."
+  },
+  {
+    "id": "350",
+    "bn": "হাসিও পায় কান্নাও পায়।",
+    "en": "One does not know whether to laugh or weep."
+  },
+  {
+    "id": "351",
+    "bn": "উদোর পিণ্ডি বুধোর ঘাড়ে।",
+    "en": "One doth the scath and another hath the scorn."
+  },
+  {
+    "id": "352",
+    "bn": "গড়তে যত সময় লাগে ভাঙতে তত সময় লাগে না ।",
+    "en": "One is not so soon healed as hurt."
+  },
+  {
+    "id": "353",
+    "bn": "একটা মিথ্যা ঢাকতে দশটা মিথ্যা বলতে হয়।",
+    "en": "One lie makes many."
+  },
+  {
+    "id": "354",
+    "bn": "কারও পৌষ মাষ কারও সর্বনাশ ।",
+    "en": "One man’s meat is another man’s poison ."
+  },
+  {
+    "id": "355",
+    "bn": "কাঁটা দিয়ে কাঁটা তুলতে হয় ।",
+    "en": "One nail drives out another ."
+  },
+  {
+    "id": "356",
+    "bn": "কাকের মাংস কাকে খায় না।",
+    "en": "One raven will no pluck another's eyes."
+  },
+  {
+    "id": "357",
+    "bn": "যার ধন তার নয়, নেপোয় মারে দই ; এক পুরুষে করে ধন আরেক পুরুষে খায়।",
+    "en": "One sows, another reaps ."
+  },
+  {
+    "id": "358",
+    "bn": "এক পা এগোই তো সাত পা পিছোই।",
+    "en": "One step forward, two-steps backward."
+  },
+  {
+    "id": "359",
+    "bn": "এক মাঘে শীত যায় না।",
+    "en": "One swallow does not makes a summer."
+  },
+  {
+    "id": "360",
+    "bn": "অসীর চেয়ে মসি বড়",
+    "en": "One worm is better than no bread."
+  },
+  {
+    "id": "361",
+    "bn": "নিজের জিনিস সকলেই ভালো দেখে ।",
+    "en": "one’s own things are the best."
+  },
+  {
+    "id": "362",
+    "bn": "সুযোগ একবারই আসে।",
+    "en": "Opportunity knocks but once."
+  },
+  {
+    "id": "363",
+    "bn": "চোখের আড়াল, মনের আড়াল; কাছে থাকলে পোড়ে মন, দূরে গেলে ঠনঠন।",
+    "en": "Out of sight, out of mind ."
+  },
+  {
+    "id": "364",
+    "bn": "আমাদের হৃদয়তন্ত্রীতে যে সুর মধুর হয়ে বাজে তা হলো বিষাদের গান।",
+    "en": "Our sweetest songs are those that tell of saddest thought ."
+  },
+  {
+    "id": "365",
+    "bn": "কর্জ নাই, কষ্টও নাই।",
+    "en": "Out of debt, out of danger ."
+  },
+  {
+    "id": "366",
+    "bn": "পেটে খেলে পিঠে সয়।",
+    "en": "Pain is forgotten where gain follows."
+  },
+  {
+    "id": "367",
+    "bn": "সবুরে মেওয়া ফলে।",
+    "en": "Patience has its reward."
+  },
+  {
+    "id": "368",
+    "bn": "সবুরে মেওয়া ফলে ।",
+    "en": "Patience is bitter, but its fruit is sweet ."
+  },
+  {
+    "id": "369",
+    "bn": "সুখের চেয়ে স্বস্তি ভাল।",
+    "en": "Peace is more covetable than physical comforts."
+  },
+  {
+    "id": "370",
+    "bn": "বজ্র আঁটুনি ফস্কা গেরো ।",
+    "en": "Penny wise, pound foolish ."
+  },
+  {
+    "id": "371",
+    "bn": "খুচরা কাজের মজুরি নাই।",
+    "en": "Piece-work is ill-paid."
+  },
+  {
+    "id": "372",
+    "bn": "মারিত গন্ডার, লুটিত ভান্ডার ।",
+    "en": "Pitch your aims high."
+  },
+  {
+    "id": "373",
+    "bn": "দখলেই বৈধতার নয় দশমাংশ।",
+    "en": "Possession is nine tenths of the law."
+  },
+  {
+    "id": "374",
+    "bn": "গাইতে গাইতে গায়েন, বাজাতে বাজাতে বায়েন।",
+    "en": "Practice makes perfact."
+  },
+  {
+    "id": "375",
+    "bn": "যা বলবে তা করবে ।",
+    "en": "Practice what you preach ."
+  },
+  {
+    "id": "376",
+    "bn": "না আঁচালে বিশ্বাস নেই ।",
+    "en": "Praise a fair day at night ."
+  },
+  {
+    "id": "377",
+    "bn": "এঁচড়ে পাকা ছেলে বা মেয়ে।",
+    "en": "Precocious child or Enfant terrible."
+  },
+  {
+    "id": "378",
+    "bn": "প্রতিকারের চেয়ে প্রতিরোধ ভালো।",
+    "en": "Prevention is better than cure."
+  },
+  {
+    "id": "379",
+    "bn": "অতি দর্পে হতা লঙ্কা।",
+    "en": "Pride goeth before destruction.."
+  },
+  {
+    "id": "380",
+    "bn": "অনিশ্চিতের আশায় নিশ্চিত পরিত্যাগ করিও না।",
+    "en": "Quit not certainty for hope."
+  },
+  {
+    "id": "381",
+    "bn": "অধ্যয়নই মানুষকে পরিপূর্ণ করে তোলে ।",
+    "en": "Reading makes a full man ."
+  },
+  {
+    "id": "382",
+    "bn": "আগে না বুঝিলে বাছা যৌবনের ভারে, পশ্চাতে কাঁদিতে হবে নয়নের ঝোরে।",
+    "en": "Reckless youth makes rueful eyes ."
+  },
+  {
+    "id": "383",
+    "bn": "আপনার মান আপনার কাছে।",
+    "en": "Respect yourself that you may be respected by others."
+  },
+  {
+    "id": "384",
+    "bn": "লক্ষ্মী চঞ্চলা।",
+    "en": "Riches have wings ."
+  },
+  {
+    "id": "385",
+    "bn": "চোরের মার বড় গলা।",
+    "en": "Rogues supplant justice."
+  },
+  {
+    "id": "386",
+    "bn": "কোন বৃহৎ কাজ রাতারাতি সম্পন্ন হয় না।",
+    "en": "Rome was not built in a day."
+  },
+  {
+    "id": "387",
+    "bn": "যা রটে তা কিছু তো বটে।",
+    "en": "Rumour has some element of truth in it."
+  },
+  {
+    "id": "388",
+    "bn": "হেলে ধরতে পারে না, কেউটে ধরতে চায়।",
+    "en": "Run before one can walk."
+  },
+  {
+    "id": "389",
+    "bn": "সাবধানের মার নেই।",
+    "en": "Safe bind, safe find ."
+  },
+  {
+    "id": "390",
+    "bn": "এক হাতে ছড়াও, দুই হাতে কুড়াও।",
+    "en": "Scatter with one hand, gather with two."
+  },
+  {
+    "id": "391",
+    "bn": "দেখতে পাইলেই বিশ্বাস হয় ; আগে দর্শনদারি, পরে গুণবিচারি",
+    "en": "Seeing is believing."
+  },
+  {
+    "id": "392",
+    "bn": "স্বাবলম্বনই সর্বশ্রেষ্ট অবলম্বন ।",
+    "en": "Self help is the best help ."
+  },
+  {
+    "id": "393",
+    "bn": "চাচা আপন প্রাণ বাঁচা।",
+    "en": "Self preservation is the first law of nature ."
+  },
+  {
+    "id": "394",
+    "bn": "আপনি (নিজে) বাঁচলে বাপের নাম।",
+    "en": "Self-preservation is the first law of nature."
+  },
+  {
+    "id": "395",
+    "bn": "বুড়ো আঙুল দেখানো।",
+    "en": "Show the thumb in derision."
+  },
+  {
+    "id": "396",
+    "bn": "মৌনতাই সম্মতির লক্ষণ।",
+    "en": "Silence gives consent."
+  },
+  {
+    "id": "397",
+    "bn": "যার নাম ভাজা চাল, তার নাম মুড়ি।",
+    "en": "Six of the one and half-a-dozen of the other."
+  },
+  {
+    "id": "398",
+    "bn": "অধ্যবসায়ের ফলেই সাফল্যের লাভ ঘটে ।",
+    "en": "Slow and steady wins the race ."
+  },
+  {
+    "id": "399",
+    "bn": "কর্মে কুড়ে ভোজনে দেড়ে।",
+    "en": "Slow to work but quick to eat."
+  },
+  {
+    "id": "400",
+    "bn": "উনো বীজ, দুনো ফসল।",
+    "en": "Small seeds, great harvests."
+  },
+  {
+    "id": "401",
+    "bn": "নাই-মামর চাইতে কানা-মামা ভালো।",
+    "en": "Something is better than nothing."
+  },
+  {
+    "id": "402",
+    "bn": "ইঁচড়ে পাকলে গোল্লায় যায় ।",
+    "en": "Soon ripe, soon rotten ."
+  },
+  {
+    "id": "403",
+    "bn": "শাস্তি না দিলে ছেলে শাসন হয় না।",
+    "en": "Spare the rod and spoil the child ."
+  },
+  {
+    "id": "404",
+    "bn": "ঝোপ বুঝে কোপ মারা।",
+    "en": "Strike the iron while it is hot."
+  },
+  {
+    "id": "405",
+    "bn": "বিপর্যয় অভিশাপ নয়, আশীর্বাদ।",
+    "en": "Sweet are the uses of adversity."
+  },
+  {
+    "id": "406",
+    "bn": "নিতে জানি দিতে জানি না।",
+    "en": "Sweet's the wine, but sour's the payment."
+  },
+  {
+    "id": "407",
+    "bn": "কাঁচায় না নোয়ালে বাঁশ, পাকলে করে ঠাস ঠাস।",
+    "en": "Tame the animal while it is young."
+  },
+  {
+    "id": "408",
+    "bn": "ওস্তাদের মার শেষ রাতে।",
+    "en": "The best prove itself in the long."
+  },
+  {
+    "id": "409",
+    "bn": "রহস্য ফাঁস হয়ে গেছে",
+    "en": "The cat is out of the bag."
+  },
+  {
+    "id": "410",
+    "bn": "হাটে হাঁড়ি ভেঙে দিল।",
+    "en": "The chip tougher than the old block."
+  },
+  {
+    "id": "411",
+    "bn": "আদার ব্যাপারীর জাহাজের খবর কেন?।",
+    "en": "The cobbler must stick to his last."
+  },
+  {
+    "id": "412",
+    "bn": "চরিত্রই মানব জীবনের সর্বশ্রেষ্ঠ সম্পদ।",
+    "en": "The crown and glory of life is character ."
+  },
+  {
+    "id": "413",
+    "bn": "ভূতের মুখে রাম রাম।",
+    "en": "The devil listening to the Scriptures."
+  },
+  {
+    "id": "414",
+    "bn": "চোরে না শোনে ধর্মের কাহিনী।",
+    "en": "The devil would not listen to the Scriptures."
+  },
+  {
+    "id": "415",
+    "bn": "উদ্দেশ্য দিয়েই উপায়ের বিচার করা উচিত।",
+    "en": "The end justifies the means."
+  },
+  {
+    "id": "416",
+    "bn": "চোখ হল মনের জানালা।",
+    "en": "The eyes are the window of the soul."
+  },
+  {
+    "id": "417",
+    "bn": "পায় না, তাই খায় না।",
+    "en": "The grapes are sour."
+  },
+  {
+    "id": "418",
+    "bn": "স্বভাব যায় না মরলে, আর ইল্লৎ যায় না ধুলে।",
+    "en": "The leopard cannot change its spots."
+  },
+  {
+    "id": "419",
+    "bn": "কর্তার ইচ্ছাই কর্ম।",
+    "en": "The master's will is law."
+  },
+  {
+    "id": "420",
+    "bn": "বজ্র আঁটুনি ফসকা গেরো।",
+    "en": "The more laws, the more flaws."
+  },
+  {
+    "id": "421",
+    "bn": "যত পায়, তত চায়।",
+    "en": "The more you get/have, the more you want."
+  },
+  {
+    "id": "422",
+    "bn": "যতই পড়িবে, ততই শিখিবে।",
+    "en": "The more you read, the more you learn."
+  },
+  {
+    "id": "423",
+    "bn": "অধিকন্তু ন দোষায়।",
+    "en": "The more, the merrier."
+  },
+  {
+    "id": "424",
+    "bn": "আলোর নিচেই অন্ধকার।",
+    "en": "The nearer the church, the farther from god."
+  },
+  {
+    "id": "425",
+    "bn": "আপন ধান বিশ পসুরি পরের ধান এক পসুরি।",
+    "en": "The owl thinks all her young one’s beauties."
+  },
+  {
+    "id": "426",
+    "bn": "বাপ-মার দেখেই ছেলেপিলে শেখে।",
+    "en": "The parent's life is the child's copybook."
+  },
+  {
+    "id": "427",
+    "bn": "অসির চেয়ে মসীর শক্তি বেশি।",
+    "en": "The pen is mightier than the sword."
+  },
+  {
+    "id": "428",
+    "bn": "চালনী বলে ছুঁচ তুমি কেন ছেদা।",
+    "en": "The pot calls the kettle black."
+  },
+  {
+    "id": "429",
+    "bn": "মানুষের প্রকৃত মর্যাদা নির্ভর করে তিনি যা তার উপর, তার কি আছে তার উপর নয়।",
+    "en": "The real dignity of a man lies not in what he has but in what he is."
+  },
+  {
+    "id": "430",
+    "bn": "চালুনি বলে ছুঁচ তোর পিছে কেন ছ্যাঁদা।",
+    "en": "The saucepan should not call the kettle black."
+  },
+  {
+    "id": "431",
+    "bn": "হাতের ঢিল ছুড়লে আর ফেরে না।",
+    "en": "The shaft once shot does not return."
+  },
+  {
+    "id": "432",
+    "bn": "ঝাঁকের কই ঝাঁকে যায়।",
+    "en": "The sheep return to the flock."
+  },
+  {
+    "id": "433",
+    "bn": "এ পাপের প্রায়শ্চিত্ত নেই।",
+    "en": "The sin is past all atonement."
+  },
+  {
+    "id": "434",
+    "bn": "আলালের ঘরের দুলাল।",
+    "en": "The spoilt child of a rich parent."
+  },
+  {
+    "id": "435",
+    "bn": "মরা হাতি লাখ টাকা।",
+    "en": "The very ruins of greatness are great."
+  },
+  {
+    "id": "436",
+    "bn": "পাপে মৃত্যু আনে।",
+    "en": "The wages of the sin is death."
+  },
+  {
+    "id": "437",
+    "bn": "যার জ্বালা সেই জানে।",
+    "en": "The wearer best knows where the shoe pinches."
+  },
+  {
+    "id": "438",
+    "bn": "চাঁদেও কলঙ্ক আছে।",
+    "en": "There are less to every wine."
+  },
+  {
+    "id": "439",
+    "bn": "মারের মতন ঔষধ নাই।",
+    "en": "There is no argument like that of the stick."
+  },
+  {
+    "id": "440",
+    "bn": "কষ্ট ছাড়া কেষ্ট মেলে না।",
+    "en": "There is no rose without a throne."
+  },
+  {
+    "id": "441",
+    "bn": "কারণ বিনা কার্য হয় না; যা রটে তার কিছু ঘটে।",
+    "en": "There is no smoke without fire."
+  },
+  {
+    "id": "442",
+    "bn": "চাঁদেরও কলঙ্ক আছে।",
+    "en": "There is no unmixed good."
+  },
+  {
+    "id": "443",
+    "bn": "সব শিয়ালের এক রা।",
+    "en": "They see eye to eye with one another."
+  },
+  {
+    "id": "444",
+    "bn": "ভাবিয়া করিও কাজ।",
+    "en": "Think twice before you take a risk."
+  },
+  {
+    "id": "445",
+    "bn": "জন্মিলে মরিতে হবে অমরকে কোথা যাবে।",
+    "en": "Those who are born must die."
+  },
+  {
+    "id": "446",
+    "bn": "যার বিয়ে তার মনে নেই, পাড়াপড়শীর ঘুম নেই।",
+    "en": "Thou he is careless to make his mark, others are moving mountains for him."
+  },
+  {
+    "id": "447",
+    "bn": "সময় এবং স্রোত কাহারও জন্য অপেক্ষা করে না।",
+    "en": "Time and tide wait for none."
+  },
+  {
+    "id": "448",
+    "bn": "সময়েই ক্ষত শুকোয়।",
+    "en": "Time cures more than the doctor."
+  },
+  {
+    "id": "449",
+    "bn": "সময়ই সবচেয়ে ভাল উপাশক।",
+    "en": "Time is the best healer."
+  },
+  {
+    "id": "450",
+    "bn": "ইটটি মারলে পাটকেলটি খেতে হয়।",
+    "en": "Tit for tat."
+  },
+  {
+    "id": "451",
+    "bn": "পক্ষপাত দুষ্ট লোকের নিকট সবই দুষ্ট।",
+    "en": "To a biased mind everything is in fault."
+  },
+  {
+    "id": "452",
+    "bn": "ডুবে ডুবে জল খাওয়া।",
+    "en": "To act surreptitiously."
+  },
+  {
+    "id": "453",
+    "bn": "কাটা গায়ে নুনের ছিটা দেওয়া।",
+    "en": "To add insult to injury or To rub in."
+  },
+  {
+    "id": "454",
+    "bn": "চোখে আঙুল দিয়ে দেখানো।",
+    "en": "To attract pointed attention towards."
+  },
+  {
+    "id": "455",
+    "bn": "থোঁতা মুখ ভোঁতা হওয়া।",
+    "en": "To be abashed or disconcerted."
+  },
+  {
+    "id": "456",
+    "bn": "যার জন্যে (তরে) চুরি করি সেই বলে চোর।",
+    "en": "To be abused by them we do good."
+  },
+  {
+    "id": "457",
+    "bn": "নাকে তেল দিয়ে ঘুমানো।",
+    "en": "To be careless about what happens."
+  },
+  {
+    "id": "458",
+    "bn": "ওঠ ছুঁড়ি তোর বিয়ে।",
+    "en": "To be caught unprepared."
+  },
+  {
+    "id": "459",
+    "bn": "মাথায় হাত দিয়ে বসে পড়া।",
+    "en": "To be completely upset."
+  },
+  {
+    "id": "460",
+    "bn": "উড়ে এসে জুড়ে বসা।",
+    "en": "To be quick to occupy."
+  },
+  {
+    "id": "461",
+    "bn": "দুধের স্বাদ ঘোলে মেটানো।",
+    "en": "To be satisfied with an inferior substitute."
+  },
+  {
+    "id": "462",
+    "bn": "কাঁচা বাঁশে ঘুণ ধরা।",
+    "en": "To be spoiled in early youth."
+  },
+  {
+    "id": "463",
+    "bn": "এক ক্ষুরে মাথা মুড়ানো।",
+    "en": "To be tarred with the same brush."
+  },
+  {
+    "id": "464",
+    "bn": "আদা জল খেয়ে লাগা।",
+    "en": "To be up and doing."
+  },
+  {
+    "id": "465",
+    "bn": "অন্ধকারে ঢিল মারা।",
+    "en": "To beat about the bush."
+  },
+  {
+    "id": "466",
+    "bn": "মারের নাম মহাশয়।",
+    "en": "To beat black and blue."
+  },
+  {
+    "id": "467",
+    "bn": "বিড়ালের গলায় ঘন্টা বাঁধা।",
+    "en": "To bell the cat."
+  },
+  {
+    "id": "468",
+    "bn": "ছোট মুখে বড় কথা।",
+    "en": "To speak big words with a small mouth."
+  },
+  {
+    "id": "469",
+    "bn": "উপকারীর অপকার করা।",
+    "en": "To do harm to the benefactor."
+  },
+  {
+    "id": "470",
+    "bn": "এক মুখে দুই কথা বা দুরকম কথা।",
+    "en": "To speak in contradictory terms or to be inconsistent."
+  },
+  {
+    "id": "471",
+    "bn": "মশা মারতে কামান দাগা।",
+    "en": "To use a sledgehammer to crack a nut."
+  },
+  {
+    "id": "472",
+    "bn": "খাল কেটে কুমির আনা।",
+    "en": "To make mischief where none is intended."
+  },
+  {
+    "id": "473",
+    "bn": "ভিমরুলের চাকে কাঠি (ঢিল) দেওয়া।",
+    "en": "To stir up a hornet's nest."
+  },
+  {
+    "id": "474",
+    "bn": "ভিটায় ঘুঘু চরানো।",
+    "en": "To invite utter destruction."
+  },
+  {
+    "id": "475",
+    "bn": "আকাশ-কুসুম রচনা করা।",
+    "en": "To build castles in the air."
+  },
+  {
+    "id": "476",
+    "bn": "নিজের নাক কেটে পরের যাত্রা ভঙ্গ করা।",
+    "en": "To cut off one's nose to spite one's face."
+  },
+  {
+    "id": "477",
+    "bn": "ভীষণ পরিশ্রম করা।",
+    "en": "To work oneself to death."
+  },
+  {
+    "id": "478",
+    "bn": "তেলা মাথায় তেল দেওয়া।",
+    "en": "To add oil to the fire."
+  },
+  {
+    "id": "479",
+    "bn": "উলুবনে মুক্তা ছড়ানো।",
+    "en": "To cast pearls before swine."
+  },
+  {
+    "id": "480",
+    "bn": "দুধ কলা দিয়ে কালসাপ পোষা।",
+    "en": "To nourish a snake with milk."
+  },
+  {
+    "id": "481",
+    "bn": "গাছে কাঁঠাল গোঁফে তেল।",
+    "en": "To count one's chickens before they are hatched."
+  },
+  {
+    "id": "482",
+    "bn": "অরণ্যে রোদন।",
+    "en": "To cry in the wilderness."
+  },
+  {
+    "id": "483",
+    "bn": "চোরের উপর রাগ করে মাটিতে ভাত খওয়া।",
+    "en": "To cut off one's nose to spite one's face."
+  },
+  {
+    "id": "484",
+    "bn": "নিজের পায়ে নিজে কুড়াল মারা।",
+    "en": "To dig one's own grave."
+  },
+  {
+    "id": "485",
+    "bn": "পাকা ধানে মই দেওয়া।",
+    "en": "To do a great injury."
+  },
+  {
+    "id": "486",
+    "bn": "পরের ধনে পোদ্দারি করা।",
+    "en": "To earn fame by spending another's money."
+  },
+  {
+    "id": "487",
+    "bn": "মাথার ঘাম পায়ে পড়া।",
+    "en": "To earn one's bread by the sweat of one's brow."
+  },
+  {
+    "id": "495",
+    "bn": "দুঃখের ভাত সুখ করে খাওয়া।",
+    "en": "To eat happily one's bread of labour."
+  },
+  {
+    "id": "496",
+    "bn": "খাই দাই ডুগডুগি বাজাই।",
+    "en": "To enjoy a life of ease."
+  },
+  {
+    "id": "497",
+    "bn": "মুনীনাঞ্চ মতিভ্রমঃ।",
+    "en": "To err is human."
+  },
+  {
+    "id": "498",
+    "bn": "কড়ায় কণ্ডায় আদায় করা।",
+    "en": "To exact to the last penny."
+  },
+  {
+    "id": "499",
+    "bn": "একুল-ওকুল দুকুল গেল।",
+    "en": "To fall between two stools."
+  },
+  {
+    "id": "500",
+    "bn": "আপন কোলে ঝোল টানা।",
+    "en": "To feather one’s nest."
+  },
+  {
+    "id": "501",
+    "bn": "সুখে থাকতে ভূতে কিলায়।",
+    "en": "To feel ill at ease."
+  },
+  {
+    "id": "502",
+    "bn": "গোলে হরিবোল দেয়া।",
+    "en": "To fish in troubled water."
+  },
+  {
+    "id": "503",
+    "bn": "মহাজন যে-পথে করেছে গমন।",
+    "en": "To follow in the footsteps of the wise."
+  },
+  {
+    "id": "504",
+    "bn": "মাছের (কৈয়ের) তেলে মাছ (কৈ) ভাজা।",
+    "en": "To gain without spending."
+  },
+  {
+    "id": "505",
+    "bn": "কখন আছি, কখন নাই।",
+    "en": "To have one foot in the grave."
+  },
+  {
+    "id": "506",
+    "bn": "শাক দিয়ে মাছ ঢাকা।",
+    "en": "To hide in a superficial way."
+  },
+  {
+    "id": "507",
+    "bn": "নিজের ফাঁদে নিজেই জড়িয়ে পড়া।",
+    "en": "To hoist with one's own petard."
+  },
+  {
+    "id": "508",
+    "bn": "পেটের কথা পেটে রাখা।",
+    "en": "To keep counsel."
+  },
+  {
+    "id": "509",
+    "bn": "এক ঢিলে দুই পাখি মারা।",
+    "en": "To kill two birds with one stone."
+  },
+  {
+    "id": "510",
+    "bn": "কত ধানে কত চাল জানা।",
+    "en": "To know how many beans, make five."
+  },
+  {
+    "id": "511",
+    "bn": "হীন অবস্থাতে দিন কাটানো।",
+    "en": "To lead the life of a dog."
+  },
+  {
+    "id": "512",
+    "bn": "গাছে তুলে মই কেড়ে নেয়া।",
+    "en": "To leave one in the lurch."
+  },
+  {
+    "id": "513",
+    "bn": "চোর পালালে বুদ্ধি বাড়ে।",
+    "en": "To lock the stable door when the steed is stolen."
+  },
+  {
+    "id": "514",
+    "bn": "পরের মাথায় কাঁটাল ভাঙা।",
+    "en": "To make a cat's paw of a person."
+  },
+  {
+    "id": "525",
+    "bn": "তিলকে তাল করা।",
+    "en": "To make a mountain of a molehill."
+  },
+  {
+    "id": "526",
+    "bn": "পরের মাথায় কাঁঠাল ভাঙা, উদোর পিন্ডি বুদোর ঘাড়ে।",
+    "en": "To make cat’s paw of person."
+  },
+  {
+    "id": "527",
+    "bn": "পরের ধরে পোদ্দারি করা।",
+    "en": "To make free with another’s money."
+  },
+  {
+    "id": "528",
+    "bn": "কোম্পানিকা মাল দরিয়ামে ঢাল।",
+    "en": "To make free with public property."
+  },
+  {
+    "id": "529",
+    "bn": "গঙ্গাজলে গঙ্গাপূজা করা।",
+    "en": "To make gift at the cost of the owner."
+  },
+  {
+    "id": "530",
+    "bn": "ধরি মাছ না-ছুঁই পানি।",
+    "en": "To make sure of something without risking anything."
+  },
+  {
+    "id": "531",
+    "bn": "খোদার উপর খোদকারি করা।",
+    "en": "To mend nature or Fools rush in where angels fear to tread."
+  },
+  {
+    "id": "532",
+    "bn": "আগুন নিয়ে খেলা করা।",
+    "en": "To play with fire."
+  },
+  {
+    "id": "533",
+    "bn": "কিল খেয়ে কিল চুরি করা।",
+    "en": "To pocket an insult."
+  },
+  {
+    "id": "534",
+    "bn": "মরার উপর খাঁড়ার ঘা।",
+    "en": "To pour water on a drowned mouse."
+  },
+  {
+    "id": "543",
+    "bn": "আড়ালে থেকে কল টেপা।",
+    "en": "To pull the wires."
+  },
+  {
+    "id": "544",
+    "bn": "ঘোড়ার আগে গাড়ি যোতা।",
+    "en": "To put the cart before the horse."
+  },
+  {
+    "id": "545",
+    "bn": "গাছের পাড়া, তলারও কুড়ানো।",
+    "en": "To reap the double advantage."
+  },
+  {
+    "id": "546",
+    "bn": "চৌদ্দ পুরুষ উদ্ধার করা।",
+    "en": "To revile or abuse to one's heart's content."
+  },
+  {
+    "id": "547",
+    "bn": "গরু মেরে জুতা দান।",
+    "en": "To rob Peter to pay Paul."
+  },
+  {
+    "id": "548",
+    "bn": "চোরের উপর বাটপাড়ি।",
+    "en": "To rob the robber."
+  },
+  {
+    "id": "549",
+    "bn": "চোখে সর্ষেফুল দেখা।",
+    "en": "To see sparks before the eyes."
+  },
+  {
+    "id": "550",
+    "bn": "শেয়ালের কাছে মুরগী বর্গা দেয়া।",
+    "en": "To set a fox to keep one’s geese."
+  },
+  {
+    "id": "551",
+    "bn": "কাঁটা দিয়ে কাঁটা তোলা।",
+    "en": "To set a thief to catch a thief or Like cures like."
+  },
+  {
+    "id": "552",
+    "bn": "কাকে কান নিয়েছে শুনে কাকের পিছনে ছোটা।",
+    "en": "To swallow the bait."
+  },
+  {
+    "id": "554",
+    "bn": "মশা মারতে কামান লাগে।",
+    "en": "To take a hammer to spread a plaster."
+  },
+  {
+    "id": "555",
+    "bn": "ঝিকে মেরে বৌকে শেখানো।",
+    "en": "To teach the guilty a lesson by railing at the innocent."
+  },
+  {
+    "id": "556",
+    "bn": "আপনি (নিজে) ভাল তো জগৎ ভাল।",
+    "en": "To the pure all things are pure."
+  },
+  {
+    "id": "557",
+    "bn": "সাত-পাঁচ ভাবা।",
+    "en": "To think twice."
+  },
+  {
+    "id": "558",
+    "bn": "শাক দিয়ে মাছ ঢাকা।",
+    "en": "To try to hush something up, when it already known to many."
+  },
+  {
+    "id": "559",
+    "bn": "দিনকে রাত করা।",
+    "en": "To utter a downright false-hood."
+  },
+  {
+    "id": "560",
+    "bn": "গোড়া কেটে আগায় জল দেওয়া।",
+    "en": "To water the top of a plant after laying the axe to its root."
+  },
+  {
+    "id": "561",
+    "bn": "অধিক সন্ন্যাসীতে গাঁজন নষ্ট।",
+    "en": "Too much cooks spoil the broth."
+  },
+  {
+    "id": "562",
+    "bn": "অতি ভক্তি চোরের লক্ষণ।",
+    "en": "Too much courtesy, too much or full of craft."
+  },
+  {
+    "id": "563",
+    "bn": "অতি চালাকের গলায় দড়ি।",
+    "en": "Too much cunning overreaches itself."
+  },
+  {
+    "id": "564",
+    "bn": "সত্যের কোন রূপান্তর নেই, আজও যা কালও তা।",
+    "en": "Truth has no colour."
+  },
+  {
+    "id": "565",
+    "bn": "কল্পকথার চেয়ে বাস্তব অধিকতর বিস্ময়কর।",
+    "en": "Truth is stranger than fiction."
+  },
+  {
+    "id": "566",
+    "bn": "মৃত্যুপথযাত্রীর কথা সত্য হয়।",
+    "en": "Truth sits upon the lips of dying men."
+  },
+  {
+    "id": "567",
+    "bn": "সত্য কখনো চাপা থাকে না।",
+    "en": "Truth will out."
+  },
+  {
+    "id": "568",
+    "bn": "দশে মিলে করি কাজ, হারি জিতি নাহি লাজ।",
+    "en": "Two heads are better than one."
+  },
+  {
+    "id": "569",
+    "bn": "দুইজনে বন্ধুত্ব হয়, তিনজনে হয় কলহ।",
+    "en": "Two is company, three is none."
+  },
+  {
+    "id": "570",
+    "bn": "যে শিরে মুকুট থাকে সে শির স্বস্তিতে থাকে না।",
+    "en": "Uneasy lies the head that wears a crown."
+  },
+  {
+    "id": "571",
+    "bn": "একতায় উত্থান, বিভেদে পতন।",
+    "en": "United we stand, divided we fail."
+  },
+  {
+    "id": "572",
+    "bn": "ঘোড়া দেখে খোঁড়া হওয়া।",
+    "en": "Unwilling to work when there is somebody to help."
+  },
+  {
+    "id": "573",
+    "bn": "জীবনের স্বাদ বৈচিত্র্যে।",
+    "en": "Variety is the spice of life."
+  },
+  {
+    "id": "574",
+    "bn": "ধর্মের কল বাতাসে নড়ে।",
+    "en": "Virtue proclaims itself."
+  },
+  {
+    "id": "575",
+    "bn": "বিপদের মধ্যে গুনের পরীক্ষা হয়।",
+    "en": "Virtue thrives best in adversity."
+  },
+  {
+    "id": "576",
+    "bn": "কাজের সময় কাজী, কাজ ফুরালে পাজী।",
+    "en": "Vows made in storm are forgotten in calm."
+  },
+  {
+    "id": "577",
+    "bn": "ঘরের কেচ্ছা বাইরে গাওয়া।",
+    "en": "Wash one's dirty linen in public."
+  },
+  {
+    "id": "578",
+    "bn": "অপচয় কোরো না অভাবে পোড়ো না",
+    "en": "Waste not, want not."
+  },
+  {
+    "id": "579",
+    "bn": "দিনে বাতি যার ঘরে, তার ভিটায় ঘুঘু চরে।",
+    "en": "We never know the worth of water till the well is dry."
+  },
+  {
+    "id": "580",
+    "bn": "শরীরের নাম মহাশয় যা সওয়াবে তাই সয়।",
+    "en": "We first make our habits, and then our habits make us."
+  },
+  {
+    "id": "581",
+    "bn": "মানুষ বাঁচে তাহার কর্মে, বয়সের মধ্যে নহে।",
+    "en": "We live in deed, not in years."
+  },
+  {
+    "id": "582",
+    "bn": "দৌড়ানো শেখার পূর্বে হাটা শিখতে হয়।",
+    "en": "We must learn to walk before we can run."
+  },
+  {
+    "id": "583",
+    "bn": "দাঁত থাকতে দাঁতের মর্যাদা বোঝা যায় না।",
+    "en": "We never know the worth of water till the well is dry."
+  },
+  {
+    "id": "584",
+    "bn": "দশে মিলি করি কাজ, হারি জিতি নাহি লাজ।",
+    "en": "We stand or fall together."
+  },
+  {
+    "id": "586",
+    "bn": "হাসির পরে আসে কান্না।",
+    "en": "Weal and woe come by turns."
+  },
+  {
+    "id": "587",
+    "bn": "সুন্দর শুরুই অর্ধেক সাফল্য।",
+    "en": "Well begun is half done."
+  },
+  {
+    "id": "588",
+    "bn": "প্রতিকারের উপায় না থাকলে সহ্য করতে হয়।",
+    "en": "What can’t be cured must be endured."
+  },
+  {
+    "id": "589",
+    "bn": "সৃষ্টিকর্তা যা করেন মঙ্গলের জন্যেই করেন।",
+    "en": "What god wills is for good."
+  },
+  {
+    "id": "590",
+    "bn": "রাখে আল্লাহ মারে কে।",
+    "en": "What god wills no frost can kill."
+  },
+  {
+    "id": "591",
+    "bn": "সব জিনিসেরই এক সময় পতন ঘটে।",
+    "en": "What goes up must come down."
+  },
+  {
+    "id": "592",
+    "bn": "যা হবার হয়ে গেছে; ঘটে যাওয়া জিনিসের পরিবর্তন সম্ভব নয়।",
+    "en": "What is done cannot be undone."
+  },
+  {
+    "id": "593",
+    "bn": "অধিক সন্ন্যাসীতে গাজন নষ্ট।",
+    "en": "What is everybody’s business is nobody’s business."
+  },
+  {
+    "id": "594",
+    "bn": "কপালের লিখন না যায় খন্ডন।",
+    "en": "What is lotted cannot be blotted."
+  },
+  {
+    "id": "595",
+    "bn": "সকল রোগীর এক পথ্য নহে।",
+    "en": "What is sauce for the gander is not for the goose."
+  },
+  {
+    "id": "596",
+    "bn": "কারও সর্বনাশ, কারও পৌষমাস।",
+    "en": "What is sport to the cat is death to the rat."
+  },
+  {
+    "id": "597",
+    "bn": "ভাগ্যকে পরিবর্তন করা যায় না।",
+    "en": "What must be, must be and what will be, will be."
+  },
+  {
+    "id": "598",
+    "bn": "না জানলে মন খারাপ হয় না।",
+    "en": "What the eye doesn’t see, the heart doesn’t grieve over."
+  },
+  {
+    "id": "599",
+    "bn": "নামে কিবা আসে যায়?।",
+    "en": "What’s in a name."
+  },
+  {
+    "id": "600",
+    "bn": "যেখানে যেমন, সেখানে তেমন।",
+    "en": "When in Rome, do as Romans do."
+  },
+  {
+    "id": "601",
+    "bn": "যস্মিন দেশে যাদাচার; যখন যেমন, তখন তেমন।",
+    "en": "When in Rome, do as the Romans do."
+  },
+  {
+    "id": "602",
+    "bn": "এক দুয়ার বন্ধ তো হাজার দুয়ার খোলা।",
+    "en": "When one door shuts, another opens."
+  },
+  {
+    "id": "603",
+    "bn": "অভাব দেখা দিলে ভালবাসা জানালা দিয়ে পালায়।",
+    "en": "When poverty comes in at the door, love flies out of the window."
+  },
+  {
+    "id": "604",
+    "bn": "বামন গেল ঘর তো লাঙ্গল তুলে ধর।",
+    "en": "When the cat’s away, the mice will play."
+  },
+  {
+    "id": "605",
+    "bn": "কাজ বা পরিস্থিতি যতটা প্রতিকূল হবে ততটাই দৃঢ়প্রতিজ্ঞ হতে হবে।",
+    "en": "When the going gets tough, the tough get going."
+  },
+  {
+    "id": "609",
+    "bn": "গাধা পিটে ঘোড়া হয় না।",
+    "en": "You cannot make a man of an ass."
+  },
+  {
+    "id": "610",
+    "bn": "আমড়া গাছে আম হয় না।",
+    "en": "You cannot make a silk purse out of a sow's ear."
+  },
+  {
+    "id": "611",
+    "bn": "ঘুঘূ দেখেছো, ফাঁদ দেখনি।",
+    "en": "You have seen the sweet fruit, but not the bitter."
+  },
+  {
+    "id": "612",
+    "bn": "ঘুঘূ দেখেছো, ফাঁদ দেখনি।",
+    "en": "You must not see things with half an eye."
+  },
+  {
+    "id": "613",
+    "bn": "কত ধানে কত চাল বুঝবে।",
+    "en": "You will know now what's what."
+  },
+  {
+    "id": "614",
+    "bn": "দুঃখের পরে আসে সুখ।",
+    "en": "Every cloud has silver shining."
+  },
+  {
+    "id": "615",
+    "bn": "আপন গাঁয়ে কুকুর রাজা",
+    "en": "Every dog is a lion at home."
+  },
+  {
+    "id": "616",
+    "bn": "টাকায় সকলে বশ হয়।",
+    "en": "Every man has his price."
+  },
+  {
+    "id": "617",
+    "bn": "চাচা আপন প্রাণ বাঁচা।",
+    "en": "Every man is for himself."
+  },
+  {
+    "id": "618",
+    "bn": "নিজের জিনিস সকলেই ভাল দেখে।",
+    "en": "Every one thinks his own geese swans."
+  },
+  {
+    "id": "619",
+    "bn": "অনভ্যাসের ফোঁটায় কপাল চড়চড় করে।",
+    "en": "Every shoe fits not every foot."
+  },
+  {
+    "id": "620",
+    "bn": "পাপ ছাড়ে না বাপকে।",
+    "en": "Every sin carries its own punishment."
+  },
+  {
+    "id": "621",
+    "bn": "উপদেশের চেয়ে দৃষ্টান্ত ভালো।",
+    "en": "Example is better than precept."
+  },
+  {
+    "id": "622",
+    "bn": "অভিজ্ঞতাই সর্বোত্তম শিক্ষক।",
+    "en": "Experience is the best teacher."
+  },
+  {
+    "id": "623",
+    "bn": "ঠেখে শেখা আর দেখে শেখা।",
+    "en": "Experience teaches better than wisdom."
+  },
+  {
+    "id": "624",
+    "bn": "ডোল ভরা আশা আর কুলো ভরা ছাই।",
+    "en": "Extravagant hopes lead to complete disappointment."
+  },
+  {
+    "id": "625",
+    "bn": "ব্যর্থতাই সাফল্যের চাবি স্তম্ভস্বরূপ।",
+    "en": "Failure is the pillar of success."
+  },
+  {
+    "id": "626",
+    "bn": "মিষ্টি কথায় চিঁড়ে ভেজে না।",
+    "en": "Fair words do not fill the pocket."
+  },
+  {
+    "id": "627",
+    "bn": "বিশ্বাস পাহাড়কেও টলায়।",
+    "en": "Faith will move mountains."
+  },
+  {
+    "id": "628",
+    "bn": "অধিক মাখামাখিতে মান নষ্ট।",
+    "en": "Familiarity breeds contempt."
+  },
+  {
+    "id": "629",
+    "bn": "ভাগ্যের (কপালের) লেখা খণ্ডায় কে।",
+    "en": "Fate cannot be resisted."
+  },
+  {
+    "id": "630",
+    "bn": "ভাগ্যং ফলিত সর্বত্র।",
+    "en": "Fate rules everywhere."
+  },
+  {
+    "id": "631",
+    "bn": "যারে দেখতে নারি, তার চলন বাঁকা।",
+    "en": "Faults are thick where love is thin."
+  },
+  {
+    "id": "632",
+    "bn": "যারে দেখতে নারি তার চলন বাঁকা।",
+    "en": "Faults come thick where love is thin."
+  },
+  {
+    "id": "633",
+    "bn": "ভয়ে গায়ের রক্ত শুকিয়ে যায়।",
+    "en": "Fear makes the blood curdle."
+  },
+  {
+    "id": "633",
+    "bn": "ঘরের শত্রু বিভীষণ।",
+    "en": "Fifth columnist."
+  },
+  {
+    "id": "635",
+    "bn": "মিষ্টি কথায় চিড়ে ভিজে না।",
+    "en": "Fine words butter no parsnips."
+  },
+  {
+    "id": "636",
+    "bn": "শুধু মিষ্টি কথায় চিরে ভেজে না।",
+    "en": "Fire or fine words butter no parsnips."
+  },
+  {
+    "id": "637",
+    "bn": "আগে আসলে আগে পাবে।",
+    "en": "First come, first served."
+  },
+  {
+    "id": "638",
+    "bn": "প্রথমে উপযুক্ত হও, তারপর আকাঙ্খা কর।",
+    "en": "First deserve than desire."
+  },
+  {
+    "id": "639",
+    "bn": "গাঁয়ে মানে না আপনি মোড়ল।",
+    "en": "Fool to others to himself a sage."
+  },
+  {
+    "id": "640",
+    "bn": "বোকারা অনেক দেরিতে বোঝে।",
+    "en": "Fools of yesterday are the wise men of today."
+  },
+  {
+    "id": "641",
+    "bn": "মূর্খই মূর্খের কদর করে।",
+    "en": "Fools praise fools."
+  },
+  {
+    "id": "642",
+    "bn": "হাতি ঘোড়া গেল তল, পিপড়া বলে কত জল।",
+    "en": "Fools rush in where angels fear to tread."
+  },
+  {
+    "id": "643",
+    "bn": "ক্ষমা পরম ধর্ম ক্ষমা কর ও ভুলে যাও।",
+    "en": "Forgive and forget."
+  },
+  {
+    "id": "644",
+    "bn": "ভাগ্যবানের বোঝা ভগমানে বয়।",
+    "en": "Fortune favors the brave."
+  }
 ]

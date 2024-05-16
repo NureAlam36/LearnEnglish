@@ -10,6 +10,8 @@ import famousQuotations from '@/data/famous-quotations.json'
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
+import ContentHeader from "@/components/Headers/ContentHeader";
+
 const index = () => {
     const route = useRoute();
     const { colorScheme } = useColorSchemeContext();
@@ -36,12 +38,8 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>{topicName}</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
+            <ContentHeader title={topicName} />
+
             <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
                 <FlatList
                     data={quotes}

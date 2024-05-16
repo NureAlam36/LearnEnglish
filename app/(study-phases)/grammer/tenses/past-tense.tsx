@@ -34,12 +34,6 @@ const person = () => {
 
     return (
         <React.Fragment>
-            <Stack.Screen
-                options={{
-                    headerTitle: () => <Text style={{ fontSize: 18, color: 'white', fontFamily: FONT.medium, }}>Past Tense</Text>,
-                    headerStyle: { backgroundColor: '#5495fb' }
-                }}
-            />
             {
                 !loading ? <ScrollView style={styles.container}>
                     <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Past Tense (অতীত কাল)</Text>

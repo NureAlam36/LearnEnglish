@@ -11,7 +11,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 
 import { Stack as ExpoStack } from "expo-router";
 
-const CustomHeader = ({ title }: any) => {
+const ContentHeader = ({ title }: any) => {
     const navigation = useNavigation() as any;
     // const { colorScheme } = useColorSchemeContext();
 
@@ -68,4 +68,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default CustomHeader
+export default ContentHeader
