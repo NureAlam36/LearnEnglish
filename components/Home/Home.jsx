@@ -1,14 +1,59 @@
 import React from "react";
-import { SafeAreaView, FlatList, StyleSheet } from "react-native";
+import {
+  SafeAreaView,
+  FlatList,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  StatusBar,
+} from "react-native";
+import { Tabs } from "expo-router";
 
 import DailyUpdates from "./DailyUpdates/DailyUpdates";
-import JobSolution from "./JobSolution/JobSolution";
 import StudyPhases from "./StudyPhases/StudyPhases";
-import Tools from "./Tools/Tools";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-import { COLORS } from "@/constants";
+import { COLORS, FONT } from "@/constants";
+import AntDesign from "@expo/vector-icons/AntDesign";
 
 import MainPageHeader from "@/components/Headers/MainPageHeader";
+
+const JobPreparationCard = ({ navigation }) => {
+  const { theme } = useColorSchemeContext();
+  return (
+    <TouchableOpacity
+      onPress={() => navigation.navigate("job_solution_screen")}
+      activeOpacity={0.8}
+      style={[
+        styles.cardContainer,
+        {
+          backgroundColor: theme.bgSecondary,
+          borderWidth: 1,
+          borderColor: theme.borderColor,
+        },
+      ]}
+    >
+      <View style={styles.textContainer}>
+        <View style={styles.titleContainer}>
+          <Text style={[styles.title, { color: theme.headingSecondary }]}>
+            Job Solution
+          </Text>
+          <AntDesign name="arrowright" size={22} color={COLORS.primary} />
+        </View>
+        <Text style={[styles.description, { color: theme.textSecondary }]}>
+          Prepare for job exams with complete MCQ and past questions.
+        </Text>
+      </View>
+      <Image
+        source={{
+          uri: "https://www.nicepng.com/png/full/415-4154786_when-interviewing-for-your-first-ot-job-be.png",
+        }}
+        style={styles.image}
+      />
+    </TouchableOpacity>
+  );
+};
 
 const Home = ({ navigation }) => {
   const { colorScheme } = useColorSchemeContext();
@@ -27,17 +72,15 @@ const Home = ({ navigation }) => {
         ]}
       >
         <FlatList
-          data={["daily", "job-solution", "study", "tools"]}
+          data={["daily", "study", "job-solution"]}
           renderItem={({ item }) => {
             switch (item) {
               case "daily":
                 return <DailyUpdates navigation={navigation} />;
-              case "job-solution":
-                return <JobSolution navigation={navigation} />;
               case "study":
                 return <StudyPhases navigation={navigation} />;
-              case "tools":
-                return <Tools />;
+              case "job-solution":
+                return <JobPreparationCard navigation={navigation} />;
               default:
                 return null;
             }
@@ -62,8 +105,37 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     marginHorizontal: 16,
   },
+  cardContainer: {
+    marginTop: 8,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 15,
+    paddingTop: 10,
+    paddingBottom: 12,
+    borderRadius: 10,
+    gap: 30,
+  },
+  textContainer: {
+    flex: 1,
+  },
+  titleContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 8,
+    gap: 10,
+  },
   title: {
-    fontSize: 32,
+    fontSize: 19,
+    fontFamily: FONT.bold,
+  },
+  description: {
+    fontSize: 14,
+    fontFamily: FONT.regular,
+  },
+  image: {
+    width: 55,
+    height: 55,
   },
 });
 

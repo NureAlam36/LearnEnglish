@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from "react-native";
-import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import famousQuotations from '@/data/famous-quotations.json'
 import ContentHeader from "@/components/Headers/ContentHeader";
+import { Feather } from "@expo/vector-icons";
+
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+
+// Create a stack navigator
+const Stack = createStackNavigator();
+
+import Content from './content'
 
 const DATA = [
     {
@@ -30,7 +37,20 @@ const DATA = [
     }
 ];
 
-const StudyPhases = () => {
+const Index = () => {
+    return (
+        <Stack.Navigator
+            screenOptions={{
+                ...TransitionPresets.SlideFromRightIOS,
+                headerShown: false
+            }}>
+            <Stack.Screen name="bcs_preliminary_categories" component={Categories} options={{ header: () => <ContentHeader title="Daily Use Sentences" />, headerShown: true }} />
+            <Stack.Screen name="bcs_preliminary_content_screen" component={Content} />
+        </Stack.Navigator>
+    );
+}
+
+const Categories = ({ navigation }: any) => {
     const { colorScheme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
@@ -50,12 +70,12 @@ const StudyPhases = () => {
         <React.Fragment>
             <ContentHeader title="BCS Preliminary" />
 
-            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }}>
+            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary, padding: 10 }}>
                 <ScrollView showsVerticalScrollIndicator={false}>
                     {
                         Array.from({ length: DATA.length }, (_, index) => (
-                            <Link href={`/bcs-preliminary/${DATA[index].id}`} key={index} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
-                                <TouchableOpacity activeOpacity={0.7}>
+                            <TouchableOpacity onPress={() => navigation.navigate('bcs_preliminary_content_screen', { id: DATA[index].id })} activeOpacity={0.7} key={index} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                                     <View style={styles.item}>
                                         <View style={styles.imageWraper}>
                                             <Image
@@ -69,8 +89,21 @@ const StudyPhases = () => {
                                             <Text style={[styles.title, { color: COLORS.gray2, marginTop: 3 }]}>English</Text>
                                         </View>
                                     </View>
-                                </TouchableOpacity>
-                            </Link>
+                                    <View
+                                        style={{
+                                            backgroundColor: "#e5f5ff",
+                                            width: 30,
+                                            height: 30,
+                                            borderRadius: 50,
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center",
+                                        }}
+                                    >
+                                        <Feather name="chevron-right" size={20} color={COLORS.primary} />
+                                    </View>
+                                </View>
+                            </TouchableOpacity>
                         ))
                     }
                 </ScrollView>
@@ -81,14 +114,13 @@ const StudyPhases = () => {
 
 const styles = StyleSheet.create({
     itemContainer: {
-        margin: 5,
         borderRadius: 5,
-        padding: 5,
+        padding: 10,
+        marginBottom: 10
     },
     item: {
         flexDirection: "row",
         alignItems: "center",
-        margin: 5,
         gap: 10,
     },
     imageWraper: {
@@ -108,4 +140,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default StudyPhases;
+export default Index;

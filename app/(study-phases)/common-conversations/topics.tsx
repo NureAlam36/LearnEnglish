@@ -15,10 +15,11 @@ import { Link } from "expo-router";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { conversations } from '@/data/conversations.json';
 import ContentHeader from "@/components/Headers/ContentHeader";
+import { Feather } from "@expo/vector-icons";
 
 const StudyPhases = ({ navigation }: any) => {
     const route = useRoute();
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const { slug } = route.params as any;
 
     const [topics, setTopics] = useState<any>([]);
@@ -46,19 +47,32 @@ const StudyPhases = ({ navigation }: any) => {
         <React.Fragment>
             <ContentHeader title="Chapter List" />
 
-            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
-                <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Chapter List</Text>
+            <View style={[styles.sectionContainer, { backgroundColor: theme.mainBg }]}>
+                <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Topics</Text>
                 <FlatList
                     data={topics}
                     renderItem={({ item, index }) => (
                         // @ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate('conversations_screen', { id: item.id, slug: slug })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                        <TouchableOpacity onPress={() => navigation.navigate('conversations_screen', { id: item.id, slug: slug })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: theme.bgSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <View style={styles.itemIcon}>
                                     <Text
                                         style={styles.itemSn}>{item.id}</Text>
                                 </View>
                                 <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
+                            </View>
+                            <View
+                                style={{
+                                    backgroundColor: "#e5f5ff",
+                                    width: 30,
+                                    height: 30,
+                                    borderRadius: 50,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <Feather name="chevron-right" size={20} color={COLORS.primary} />
                             </View>
                         </TouchableOpacity>
                     )}
@@ -83,16 +97,17 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
         borderRadius: 5,
-        padding: 5,
+        padding: 10
     },
     item: {
         flex: 1,
         display: "flex",
         flexDirection: "row",
         gap: 10,
-        alignItems: "center",
-        margin: 5,
+        alignItems: "center"
     },
     itemIcon: {
         width: 45,

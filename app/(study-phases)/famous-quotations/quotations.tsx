@@ -13,7 +13,7 @@ import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Quotations = () => {
     const route = useRoute();
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const { slug } = route.params as any;
 
     const [topicName, setTopicName] = useState<any>([]);
@@ -39,7 +39,7 @@ const Quotations = () => {
         <React.Fragment>
             <ContentHeader title={topicName} />
 
-            <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
+            <View style={[styles.sectionContainer, { backgroundColor: theme.mainBg }]}>
                 <FlatList
                     data={quotes}
                     renderItem={({ item }) => (
@@ -54,7 +54,7 @@ const Quotations = () => {
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item) => item.id}
-                    contentContainerStyle={{ paddingBottom: 20 }}
+                    contentContainerStyle={{ paddingBottom: 20, gap: 10 }}
                     showsVerticalScrollIndicator={false}
                 />
             </View>
@@ -65,14 +65,13 @@ const Quotations = () => {
 const styles = StyleSheet.create({
     sectionContainer: {
         flex: 1,
-        marginBottom: -20
+        padding: 10
     },
     item: {
         flex: 1,
         justifyContent: 'center',
         borderRadius: 10,
         padding: 15,
-        margin: 5,
     },
     textEn: {
         fontSize: 18,

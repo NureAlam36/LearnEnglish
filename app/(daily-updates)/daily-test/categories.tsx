@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Text, View, StyleSheet, TouchableOpacity, FlatList } from 'react-native'
 import { COLORS, FONT } from "@/constants";
 import ContentHeader from '@/components/Headers/ContentHeader';
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const DATA = [
     {
@@ -97,23 +98,23 @@ const DATA = [
 ]
 
 const Categories = ({ route, navigation }: any) => {
+    const { colorScheme, theme } = useColorSchemeContext();
     const level = route.params.level || {};
-
 
     return (
         <React.Fragment>
             <ContentHeader title="Categories" />
 
-            <View style={{ flex: 1 }}>
+            <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 <FlatList
                     data={DATA}
                     renderItem={({ item }) => (
-                        <TouchableOpacity style={styles.ctg_item} onPress={() => navigation.navigate('test_page_screen', { level: level, day: item.id })} activeOpacity={0.7}>
-                            <View style={styles.item_wrap}>
+                        <TouchableOpacity style={[styles.ctg_item, {}]} onPress={() => navigation.navigate('test_page_screen', { level: level, day: item.id })} activeOpacity={0.7}>
+                            <View style={[styles.item_wrap, { borderWidth: 1, borderColor: theme.borderColor }]}>
                                 <View style={{
                                     position: 'absolute',
                                     top: 0,
-                                    marginLeft: '-30%', // Adjust to center horizontally
+                                    marginLeft: '-3%', // Adjust to center horizontally
                                     width: '100%',
 
                                     height: 20,
@@ -127,7 +128,7 @@ const Categories = ({ route, navigation }: any) => {
                                         <Text style={{ fontFamily: FONT.medium, color: COLORS.white, fontSize: 11, marginTop: -2 }}>Day</Text>
                                     </View>
                                 </View>
-                                <Text style={styles.text}>{item.id}</Text>
+                                <Text style={[styles.text, { color: theme.textSecondary }]}>{item.id}</Text>
                             </View>
                         </TouchableOpacity>
                     )}
@@ -150,14 +151,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 25,
-        borderWidth: 1,
-        borderColor: COLORS.primary,
         backgroundColor: '#57c9a924',
     },
     text: {
         fontSize: 25,
         fontFamily: FONT.bold,
-        color: COLORS.gray,
         marginTop: 15
     }
 })

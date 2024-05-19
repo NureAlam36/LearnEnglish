@@ -23,17 +23,10 @@ const DATA = [
     screen: "pdf_library_screen",
     image: require("@/assets/images/books-blue.png"),
   },
-
-  {
-    id: 3,
-    title: "Quizzes",
-    screen: "quizzes_screen",
-    image: "https://cdn-icons-png.freepik.com/512/8586/8586919.png",
-  },
 ];
 
 const DailyUpdates = ({ navigation }) => {
-  const { colorScheme } = useColorSchemeContext();
+  const { colorScheme, theme } = useColorSchemeContext();
 
   return (
     <View style={styles.sectionContainer}>
@@ -47,6 +40,8 @@ const DailyUpdates = ({ navigation }) => {
               {
                 backgroundColor:
                   colorScheme === "light" ? "#a2e7d6de" : COLORS.darkSecondary,
+                borderWidth: 1,
+                borderColor: theme.borderColor,
               },
             ]}
             activeOpacity={0.7}
@@ -90,10 +85,8 @@ const styles = StyleSheet.create({
     padding: 20,
     gap: 15,
     borderRadius: 10,
-    width: 160,
+    width: 150,
     flexDirection: "row",
-    borderWidth: 1,
-    borderColor: "#1bb28582",
   },
   imageContainer: {},
   image: {

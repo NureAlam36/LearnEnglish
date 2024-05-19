@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
-import { FontAwesome } from '@expo/vector-icons';
+import { Feather, FontAwesome } from '@expo/vector-icons';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import dailyUseSentences from '@/data/daily-use-sentences.json'
@@ -117,7 +117,7 @@ const Index = () => {
 }
 
 const Categories = ({ navigation }: any) => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -136,7 +136,7 @@ const Categories = ({ navigation }: any) => {
     // console.log(categories);
 
     return (
-        <View style={[styles.sectionContainer, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
+        <View style={[styles.sectionContainer, { backgroundColor: theme.mainBg }]}>
             <View style={{}}>
                 <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Categories</Text>
             </View>
@@ -144,7 +144,7 @@ const Categories = ({ navigation }: any) => {
                 data={categories}
                 renderItem={({ item }) => (
                     //@ts-ignore
-                    <TouchableOpacity onPress={() => navigation.navigate('dailyUseSentences_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                    <TouchableOpacity onPress={() => navigation.navigate('dailyUseSentences_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: theme.bgSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                         <View style={styles.item}>
                             <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                                 <View style={styles.item_icon_wraper}>
@@ -155,7 +155,19 @@ const Categories = ({ navigation }: any) => {
                                     <Text style={{ color: COLORS.gray2 }}>{item.totalItems} Sentences</Text>
                                 </View>
                             </View>
-                            <FontAwesome name="arrow-circle-right" size={24} color={COLORS.primary} />
+                            <View
+                                style={{
+                                    backgroundColor: "#e5f5ff",
+                                    width: 30,
+                                    height: 30,
+                                    borderRadius: 50,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <Feather name="chevron-right" size={20} color={COLORS.primary} />
+                            </View>
                         </View>
                     </TouchableOpacity>
                 )}

@@ -10,20 +10,21 @@ import Feather from '@expo/vector-icons/Feather';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 import { Stack as ExpoStack } from "expo-router";
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const ContentHeader = ({ title }: any) => {
     const navigation = useNavigation() as any;
-    // const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
             <ExpoStack.Screen
                 options={{
                     headerShown: true,
-                    header: () => <View style={[styles.header, { backgroundColor: '#1bb285' }]}>
-                        <View style={styles.headerContent}>
+                    header: () => <View style={[styles.header, { backgroundColor: theme.mainBg }]}>
+                        <View style={[styles.headerContent, { backgroundColor: COLORS.primary }]}>
                             <View style={{ display: 'flex', flexDirection: 'row', alignContent: 'center' }}>
-                                <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+                                <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton} activeOpacity={0.7}>
                                     <Ionicons name="arrow-back-outline" size={24} color="white" />
                                 </TouchableOpacity>
                                 <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -44,13 +45,15 @@ const ContentHeader = ({ title }: any) => {
 
 const styles = StyleSheet.create({
     header: {
-        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
-        paddingHorizontal: 20,
-        height: 100,
-        borderBottomStartRadius: 20,
-        borderBottomEndRadius: 20,
+
     },
     headerContent: {
+        //@ts-ignore
+        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 10 : 10,
+        paddingHorizontal: 20,
+        height: 100,
+        borderBottomStartRadius: 15,
+        borderBottomEndRadius: 15,
         paddingVertical: 10,
         gap: 8,
         display: 'flex',

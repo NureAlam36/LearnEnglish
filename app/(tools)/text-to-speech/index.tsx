@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, Alert } from 'react-native';
-import { Stack } from 'expo-router';
 import { AntDesign } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();
@@ -25,34 +23,30 @@ const Index = () => {
     };
 
     return (
-        <React.Fragment>
-            <ContentHeader title="Text To Speech" />
-
-            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
-                <TextInput
-                    style={[
-                        styles.textInput,
-                        {
-                            backgroundColor: colorScheme === 'light' ? COLORS.white : COLORS.darkSecondary,
-                            borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
-                            borderWidth: colorScheme === 'light' ? 1 : 0,
-                            color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
-                            textAlignVertical: 'top'
-                        }
-                    ]}
-                    multiline
-                    placeholder="Enter text here..."
-                    placeholderTextColor={colorScheme === 'light' ? COLORS.gray : COLORS.gray2}
-                    value={inputText}
-                    onChangeText={setInputText}
-                />
+        <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
+            <TextInput
+                style={[
+                    styles.textInput,
+                    {
+                        backgroundColor: colorScheme === 'light' ? COLORS.white : COLORS.darkSecondary,
+                        borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
+                        borderWidth: colorScheme === 'light' ? 1 : 0,
+                        color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
+                        textAlignVertical: 'top'
+                    }
+                ]}
+                multiline
+                placeholder="Enter text here..."
+                placeholderTextColor={colorScheme === 'light' ? COLORS.gray : COLORS.gray2}
+                value={inputText}
+                onChangeText={setInputText}
+            />
 
 
-                <TouchableOpacity style={styles.button} onPress={speakText}>
-                    <Text style={styles.buttonText}><AntDesign name="sound" size={24} color="white" /></Text>
-                </TouchableOpacity>
-            </View>
-        </React.Fragment>
+            <TouchableOpacity style={styles.button} onPress={speakText}>
+                <Text style={styles.buttonText}><AntDesign name="sound" size={24} color="white" /></Text>
+            </TouchableOpacity>
+        </View>
     );
 };
 

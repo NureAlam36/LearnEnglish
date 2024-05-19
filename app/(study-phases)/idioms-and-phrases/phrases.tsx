@@ -6,9 +6,11 @@ import { COLORS, FONT } from "@/constants";
 import idiomsAndPhrases from '@/data/idioms-and-phrases.json';
 
 import ContentHeader from '@/components/Headers/ContentHeader';
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const Phrases = ({ route }: any) => {
     const { slug } = route.params as any;
+    const { colorScheme, theme } = useColorSchemeContext();
 
     const screenWidth = Dimensions.get('window').width;
     const adjustedWidth = screenWidth - 50;
@@ -29,17 +31,17 @@ const Phrases = ({ route }: any) => {
         <React.Fragment>
             <ContentHeader title={`Beginning With ‘${topicName.toUpperCase()}’`} />
 
-            <View>
+            <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 <FlatList
                     data={phrases}
                     renderItem={({ item, index }) => (
-                        <TouchableOpacity style={[styles.item, index % 2 === 0 ? styles.itemEven : null]} activeOpacity={0.7}>
+                        <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? theme.bgPrimary : theme.mainBg) : theme.bgSecondary }]} activeOpacity={0.7}>
                             <View style={{ transform: 'rotate(180deg)' }}>
                                 <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/3298/3298618.png' }} style={{ width: 20, height: 20 }} />
                             </View>
                             <View style={{ width: adjustedWidth }}>
-                                <Text style={[styles.text, { marginBottom: 8 }]}>{item.en} - {item.bn}</Text>
-                                <Text style={styles.text}><Text style={{ fontFamily: FONT.medium }}>Example:</Text> {item.example}</Text>
+                                <Text style={[styles.text, { marginBottom: 8, color: theme.textSecondary }]}>{item.en} - {item.bn}</Text>
+                                <Text style={[styles.text, { color: theme.textSecondary }]}><Text style={{ fontFamily: FONT.medium, color: theme.textPrimary }}>Example:</Text> {item.example}</Text>
                             </View>
                         </TouchableOpacity>
                     )}
@@ -55,7 +57,6 @@ const styles = StyleSheet.create({
     item: {
         paddingHorizontal: 10,
         paddingVertical: 15,
-        backgroundColor: 'white',
         display: 'flex',
         flexDirection: 'row',
         gap: 5,

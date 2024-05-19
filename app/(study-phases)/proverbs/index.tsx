@@ -10,20 +10,20 @@ import proverbs from '@/data/proverbs.json'
 import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Proverbs = () => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
             <ContentHeader title="Proverbs" />
 
-            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
+            <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 <FlatList
                     data={proverbs}
                     keyExtractor={item => item.id.toString()}
                     renderItem={({ item, index }) => (
-                        <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? '#f6f6f6' : COLORS.darkPrimary) : '' }]} activeOpacity={0.6}>
-                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, marginBottom: 10, color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }}>{item.bn}</Text>
-                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }}>{item.en}</Text>
+                        <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? '#f6f6f6' : theme.bgPrimary) : theme.bgSecondary }]} activeOpacity={0.6}>
+                            <Text style={{ fontSize: 16, fontFamily: FONT.regular, marginBottom: 10, color: theme.textSecondary }}>{item.bn}</Text>
+                            <Text style={{ fontSize: 17, fontFamily: FONT.regular, color: theme.textPrimary }}>{item.en}</Text>
                         </TouchableOpacity>
                     )}
                     showsVerticalScrollIndicator={false}

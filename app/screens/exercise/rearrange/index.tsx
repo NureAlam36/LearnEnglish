@@ -2,7 +2,7 @@ import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from 'react
 import React, { useState, useEffect } from 'react'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
-
+import ProgressCircle from 'react-native-progress-circle'
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 
 // Create a stack navigator
@@ -13,6 +13,7 @@ import ContentHeader from '@/components/Headers/ContentHeader';
 
 import RearrangeSentences from '@/data/rearrange-sentences.json';
 import { Ionicons } from '@expo/vector-icons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Index = () => {
     return (
@@ -28,9 +29,44 @@ const Index = () => {
     );
 }
 
+const Score = ({ category, lesion }: any) => {
+    const [score, setScore] = useState(0);
+
+    useEffect(() => {
+        AsyncStorage.getItem('rearrange_data').then((data: any) => {
+            const jsonData = JSON.parse(data);
+
+            if (jsonData) {
+                jsonData.forEach((item: any) => {
+                    if (item.category === category && item.lesion === lesion) {
+                        // console.log(item);
+                        setScore(item.score.percentage)
+                    }
+                });
+            }
+        });
+    }, []);
+
+    return <ProgressCircle
+        percent={score}
+        radius={20}
+        borderWidth={3}
+        color={
+            score >= 75 ? '#00c47d' :
+                score >= 50 ? '#3399ff' :
+                    score >= 25 ? '#ff9f1e' :
+                        '#ff0000'
+        }
+        shadowColor="#999"
+        bgColor="#fff"
+    >
+        <Text style={{ fontSize: 13 }}>{score}%</Text>
+    </ProgressCircle>
+}
+
 const Categories = ({ route, navigation }: any) => {
     // const route = useRoute();
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [lesion, setLesion] = useState<any>('');
     const [exercises, setExercises] = useState<any>([]);
     const [topicLink, setTopicLink] = useState<any>('');
@@ -57,7 +93,7 @@ const Categories = ({ route, navigation }: any) => {
                     data={exercises}
                     renderItem={({ item, index }) => (
                         //@ts-ignore
-                        <TouchableOpacity activeOpacity={0.7} onPress={() => navigation.navigate('rearrange_screen', { categoryId: item.id })} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#f7f9fc' : COLORS.darkSecondary }]}>
+                        <TouchableOpacity activeOpacity={0.9} onPress={() => navigation.navigate('rearrange_screen', { lesionId: item.id })} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#f7f9fc' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
                                     <View style={styles.item_icon_wraper}>
@@ -65,23 +101,30 @@ const Categories = ({ route, navigation }: any) => {
                                     </View>
                                     <View>
                                         <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }]}>Exercise {index + 1}</Text>
-                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 5 }}>
-                                            <Ionicons name="reader-outline" size={18} color={COLORS.gray2} />
-                                            <Text style={{ color: COLORS.gray2, textAlign: 'center', fontSize: 14, fontFamily: FONT.medium }}>{item.length} Exercise</Text>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 5, marginTop: 4 }}>
+                                            <Ionicons name="reader-outline" size={15} color={COLORS.gray2} />
+                                            <Text style={{ color: COLORS.gray2, textAlign: 'center', fontSize: 12, fontFamily: FONT.medium }}>{item.length} Exercise</Text>
                                         </View>
 
                                     </View>
                                 </View>
-                                <View style={{ display: 'flex', flexDirection: 'row', gap: 8, alignItems: 'center' }}>
+                                {/* <View style={{ display: 'flex', flexDirection: 'row', gap: 8, alignItems: 'center' }}>
                                     <View>
-                                        <Text style={{ borderWidth: 1, borderColor: COLORS.primary, color: COLORS.gray, paddingVertical: 5, paddingHorizontal: 10, borderRadius: 5 }}>Start</Text>
+                                        <Text style={{ backgroundColor: theme.bgSecondary, borderWidth: 1, borderColor: COLORS.primary, color: theme.textPrimary, fontSize: 13, paddingVertical: 5, paddingHorizontal: 10, borderRadius: 5 }}>Start</Text>
+                                    </View>
+                                </View> */}
+
+                                <View style={{ display: 'flex', flexDirection: 'row', gap: 15, alignItems: 'center' }}>
+                                    <Score lesion={item.id} />
+                                    <View>
+                                        <Text style={{ backgroundColor: theme.bgSecondary, borderWidth: 1, borderColor: COLORS.primary, color: theme.textPrimary, fontSize: 13, paddingVertical: 5, paddingHorizontal: 10, borderRadius: 5 }}>Start</Text>
                                     </View>
                                 </View>
                             </View>
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
-                    contentContainerStyle={{ gap: 10 }}
+                    contentContainerStyle={{ gap: 10, padding: 10 }}
                     showsVerticalScrollIndicator={false}
                 />
             </View>
@@ -92,8 +135,7 @@ const Categories = ({ route, navigation }: any) => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        flex: 1,
-        padding: 10,
+        flex: 1
     },
     sectionTitle: {
         fontSize: 18,

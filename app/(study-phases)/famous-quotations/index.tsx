@@ -4,7 +4,7 @@ import Swiper from 'react-native-swiper';
 import { Link } from "expo-router";
 import { LinearGradient } from 'expo-linear-gradient';
 import { COLORS, FONT } from "../../../constants";
-import { AntDesign } from '@expo/vector-icons';
+import { AntDesign, Feather } from '@expo/vector-icons';
 
 import famousQuotations from '@/data/famous-quotations.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
@@ -66,7 +66,7 @@ const Index = () => {
 }
 
 const FamousQuotations = ({ navigation }: any) => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -107,7 +107,7 @@ const FamousQuotations = ({ navigation }: any) => {
                     data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate('quotations_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                        <TouchableOpacity onPress={() => navigation.navigate('quotations_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <View style={styles.imageWraper}>
                                     <Image
@@ -118,17 +118,32 @@ const FamousQuotations = ({ navigation }: any) => {
                                 </View>
                                 <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.name}</Text>
                             </View>
+                            <View
+                                style={{
+                                    backgroundColor: "#e5f5ff",
+                                    width: 30,
+                                    height: 30,
+                                    borderRadius: 50,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <Feather name="chevron-right" size={20} color={COLORS.primary} />
+                            </View>
                         </TouchableOpacity>
                     )}
-                    keyExtractor={(item) => item.id}
+                    keyExtractor={(item, index) => index.toString()}
                     numColumns={2}
-                    contentContainerStyle={{ paddingBottom: 20 }}
+                    contentContainerStyle={{ paddingBottom: 20, gap: 10 }}
                     showsVerticalScrollIndicator={false}
+                    columnWrapperStyle={{ gap: 10 }}
                 />
             </View>
         </React.Fragment>
     );
 };
+
 
 const styles = StyleSheet.create({
     container: {
@@ -173,30 +188,19 @@ const styles = StyleSheet.create({
         right: 0,
         alignItems: 'center',
     },
-    paginationSwiper: {
-        width: 20,
-        height: 20,
-    },
-    paginationDot: {
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        backgroundColor: '#888',
-        marginHorizontal: 5,
-    },
     itemContainer: {
         flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
         backgroundColor: "#fff",
-        margin: 5,
         borderRadius: 5,
-        padding: 5,
+        padding: 10
     },
     item: {
         flex: 1,
         flexDirection: "row",
         alignItems: "center",
-        margin: 5,
-        gap: 10,
+        gap: 10
     },
     imageWraper: {
         width: 50,

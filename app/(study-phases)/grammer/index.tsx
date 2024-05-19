@@ -75,6 +75,7 @@ import Number from "./(pages)/number";
 // import Word from "./(pages)/word";
 import Modifiers from "./(pages)/modifiers";
 import Narration from "./(pages)/narration";
+import { Feather } from '@expo/vector-icons';
 
 
 const TabOneScreen = () => {
@@ -101,7 +102,7 @@ const TabOneScreen = () => {
 }
 
 const Index = ({ navigation }: any) => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
@@ -110,10 +111,27 @@ const Index = ({ navigation }: any) => {
                     data={DATA}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate(item.screen)} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]}>
+                        <TouchableOpacity onPress={() => navigation.navigate(item.screen)} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <Text style={styles.item_icon}>{item.title.charAt(0)}</Text>
                                 <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.title}</Text>
+                            </View>
+                            <View
+                                style={{
+                                    backgroundColor: "#e5f5ff",
+                                    width: 30,
+                                    height: 30,
+                                    borderRadius: 50,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <Feather
+                                    name="chevron-right"
+                                    size={20}
+                                    color={COLORS.primary}
+                                />
                             </View>
                         </TouchableOpacity>
                     )}
@@ -137,14 +155,14 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flexDirection: "row",
+        alignItems: 'center',
         borderRadius: 5,
-        padding: 5,
+        padding: 10,
     },
     item: {
         flex: 1,
         flexDirection: "row",
         alignItems: "center",
-        margin: 5,
         gap: 10,
     },
     item_icon: {

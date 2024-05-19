@@ -6,8 +6,6 @@ import { COLORS, FONT } from "@/constants";
 import { Clipboard } from 'react-native';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-import ContentHeader from '@/components/Headers/ContentHeader';
-
 const Index = () => {
     const { colorScheme } = useColorSchemeContext();
     const [inputText, setInputText] = useState('');
@@ -64,8 +62,6 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <ContentHeader title="Translator" />
-
             <View style={{ flex: 1, padding: 15, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 <View style={{ display: 'flex', alignSelf: 'center', flexDirection: 'row', alignItems: 'center', gap: 30, marginTop: 5, marginBottom: 30 }}>
                     <Button title={language === 'en' ? 'English' : 'Bangla'} />

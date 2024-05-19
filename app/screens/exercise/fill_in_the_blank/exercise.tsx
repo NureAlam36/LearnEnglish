@@ -4,7 +4,7 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import { Audio } from 'expo-av';
 import ProgressCircle from 'react-native-progress-circle'
-
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Link } from 'expo-router';
 
 
@@ -14,6 +14,7 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 import FillInTheBlank from '@/data/fill-in-the-blank.json';
 import ContentHeader from '@/components/Headers/ContentHeader';
+import PercentageCircle from 'react-native-progress-circle';
 
 
 const Exercise = ({ route, navigation }: any) => {
@@ -46,7 +47,10 @@ const Exercise = ({ route, navigation }: any) => {
                     },
                     {
                         text: 'OK',
-                        onPress: () => navigation.dispatch(e.data.action),
+                        onPress: () => {
+                            updateExerciseData();
+                            navigation.dispatch(e.data.action);
+                        }
                     },
                 ],
                 { cancelable: false }
@@ -56,6 +60,45 @@ const Exercise = ({ route, navigation }: any) => {
         return unsubscribe;
     }, [navigation]);
 
+    const calCulatePercentage = () => {
+        const percentage = (totalCorrectAnswers / totalQuestions) * 100;
+
+        return Math.round(percentage);
+    }
+
+
+    const updateExerciseData = async () => {
+        let newData: any = [];
+
+        const data = await AsyncStorage.getItem('fill_in_the_blank_data').then(data => {
+            if (data) {
+                return JSON.parse(data);
+            }
+
+            return false;
+        });
+
+
+        if (data) {
+            newData = data;
+        }
+
+        // console.log(newData);
+
+        const percentage = calCulatePercentage();
+
+        if (percentage > 0) {
+
+            const filterData = newData.filter((data: any) => {
+                return data.category !== categoryLink, data.lesion !== lesionId;
+            });
+
+            filterData.push({ id: newData.length + 1, category: categoryLink, lesion: lesionId, score: { percentage: percentage } })
+
+            // update data
+            AsyncStorage.setItem('fill_in_the_blank_data', JSON.stringify(filterData));
+        }
+    }
 
     useEffect(() => {
         FillInTheBlank.forEach(category => {
@@ -72,19 +115,13 @@ const Exercise = ({ route, navigation }: any) => {
         });
     }, []);
 
-
-    const calCulatePercentage = () => {
-        const percentage = (totalCorrectAnswers / totalQuestions) * 100;
-
-        return Math.round(percentage);
-    }
-
     const handleNextQuestion = () => {
         if (currentIndex < lesionData.length - 1) {
             setCurrentIndex(currentIndex + 1);
             setSelectedOption(null);
             setOptionsDisabled(false);
         } else {
+            updateExerciseData();
             setShowMessage(true);
         }
     };
@@ -221,7 +258,7 @@ const Exercise = ({ route, navigation }: any) => {
                                     </View>
                                     <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                         <Fontisto name="close" size={24} color="#f37375" />
-                                        <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+                                        <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Incorrect: {totalWrongAnswers}</Text>
                                     </View>
                                 </View>
 

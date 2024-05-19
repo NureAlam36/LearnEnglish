@@ -62,7 +62,7 @@ const DATA = [
 ];
 
 const StudyPhases = ({ navigation }) => {
-  const { colorScheme } = useColorSchemeContext();
+  const { colorScheme, theme } = useColorSchemeContext();
 
   return (
     <View style={styles.sectionContainer}>
@@ -87,6 +87,8 @@ const StudyPhases = ({ navigation }) => {
               {
                 backgroundColor:
                   colorScheme === "light" ? "#fff" : COLORS.darkSecondary,
+                borderWidth: 1,
+                borderColor: theme.borderColor,
               },
             ]}
             asChild

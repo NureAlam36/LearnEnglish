@@ -46,7 +46,7 @@ const MCQs = () => {
                             <MCQComponent item={item} index={index} />
                         )}
                         keyExtractor={(item) => item.id.toString()}
-                        contentContainerStyle={{ gap: 10 }}
+                        contentContainerStyle={{ gap: 10, padding: 10 }}
                         showsVerticalScrollIndicator={false}
                     />
                 </View>
@@ -59,8 +59,7 @@ const MCQs = () => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        flex: 1,
-        padding: 10,
+        flex: 1
     }
 })
 

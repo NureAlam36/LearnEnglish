@@ -3,10 +3,12 @@ import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react
 // import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
-import { Ionicons } from '@expo/vector-icons';
+import { Feather, Ionicons } from '@expo/vector-icons';
 import { useRoute } from '@react-navigation/native';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import ProgressCircle from 'react-native-progress-circle'
 import FillInTheBlank from '@/data/fill-in-the-blank.json';
 
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
@@ -45,9 +47,45 @@ const HomeScreen = ({ route }: any) => {
     );
 };
 
+const Score = ({ category, lesion }: any) => {
+    const [score, setScore] = useState(0);
+
+    useEffect(() => {
+        AsyncStorage.getItem('fill_in_the_blank_data').then((data: any) => {
+            const jsonData = JSON.parse(data);
+            // console.log(jsonData);
+
+            if (jsonData) {
+                jsonData.forEach((item: any) => {
+                    if (item.category === category && item.lesion === lesion) {
+                        // console.log(item);
+                        setScore(item.score.percentage)
+                    }
+                });
+            }
+        });
+    }, []);
+
+    return <ProgressCircle
+        percent={score}
+        radius={20}
+        borderWidth={3}
+        color={
+            score >= 75 ? '#00c47d' :
+                score >= 50 ? '#3399ff' :
+                    score >= 25 ? '#ff9f1e' :
+                        '#ff0000'
+        }
+        shadowColor="#999"
+        bgColor="#fff"
+    >
+        <Text style={{ fontSize: 13 }}>{score}%</Text>
+    </ProgressCircle>
+}
+
 const Topics = ({ route, navigation }: any) => {
     // const route = useRoute();
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [lesion, setLesion] = useState<any>('');
     const [exercises, setExercises] = useState<any>([]);
     const [topicLink, setTopicLink] = useState<any>('');
@@ -69,7 +107,6 @@ const Topics = ({ route, navigation }: any) => {
                     }]);
                 })
             }
-
         })
     }, []);
 
@@ -85,7 +122,7 @@ const Topics = ({ route, navigation }: any) => {
                     data={exercises}
                     renderItem={({ item, index }) => (
                         //@ts-ignore
-                        <TouchableOpacity activeOpacity={0.7} onPress={() => navigation.navigate('ExercisePage', { categoryLink: route.params.links, lesionId: item.id })} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#f7f9fc' : COLORS.darkSecondary }]}>
+                        <TouchableOpacity activeOpacity={0.9} onPress={() => navigation.navigate('ExercisePage', { categoryLink: route.params.links, lesionId: item.id })} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#f7f9fc' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10 }}>
                                     <View style={styles.item_icon_wraper}>
@@ -100,16 +137,27 @@ const Topics = ({ route, navigation }: any) => {
 
                                     </View>
                                 </View>
-                                <View style={{ display: 'flex', flexDirection: 'row', gap: 8, alignItems: 'center' }}>
-                                    <View>
-                                        <Text style={{ borderWidth: 1, borderColor: COLORS.primary, color: COLORS.gray, paddingVertical: 5, paddingHorizontal: 10, borderRadius: 5 }}>Start</Text>
+                                <View style={{ display: 'flex', flexDirection: 'row', gap: 15, alignItems: 'center' }}>
+                                    <Score category={route.params.links} lesion={item.id} />
+                                    <View
+                                        style={{
+                                            backgroundColor: "#e5f5ff",
+                                            width: 30,
+                                            height: 30,
+                                            borderRadius: 50,
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center",
+                                        }}
+                                    >
+                                        <Feather name="chevron-right" size={20} color={COLORS.primary} />
                                     </View>
                                 </View>
                             </View>
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
-                    contentContainerStyle={{ gap: 10 }}
+                    contentContainerStyle={{ gap: 10, padding: 10 }}
                     showsVerticalScrollIndicator={false}
                 />
             </View>
@@ -120,8 +168,7 @@ const Topics = ({ route, navigation }: any) => {
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        flex: 1,
-        padding: 10,
+        flex: 1
     },
     sectionTitle: {
         fontSize: 18,

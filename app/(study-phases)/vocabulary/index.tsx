@@ -10,7 +10,7 @@ import vocabularyData from '@/data/vocabulary.json';
 import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Index = () => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [isLoading, setIsLoading] = useState(true);
     const screenWidth = Dimensions.get('window').width;
     const adjustedWidth = screenWidth - 50;
@@ -21,7 +21,7 @@ const Index = () => {
     }, []);
 
     const MemoizedListItem = React.memo(({ item, index }: any) => (
-        <TouchableOpacity style={[styles.item, index % 2 === 0 ? (colorScheme === 'light' ? { backgroundColor: '#fff' } : { backgroundColor: COLORS.darkSecondary }) : (colorScheme === 'light' ? { backgroundColor: '#f6f6f6' } : { backgroundColor: COLORS.darkPrimary })]} activeOpacity={0.7}>
+        <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? theme.bgPrimary : theme.mainBg) : theme.bgSecondary }]} activeOpacity={0.7}>
             <View style={{ transform: 'rotate(180deg)' }}>
                 <Image source={require('@/assets/images/arrow-right.png')} style={{ width: 20, height: 20 }} />
             </View>

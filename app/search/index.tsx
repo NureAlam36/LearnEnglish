@@ -5,6 +5,7 @@ import { COLORS, FONT } from "@/constants";
 
 import MCQComponent from '@/components/MCQComponent'
 import CustomHeader from '@/components/Headers/ContentHeader'
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const DATA = [{
     "id": 1,
@@ -153,12 +154,14 @@ const DATA = [{
 }]
 
 const Search = ({ route }: any) => {
-    const { key } = route.params
+    const { key } = route.params;
+    const { colorScheme, theme } = useColorSchemeContext();
 
     return (
         <React.Fragment>
             <CustomHeader title="Search" />
-            <View style={{ flex: 1 }}>
+
+            <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 <View style={{}}>
                     <FlatList
                         data={DATA}
@@ -166,8 +169,8 @@ const Search = ({ route }: any) => {
                             <React.Fragment>
                                 {
                                     index === 0 && <View style={{ display: 'flex', gap: 8, padding: 10, marginBottom: 10, borderRadius: 2, backgroundColor: '#57c9a957', borderWidth: 1, borderColor: '#1bb28582' }}>
-                                        <Text style={{ fontFamily: FONT.medium, color: COLORS.gray }}>Search result for "{key}"</Text>
-                                        <Text style={{ fontFamily: FONT.regular, color: COLORS.gray }}>সার্চ ফলাফলঃ {DATA.length} টি</Text>
+                                        <Text style={{ fontFamily: FONT.medium, color: theme.textSecondary }}>Search result for "{key}"</Text>
+                                        <Text style={{ fontFamily: FONT.regular, color: theme.textSecondary }}>সার্চ ফলাফলঃ {DATA.length} টি</Text>
                                     </View>
                                 }
                                 <MCQComponent item={item} index={index} />

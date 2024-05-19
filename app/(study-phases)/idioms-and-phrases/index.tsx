@@ -74,7 +74,7 @@ const Index = () => {
 }
 
 const PhrasesCategory = ({ navigation }: any) => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [categories, setCategories] = useState<any>([]);
 
     useEffect(() => {
@@ -96,7 +96,7 @@ const PhrasesCategory = ({ navigation }: any) => {
                     data={categories}
                     renderItem={({ item }) => (
                         //@ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate('phrases_content_screen', { slug: item.name })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} asChild>
+                        <TouchableOpacity onPress={() => navigation.navigate('phrases_content_screen', { slug: item.name })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <Text style={styles.item_icon}>{item.name.toUpperCase()}</Text>
                                 <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Idioms and Phrases Beginning With ‘{item.name.toUpperCase()}’</Text>
@@ -104,7 +104,8 @@ const PhrasesCategory = ({ navigation }: any) => {
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
-                    contentContainerStyle={{ gap: 10 }}
+                    contentContainerStyle={{ gap: 10, padding: 10 }}
+                    showsVerticalScrollIndicator={false}
                 />
             </View>
         </React.Fragment>
@@ -117,7 +118,6 @@ const styles = StyleSheet.create({
     },
     itemContainer: {
         flexDirection: "row",
-        margin: 5,
         borderRadius: 5,
         padding: 5,
     },

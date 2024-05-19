@@ -10,7 +10,7 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import ContentHeader from '@/components/Headers/ContentHeader';
 
-const index = () => {
+const Index = () => {
     const route = useRoute();
     const { colorScheme } = useColorSchemeContext();
     const { slug } = route.params as any;
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
     // }
 })
 
-export default index
+export default Index

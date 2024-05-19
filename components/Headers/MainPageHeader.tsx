@@ -10,9 +10,10 @@ import Feather from '@expo/vector-icons/Feather';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 import { Stack as ExpoStack } from "expo-router";
+import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const CustomHeader = ({ navigation }: any) => {
-    // const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [searchKey, setSearchKey] = useState('');
 
     const handleSearch = () => {
@@ -21,19 +22,27 @@ const CustomHeader = ({ navigation }: any) => {
         }
     }
 
+
     return (
         <ExpoStack.Screen
             options={{
                 headerShown: true,
-                header: () => <View style={[styles.header, { backgroundColor: COLORS.primary }]}>
+                header: () => <View style={{ backgroundColor: theme.mainBg }}>
                     <View style={styles.headerContent}>
-                        <View style={{ display: 'flex', flexDirection: 'row', alignContent: 'center', justifyContent: 'space-between', marginBottom: 5 }}>
-                            <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <Text style={{ color: '#fff', fontFamily: FONT.bold, fontSize: 20 }}>Learn English</Text>
+                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 5 }}>
+                            <View style={{ display: 'flex' }}>
+                                <Text style={{ color: '#fff', fontFamily: FONT.bold, fontSize: 20 }}>English Go Pro</Text>
+                                {/* <Text style={{ color: '#fff', fontFamily: FONT.medium, fontSize: 12, textAlign: 'right' }}>- Fast & Easy Way</Text> */}
                             </View>
-                            <TouchableOpacity onPress={() => navigation.navigate('notification_screen')} style={styles.notificationButton}>
-                                <Ionicons name="notifications-outline" size={28} color="white" />
-                            </TouchableOpacity>
+                            <View style={{ display: 'flex', flexDirection: 'row-reverse', gap: 18 }}>
+                                <TouchableOpacity onPress={() => navigation.navigate('profile_screen')} style={styles.notificationButton}>
+                                    <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png' }} style={{ width: 32, height: 32 }} />
+                                </TouchableOpacity>
+                                <TouchableOpacity onPress={() => navigation.navigate('notification_screen')} style={styles.notificationButton}>
+                                    <Ionicons name="notifications-outline" size={26} color="white" />
+                                </TouchableOpacity>
+                                {/* https://cdn-icons-png.flaticon.com/512/3135/3135715.png */}
+                            </View>
                         </View>
                         <View>
                             <TextInput onChangeText={(text) => setSearchKey(text)} placeholder="অনুসন্ধান করুন" style={{ width: '100%', height: 40, backgroundColor: '#fff', paddingVertical: 5, paddingHorizontal: 15, borderRadius: 50, color: COLORS.gray }} />
@@ -50,16 +59,17 @@ const CustomHeader = ({ navigation }: any) => {
 }
 
 const styles = StyleSheet.create({
-    header: {
-        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
-        paddingHorizontal: 20,
-        height: 145,
-        borderBottomStartRadius: 20,
-        borderBottomEndRadius: 20,
-    },
     headerContent: {
+        height: 145,
+        // @ts-ignore
+        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 10 : 10,
+        paddingHorizontal: 20,
         paddingVertical: 10,
         gap: 8,
+        backgroundColor: COLORS.primary,
+        borderBottomStartRadius: 15,
+        borderBottomEndRadius: 15,
+        justifyContent: 'center',
     },
     notificationButton: {
         alignItems: 'center',

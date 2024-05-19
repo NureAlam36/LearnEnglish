@@ -14,9 +14,10 @@ import { LinearGradient } from 'expo-linear-gradient';
 import ContentHeader from '@/components/Headers/ContentHeader';
 
 import RearrangeSentences from '@/data/rearrange-sentences.json';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Exercise = ({ navigation, route }: any) => {
-    const { categoryId } = route.params;
+    const { lesionId } = route.params;
     const { colorScheme } = useColorSchemeContext();
     const [totalQuestions, setTotalQuestions] = useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,6 +30,7 @@ const Exercise = ({ navigation, route }: any) => {
     const [isCorrect, setIsCorrect] = useState(false);
     const [optionsDisabled, setOptionsDisabled] = useState(false);
     const [DATA, setData] = useState<any>([]);
+
 
     useEffect(() => {
         const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
@@ -45,7 +47,10 @@ const Exercise = ({ navigation, route }: any) => {
                     },
                     {
                         text: 'OK',
-                        onPress: () => navigation.dispatch(e.data.action),
+                        onPress: () => {
+                            updateExerciseData();
+                            navigation.dispatch(e.data.action);
+                        }
                     },
                 ],
                 { cancelable: false }
@@ -57,7 +62,7 @@ const Exercise = ({ navigation, route }: any) => {
 
     useEffect(() => {
         RearrangeSentences.forEach((data) => {
-            if (data.id === categoryId) {
+            if (data.id === lesionId) {
                 data.exercises.forEach((item: any) => {
                     const options = item.en.split(' ');
                     const shuffledOptions = options.sort(() => Math.random() - 0.5);
@@ -78,6 +83,39 @@ const Exercise = ({ navigation, route }: any) => {
         const percentage = (totalCorrectAnswers / totalQuestions) * 100;
 
         return Math.round(percentage);
+    }
+
+    const updateExerciseData = async () => {
+        let newData: any = [];
+
+        const data = await AsyncStorage.getItem('rearrange_data').then(data => {
+            console.log(data);
+
+            if (data) {
+                return JSON.parse(data);
+            }
+
+            return false;
+        });
+
+
+        if (data) {
+            newData = data;
+        }
+
+        const percentage = calCulatePercentage();
+
+        if (percentage > 0) {
+
+            const filterData = newData.filter((data: any) => {
+                return data.lesion !== lesionId;
+            });
+
+            filterData.push({ id: newData.length + 1, lesion: lesionId, score: { percentage: percentage } });
+
+            // update data
+            AsyncStorage.setItem('rearrange_data`', JSON.stringify(filterData));
+        }
     }
 
     const handleOptionSelect = (option: any) => {
@@ -128,6 +166,7 @@ const Exercise = ({ navigation, route }: any) => {
             setIsChecked(false);
             setIsCorrect(false);
         } else {
+            updateExerciseData();
             setShowMessage(true);
         }
     };

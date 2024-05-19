@@ -20,7 +20,11 @@ const Stack = createStackNavigator();
 
 const StackNavigator = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        ...TransitionPresets.SlideFromRightIOS
+      }}
+    >
       <Stack.Screen name="setting_screen" component={SettingsScreen} options={{ headerShown: false }} />
 
       {/* Settings */}
@@ -46,7 +50,7 @@ const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#ededed' }) =
 }
 
 const SettingsScreen = ({ navigation }: any) => {
-  const { colorScheme, toggleColorScheme } = useColorSchemeContext();
+  const { colorScheme, theme, toggleColorScheme } = useColorSchemeContext();
   const [darkModeEnabled, setDarkModeEnabled] = React.useState(false);
 
   useEffect(() => {
@@ -108,7 +112,7 @@ const SettingsScreen = ({ navigation }: any) => {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>General</Text>
 
-          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: '#ededed', borderRadius: 10 }]}>
+          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10 }]}>
             <View style={[styles.item, { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }]}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <MaterialIcons name="dark-mode" size={24} style={styles.itemIcon} />
@@ -116,7 +120,7 @@ const SettingsScreen = ({ navigation }: any) => {
               </View>
               <Switch value={darkModeEnabled} onValueChange={toggleDarkMode} />
             </View>
-            <Divider />
+            <Divider borderColor={theme.borderColor} />
             <TouchableOpacity onPress={() => navigation.navigate('faq_screen')} activeOpacity={0.7} style={styles.item}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <Entypo name="help-with-circle" size={24} style={styles.itemIcon} />
@@ -128,21 +132,21 @@ const SettingsScreen = ({ navigation }: any) => {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Pages</Text>
-          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: '#ededed', borderRadius: 10 }]}>
+          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10 }]}>
             <TouchableOpacity onPress={() => navigation.navigate('privacy_policy_screen')} activeOpacity={0.7} style={styles.item}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <MaterialIcons name="privacy-tip" size={24} style={styles.itemIcon} />
                 <Text style={styles.text}>Privacy Policy</Text>
               </View>
             </TouchableOpacity>
-            <Divider />
+            <Divider borderColor={theme.borderColor} />
             <TouchableOpacity onPress={() => navigation.navigate('about_us_screen')} activeOpacity={0.7} style={styles.item}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <Ionicons name="reader-outline" size={24} style={styles.itemIcon} />
                 <Text style={styles.text}>About Us</Text>
               </View>
             </TouchableOpacity>
-            <Divider />
+            <Divider borderColor={theme.borderColor} />
             <TouchableOpacity onPress={() => navigation.navigate('terms_and_conditions_screen')} activeOpacity={0.7} style={styles.item}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <Ionicons name="reader-sharp" size={24} style={styles.itemIcon} />
@@ -154,7 +158,7 @@ const SettingsScreen = ({ navigation }: any) => {
 
         <View style={styles.section}>
           <TouchableOpacity>
-            <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: '#ededed', borderRadius: 10, padding: 15 }]}>
+            <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10, padding: 15 }]}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <Entypo name="google-play" size={24} style={styles.itemIcon} />
                 <View>
