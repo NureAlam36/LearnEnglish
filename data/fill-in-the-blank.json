@@ -1,5 +1,16 @@
 [
   {
+    "category": "Prepositions",
+    "link": "prepositions",
+    "lesions": [
+      {
+        "id": 1,
+        "name": "Exercise 1",
+        "exercises": []
+      }
+    ]
+  },
+  {
     "category": "Articles",
     "link": "articles",
     "lesions": [
@@ -778,17 +789,6 @@
             "answer": "the"
           }
         ]
-      }
-    ]
-  },
-  {
-    "category": "Prepositions",
-    "link": "prepositions",
-    "lesions": [
-      {
-        "id": 1,
-        "name": "Exercise 1",
-        "exercises": []
       }
     ]
   },

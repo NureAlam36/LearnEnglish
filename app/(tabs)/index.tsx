@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, StatusBar, Text, TouchableOpacity, Platform, Image } from 'react-native';
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
+import { useCountryContext } from '@/context/CountryContext';
 
 import { COLORS, FONT } from "@/constants";
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -17,7 +18,9 @@ import BcsSolution from '@/app/(job-solution)/bcs-solution/index';
 import BcsPreparation from '@/app/(job-solution)/bcs-preliminary/index';
 
 // Study Phases
-import VocabularyScreen from '@/app/(study-phases)/vocabulary/index';
+import BnVocabularyScreen from '@/app/(study-phases)/vocabulary/bn/index';
+import EnVocabularyScreen from '@/app/(study-phases)/vocabulary/en/index';
+
 import GrammerScreen from '@/app/(study-phases)/grammer/index';
 import DusScreen from '@/app/(study-phases)/daily-use-sentences/index';
 import StoryScreen from '@/app/(study-phases)/story/index';
@@ -38,6 +41,7 @@ import Profile from '@/app/profile';
 const Stack = createStackNavigator();
 
 export default function TabOneScreen() {
+  const { country } = useCountryContext();
 
   return (
     <Stack.Navigator
@@ -64,7 +68,7 @@ export default function TabOneScreen() {
 
       {/* Study Phases */}
       <Stack.Screen name="grammer_screen" component={GrammerScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="vocabulary_screen" component={VocabularyScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="vocabulary_screen" component={country === 'Bangladesh' ? BnVocabularyScreen : EnVocabularyScreen} options={{ headerShown: false }} />
       <Stack.Screen name="dus_screen" component={DusScreen} options={{ headerShown: false }} />
       <Stack.Screen name="story_screen" component={StoryScreen} options={{ headerShown: false }} />
       <Stack.Screen name="phrases_screen" component={PhrasesScreen} options={{ headerShown: false }} />

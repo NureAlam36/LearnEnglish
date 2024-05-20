@@ -31,7 +31,6 @@ const Exercise = ({ navigation, route }: any) => {
     const [optionsDisabled, setOptionsDisabled] = useState(false);
     const [DATA, setData] = useState<any>([]);
 
-
     useEffect(() => {
         const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
             e.preventDefault();
@@ -48,7 +47,6 @@ const Exercise = ({ navigation, route }: any) => {
                     {
                         text: 'OK',
                         onPress: () => {
-                            updateExerciseData();
                             navigation.dispatch(e.data.action);
                         }
                     },
@@ -86,37 +84,35 @@ const Exercise = ({ navigation, route }: any) => {
     }
 
     const updateExerciseData = async () => {
-        let newData: any = [];
+        try {
+            let newData = [];
 
-        const data = await AsyncStorage.getItem('rearrange_data').then(data => {
-            console.log(data);
+            // Retrieve existing data from AsyncStorage
+            const data = await AsyncStorage.getItem('rearrange_data');
 
+            // Parse the data if it exists
             if (data) {
-                return JSON.parse(data);
+                newData = JSON.parse(data);
             }
 
-            return false;
-        });
+            // Calculate the percentage
+            const percentage = calCulatePercentage();
 
+            if (percentage > 0) {
+                // Filter out existing data for the same lesionId
+                const filterData = newData.filter((item: any) => item.lesion !== lesionId);
 
-        if (data) {
-            newData = data;
+                // Push the new item with the calculated percentage
+                filterData.push({ id: newData.length + 1, lesion: lesionId, score: { percentage: percentage } });
+
+                // Update AsyncStorage with the updated data
+                await AsyncStorage.setItem('rearrange_data', JSON.stringify(filterData));
+            }
+        } catch (error) {
+            console.error('Error updating exercise data:', error);
         }
+    };
 
-        const percentage = calCulatePercentage();
-
-        if (percentage > 0) {
-
-            const filterData = newData.filter((data: any) => {
-                return data.lesion !== lesionId;
-            });
-
-            filterData.push({ id: newData.length + 1, lesion: lesionId, score: { percentage: percentage } });
-
-            // update data
-            AsyncStorage.setItem('rearrange_data`', JSON.stringify(filterData));
-        }
-    }
 
     const handleOptionSelect = (option: any) => {
         if (!optionsDisabled) {
@@ -152,12 +148,16 @@ const Exercise = ({ navigation, route }: any) => {
         }
 
         if (isCorrect) {
-            setIsCorrect(true);
             setTotalCorrectAnswers(totalCorrectAnswers + 1);
+            setIsCorrect(true);
         } else {
             setTotalWrongAnswers(totalWrongAnswers + 1);
         }
     }
+
+    useEffect(() => {
+        updateExerciseData();
+    }, [totalCorrectAnswers]);
 
     const handleNextQuestion = () => {
         if (currentIndex < DATA.length - 1) {
@@ -166,7 +166,6 @@ const Exercise = ({ navigation, route }: any) => {
             setIsChecked(false);
             setIsCorrect(false);
         } else {
-            updateExerciseData();
             setShowMessage(true);
         }
     };

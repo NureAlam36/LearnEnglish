@@ -4,6 +4,7 @@ import { Stack } from 'expo-router';
 
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
+import { useCountryContext } from '@/context/CountryContext';
 
 import vocabularyData from '@/data/vocabulary.json';
 
@@ -11,6 +12,7 @@ import ContentHeader from "@/components/Headers/ContentHeader";
 
 const Index = () => {
     const { colorScheme, theme } = useColorSchemeContext();
+    const { country } = useCountryContext();
     const [isLoading, setIsLoading] = useState(true);
     const screenWidth = Dimensions.get('window').width;
     const adjustedWidth = screenWidth - 50;
@@ -19,6 +21,8 @@ const Index = () => {
     useEffect(() => {
         setVocabulary(vocabularyData);
     }, []);
+
+
 
     const MemoizedListItem = React.memo(({ item, index }: any) => (
         <TouchableOpacity style={[styles.item, { backgroundColor: index % 2 === 0 ? (colorScheme === 'light' ? theme.bgPrimary : theme.mainBg) : theme.bgSecondary }]} activeOpacity={0.7}>
@@ -33,7 +37,7 @@ const Index = () => {
 
     return (
         <React.Fragment>
-            <ContentHeader title="Vocabulary" />
+            <ContentHeader title="Bn Vocabulary" />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }}>
                 <FlatList

@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 
 import { useColorScheme } from '@/components/useColorScheme';
 import { ColorSchemeProvider } from '@/context/ColorSchemeContext';
+import { CountryProvider } from '@/context/CountryContext';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -52,11 +53,13 @@ function RootLayoutNav() {
   // console.log(colorScheme);
 
   return (
-    <ColorSchemeProvider>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-      </Stack>
-    </ColorSchemeProvider>
+    <CountryProvider>
+      <ColorSchemeProvider>
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        </Stack>
+      </ColorSchemeProvider>
+    </CountryProvider>
   );
 }

@@ -134,10 +134,9 @@ const FamousQuotations = ({ navigation }: any) => {
                         </TouchableOpacity>
                     )}
                     keyExtractor={(item, index) => index.toString()}
-                    numColumns={2}
+                    numColumns={1}
                     contentContainerStyle={{ paddingBottom: 20, gap: 10 }}
                     showsVerticalScrollIndicator={false}
-                    columnWrapperStyle={{ gap: 10 }}
                 />
             </View>
         </React.Fragment>

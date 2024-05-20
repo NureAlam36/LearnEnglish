@@ -48,7 +48,6 @@ const Exercise = ({ route, navigation }: any) => {
                     {
                         text: 'OK',
                         onPress: () => {
-                            updateExerciseData();
                             navigation.dispatch(e.data.action);
                         }
                     },
@@ -68,37 +67,38 @@ const Exercise = ({ route, navigation }: any) => {
 
 
     const updateExerciseData = async () => {
-        let newData: any = [];
+        try {
+            let newData = [];
 
-        const data = await AsyncStorage.getItem('fill_in_the_blank_data').then(data => {
+            // Retrieve existing data from AsyncStorage
+            const data = await AsyncStorage.getItem('fill_in_the_blank_data');
+
+            // Parse the data if it exists
             if (data) {
-                return JSON.parse(data);
+                newData = JSON.parse(data);
             }
 
-            return false;
-        });
+            // Calculate the percentage
+            const percentage = calCulatePercentage();
 
+            if (percentage > 0) {
+                // Filter out existing data for the same category and lesionId
+                const filterData = newData.filter((item: any) => item.category !== categoryLink || item.lesion !== lesionId);
 
-        if (data) {
-            newData = data;
+                // Push the new item with the calculated percentage
+                filterData.push({ id: newData.length + 1, category: categoryLink, lesion: lesionId, score: { percentage: percentage } });
+
+                // Update AsyncStorage with the updated data
+                await AsyncStorage.setItem('fill_in_the_blank_data', JSON.stringify(filterData));
+            }
+        } catch (error) {
+            console.error('Error updating exercise data:', error);
         }
+    };
 
-        // console.log(newData);
-
-        const percentage = calCulatePercentage();
-
-        if (percentage > 0) {
-
-            const filterData = newData.filter((data: any) => {
-                return data.category !== categoryLink, data.lesion !== lesionId;
-            });
-
-            filterData.push({ id: newData.length + 1, category: categoryLink, lesion: lesionId, score: { percentage: percentage } })
-
-            // update data
-            AsyncStorage.setItem('fill_in_the_blank_data', JSON.stringify(filterData));
-        }
-    }
+    useEffect(() => {
+        updateExerciseData();
+    }, [totalCorrectAnswers]);
 
     useEffect(() => {
         FillInTheBlank.forEach(category => {
@@ -121,7 +121,6 @@ const Exercise = ({ route, navigation }: any) => {
             setSelectedOption(null);
             setOptionsDisabled(false);
         } else {
-            updateExerciseData();
             setShowMessage(true);
         }
     };

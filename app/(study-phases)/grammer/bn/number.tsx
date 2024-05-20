@@ -88,8 +88,7 @@ const Number = () => {
 
                 <View style={{ display: 'flex', gap: 5, marginTop: 10 }}>
                     <Text style={styles.text}>1. Singular Number (একবচন)</Text>
-                    <Text style={styles.text}>2. Second Person (মধ্যম পুরুষ)</Text>
-                    <Text style={styles.text}>3. Plural Number (বহুবচন)</Text>
+                    <Text style={styles.text}>2. Plural Number (বহুবচন)</Text>
                 </View>
 
                 <Divider marginTop={20} marginBottom={20} />

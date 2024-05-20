@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Image, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native'
 // import { Stack } from 'expo-router'
 import { Link } from "expo-router";
 import { COLORS, FONT } from "@/constants";
@@ -9,8 +9,8 @@ import ContentHeader from "@/components/Headers/ContentHeader";
 
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 
-// Create a stack navigator
-const Stack = createStackNavigator();
+import { Feather } from '@expo/vector-icons';
+import { useCountryContext } from '@/context/CountryContext';
 
 const DATA = [
     {
@@ -65,20 +65,34 @@ const DATA = [
     },
 ];
 
-import Person from "./(pages)/person";
-import Tenses from "./tenses/index";
-import PartsOfSpeech from "./(pages)/parts-of-speech";
-import Articles from "./(pages)/articles";
-import RightFormsOfVerbs from "./(pages)/right-forms-of-verbs";
-import Sentence from "./(pages)/sentence";
-import Number from "./(pages)/number";
+import BnPerson from "./bn/person";
+import BnTenses from "./bn/tenses/index";
+import BnPartsOfSpeech from "./bn/parts-of-speech";
+import BnArticles from "./bn/articles";
+import BnRightFormsOfVerbs from "./bn/right-forms-of-verbs";
+import BnSentence from "./bn/sentence";
+import BnNumber from "./bn/number";
 // import Word from "./(pages)/word";
-import Modifiers from "./(pages)/modifiers";
-import Narration from "./(pages)/narration";
-import { Feather } from '@expo/vector-icons';
+import BnModifiers from "./bn/modifiers";
+import BnNarration from "./bn/narration";
 
+import EnPerson from "./en/person";
+import EnTenses from "./en/tenses/index";
+import EnPartsOfSpeech from "./en/parts-of-speech";
+import EnArticles from "./en/articles";
+import EnRightFormsOfVerbs from "./en/right-forms-of-verbs";
+import EnSentence from "./en/sentence";
+import EnNumber from "./en/number";
+// import Word from "./(pages)/word";
+import EnModifiers from "./en/modifiers";
+import EnNarration from "./en/narration";
+
+// Create a stack navigator
+const Stack = createStackNavigator();
 
 const TabOneScreen = () => {
+    const { country } = useCountryContext();
+
     return (
         <Stack.Navigator
             screenOptions={{
@@ -87,16 +101,16 @@ const TabOneScreen = () => {
             }}>
 
             <Stack.Screen name="grammer_topics_screen" component={Index} options={{ header: () => <ContentHeader title="Grammer" />, headerShown: true }} />
-            <Stack.Screen name="person_screen" component={Person} options={{ header: () => <ContentHeader title="Person" />, headerShown: true }} />
-            <Stack.Screen name="tenses_screen" component={Tenses} />
-            <Stack.Screen name="partsOfSpeech_screen" component={PartsOfSpeech} options={{ header: () => <ContentHeader title="Parts of speech" />, headerShown: true }} />
-            <Stack.Screen name="articles_screen" component={Articles} options={{ header: () => <ContentHeader title="Article" />, headerShown: true }} />
-            <Stack.Screen name="rightFormsOfVerbs_screen" component={RightFormsOfVerbs} options={{ header: () => <ContentHeader title="Right Form of Verbs" />, headerShown: true }} />
-            <Stack.Screen name="sentence_screen" component={Sentence} options={{ header: () => <ContentHeader title="Sentence" />, headerShown: true }} />
-            <Stack.Screen name="number_screen" component={Number} options={{ header: () => <ContentHeader title="Number" />, headerShown: true }} />
+            <Stack.Screen name="person_screen" component={country === 'Bangladesh' ? BnPerson : EnPerson} options={{ header: () => <ContentHeader title="Person" />, headerShown: true }} />
+            <Stack.Screen name="tenses_screen" component={country === 'Bangladesh' ? BnTenses : EnTenses} />
+            <Stack.Screen name="partsOfSpeech_screen" component={country === 'Bangladesh' ? BnPartsOfSpeech : EnPartsOfSpeech} options={{ header: () => <ContentHeader title="Parts of speech" />, headerShown: true }} />
+            <Stack.Screen name="articles_screen" component={country === 'Bangladesh' ? BnArticles : EnArticles} options={{ header: () => <ContentHeader title="Article" />, headerShown: true }} />
+            <Stack.Screen name="rightFormsOfVerbs_screen" component={country === 'Bangladesh' ? BnRightFormsOfVerbs : EnRightFormsOfVerbs} options={{ header: () => <ContentHeader title="Right Form of Verbs" />, headerShown: true }} />
+            <Stack.Screen name="sentence_screen" component={country === 'Bangladesh' ? BnSentence : EnSentence} options={{ header: () => <ContentHeader title="Sentence" />, headerShown: true }} />
+            <Stack.Screen name="number_screen" component={country === 'Bangladesh' ? BnNumber : EnNumber} options={{ header: () => <ContentHeader title="Number" />, headerShown: true }} />
             {/* <Stack.Screen name="word_screen" component={Word} options={{ header: () => <ContentHeader title="Word" />, headerShown: true }} /> */}
-            <Stack.Screen name="modifiers_screen" component={Modifiers} options={{ header: () => <ContentHeader title="Modifiers" />, headerShown: true }} />
-            <Stack.Screen name="narration_screen" component={Narration} options={{ header: () => <ContentHeader title="Narration" />, headerShown: true }} />
+            <Stack.Screen name="modifiers_screen" component={country === 'Bangladesh' ? BnModifiers : EnModifiers} options={{ header: () => <ContentHeader title="Modifiers" />, headerShown: true }} />
+            <Stack.Screen name="narration_screen" component={country === 'Bangladesh' ? BnNarration : EnNarration} options={{ header: () => <ContentHeader title="Narration" />, headerShown: true }} />
         </Stack.Navigator>
     );
 }
