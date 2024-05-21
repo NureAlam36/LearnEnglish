@@ -3,92 +3,74 @@ import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image } from "react
 import { COLORS, FONT } from "../../../constants";
 import { Feather } from '@expo/vector-icons';
 
-import famousQuotations from '@/data/famous-quotations.json'
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
+import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 import ContentHeader from "@/components/Headers/ContentHeader";
 
-import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
+import shortStories from '@/data/story/short-stories.json';
+import motivationalStories from '@/data/story/motivational-stories.json';
 
 // Create a stack navigator
 const Stack = createStackNavigator();
 
-import Topics from './topics';
 import Story from './story';
 
-const Index = () => {
-    return (
-        <Stack.Navigator
-            screenOptions={{
-                ...TransitionPresets.SlideFromRightIOS,
-                headerShown: false
-            }}>
-
-            <Stack.Screen name="phrasesCategory_screen" component={Categories} options={{ header: () => <ContentHeader title="Idioms and Phrases" />, headerShown: true }} />
-            <Stack.Screen name="quotations_screen" component={Topics} />
-            <Stack.Screen name="story_content_screen" component={Story} />
-        </Stack.Navigator>
-    );
-}
-
-const DATA = [
-    {
-        "id": 1,
-        "category": "Sort Stories",
-        "link": "short-stories",
-        "image": "https://englisheasypractice.com/wp-content/uploads/2020/06/English-short-stories-download.png"
-    }, {
-        "id": 2,
-        "category": "Motivational Stories",
-        "link": "motivational-stories",
-        "image": "https://englisheasypractice.com/wp-content/uploads/2020/06/English-short-stories-download.png"
-    }, {
-        "id": 3,
-        "category": "Moral Stories",
-        "link": "moral-stories",
-        "image": "https://englisheasypractice.com/wp-content/uploads/2020/06/English-short-stories-download.png"
-    }
-]
-
-const Categories = ({ navigation }: any) => {
+const Categories = ({ navigation, route }: any) => {
+    const { slug } = route.params;
     const { colorScheme, theme } = useColorSchemeContext();
+    const [categoryName, setCategoryName] = useState<string>('');
+    const [stories, setStories] = useState<any>([]);
     const [categories, setCategories] = useState<any>([]);
 
+
+
     useEffect(() => {
-        famousQuotations.forEach((quotations) => {
+        switch (slug) {
+            case 'short-stories':
+                setStories(shortStories);
+                break;
+            case 'motivational-stories':
+                setStories(motivationalStories);
+                break;
+            default:
+                break;
+        }
+    }, []);
+
+    useEffect(() => {
+        stories.forEach((story: any) => {
             const category = {
-                name: quotations.category,
-                link: quotations.link,
-                image: quotations.image || 'https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg'
+                id: story.id,
+                title: story.title
             }
 
+
+            setCategoryName("Short Stories")
             setCategories((categories: any) => [...categories, category]);
         })
-    }, []);
+    }, [stories])
 
     return (
         <React.Fragment>
-            <ContentHeader title="Stories" />
+            <ContentHeader title={categoryName} />
 
             <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary }]}>
-                <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Topics</Text>
+                {/* <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}></Text> */}
                 <FlatList
-                    data={DATA}
+                    data={categories}
                     renderItem={({ item }) => (
                         // @ts-ignore
-                        <TouchableOpacity onPress={() => navigation.navigate('quotations_screen', { slug: item.link })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
+                        <TouchableOpacity onPress={() => navigation.navigate('story_content_screen', { slug: slug, id: item.id })} activeOpacity={0.7} style={[styles.itemContainer, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary, borderWidth: 1, borderColor: theme.borderColor }]}>
                             <View style={styles.item}>
                                 <View style={styles.imageWraper}>
                                     <Image
                                         style={styles.image}
-                                        source={{ uri: item.image }}
+                                        source={require('@/assets/images/reading-a-book.png')}
                                         resizeMode="contain"
                                     />
                                 </View>
-                                <View>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText, marginBottom: 3 }]}>{item.category}</Text>
-                                    <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText, opacity: 0.7, fontSize: 12 }]}>10 Stories</Text>
-                                </View>
+                                <Text style={[styles.title, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>{item.title}</Text>
                             </View>
                             <View
                                 style={{
@@ -133,7 +115,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: "#fff",
         borderRadius: 5,
-        paddingHorizontal: 10,
+        paddingHorizontal: 5,
         paddingVertical: 5
     },
     item: {
@@ -143,10 +125,12 @@ const styles = StyleSheet.create({
         gap: 10
     },
     imageWraper: {
+        display: "flex",
+        alignItems: "center",
     },
     image: {
-        width: 60,
-        height: 60,
+        width: 50,
+        height: 50,
         borderRadius: 5,
     },
     title: {
@@ -156,4 +140,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Index;
+export default Categories;

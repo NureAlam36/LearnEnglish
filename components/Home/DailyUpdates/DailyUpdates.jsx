@@ -41,7 +41,8 @@ const DailyUpdates = ({ navigation }) => {
                 backgroundColor:
                   colorScheme === "light" ? "#a2e7d6de" : COLORS.darkSecondary,
                 borderWidth: 1,
-                borderColor: theme.borderColor,
+                borderColor:
+                  colorScheme === "light" ? "#1bb28582" : theme.borderColor,
               },
             ]}
             activeOpacity={0.7}

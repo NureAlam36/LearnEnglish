@@ -4,20 +4,7 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
 import PreLoader from '@/components/PreLoader';
 import { FONT, COLORS } from "@/constants";
-
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    const { colorScheme, theme } = useColorSchemeContext();
-
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: colorScheme === 'light' ? borderColor : theme.borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
+import Divider from '@/components/Divider';
 
 // https://www.twinkl.com/teaching-wiki/parts-of-speech-in-english
 // // https://www.papertrue.com/blog/parts-of-speech/

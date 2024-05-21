@@ -5,18 +5,8 @@ import Stack from 'expo-router/stack';
 import { FONT, COLORS } from "@/constants";
 import PreLoader from '@/components/PreLoader';
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
+import Divider from '@/components/Divider';
 
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
 
 const LineBreaker = ({ height = '10' }) => {
     return (

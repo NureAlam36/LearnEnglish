@@ -4,20 +4,7 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { FONT, COLORS } from "@/constants";
 
 import PreLoader from '@/components/PreLoader';
-
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    const { colorScheme, theme } = useColorSchemeContext();
-
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: colorScheme === 'light' ? borderColor : theme.borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
+import Divider from '@/components/Divider';
 
 // https://www.ebookbou.edu.bd/Books/Text/OS/SSC/ssc_2652/Unit-07.pdf
 

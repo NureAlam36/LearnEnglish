@@ -7,18 +7,7 @@ import { FONT, COLORS } from "@/constants";
 import { Table, Row } from 'react-native-table-component';
 
 import PreLoader from '@/components/PreLoader';
-
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
+import Divider from '@/components/Divider';
 
 const Narration = () => {
     const [loading, setLoading] = useState(true);

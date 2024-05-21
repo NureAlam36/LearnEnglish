@@ -44,12 +44,12 @@ const Quotations = () => {
                     data={quotes}
                     renderItem={({ item }) => (
                         <TouchableOpacity style={[styles.item, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary }]} activeOpacity={0.7}>
-                            <Text style={[styles.textEn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.english}”</Text>
-                            <Text style={[styles.textBn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.bangla}”</Text>
+                            <Text style={[styles.textEn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.quote}”</Text>
+                            {/* <Text style={[styles.textBn, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>“{item.bangla}”</Text> */}
                             <Text style={[styles.textAuthor, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>– {item.author}</Text>
-                            <View style={{ display: 'flex', flexDirection: 'row', gap: 5, alignItems: 'center', justifyContent: 'center', borderWidth: 1, width: 75, borderColor: '#5495fb', borderRadius: 5, paddingVertical: 3 }}>
-                                <Feather name="copy" size={18} color={colorScheme === 'light' ? COLORS.gray : '#fff'} />
-                                <Text style={{ fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.gray : '#fff' }} onPress={() => copyToClipboard(item.english, item.bangla, item.author)}>Copy</Text>
+                            <View style={{ display: 'flex', flexDirection: 'row', gap: 5, alignItems: 'center', justifyContent: 'center', borderWidth: 1, width: 75, borderColor: theme.borderColor, borderRadius: 5, paddingVertical: 3 }}>
+                                <Feather name="copy" size={16} color={colorScheme === 'light' ? COLORS.gray : '#fff'} />
+                                <Text style={{ fontSize: 12, fontFamily: FONT.regular, color: colorScheme === 'light' ? COLORS.gray : '#fff' }} onPress={() => copyToClipboard(item.english, item.bangla, item.author)}>Copy</Text>
                             </View>
                         </TouchableOpacity>
                     )}
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         borderRadius: 10,
-        padding: 15,
+        padding: 12,
     },
     textEn: {
         fontSize: 18,

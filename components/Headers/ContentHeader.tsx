@@ -5,9 +5,11 @@ import { COLORS, FONT } from "@/constants";
 
 import { useNavigation } from '@react-navigation/native';
 
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
-import Feather from '@expo/vector-icons/Feather';
+// import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+// import Feather from '@expo/vector-icons/Feather';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import Entypo from '@expo/vector-icons/Entypo';
+
 
 import { Stack as ExpoStack } from "expo-router";
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
@@ -25,7 +27,8 @@ const ContentHeader = ({ title }: any) => {
                         <View style={[styles.headerContent, { backgroundColor: COLORS.primary }]}>
                             <View style={{ display: 'flex', flexDirection: 'row', alignContent: 'center' }}>
                                 <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton} activeOpacity={0.7}>
-                                    <Ionicons name="arrow-back-outline" size={24} color="white" />
+                                    {/* <Ionicons name="arrow-back-outline" size={24} color="white" /> */}
+                                    <Entypo name="chevron-small-left" size={30} color={COLORS.lightText} />
                                 </TouchableOpacity>
                                 <View style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                     <Text style={{ color: '#fff', fontFamily: FONT.bold, fontSize: 20 }}>{title ? title : 'Learn English'}</Text>
@@ -67,6 +70,8 @@ const styles = StyleSheet.create({
         height: 40,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: COLORS.tertiary,
+        borderRadius: 5
     }
 });
 

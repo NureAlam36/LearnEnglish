@@ -4,18 +4,9 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { FONT, COLORS } from "@/constants";
 
 import PreLoader from '@/components/PreLoader';
+import Divider from '@/components/Divider';
 
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
+// https://www.learnesl.net/what-are-modifiers-in-english/
 
 const Modifiers = () => {
     const [loading, setLoading] = useState(true);
@@ -56,172 +47,190 @@ const Modifiers = () => {
     return (
         !loading ? <ScrollView style={[styles.container, { backgroundColor: theme.bgPrimary }]} showsVerticalScrollIndicator={false}>
             <View style={{ padding: 15 }}>
-                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Modifier কাকে বলে? </Text>
-                <Text style={styles.text}>যে সকল word/group of words কোনো noun/noun phrase কে describe করে অথবা noun/noun phrase এর meaning কে কোন না কোন ভাবে restrict করে তাদেরকে modifier বলে।</Text >
+                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>What are Modifiers</Text>
+                <Text style={styles.text}>Modifiers are words or groups of words that add information about the nouns, pronouns and verbs of the sentence.</Text >
 
-                <Text style={[styles.text, { marginTop: 20, marginBottom: 5 }]}><Text style={{ fontWeight: 'bold', color: '#01636a' }}>সহজ ভাষায় modifier:</Text> যে সকল word/group of words কোন noun/noun phrase কে modify করে/বিশেষায়িত করে তাদেরকে modifier বলে।</Text>
+                <Text style={[styles.text, { marginTop: 20, marginBottom: 5 }]}>Modifiers add especial meaning to the sentence, they add color, vividness and interest.</Text>
 
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>What is the definition of a modifier in English grammar?</Text>
-                <Text style={styles.text}>✓ Modifier = A word or group of words that describes a noun phrase or restricts its meaning in some way. (Oxford Advanced Learner’s Dictionary)</Text>
-                <Text style={styles.text}>✓ Modifier = A word or phrase that is used with another word or phrase to limit or add to its meaning. (Cambridge Advanced Learner’s Dictionary)</Text>
+                <Divider marginTop={20} marginBottom={20} />
 
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>What parts of speech is modifier in grammar?</Text>
-                <Text style={styles.text}>✓ A modifier can be both adjective and adverb.</Text>
+                <Text style={[styles.heading_xl, { marginBottom: 5 }]}>Using Modifiers Correctly in Your Sentences</Text>
+                <Text style={styles.text}>Modifiers give more information about something else in the sentence, and tell us more about the parts of a sentence. The two most important kinds of modifiers are adjective and adverbs.</Text>
 
-                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#a72a24' }]}>Modifier এর উদাহরণ:</Text>
+                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>Adjective:</Text>
+                <Text style={styles.text}>An adjective modifies or gives more information about a noun or a pronoun appearing in a sentence.</Text>
 
                 <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• A <Text style={{ textDecorationLine: 'underline' }}>barking</Text> dog seldom bites. (Dog কে modify করেছে)</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>up</Text> train is late today. (Train কে modify করেছে) </Text>
-                    <Text style={styles.text}>• The house <Text style={{ textDecorationLine: 'underline' }}>on the corner</Text> is red in colour. (The house কে modify করেছে)</Text>
-                    <Text style={styles.text}>• The man <Text style={{ textDecorationLine: 'underline' }}>speaking in English</Text> is the scholar of English. (The man কে modify করেছে)</Text>
-                    <Text style={styles.text}>• She is a <Text style={{ textDecorationLine: 'underline' }}>beautiful</Text> lady. (lady কে modify করেছে)</Text>
-                    <Text style={styles.text}>• The mobile <Text style={{ textDecorationLine: 'underline' }}>with a multi keyboard</Text> is very expensive. (The mobile কে modify করেছে)</Text>
-                    <Text style={styles.text}>• I saw a boy <Text style={{ textDecorationLine: 'underline' }}>crying</Text>. (Boy কে modify করেছে)</Text>
-                    <Text style={styles.text}>• It was a <Text style={{ textDecorationLine: 'underline' }}>nice</Text> journey. (Journey কে modify করেছে)</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>pretty</Text> girl is my cousin. (Girl কে modify করেছে)</Text>
-                    <Text style={styles.text}>• The crown <Text style={{ textDecorationLine: 'underline' }}>made of gold</Text> is a symbol of aristocracy. (The crown কে modify করেছে)</Text>
+                    <Text style={styles.text}>• A diligent worker.</Text>
+
+                    <View style={{ display: 'flex', gap: 5 }}>
+                        <Text style={styles.text}>Worker = noun</Text>
+                        <Text style={styles.text}>Diligent = adjective (gives information or modifies a noun ‘worker’).</Text>
+                    </View>
                 </View>
 
-                <Text style={[styles.text, { marginTop: 15 }]}>✓ সুতরাং দেখা যাচ্ছে যে modifier যে noun/noun phrase কে modify করে/বিশেষায়িত করে তার পূর্বে অথবা পরে যে কোন স্থানে ব্যবহৃত হতে পারে।</Text>
+                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>Adverb:</Text>
+                <Text style={styles.text}>An adverb modifies a verb, and adjective, or another adverb.</Text>
+
+                <View style={{ display: 'flex', gap: 5, marginBottom: 15, marginTop: 10 }}>
+                    <Text style={styles.text}>• She works diligently.</Text>
+
+                    <View style={{ marginLeft: 15 }}>
+                        <Text style={styles.text}>Works = verb, She = pronoun = subject , diligently = adverb (gives more information about the verb ‘works).</Text>
+                    </View>
+                </View>
+
+                <View style={{ display: 'flex', gap: 5, marginBottom: 15 }}>
+                    <Text style={styles.text}>• She is very diligent.</Text>
+
+                    <View style={{ marginLeft: 15, display: 'flex', gap: 5 }}>
+                        <Text style={styles.text}>Is = verb = linking verb (a linking verb describes something that a subject is), She = pronoun = subject,</Text>
+                        <Text style={styles.text}>diligent = adjective (gives more information about the subject ‘she’).  very = adverb (modifies the adjective ‘diligent’).</Text>
+                    </View>
+                </View>
+
+                <View style={{ display: 'flex', gap: 5 }}>
+                    <Text style={styles.text}>• She works extremely diligently.</Text>
+
+                    <View style={{ marginLeft: 15 }}>
+                        <Text style={styles.text}>Works = verb = action verb,  she = pronoun = subject,  diligently = adverb, extremely = adverb (modifies the adverb in the sentence ‘diligently).</Text>
+                    </View>
+                </View>
 
                 <Divider marginTop={20} marginBottom={20} />
 
-                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Classification of Modifiers: Modifier কত প্রকার ও কি কি?</Text>
-                <Text style={styles.text}>Modifier দুই প্রকারঃ-</Text>
+                <Text style={styles.heading_xl}>Which to use an adjective or an adverb?:</Text>
+                <Text style={styles.text}>In some sentences in English it can be a little tricky to figure out whether to use an adjective or adverb, here are a couple of rules which will help make it easier.</Text>
 
-                <View style={{ display: 'flex', gap: 5, marginTop: 10 }}>
-                    <Text style={styles.text}>1. Premodifier</Text>
-                    <Text style={styles.text}>2. Postmodifier</Text>
+                <View style={{ marginTop: 15 }}>
+                    <Text style={styles.text}>1. After an action verb, use and adverb. Remember that an action verb describes something that a subject does. Normally after action verbs an adjective is used.</Text>
+
+                    <View style={{ display: 'flex', gap: 5 }}>
+                        <Text style={styles.text}>• She is very diligent.</Text>
+                    </View>
                 </View>
 
-                <Divider marginTop={20} marginBottom={20} />
+                <View style={{ marginTop: 15, marginBottom: 15 }}>
+                    <Text style={styles.text}>2. After a liking verb, use an adjective. Remember that a linking verb describes the state of being, it tells something that a subject is, rather than something that a subject does.</Text>
 
-                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>1.  Premodifier কী:-</Text>
-                <Text style={styles.text}>যে সকল modifier “noun/noun phrase” এর পূর্বে ব্যবহৃত হয় তাদেরকে premodifier বলা হয়। Premodifier এর উদাহরণসমূহ দেখুনঃ-</Text>
+                    <View style={{ display: 'flex', gap: 5 }}>
+                        <Text style={styles.text}>• She is diligent.</Text>
+                    </View>
+                </View>
+
+                <Text style={styles.text}><Text style={{ fontFamily: FONT.bold, color: '#01636a' }}>Note:</Text> The most common linking verbs in in English is the verb to be but there are many other linking verbs in English: looks, seems, appears, feels, sounds all of these can be a linking verb. Remember these verbs can be used as an action verb, when used as action verb describe what the subject does and  when used as linking verb describes what the subject is.</Text>
+
 
                 <View style={{ display: 'flex', gap: 5, marginTop: 15 }}>
-                    <Text style={styles.text}>• Look at the <Text style={{ textDecorationLine: 'underline' }}>above</Text> word.</Text>
-                    <Text style={styles.text}>•  I need a <Text style={{ textDecorationLine: 'underline' }}>colour</Text> television.</Text>
-                    <Text style={styles.text}>• It is an <Text style={{ textDecorationLine: 'underline' }}>up-to-date</Text> edition of the book.</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>disabled</Text> man has come here.</Text>
-                    <Text style={styles.text}>• It was a <Text style={{ textDecorationLine: 'underline' }}>paper</Text> boat.</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>defeated</Text> soldiers will be kept in prison.</Text>
-                    <Text style={styles.text}>• It is a <Text style={{ textDecorationLine: 'underline' }}>forbidden</Text> tree.</Text>
-                    <Text style={styles.text}>• My <Text style={{ textDecorationLine: 'underline' }}>new</Text> book has been published.</Text>
-                    <Text style={styles.text}>• I bought an <Text style={{ textDecorationLine: 'underline' }}>expensive</Text> mobile yesterday.</Text>
-                    <Text style={styles.text}>• A <Text style={{ textDecorationLine: 'underline' }}>rolling</Text> stone gathers no moss.</Text>
-                    <Text style={styles.text}>• A <Text style={{ textDecorationLine: 'underline' }}>barking</Text> dog seldom bites.</Text>
-                    <Text style={styles.text}>• I need a <Text style={{ textDecorationLine: 'underline' }}>new</Text> edition of this book.</Text>
-                </View>
-
-                <Text style={[styles.heading_xl, { marginTop: 30, marginBottom: 10 }]}>Different Types of Premodifiers:</Text>
-
-                <Text style={[styles.heading_lg, { marginBottom: 10, color: '#01636a' }]}>How many types of Premodifiers are used?</Text>
-                <Text style={styles.text}>ইংরেজি গ্রামারে সাধারণত ৫ ধরণের Premodifier ব্যবহৃত হয়। এগুলো হলো:-</Text>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>1) Adjective as premodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• Tom has a <Text style={{ textDecorationLine: 'underline' }}>pleasant</Text> holiday this year.</Text>
-                    <Text style={styles.text}>• I watched a <Text style={{ textDecorationLine: 'underline' }}>western</Text> movie.</Text>
-                    <Text style={styles.text}>• Joe is a <Text style={{ textDecorationLine: 'underline' }}>meritorious</Text> student who wants to meet me.</Text>
-                    <Text style={styles.text}>• The girl has a <Text style={{ textDecorationLine: 'underline' }}>bright</Text> future.</Text>
-                    <Text style={styles.text}>• My father is a <Text style={{ textDecorationLine: 'underline' }}>retired</Text> officer.</Text>
-                </View>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>2) -ing participles as premodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• Prime minister went to a <Text style={{ textDecorationLine: 'underline' }}>developing</Text> country.</Text>
-                    <Text style={styles.text}>• It is a <Text style={{ textDecorationLine: 'underline' }}>barking</Text> dog.</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>waiting</Text> guests become tired.</Text>
-                    <Text style={styles.text}>• David Russel is a <Text style={{ textDecorationLine: 'underline' }}>beginning</Text> student.</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>working</Text> labour is always ignored in Bangladesh.</Text>
-                </View>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>3) -ed participles as premodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• He is a r<Text style={{ textDecorationLine: 'underline' }}>etired</Text> teacher.</Text>
-                    <Text style={styles.text}>• They need a <Text style={{ textDecorationLine: 'underline' }}>reduced</Text> price.</Text>
-                    <Text style={styles.text}>• They were <Text style={{ textDecorationLine: 'underline' }}>tired</Text> students.</Text>
-                    <Text style={styles.text}>• Joe is a<Text style={{ textDecorationLine: 'underline' }}> wanted</Text> criminal.</Text>
-                    <Text style={styles.text}>• It is a <Text style={{ textDecorationLine: 'underline' }}>developed</Text> thesis.</Text>
-                </View>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>4) Noun as premodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• It is our <Text style={{ textDecorationLine: 'underline' }}>college</Text> magazine.</Text>
-                    <Text style={styles.text}>• Are the <Text style={{ textDecorationLine: 'underline' }}>removal</Text> expenses paid by your company?</Text>
-                    <Text style={styles.text}>• The <Text style={{ textDecorationLine: 'underline' }}>school</Text> bus is now moving.</Text>
-                    <Text style={styles.text}>• I have no <Text style={{ textDecorationLine: 'underline' }}>college</Text> friends here.</Text>
-                    <Text style={styles.text}>• She want to know about <Text style={{ textDecorationLine: 'underline' }}>London</Text> transport.</Text>
-                </View>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>5) Compounds as premodifier:-</Text>
-                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>What is a Compound word?</Text>
-                <Text style={styles.text}>Compound word হল একাধিক word এর সমষ্টি যা single noun/adjective হিসেবে ব্যবহৃত হয়।</Text>
-
-                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#01636a' }]}>Now study the following lines:</Text>
-                <Text style={styles.text}>a) I need a first-class ticket. (First class একাধিক word এর সমষ্টি । অতএব, এটি একটি Compound যা noun এর পূর্বে ব্যবহৃত হয়ে premodifier হিসেবে ব্যবহৃত হয়েছে।</Text>
-
-                <Text style={styles.text}>একইভাবে Compounds as premodifier এর আরও উদাহরণ,</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>b) The book has an <Text style={{ textDecorationLine: 'underline' }}>up-to-date</Text> edition.</Text>
-                    <Text style={styles.text}>c) It is a <Text style={{ textDecorationLine: 'underline' }}>ready-to-wear</Text> suit.</Text>
-                    <Text style={styles.text}>d) I live in a <Text style={{ textDecorationLine: 'underline' }}>twenty-storied</Text> building.</Text>
-                    <Text style={styles.text}>e) He is <Text style={{ textDecorationLine: 'underline' }}>8-year</Text> old.</Text>
+                    <Text style={styles.text}>• She looks diligent. (linking verb)</Text>
+                    <Text style={styles.text}>•  The are looking for a diligent worker. (action verb)</Text>
                 </View>
 
                 <Divider marginTop={20} marginBottom={20} />
 
-                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>2. Postmodifier কী:-</Text>
-                <Text style={styles.text}>যে সকল modifier “noun/noun phrase” এর পরে ব্যবহৃত হয় তাদেরকে Postmodifier বলা হয়।</Text>
-
-                <Text style={[styles.heading_md, { marginTop: 20, marginBottom: 5, color: '#a72a24' }]}>উদাহরণ:</Text>
+                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Common Mistakes With Using Modifiers</Text>
+                <Text style={[styles.heading_md, { marginBottom: 10, color: '#01636a' }]}>The Correct use of “well”. </Text>
 
                 <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• A nice young woman <Text style={{ textDecorationLine: 'underline' }}>in jeans</Text> was watching me.</Text>
-                    <Text style={styles.text}>• There is nothing <Text style={{ textDecorationLine: 'underline' }}>new</Text> about these techniques.</Text>
-                    <Text style={styles.text}>• They wanted to meet the boy <Text style={{ textDecorationLine: 'underline' }}>going out with their daughter</Text>.</Text>
-                    <Text style={styles.text}>• Many dogs <Text style={{ textDecorationLine: 'underline' }}>roaming unleashed</Text> are killed by automobiles.</Text>
-                    <Text style={styles.text}>• We visited the place <Text style={{ textDecorationLine: 'underline' }}>where my uncle lived</Text>.</Text>
-                    <Text style={styles.text}>• The boy <Text style={{ textDecorationLine: 'underline' }}>standing</Text> on the street is known to me.</Text>
-                    <Text style={styles.text}>• He is a man <Text style={{ textDecorationLine: 'underline' }}>of innocence</Text>.</Text>
-                    <Text style={styles.text}>• The fox <Text style={{ textDecorationLine: 'underline' }}>with a long tail</Text> is coming.</Text>
-                    <Text style={styles.text}>• My mother <Text style={{ textDecorationLine: 'underline' }}>wearing a red shari</Text> went to the party.</Text>
-                    <Text style={styles.text}>• Jonathan <Text style={{ textDecorationLine: 'underline' }}>who speaks in English</Text> has become a president of the party.</Text>
+                    <Text style={styles.text}>Well is word can be used as an adjective, as an adverb as noun or interjection.</Text>
+                    <Text style={styles.text}>Well as an adjective: healthy.</Text>
+                    <Text style={styles.text}>Well as an adverb: in a good way.</Text>
                 </View>
 
-                <Text style={[styles.heading_xl, { marginTop: 30, marginBottom: 10 }]}>Different Types of postmodifiers:</Text>
-
-                <Text style={[styles.heading_lg, { marginBottom: 10, color: '#01636a' }]}>How many types of Postmodifiers are used?</Text>
-                <Text style={styles.text}>ইংরেজি গ্রামারে সাধারণত ৩ ধরণের Postmodifier ব্যবহৃত হয়। এগুলো হলো:</Text>
-
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>1) Prepositional phrase as postmodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• It was a week <Text style={{ textDecorationLine: 'underline' }}>of hard work</Text>.</Text>
-                    <Text style={styles.text}>• John Keats was a man <Text style={{ textDecorationLine: 'underline' }}>of medicine</Text>.</Text>
-                    <Text style={styles.text}>• The fox <Text style={{ textDecorationLine: 'underline' }}>with a long tail</Text> is clever.</Text>
-                    <Text style={styles.text}>• This message is scarcely a cause <Text style={{ textDecorationLine: 'underline' }}>for regret</Text>.</Text>
-                    <Text style={styles.text}>• The book <Text style={{ textDecorationLine: 'underline' }}>on the table</Text> is written by Shakespeare.</Text>
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginBottom: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• The patient looks well today. (adjective)</Text>
+                    <Text style={styles.text}>•  The hospital feeds its patients well. (adverb)</Text>
                 </View>
 
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>2) -ing participles as postmodifier:-</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• The boy <Text style={{ textDecorationLine: 'underline' }}>coming towards</Text> me is sick.</Text>
-                    <Text style={styles.text}>• I love the child <Text style={{ textDecorationLine: 'underline' }}>crying</Text> loudly.</Text>
-                    <Text style={styles.text}>• The president <Text style={{ textDecorationLine: 'underline' }}>speaking in English</Text> is known to me. </Text>
-                    <Text style={styles.text}>• A man <Text style={{ textDecorationLine: 'underline' }}>wearing a grey suit</Text> left the office.</Text>
-                    <Text style={styles.text}>• Last Friday, I got a letter <Text style={{ textDecorationLine: 'underline' }}>saying that there was a trouble of robbery in the area</Text>.</Text>
+                <Text style={[styles.text, { fontStyle: 'italic' }]}>Don’t confuse the adjective ‘well’ with the adjective ‘good’.</Text>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• You look good in your new dress.</Text>
+
+                    <View style={{ display: 'flex', gap: 5, marginLeft: 20 }}>
+                        <Text style={styles.text}>Look = verb = linking verb, you = pronoun = subject and good = adjective</Text>
+                    </View>
                 </View>
 
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>3) -Ed participle as postmodifier:–</Text>
-                <View style={{ display: 'flex', gap: 5 }}>
-                    <Text style={styles.text}>• The question <Text style={{ textDecorationLine: 'underline' }}>debated in parliament yesterday</Text> was about the new tax.</Text>
-                    <Text style={styles.text}>• We have seen the damage to the pie <Text style={{ textDecorationLine: 'underline' }}>done by the deer</Text>.</Text>
-                    <Text style={styles.text}>• The property <Text style={{ textDecorationLine: 'underline' }}>belonged to my sister</Text> had been sold.</Text>
-                    <Text style={styles.text}>• The tale <Text style={{ textDecorationLine: 'underline' }}>stated by my Grandfather</Text> was very interesting.</Text>
-                    <Text style={styles.text}>• The work <Text style={{ textDecorationLine: 'underline' }}>done by my family</Text> was highly criticised.</Text>
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• You look well in your new dress. (Incorrect ‘ because well means healthy)</Text>
                 </View>
+
+                <Text style={[styles.heading_md, { marginBottom: 10, marginTop: 30, color: '#01636a' }]}>Using Badly as an Adjective or an Adverb…</Text>
+                <Text style={styles.text}>‘Badly’ is an adverb, meaning “in a bad way.“ Use it only with an action verb.</Text>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• The accident damaged the car badly.</Text>
+                    <Text style={styles.text}>• I feel badly about the accident. (Incorrect)</Text>
+                    <Text style={styles.text}>• I feel bad about the accident. (Correct)</Text>
+                </View>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>You look well in your new dress. (Incorrect ‘ because well means healthy)</Text>
+                </View>
+
+                <Divider marginTop={20} marginBottom={20} />
+
+                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Misplaced and Dangling Modifiers</Text>
+                <Text style={styles.text}>Sometimes a group of words works as a modifier in a sentence, like phrases and clauses. Both phrases and clauses often used as modifiers in sentences, they give more information about something else that appears in the sentence.</Text>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• Running to catch the bus, I tripped on my untied shoelace.</Text>
+                    <View style={{ display: 'flex', gap: 5, marginLeft: 20 }}>
+                        <Text style={styles.text}>(Main verb in the sentence ‘tripped’ and ‘I’ is the subject, ‘running to catch the bus’ is a phrase which gives more information about the subject ‘I’).</Text>
+                    </View>
+                </View>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15, marginLeft: 20 }}>
+                    <Text style={styles.text}>• The food was spoiled because it had been left on the table overnight.</Text>
+                    <View style={{ display: 'flex', gap: 5, marginLeft: 20 }}>
+                        <Text style={styles.text}>(‘The food was spoiled’ is an independent clause, and ‘because it had…….overnight’ is a subordinate clause it cant stand as sentence alone, here the subordinate act as a modifier which gives information about the first clause).</Text>
+                    </View>
+                </View>
+
+                <Divider marginTop={20} marginBottom={20} />
+
+
+                <Text style={[styles.heading_md, { marginBottom: 10 }]}>Note:</Text>
+                <Text style={styles.text}>We see that a group of word can function as a modifier, but it can create a problem if a modifying phrase or clause is not placed in proper relationship to the rest of the sentence. There are two basic problems mentioned below:</Text>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 15 }}>
+                    <Text style={styles.text}>1. When a modifiers is separated from the word or words it modifies, causing confusion, it is called a misplaced modifier. A modifying phrase or clause should be close to the word or words it modifies.</Text>
+
+                    <View style={{ display: 'flex', gap: 5, marginTop: 8, marginLeft: 20 }}>
+                        <Text style={styles.text}>• Painted bright yellow, the decorator selected a new cabinet for the kitchen.</Text>
+
+                        <View style={{ display: 'flex', gap: 5, marginLeft: 20, marginBottom: 10 }}>
+                            <Text style={styles.text}>(‘Painted bright yellow’, is a modifying phrase and is a misplaced modifier in the sentence, the simple way to correct the sentence is to move the modifier next to the clause or words that it modifies as below)</Text>
+                        </View>
+
+                        <Text style={styles.text}>• The decorator selected a new cabinet painted bright yellow for the kitchen. (Correct)</Text>
+                    </View>
+                </View>
+
+                <View style={{ display: 'flex', gap: 5, marginTop: 25 }}>
+                    <Text style={styles.text}>2. When a modifier has no word or words to modify, it is called a dangling modifier.</Text>
+
+                    <View style={{ display: 'flex', gap: 5, marginTop: 8, marginLeft: 20 }}>
+                        <Text style={styles.text}>• While driving to work yesterday morning, an accident delayed traffic on the highway.</Text>
+
+                        <View style={{ display: 'flex', gap: 5, marginTop: 5, marginLeft: 20, marginBottom: 10 }}>
+                            <Text style={styles.text}>(‘While driving to work yesterday morning’ is a modifying phrase which is not linked to any word in the sentence, or does not modify any clause or words. There are two ways fixing this particular sentence)</Text>
+
+                            <Text style={styles.text}>(1) While I was driving to work yesterday morning, an accident delayed traffic on the highway.
+                                (Turn the modifying into a clause, it would clear the meaning of the sentence)</Text>
+                            <Text style={styles.text}>(2) While driving to work yesterday, I was delayed by an accident on the highway.
+                                (put the word or clause next to the modifying phrase or clause it modifies.)</Text>
+                        </View>
+
+                        <Text style={styles.text}>• The decorator selected a new cabinet painted bright yellow for the kitchen. (Correct)</Text>
+                    </View>
+                </View>
+
+                <Divider marginTop={20} marginBottom={20} />
+
+                <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Conclusion</Text>
+                <Text style={styles.text}>Now you are expert in using adjectives and adverbs as modifiers, so you should be able to go out and sprinkle your writing with all kinds of lively vivid interesting description using these modifiers correctly and you can do it without fear of making grammatical errors. </Text>
             </View>
         </ScrollView>
             : <PreLoader />

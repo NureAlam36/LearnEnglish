@@ -4,20 +4,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { FONT, COLORS } from "@/constants";
 import PreLoader from '@/components/PreLoader';
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
-
-const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#cccccc' }) => {
-    const { colorScheme, theme } = useColorSchemeContext();
-
-    return (
-        <View style={{
-            height: 1,
-            backgroundColor: colorScheme === 'light' ? borderColor : theme.borderColor,
-            alignSelf: 'stretch',
-            marginTop: marginTop,
-            marginBottom: marginBottom,
-        }} />
-    )
-}
+import Divider from '@/components/Divider';
 
 const FutureTense = () => {
     const { colorScheme, theme } = useColorSchemeContext();
