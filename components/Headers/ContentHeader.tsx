@@ -14,7 +14,7 @@ import Entypo from '@expo/vector-icons/Entypo';
 import { Stack as ExpoStack } from "expo-router";
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
-const ContentHeader = ({ title }: any) => {
+const ContentHeader = ({ title, borderRadius = 15 }: any) => {
     const navigation = useNavigation() as any;
     const { colorScheme, theme } = useColorSchemeContext();
 
@@ -24,7 +24,7 @@ const ContentHeader = ({ title }: any) => {
                 options={{
                     headerShown: true,
                     header: () => <View style={[styles.header, { backgroundColor: theme.mainBg }]}>
-                        <View style={[styles.headerContent, { backgroundColor: COLORS.primary }]}>
+                        <View style={[styles.headerContent, { backgroundColor: COLORS.primary, borderBottomStartRadius: borderRadius, borderBottomEndRadius: borderRadius, }]}>
                             <View style={{ display: 'flex', flexDirection: 'row', alignContent: 'center' }}>
                                 <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton} activeOpacity={0.7}>
                                     {/* <Ionicons name="arrow-back-outline" size={24} color="white" /> */}
@@ -53,11 +53,9 @@ const styles = StyleSheet.create({
     headerContent: {
         //@ts-ignore
         paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 10 : 10,
-        paddingHorizontal: 20,
+        paddingHorizontal: 15,
         height: 100,
-        borderBottomStartRadius: 15,
-        borderBottomEndRadius: 15,
-        paddingVertical: 10,
+        paddingVertical: 15,
         gap: 8,
         display: 'flex',
         flexDirection: 'row',

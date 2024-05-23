@@ -10,7 +10,6 @@ import Feather from '@expo/vector-icons/Feather';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { LinearGradient } from 'expo-linear-gradient';
 
-// import CustomHeader from '@/components/Headers/CustomHeader';
 import ContentHeader from '@/components/Headers/ContentHeader';
 
 import RearrangeSentences from '@/data/rearrange-sentences.json';

@@ -53,7 +53,7 @@ const FutureTense = () => {
         !loading ? <ScrollView style={styles.container}>
             <View style={{ padding: 15 }}>
                 <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Future Tense</Text>
-                <Text style={styles.text}>TThe future tense is used to describe actions or events that will happen in the future. In English, the future tense includes four main forms:</Text >
+                <Text style={styles.text}>The future tense is used to describe actions or events that will happen in the future. In English, the future tense includes four main forms:</Text >
 
 
                 <Text style={[styles.heading_md, { marginTop: 15, marginBottom: 10 }]}>1. Simple Future:</Text>

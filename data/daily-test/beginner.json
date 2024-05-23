@@ -29,13 +29,13 @@
         "id": 4,
         "question": "______ name is Fahim. ______ Fahim Ahmed.",
         "options": ["His / She", "His / He’s", "Her / She’s", "His / His"],
-        "answer": "Her / She’s"
+        "answer": "His / He’s"
       },
       {
         "id": 5,
         "question": "“Where ______ Emma from?” “______ from the US.”",
         "options": ["is / He’s", "is / His", "am / He’s", "is / She’s"],
-        "answer": "is / He’s"
+        "answer": "is / She’s"
       },
       {
         "id": 6,
@@ -51,7 +51,7 @@
       },
       {
         "id": 8,
-        "question": "______ from Spain. I’m Rodriguez .",
+        "question": "______ from Bangladesh. I’m Rahman.",
         "options": ["I’m", "He’s", "You’re", "She’s"],
         "answer": "I’m"
       },
@@ -80,7 +80,7 @@
       },
       {
         "id": 12,
-        "question": "I ______ 22 years old, but Andrew ______ 20.",
+        "question": "I ______ 22 years old, but Reza ______ 20.",
         "options": ["am / am", "are / am", "am / is", "are / are"],
         "answer": "am / is"
       },
@@ -129,7 +129,7 @@
         "id": 19,
         "question": "“How old is your aunt?”\n\n“______ is 29.”",
         "options": ["She", "He", "She’s", "He’s"],
-        "answer": "She’s"
+        "answer": "She"
       },
       {
         "id": 20,
@@ -144,7 +144,7 @@
     "questions": [
       {
         "id": 1,
-        "question": "This ______ my friend. ______ name’s Richard.",
+        "question": "This ______ my friend. ______ name’s Fahim.",
         "options": ["are / His", "is / My", "is / His", "his / His"],
         "answer": "is / His"
       },
@@ -168,7 +168,7 @@
       },
       {
         "id": 5,
-        "question": "I have ______ brother. ______ name is David.",
+        "question": "I have ______ brother. ______ name is Rafat.",
         "options": ["an / His", "a / Her", "a / His", "* / His"],
         "answer": "a / His"
       },
@@ -181,11 +181,11 @@
           "name is / am from",
           "name am / is from"
         ],
-        "answer": "name is / from am"
+        "answer": "name is / am from"
       },
       {
         "id": 7,
-        "question": "Is Catherine ______ sister?",
+        "question": "Is Emma ______ sister?",
         "options": ["he", "you", "your", "yours"],
         "answer": "your"
       },
@@ -227,21 +227,9 @@
       },
       {
         "id": 14,
-        "question": "“______ are you?”\n\n“I’m Alex.”",
+        "question": "“______ are you?”\n\n“I’m Ayman.”",
         "options": ["Which", "How", "What", "Who"],
         "answer": "Who"
-      },
-      {
-        "id": 15,
-        "question": "What’s this ______ English?",
-        "options": ["*", "in", "at", "on"],
-        "answer": "*"
-      },
-      {
-        "id": 16,
-        "question": "Champaigne is ______ French drink.",
-        "options": ["a", "the", "an", "*"],
-        "answer": "a"
       },
       {
         "id": 17,

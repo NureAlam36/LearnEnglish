@@ -30,12 +30,13 @@ import ProverbsScreen from '@/app/(study-phases)/proverbs/index';
 import QuotationScreen from '@/app/(study-phases)/famous-quotations/index';
 
 import DailyTest from '@/app/(daily-updates)/daily-test/index';
-// import SpeakingTest from '@/app/(daily-updates)/speaking-test/index';
+import Tools from '@/app/tools/';
 
 import ContentHeader from '@/components/Headers/ContentHeader';
 import Search from '@/app/search/index';
 import JobSolution from '@/app/screens/job-solution';
 import Profile from '@/app/profile';
+import Settings from "@/app/settings/";
 
 // Create a stack navigator
 const Stack = createStackNavigator();
@@ -54,11 +55,12 @@ export default function TabOneScreen() {
       <Stack.Screen name="notification_screen" component={NotificationScreen} options={{ headerShown: false }} />
       <Stack.Screen name="search_screen" component={Search} options={{ headerShown: false }} />
       <Stack.Screen name="profile_screen" component={Profile} options={{ headerShown: false }} />
+      <Stack.Screen name="settings_screen" component={Settings} options={{ headerShown: false }} />
 
       {/* Daily Updates */}
       <Stack.Screen name="daily_test_screen" component={DailyTest} options={{ headerShown: false }} />
       <Stack.Screen name="job_solution_screen" component={JobSolution} options={{ header: () => <ContentHeader title="Job Solution" />, headerShown: true }} />
-      {/* <Stack.Screen name="speaking_test_screen" component={SpeakingTest} options={{ headerShown: false }} /> */}
+      <Stack.Screen name="tools_screen" component={Tools} options={{ headerShown: false }} />
 
       {/* Job Solution */}
       <Stack.Screen name="bcs_solution_screen" component={BcsSolution} options={{ headerShown: false }} />

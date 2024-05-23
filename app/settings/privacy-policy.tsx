@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 import { COLORS, FONT } from "@/constants";
 
-import CustomHeader from '@/components/Headers/ContentHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
 
     return (
         <React.Fragment>
-            <CustomHeader title="Privacy Policy" />
+            <ContentHeader title="Privacy Policy" />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === "light" ? "#fff" : COLORS.darkPrimary, paddingHorizontal: 15 }}>
                 <ScrollView showsVerticalScrollIndicator={false}>

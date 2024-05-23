@@ -4,6 +4,9 @@ const COLORS = {
   tertiary: "#44c39f",
   quaternary: "#57c9a9",
 
+  bgPrimary: '#1bb285',
+  bgSecondary: '#09b4c1',
+
   black: "#000",
   gray: "#4c4c4c",
   gray2: "#C1C0C8",

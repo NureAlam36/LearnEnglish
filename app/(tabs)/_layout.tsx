@@ -63,20 +63,20 @@ export default function TabLayout() {
         />
 
         <Tabs.Screen
-          name="tools"
+          name="leaderboard"
           options={{
-            title: 'Tools',
-            tabBarIcon: ({ color }) => <MaterialIcons name="web-stories" size={20} color={color} />,
+            title: 'Leaderboard',
+            tabBarIcon: ({ color }) => <MaterialIcons name="leaderboard" size={20} color={color} />,
             headerShown: false,
           }}
         />
 
         <Tabs.Screen
-          name="settings"
+          name="profile"
           options={{
-            title: 'Settings',
+            title: 'Account',
             headerShown: false,
-            tabBarIcon: ({ color }) => <MaterialCommunityIcons name="view-dashboard-outline" size={20} color={color} />,
+            tabBarIcon: ({ color }) => <FontAwesome5 name="user" size={20} color={color} />,
           }}
         />
       </Tabs>

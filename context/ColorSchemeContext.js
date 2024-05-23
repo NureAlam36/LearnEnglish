@@ -33,6 +33,8 @@ export const ColorSchemeProvider = ({ children }) => {
         mainBg: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkPrimary,
         bgPrimary: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary,
         bgSecondary: colorScheme === 'light' ? '#fff' : COLORS.darkSecondary,
+        bgGraySecondary: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkSecondary,
+
         text: colorScheme === 'light' ? '#fff' : '#000',
         textPrimary: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
         textSecondary: colorScheme === 'light' ? COLORS.gray : COLORS.lightWhite,

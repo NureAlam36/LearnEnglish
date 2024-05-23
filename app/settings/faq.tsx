@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 
 import { COLORS, FONT } from "@/constants";
 
-import CustomHeader from '@/components/Headers/ContentHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
@@ -40,7 +40,7 @@ const FAQ = () => {
 
     return (
         <React.Fragment>
-            <CustomHeader title="FAQ" />
+            <ContentHeader title="FAQ" />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === "light" ? "#fff" : COLORS.darkPrimary, paddingHorizontal: 15 }}>
                 <ScrollView showsVerticalScrollIndicator={false}>

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 import { COLORS, FONT } from "@/constants";
 
-import CustomHeader from '@/components/Headers/ContentHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
 
     return (
         <React.Fragment>
-            <CustomHeader title="Terms of Service" />
+            <ContentHeader title="Terms of Service" />
 
             <View style={{ flex: 1, backgroundColor: colorScheme === "light" ? "#fff" : COLORS.darkPrimary, paddingHorizontal: 15 }}>
                 <ScrollView showsVerticalScrollIndicator={false}>

@@ -4,7 +4,7 @@ import { View, Text, FlatList } from 'react-native'
 import { COLORS, FONT } from "@/constants";
 
 import MCQComponent from '@/components/MCQComponent'
-import CustomHeader from '@/components/Headers/ContentHeader'
+import ContentHeader from '@/components/Headers/ContentHeader'
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 const DATA = [{
@@ -159,7 +159,7 @@ const Search = ({ route }: any) => {
 
     return (
         <React.Fragment>
-            <CustomHeader title="Search" />
+            <ContentHeader title="Search" />
 
             <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 <View style={{}}>

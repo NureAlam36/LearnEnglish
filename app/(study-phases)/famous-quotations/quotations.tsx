@@ -32,7 +32,7 @@ const Quotations = () => {
         const fullText = `"${englishQuote}"\n"${banglaQuote}"\n– ${author}`;
         Clipboard.setString(fullText);
         // Optionally, you can provide some feedback to the user that the text has been copied
-        alert('Quote copied to clipboard!');
+        // alert('Quote copied to clipboard!');
     };
 
     return (

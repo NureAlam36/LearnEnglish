@@ -16,8 +16,8 @@ import { TransitionPresets, createStackNavigator } from '@react-navigation/stack
 // Create a stack navigator
 const Stack = createStackNavigator();
 
-import Translator from "@/app/(tools)/translator"
-import TextToSpeech from "@/app/(tools)/text-to-speech"
+import Translator from "@/app/tools/translator"
+import TextToSpeech from "@/app/tools/text-to-speech"
 
 import ContentHeader from "@/components/Headers/ContentHeader";
 

@@ -23,6 +23,12 @@ const DATA = [
     screen: "pdf_library_screen",
     image: require("@/assets/images/books-blue.png"),
   },
+  {
+    id: 3,
+    title: "Tools",
+    screen: "tools_screen",
+    image: require("@/assets/images/tools.png"),
+  },
 ];
 
 const DailyUpdates = ({ navigation }) => {

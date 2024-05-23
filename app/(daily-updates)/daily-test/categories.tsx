@@ -125,7 +125,7 @@ const Categories = ({ route, navigation }: any) => {
                                         borderTopEndRadius: 50, alignItems: 'center', height: 20,
                                         justifyContent: 'center',
                                     }}>
-                                        <Text style={{ fontFamily: FONT.medium, color: COLORS.white, fontSize: 11, marginTop: -2 }}>Day</Text>
+                                        <Text style={{ fontFamily: FONT.medium, color: COLORS.white, fontSize: 11, marginTop: -2 }}>Unit</Text>
                                     </View>
                                 </View>
                                 <Text style={[styles.text, { color: theme.textSecondary }]}>{item.id}</Text>

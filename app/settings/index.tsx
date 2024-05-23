@@ -8,13 +8,13 @@ import { useColorSchemeContext } from '@/context/ColorSchemeContext';
 
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 
-import FAQ from '@/app/(settings)/faq';
-import PrivecyPolicy from '@/app/(settings)/privacy-policy';
-import AboutUs from '@/app/(settings)/about-us';
-import ContactUs from '@/app/(settings)/contact-us';
-import TermsAndConditions from '../(settings)/terms-and-conditions';
+import FAQ from '@/app/settings/faq';
+import PrivecyPolicy from '@/app/settings/privacy-policy';
+import AboutUs from '@/app/settings/about-us';
+import ContactUs from '@/app/settings/contact-us';
+import TermsAndConditions from './terms-and-conditions';
 
-import CustomHeader from '@/components/Headers/ContentHeader';
+import ContentHeader from '@/components/Headers/ContentHeader';
 
 const Stack = createStackNavigator();
 
@@ -104,7 +104,7 @@ const SettingsScreen = ({ navigation }: any) => {
 
   return (
     <React.Fragment>
-      <CustomHeader title="Settings" />
+      <ContentHeader title="Settings" />
 
       <View style={[styles.container, { backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }]}>
         {/* <Text style={{ fontFamily: FONT.bold, fontSize: 24, marginBottom: 30 }}>Settings</Text> */}

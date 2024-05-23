@@ -9,6 +9,7 @@ import { Table, Row } from 'react-native-table-component';
 import PreLoader from '@/components/PreLoader';
 import Divider from '@/components/Divider';
 
+// https://www.vedantu.com/content-files-downloadable/cbse/class-7-english-grammar-ncert-solutions-narration.pdf
 
 const Narration = () => {
     const [loading, setLoading] = useState(true);
@@ -74,8 +75,8 @@ const Narration = () => {
                 </View>
 
                 <View style={{ display: 'flex', gap: 10, marginTop: 10 }}>
-                    <Text style={styles.text}>For example, Ram said to me,” he wants to eat pizza”.</Text>
-                    <Text style={styles.text}>Here in the sentence, Ram said to me is the reporting verb,</Text>
+                    <Text style={styles.text}>For example, Rahim said to me,” he wants to eat pizza”.</Text>
+                    <Text style={styles.text}>Here in the sentence, Rahim said to me is the reporting verb,</Text>
                     <Text style={styles.text}>And the sentence in inverted commas “he wants to eat pizza” is the reported
                         speech. The reported verb refers to the simple sentence at the starting of the
                         sentence and reported speech refers to the sentence in inverted commas that
@@ -107,7 +108,7 @@ const Narration = () => {
                 <Text style={styles.text}>The part of the sentence which is under inverted commas is called reporting speech.</Text>
                 <Text style={[styles.text, { marginTop: 10 }]}>The second part of the sentence refers to some other person, universal facts, imaginary parts, historical facts, happening events, etc.</Text>
 
-                <Text style={[styles.text, { marginTop: 10 }]}>For example, Hari said to ram” the sun rises from the east”</Text>
+                <Text style={[styles.text, { marginTop: 10 }]}>For example, Sobuj said to rahim” the sun rises from the east”</Text>
 
                 <Text style={[styles.text, { marginTop: 10 }]}>Here, in the sentence “ sun rises from the east” is the reported speech.</Text>
 
@@ -122,8 +123,8 @@ const Narration = () => {
 
                 <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Direct speech</Text>
                 <Text style={styles.text}>It refers to reporting the exact words spoken by the speaker. There is no change in the verb or the sentence.</Text>
-                <Text style={[styles.text, { marginTop: 10 }]}>For example, Ram said to Riya, “go to school”</Text>
-                <Text style={[styles.text, { marginTop: 10 }]}>Priya asked Ram, “where is her bag”?</Text>
+                <Text style={[styles.text, { marginTop: 10 }]}>For example, Rahim said to Riya, “go to school”</Text>
+                <Text style={[styles.text, { marginTop: 10 }]}>Priya asked Rahim, “where is her bag”?</Text>
                 <Text style={[styles.text, { marginTop: 10 }]}>Ratan enquired Raman,” why was he not picking up her call”?</Text>
 
                 <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>Rules of Direct Speech</Text>
@@ -138,8 +139,8 @@ const Narration = () => {
 
                 <Text style={[styles.heading_xl, { marginBottom: 10 }]}>Indirect speech</Text>
                 <Text style={styles.text}>It is the speech that tells what someone has said but it does not explain the actual words spoken by the person. It just conveys the basic narration of what is being said.</Text>
-                <Text style={[styles.text, { marginTop: 10 }]}>For example, Ram asked Riya to go to school.</Text>
-                <Text style={[styles.text, { marginTop: 10 }]}>Priya asked Ram where was her bag.</Text>
+                <Text style={[styles.text, { marginTop: 10 }]}>For example, Rahim asked Riya to go to school.</Text>
+                <Text style={[styles.text, { marginTop: 10 }]}>Priya asked Rahim where was her bag.</Text>
                 <Text style={[styles.text, { marginTop: 10 }]}>Ratan enquired Raman why was he not picking up her call.</Text>
 
                 <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>Rules of Indirect Speech</Text>
@@ -179,21 +180,21 @@ const Narration = () => {
                 <Text style={[styles.heading_xl, { marginBottom: 15 }]}>Practice Questions:</Text>
                 <Text style={styles.heading_md}>Rewrite the following sentence converting from direct speech to indirect speech.</Text>
 
-                <View style={{ display: 'flex', gap: 5, marginTop: 10 }}>
+                <View style={{ display: 'flex', gap: 10, marginTop: 10 }}>
                     <Text style={styles.text}>1. He said to me, “What is your father’s name?”</Text>
                     <Text style={styles.text}>2. Riya said to the shopkeeper, “ What is the price of the item?”</Text>
-                    <Text style={styles.text}>3. Ram said, “How is the weather?”</Text>
+                    <Text style={styles.text}>3. Rahim said, “How is the weather?”</Text>
                     <Text style={styles.text}>4. Commander said to militarians, “practice well”.</Text>
                     <Text style={styles.text}>5. Honey told her mother, “I am not feeling well”.</Text>
                     <Text style={styles.text}>6. The Doctor said, “Health is wealth”.</Text>
                     <Text style={styles.text}>7. Traffic police said, “Don't rush”.</Text>
                 </View>
 
-                <Text style={[styles.heading_lg, { marginTop: 20, marginBottom: 5 }]}>Practice Question</Text>
-                <View style={{ display: 'flex', gap: 5, marginTop: 10 }}>
+                <Text style={[styles.heading_lg, { marginTop: 30, marginBottom: 5 }]}>Answers:</Text>
+                <View style={{ display: 'flex', gap: 10, marginTop: 10 }}>
                     <Text style={styles.text}>1. He asked me my father’s name.</Text>
                     <Text style={styles.text}>2. Riya asked the shopkeeper about the price of the items.</Text>
-                    <Text style={styles.text}>3. Ram enquired about the weather</Text>
+                    <Text style={styles.text}>3. Rahim enquired about the weather</Text>
                     <Text style={styles.text}>4. Commander ordered militarians to practice well.</Text>
                     <Text style={styles.text}>5. Honey told to mother that he was not feeling well.</Text>
                     <Text style={styles.text}>6. The Doctor told that health is wealth.</Text>

@@ -2,18 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, FlatList, StyleSheet, Alert } from 'react-native';
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
-import { Audio } from 'expo-av';
 import ProgressCircle from 'react-native-progress-circle'
 //@ts-ignore
 import { RadioButtonGroup, RadioButtonItem } from 'expo-radio-button';
-
-import { Link } from 'expo-router';
-
-
-import Feather from '@expo/vector-icons/Feather';
-import Fontisto from '@expo/vector-icons/Fontisto';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
-import AntDesign from '@expo/vector-icons/AntDesign';
 
 
 import ContentHeader from '@/components/Headers/ContentHeader';
@@ -26,7 +17,7 @@ import ProfessionalLevelData from '@/data/daily-test/professional.json';
 import MasterLevelData from '@/data/daily-test/master.json';
 
 const TestPage = ({ route, navigation }: any) => {
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const { level, day } = route.params || {};
 
     const [questions, setQuestions] = useState<any>([]);
@@ -44,28 +35,30 @@ const TestPage = ({ route, navigation }: any) => {
 
     useEffect(() => {
         const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
-            e.preventDefault();
+            if (!isCompleted) {
+                e.preventDefault();
 
-            Alert.alert(
-                'Confirm',
-                'Are you sure you want to leave this screen?',
-                [
-                    {
-                        text: 'Cancel',
-                        onPress: () => null,
-                        style: 'cancel',
-                    },
-                    {
-                        text: 'OK',
-                        onPress: () => navigation.dispatch(e.data.action),
-                    },
-                ],
-                { cancelable: false }
-            );
+                Alert.alert(
+                    'Confirm',
+                    'Are you sure you want to leave this screen?',
+                    [
+                        {
+                            text: 'Cancel',
+                            onPress: () => null,
+                            style: 'cancel',
+                        },
+                        {
+                            text: 'OK',
+                            onPress: () => navigation.dispatch(e.data.action),
+                        },
+                    ],
+                    { cancelable: false }
+                );
+            }
         });
 
         return unsubscribe;
-    }, [navigation]);
+    }, [navigation, isCompleted]);
 
     useEffect(() => {
         switch (level) {
@@ -190,7 +183,7 @@ const TestPage = ({ route, navigation }: any) => {
         <React.Fragment>
             <ContentHeader title="" />
 
-            <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
+            <View style={{ flex: 1, backgroundColor: theme.mainBg }}>
                 {
                     !isCompleted && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
                         <View style={{}}>
@@ -204,9 +197,9 @@ const TestPage = ({ route, navigation }: any) => {
                     </View>
                 }
 
-                <View style={{ padding: 15, marginTop: 20 }}>
+                <View style={{}}>
                     {
-                        !isCompleted ? <View>
+                        !isCompleted ? <View style={{ padding: 20 }}>
                             <Text style={[styles.questionText, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>
                                 {questions[currentIndex]?.question}
                             </Text>
@@ -214,91 +207,99 @@ const TestPage = ({ route, navigation }: any) => {
                             <FlatList
                                 data={questions[currentIndex]?.options}
                                 renderItem={({ item }) => (
-                                    <RadioButtonGroup
-                                        selected={selectedValue}
-                                        radioBackground={COLORS.primary}
-                                        onSelected={(value: any) => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
-                                        containerStyle={styles.optionButton}
-
-                                    >
-                                        <RadioButtonItem
-                                            key={currentIndex}
-                                            value={item}
-                                            label={
-                                                <Text style={styles.optionText}>{item}</Text>
-                                            }
-                                        />
-                                    </RadioButtonGroup>
+                                    <View style={{
+                                        borderRadius: 10,
+                                        borderWidth: colorScheme === 'light' ? 1 : selectedValue === item ? 1 : 0,
+                                        borderColor: selectedValue === item ? theme.borderColor : '#dddddd',
+                                        backgroundColor: colorScheme === 'light' ? '#fff' : theme.bgSecondary
+                                    }}>
+                                        <RadioButtonGroup
+                                            selected={selectedValue}
+                                            radioBackground={COLORS.primary}
+                                            onSelected={(value: any) => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
+                                            containerStyle={styles.optionButton}
+                                        >
+                                            <RadioButtonItem
+                                                key={currentIndex}
+                                                value={item}
+                                                label={
+                                                    <Text style={{ color: theme.textSecondary, marginLeft: 10 }}>{item}</Text>
+                                                }
+                                            />
+                                        </RadioButtonGroup>
+                                    </View>
                                 )}
                                 keyExtractor={(item, index) => index.toString()}
+                                contentContainerStyle={{ gap: 10 }}
                             />
 
                             {
                                 !isCompleted && <TouchableOpacity activeOpacity={0.7}
-                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 30, opacity: !optionsDisabled ? 0.7 : 1 }]}
+                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 30, opacity: !selectedValue ? 0.7 : 1 }]}
                                     onPress={handleNextQuestion}
                                     disabled={!selectedValue}
                                 >
-                                    <Text style={styles.nextButtonText}>Next</Text>
+                                    <Text style={styles.nextButtonText}>Nextt</Text>
                                 </TouchableOpacity>
                             }
                         </View>
-                            : !showResults ? <View>
+                            : !showResults ? <View style={{ padding: 30 }}>
                                 <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: COLORS.gray }}>Your Score</Text>
-                                <View style={{ display: 'flex', alignItems: 'center', marginTop: 30 }}>
-                                    <ProgressCircle
-                                        percent={calCulatePercentage()}
-                                        radius={50}
-                                        borderWidth={8}
-                                        color={
-                                            calCulatePercentage() >= 75 ? '#00c47d' :
-                                                calCulatePercentage() >= 50 ? '#3399ff' :
-                                                    calCulatePercentage() >= 25 ? '#ff9f1e' :
-                                                        '#ff0000'
-                                        }
-                                        shadowColor="#999"
-                                        bgColor="#fff"
-                                    >
-                                        <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
-                                    </ProgressCircle>
-                                </View>
-                                <View style={{ display: 'flex', alignItems: 'center', alignSelf: 'center', gap: 10, marginTop: 20 }}>
-                                    {
-                                        questions.length - (totalCorrectAnswers + totalWrongAnswers) > 0 && <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                            <AntDesign name="export" size={24} color="#5495fb" />
-                                            <Text style={{ color: '#5495fb', fontFamily: FONT.medium, fontSize: 15 }}>Not answered: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
-                                        </View>
-                                    }
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Feather name="check-circle" size={24} color="#00c47d" />
-                                        <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+
+                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 40, backgroundColor: theme.bgSecondary, marginTop: 30, paddingHorizontal: 10, paddingVertical: 20, borderRadius: 10 }}>
+                                    <View style={{ display: 'flex', alignItems: 'center' }}>
+                                        <ProgressCircle
+                                            percent={calCulatePercentage()}
+                                            radius={50}
+                                            borderWidth={8}
+                                            color={
+                                                calCulatePercentage() >= 75 ? '#00c47d' :
+                                                    calCulatePercentage() >= 50 ? '#3399ff' :
+                                                        calCulatePercentage() >= 25 ? '#ff9f1e' :
+                                                            '#ff0000'
+                                            }
+                                            shadowColor="#999"
+                                            bgColor="#fff"
+                                        >
+                                            <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
+                                        </ProgressCircle>
                                     </View>
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Fontisto name="close" size={24} color="#f37375" />
-                                        <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+                                    <View style={{ display: 'flex', gap: 8 }}>
+                                        {
+                                            questions.length - (totalCorrectAnswers + totalWrongAnswers) > 0 && <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                                {/* <AntDesign name="export" size={24} color="#5495fb" /> */}
+                                                <Text style={{ color: '#5495fb', fontFamily: FONT.medium, fontSize: 15 }}>Skipped: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
+                                            </View>
+                                        }
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Feather name="check-circle" size={24} color="#00c47d" /> */}
+                                            <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                                        </View>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Fontisto name="close" size={24} color="#f37375" /> */}
+                                            <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+                                        </View>
                                     </View>
                                 </View>
 
-                                <View style={{ display: 'flex', flexDirection: 'column', gap: 20, alignSelf: 'center', marginTop: 50 }}>
+                                <View style={{ display: 'flex', flexDirection: 'column', gap: 10, alignSelf: 'center', marginTop: 50 }}>
                                     <View style={{ display: 'flex', flexDirection: 'row', gap: 20, alignSelf: 'center' }}>
-                                        <TouchableOpacity onPress={() => navigation.navigate('Categories_screen', { level: level })} activeOpacity={0.7} style={[styles.nextButton, { backgroundColor: '#00c47d', paddingHorizontal: 20 }]}>
-                                            <Text style={styles.nextButtonText}>More Excercises</Text>
+                                        <TouchableOpacity onPress={() => navigation.navigate('Categories_screen', { level: level })} activeOpacity={0.7} style={[styles.nextButton, { flex: 1, backgroundColor: '#00c47d', paddingHorizontal: 20 }]}>
+                                            <Text style={styles.nextButtonText}>More</Text>
                                         </TouchableOpacity>
                                         <TouchableOpacity activeOpacity={0.7}
-                                            style={[styles.nextButton, { backgroundColor: '#5495fb', paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 10, }]}
+                                            style={[styles.nextButton, { backgroundColor: '#5495fb', paddingHorizontal: 20, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, flex: 1 }]}
                                             onPress={ReTest}
                                         >
 
-                                            <MaterialCommunityIcons name="book-play-outline" size={24} color="white" />
+                                            {/* <MaterialCommunityIcons name="book-play-outline" size={24} color="white" /> */}
                                             <Text style={styles.nextButtonText}>Re-Test</Text>
                                         </TouchableOpacity>
                                     </View>
                                     <TouchableOpacity activeOpacity={0.7}
-                                        style={[styles.nextButton, { backgroundColor: '#fff', borderWidth: 2, borderColor: '#00c47d', paddingHorizontal: 20, display: 'flex' }]}
+                                        style={[styles.nextButton, { backgroundColor: '#fff', borderWidth: 1, borderColor: '#00c47d', paddingHorizontal: 20, display: 'flex', alignItems: 'center', justifyContent: 'center' }]}
                                         onPress={() => setShowResults(true)}
                                     >
-
-                                        {/* <MaterialCommunityIcons name="book-play-outline" size={24} color="white" /> */}
                                         <Text style={[styles.nextButtonText, { textAlign: 'center', color: COLORS.gray }]}>Review Test</Text>
                                     </TouchableOpacity>
                                 </View>
@@ -306,34 +307,46 @@ const TestPage = ({ route, navigation }: any) => {
                             </View>
                                 : <FlatList
                                     data={questions}
-                                    renderItem={({ item }) => (
+                                    renderItem={({ item, index }) => (
                                         <TouchableOpacity
                                             activeOpacity={0.7}
-                                        // onPress={() => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
+                                            key={index}
+                                            // onPress={() => handleOptionSelect(questions[currentIndex]?.id, item, questions[currentIndex]?.answer)}
+                                            style={{ backgroundColor: colorScheme === 'light' ? '#fff' : theme.bgSecondary, padding: 15, borderRadius: 15 }}
                                         >
                                             <Text style={[styles.questionText, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>
-                                                {item.question}
+                                                {index + 1}. {item.question}
                                             </Text>
-                                            {item.options.map((option: any, optionIndex: any) => (
-                                                <TouchableOpacity activeOpacity={0.7}
-                                                    style={[
-                                                        styles.optionButton,
-                                                        {
-                                                            display: 'flex',
-                                                            flexDirection: 'row',
-                                                        },
-                                                        getSelectedOption(item.id) !== undefined && (
-                                                            getSelectedOption(item.id) === item.answer && option === item.answer ? styles.correctOption : getSelectedOption(item.id) === option ? styles.incorrectOption : option === item.answer ? styles.correctOption : {}
-                                                        )
+                                            <View style={{ display: 'flex', gap: 10 }}>
+                                                {item.options.map((option: any, optionIndex: any) => (
+                                                    <TouchableOpacity activeOpacity={0.7} key={optionIndex}
+                                                        style={[
+                                                            styles.optionButton,
+                                                            {
+                                                                display: 'flex',
+                                                                flexDirection: 'row',
+                                                                // borderWidth: 1,
+                                                                // borderColor: theme.borderColor,
+                                                                backgroundColor: colorScheme === 'light' ? '#f2f2f2' : '',
 
-                                                    ]}>
-                                                    <Text style={styles.optionText}>{option}</Text>
-                                                </TouchableOpacity>
-                                            ))}
-                                            {/*  */}
+                                                                borderWidth: colorScheme === 'light' ? 1 : selectedValue === item ? 1 : 0,
+                                                                borderColor: selectedValue === item ? theme.borderColor : '#dddddd',
+                                                                // backgroundColor: colorScheme === 'light' ? '#fff' : theme.bgSecondary
+                                                            },
+                                                            getSelectedOption(item.id) !== undefined && (
+                                                                getSelectedOption(item.id) === item.answer && option === item.answer ? styles.correctOption : getSelectedOption(item.id) === option ? styles.incorrectOption : option === item.answer ? styles.correctOption : {}
+                                                            )
+
+                                                        ]}>
+                                                        <Text style={[styles.optionText, { color: theme.textSecondary }]}>{ }{option}</Text>
+                                                    </TouchableOpacity>
+                                                ))}
+                                            </View>
                                         </TouchableOpacity>
                                     )}
                                     keyExtractor={(item, index) => index.toString()}
+                                    contentContainerStyle={{ gap: 15, padding: 10 }}
+                                    showsVerticalScrollIndicator={false}
                                 />
                     }
 
@@ -377,8 +390,6 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 15,
         borderRadius: 10,
-        marginBottom: 10,
-        backgroundColor: '#f2f2f2',
     },
     optionText: {
         fontSize: 16,
