@@ -41,6 +41,7 @@ export const ColorSchemeProvider = ({ children }) => {
         headingPrimary: colorScheme === 'light' ? COLORS.black : COLORS.lightText,
         headingSecondary: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
         borderColor: colorScheme === 'light' ? '#ace8d9bd' : '#ace8d93b',
+        borderPrimary: colorScheme === 'light' ? '#ebebeb' : '#ace8d93b',
         // ace8d9
     }
 

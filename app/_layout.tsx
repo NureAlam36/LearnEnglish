@@ -8,6 +8,10 @@ import { useEffect } from 'react';
 import { useColorScheme } from '@/components/useColorScheme';
 import { ColorSchemeProvider } from '@/context/ColorSchemeContext';
 import { CountryProvider } from '@/context/CountryContext';
+import { AuthProvider } from '@/context/AuthContext';
+import { NetworkProvider } from '@/context/NetworkContext';
+import { ToastProvider } from 'react-native-toast-notifications';
+import { UserProvider } from '@/context/UserContext';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -53,13 +57,21 @@ function RootLayoutNav() {
   // console.log(colorScheme);
 
   return (
-    <CountryProvider>
-      <ColorSchemeProvider>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-        </Stack>
-      </ColorSchemeProvider>
-    </CountryProvider>
+    <NetworkProvider>
+      <CountryProvider>
+        <ColorSchemeProvider>
+          <AuthProvider>
+            <ToastProvider>
+              <UserProvider>
+                <Stack>
+                  <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+                  <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+                </Stack>
+              </UserProvider>
+            </ToastProvider>
+          </AuthProvider>
+        </ColorSchemeProvider>
+      </CountryProvider>
+    </NetworkProvider>
   );
 }

@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
         backgroundColor: COLORS.primary,
         borderRadius: 10,
         textAlign: 'center',
-        textAlignVertical: 'center',
+        verticalAlign: 'center',
         color: '#fff',
         fontFamily: FONT.medium,
     },

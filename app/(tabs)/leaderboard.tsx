@@ -1,4 +1,3 @@
-import React from "react";
 import {
     View,
     Text,
@@ -7,14 +6,30 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from "react-native";
+import React from "react";
 import { COLORS, FONT } from "../../constants";
 import { LinearGradient } from "expo-linear-gradient";
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
-import ContentHeader from "@/components/Headers/ContentHeader";
+import { useNetwork } from "@/context/NetworkContext";
+
+import NoInternetScreen from "@/app/screens/no-internet";
+import { useAuth } from "@/context/AuthContext";
+
 import CustomHeader from "@/components/Headers/CustomHeader";
+import LoginSignUpScreen from '@/app/screens/login'
 
 const Leaderboard = ({ navigation }: any) => {
     const { colorScheme, theme } = useColorSchemeContext();
+    const { isAuthenticated } = useAuth();
+    const { isConnected } = useNetwork();
+
+    if (!isConnected) {
+        return <NoInternetScreen />
+    }
+
+    if (!isAuthenticated) {
+        return <LoginSignUpScreen />
+    }
 
     const users = [
         { id: '1', name: 'Alice', score: 100 },

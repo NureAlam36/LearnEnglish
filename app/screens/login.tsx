@@ -16,6 +16,8 @@ const Stack = createStackNavigator();
 const initialLayout = { width: Dimensions.get('window').width };
 
 import Login from '@/app/profile/login'
+import Verify from '@/app/profile/verify';
+import { useAuth } from '@/context/AuthContext';
 
 const Index = () => {
     return (
@@ -27,12 +29,14 @@ const Index = () => {
 
             <Stack.Screen name="login_modal_screen" component={LoginSignUpScreen} options={{ headerShown: false }} />
             <Stack.Screen name="login_screen" component={Login} />
+            <Stack.Screen name="verify_screen" component={Verify} options={{ headerShown: false }} />
         </Stack.Navigator>
     );
 }
 
 const LoginSignUpScreen = ({ navigation }: any) => {
     const { colorScheme, theme } = useColorSchemeContext();
+    const { isAuthenticated, isVerified } = useAuth();
 
     return (
         <React.Fragment>
@@ -44,7 +48,7 @@ const LoginSignUpScreen = ({ navigation }: any) => {
                     <Image source={{ uri: 'https://cdni.iconscout.com/illustration/premium/thumb/create-account-6333606-5230166.png?f=webp' }} style={{ width: 250, height: 250, alignSelf: 'center' }} />
                 </View> */}
                 <LinearGradient
-                    colors={[COLORS.primary, '#009efd']}
+                    colors={[COLORS.bgPrimary, COLORS.bgSecondary]}
                     start={{ x: 0, y: 0 }}
                     end={{ x: 1, y: 1 }}
                     style={{ padding: 5, flex: 1 }}
@@ -93,11 +97,11 @@ const LoginSignUpScreen = ({ navigation }: any) => {
 
                         <View style={styles.socialButtons}>
                             <TouchableOpacity activeOpacity={0.8} style={[styles.socialButton, styles.googleButton, { backgroundColor: theme.bgGraySecondary }]}>
-                                <FontAwesome5 name="google" size={24} color="#db4437" />
+                                <FontAwesome5 name="google" size={20} color="#db4437" />
                                 <Text style={[styles.socialButtonText, { color: theme.textSecondary }]}>Google</Text>
                             </TouchableOpacity>
                             <TouchableOpacity activeOpacity={0.8} style={[styles.socialButton, styles.facebookButton, { backgroundColor: theme.bgGraySecondary }]}>
-                                <FontAwesome6 name="facebook-f" size={24} color="#3b5998" />
+                                <FontAwesome6 name="facebook-f" size={20} color="#3b5998" />
                                 <Text style={[styles.socialButtonText, { color: theme.textSecondary }]}>Facebook</Text>
                             </TouchableOpacity>
                         </View>
@@ -163,7 +167,7 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         alignItems: 'center',
         flexDirection: 'row',
-        gap: 15,
+        gap: 10,
         justifyContent: 'center'
     },
     googleButton: {

@@ -38,10 +38,12 @@ const StackNavigator = () => {
 }
 
 const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#ededed' }) => {
+  const { colorScheme, theme } = useColorSchemeContext();
+
   return (
     <View style={{
       height: 1,
-      backgroundColor: borderColor,
+      backgroundColor: colorScheme === 'light' ? '#ebebeb' : borderColor,
       alignSelf: 'stretch',
       marginTop: marginTop,
       marginBottom: marginBottom,
@@ -79,7 +81,7 @@ const SettingsScreen = ({ navigation }: any) => {
       color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText
     },
     sectionWrap: {
-      backgroundColor: colorScheme === 'light' ? '#f2f2f2' : COLORS.darkSecondary
+      backgroundColor: colorScheme === 'light' ? '#f9f9f9' : COLORS.darkSecondary
     },
     row: {
       flexDirection: 'row',
@@ -112,7 +114,7 @@ const SettingsScreen = ({ navigation }: any) => {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>General</Text>
 
-          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10 }]}>
+          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, borderRadius: 10 }]}>
             <View style={[styles.item, { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }]}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <MaterialIcons name="dark-mode" size={24} style={styles.itemIcon} />
@@ -132,7 +134,7 @@ const SettingsScreen = ({ navigation }: any) => {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Pages</Text>
-          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10 }]}>
+          <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, borderRadius: 10 }]}>
             <TouchableOpacity onPress={() => navigation.navigate('privacy_policy_screen')} activeOpacity={0.7} style={styles.item}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <MaterialIcons name="privacy-tip" size={24} style={styles.itemIcon} />
@@ -158,7 +160,7 @@ const SettingsScreen = ({ navigation }: any) => {
 
         <View style={styles.section}>
           <TouchableOpacity>
-            <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: theme.borderColor, borderRadius: 10, padding: 15 }]}>
+            <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, borderRadius: 10, padding: 15 }]}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <Entypo name="google-play" size={24} style={styles.itemIcon} />
                 <View>

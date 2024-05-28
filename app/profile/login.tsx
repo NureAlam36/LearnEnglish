@@ -1,69 +1,150 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Dimensions, Platform, StatusBar, Image } from 'react-native';
+import axios from 'axios';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
 import { COLORS, FONT } from "@/constants";
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
-import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
-import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+import { useAuth } from '@/context/AuthContext';
+import { useUser } from '@/context/UserContext';
 import ContentHeader from '@/components/Headers/ContentHeader';
+import { ToastProvider, useToast } from 'react-native-toast-notifications';
+import { useNavigation } from '@react-navigation/native';
 
 const initialLayout = { width: Dimensions.get('window').width };
 
-const LoginForm = ({ theme }: any) => (
-    <View style={styles.formContainer}>
+const LoginForm = ({ theme }: any) => {
+    const navigation = useNavigation() as any;
+    const toast = useToast();
+    const { isAuthenticated, setIsAuthenticated, setUserToken } = useAuth();
+    const { updateUserData } = useUser();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleLogin = async () => {
+        // setIsAuthenticated(true);
+
+        try {
+            const response = await axios.post('http://192.168.0.117/web/english_go_pro/login.php', {
+                type: 'core',
+                email: email,
+                password: password,
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            });
+
+            // console.log(response.data);
+
+            if (response.data.status === 'success') {
+                setIsAuthenticated(true);
+                setUserToken(response.data.token);
+                updateUserData(response.data.user_data);
+
+                navigation.navigate('profile_screen');
+            } else {
+                toast.show(response.data.message, {
+                    type: 'danger',
+                    placement: 'bottom',
+                });
+            }
+        } catch (error) {
+            console.error('Error submitting data:', error);
+        }
+    }
+
+    return <View style={styles.formContainer}>
         <Image source={{ uri: 'https://cdni.iconscout.com/illustration/premium/thumb/login-page-4468581-3783954.png?f=webp' }} style={{ width: 250, height: 250, alignSelf: 'center' }} />
 
         <TextInput
-            style={[styles.input, { borderColor: theme.borderColor }]}
+            style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
             placeholder="Email"
             keyboardType="email-address"
             placeholderTextColor={theme.textSecondary}
+            onChangeText={(text) => setEmail(text)}
         />
         <TextInput
-            style={[styles.input, { borderColor: theme.borderColor }]}
+            style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
             placeholder="Password"
             placeholderTextColor={theme.textSecondary}
+            onChangeText={(text) => setPassword(text)}
             secureTextEntry
         />
         <TouchableOpacity style={styles.forgotPassword}>
             <Text style={styles.forgotPasswordText}>Forgot your password?</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.loginButton}>
+        <TouchableOpacity style={styles.loginButton} activeOpacity={0.8} onPress={() => handleLogin()}>
             <Text style={styles.loginButtonText}>Login</Text>
         </TouchableOpacity>
     </View>
-);
+};
 
-const SignUpForm = ({ theme }: any) => (
-    <View style={styles.formContainer}>
+const SignUpForm = ({ theme }: any) => {
+    const navigation = useNavigation() as any;
+    const toast = useToast();
+    const { setIsAuthenticated, setUserToken } = useAuth();
+    const { updateUserData } = useUser();
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleRequestOTP = async () => {
+        try {
+            const response = await axios.post('http://192.168.0.117/web/english_go_pro/register.php', {
+                action: 'request_otp', email
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            });
+
+            // console.log(response.data);
+
+            if (response.data.status === 'success') {
+                navigation.navigate('verify_screen', { name, email, password, otp: response.data.otp });
+            } else {
+                toast.show(response.data.message, {
+                    type: 'danger',
+                    placement: 'bottom',
+                });
+            }
+        } catch (error) {
+            console.error('Error submitting data:', error);
+        }
+    }
+
+    return <View style={styles.formContainer}>
         <Image source={{ uri: 'https://cdni.iconscout.com/illustration/premium/thumb/login-10299071-8333958.png?f=webp' }} style={{ width: 250, height: 250, alignSelf: 'center' }} />
 
         <TextInput
-            style={[styles.input, { borderColor: theme.borderColor }]}
+            style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
             placeholder="Name"
             placeholderTextColor={theme.textSecondary}
+            onChangeText={(text) => setName(text)}
         />
         <TextInput
-            style={[styles.input, { borderColor: theme.borderColor }]}
+            style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
             placeholder="Email"
             keyboardType="email-address"
             placeholderTextColor={theme.textSecondary}
+            onChangeText={(text) => setEmail(text)}
         />
         <TextInput
-            style={[styles.input, { borderColor: theme.borderColor }]}
+            style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
             placeholder="Password"
             placeholderTextColor={theme.textSecondary}
+            onChangeText={(text) => setPassword(text)}
             secureTextEntry
         />
 
-        <TouchableOpacity style={styles.signUpButton}>
+        <TouchableOpacity style={styles.signUpButton} activeOpacity={0.8} onPress={() => handleRequestOTP()}>
             <Text style={styles.signUpButtonText}>Sign Up</Text>
         </TouchableOpacity>
     </View>
-);
+}
 
-const LoginSignUpScreen = ({ route }) => {
+const LoginSignUpScreen = ({ route }: any) => {
     const { action } = route.params;
     const { colorScheme, theme } = useColorSchemeContext();
     const [index, setIndex] = useState(0);
@@ -88,9 +169,9 @@ const LoginSignUpScreen = ({ route }) => {
 
     return (
         <React.Fragment>
-            {/* <ContentHeader title="Profile" /> */}
+            <ContentHeader title="Login/Sign Up" />
 
-            <View style={[styles.container, { backgroundColor: theme.mainBg, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0 }]}>
+            <View style={[styles.container, { backgroundColor: theme.bgPrimary }]}>
                 <TabView
                     navigationState={{ index, routes }}
                     renderScene={renderScene}
@@ -126,7 +207,7 @@ const styles = StyleSheet.create({
         marginBottom: 12,
         paddingHorizontal: 15,
         borderRadius: 50,
-        color: COLORS.lightWhite
+        fontFamily: FONT.medium
     },
     forgotPassword: {
         alignItems: 'flex-end',
@@ -175,7 +256,7 @@ const styles = StyleSheet.create({
     },
     loginText: {
         color: '#1e90ff',
-    },
+    }
 });
 
 export default LoginSignUpScreen;

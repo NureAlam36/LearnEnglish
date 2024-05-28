@@ -82,7 +82,7 @@ const Index = () => {
                                 borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
                                 borderWidth: colorScheme === 'light' ? 1 : 0,
                                 color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
-                                textAlignVertical: 'top'
+                                verticalAlign: 'top'
                             }
                         ]}
                         multiline
@@ -111,7 +111,7 @@ const Index = () => {
                                 borderColor: colorScheme === 'light' ? COLORS.gray2 : 'transparent',
                                 borderWidth: colorScheme === 'light' ? 1 : 0,
                                 color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText,
-                                textAlignVertical: 'top'
+                                verticalAlign: 'top'
                             }
                         ]}
                         multiline

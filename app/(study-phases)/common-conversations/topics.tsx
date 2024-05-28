@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         textAlign: 'center',
-        textAlignVertical: 'center',
+        verticalAlign: 'center',
         fontSize: 16,
         fontFamily: FONT.medium,
         color: '#fff',
