@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Dimensions, Platform, StatusBar, Image } from 'react-native';
+import React, { useEffect, useState, useRef } from 'react';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Dimensions, Modal, Animated, Image, Button } from 'react-native';
 import axios from 'axios';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
 import { COLORS, FONT } from "@/constants";
@@ -9,8 +9,269 @@ import { useUser } from '@/context/UserContext';
 import ContentHeader from '@/components/Headers/ContentHeader';
 import { ToastProvider, useToast } from 'react-native-toast-notifications';
 import { useNavigation } from '@react-navigation/native';
+import Toast from './toast'
 
 const initialLayout = { width: Dimensions.get('window').width };
+
+const ForgotPasswordModal = ({ isVisible, onClose }: any) => {
+    const slideAnim = useRef(new Animated.Value(300)).current; // Initial position
+    const { colorScheme, theme } = useColorSchemeContext();
+    const [step, setStep] = useState(1);
+    const [email, setEmail] = useState('');
+    const [otp, setOtp] = useState('');
+    const [inputOTP, setInputOTP] = useState(['', '', '', '']);
+    const [isOtpVerified, setIsOtpVerified] = useState(false);
+
+    const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState('');
+
+    const [toastVisible, setToastVisible] = useState(false);
+    const [toastMessage, setToastMessage] = useState('');
+
+    const showToast = (message: string) => {
+        setToastMessage(message);
+        setToastVisible(true);
+        setTimeout(() => setToastVisible(false), 3000); // Hide toast after 3 seconds
+    };
+
+    useEffect(() => {
+        if (isVisible) {
+            Animated.timing(slideAnim, {
+                toValue: 0,
+                duration: 300,
+                useNativeDriver: true,
+            }).start();
+        } else {
+            Animated.timing(slideAnim, {
+                toValue: 300,
+                duration: 300,
+                useNativeDriver: true,
+            }).start();
+        }
+    }, [isVisible]);
+
+    const handleContinue = async () => {
+        try {
+            const response = await axios.post('http://192.168.0.117/web/english_go_pro/forget_password.php', {
+                action: 'otp_request', email
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            });
+
+            // console.log(response.data);
+
+            if (response.data.status === 'success') {
+                setOtp(response.data.otp);
+                setStep(2);
+            } else {
+                showToast(response.data.message);
+            }
+        } catch (error) {
+            console.error('Error submitting data:', error);
+        }
+    }
+
+    const handleInputOTP = (index: number, value: string) => {
+        const updatedCode = [...inputOTP];
+        updatedCode[index] = /^\d$/.test(value) ? value : '';
+        setInputOTP(updatedCode);
+    };
+
+    const handleVerifyOTP = async () => {
+        const otp_code = inputOTP.join('');
+
+        if (otp !== otp_code) {
+            showToast('Invalid OTP');
+            return;
+        }
+
+        try {
+            const response = await axios.post('http://192.168.0.117/web/english_go_pro/forget_password.php', {
+                action: 'verify_otp', email, otp: otp_code
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            });
+
+            // console.log(response.data);
+
+            if (response.data.status === 'success') {
+                setIsOtpVerified(true);
+                setStep(3);
+            } else {
+                showToast(response.data.message);
+            }
+        } catch (error) {
+            console.error('Error submitting data:', error);
+        }
+    }
+
+    const handleResetPassword = async () => {
+        if (!password) {
+            showToast('Please enter password');
+            return;
+        }
+
+        if (!confirmPassword) {
+            showToast('Please enter confirm password');
+            return;
+        }
+
+        if (password !== confirmPassword) {
+            showToast('Password does not match');
+            return;
+        }
+
+        try {
+            const response = await axios.post('http://192.168.0.117/web/english_go_pro/forget_password.php', {
+                action: 'reset_password', email, password, confirm_password: confirmPassword
+            }, {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                }
+            });
+
+            // console.log(response.data);
+
+            if (response.data.status === 'success') {
+                setStep(4);
+            } else {
+                showToast(response.data.message);
+            }
+        } catch (error) {
+            console.error('Error submitting data:', error);
+        }
+    }
+
+    return (
+        <Modal
+            transparent={true}
+            visible={isVisible}
+            animationType="none"
+        >
+            <View style={styles.modalOverlay}>
+                <TouchableOpacity style={styles.modalOverlay} onPress={onClose} />
+                <Animated.View style={[styles.modalContainer, { height: step === 1 ? 350 : step === 2 ? 350 : step === 3 ? 450 : 350, backgroundColor: theme.bgSecondary, transform: [{ translateY: slideAnim }] }]}>
+                    {
+                        step === 1 && <View style={{ flex: 1 }}>
+                            <View style={{ flex: 1 }}>
+                                <View style={styles.handleBar} />
+                                <Text style={[styles.headingText, { color: theme.headingPrimary }]}>Forgot password</Text>
+                                <Text style={[styles.description, { color: theme.textSecondary }]}>Enter your email for the verification process, we will send 4 digits code to your email.</Text>
+                                <Text style={[styles.label, { marginBottom: 8, color: theme.textSecondary }]}>Email</Text>
+                                <View style={styles.inputContainer}>
+                                    <TextInput
+                                        style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
+                                        placeholder="Enter your email"
+                                        keyboardType="email-address"
+                                        placeholderTextColor={theme.textSecondary}
+                                        onChangeText={(text) => setEmail(text)}
+                                    />
+                                    <TouchableOpacity style={styles.iconContainer}>
+                                        {/* Add your eye icon here */}
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
+                            <TouchableOpacity style={styles.button} onPress={() => handleContinue()}>
+                                <Text style={styles.buttonText}>Continue</Text>
+                            </TouchableOpacity>
+                        </View>
+                    }
+                    {
+                        step === 2 && <View style={{ flex: 1 }}>
+                            <View style={{ flex: 1 }}>
+                                <View style={styles.handleBar} />
+                                <Text style={[styles.headingText, { color: theme.headingPrimary }]}>Enter 4 Digits Code</Text>
+                                <Text style={[styles.description, { color: theme.textSecondary }]}>Enter the 4 digits code that you received on your email.</Text>
+                                <View style={[styles.codeContainer, { marginTop: 20, maxWidth: 250, alignSelf: 'center', gap: 10 }]}>
+                                    {Array.from({ length: 4 }).map((_, index) => (
+                                        <TextInput
+                                            key={index}
+                                            style={[styles.codeInput, { borderWidth: 1, borderColor: theme.borderPrimary }]}
+                                            keyboardType="number-pad"
+                                            maxLength={1}
+                                            value={inputOTP[index]}
+                                            onChangeText={(value) => handleInputOTP(index, value)}
+                                        />
+                                    ))}
+                                </View>
+                            </View>
+                            <View style={{}}>
+                                <TouchableOpacity style={styles.button} onPress={() => handleVerifyOTP()}>
+                                    <Text style={styles.buttonText}>Verify OTP</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                    }
+                    {
+                        step === 3 && <View style={{ flex: 1 }}>
+                            <View style={{ flex: 1 }}>
+                                <View style={styles.handleBar} />
+                                <Text style={[styles.headingText, { color: theme.headingPrimary }]}>Forgot password</Text>
+                                <Text style={[styles.description, { color: theme.textSecondary }]}>Enter your email for the verification process, we will send 4 digits code to your email.</Text>
+
+                                <Text style={[styles.label, { marginBottom: 5, color: theme.textSecondary }]}>Password</Text>
+                                <View style={styles.inputContainer}>
+                                    <TextInput
+                                        style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary, marginBottom: 0 }]}
+                                        placeholder=''
+                                        placeholderTextColor={theme.textSecondary}
+                                        secureTextEntry
+                                        onChangeText={(text) => setPassword(text)}
+                                    />
+                                    <TouchableOpacity style={styles.iconContainer}>
+                                        {/* Add your eye icon here */}
+                                    </TouchableOpacity>
+                                </View>
+
+                                <Text style={[styles.label, { marginBottom: 5, color: theme.textSecondary, marginTop: 0 }]}>Confirm password</Text>
+                                <View style={styles.inputContainer}>
+                                    <TextInput
+                                        style={[styles.input, { borderColor: theme.borderPrimary, color: theme.textSecondary }]}
+                                        placeholder=''
+                                        placeholderTextColor={theme.textSecondary}
+                                        secureTextEntry
+                                        onChangeText={(text) => setConfirmPassword(text)}
+                                    />
+                                    <TouchableOpacity style={styles.iconContainer}>
+                                        {/* Add your eye icon here */}
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
+                            <View style={{}}>
+                                <TouchableOpacity style={styles.button} onPress={() => handleResetPassword()}>
+                                    <Text style={styles.buttonText}>Reset Password</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                    }
+                    {
+                        step === 4 && <View style={{ flex: 1 }}>
+                            <View style={{ flex: 1 }}>
+                                <View style={styles.handleBar} />
+                                <View style={{ marginBottom: 30, marginTop: 30 }}>
+                                    <Image source={{ uri: 'https://miro.medium.com/v2/resize:fit:512/0*9ywnvEYNioUm3XSm.png' }} style={{ width: 80, height: 80, alignSelf: 'center' }} />
+                                </View>
+                                <Text style={[styles.headingText, { color: theme.headingPrimary, textAlign: 'center' }]}>Password Updated!</Text>
+                                <Text style={[styles.description, { color: theme.textSecondary, textAlign: 'center' }]}>Your password has been reset successfully. Use your new password to log in.</Text>
+                            </View>
+                            <View style={{}}>
+                                <TouchableOpacity style={styles.button} onPress={onClose}>
+                                    <Text style={styles.buttonText}>Login</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                    }
+                </Animated.View>
+                {/* <Button title="Show Toast" onPress={() => handleResponse({ data: { message: 'This is a toast message' } })} /> */}
+                <Toast message={toastMessage} visible={toastVisible} />
+            </View>
+        </Modal>
+    );
+};
 
 const LoginForm = ({ theme }: any) => {
     const navigation = useNavigation() as any;
@@ -19,6 +280,7 @@ const LoginForm = ({ theme }: any) => {
     const { updateUserData } = useUser();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [modalVisible, setModalVisible] = useState(false);
 
     const handleLogin = async () => {
         // setIsAuthenticated(true);
@@ -34,7 +296,7 @@ const LoginForm = ({ theme }: any) => {
                 }
             });
 
-            // console.log(response.data);
+            console.log(response.data);
 
             if (response.data.status === 'success') {
                 setIsAuthenticated(true);
@@ -71,7 +333,13 @@ const LoginForm = ({ theme }: any) => {
             secureTextEntry
         />
         <TouchableOpacity style={styles.forgotPassword}>
-            <Text style={styles.forgotPasswordText}>Forgot your password?</Text>
+            <TouchableOpacity onPress={() => setModalVisible(true)}>
+                <Text style={[styles.forgotPasswordText, { color: theme.textSecondary }]}>Forgot your password?</Text>
+            </TouchableOpacity>
+            <ForgotPasswordModal
+                isVisible={modalVisible}
+                onClose={() => setModalVisible(false)}
+            />
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.loginButton} activeOpacity={0.8} onPress={() => handleLogin()}>
@@ -181,8 +449,8 @@ const LoginSignUpScreen = ({ route }: any) => {
                         <TabBar
                             {...props}
                             indicatorStyle={{ backgroundColor: COLORS.primary }}
-                            style={{ backgroundColor: theme.backgroundColor }}
-                            labelStyle={{ color: theme.textPrimary }}
+                            style={{ backgroundColor: theme.backgroundColor, width: 200, alignSelf: 'center' }}
+                            labelStyle={{ color: theme.textPrimary, fontFamily: FONT.medium }}
                         />
                     )}
                 />
@@ -193,6 +461,19 @@ const LoginSignUpScreen = ({ route }: any) => {
 
 
 const styles = StyleSheet.create({
+    modalOverlay: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0,0,0,0.5)',
+    },
+    modalContent: {
+        width: 300,
+        height: 200,
+        backgroundColor: 'white',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     container: {
         flex: 1,
     },
@@ -214,7 +495,7 @@ const styles = StyleSheet.create({
         marginBottom: 24,
     },
     forgotPasswordText: {
-        color: '#1e90ff',
+        fontFamily: FONT.medium
     },
     loginButton: {
         backgroundColor: COLORS.primary,
@@ -256,7 +537,63 @@ const styles = StyleSheet.create({
     },
     loginText: {
         color: '#1e90ff',
-    }
+    },
+    modalContainer: {
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+        padding: 20
+    },
+    handleBar: {
+        width: 60,
+        height: 4,
+        backgroundColor: '#ccc',
+        borderRadius: 2.5,
+        alignSelf: 'center',
+        marginVertical: 10,
+        marginTop: -5,
+        marginBottom: 20
+    },
+    headingText: {
+        fontSize: 20,
+        fontFamily: FONT.bold
+    },
+    description: {
+        marginVertical: 10,
+        fontFamily: FONT.regular
+    },
+    label: {
+        marginTop: 20,
+        fontFamily: FONT.regular
+    },
+    inputContainer: {
+
+    },
+    iconContainer: {
+        padding: 10,
+    },
+    button: {
+        backgroundColor: COLORS.primary,
+        padding: 15,
+        borderRadius: 50,
+        alignItems: 'center',
+        marginTop: 20,
+    },
+    buttonText: {
+        color: 'white',
+        fontFamily: FONT.bold
+    },
+    codeContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginTop: 20,
+    },
+    codeInput: {
+        borderRadius: 10,
+        padding: 10,
+        textAlign: 'center',
+        width: '20%',
+        fontSize: 18,
+    },
 });
 
 export default LoginSignUpScreen;

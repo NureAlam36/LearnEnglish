@@ -48,6 +48,7 @@ const HomeScreen = ({ route }: any) => {
 };
 
 const Score = ({ category, lesion }: any) => {
+    const { colorScheme, theme } = useColorSchemeContext();
     const [score, setScore] = useState(0);
 
     useEffect(() => {
@@ -77,9 +78,9 @@ const Score = ({ category, lesion }: any) => {
                         '#ff0000'
         }
         shadowColor="#999"
-        bgColor="#fff"
+        bgColor={theme.bgSecondary}
     >
-        <Text style={{ fontSize: 13 }}>{score}%</Text>
+        <Text style={{ fontSize: 12, fontFamily: FONT.medium, color: theme.textPrimary }}>{score}%</Text>
     </ProgressCircle>
 }
 
@@ -139,7 +140,7 @@ const Topics = ({ route, navigation }: any) => {
                                 </View>
                                 <View style={{ display: 'flex', flexDirection: 'row', gap: 15, alignItems: 'center' }}>
                                     <Score category={route.params.links} lesion={item.id} />
-                                    <View
+                                    {/* <View
                                         style={{
                                             backgroundColor: "#e5f5ff",
                                             width: 30,
@@ -151,7 +152,7 @@ const Topics = ({ route, navigation }: any) => {
                                         }}
                                     >
                                         <Feather name="chevron-right" size={20} color={COLORS.primary} />
-                                    </View>
+                                    </View> */}
                                 </View>
                             </View>
                         </TouchableOpacity>

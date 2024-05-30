@@ -14,50 +14,53 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 import FillInTheBlank from '@/data/fill-in-the-blank.json';
 import ContentHeader from '@/components/Headers/ContentHeader';
-import PercentageCircle from 'react-native-progress-circle';
+import { Entypo, Ionicons } from '@expo/vector-icons';
 
 
 const Exercise = ({ route, navigation }: any) => {
     const { categoryLink, lesionId } = route.params as any;
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState(null);
-    const [showMessage, setShowMessage] = useState(false);
+    const [isCompleted, setIsCompleted] = useState(false);
     const [optionsDisabled, setOptionsDisabled] = useState(false);
     const [isMuted, setIsMuted] = useState(false);
     const [totalQuestions, setTotalQuestions] = useState(0);
     const [totalCorrectAnswers, setTotalCorrectAnswers] = useState(0);
     const [totalWrongAnswers, setTotalWrongAnswers] = useState(0);
 
+    const [categoryName, setCategoryName] = useState('');
     const [currentLesion, setCurrentLesion] = useState<any>('');
     const [lesionData, setLesionData] = useState<any>([]);
 
     useEffect(() => {
         const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
-            e.preventDefault();
+            if (!isCompleted) {
+                e.preventDefault();
 
-            Alert.alert(
-                'Confirm',
-                'Are you sure you want to leave this screen?',
-                [
-                    {
-                        text: 'Cancel',
-                        onPress: () => null,
-                        style: 'cancel',
-                    },
-                    {
-                        text: 'OK',
-                        onPress: () => {
-                            navigation.dispatch(e.data.action);
-                        }
-                    },
-                ],
-                { cancelable: false }
-            );
+                Alert.alert(
+                    'Confirm',
+                    'Are you sure you want to leave this screen?',
+                    [
+                        {
+                            text: 'Cancel',
+                            onPress: () => null,
+                            style: 'cancel',
+                        },
+                        {
+                            text: 'OK',
+                            onPress: () => {
+                                navigation.dispatch(e.data.action);
+                            }
+                        },
+                    ],
+                    { cancelable: false }
+                );
+            }
         });
 
         return unsubscribe;
-    }, [navigation]);
+    }, [navigation, isCompleted]);
 
     const calCulatePercentage = () => {
         const percentage = (totalCorrectAnswers / totalQuestions) * 100;
@@ -103,6 +106,7 @@ const Exercise = ({ route, navigation }: any) => {
     useEffect(() => {
         FillInTheBlank.forEach(category => {
             if (category.link === categoryLink) {
+                setCategoryName(category.category);
 
                 category.lesions.forEach(lesion => {
                     if (lesion.id === Number(lesionId)) {
@@ -121,7 +125,7 @@ const Exercise = ({ route, navigation }: any) => {
             setSelectedOption(null);
             setOptionsDisabled(false);
         } else {
-            setShowMessage(true);
+            setIsCompleted(true);
         }
     };
 
@@ -163,7 +167,7 @@ const Exercise = ({ route, navigation }: any) => {
         setOptionsDisabled(false);
         setTotalCorrectAnswers(0);
         setTotalWrongAnswers(0);
-        setShowMessage(false);
+        setIsCompleted(false);
     }
 
 
@@ -173,7 +177,7 @@ const Exercise = ({ route, navigation }: any) => {
 
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
-                    !showMessage && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
+                    !isCompleted && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 15 }}>
                             <View style={{ display: 'flex', flexDirection: 'row', gap: 8, justifyContent: 'center', backgroundColor: '#fff', paddingVertical: 8, paddingHorizontal: 10, width: 90, borderRadius: 15 }}>
                                 <Text style={{ color: '#00c47d', fontFamily: FONT.regular, fontSize: 16 }}>সঠিকঃ</Text>
@@ -190,10 +194,21 @@ const Exercise = ({ route, navigation }: any) => {
                     </View>
                 }
 
-                <View style={{ padding: 15, marginTop: 20 }}>
+                <View style={{ padding: 15, marginTop: 10 }}>
                     {
-                        !showMessage ? <View>
-                            <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Choose the correct preposition:</Text>
+                        !isCompleted ? <View>
+                            <View style={{
+                                backgroundColor: COLORS.primary,
+                                paddingVertical: 5,
+                                paddingHorizontal: 10,
+                                borderRadius: 50,
+                                alignItems: 'center',
+                                alignSelf: 'flex-start',
+                                marginBottom: 2
+                            }}>
+                                <Text style={{ fontFamily: FONT.medium, color: COLORS.lightText }}>{categoryName}</Text>
+                            </View>
+                            <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>Choose the correct answer</Text>
                             <Text style={[styles.questionText, { color: colorScheme === 'light' ? COLORS.darkText : COLORS.lightText }]}>
                                 {lesionData[currentIndex]?.question}
                             </Text>
@@ -209,7 +224,7 @@ const Exercise = ({ route, navigation }: any) => {
                                             selectedOption !== null && selectedOption !== item && (!isOptionCorrect(item) ? null : styles.correctOption),
                                         ]}
                                         onPress={() => handleOptionSelect(item)}
-                                        disabled={showMessage || optionsDisabled}
+                                        disabled={isCompleted || optionsDisabled}
                                     >
                                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                                             <Text style={styles.optionText}>{item}</Text>
@@ -222,7 +237,7 @@ const Exercise = ({ route, navigation }: any) => {
                             />
 
                             {
-                                !showMessage && <TouchableOpacity activeOpacity={0.7}
+                                !isCompleted && <TouchableOpacity activeOpacity={0.7}
                                     style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 30, opacity: !optionsDisabled ? 0.7 : 1 }]}
                                     onPress={handleNextQuestion}
                                     disabled={!selectedOption}
@@ -232,32 +247,37 @@ const Exercise = ({ route, navigation }: any) => {
                             }
                         </View>
                             : <View>
-                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: COLORS.gray }}>Your Score</Text>
-                                <View style={{ display: 'flex', alignItems: 'center', marginTop: 30 }}>
-                                    <ProgressCircle
-                                        percent={calCulatePercentage()}
-                                        radius={50}
-                                        borderWidth={8}
-                                        color={
-                                            calCulatePercentage() >= 75 ? '#00c47d' :
-                                                calCulatePercentage() >= 50 ? '#3399ff' :
-                                                    calCulatePercentage() >= 25 ? '#ff9f1e' :
-                                                        '#ff0000'
-                                        }
-                                        shadowColor="#999"
-                                        bgColor="#fff"
-                                    >
-                                        <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
-                                    </ProgressCircle>
-                                </View>
-                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 50, marginTop: 20 }}>
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Feather name="check-circle" size={24} color="#00c47d" />
-                                        <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: theme.headingSecondary }}>Your Score</Text>
+
+                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 30, backgroundColor: theme.bgSecondary, marginTop: 30, paddingHorizontal: 10, paddingVertical: 20, borderRadius: 10 }}>
+                                    <View style={{ display: 'flex', alignItems: 'center' }}>
+                                        <ProgressCircle
+                                            percent={calCulatePercentage()}
+                                            radius={50}
+                                            borderWidth={8}
+                                            color={
+                                                calCulatePercentage() >= 75 ? '#00c47d' :
+                                                    calCulatePercentage() >= 50 ? '#3399ff' :
+                                                        calCulatePercentage() >= 25 ? '#ff9f1e' :
+                                                            '#ff0000'
+                                            }
+                                            shadowColor="#999"
+                                            bgColor={theme.bgSecondary}
+                                        >
+                                            <Text style={{ fontSize: 18, fontFamily: FONT.medium, color: theme.textPrimary }}>{calCulatePercentage()}%</Text>
+                                        </ProgressCircle>
                                     </View>
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Fontisto name="close" size={24} color="#f37375" />
-                                        <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Incorrect: {totalWrongAnswers}</Text>
+                                    <View style={{ display: 'flex', gap: 10 }}>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Feather name="check-circle" size={24} color="#00c47d" /> */}
+                                            <Entypo name="check" size={24} color="#00c47d" />
+                                            <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                                        </View>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Fontisto name="close" size={24} color="#f37375" /> */}
+                                            <Ionicons name="close" size={28} color="#f37375" />
+                                            <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Incorrect: {totalWrongAnswers}</Text>
+                                        </View>
                                     </View>
                                 </View>
 

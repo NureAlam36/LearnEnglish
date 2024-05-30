@@ -4,23 +4,20 @@ import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import { Audio } from 'expo-av';
 import ProgressCircle from 'react-native-progress-circle'
-
-import Fontisto from '@expo/vector-icons/Fontisto';
-import Feather from '@expo/vector-icons/Feather';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import ContentHeader from '@/components/Headers/ContentHeader';
 
 import RearrangeSentences from '@/data/rearrange-sentences.json';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Entypo, Ionicons } from '@expo/vector-icons';
 
 const Exercise = ({ navigation, route }: any) => {
     const { lesionId } = route.params;
-    const { colorScheme } = useColorSchemeContext();
+    const { colorScheme, theme } = useColorSchemeContext();
     const [totalQuestions, setTotalQuestions] = useState(0);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [showMessage, setShowMessage] = useState(false);
+    const [isCompleted, setIsCompleted] = useState(false);
     const [isMuted, setIsMuted] = useState(false);
     const [totalCorrectAnswers, setTotalCorrectAnswers] = useState(0);
     const [totalWrongAnswers, setTotalWrongAnswers] = useState(0);
@@ -32,30 +29,32 @@ const Exercise = ({ navigation, route }: any) => {
 
     useEffect(() => {
         const unsubscribe = navigation.addListener('beforeRemove', (e: any) => {
-            e.preventDefault();
+            if (!isCompleted) {
+                e.preventDefault();
 
-            Alert.alert(
-                'Confirm',
-                'Are you sure you want to leave this screen?',
-                [
-                    {
-                        text: 'Cancel',
-                        onPress: () => null,
-                        style: 'cancel',
-                    },
-                    {
-                        text: 'OK',
-                        onPress: () => {
-                            navigation.dispatch(e.data.action);
-                        }
-                    },
-                ],
-                { cancelable: false }
-            );
+                Alert.alert(
+                    'Confirm',
+                    'Are you sure you want to leave this screen?',
+                    [
+                        {
+                            text: 'Cancel',
+                            onPress: () => null,
+                            style: 'cancel',
+                        },
+                        {
+                            text: 'OK',
+                            onPress: () => {
+                                navigation.dispatch(e.data.action);
+                            }
+                        },
+                    ],
+                    { cancelable: false }
+                );
+            }
         });
 
         return unsubscribe;
-    }, [navigation]);
+    }, [navigation, isCompleted]);
 
     useEffect(() => {
         RearrangeSentences.forEach((data) => {
@@ -165,7 +164,7 @@ const Exercise = ({ navigation, route }: any) => {
             setIsChecked(false);
             setIsCorrect(false);
         } else {
-            setShowMessage(true);
+            setIsCompleted(true);
         }
     };
 
@@ -176,7 +175,7 @@ const Exercise = ({ navigation, route }: any) => {
         setIsCorrect(false);
         setTotalCorrectAnswers(0);
         setTotalWrongAnswers(0);
-        setShowMessage(false);
+        setIsCompleted(false);
         setOptionsDisabled(false);
     }
 
@@ -187,7 +186,7 @@ const Exercise = ({ navigation, route }: any) => {
 
             <View style={{ flex: 1, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
-                    !showMessage && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
+                    !isCompleted && <View style={[styles.headerContainer, { backgroundColor: '#2a5298', marginTop: 15 }]}>
                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 15 }}>
                             <View style={{ display: 'flex', flexDirection: 'row', gap: 8, justifyContent: 'center', backgroundColor: '#fff', paddingVertical: 8, paddingHorizontal: 10, width: 90, borderRadius: 15 }}>
                                 <Text style={{ color: '#00c47d', fontFamily: FONT.regular, fontSize: 16 }}>সঠিকঃ</Text>
@@ -206,7 +205,7 @@ const Exercise = ({ navigation, route }: any) => {
 
                 <View style={{ padding: 15 }}>
                     {
-                        !showMessage ?
+                        !isCompleted ?
                             <View>
                                 <Text style={[styles.sectionTitle, { color: colorScheme === 'light' ? COLORS.gray : COLORS.lightText }]}>Rearrange words in the correct order to make a meaningful Sentence</Text>
 
@@ -243,43 +242,49 @@ const Exercise = ({ navigation, route }: any) => {
                                     ))}
                                 </View>
                             </View>
-                            : <View style={{ marginTop: 50 }}>
-                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: COLORS.gray }}>Your Score</Text>
-                                <View style={{ display: 'flex', alignItems: 'center', marginTop: 30 }}>
-                                    <ProgressCircle
-                                        percent={calCulatePercentage()}
-                                        radius={50}
-                                        borderWidth={8}
-                                        color={
-                                            calCulatePercentage() >= 75 ? '#00c47d' :
-                                                calCulatePercentage() >= 50 ? '#3399ff' :
-                                                    calCulatePercentage() >= 25 ? '#ff9f1e' :
-                                                        '#ff0000'
-                                        }
-                                        shadowColor="#999"
-                                        bgColor="#fff"
-                                    >
-                                        <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
-                                    </ProgressCircle>
-                                </View>
-                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', alignSelf: 'center', gap: 50, marginTop: 20 }}>
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Feather name="check-circle" size={24} color="#00c47d" />
-                                        <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                            : <View style={{ marginTop: 20 }}>
+                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: theme.headingSecondary }}>Your Score</Text>
+
+                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 30, backgroundColor: theme.bgGraySecondary, marginTop: 30, paddingHorizontal: 10, paddingVertical: 20, borderRadius: 10 }}>
+                                    <View style={{ display: 'flex', alignItems: 'center' }}>
+                                        <ProgressCircle
+                                            percent={calCulatePercentage()}
+                                            radius={50}
+                                            borderWidth={8}
+                                            color={
+                                                calCulatePercentage() >= 75 ? '#00c47d' :
+                                                    calCulatePercentage() >= 50 ? '#3399ff' :
+                                                        calCulatePercentage() >= 25 ? '#ff9f1e' :
+                                                            '#ff0000'
+                                            }
+                                            shadowColor="#999"
+                                            bgColor={theme.bgSecondary}
+                                        >
+                                            <Text style={{ fontSize: 18, fontFamily: FONT.medium, color: theme.textPrimary }}>{calCulatePercentage()}%</Text>
+                                        </ProgressCircle>
                                     </View>
-                                    <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-                                        <Fontisto name="close" size={24} color="#f37375" />
-                                        <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+
+                                    <View style={{ display: 'flex', gap: 10 }}>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Feather name="check-circle" size={24} color="#00c47d" /> */}
+                                            {/* <View style={{ width: 8, height: 8, backgroundColor: '#00c47d', borderRadius: 50 }}></View> */}
+                                            <Entypo name="check" size={24} color="#00c47d" />
+                                            <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                                        </View>
+                                        <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                                            {/* <Fontisto name="close" size={24} color="#f37375" /> */}
+                                            <Ionicons name="close" size={28} color="#f37375" />
+                                            <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+                                        </View>
                                     </View>
                                 </View>
 
 
                                 <TouchableOpacity activeOpacity={0.7}
-                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 100, paddingHorizontal: 20, display: 'flex', flexDirection: 'row', alignSelf: 'center', gap: 10, }]}
+                                    style={[styles.nextButton, { backgroundColor: COLORS.primary, marginTop: 100, paddingHorizontal: 20 }]}
                                     onPress={ReTest}
                                 >
-
-                                    <MaterialCommunityIcons name="book-play-outline" size={24} color="white" />
+                                    {/* <MaterialCommunityIcons name="book-play-outline" size={24} color="white" /> */}
                                     <Text style={styles.nextButtonText}>Start Again</Text>
                                 </TouchableOpacity>
 
@@ -290,7 +295,7 @@ const Exercise = ({ navigation, route }: any) => {
 
             <View style={{ flex: 0, backgroundColor: colorScheme === 'light' ? '#fff' : COLORS.darkPrimary }}>
                 {
-                    !showMessage && isChecked && <View>
+                    !isCompleted && isChecked && <View>
                         <View style={{ position: 'absolute', bottom: 0, width: '100%' }}>
                             <LinearGradient
                                 colors={['#1e3c72', '#1e3c72', '#2a5298']}
@@ -332,7 +337,7 @@ const Exercise = ({ navigation, route }: any) => {
                 }
 
                 {
-                    !isChecked && <TouchableOpacity
+                    !isCompleted && !isChecked && <TouchableOpacity
                         activeOpacity={0.7}
                         style={[styles.nextButton, { backgroundColor: COLORS.primary, marginBottom: 30, opacity: selectedOptions.length === 0 ? 0.7 : 1 }]}
                         onPress={!isChecked ? handleCheckQuestion : handleNextQuestion}

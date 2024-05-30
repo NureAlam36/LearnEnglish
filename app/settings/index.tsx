@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
-import { View, Text, Switch, TouchableOpacity, StyleSheet } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { View, Text, Switch, TouchableOpacity, StyleSheet, Platform } from 'react-native';
 import { COLORS, FONT } from "@/constants";
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import Entypo from '@expo/vector-icons/Entypo';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import Fontisto from '@expo/vector-icons/Fontisto';
 import { useColorSchemeContext } from '@/context/ColorSchemeContext';
-
+import { useCountryContext } from '@/context/CountryContext';
+import RNPickerSelect from 'react-native-picker-select';
 import { createStackNavigator, TransitionPresets } from '@react-navigation/stack';
 
 import FAQ from '@/app/settings/faq';
@@ -54,6 +56,8 @@ const Divider = ({ marginTop = 0, marginBottom = 0, borderColor = '#ededed' }) =
 const SettingsScreen = ({ navigation }: any) => {
   const { colorScheme, theme, toggleColorScheme } = useColorSchemeContext();
   const [darkModeEnabled, setDarkModeEnabled] = React.useState(false);
+  const { country, updateCountry } = useCountryContext();
+  const [selectedValue, setSelectedValue] = useState(country);
 
   useEffect(() => {
     setDarkModeEnabled(colorScheme === 'dark');
@@ -64,6 +68,11 @@ const SettingsScreen = ({ navigation }: any) => {
     setDarkModeEnabled(!darkModeEnabled);
     toggleColorScheme();
   };
+
+  const handleChangeLanguage = (value: string) => {
+    setSelectedValue(value);
+    updateCountry(value);
+  }
 
   const styles = StyleSheet.create({
     container: {
@@ -104,6 +113,40 @@ const SettingsScreen = ({ navigation }: any) => {
     }
   });
 
+  const pickerSelectStyles = StyleSheet.create({
+    inputIOS: {
+      width: '100%',
+      padding: 0,
+      margin: 0,
+      fontFamily: FONT.medium,
+      color: theme.textSecondary,
+      borderWidth: 0,
+      backgroundColor: 'transparent',
+    },
+    inputAndroid: {
+      width: '100%',
+      padding: 0,
+      margin: 0,
+      fontFamily: FONT.medium,
+      color: theme.textSecondary,
+      borderWidth: 0,
+      backgroundColor: 'transparent',
+    },
+    itemStyle: {
+      fontSize: 16,
+      height: 44,
+      color: COLORS.gray
+    },
+    selectedItem: {
+      color: COLORS.primary
+    },
+  });
+
+  const items = [
+    { label: 'Bangladesh', value: 'Bangladesh' },
+    { label: 'Global', value: 'Global' },
+  ];
+
   return (
     <React.Fragment>
       <ContentHeader title="Settings" />
@@ -115,6 +158,35 @@ const SettingsScreen = ({ navigation }: any) => {
           <Text style={styles.sectionTitle}>General</Text>
 
           <View style={[styles.sectionWrap, { borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, borderRadius: 10 }]}>
+            <Divider borderColor={theme.borderColor} />
+            <View style={[styles.item, { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }]}>
+              <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
+                <Fontisto name="world" size={20} style={styles.itemIcon} />
+                <Text style={styles.text}>Language</Text>
+              </View>
+              <View style={{ marginRight: 20 }}>
+                <RNPickerSelect
+                  value={selectedValue}
+                  onValueChange={(value) => handleChangeLanguage(value)}
+                  placeholder={{}}
+                  items={items.map((item) => ({
+                    ...item,
+                    color: item.value === selectedValue ? pickerSelectStyles.selectedItem.color : pickerSelectStyles.itemStyle.color
+                  }))}
+                  style={{
+                    ...pickerSelectStyles,
+                    inputIOS: pickerSelectStyles.inputIOS,
+                    inputAndroid: pickerSelectStyles.inputAndroid,
+                  }}
+                  useNativeAndroidPickerStyle={false}
+                  Icon={() => {
+                    return <View style={{ position: 'absolute' }}>
+                      <MaterialIcons name="arrow-drop-down" size={24} style={styles.itemIcon} />
+                    </View>; // This will hide the arrow
+                  }}
+                />
+              </View>
+            </View>
             <View style={[styles.item, { display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }]}>
               <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 15 }}>
                 <MaterialIcons name="dark-mode" size={24} style={styles.itemIcon} />

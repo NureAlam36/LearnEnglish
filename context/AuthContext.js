@@ -1,13 +1,13 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Text } from 'react-native'
+import { Image } from 'react-native'
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [loading, setLoading] = useState(true);
-    // const [userToken, setUserToken] = useState(null);
+    const [userAuthToken, setUserAuthToken] = useState(null);
 
     useEffect(() => {
         const loadAuthState = async () => {
@@ -15,6 +15,7 @@ export const AuthProvider = ({ children }) => {
                 const token = await AsyncStorage.getItem('userToken');
                 if (token) {
                     setIsAuthenticated(true);
+                    setUserAuthToken(token);
                 }
             } catch (error) {
                 console.error('Failed to load authentication state', error);
@@ -29,7 +30,7 @@ export const AuthProvider = ({ children }) => {
     const setUserToken = async (token) => {
         try {
             await AsyncStorage.setItem('userToken', token);
-            setUserToken(token);
+            setUserAuthToken(token);
         } catch (error) {
             console.error('Failed to set user token and authentication state', error);
         }
@@ -39,17 +40,20 @@ export const AuthProvider = ({ children }) => {
         try {
             await AsyncStorage.removeItem('userToken');
             setIsAuthenticated(false);
+            setUserAuthToken(null);
         } catch (error) {
             console.error('Error logging out', error);
         }
     };
 
     if (loading) {
-        return <Text>Loading...</Text>;
+        return (
+            <Image source={require('@/assets/images/splash.png')} style={{ width: '100%', height: '100%' }} />
+        );
     }
 
     return (
-        <AuthContext.Provider value={{ isAuthenticated, setUserToken, setIsAuthenticated, logout }}>
+        <AuthContext.Provider value={{ isAuthenticated, userAuthToken, setUserToken, setIsAuthenticated, logout }}>
             {children}
         </AuthContext.Provider>
     );

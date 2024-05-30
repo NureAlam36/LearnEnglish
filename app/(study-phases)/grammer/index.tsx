@@ -49,11 +49,6 @@ const DATA = [
         screen: "number_screen",
     },
     {
-        id: 7,
-        title: "Word",
-        screen: "word_screen",
-    },
-    {
         id: 8,
         title: "Modifiers",
         screen: "modifiers_screen",
@@ -185,7 +180,7 @@ const styles = StyleSheet.create({
         backgroundColor: COLORS.primary,
         borderRadius: 10,
         textAlign: 'center',
-        verticalAlign: 'center',
+        textAlignVertical: 'center',
         color: '#fff',
         fontFamily: FONT.medium,
     },

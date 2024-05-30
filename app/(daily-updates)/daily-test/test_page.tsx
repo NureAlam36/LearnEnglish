@@ -15,6 +15,7 @@ import AdvancedLevelData from '@/data/daily-test/advanced.json';
 import ExpertLevelData from '@/data/daily-test/expert.json';
 import ProfessionalLevelData from '@/data/daily-test/professional.json';
 import MasterLevelData from '@/data/daily-test/master.json';
+import { Entypo, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 const TestPage = ({ route, navigation }: any) => {
     const { colorScheme, theme } = useColorSchemeContext();
@@ -244,9 +245,9 @@ const TestPage = ({ route, navigation }: any) => {
                             }
                         </View>
                             : !showResults ? <View style={{ padding: 30 }}>
-                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: COLORS.gray }}>Your Score</Text>
+                                <Text style={{ fontFamily: FONT.bold, fontSize: 25, textAlign: 'center', color: theme.headingSecondary }}>Your Score</Text>
 
-                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 40, backgroundColor: theme.bgSecondary, marginTop: 30, paddingHorizontal: 10, paddingVertical: 20, borderRadius: 10 }}>
+                                <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 30, backgroundColor: theme.bgSecondary, marginTop: 30, paddingHorizontal: 10, paddingVertical: 20, borderRadius: 10 }}>
                                     <View style={{ display: 'flex', alignItems: 'center' }}>
                                         <ProgressCircle
                                             percent={calCulatePercentage()}
@@ -259,30 +260,33 @@ const TestPage = ({ route, navigation }: any) => {
                                                             '#ff0000'
                                             }
                                             shadowColor="#999"
-                                            bgColor="#fff"
+                                            bgColor={theme.bgSecondary}
                                         >
-                                            <Text style={{ fontSize: 18 }}>{calCulatePercentage()}%</Text>
+                                            <Text style={{ fontSize: 18, fontFamily: FONT.medium, color: theme.textPrimary }}>{calCulatePercentage()}%</Text>
                                         </ProgressCircle>
                                     </View>
-                                    <View style={{ display: 'flex', gap: 8 }}>
+                                    <View style={{ display: 'flex', gap: 10 }}>
                                         {
                                             questions.length - (totalCorrectAnswers + totalWrongAnswers) > 0 && <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                                 {/* <AntDesign name="export" size={24} color="#5495fb" /> */}
+                                                <MaterialCommunityIcons name="square-rounded-outline" size={24} color="#5495fb" />
                                                 <Text style={{ color: '#5495fb', fontFamily: FONT.medium, fontSize: 15 }}>Skipped: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
                                             </View>
                                         }
                                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                             {/* <Feather name="check-circle" size={24} color="#00c47d" /> */}
+                                            <Entypo name="check" size={24} color="#00c47d" />
                                             <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
                                         </View>
                                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                             {/* <Fontisto name="close" size={24} color="#f37375" /> */}
+                                            <Ionicons name="close" size={28} color="#f37375" />
                                             <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
                                         </View>
                                     </View>
                                 </View>
 
-                                <View style={{ display: 'flex', flexDirection: 'column', gap: 10, alignSelf: 'center', marginTop: 50 }}>
+                                <View style={{ display: 'flex', flexDirection: 'column', gap: 10, alignSelf: 'center', marginTop: 100 }}>
                                     <View style={{ display: 'flex', flexDirection: 'row', gap: 20, alignSelf: 'center' }}>
                                         <TouchableOpacity onPress={() => navigation.navigate('Categories_screen', { level: level })} activeOpacity={0.7} style={[styles.nextButton, { flex: 1, backgroundColor: '#00c47d', paddingHorizontal: 20 }]}>
                                             <Text style={styles.nextButtonText}>More</Text>
@@ -297,10 +301,10 @@ const TestPage = ({ route, navigation }: any) => {
                                         </TouchableOpacity>
                                     </View>
                                     <TouchableOpacity activeOpacity={0.7}
-                                        style={[styles.nextButton, { backgroundColor: '#fff', borderWidth: 1, borderColor: '#00c47d', paddingHorizontal: 20, display: 'flex', alignItems: 'center', justifyContent: 'center' }]}
+                                        style={[styles.nextButton, { backgroundColor: theme.bgPrimary, borderWidth: 1, borderColor: '#00c47d', paddingHorizontal: 20, display: 'flex', alignItems: 'center', justifyContent: 'center' }]}
                                         onPress={() => setShowResults(true)}
                                     >
-                                        <Text style={[styles.nextButtonText, { textAlign: 'center', color: COLORS.gray }]}>Review Test</Text>
+                                        <Text style={[styles.nextButtonText, { textAlign: 'center', color: theme.textSecondary }]}>Review Test</Text>
                                     </TouchableOpacity>
                                 </View>
 

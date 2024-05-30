@@ -30,6 +30,7 @@ const Index = () => {
 }
 
 const Score = ({ category, lesion }: any) => {
+    const { colorScheme, theme } = useColorSchemeContext();
     const [score, setScore] = useState(0);
 
     useEffect(() => {
@@ -58,9 +59,9 @@ const Score = ({ category, lesion }: any) => {
                         '#ff0000'
         }
         shadowColor="#999"
-        bgColor="#fff"
+        bgColor={theme.bgSecondary}
     >
-        <Text style={{ fontSize: 13 }}>{score}%</Text>
+        <Text style={{ fontSize: 12, fontFamily: FONT.medium, color: theme.textPrimary }}>{score}%</Text>
     </ProgressCircle>
 }
 
@@ -116,9 +117,9 @@ const Categories = ({ route, navigation }: any) => {
 
                                 <View style={{ display: 'flex', flexDirection: 'row', gap: 15, alignItems: 'center' }}>
                                     <Score lesion={item.id} />
-                                    <View>
+                                    {/* <View>
                                         <Text style={{ backgroundColor: theme.bgSecondary, borderWidth: 1, borderColor: COLORS.primary, color: theme.textPrimary, fontSize: 13, paddingVertical: 5, paddingHorizontal: 10, borderRadius: 5 }}>Start</Text>
-                                    </View>
+                                    </View> */}
                                 </View>
                             </View>
                         </TouchableOpacity>
