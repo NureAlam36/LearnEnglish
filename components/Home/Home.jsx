@@ -13,6 +13,8 @@ import { Tabs } from "expo-router";
 
 import DailyUpdates from "./DailyUpdates/DailyUpdates";
 import StudyPhases from "./StudyPhases/StudyPhases";
+import LiveExam from "./LiveExam";
+
 import { useColorSchemeContext } from "@/context/ColorSchemeContext";
 import { COLORS, FONT } from "@/constants";
 import AntDesign from "@expo/vector-icons/AntDesign";
@@ -72,7 +74,7 @@ const Home = ({ navigation }) => {
         ]}
       >
         <FlatList
-          data={["daily", "study", "job-solution"]}
+          data={["daily", "study", "job-solution", "live-exam"]}
           renderItem={({ item }) => {
             switch (item) {
               case "daily":
@@ -81,6 +83,8 @@ const Home = ({ navigation }) => {
                 return <StudyPhases navigation={navigation} />;
               case "job-solution":
                 return <JobPreparationCard navigation={navigation} />;
+              case "live-exam":
+                return <LiveExam navigation={navigation} />;
               default:
                 return null;
             }

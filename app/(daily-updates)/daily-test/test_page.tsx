@@ -240,7 +240,7 @@ const TestPage = ({ route, navigation }: any) => {
                                     onPress={handleNextQuestion}
                                     disabled={!selectedValue}
                                 >
-                                    <Text style={styles.nextButtonText}>Nextt</Text>
+                                    <Text style={styles.nextButtonText}>Next</Text>
                                 </TouchableOpacity>
                             }
                         </View>
@@ -251,8 +251,8 @@ const TestPage = ({ route, navigation }: any) => {
                                     <View style={{ display: 'flex', alignItems: 'center' }}>
                                         <ProgressCircle
                                             percent={calCulatePercentage()}
-                                            radius={50}
-                                            borderWidth={8}
+                                            radius={45}
+                                            borderWidth={6}
                                             color={
                                                 calCulatePercentage() >= 75 ? '#00c47d' :
                                                     calCulatePercentage() >= 50 ? '#3399ff' :
@@ -265,23 +265,23 @@ const TestPage = ({ route, navigation }: any) => {
                                             <Text style={{ fontSize: 18, fontFamily: FONT.medium, color: theme.textPrimary }}>{calCulatePercentage()}%</Text>
                                         </ProgressCircle>
                                     </View>
-                                    <View style={{ display: 'flex', gap: 10 }}>
+                                    <View style={{ display: 'flex', gap: 8 }}>
                                         {
                                             questions.length - (totalCorrectAnswers + totalWrongAnswers) > 0 && <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                                 {/* <AntDesign name="export" size={24} color="#5495fb" /> */}
-                                                <MaterialCommunityIcons name="square-rounded-outline" size={24} color="#5495fb" />
-                                                <Text style={{ color: '#5495fb', fontFamily: FONT.medium, fontSize: 15 }}>Skipped: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
+                                                <MaterialCommunityIcons name="square-rounded-outline" size={22} color="#5495fb" />
+                                                <Text style={{ color: '#5495fb', fontFamily: FONT.regular, fontSize: 15 }}>Skipped: {questions.length - (totalCorrectAnswers + totalWrongAnswers)}</Text>
                                             </View>
                                         }
                                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                             {/* <Feather name="check-circle" size={24} color="#00c47d" /> */}
-                                            <Entypo name="check" size={24} color="#00c47d" />
-                                            <Text style={{ color: '#00c47d', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
+                                            <Entypo name="check" size={22} color="#00c47d" />
+                                            <Text style={{ color: '#00c47d', fontFamily: FONT.regular, fontSize: 15 }}>Correct: {totalCorrectAnswers}</Text>
                                         </View>
                                         <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                                             {/* <Fontisto name="close" size={24} color="#f37375" /> */}
-                                            <Ionicons name="close" size={28} color="#f37375" />
-                                            <Text style={{ color: '#f37375', fontFamily: FONT.medium, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
+                                            <Ionicons name="close" size={25} color="#f37375" />
+                                            <Text style={{ color: '#f37375', fontFamily: FONT.regular, fontSize: 15 }}>Correct: {totalWrongAnswers}</Text>
                                         </View>
                                     </View>
                                 </View>

@@ -129,7 +129,7 @@ const Profile = ({ navigation }: any) => {
         </View>
 
         <View style={{ position: 'relative' }}>
-            <View style={{ backgroundColor: theme.bgSecondary, display: 'flex', flexDirection: 'row', height: 100, position: 'absolute', top: 10, marginTop: -50, margin: 20, padding: 10, borderRadius: 20, borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, }}>
+            <View style={{ backgroundColor: theme.bgSecondary, display: 'flex', flexDirection: 'row', height: 100, position: 'absolute', top: 10, marginTop: -50, margin: 15, padding: 10, borderRadius: 20, borderWidth: 1, borderColor: colorScheme === 'light' ? '#ebebeb' : theme.borderColor, }}>
                 <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
                     <View style={{ display: 'flex', alignItems: 'center', gap: 5, flex: 1, borderRightWidth: 1, borderRightColor: theme.borderColor }}>
                         <Text style={{ color: theme.textPrimary, fontFamily: FONT.medium }}>Total Exam</Text>

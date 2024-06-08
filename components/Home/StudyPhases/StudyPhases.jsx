@@ -66,14 +66,7 @@ const StudyPhases = ({ navigation }) => {
 
   return (
     <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: colorScheme === "light" ? COLORS.darkText : COLORS.lightText,
-          },
-        ]}
-      >
+      <Text style={[styles.sectionTitle, { color: theme.headingPrimary }]}>
         Study Phases
       </Text>
       <FlatList
@@ -91,7 +84,6 @@ const StudyPhases = ({ navigation }) => {
                 borderColor: theme.borderColor,
               },
             ]}
-            asChild
           >
             <View style={styles.item}>
               <View style={styles.imageWraper}>

@@ -28,6 +28,10 @@ import PhrasesScreen from '@/app/(study-phases)/idioms-and-phrases/index';
 import ConversationScreen from '@/app/(study-phases)/common-conversations/index';
 import ProverbsScreen from '@/app/(study-phases)/proverbs/index';
 import QuotationScreen from '@/app/(study-phases)/famous-quotations/index';
+import ExamDetails from '@/app/live-exam/exam-details';
+import ExamScreen from '@/app/live-exam/exam'
+import ExamLeaderboardScreen from '@/app/live-exam/exam-leaderboard';
+import ReviewQuestions from '../live-exam/review-questions';
 
 import DailyTest from '@/app/(daily-updates)/daily-test/index';
 import Tools from '@/app/tools/';
@@ -56,6 +60,10 @@ export default function TabOneScreen() {
       <Stack.Screen name="search_screen" component={Search} options={{ headerShown: false }} />
       <Stack.Screen name="profile_screen" component={Profile} options={{ headerShown: false }} />
       <Stack.Screen name="settings_screen" component={Settings} options={{ headerShown: false }} />
+      <Stack.Screen name="exam_details_screen" component={ExamDetails} options={{ headerShown: false }} />
+      <Stack.Screen name="exam_screen" component={ExamScreen} options={{ headerShown: false }} />
+      <Stack.Screen name='exam_leaderboard_screen' component={ExamLeaderboardScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="review_questions_screen" component={ReviewQuestions} options={{ headerShown: false }} />
 
       {/* Daily Updates */}
       <Stack.Screen name="daily_test_screen" component={DailyTest} options={{ headerShown: false }} />
